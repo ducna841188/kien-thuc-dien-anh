@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 9/33 bài, đọc 123/444 ảnh.**
+**Đã hoàn thành 10/33 bài, đọc 137/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -19,6 +19,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](bai-hoc/007-muoi-cong-cu-video-ai/README.md) | 12 |
 | B008 | [10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn](bai-hoc/008-muoi-cu-phap-veo/README.md) | 18 |
 | B009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](bai-hoc/009-nang-cap-ngon-ngu-dien-anh/README.md) | 18 |
+| B010 | [Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1](bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md) | 14 |
 
 ## Quy ước học tập
 

@@ -19,15 +19,15 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 9,
-    "pending_lessons": 24,
-    "images_read": 123,
-    "pending_images": 321
+    "completed_lessons": 10,
+    "pending_lessons": 23,
+    "images_read": 137,
+    "pending_images": 307
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B010",
-  "next_pending_batch": "D03",
+  "next_pending_lesson": "B011",
+  "next_pending_batch": "D04",
   "batches": [
     {
       "batch_id": "D01",
@@ -63,7 +63,7 @@
       "from_sequence": 8,
       "to_sequence": 10,
       "image_count": 50,
-      "status": "in_progress"
+      "status": "completed"
     },
     {
       "batch_id": "D04",
@@ -1193,10 +1193,10 @@
       "current_name": "010 - Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1",
       "display_title": "Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 14,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 14,
+      "repository_lesson_path": "bai-hoc/010-lam-chu-ngon-ngu-dien-anh",
       "image_inventory": [
         {
           "id": "1tUCs_UPRgm2jXgicuzAb1QuTqgK8JJTv",
@@ -1297,7 +1297,8 @@
           "url": "https://drive.google.com/file/d/15DUPRjVyq1Qt_OflMFl6Ex78O60NOvBO/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 11,
