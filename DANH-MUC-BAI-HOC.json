@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 26,
-    "pending_lessons": 7,
-    "images_read": 353,
-    "pending_images": 91
+    "completed_lessons": 27,
+    "pending_lessons": 6,
+    "images_read": 368,
+    "pending_images": 76
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B027",
+  "next_pending_lesson": "B028",
   "next_pending_batch": "D09",
   "batches": [
     {
@@ -3109,10 +3109,10 @@
       "current_name": "027 - Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản",
       "display_title": "Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 15,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 15,
+      "repository_lesson_path": "bai-hoc/027-tach-shot-lip-sync",
       "image_inventory": [
         {
           "id": "1kiKDzFfVaBqBJ-oaLC4u7XXFbhOqF7My",
@@ -3220,7 +3220,8 @@
           "url": "https://drive.google.com/file/d/1Z0aTmfcQ_obdh07YogTu8FzLMr7Y9RB9/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 28,

@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 18/10/2026.
 
-**Tiến độ:** 26/33 bài; 353/444 ảnh đã đọc. Bài kế tiếp: **B027**.
+**Tiến độ:** 27/33 bài; 368/444 ảnh đã đọc. Bài kế tiếp: **B028**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -34,7 +34,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 024 | [Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)](https://drive.google.com/drive/folders/1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/024-xau-chuoi-canh/README.md) |
 | 025 | [Mẹo Điều khiển CAMERA- Trở thành "Đạo diễn thật sự trong prompt" để video lập tức cinematic gấp… 5 lần](https://drive.google.com/drive/folders/1FSlu5jphR2IxsoQ4zVhhNpvnqjX1qIuq) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/025-dieu-khien-camera/README.md) |
 | 026 | [Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1](https://drive.google.com/drive/folders/1LsNiDrXGR5yyYjSNf-3u_P3DCcSyk5t5) | 11 | Đã hoàn thành | [Mở bài](bai-hoc/026-nam-tru-cot-prompt/README.md) |
-| 027 | [Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản](https://drive.google.com/drive/folders/1_cyMghOhl8O241qxJWE9pdcpu7x_NGBP) | 15 | Chưa đọc | — |
+| 027 | [Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản](https://drive.google.com/drive/folders/1_cyMghOhl8O241qxJWE9pdcpu7x_NGBP) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/027-tach-shot-lip-sync/README.md) |
 | 028 | [TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!](https://drive.google.com/drive/folders/1hcYzx35MKqf4GhdkMKPKCm8voBNOHq4w) | 13 | Chưa đọc | — |
 | 029 | [Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo](https://drive.google.com/drive/folders/1JJGBH0ew1DF-EjXmZR-TA_rZJ_FLsOdv) | 13 | Chưa đọc | — |
 | 030 | [Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau](https://drive.google.com/drive/folders/1MwgVwSjwR2NgZIjxLi7tEPatZyv9lrME) | 12 | Chưa đọc | — |

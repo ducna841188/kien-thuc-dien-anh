@@ -1,0 +1,102 @@
+{
+  "lesson_id": "B027",
+  "summary": "Shot–reverse shot (quay–đảo góc) chia hội thoại thành các góc tập trung từng người. Với AI, đây là cách giảm số nhiệm vụ mỗi lần tạo và sửa riêng cảnh lỗi. Cần giữ danh tính, không gian, hướng nhìn, giọng nói và nhịp phản ứng; tách cảnh hỗ trợ kiểm soát nhưng không bảo đảm hết lỗi khớp môi.",
+  "principles": [
+    {
+      "title": "Tách theo lượt và nhu cầu phản ứng",
+      "source_ids": [
+        "B027-00",
+        "B027-01",
+        "B027-02",
+        "B027-03",
+        "B027-04",
+        "B027-05"
+      ],
+      "source": "Nguồn tập trung từng lượt nói thay vì nhồi hội thoại phức tạp.",
+      "explanation": "Lập bảng ai nói câu nào, ai nghe, cần nhìn gì. Mỗi yêu cầu tạo chỉ mang một lượt ngắn khi đang xử lý lỗi gán thoại. Chèn cảnh phản ứng nếu nó có thông tin, không cắt máy móc sau mọi câu.",
+      "example": "Bà hỏi về chiếc giỏ, cô gái đáp ngắn; sau đó giữ một khoảng cô nhìn giỏ, thay vì cả hai liên tục nói và đưa vật trong một clip.",
+      "check": "Đúng lời và đúng người; có khoảng nghe; cảnh tĩnh không bị loại chỉ vì không chuyển máy.",
+      "illustration": 3
+    },
+    {
+      "title": "Duyệt vị trí và hướng nhìn trước",
+      "source_ids": [
+        "B027-06",
+        "B027-07",
+        "B027-10"
+      ],
+      "source": "Nguồn giữ địa điểm/nhân vật và đổi góc qua vai.",
+      "explanation": "Lập vị trí hai người và đường nối giữa họ. Khi dựng theo quy ước giữ trục, hai máy cùng một phía đường đó, người A nhìn về phía B và B nhìn ngược lại. Không lật gương để giả góc đảo vì tóc, trang phục và vật có thể đảo theo. Duyệt riêng hai ảnh góc A/B.",
+      "example": "Bà ngồi bên trái bàn, cô gái bên phải. Ở góc bà, vai cô chỉ lộ tiền cảnh; ở góc cô, vai bà ở phía đối ứng, cùng hiên và nguồn sáng.",
+      "check": "Hai góc cho cảm giác họ đối diện nhau; vị trí giỏ và tay không đổi vô cớ.",
+      "illustration": 7
+    },
+    {
+      "title": "Xác định người nói bằng tên và lời cụ thể",
+      "source_ids": [
+        "B027-08",
+        "B027-09",
+        "B027-10"
+      ],
+      "source": "Nguồn viết A nói, B im và tách dòng âm thanh.",
+      "explanation": "Mỗi nhân vật có mô tả phân biệt ổn định và lời đặt ngay cạnh chủ thể. Chọn một kiểu máy cụ thể. Với người nghe, yêu cầu phản ứng kín đáo, môi nghỉ tự nhiên; không yêu cầu miệng kẹp bất động. Rút câu để đủ thời gian nói và nghỉ, kiểm tra bằng nghe thật.",
+      "example": "Chỉ bà nói: 'Chiếc giỏ này con đan à?' Cô gái nhìn bà, chớp nhẹ, giữ miệng nghỉ; không đưa cả câu đáp của cô vào cùng yêu cầu thử.",
+      "check": "Đúng nguyên văn, không thêm câu, giọng không đổi; môi người nghe không nhép lại lời.",
+      "illustration": 9
+    },
+    {
+      "title": "Giảm thao tác phụ, giữ nguồn sáng và âm nền",
+      "source_ids": [
+        "B027-08",
+        "B027-12",
+        "B027-13"
+      ],
+      "source": "Nguồn giới hạn hành động và dùng nguồn sáng có lý do, một chuyển động máy rõ.",
+      "explanation": "Thử máy tĩnh trước khi thêm tiến nhẹ. Nếu vừa thoại vừa trao vật gây lỗi, tạo thao tác thành cảnh riêng. Hướng sáng cần gắn với không gian thật, không cố cùng một phía màn hình ở hai góc đối nhau. Giữ lớp môi trường liên tục khi dựng.",
+      "example": "Bà nói dưới hiên sáng trời; cô chỉ nghe. Cận tay đưa giỏ được tạo riêng. Tiếng sân nhỏ nối qua hai góc, không đột ngột đổi thành tiếng phòng kín.",
+      "check": "Không vỡ mặt hoặc tay khi nói; ánh sáng hợp vị trí; âm nền không bật/tắt ở cắt.",
+      "illustration": 12
+    },
+    {
+      "title": "Chấm riêng bốn lỗi và sửa đúng cảnh",
+      "source_ids": [
+        "B027-11",
+        "B027-12",
+        "B027-13",
+        "B027-14"
+      ],
+      "source": "Nguồn dành phần hỏi đáp để sửa gán thoại, môi, màu/sáng, máy và người thừa.",
+      "explanation": "Xem có âm thanh để tách sai người, sai lời, lệch thời điểm môi và sai cảm xúc. Duyệt từng cảnh rồi xem cả chuỗi. Nếu vẫn lỗi, có thể dùng thoại thu riêng và xử lý khớp môi/hậu kỳ trong công cụ phù hợp; phương án này cần kiểm tra riêng, chưa thử ở đây.",
+      "example": "Cảnh A đạt thì giữ; chỉ tạo lại cảnh B sai môi. Đừng thay cả nhân vật và ánh sáng để chữa một câu đáp.",
+      "check": "Có mốc giây lỗi, phiên bản được giữ và bản sửa; không kết luận từ ảnh tĩnh.",
+      "illustration": 13
+    }
+  ],
+  "editorial_corrections": [
+    "Không đúng khi nói mọi lỗi đều do người ra lệnh; mô hình và giao diện cũng có giới hạn.",
+    "Hội thoại có thể quay trong một cú máy. Quay–đảo góc là lựa chọn phổ biến, không độc quyền.",
+    "Tách lượt giảm mơ hồ nhưng không bảo đảm khớp môi tuyệt đối, giọng ổn định hoặc hết nhầm.",
+    "Máy tĩnh không đồng nghĩa nghiệp dư; chọn theo chức năng cảnh.",
+    "Các nhãn Character Lock/Speaker Lock (giữ nhận dạng/xác định người nói) là mô tả ý đồ, không tính năng khóa cứng đã xác nhận.",
+    "Mẫu loại trừ dùng 'no...' cần điều chỉnh theo công cụ; xem hướng dẫn cú pháp ở B023. Không dùng yêu cầu loại trừ để tẩy tên tác giả trên ảnh nguồn."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B027-00",
+    "B027-01",
+    "B027-02",
+    "B027-03",
+    "B027-04",
+    "B027-05",
+    "B027-06",
+    "B027-07",
+    "B027-08",
+    "B027-09",
+    "B027-10",
+    "B027-11",
+    "B027-12",
+    "B027-13",
+    "B027-14"
+  ],
+  "references": []
+}
