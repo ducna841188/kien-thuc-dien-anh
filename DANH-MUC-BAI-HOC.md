@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 22/33 bài; 299/444 ảnh đã đọc. Bài kế tiếp: **B023**.
+**Tiến độ:** 23/33 bài; 312/444 ảnh đã đọc. Bài kế tiếp: **B024**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -30,7 +30,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](https://drive.google.com/drive/folders/1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/020-nam-chia-khoa-nhat-quan/README.md) |
 | 021 | [Làm chủ cảm xúc trong Video VEO](https://drive.google.com/drive/folders/1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/021-lam-chu-cam-xuc/README.md) |
 | 022 | [Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp](https://drive.google.com/drive/folders/1TnL2r1IsnEXkVOgT4MRnsNRn0l2PzlBt) | 14 | Đã hoàn thành | [Mở bài](bai-hoc/022-veo-tu-co-ban-den-quy-trinh/README.md) |
-| 023 | [Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!](https://drive.google.com/drive/folders/1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD) | 13 | Chưa đọc | — |
+| 023 | [Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!](https://drive.google.com/drive/folders/1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/023-negative-prompt/README.md) |
 | 024 | [Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)](https://drive.google.com/drive/folders/1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ) | 15 | Chưa đọc | — |
 | 025 | [Mẹo Điều khiển CAMERA- Trở thành "Đạo diễn thật sự trong prompt" để video lập tức cinematic gấp… 5 lần](https://drive.google.com/drive/folders/1FSlu5jphR2IxsoQ4zVhhNpvnqjX1qIuq) | 15 | Chưa đọc | — |
 | 026 | [Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1](https://drive.google.com/drive/folders/1LsNiDrXGR5yyYjSNf-3u_P3DCcSyk5t5) | 11 | Chưa đọc | — |
@@ -53,7 +53,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D05 | 014–016 | 38 | Đã hoàn thành |
 | D06 | 017–019 | 35 | Đã hoàn thành |
 | D07 | 020–022 | 39 | Đã hoàn thành |
-| D08 | 023–025 | 43 | Chưa đọc |
+| D08 | 023–025 | 43 | Đang xử lý |
 | D09 | 026–028 | 39 | Chưa đọc |
 | D10 | 029–031 | 37 | Chưa đọc |
 | D11 | 032–033 | 26 | Chưa đọc |

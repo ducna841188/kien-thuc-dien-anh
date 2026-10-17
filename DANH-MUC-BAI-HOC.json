@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 22,
-    "pending_lessons": 11,
-    "images_read": 299,
-    "pending_images": 145
+    "completed_lessons": 23,
+    "pending_lessons": 10,
+    "images_read": 312,
+    "pending_images": 132
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B023",
+  "next_pending_lesson": "B024",
   "next_pending_batch": "D08",
   "batches": [
     {
@@ -123,7 +123,7 @@
       "from_sequence": 23,
       "to_sequence": 25,
       "image_count": 43,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D09",
@@ -2659,10 +2659,10 @@
       "current_name": "023 - Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!",
       "display_title": "Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 13,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 13,
+      "repository_lesson_path": "bai-hoc/023-negative-prompt",
       "image_inventory": [
         {
           "id": "1fzj-xDZXHBnkKrTD_F7Z2IH396LQ96_M",
@@ -2756,7 +2756,8 @@
           "url": "https://drive.google.com/file/d/1o58wRMZQISRGJ-OJDUGRmc2NJGLqEbyR/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 24,
