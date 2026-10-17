@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 19,
-    "pending_lessons": 14,
-    "images_read": 260,
-    "pending_images": 184
+    "completed_lessons": 20,
+    "pending_lessons": 13,
+    "images_read": 270,
+    "pending_images": 174
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B020",
+  "next_pending_lesson": "B021",
   "next_pending_batch": "D07",
   "batches": [
     {
@@ -111,7 +111,7 @@
       "from_sequence": 20,
       "to_sequence": 22,
       "image_count": 39,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D08",
@@ -2332,10 +2332,10 @@
       "current_name": "020 - Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến",
       "display_title": "Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 10,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 10,
+      "repository_lesson_path": "bai-hoc/020-nam-chia-khoa-nhat-quan",
       "image_inventory": [
         {
           "id": "1T_MGnt08vCkBbsfV6dS4CKfM_Tr9-5Yx",
@@ -2408,7 +2408,8 @@
           "url": "https://drive.google.com/file/d/1seAvmEhtBffRSU2ZCoZeIQjqgZtK6RiH/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 21,

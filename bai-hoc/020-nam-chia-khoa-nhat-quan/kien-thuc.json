@@ -1,0 +1,119 @@
+{
+  "lesson_id": "B020",
+  "summary": "B020 có 10/10 tệp ảnh trùng nguyên vẹn với B003 theo SHA-256. Bài được giữ riêng theo thư mục nguồn và dùng để ôn hồ sơ, bảng màu, nội dung loại trừ và phong cách. Phần bổ sung phân biệt tạo từ văn bản với tạo chuyển động từ ảnh đã duyệt, giúp tránh mô tả lại làm lệch nhận diện.",
+  "principles": [
+    {
+      "title": "Lập hồ sơ bất biến trước khi viết cảnh",
+      "source_ids": [
+        "B020-01",
+        "B020-03"
+      ],
+      "source": "Nguồn đề xuất ghi hình thể, khuôn mặt, tóc, trang phục, chất liệu ngay từ cảnh đầu.",
+      "explanation": "Tạo một khối mô tả ổn định và một khối hành động thay đổi. Chỉ chọn đặc điểm quan trọng, nhìn thấy được. Thêm ảnh chuẩn chính diện, góc ba phần tư và toàn thân nếu chế độ sử dụng hỗ trợ ảnh tham chiếu.",
+      "example": "Lan, nữ 30 tuổi, tóc đen búi thấp, áo bà ba nâu vải thô, quần đen, không trang sức; ảnh chuẩn dưới ánh sáng trung tính.",
+      "check": "So mặt, đường tóc, dáng người, cổ áo và vật liệu với ảnh chuẩn; không chỉ kiểm màu áo.",
+      "illustration": 3
+    },
+    {
+      "title": "Mỗi cảnh có đầu vào đủ rõ",
+      "source_ids": [
+        "B020-04"
+      ],
+      "source": "Lặp lại đầy đủ hồ sơ thay cho việc trông cậy vào câu cùng người như trước.",
+      "explanation": "Với yêu cầu tạo từ văn bản độc lập, giữ nguyên khối nhận diện để tránh vô tình đổi người. Với image-to-video (tạo video từ ảnh đầu vào), ảnh đã chốt người, cảnh và phong cách; hướng dẫn Google khuyên tập trung chuyển động và tránh mô tả lại nội dung ảnh. Với chế độ dùng nhiều ảnh tham chiếu, chỉ rõ vai trò từng ảnh theo khả năng công cụ. Ghi phiên bản hồ sơ và ảnh đã dùng; không trông cậy vào câu 'giống cảnh trước' khi đầu vào không chứa cảnh trước.",
+      "example": "Cảnh ở sân và cảnh trong bếp cùng dùng hồ sơ Lan v1; chỉ thay địa điểm, động tác và vị trí camera.",
+      "check": "Đối chiếu các trường hồ sơ giữa hai prompt trước khi chạy; xem lại khung đầu, giữa, cuối sau khi chạy.",
+      "illustration": 4
+    },
+    {
+      "title": "Bảng màu là mục tiêu đối chiếu",
+      "source_ids": [
+        "B020-05"
+      ],
+      "source": "Nguồn dùng HEX để cụ thể hóa các tên màu mơ hồ.",
+      "explanation": "Ghép tên màu dễ hiểu, ô màu tham chiếu và HEX. Phân biệt màu vật liệu gốc với màu quan sát dưới ánh sáng. Cảnh đèn vàng có thể làm áo nâu ấm hơn mà vẫn đúng tính liên tục.",
+      "example": "Áo nâu đất mục tiêu #6B4938; giữ cùng loại vải. Cảnh sân sáng dịu và bếp ấm cần thay đổi ánh sáng có lý do.",
+      "check": "Kiểm tương quan màu với da và đồ vật trung tính; không đòi từng pixel trùng HEX ở mọi vùng sáng tối.",
+      "illustration": 5
+    },
+    {
+      "title": "Nội dung loại trừ và kiểm lỗi hình thể",
+      "source_ids": [
+        "B020-06"
+      ],
+      "source": "Dùng negative prompt để giảm các lỗi hình thể, màu và chất liệu.",
+      "explanation": "Khi có trường negative riêng, liệt kê lỗi cần tránh phù hợp cú máy: thừa ngón, mặt méo, đổi áo. Không mặc định một danh sách dài sẽ chữa mọi lỗi. Đồng thời mô tả tích cực động tác tay đơn giản, dễ đọc.",
+      "example": "Lan nhấc một rổ rau bằng hai tay; trường loại trừ ghi thừa ngón, ngón dính, rổ biến dạng, thay trang phục.",
+      "check": "Xem từng giai đoạn cầm–nhấc–đặt, kiểm ngón tay, tiếp xúc và hình dạng rổ; tạo lại nếu lỗi.",
+      "illustration": 6
+    },
+    {
+      "title": "Giữ hệ tạo hình và đo tính liên tục",
+      "source_ids": [
+        "B020-07",
+        "B020-08",
+        "B020-09"
+      ],
+      "source": "Chọn phong cách nhất quán và dùng checklist năm lớp.",
+      "explanation": "Cố định tỷ lệ cơ thể, nét vẽ hoặc vật liệu, cách chiếu sáng và mức cách điệu. Ghi từng lỗi theo cảnh thay vì báo phần trăm không định nghĩa. Một video đẹp vẫn có thể sai danh tính.",
+      "example": "Toàn phim dùng hiện thực tự nhiên, vải thô và ánh sáng mềm; không để một cảnh chuyển thành nhân vật đồ chơi.",
+      "check": "Lập bảng từng cảnh với mặt, tóc, áo, hình thể, chất liệu và đạo cụ; đánh dấu đạt/chưa đạt và mốc giây.",
+      "illustration": 8
+    },
+    {
+      "title": "Áp dụng cho hồ sơ mặt, vóc dáng và trang phục đã duyệt",
+      "source_ids": [
+        "B020-03",
+        "B020-04",
+        "B020-05",
+        "B020-08"
+      ],
+      "source": "Nguồn coi hồ sơ gốc là nền tảng rồi giữ các đặc điểm qua nhiều cảnh.",
+      "explanation": "Phần tự biên soạn cho quy trình dùng ảnh tham chiếu:\n\n| Thành phần | Nguồn chuẩn | Điều phải so |\n| --- | --- | --- |\n| Danh tính | Ảnh mặt đã duyệt | Tỷ lệ mặt, mắt, mũi, môi, đường tóc |\n| Hình thể | Ảnh toàn thân đã duyệt | Tỷ lệ đầu–người, chân/tay và dáng |\n| Trang phục | Bộ đồ đã duyệt | Cổ áo, tay áo, màu/vải, phụ kiện |\n| Cảnh riêng | Ảnh cảnh của shot | Tư thế đầu, đạo cụ, bố cục |\n| Chuyển động | Prompt của shot | Hướng, tiếp xúc, trạng thái cuối |\n\nDuyệt ảnh cảnh trước khi tạo video. Nếu ảnh cảnh đã sai nhận diện, sửa ảnh cảnh rồi mới tiếp tục; câu 'khóa tuyệt đối' không tự chữa một đầu vào sai.",
+      "example": "Dùng mặt, hình thể và bộ đồ đã duyệt để tạo ảnh người ngồi đan giỏ trong sân. Khi ảnh đạt, prompt video chỉ đạo một lần luồn nan và kéo nhẹ; không tự tăng chiều cao, đổi tóc hoặc đổi tỷ lệ đang được duyệt.",
+      "check": "So gốc với ảnh cảnh, rồi ảnh cảnh với video. Ghi lỗi nằm ở bước tạo ảnh hay bước tạo chuyển động; không sửa nhầm cả hồ sơ.",
+      "illustration": 3
+    }
+  ],
+  "editorial_corrections": [
+    "Toàn bộ 10 tệp B020 trùng SHA-256 với 10 tệp B003. Số ảnh tiến độ tính theo tệp của từng bài, không phải số hình độc nhất.",
+    "Các tỷ lệ 95–99% và 95–100% trong ảnh không kèm cách đo, tập mẫu hay kết quả thử; không được dùng làm bảo đảm.",
+    "HEX trong câu lệnh không bảo đảm màu pixel chính xác; hình minh họa không chứng minh khóa màu.",
+    "Hồ sơ văn bản không phải cơ chế khóa danh tính hoặc bộ nhớ xuyên mọi lần sinh. Ảnh tham chiếu có thể hỗ trợ tùy mô hình và chế độ.",
+    "Nguồn viết no trong negative prompt. Hướng dẫn Google được đối chiếu khuyên trường loại trừ liệt kê yếu tố không mong muốn, tránh no/don't.",
+    "Ảnh B020-08 đảo tên nhãn màu và khiên ở bước 3–4. Tài liệu dùng thứ tự theo nội dung.",
+    "Nguồn không cung cấp video hoặc thông số thử đủ để kiểm tra 15 cảnh tiếp theo.",
+    "Lời khuyên chép toàn bộ hồ sơ không áp dụng máy móc cho mọi chế độ; ảnh đầu vào đủ rõ có thể phù hợp prompt tập trung chuyển động.",
+    "Không diễn giải 'AI không hiểu blue' theo nghĩa đen; nhiều sắc xanh là sự mơ hồ cần cụ thể hóa, không chứng minh mô hình không hiểu tên màu."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B020-00",
+    "B020-01",
+    "B020-02",
+    "B020-03",
+    "B020-04",
+    "B020-05",
+    "B020-06",
+    "B020-07",
+    "B020-08",
+    "B020-09"
+  ],
+  "references": [
+    {
+      "title": "Google: best practices, mục Image-to-video",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice",
+      "purpose": "Đối chiếu khác biệt giữa lặp nhận diện khi tạo độc lập và tập trung chuyển động khi đã có ảnh đầu vào."
+    },
+    {
+      "title": "Google: hướng dẫn prompt video",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Đối chiếu cách liệt kê yếu tố không muốn trong trường negative riêng."
+    },
+    {
+      "title": "Google: Ingredients to Video",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/",
+      "purpose": "Đối chiếu dùng ảnh tham chiếu để hỗ trợ nhất quán; không xác nhận các tỷ lệ 95–100% trong ảnh khóa học."
+    }
+  ]
+}

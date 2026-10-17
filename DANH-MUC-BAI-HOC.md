@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 19/33 bài; 260/444 ảnh đã đọc. Bài kế tiếp: **B020**.
+**Tiến độ:** 20/33 bài; 270/444 ảnh đã đọc. Bài kế tiếp: **B021**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -27,7 +27,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 017 | [CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức "vàng" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!](https://drive.google.com/drive/folders/1qepchr-kwNzUsXqxz87RG0dqwGuWAU8R) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/017-mini-story-ba-nhip/README.md) |
 | 018 | [Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1](https://drive.google.com/drive/folders/1r-plZ2jVlT7gmh6XJK_Fd7MIQ3jI8b-C) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/018-dolly-pan-tilt/README.md) |
 | 019 | [Hệ thống Bánh Đà học tập bằng AI](https://drive.google.com/drive/folders/1K77-ERUz2a6e-xvyEb3J1rZ36YaLvgPw) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/019-banh-da-hoc-tap-ai/README.md) |
-| 020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](https://drive.google.com/drive/folders/1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw) | 10 | Chưa đọc | — |
+| 020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](https://drive.google.com/drive/folders/1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/020-nam-chia-khoa-nhat-quan/README.md) |
 | 021 | [Làm chủ cảm xúc trong Video VEO](https://drive.google.com/drive/folders/1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK) | 15 | Chưa đọc | — |
 | 022 | [Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp](https://drive.google.com/drive/folders/1TnL2r1IsnEXkVOgT4MRnsNRn0l2PzlBt) | 14 | Chưa đọc | — |
 | 023 | [Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!](https://drive.google.com/drive/folders/1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD) | 13 | Chưa đọc | — |
@@ -52,7 +52,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D04 | 011–013 | 50 | Đã hoàn thành |
 | D05 | 014–016 | 38 | Đã hoàn thành |
 | D06 | 017–019 | 35 | Đã hoàn thành |
-| D07 | 020–022 | 39 | Chưa đọc |
+| D07 | 020–022 | 39 | Đang xử lý |
 | D08 | 023–025 | 43 | Chưa đọc |
 | D09 | 026–028 | 39 | Chưa đọc |
 | D10 | 029–031 | 37 | Chưa đọc |

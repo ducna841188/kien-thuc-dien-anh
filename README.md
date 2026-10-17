@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 19/33 bài, đọc 260/444 ảnh.**
+**Đã hoàn thành 20/33 bài, đọc 270/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -29,6 +29,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B017 | [CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức "vàng" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!](bai-hoc/017-mini-story-ba-nhip/README.md) | 10 |
 | B018 | [Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1](bai-hoc/018-dolly-pan-tilt/README.md) | 12 |
 | B019 | [Hệ thống Bánh Đà học tập bằng AI](bai-hoc/019-banh-da-hoc-tap-ai/README.md) | 13 |
+| B020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](bai-hoc/020-nam-chia-khoa-nhat-quan/README.md) | 10 |
 
 ## Quy ước học tập
 
