@@ -2,16 +2,17 @@
 
 Cập nhật: 17/10/2026.
 
-Đã hoàn thành **2 bài / 22 ảnh**; còn **31 bài / 422 ảnh**.
+Đã hoàn thành **3 bài / 32 ảnh**; còn **30 bài / 412 ảnh**.
 
 [Danh mục đầy đủ](DANH-MUC-BAI-HOC.md) · [Dữ liệu trạng thái](DANH-MUC-BAI-HOC.json)
 
-Bài tiếp theo: **B003**. Xử lý theo mã và mã thư mục Drive, không theo vị trí tìm kiếm.
+Bài tiếp theo: **B004**. Xử lý theo mã và mã thư mục Drive, không theo vị trí tìm kiếm.
 
 ## Nhật ký bài đã hoàn thành
 
 - B001: đã đọc 12/12 ảnh; [tài liệu](bai-hoc/001-bon-cau-truc-camera/README.md).
 - B002: đã đọc 10/10 ảnh; [tài liệu](bai-hoc/002-prompt-cau-truc/README.md).
+- B003: đã đọc 10/10 ảnh; [tài liệu](bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md).
 
 ## Nguyên tắc tiếp tục
 

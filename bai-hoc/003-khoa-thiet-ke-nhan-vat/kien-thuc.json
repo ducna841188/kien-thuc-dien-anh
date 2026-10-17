@@ -1,0 +1,97 @@
+{
+  "lesson_id": "B003",
+  "summary": "Bộ ảnh đề xuất hồ sơ nhân vật, lặp mô tả, bảng màu, nội dung loại trừ và phong cách ổn định để giảm đổi người, đổi áo hoặc biến dạng. Bài học chuyển các mẹo này thành quy trình đối chiếu có thể kiểm tra; không coi chữ “khóa” là bảo đảm kết quả.",
+  "principles": [
+    {
+      "title": "Lập hồ sơ bất biến trước khi viết cảnh",
+      "source_ids": [
+        "B003-01",
+        "B003-03"
+      ],
+      "source": "Nguồn đề xuất ghi hình thể, khuôn mặt, tóc, trang phục, chất liệu ngay từ cảnh đầu.",
+      "explanation": "Tạo một khối mô tả ổn định và một khối hành động thay đổi. Chỉ chọn đặc điểm quan trọng, nhìn thấy được. Thêm ảnh chuẩn chính diện, góc ba phần tư và toàn thân nếu chế độ sử dụng hỗ trợ ảnh tham chiếu.",
+      "example": "Lan, nữ 30 tuổi, tóc đen búi thấp, áo bà ba nâu vải thô, quần đen, không trang sức; ảnh chuẩn dưới ánh sáng trung tính.",
+      "check": "So mặt, đường tóc, dáng người, cổ áo và vật liệu với ảnh chuẩn; không chỉ kiểm màu áo.",
+      "illustration": 3
+    },
+    {
+      "title": "Mỗi cảnh có đầu vào đủ rõ",
+      "source_ids": [
+        "B003-04"
+      ],
+      "source": "Lặp lại đầy đủ hồ sơ thay cho việc trông cậy vào câu cùng người như trước.",
+      "explanation": "Với yêu cầu sinh độc lập, chép nguyên khối mô tả giúp tránh vô tình đổi đặc điểm. Nếu dùng ảnh đầu vào, ưu tiên giữ nội dung ảnh và mô tả chuyển động thay vì thêm chi tiết mâu thuẫn. Ghi phiên bản hồ sơ để truy lỗi.",
+      "example": "Cảnh ở sân và cảnh trong bếp cùng dùng hồ sơ Lan v1; chỉ thay địa điểm, động tác và vị trí camera.",
+      "check": "Đối chiếu các trường hồ sơ giữa hai prompt trước khi chạy; xem lại khung đầu, giữa, cuối sau khi chạy.",
+      "illustration": 4
+    },
+    {
+      "title": "Bảng màu là mục tiêu đối chiếu",
+      "source_ids": [
+        "B003-05"
+      ],
+      "source": "Nguồn dùng HEX để cụ thể hóa các tên màu mơ hồ.",
+      "explanation": "Ghép tên màu dễ hiểu, ô màu tham chiếu và HEX. Phân biệt màu vật liệu gốc với màu quan sát dưới ánh sáng. Cảnh đèn vàng có thể làm áo nâu ấm hơn mà vẫn đúng tính liên tục.",
+      "example": "Áo nâu đất mục tiêu #6B4938; giữ cùng loại vải. Cảnh sân sáng dịu và bếp ấm cần thay đổi ánh sáng có lý do.",
+      "check": "Kiểm tương quan màu với da và đồ vật trung tính; không đòi từng pixel trùng HEX ở mọi vùng sáng tối.",
+      "illustration": 5
+    },
+    {
+      "title": "Nội dung loại trừ và kiểm lỗi hình thể",
+      "source_ids": [
+        "B003-06"
+      ],
+      "source": "Dùng negative prompt để giảm các lỗi hình thể, màu và chất liệu.",
+      "explanation": "Khi có trường negative riêng, liệt kê lỗi cần tránh phù hợp cú máy: thừa ngón, mặt méo, đổi áo. Không mặc định một danh sách dài sẽ chữa mọi lỗi. Đồng thời mô tả tích cực động tác tay đơn giản, dễ đọc.",
+      "example": "Lan nhấc một rổ rau bằng hai tay; trường loại trừ ghi thừa ngón, ngón dính, rổ biến dạng, thay trang phục.",
+      "check": "Xem từng giai đoạn cầm–nhấc–đặt, kiểm ngón tay, tiếp xúc và hình dạng rổ; tạo lại nếu lỗi.",
+      "illustration": 6
+    },
+    {
+      "title": "Giữ hệ tạo hình và đo tính liên tục",
+      "source_ids": [
+        "B003-07",
+        "B003-08",
+        "B003-09"
+      ],
+      "source": "Chọn phong cách nhất quán và dùng checklist năm lớp.",
+      "explanation": "Cố định tỷ lệ cơ thể, nét vẽ hoặc vật liệu, cách chiếu sáng và mức cách điệu. Ghi từng lỗi theo cảnh thay vì báo phần trăm không định nghĩa. Một video đẹp vẫn có thể sai danh tính.",
+      "example": "Toàn phim dùng hiện thực tự nhiên, vải thô và ánh sáng mềm; không để một cảnh chuyển thành nhân vật đồ chơi.",
+      "check": "Lập bảng từng cảnh với mặt, tóc, áo, hình thể, chất liệu và đạo cụ; đánh dấu đạt/chưa đạt và mốc giây.",
+      "illustration": 8
+    }
+  ],
+  "editorial_corrections": [
+    "Các tỷ lệ 95–99% và 95–100% trong ảnh không kèm cách đo, tập mẫu hay kết quả thử; không được dùng làm bảo đảm.",
+    "HEX trong câu lệnh không bảo đảm màu pixel chính xác; hình minh họa không chứng minh khóa màu.",
+    "Hồ sơ văn bản không phải cơ chế khóa danh tính hoặc bộ nhớ xuyên mọi lần sinh. Ảnh tham chiếu có thể hỗ trợ tùy mô hình và chế độ.",
+    "Nguồn viết no trong negative prompt. Hướng dẫn Google được đối chiếu khuyên trường loại trừ liệt kê yếu tố không mong muốn, tránh no/don't.",
+    "Ảnh B003-08 đảo tên nhãn màu và khiên ở bước 3–4. Tài liệu dùng thứ tự theo nội dung.",
+    "Nguồn không cung cấp video hoặc thông số thử đủ để kiểm tra 15 cảnh tiếp theo."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B003-00",
+    "B003-01",
+    "B003-02",
+    "B003-03",
+    "B003-04",
+    "B003-05",
+    "B003-06",
+    "B003-07",
+    "B003-08",
+    "B003-09"
+  ],
+  "references": [
+    {
+      "title": "Google — hướng dẫn prompt video",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Đối chiếu cách viết trường negative prompt."
+    },
+    {
+      "title": "Google — tạo video với Veo",
+      "url": "https://ai.google.dev/gemini-api/docs/veo",
+      "purpose": "Tham khảo đầu vào ảnh nhân vật; cần kiểm tra đúng chế độ đang dùng."
+    }
+  ]
+}

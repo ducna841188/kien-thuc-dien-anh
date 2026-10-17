@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 2,
-    "pending_lessons": 31,
-    "images_read": 22,
-    "pending_images": 422
+    "completed_lessons": 3,
+    "pending_lessons": 30,
+    "images_read": 32,
+    "pending_images": 412
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B003",
+  "next_pending_lesson": "B004",
   "next_pending_batch": "D01",
   "batches": [
     {
@@ -360,10 +360,10 @@
       "current_name": "003 - 3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)",
       "display_title": "3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 10,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 10,
+      "repository_lesson_path": "bai-hoc/003-khoa-thiet-ke-nhan-vat",
       "image_inventory": [
         {
           "id": "1EVYm9osqlSQ5FildiU9rhd_gu81A_QkS",
@@ -436,7 +436,8 @@
           "url": "https://drive.google.com/file/d/1pXVa3oeuYRwX0MnUU3F6e35iwqWT629v/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 4,
