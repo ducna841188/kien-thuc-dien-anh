@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 20/33 bài; 270/444 ảnh đã đọc. Bài kế tiếp: **B021**.
+**Tiến độ:** 21/33 bài; 285/444 ảnh đã đọc. Bài kế tiếp: **B022**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -28,7 +28,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 018 | [Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1](https://drive.google.com/drive/folders/1r-plZ2jVlT7gmh6XJK_Fd7MIQ3jI8b-C) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/018-dolly-pan-tilt/README.md) |
 | 019 | [Hệ thống Bánh Đà học tập bằng AI](https://drive.google.com/drive/folders/1K77-ERUz2a6e-xvyEb3J1rZ36YaLvgPw) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/019-banh-da-hoc-tap-ai/README.md) |
 | 020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](https://drive.google.com/drive/folders/1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/020-nam-chia-khoa-nhat-quan/README.md) |
-| 021 | [Làm chủ cảm xúc trong Video VEO](https://drive.google.com/drive/folders/1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK) | 15 | Chưa đọc | — |
+| 021 | [Làm chủ cảm xúc trong Video VEO](https://drive.google.com/drive/folders/1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/021-lam-chu-cam-xuc/README.md) |
 | 022 | [Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp](https://drive.google.com/drive/folders/1TnL2r1IsnEXkVOgT4MRnsNRn0l2PzlBt) | 14 | Chưa đọc | — |
 | 023 | [Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!](https://drive.google.com/drive/folders/1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD) | 13 | Chưa đọc | — |
 | 024 | [Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)](https://drive.google.com/drive/folders/1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ) | 15 | Chưa đọc | — |
