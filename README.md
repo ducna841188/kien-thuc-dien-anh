@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 11/33 bài, đọc 155/444 ảnh.**
+**Đã hoàn thành 12/33 bài, đọc 171/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -21,6 +21,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](bai-hoc/009-nang-cap-ngon-ngu-dien-anh/README.md) | 18 |
 | B010 | [Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1](bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md) | 14 |
 | B011 | [Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood](bai-hoc/011-anh-sang-bo-nen-nhip-cham/README.md) | 18 |
+| B012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](bai-hoc/012-cau-truc-camera/README.md) | 16 |
 
 ## Quy ước học tập
 

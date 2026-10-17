@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 11/33 bài; 155/444 ảnh đã đọc. Bài kế tiếp: **B012**.
+**Tiến độ:** 12/33 bài; 171/444 ảnh đã đọc. Bài kế tiếp: **B013**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -19,7 +19,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/009-nang-cap-ngon-ngu-dien-anh/README.md) |
 | 010 | [Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1](https://drive.google.com/drive/folders/1VBQ0HiAWGWtDEMz2kQc5CwVu9gJroWHd) | 14 | Đã hoàn thành | [Mở bài](bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md) |
 | 011 | [Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood](https://drive.google.com/drive/folders/1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/011-anh-sang-bo-nen-nhip-cham/README.md) |
-| 012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](https://drive.google.com/drive/folders/1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1) | 16 | Chưa đọc | — |
+| 012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](https://drive.google.com/drive/folders/1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1) | 16 | Đã hoàn thành | [Mở bài](bai-hoc/012-cau-truc-camera/README.md) |
 | 013 | [Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)](https://drive.google.com/drive/folders/1DcfzftcYU9njo4dJcM3AXgUjWpFPsqMA) | 16 | Chưa đọc | — |
 | 014 | [Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)](https://drive.google.com/drive/folders/1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV) | 12 | Chưa đọc | — |
 | 015 | [Bí Mật Veo 3.1- Tại Sao AI Không "Vẽ" Video Mà Chỉ "Dự Đoán Chuyển Động"? (Làm Chủ Logic Vật Lý)](https://drive.google.com/drive/folders/15eT4W3GaEGptuMmpU0ArNPc0Bt89hIdv) | 12 | Chưa đọc | — |
