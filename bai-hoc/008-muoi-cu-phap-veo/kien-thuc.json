@@ -1,0 +1,106 @@
+{
+  "lesson_id": "B008",
+  "summary": "Đã đọc 18 ảnh gồm ba nhóm kiến thức: ánh sáng/khí quyển, máy/bố cục và hoàn thiện. Tài liệu giải nghĩa đủ mười cụm, chỉ ra điều quan sát được và cách chọn theo nhu cầu cảnh thay vì ghép tất cả vào một câu.",
+  "principles": [
+    {
+      "title": "Bảng tra đủ mười cụm",
+      "source_ids": [
+        "B008-04",
+        "B008-05",
+        "B008-06",
+        "B008-08",
+        "B008-09",
+        "B008-10",
+        "B008-12",
+        "B008-13",
+        "B008-14",
+        "B008-15",
+        "B008-17"
+      ],
+      "source": "Bộ ảnh gọi đây là mười cú pháp để nâng chất lượng hình ảnh.",
+      "explanation": "Đây là các cụm mô tả bằng ngôn ngữ tự nhiên. Có thể viết bằng lời rõ hơn để phục vụ shot. Không có bằng chứng chúng là lệnh khóa hoặc luôn được thực hiện chính xác.\n\n| Cụm trong nguồn | Nghĩa | Cách kiểm |\n| --- | --- | --- |\n| golden hour lighting | Ánh sáng giờ vàng | Nắng thấp có hướng; giữ chi tiết mặt. |\n| soft rim light behind the subject | Viền sáng mềm từ phía sau | Tóc/vai có viền theo đúng phía nguồn sáng. |\n| soft fog + volumetric light beams | Sương nhẹ và chùm sáng trong không khí | Tia đi từ nguồn hợp lý, không che mất hành động. |\n| wide shot, slow dolly-in | Toàn cảnh, máy tiến chậm | Máy thực sự tiến tới; nền đổi tương quan phối cảnh. |\n| tracking shot following the character from behind | Máy bám theo phía sau | Khoảng cách và hướng đi ổn định. |\n| shallow depth of field, creamy bokeh | Vùng nét nông, nền mờ mịn | Chi tiết kể chuyện còn ở vùng nét. |\n| cinematic color grading, warm tones + teal shadows | Chỉnh màu với tông ấm và bóng xanh ngả lục | Màu da và tính liên tục vẫn hợp ý đồ. |\n| slow motion 30% | Chuyển động chậm, mục tiêu tốc độ 30% | Kiểm thời gian; cần chính xác thì chỉnh tốc độ ở khâu dựng. |\n| soft ambient wind + natural ambience | Gió nền nhẹ và tiếng môi trường tự nhiên | Nguồn tiếng, mức âm và thời điểm hợp cảnh. |\n| Negative: no flicker, no jitter, no distortion | Loại trừ nhấp nháy, giật và biến dạng | Chuyển sang cú pháp được công cụ hỗ trợ; xem toàn clip. |",
+      "example": "Cảnh cơm chiều chỉ cần ánh nắng thấp, trung cảnh máy đứng và tiếng chén bát; không nhất thiết thêm sương, tracking hay bóng xanh.",
+      "check": "Mỗi cụm thêm vào phải tạo một đặc điểm có thể quan sát hoặc nghe được."
+    },
+    {
+      "title": "Thiết kế ánh sáng có nguồn và hướng",
+      "source_ids": [
+        "B008-03",
+        "B008-04",
+        "B008-05",
+        "B008-06"
+      ],
+      "source": "Giờ vàng, viền sáng và sương/tia giúp tạo không khí và tách lớp.",
+      "explanation": "Nêu vị trí cửa, mặt trời hoặc đèn; xác định mặt sáng, mặt tối và nền. Haze/sương vừa đủ làm rõ tia nhưng có thể làm giảm tương phản nếu quá dày. Giữ hướng sáng xuyên shot.",
+      "example": "Mặt trời thấp phía sân trái tạo viền tóc Lan, ánh hắt từ tường sáng giữ chi tiết mặt; không thêm tia sáng từ bức tường kín.",
+      "check": "Bóng và viền sáng cùng chỉ về nguồn hợp lý; mặt đọc được, không bị cháy viền.",
+      "illustration": 6
+    },
+    {
+      "title": "Chuyển động máy và vùng nét dẫn chú ý",
+      "source_ids": [
+        "B008-07",
+        "B008-08",
+        "B008-09",
+        "B008-10"
+      ],
+      "source": "Máy tiến, máy bám và nền mờ tập trung người xem vào chủ thể.",
+      "explanation": "Ghi điểm đầu/cuối, phía máy và khoảng cách cần giữ. Độ sâu trường ảnh nông chỉ có ích khi không che thông tin quan trọng. Phân biệt nền mờ do mất nét với nhòe chuyển động hoặc hiệu ứng kéo hướng tâm.",
+      "example": "Máy bám sau Lan vào hiên; khi cô dừng, dùng cận mặt riêng để thấy phản ứng, thay vì vừa bám vừa tiến vừa đổi nét phức tạp.",
+      "check": "Không nhảy cỡ cảnh; mắt hoặc đạo cụ mục tiêu luôn nét đúng lúc; nền không chảy.",
+      "illustration": 9
+    },
+    {
+      "title": "Màu, tốc độ và âm thanh hoàn thiện ý đồ",
+      "source_ids": [
+        "B008-11",
+        "B008-12",
+        "B008-13",
+        "B008-14",
+        "B008-15"
+      ],
+      "source": "Nguồn đề xuất màu ấm/bóng xanh, slow motion, âm thanh nền và loại trừ lỗi.",
+      "explanation": "Chọn bảng màu theo tâm trạng. Slow motion thay nhịp thời gian, khác người tự di chuyển chậm. Nếu cần tốc độ đúng 30% so với thời gian thực, đo và xử lý trong dựng. Âm thanh môi trường cần vị trí, cường độ và nhịp; phần loại trừ tham khảo bài 006.",
+      "example": "Giữ màu da tự nhiên trong bữa cơm; tiếng gió ngoài sân thấp hơn tiếng rổ chạm bàn, không dùng slow motion cho mọi động tác.",
+      "check": "Xem liền với shot trước/sau; màu và nhịp hỗ trợ câu chuyện, âm không lấn hành động.",
+      "illustration": 12
+    }
+  ],
+  "editorial_corrections": [
+    "Câu chỉ do ngôn ngữ mà video kém bỏ qua giới hạn công cụ, đầu vào và khâu chọn/dựng.",
+    "Các cặp ảnh thay đổi nhiều yếu tố; không đủ kết luận thêm một cụm gây cải thiện trong mọi video.",
+    "Rim light không tự tách chủ thể hoàn toàn; bokeh và sương cũng không luôn tăng chất lượng.",
+    "Ảnh tĩnh không chứng minh dolly, tracking, slow motion, âm thanh hoặc giảm flicker/jitter.",
+    "slow motion 30% là mô tả mục tiêu, không phải tham số bảo đảm tỉ lệ thời gian.",
+    "Màu ấm/bóng xanh là một kiểu tạo hình, không đồng nghĩa điện ảnh hoặc Hollywood.",
+    "Đối với Veo có trường negative, hướng dẫn Google khuyên liệt kê yếu tố không mong muốn thay vì nhiều câu no."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B008-00",
+    "B008-01",
+    "B008-02",
+    "B008-03",
+    "B008-04",
+    "B008-05",
+    "B008-06",
+    "B008-07",
+    "B008-08",
+    "B008-09",
+    "B008-10",
+    "B008-11",
+    "B008-12",
+    "B008-13",
+    "B008-14",
+    "B008-15",
+    "B008-16",
+    "B008-17"
+  ],
+  "references": [
+    {
+      "title": "Google — Video generation prompt guide",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Đối chiếu cách mô tả ánh sáng, vùng nét, thời gian, âm và nội dung loại trừ."
+    }
+  ]
+}

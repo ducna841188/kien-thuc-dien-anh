@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 7/33 bài, đọc 87/444 ảnh.**
+**Đã hoàn thành 8/33 bài, đọc 105/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -17,6 +17,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B005 | [7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1](bai-hoc/005-bay-cu-may/README.md) | 13 |
 | B006 | [7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)](bai-hoc/006-negative-prompt-nhat-quan/README.md) | 15 |
 | B007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](bai-hoc/007-muoi-cong-cu-video-ai/README.md) | 12 |
+| B008 | [10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn](bai-hoc/008-muoi-cu-phap-veo/README.md) | 18 |
 
 ## Quy ước học tập
 
