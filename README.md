@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 29/33 bài, đọc 394/444 ảnh.**
+**Đã hoàn thành 30/33 bài, đọc 406/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -39,6 +39,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B027 | [Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản](bai-hoc/027-tach-shot-lip-sync/README.md) | 15 |
 | B028 | [TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!](bai-hoc/028-slow-push-in/README.md) | 13 |
 | B029 | [Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo](bai-hoc/029-lip-sync-hoat-hinh/README.md) | 13 |
+| B030 | [Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau](bai-hoc/030-gan-thoai-dung-nhan-vat/README.md) | 12 |
 
 ## Quy ước học tập
 

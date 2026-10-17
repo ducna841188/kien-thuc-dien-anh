@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 29,
-    "pending_lessons": 4,
-    "images_read": 394,
-    "pending_images": 50
+    "completed_lessons": 30,
+    "pending_lessons": 3,
+    "images_read": 406,
+    "pending_images": 38
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B030",
+  "next_pending_lesson": "B031",
   "next_pending_batch": "D10",
   "batches": [
     {
@@ -3450,10 +3450,10 @@
       "current_name": "030 - Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau",
       "display_title": "Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 12,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 12,
+      "repository_lesson_path": "bai-hoc/030-gan-thoai-dung-nhan-vat",
       "image_inventory": [
         {
           "id": "1QyQCKkDe40nuLe3iyUKDrqrPiGQygzD9",
@@ -3540,7 +3540,8 @@
           "url": "https://drive.google.com/file/d/1zsglnM8o_j89mGc2DGuZS-efl-x2XKia/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 31,
