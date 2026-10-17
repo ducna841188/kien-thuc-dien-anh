@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 18/10/2026.
 
-**Tiến độ:** 28/33 bài; 381/444 ảnh đã đọc. Bài kế tiếp: **B029**.
+**Tiến độ:** 29/33 bài; 394/444 ảnh đã đọc. Bài kế tiếp: **B030**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -36,7 +36,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 026 | [Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1](https://drive.google.com/drive/folders/1LsNiDrXGR5yyYjSNf-3u_P3DCcSyk5t5) | 11 | Đã hoàn thành | [Mở bài](bai-hoc/026-nam-tru-cot-prompt/README.md) |
 | 027 | [Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản](https://drive.google.com/drive/folders/1_cyMghOhl8O241qxJWE9pdcpu7x_NGBP) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/027-tach-shot-lip-sync/README.md) |
 | 028 | [TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!](https://drive.google.com/drive/folders/1hcYzx35MKqf4GhdkMKPKCm8voBNOHq4w) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/028-slow-push-in/README.md) |
-| 029 | [Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo](https://drive.google.com/drive/folders/1JJGBH0ew1DF-EjXmZR-TA_rZJ_FLsOdv) | 13 | Chưa đọc | — |
+| 029 | [Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo](https://drive.google.com/drive/folders/1JJGBH0ew1DF-EjXmZR-TA_rZJ_FLsOdv) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/029-lip-sync-hoat-hinh/README.md) |
 | 030 | [Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau](https://drive.google.com/drive/folders/1MwgVwSjwR2NgZIjxLi7tEPatZyv9lrME) | 12 | Chưa đọc | — |
 | 031 | [Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức](https://drive.google.com/drive/folders/17sYCtB5SAM-8djJiv-yRbp6-yBPuw9fM) | 12 | Chưa đọc | — |
 | 032 | [Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1](https://drive.google.com/drive/folders/1SsWJhGlNJgODyzgZ-hGfkouj-1YY-LAx) | 12 | Chưa đọc | — |
@@ -55,7 +55,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D07 | 020–022 | 39 | Đã hoàn thành |
 | D08 | 023–025 | 43 | Đã hoàn thành |
 | D09 | 026–028 | 39 | Đã hoàn thành |
-| D10 | 029–031 | 37 | Chưa đọc |
+| D10 | 029–031 | 37 | Đang xử lý |
 | D11 | 032–033 | 26 | Chưa đọc |
 
 Mỗi bài được đọc, biên soạn, lưu và xác minh trên GitHub trước khi chuyển sang bài sau. Trạng thái từng đợt được ghi trong bảng; các bài chưa hoàn thành tiếp tục nằm trong danh mục chờ.

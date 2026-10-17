@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 28,
-    "pending_lessons": 5,
-    "images_read": 381,
-    "pending_images": 63
+    "completed_lessons": 29,
+    "pending_lessons": 4,
+    "images_read": 394,
+    "pending_images": 50
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B029",
+  "next_pending_lesson": "B030",
   "next_pending_batch": "D10",
   "batches": [
     {
@@ -147,7 +147,7 @@
       "from_sequence": 29,
       "to_sequence": 31,
       "image_count": 37,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D11",
@@ -3341,10 +3341,10 @@
       "current_name": "029 - Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo",
       "display_title": "Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 13,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 13,
+      "repository_lesson_path": "bai-hoc/029-lip-sync-hoat-hinh",
       "image_inventory": [
         {
           "id": "1eDQbnPZl34o-m52FPDQarSITGFk0Kr5_",
@@ -3438,7 +3438,8 @@
           "url": "https://drive.google.com/file/d/1qa1hsVH2RsIkpmd4Hl78_2rzmA7ALGeC/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 30,
