@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "lesson_id": "B001",
+  "ingested_on": "2026-10-17",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "lesson_title": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+  "root_folder": {
+    "id": "1tR-tPhoveADKDuEDkiihlbzp7EoihFDE",
+    "name": "Bí ẩn đạo diễn",
+    "url": "https://drive.google.com/drive/folders/1tR-tPhoveADKDuEDkiihlbzp7EoihFDE"
+  },
+  "lesson_folder": {
+    "id": "1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n",
+    "url": "https://drive.google.com/drive/folders/1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n"
+  },
+  "scope": "Chỉ bài học này. Không khẳng định đã đọc các bài khác trong thư mục gốc.",
+  "visible_credit": "Vienhn",
+  "credit_status": "Tên hiển thị trong ảnh; chưa xác minh nơi phát hành gốc.",
+  "expected_count": 12,
+  "downloaded_count": 12,
+  "directly_reviewed_count": 12,
+  "total_original_bytes": 1731485,
+  "order_rule": "Bìa trước; các trang số theo giá trị số. 011.jpg được xếp sau 10.jpg.",
+  "original_images_modified": false,
+  "video_generation_tested": false,
+  "source_video_files_found": 0,
+  "external_references": [
+    {
+      "id": "E01",
+      "title": "Google — Video generation prompt guide",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Đối chiếu các định nghĩa chuyển động máy."
+    },
+    {
+      "id": "E02",
+      "title": "Google DeepMind — How to create effective prompts with Veo 3",
+      "url": "https://deepmind.google/models/veo/prompt-guide/",
+      "purpose": "Đối chiếu các thành phần khi mô tả cảnh."
+    },
+    {
+      "id": "E03",
+      "title": "Adobe — Pan shot",
+      "url": "https://www.adobe.com/uk/creativecloud/video/production/cinematography/camera-shots-and-angles/pan-shot.html",
+      "purpose": "Định nghĩa lia ngang và ví dụ lia hé lộ."
+    },
+    {
+      "id": "E04",
+      "title": "Adobe — 6 Tips for Still Photographers Learning to Shoot Video",
+      "url": "https://blog.adobe.com/en/publish/2018/02/26/6-tips-still-photographers-learning-shoot-video",
+      "purpose": "Chuyển động máy cần lý do; quan sát hành động trong khung."
+    }
+  ],
+  "files": [
+    {
+      "source_id": "B001-00",
+      "order": 0,
+      "original_filename": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director.jpg",
+      "stored_path": "anh-goc/00-bia.jpg",
+      "drive_file_id": "1ArfWaJYhniuMtQ5diIhZuwErfZl_J6V-",
+      "drive_url": "https://drive.google.com/file/d/1ArfWaJYhniuMtQ5diIhZuwErfZl_J6V-/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 131724,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "6882a44998d76ebae90743955aba36ffccd29aa06626c25be20135688f4dcd43",
+      "git_blob_sha1": "b656dd24b44371df848aa4b27eae2a9dc5273414",
+      "title": "Bìa",
+      "role": "cover",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-01",
+      "order": 1,
+      "original_filename": "01.jpg",
+      "stored_path": "anh-goc/01.jpg",
+      "drive_file_id": "1HprgHMvTbGvUbE_izTYLF98nkC2hlQNS",
+      "drive_url": "https://drive.google.com/file/d/1HprgHMvTbGvUbE_izTYLF98nkC2hlQNS/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 131048,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "3acc941e9143bfd3531b1628b8ece08eee78e3523399ae9f5319337c7643d8a3",
+      "git_blob_sha1": "c417487f1cf79f0bf5b26e535470f727e45f7889",
+      "title": "Vấn đề: ảnh động và điện ảnh",
+      "role": "introduction",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-02",
+      "order": 2,
+      "original_filename": "02.jpg",
+      "stored_path": "anh-goc/02.jpg",
+      "drive_file_id": "1jGKzQLGnQoNueJw08eETzFth1kJAaODg",
+      "drive_url": "https://drive.google.com/file/d/1jGKzQLGnQoNueJw08eETzFth1kJAaODg/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 146080,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "c5faacaf30b9202ed4595ad99ba9c393bd0d0c3a734832c213ebc32c37d541d6",
+      "git_blob_sha1": "43a15554ffedaddc7da6d8757b3d4919eb0a5bc5",
+      "title": "Vai trò người đạo diễn",
+      "role": "introduction",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-03",
+      "order": 3,
+      "original_filename": "03.jpg",
+      "stored_path": "anh-goc/03.jpg",
+      "drive_file_id": "12CxcN3h6aq1fdZw04HqDGyIQ4zcrOehr",
+      "drive_url": "https://drive.google.com/file/d/12CxcN3h6aq1fdZw04HqDGyIQ4zcrOehr/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 145591,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "19228ad895bf1782d50e231aa1b676f8359e173192617c5da9069e48788ebb58",
+      "git_blob_sha1": "3cfbff4307873ca7b166557b64838a9eaf6a4b19",
+      "title": "Tiến máy: nguyên lý",
+      "role": "technique",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-04",
+      "order": 4,
+      "original_filename": "04.jpg",
+      "stored_path": "anh-goc/04.jpg",
+      "drive_file_id": "1rSrgOOtaNnQDg092h9LkS0XquhOup77n",
+      "drive_url": "https://drive.google.com/file/d/1rSrgOOtaNnQDg092h9LkS0XquhOup77n/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 141358,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "a0a287eb4a3d2e5d28f6c2f1a73f4510802dc678b4ade03044f5f0d885342d46",
+      "git_blob_sha1": "9238f2c46e2a8e262855a16f56928638db2eea39",
+      "title": "Tiến máy: khi nào và tại sao",
+      "role": "application",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-05",
+      "order": 5,
+      "original_filename": "05.jpg",
+      "stored_path": "anh-goc/05.jpg",
+      "drive_file_id": "1GcIdxX4s72QHmEYzmaaClItougF0gmuK",
+      "drive_url": "https://drive.google.com/file/d/1GcIdxX4s72QHmEYzmaaClItougF0gmuK/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 128638,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "c5db78a8fc99e57ff52ceecb534d53fe2e71189fdd40e6a23f27f27668e2d4d8",
+      "git_blob_sha1": "992af347d76f09263f4fcaee7f90435144717bf7",
+      "title": "Đi vòng: nguyên lý",
+      "role": "technique",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Cụm “cảm giác sía” bất thường trong nguồn; đã xem vùng phóng, không tự sửa."
+      }
+    },
+    {
+      "source_id": "B001-06",
+      "order": 6,
+      "original_filename": "06.jpg",
+      "stored_path": "anh-goc/06.jpg",
+      "drive_file_id": "1ScOnG7iEQxbBOLIK_Q4lyFe6M5kv7nQ_",
+      "drive_url": "https://drive.google.com/file/d/1ScOnG7iEQxbBOLIK_Q4lyFe6M5kv7nQ_/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 137774,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "b8ab84802f42245ea49c9e7e158249e0b06fa055561d72eee824300458dadc04",
+      "git_blob_sha1": "1f41b61a7c53e3272b9ec9072deb5c63552ec500",
+      "title": "Đi vòng: khi nào và tại sao",
+      "role": "application",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-07",
+      "order": 7,
+      "original_filename": "07.jpg",
+      "stored_path": "anh-goc/07.jpg",
+      "drive_file_id": "1FymN2YjCw3eWCF4W8gkqmWv_G38iuL6v",
+      "drive_url": "https://drive.google.com/file/d/1FymN2YjCw3eWCF4W8gkqmWv_G38iuL6v/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 191491,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "37f6ae5f3bcd4c70f5ddcc671c0c52a9baad47f53499ebcadf0de6c55a6ff018",
+      "git_blob_sha1": "07050e9b27de4e6fa8e69751a2b665ccae9a83db",
+      "title": "Hé lộ: nguyên lý",
+      "role": "technique",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-08",
+      "order": 8,
+      "original_filename": "08.jpg",
+      "stored_path": "anh-goc/08.jpg",
+      "drive_file_id": "1pjjMzAxw5p4th6ZbZ3OizSCLo4ZpQFlo",
+      "drive_url": "https://drive.google.com/file/d/1pjjMzAxw5p4th6ZbZ3OizSCLo4ZpQFlo/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 126850,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "36a9d43d4208e1d9dc18d21b69604fe100b0df9088bd3739ada16dea6d825a12",
+      "git_blob_sha1": "62e4f17b955697eaffaba348fc0b106fed425d60",
+      "title": "Hé lộ: khi nào và tại sao",
+      "role": "application",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-09",
+      "order": 9,
+      "original_filename": "09.jpg",
+      "stored_path": "anh-goc/09.jpg",
+      "drive_file_id": "1P6By7LMQaMu3vGz_5FpL901wCDI0dsxk",
+      "drive_url": "https://drive.google.com/file/d/1P6By7LMQaMu3vGz_5FpL901wCDI0dsxk/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 191792,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "3dacc330adad431ca261cca7a7b4bf9a2e42882fc03e0e4021e568909ab5bdd9",
+      "git_blob_sha1": "72f63294d6a90f54139c60fc1f02e4519d584355",
+      "title": "Cầm tay: nguyên lý",
+      "role": "technique",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-10",
+      "order": 10,
+      "original_filename": "10.jpg",
+      "stored_path": "anh-goc/10.jpg",
+      "drive_file_id": "17XG8inYOXIXn3VCx95zjqrr5yTprOfzl",
+      "drive_url": "https://drive.google.com/file/d/17XG8inYOXIXn3VCx95zjqrr5yTprOfzl/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 157256,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "f33bcd4aa07cfacd8871105750d8d14a70d35f1f902a2c4f36a3b7fe4c2fe5c6",
+      "git_blob_sha1": "92a01edf42d01480bcd9cc69cd6157eba7b4e452",
+      "title": "Cầm tay: khi nào và tại sao",
+      "role": "application",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Không có video để kiểm chứng chuyển động; giữ riêng quan sát ảnh và diễn giải."
+      }
+    },
+    {
+      "source_id": "B001-11",
+      "order": 11,
+      "original_filename": "011.jpg",
+      "stored_path": "anh-goc/11.jpg",
+      "drive_file_id": "1C4NYW9-o3AcJJNAzKdM8fZ5UTmQNHbrp",
+      "drive_url": "https://drive.google.com/file/d/1C4NYW9-o3AcJJNAzKdM8fZ5UTmQNHbrp/view?usp=drivesdk",
+      "mime_type": "image/jpeg",
+      "bytes": 101883,
+      "width": 1834,
+      "height": 1024,
+      "sha256": "6e7bf7a4f69f243752fea836b76bc24f34fd67bb23f868317b4829fe0ce41f0e",
+      "git_blob_sha1": "8891c1eea1e5df2f83af33627d98ae619893bb14",
+      "title": "Tổng kết",
+      "role": "summary",
+      "review": {
+        "download_complete": true,
+        "size_matches_drive": true,
+        "image_opened_directly": true,
+        "main_text_read": true,
+        "image_interpretation_recorded": true,
+        "note": "Tên gốc 011.jpg tương ứng vị trí nội dung số 11."
+      }
+    }
+  ]
+}

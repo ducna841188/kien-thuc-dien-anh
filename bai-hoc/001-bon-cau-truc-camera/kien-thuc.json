@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "lesson_id": "B001",
+  "language": "vi",
+  "reviewed_on": "2026-10-17",
+  "scope": "Kho tham chiếu đã biên soạn từ 12 ảnh; không phải huấn luyện mô hình.",
+  "core_principle": {
+    "text": "Chọn máy theo thông tin hoặc cảm xúc cần truyền đạt; viết rõ khung đầu, hành động, máy và khung cuối.",
+    "provenance": "editorial_synthesis",
+    "source_ids": [
+      "B001-02",
+      "B001-03",
+      "B001-05",
+      "B001-07",
+      "B001-09"
+    ]
+  },
+  "techniques": [
+    {
+      "id": "push_in",
+      "english": "push-in / dolly-in",
+      "vietnamese": "tiến máy",
+      "category": "camera_path",
+      "source_ids": [
+        "B001-03",
+        "B001-04"
+      ],
+      "source_prompt": "slow push-in toward the character",
+      "source_prompt_translation": "Máy từ từ tiến về phía nhân vật.",
+      "intended_effect": "Tập trung sự chú ý vào trạng thái hoặc chi tiết quan trọng.",
+      "condition": "Hiệu quả cảm xúc phụ thuộc bối cảnh; không phải điều kiện bắt buộc của cảnh điện ảnh.",
+      "check": "Máy tiến đúng hướng; gương mặt và không gian liên tục; chủ thể không tự tiến ngoài ý đồ.",
+      "avoid_confusion_with": "zoom / thay đổi tiêu cự"
+    },
+    {
+      "id": "orbit",
+      "english": "orbit / arc shot",
+      "vietnamese": "đi máy theo cung quanh chủ thể",
+      "category": "camera_path",
+      "source_ids": [
+        "B001-05",
+        "B001-06"
+      ],
+      "source_prompt": "smooth 30-degree orbit around the character",
+      "source_prompt_translation": "Máy đi êm theo cung ba mươi độ quanh nhân vật.",
+      "intended_effect": "Thay góc nhìn, làm rõ chiều sâu hoặc quan hệ chủ thể–không gian.",
+      "condition": "Ba mươi độ là ví dụ nguồn; không bảo đảm tối ưu hoặc thực hiện chính xác trên mọi mô hình.",
+      "check": "Máy đổi vị trí theo cung; chủ thể không tự xoay; các lớp cảnh giữ hình học hợp lý.",
+      "avoid_confusion_with": "pan / lia ngang từ điểm đặt máy cố định"
+    },
+    {
+      "id": "reveal",
+      "english": "reveal",
+      "vietnamese": "hé lộ",
+      "category": "narrative_intention",
+      "source_ids": [
+        "B001-07",
+        "B001-08"
+      ],
+      "source_prompt": "slow dolly-out to reveal the environment",
+      "source_prompt_translation": "Máy từ từ lùi để hé lộ môi trường.",
+      "intended_effect": "Cuối cảnh cho thấy thông tin có ý nghĩa mà đầu cảnh chưa thấy.",
+      "condition": "Lùi máy là một cách thực hiện; không phải cách duy nhất.",
+      "check": "Thông tin mới xuất hiện; vẫn cùng không gian liên tục; ảnh ghép nguồn không chứng minh video động.",
+      "avoid_confusion_with": "Mọi cảnh chỉ rộng ra nhưng không có mục đích cung cấp thông tin."
+    },
+    {
+      "id": "handheld",
+      "english": "handheld",
+      "vietnamese": "máy cầm tay",
+      "category": "camera_handling",
+      "source_ids": [
+        "B001-09",
+        "B001-10"
+      ],
+      "source_prompt": "subtle handheld shake 3–5%",
+      "source_prompt_translation": "Dao động máy cầm tay nhẹ; mức phần trăm trong nguồn chưa được định nghĩa.",
+      "intended_effect": "Gợi cảm giác hiện diện hoặc quan sát trực tiếp tùy bối cảnh.",
+      "condition": "Không tự làm video chân thực; 3–5% không phải thang đo chung đã được nguồn xác lập.",
+      "check": "Dao động máy không làm mất hành động; vật thể không tự méo; chọn mức hợp giọng điệu.",
+      "avoid_confusion_with": "Rung mạnh hoặc biến dạng cảnh để giả chuyển động máy."
+    }
+  ],
+  "editorial_corrections": [
+    {
+      "id": "N01",
+      "source_ids": [
+        "B001-01"
+      ],
+      "status": "unsupported_quantification",
+      "guidance": "Không dùng 90% như số liệu được chứng minh."
+    },
+    {
+      "id": "N02",
+      "source_ids": [
+        "B001-04"
+      ],
+      "status": "overgeneralization",
+      "guidance": "Máy cố định vẫn có thể truyền tải cảm xúc."
+    },
+    {
+      "id": "N03",
+      "source_ids": [
+        "B001-05",
+        "B001-06"
+      ],
+      "status": "conditional_artistic_effect",
+      "guidance": "Đi vòng không tự tạo uy lực hoặc cứu mọi cảnh hành động."
+    },
+    {
+      "id": "N04",
+      "source_ids": [
+        "B001-07"
+      ],
+      "status": "clarify_taxonomy",
+      "guidance": "Hé lộ là dụng ý; lùi máy là một đường máy có thể thực hiện dụng ý."
+    },
+    {
+      "id": "N05",
+      "source_ids": [
+        "B001-09"
+      ],
+      "status": "undefined_unit",
+      "guidance": "Phần trăm rung chưa có đơn vị hoặc thang đo trong nguồn."
+    },
+    {
+      "id": "N06",
+      "source_ids": [
+        "B001-10"
+      ],
+      "status": "overgeneralization",
+      "guidance": "Hình ổn định không đồng nghĩa giả; cầm tay không đồng nghĩa tư liệu thật."
+    },
+    {
+      "id": "N07",
+      "source_ids": [
+        "B001-11"
+      ],
+      "status": "mixed_categories",
+      "guidance": "Phân biệt đường đi, dụng ý và cách vận hành khi viết yêu cầu."
+    }
+  ],
+  "practice_status": {
+    "generated_video_count": 0,
+    "prompts_tested": false,
+    "success_rate": null
+  },
+  "retrieval_tags": [
+    "máy quay",
+    "đường máy",
+    "cảm xúc",
+    "chiều sâu",
+    "hé lộ",
+    "cầm tay",
+    "nông thôn",
+    "câu lệnh video AI"
+  ],
+  "use_in_future": "Đọc lại bài chính, nguồn ảnh liên quan và trạng thái thử nghiệm trước khi áp dụng vào cảnh mới."
+}
