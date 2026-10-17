@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 18/10/2026.
 
-**Tiến độ:** 32/33 bài; 430/444 ảnh đã đọc. Bài kế tiếp: **B033**.
+**Tiến độ:** 33/33 bài; 444/444 ảnh đã đọc. Bài kế tiếp: **Không còn bài chờ**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -40,7 +40,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 030 | [Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau](https://drive.google.com/drive/folders/1MwgVwSjwR2NgZIjxLi7tEPatZyv9lrME) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/030-gan-thoai-dung-nhan-vat/README.md) |
 | 031 | [Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức](https://drive.google.com/drive/folders/17sYCtB5SAM-8djJiv-yRbp6-yBPuw9fM) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/031-tu-mo-ta-den-dao-dien/README.md) |
 | 032 | [Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1](https://drive.google.com/drive/folders/1SsWJhGlNJgODyzgZ-hGfkouj-1YY-LAx) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/032-dieu-khien-am-thanh/README.md) |
-| 033 | [VEO đang làm ngơ prompt của bạn](https://drive.google.com/drive/folders/1_I1lxxVN8q4UgmE6NTPtgANVvrTZ_9kt) | 14 | Chưa đọc | — |
+| 033 | [VEO đang làm ngơ prompt của bạn](https://drive.google.com/drive/folders/1_I1lxxVN8q4UgmE6NTPtgANVvrTZ_9kt) | 14 | Đã hoàn thành | [Mở bài](bai-hoc/033-sua-prompt-bi-bo-qua/README.md) |
 
 ## Các đợt tuần tự
 
@@ -56,6 +56,6 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D08 | 023–025 | 43 | Đã hoàn thành |
 | D09 | 026–028 | 39 | Đã hoàn thành |
 | D10 | 029–031 | 37 | Đã hoàn thành |
-| D11 | 032–033 | 26 | Đang xử lý |
+| D11 | 032–033 | 26 | Đã hoàn thành |
 
 Mỗi bài được đọc, biên soạn, lưu và xác minh trên GitHub trước khi chuyển sang bài sau. Trạng thái từng đợt được ghi trong bảng; các bài chưa hoàn thành tiếp tục nằm trong danh mục chờ.

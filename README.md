@@ -2,10 +2,10 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 32/33 bài, đọc 430/444 ảnh.**
+**Đã hoàn thành 33/33 bài, đọc 444/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
-
+ · [Hướng dẫn học theo chủ đề](HUONG-DAN-HOC.md) · [Lưu ý về nguồn](CHAT-LUONG-NGUON.md)
 ## Bài đã hoàn thành
 
 | Mã | Bài học | Ảnh |
@@ -42,6 +42,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B030 | [Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau](bai-hoc/030-gan-thoai-dung-nhan-vat/README.md) | 12 |
 | B031 | [Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức](bai-hoc/031-tu-mo-ta-den-dao-dien/README.md) | 12 |
 | B032 | [Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1](bai-hoc/032-dieu-khien-am-thanh/README.md) | 12 |
+| B033 | [VEO đang làm ngơ prompt của bạn](bai-hoc/033-sua-prompt-bi-bo-qua/README.md) | 14 |
 
 ## Quy ước học tập
 

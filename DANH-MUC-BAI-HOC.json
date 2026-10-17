@@ -19,15 +19,15 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 32,
-    "pending_lessons": 1,
-    "images_read": 430,
-    "pending_images": 14
+    "completed_lessons": 33,
+    "pending_lessons": 0,
+    "images_read": 444,
+    "pending_images": 0
   },
-  "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
-  "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B033",
-  "next_pending_batch": "D11",
+  "content_review_scope": "Đã mở trực tiếp và biên soạn toàn bộ 33 bài, gồm 444 tệp ảnh trong danh mục. Số tệp bao gồm ảnh trùng; không đồng nghĩa 444 nội dung độc lập. Chưa sinh video để kiểm nghiệm câu lệnh.",
+  "execution_policy": "Đã xử lý tuần tự từng bài: đọc ảnh, biên soạn, lưu và xác minh GitHub trước khi chuyển bài. Tất cả 11 đợt đã hoàn thành.",
+  "next_pending_lesson": null,
+  "next_pending_batch": null,
   "batches": [
     {
       "batch_id": "D01",
@@ -158,7 +158,7 @@
       "from_sequence": 32,
       "to_sequence": 33,
       "image_count": 26,
-      "status": "in_progress"
+      "status": "completed"
     }
   ],
   "lessons": [
@@ -3756,10 +3756,10 @@
       "current_name": "033 - VEO đang làm ngơ prompt của bạn",
       "display_title": "VEO đang làm ngơ prompt của bạn",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 14,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 14,
+      "repository_lesson_path": "bai-hoc/033-sua-prompt-bi-bo-qua",
       "image_inventory": [
         {
           "id": "1DY0h0IyiVuoQJtMXF511kd2bBggQfIbX",
@@ -3860,7 +3860,8 @@
           "url": "https://drive.google.com/file/d/1qN62HjwXD6dkMK-zEP7OcXYDvg3EOebf/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     }
   ]
 }
