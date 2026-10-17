@@ -1,0 +1,105 @@
+{
+  "lesson_id": "B032",
+  "summary": "Âm thanh cần được lên kế hoạch cùng hành động. Bài tách thoại, tiếng sự kiện và nền môi trường, sau đó bàn về nhạc, im lặng và hậu kỳ. Mỗi yêu cầu âm thanh nên nói rõ nguồn, thời điểm, khoảng cách và vai trò; ảnh không đủ chứng minh chất lượng hay độ khớp.",
+  "principles": [
+    {
+      "title": "Lập danh sách những gì thật sự cần nghe",
+      "source_ids": [
+        "B032-00",
+        "B032-01",
+        "B032-02",
+        "B032-10",
+        "B032-11"
+      ],
+      "source": "Nguồn chia thoại, tiếng sự kiện và nền môi trường.",
+      "explanation": "Thoại là lời phát ra; SFX (hiệu ứng/tiếng sự kiện) gắn hành động cụ thể; ambient (nền môi trường) giữ cảm giác nơi chốn. Có thể thêm nhạc thành lớp riêng nếu cần. Không điền đủ mọi nhóm theo thói quen; cảnh thao tác yên tĩnh có thể chỉ cần tiếng vật liệu và nền sân.",
+      "example": "Đan tre: không thoại, tiếng nan cọ theo lực kéo và nền gió nhỏ. Nhạc chỉ thêm khi có vai trò trong bản dựng.",
+      "check": "Mỗi lớp có chức năng; không tự có giọng kể hoặc nhạc lấn vật liệu.",
+      "illustration": 2
+    },
+    {
+      "title": "Viết lời theo người nói và thời gian thật",
+      "source_ids": [
+        "B032-03"
+      ],
+      "source": "Nguồn đặt nội dung lời trong ngoặc kép để phân biệt với mô tả hình.",
+      "explanation": "Gắn người nói với nguyên văn câu, ngôn ngữ, loại giọng và nhịp. Nếu đang sửa nhầm thoại, dùng một lượt mỗi lần tạo và người nghe ngoài vùng rõ miệng. Đọc thử trước; dấu ngoặc không tự làm lời đúng.",
+      "example": "Bà nói tiếng Việt, giọng ấm vừa phải: 'Con đặt chiếc giỏ ở đây nhé.' Cô gái nghe, không thêm câu đáp trong yêu cầu này.",
+      "check": "Nghe đủ từ, đúng người/giọng, môi cùng nhịp; không tự thêm câu.",
+      "illustration": 3
+    },
+    {
+      "title": "Tiếng thao tác có nguồn và mốc xảy ra",
+      "source_ids": [
+        "B032-04",
+        "B032-06"
+      ],
+      "source": "Nguồn muốn mô tả nguồn phát âm và hành động rõ.",
+      "explanation": "Nêu vật liệu, lực và pha phát tiếng: kéo có cọ, đặt có chạm, sau đó lắng. Khoảng cách và âm lượng cần hợp góc nhìn/ý đồ nghe. Có thể dùng tiếng ngoài khung nếu giải thích vị trí; không bắt mọi nguồn phải lộ trong hình.",
+      "example": "Giỏ hạ xuống chạm bàn gỗ tạo một tiếng cộc nhẹ đúng khoảnh khắc tiếp xúc; tiếng tắt dần khi tay buông. Không có tiếng va trước khi giỏ tới bàn.",
+      "check": "Âm không đi trước tiếp xúc, không lặp va khi vật đã đứng yên; chất tiếng hợp vật liệu.",
+      "illustration": 4
+    },
+    {
+      "title": "Nền không gian phải liên tục qua góc dựng",
+      "source_ids": [
+        "B032-05",
+        "B032-06"
+      ],
+      "source": "Nguồn dùng môi trường để tạo chiều sâu và khớp bối cảnh.",
+      "explanation": "Chọn vài âm nền có căn cứ, vị trí gần/xa rõ. Cùng thời điểm và địa điểm nên có lớp nền liên tục qua các góc. Không thêm chợ đông vào sân vắng; nếu tiếng đến từ ngoài khung thì ghi hướng/xa. Nhạc không phải nền môi trường.",
+      "example": "Hai góc bà–cô đều có nền sân nhẹ, tiếng lá xa; khi cắt sang cận tay, không đột nhiên thành không khí văn phòng.",
+      "check": "Đổi góc không làm địa điểm âm thanh đổi vô lý; lời/tiếng thao tác vẫn rõ hơn nền.",
+      "illustration": 5
+    },
+    {
+      "title": "Khoảng lặng và nhạc là hai quyết định riêng",
+      "source_ids": [
+        "B032-07",
+        "B032-08"
+      ],
+      "source": "Nguồn bàn nhạc định nhịp và yêu cầu im lặng.",
+      "explanation": "Ghi rõ chỉ bỏ nhạc, chỉ giảm nền hay im toàn bộ. Khi cần tập trung vào tay, vẫn giữ tiếng thao tác và nền nhỏ. Nếu muốn im tuyệt đối hoặc cân lớp chính xác, kiểm tra thiết lập rồi xử lý hậu kỳ khi cần. Không dựa riêng vào tên thể loại nhạc để điều khiển nhịp hình.",
+      "example": "Khoảnh khắc cô nhìn giỏ: ngừng lời và nhạc nhưng vẫn có hơi thở/gió nhỏ. Đây là khoảng yên, không phải tệp không có âm.",
+      "check": "Không xóa mất SFX cần nghe; chuyển mức âm không bật gắt; nhịp hình được chỉ đạo riêng.",
+      "illustration": 8
+    },
+    {
+      "title": "Duyệt hình và tiếng theo cùng một sự kiện",
+      "source_ids": [
+        "B032-09",
+        "B032-10"
+      ],
+      "source": "Nguồn ghép khối âm thanh vào yêu cầu hình hoàn chỉnh.",
+      "explanation": "Viết hình trước để xác định điều xảy ra rồi thêm âm theo sự kiện. Khi duyệt, xem có tiếng ở tốc độ thường, nghe riêng để phát hiện âm thừa, rồi soi mốc chạm/môi. Nếu tạo tích hợp chưa đạt, giữ hình tốt và thay tiếng trong hậu kỳ. Đây là quy trình đề xuất chưa chạy thử ở đây.",
+      "example": "Giữ cảnh đặt giỏ đúng dù tiếng chạm bị trễ; ghi lỗi để chỉnh tiếng, không bắt đầu lại mặt/áo nếu phần hình đã tốt.",
+      "check": "Đúng sự kiện, thời điểm, vị trí và mức nổi; không suy ra khớp chỉ từ dạng sóng vẽ trên ảnh.",
+      "illustration": 9
+    }
+  ],
+  "editorial_corrections": [
+    "Ba nhóm âm thanh là cách phân loại, không bảo đảm đầu ra có ba track (lớp âm riêng) để chỉnh độc lập.",
+    "Dialogue/SFX/Ambient noise là nhãn văn bản hữu ích, không cú pháp bắt buộc đã chứng minh.",
+    "Ngoặc kép không tự bảo đảm lời nguyên văn hoặc đúng người; đồng bộ hoàn hảo chưa được kiểm chứng.",
+    "Bước chân hay tiếng khác có thể đến từ ngoài khung; cần quan hệ không gian hợp lý, không bắt nguồn luôn lộ hình.",
+    "Không nhạc khác nền yên và im tuyệt đối. Yêu cầu im có thể vẫn cần hậu kỳ để đạt chính xác.",
+    "Tên thể loại nhạc không kiểm soát tuyệt đối tốc độ máy/hành động. Mô tả âm và hình cần nhất quán.",
+    "Ví dụ tiếng bụng của người xa có thể là phóng đại hài; không mặc định dùng cho cảnh âm thanh tự nhiên."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B032-00",
+    "B032-01",
+    "B032-02",
+    "B032-03",
+    "B032-04",
+    "B032-05",
+    "B032-06",
+    "B032-07",
+    "B032-08",
+    "B032-09",
+    "B032-10",
+    "B032-11"
+  ],
+  "references": []
+}

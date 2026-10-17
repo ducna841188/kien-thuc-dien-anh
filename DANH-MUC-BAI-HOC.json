@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 31,
-    "pending_lessons": 2,
-    "images_read": 418,
-    "pending_images": 26
+    "completed_lessons": 32,
+    "pending_lessons": 1,
+    "images_read": 430,
+    "pending_images": 14
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B032",
+  "next_pending_lesson": "B033",
   "next_pending_batch": "D11",
   "batches": [
     {
@@ -158,7 +158,7 @@
       "from_sequence": 32,
       "to_sequence": 33,
       "image_count": 26,
-      "status": "pending"
+      "status": "in_progress"
     }
   ],
   "lessons": [
@@ -3654,10 +3654,10 @@
       "current_name": "032 - Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1",
       "display_title": "Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 12,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 12,
+      "repository_lesson_path": "bai-hoc/032-dieu-khien-am-thanh",
       "image_inventory": [
         {
           "id": "1jjIQJLuLSCl8MhN1D4vGsVWIxzM4b5sK",
@@ -3744,7 +3744,8 @@
           "url": "https://drive.google.com/file/d/1vj31kfC4Bad2j671b-wQ5NkKDQdQGhLn/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 33,
