@@ -1,0 +1,94 @@
+{
+  "lesson_id": "B031",
+  "summary": "Ba quyết định độc lập giúp mô tả cảnh chính xác: nhìn gần đến đâu, nhìn từ hướng/độ cao nào và máy có chuyển động gì. Bài cung cấp thang cỡ cảnh, góc cao–thấp–ngang–nghiêng và nhóm xoay tại chỗ/di chuyển trong không gian để chọn theo mục tiêu kể chuyện.",
+  "principles": [
+    {
+      "title": "Cỡ cảnh trả lời cần nhìn bằng chứng gì",
+      "source_ids": [
+        "B031-00",
+        "B031-01",
+        "B031-02",
+        "B031-03",
+        "B031-04"
+      ],
+      "source": "Nguồn đưa thang rất rộng → rộng → trung → trung cận → cận → đặc tả.",
+      "explanation": "EWS (rất rộng) cho quan hệ người–không gian; WS/LS (toàn/rộng) cho toàn thân; MS (trung) thường từ thắt lưng; MCU (trung cận) thường từ ngực; CU (cận) tập trung mặt/vật; ECU (đặc tả) chỉ chi tiết. Đây là hướng nhận diện, cần nêu phần phải giữ trong khung.",
+      "example": "Phủ luống dùng toàn thân và chiều dài tấm; đan dùng cận hai tay và khe; phản ứng dùng trung cận mặt.",
+      "check": "Không chọn cận mặt cho cảnh cần chứng minh vật chạm đất; nhãn khớp hình thực.",
+      "illustration": 2
+    },
+    {
+      "title": "Tách độ cao, hướng nhìn và độ nghiêng",
+      "source_ids": [
+        "B031-05",
+        "B031-06",
+        "B031-07"
+      ],
+      "source": "Nguồn giới thiệu góc ngang mắt, cao, thấp và nghiêng cùng các độ cao hông/gối/đất.",
+      "explanation": "Viết máy cao bằng gì và nhìn theo hướng nào. High/low angle (góc cao/thấp) mô tả nhìn xuống/lên; hip/knee/ground level (ngang hông/gối/sát đất) mô tả nơi đặt máy. Dutch angle (khung nghiêng) là xoay chân trời, có thể đi cùng góc thấp nhưng không bắt buộc.",
+      "example": "Máy ngang gối, nhìn gần ngang để thấy bước chân cô dọc luống. Muốn nhìn xuống thao tác bàn, dùng máy cao hơn tay và hướng xuống rõ.",
+      "check": "Máy có đúng vị trí và hướng, chân trời chỉ nghiêng khi chủ ý; không làm dáng người méo để giả góc.",
+      "illustration": 7
+    },
+    {
+      "title": "Lia, ngẩng/cúi, xoay là đổi hướng tại chỗ",
+      "source_ids": [
+        "B031-08",
+        "B031-09"
+      ],
+      "source": "Nguồn phân biệt pan, tilt và roll.",
+      "explanation": "Pan (lia ngang) quét trái/phải; tilt (ngẩng/cúi) quét lên/xuống; roll (xoay trục nhìn) làm chân trời quay. Với mỗi yêu cầu nêu điểm đầu/cuối nhìn và tốc độ. Khung nghiêng cố định không đòi tiếp tục roll suốt cảnh.",
+      "example": "Máy cố định vị trí, cúi chậm từ mặt cô xuống đôi tay đang giữ giỏ. Không đồng thời hạ thân máy xuống sân.",
+      "check": "Điểm đặt không dịch chuyển vô cớ; hướng nhìn tới đích; không nhầm tilt với nâng/hạ máy.",
+      "illustration": 9
+    },
+    {
+      "title": "Dịch chuyển phải có quỹ đạo và vật mốc",
+      "source_ids": [
+        "B031-08",
+        "B031-10"
+      ],
+      "source": "Nguồn liệt kê dolly, tracking/truck, crane/boom và arc/orbit.",
+      "explanation": "Dolly in/out (tiến/lùi) đổi khoảng cách; truck (chạy ngang) đổi vị trí sang bên; tracking (bám theo) cần nói từ sau, trước hay bên; crane/boom (nâng/hạ theo cần) đổi độ cao trong không gian; orbit (đi vòng) đổi phía nhìn quanh chủ thể. Zoom đổi góc nhìn qua tiêu cự, không cần thân máy tiến.",
+      "example": "Bám ngang cùng cô mang giỏ để giữ cỡ toàn thân; hàng cây và bờ luống dịch tương đối. Nếu chỉ cần tập trung mắt, thử tiến rất nhẹ trong cảnh riêng.",
+      "check": "Nền và chủ thể có quan hệ không gian đúng; nhân vật không xoay thay máy; đường đi không xuyên bàn.",
+      "illustration": 10
+    },
+    {
+      "title": "Dùng bảng tra để chọn một phương án",
+      "source_ids": [
+        "B031-11"
+      ],
+      "source": "Nguồn nối mục tiêu kể chuyện với cỡ/góc/chuyển động.",
+      "explanation": "Chọn thông tin trước rồi một tổ hợp đơn giản. Thân mật có thể trung cận ngang mắt tĩnh; giới thiệu sân có thể rộng lia chậm. Nếu cần chính xác thao tác, ưu tiên đọc rõ điểm tiếp xúc hơn cảm giác uy lực. Kiểm tra cả đầu–giữa–cuối.",
+      "example": "Đoạn đời sống: toàn sân ngang mắt tĩnh → cận tay hơi cao tĩnh → trung cận phản ứng tiến nhẹ. Mỗi cảnh một nhiệm vụ.",
+      "check": "Không đổi góc liên tục chỉ để có nhiều thuật ngữ; từng chuyển động có lý do.",
+      "illustration": 11
+    }
+  ],
+  "editorial_corrections": [
+    "Thư mục có 12 tệp: bìa, 01–09, 011, 012; không có tệp tên số 10 trong kiểm kê. Đã đọc đủ hiện có, không bịa trang thiếu.",
+    "Cỡ cảnh, góc và chuyển động là ba trục; CU không tự đồng nghĩa tele (ống kính góc hẹp), góc thấp không tự đồng nghĩa máy đang tiến.",
+    "Khung nghiêng Dutch angle khác tilt ngẩng/cúi; roll là chuyển động xoay, Dutch angle có thể được giữ cố định.",
+    "Tracking không chỉ chạy song song; nguồn có ví dụ bám từ phía sau nên phải ghi rõ đường đi.",
+    "Tác dụng tâm lý của góc là có điều kiện; không tự bảo đảm uy lực/yếu thế/căng thẳng.",
+    "Một số ảnh hoặc chữ mẫu không hoàn toàn khớp nhãn, có chữ lạc; giữ nguyên nguồn và dùng bản thực hành đã làm rõ.",
+    "Không cần máy chuyển động để cảnh có chất điện ảnh; ảnh tĩnh không chứng minh máy đã thực hiện quỹ đạo."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B031-00",
+    "B031-01",
+    "B031-02",
+    "B031-03",
+    "B031-04",
+    "B031-05",
+    "B031-06",
+    "B031-07",
+    "B031-08",
+    "B031-09",
+    "B031-10",
+    "B031-11"
+  ],
+  "references": []
+}
