@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 13/33 bài; 187/444 ảnh đã đọc. Bài kế tiếp: **B014**.
+**Tiến độ:** 14/33 bài; 199/444 ảnh đã đọc. Bài kế tiếp: **B015**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -21,7 +21,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 011 | [Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood](https://drive.google.com/drive/folders/1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/011-anh-sang-bo-nen-nhip-cham/README.md) |
 | 012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](https://drive.google.com/drive/folders/1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1) | 16 | Đã hoàn thành | [Mở bài](bai-hoc/012-cau-truc-camera/README.md) |
 | 013 | [Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)](https://drive.google.com/drive/folders/1DcfzftcYU9njo4dJcM3AXgUjWpFPsqMA) | 16 | Đã hoàn thành | [Mở bài](bai-hoc/013-tach-shot-hoi-thoai/README.md) |
-| 014 | [Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)](https://drive.google.com/drive/folders/1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV) | 12 | Chưa đọc | — |
+| 014 | [Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)](https://drive.google.com/drive/folders/1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/014-dao-dien-bang-yeu-cau-ro/README.md) |
 | 015 | [Bí Mật Veo 3.1- Tại Sao AI Không "Vẽ" Video Mà Chỉ "Dự Đoán Chuyển Động"? (Làm Chủ Logic Vật Lý)](https://drive.google.com/drive/folders/15eT4W3GaEGptuMmpU0ArNPc0Bt89hIdv) | 12 | Chưa đọc | — |
 | 016 | [Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1)](https://drive.google.com/drive/folders/1OMA50oqtlKvMFP25a5aPTrixLYecm3YO) | 14 | Chưa đọc | — |
 | 017 | [CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức "vàng" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!](https://drive.google.com/drive/folders/1qepchr-kwNzUsXqxz87RG0dqwGuWAU8R) | 10 | Chưa đọc | — |
@@ -50,7 +50,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D02 | 005–007 | 40 | Đã hoàn thành |
 | D03 | 008–010 | 50 | Đã hoàn thành |
 | D04 | 011–013 | 50 | Đã hoàn thành |
-| D05 | 014–016 | 38 | Chưa đọc |
+| D05 | 014–016 | 38 | Đang xử lý |
 | D06 | 017–019 | 35 | Chưa đọc |
 | D07 | 020–022 | 39 | Chưa đọc |
 | D08 | 023–025 | 43 | Chưa đọc |
