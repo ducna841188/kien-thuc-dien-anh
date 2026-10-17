@@ -19,15 +19,15 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 27,
-    "pending_lessons": 6,
-    "images_read": 368,
-    "pending_images": 76
+    "completed_lessons": 28,
+    "pending_lessons": 5,
+    "images_read": 381,
+    "pending_images": 63
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B028",
-  "next_pending_batch": "D09",
+  "next_pending_lesson": "B029",
+  "next_pending_batch": "D10",
   "batches": [
     {
       "batch_id": "D01",
@@ -135,7 +135,7 @@
       "from_sequence": 26,
       "to_sequence": 28,
       "image_count": 39,
-      "status": "in_progress"
+      "status": "completed"
     },
     {
       "batch_id": "D10",
@@ -3232,10 +3232,10 @@
       "current_name": "028 - TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!",
       "display_title": "TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 13,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 13,
+      "repository_lesson_path": "bai-hoc/028-slow-push-in",
       "image_inventory": [
         {
           "id": "1FmAiCXJ1lxBzlieme5eXG-Pdu9pzoDLP",
@@ -3329,7 +3329,8 @@
           "url": "https://drive.google.com/file/d/1K2xD7Qu4QGVSoo6H7QwYMu-z24pWTXAe/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 29,
