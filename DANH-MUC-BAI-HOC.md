@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 16/33 bài; 225/444 ảnh đã đọc. Bài kế tiếp: **B017**.
+**Tiến độ:** 17/33 bài; 235/444 ảnh đã đọc. Bài kế tiếp: **B018**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -24,7 +24,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 014 | [Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)](https://drive.google.com/drive/folders/1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/014-dao-dien-bang-yeu-cau-ro/README.md) |
 | 015 | [Bí Mật Veo 3.1- Tại Sao AI Không "Vẽ" Video Mà Chỉ "Dự Đoán Chuyển Động"? (Làm Chủ Logic Vật Lý)](https://drive.google.com/drive/folders/15eT4W3GaEGptuMmpU0ArNPc0Bt89hIdv) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/015-logic-chuyen-dong-vat-ly/README.md) |
 | 016 | [Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1)](https://drive.google.com/drive/folders/1OMA50oqtlKvMFP25a5aPTrixLYecm3YO) | 14 | Đã hoàn thành | [Mở bài](bai-hoc/016-thiet-ke-am-thanh/README.md) |
-| 017 | [CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức "vàng" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!](https://drive.google.com/drive/folders/1qepchr-kwNzUsXqxz87RG0dqwGuWAU8R) | 10 | Chưa đọc | — |
+| 017 | [CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức "vàng" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!](https://drive.google.com/drive/folders/1qepchr-kwNzUsXqxz87RG0dqwGuWAU8R) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/017-mini-story-ba-nhip/README.md) |
 | 018 | [Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1](https://drive.google.com/drive/folders/1r-plZ2jVlT7gmh6XJK_Fd7MIQ3jI8b-C) | 12 | Chưa đọc | — |
 | 019 | [Hệ thống Bánh Đà học tập bằng AI](https://drive.google.com/drive/folders/1K77-ERUz2a6e-xvyEb3J1rZ36YaLvgPw) | 13 | Chưa đọc | — |
 | 020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](https://drive.google.com/drive/folders/1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw) | 10 | Chưa đọc | — |
@@ -51,7 +51,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D03 | 008–010 | 50 | Đã hoàn thành |
 | D04 | 011–013 | 50 | Đã hoàn thành |
 | D05 | 014–016 | 38 | Đã hoàn thành |
-| D06 | 017–019 | 35 | Chưa đọc |
+| D06 | 017–019 | 35 | Đang xử lý |
 | D07 | 020–022 | 39 | Chưa đọc |
 | D08 | 023–025 | 43 | Chưa đọc |
 | D09 | 026–028 | 39 | Chưa đọc |

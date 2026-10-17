@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 16,
-    "pending_lessons": 17,
-    "images_read": 225,
-    "pending_images": 219
+    "completed_lessons": 17,
+    "pending_lessons": 16,
+    "images_read": 235,
+    "pending_images": 209
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B017",
+  "next_pending_lesson": "B018",
   "next_pending_batch": "D06",
   "batches": [
     {
@@ -99,7 +99,7 @@
       "from_sequence": 17,
       "to_sequence": 19,
       "image_count": 35,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D07",
@@ -2033,10 +2033,10 @@
       "current_name": "017 - CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!",
       "display_title": "CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 10,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 10,
+      "repository_lesson_path": "bai-hoc/017-mini-story-ba-nhip",
       "image_inventory": [
         {
           "id": "1B3Ig9_hd8EkCcERoCfYpY45-N-GM0EQS",
@@ -2109,7 +2109,8 @@
           "url": "https://drive.google.com/file/d/1TPn4NDoDfx0qtOaKRr53ZnoK1JehYt5g/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 18,
