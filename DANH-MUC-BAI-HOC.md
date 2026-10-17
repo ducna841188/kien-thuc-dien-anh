@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 5/33 bài; 60/444 ảnh đã đọc. Bài kế tiếp: **B006**.
+**Tiến độ:** 6/33 bài; 75/444 ảnh đã đọc. Bài kế tiếp: **B007**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -13,7 +13,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 003 | [3 "Ác Mộng" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)](https://drive.google.com/drive/folders/1Xwl5Utm-Htki_HXiVIEVB1OBuWASKKf_) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md) |
 | 004 | [4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?](https://drive.google.com/drive/folders/1whjdmVdATgovKxaEXnA9gWsU-TIdnTRJ) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/004-nano-banana-pro/README.md) |
 | 005 | [7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1](https://drive.google.com/drive/folders/1qDJzlfauIo-m6RDrBqJcpPr6Am94IHcC) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/005-bay-cu-may/README.md) |
-| 006 | [7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)](https://drive.google.com/drive/folders/1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd) | 15 | Chưa đọc | — |
+| 006 | [7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)](https://drive.google.com/drive/folders/1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/006-negative-prompt-nhat-quan/README.md) |
 | 007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](https://drive.google.com/drive/folders/1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH) | 12 | Chưa đọc | — |
 | 008 | [10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn](https://drive.google.com/drive/folders/1ctNomNol-Wsm_4FDwgpcRlnaAa7iPspU) | 18 | Chưa đọc | — |
 | 009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P) | 18 | Chưa đọc | — |

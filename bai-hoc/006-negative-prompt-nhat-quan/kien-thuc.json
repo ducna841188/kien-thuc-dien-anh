@@ -1,0 +1,107 @@
+{
+  "lesson_id": "B006",
+  "summary": "Đã đọc 15 ảnh về nội dung loại trừ. Bài tách sáu nhóm lỗi nhìn thấy được, cách gom thành checklist và cách thử có đối chiếu. Không coi negative prompt là lệnh cấm tuyệt đối hoặc cú pháp dùng chung cho mọi mô hình.",
+  "principles": [
+    {
+      "title": "Kiểm hình thể và số chi",
+      "source_ids": [
+        "B006-03",
+        "B006-04"
+      ],
+      "source": "Hai kỹ thuật đầu xử lý hình học méo và chi thừa.",
+      "explanation": "Mô tả động tác và các điểm tiếp xúc trước; khi công cụ có trường negative thì chọn lỗi liên quan. Tránh động tác quá nhiều bàn tay che nhau khi chưa cần.",
+      "example": "Lan nhấc rổ bằng hai tay, bàn tay đặt rõ ở hai quai.",
+      "check": "Đếm chi theo chuỗi chuyển động; kiểm khớp, tiếp xúc và việc ngón biến mất.",
+      "illustration": 3
+    },
+    {
+      "title": "Giữ khuôn mặt có thể nhận ra",
+      "source_ids": [
+        "B006-05"
+      ],
+      "source": "Loại trừ mặt méo, mắt lỗi, môi dính và mặt kéo giãn.",
+      "explanation": "So với ảnh chuẩn của đúng nhân vật. Cần giữ nét riêng và biểu cảm tự nhiên; việc buộc đối xứng tuyệt đối có thể làm đổi mặt.",
+      "example": "Lan quay đầu nhẹ sang mẹ, môi thư giãn, ánh nhìn dừng rõ.",
+      "check": "So mặt khi chính diện và nghiêng; phân biệt phối cảnh với biến dạng.",
+      "illustration": 5
+    },
+    {
+      "title": "Phân biệt hình học, màu và vật liệu",
+      "source_ids": [
+        "B006-06",
+        "B006-08"
+      ],
+      "source": "Giảm bề mặt chảy, màu lem và thay vật liệu giữa cảnh.",
+      "explanation": "Một áo vải mờ không nên tự thành nhựa bóng. Cố định vật liệu và bảng màu; cho phép sắc độ thay đổi có lý do theo ánh sáng. HEX chỉ là đích tham chiếu.",
+      "example": "Áo bà ba nâu vải thô giữ nếp và độ mờ khi Lan từ hiên bước vào bếp.",
+      "check": "Xem bề mặt có trượt theo người, biến thành chất khác hay nhấp nháy giữa khung.",
+      "illustration": 6
+    },
+    {
+      "title": "Quản lý phụ kiện bằng thiết kế rõ",
+      "source_ids": [
+        "B006-07"
+      ],
+      "source": "Ngăn logo, khăn và vật thể không được yêu cầu xuất hiện.",
+      "explanation": "Lập danh sách có mặt: một rổ tre, một bàn gỗ, áo trơn. Nếu cần loại trừ, gọi đúng nhóm ngoài thiết kế; đừng cấm mọi đồ vật trong cảnh.",
+      "example": "Lan mặc áo trơn, có rổ rau; thiết kế không có khăn cổ hay huy hiệu.",
+      "check": "Số và hình dạng phụ kiện không đổi khi người quay hoặc đi qua vật che.",
+      "illustration": 7
+    },
+    {
+      "title": "Viết đúng theo mô hình, kiểm bằng nhiều kết quả",
+      "source_ids": [
+        "B006-02",
+        "B006-09",
+        "B006-10",
+        "B006-11",
+        "B006-12",
+        "B006-13"
+      ],
+      "source": "Nguồn gom lỗi thành ba khối và khuyên chọn trong nhiều bản.",
+      "explanation": "Google hướng dẫn trường negative nên liệt kê yếu tố không mong muốn, tránh no/don't. Runway Gen-4 khuyên mô tả tích cực và tránh negative prompt. Kiểm tài liệu của chế độ đang dùng trước khi áp dụng; không coi chữ Lock là cơ chế kỹ thuật.",
+      "example": "Veo có trường loại trừ: thừa ngón, mặt biến dạng, đổi trang phục. Với quy trình theo hướng dẫn Runway: mô tả tay tự nhiên, áo nâu ổn định và hành động rõ.",
+      "check": "Lưu cùng đầu vào và số bản thử; đánh giá toàn đoạn, ghi lỗi theo mốc giây, so trước/sau với cùng tiêu chí.",
+      "illustration": 10
+    }
+  ],
+  "editorial_corrections": [
+    "Tên thư mục ghi bảy kỹ thuật nhưng các ảnh chỉ đánh số #1–#6; phần gom ba nhóm là chiến lược tổ chức bổ sung, không tự tạo kỹ thuật thứ bảy từ nguồn.",
+    "Các lời hứa ổn định 95–100%, hiệu quả gấp đôi và loại bỏ lỗi chưa có dữ liệu thử hỗ trợ.",
+    "Negative prompt không tự khóa hình học, mặt hoặc vật liệu; Geometry/Face/Material Lock là nhãn do bài đặt.",
+    "Cú pháp nhiều no không phù hợp mọi công cụ. Google khuyên trường loại trừ liệt kê lỗi; Runway Gen-4 khuyên tránh negative và dùng mô tả tích cực.",
+    "Hình sau ở B006-03 vẫn có hình thể bất thường; các cặp ảnh trước/sau không phải bằng chứng thực nghiệm.",
+    "Bốn biến thể là gợi ý nguồn. Số lần thử nên theo mức độ khó, chi phí và tiêu chí duyệt.",
+    "Tên phông JetBrains Mono và nhãn không rõ ở B006-01 là lỗi trình bày nguồn; không đưa vào prompt thực hành."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B006-00",
+    "B006-01",
+    "B006-02",
+    "B006-03",
+    "B006-04",
+    "B006-05",
+    "B006-06",
+    "B006-07",
+    "B006-08",
+    "B006-09",
+    "B006-10",
+    "B006-11",
+    "B006-12",
+    "B006-13",
+    "B006-14"
+  ],
+  "references": [
+    {
+      "title": "Google — negative prompts",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Cách dùng trường nội dung loại trừ."
+    },
+    {
+      "title": "Runway — Gen-4 Video Prompting Guide",
+      "url": "https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide",
+      "purpose": "Đối chiếu khuyến nghị diễn đạt tích cực."
+    }
+  ]
+}
