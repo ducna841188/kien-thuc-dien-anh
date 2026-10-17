@@ -1,8 +1,8 @@
 # Danh mục 33 bài học — Bí ẩn đạo diễn
 
-Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
+Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 18/10/2026.
 
-**Tiến độ:** 23/33 bài; 312/444 ảnh đã đọc. Bài kế tiếp: **B024**.
+**Tiến độ:** 24/33 bài; 327/444 ảnh đã đọc. Bài kế tiếp: **B025**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -31,7 +31,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 021 | [Làm chủ cảm xúc trong Video VEO](https://drive.google.com/drive/folders/1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/021-lam-chu-cam-xuc/README.md) |
 | 022 | [Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp](https://drive.google.com/drive/folders/1TnL2r1IsnEXkVOgT4MRnsNRn0l2PzlBt) | 14 | Đã hoàn thành | [Mở bài](bai-hoc/022-veo-tu-co-ban-den-quy-trinh/README.md) |
 | 023 | [Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!](https://drive.google.com/drive/folders/1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/023-negative-prompt/README.md) |
-| 024 | [Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)](https://drive.google.com/drive/folders/1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ) | 15 | Chưa đọc | — |
+| 024 | [Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)](https://drive.google.com/drive/folders/1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/024-xau-chuoi-canh/README.md) |
 | 025 | [Mẹo Điều khiển CAMERA- Trở thành "Đạo diễn thật sự trong prompt" để video lập tức cinematic gấp… 5 lần](https://drive.google.com/drive/folders/1FSlu5jphR2IxsoQ4zVhhNpvnqjX1qIuq) | 15 | Chưa đọc | — |
 | 026 | [Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1](https://drive.google.com/drive/folders/1LsNiDrXGR5yyYjSNf-3u_P3DCcSyk5t5) | 11 | Chưa đọc | — |
 | 027 | [Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản](https://drive.google.com/drive/folders/1_cyMghOhl8O241qxJWE9pdcpu7x_NGBP) | 15 | Chưa đọc | — |

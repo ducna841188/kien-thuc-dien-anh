@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 23,
-    "pending_lessons": 10,
-    "images_read": 312,
-    "pending_images": 132
+    "completed_lessons": 24,
+    "pending_lessons": 9,
+    "images_read": 327,
+    "pending_images": 117
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B024",
+  "next_pending_lesson": "B025",
   "next_pending_batch": "D08",
   "batches": [
     {
@@ -2768,10 +2768,10 @@
       "current_name": "024 - Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)",
       "display_title": "Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 15,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 15,
+      "repository_lesson_path": "bai-hoc/024-xau-chuoi-canh",
       "image_inventory": [
         {
           "id": "1qpbUeLIOPuQ5OKSJHBMbOSMn7g2C780f",
@@ -2879,7 +2879,8 @@
           "url": "https://drive.google.com/file/d/1T9BcC75OpelKvvbBB3kKOEpqHb7cZDbd/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 25,

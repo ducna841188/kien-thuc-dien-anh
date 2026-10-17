@@ -1,0 +1,104 @@
+{
+  "lesson_id": "B024",
+  "summary": "Bài phân biệt độ dài một lần tạo với độ dài thành phẩm. Giá trị cốt lõi là duyệt cảnh gốc, chỉ đạo phần tiếp diễn, giữ trạng thái nhân vật–vật thể–máy quay và kiểm tra điểm nối. Nối dài một hành động và dựng nhiều cảnh thành phim là hai việc cần kế hoạch khác nhau.",
+  "principles": [
+    {
+      "title": "Lập phim theo cảnh, không nhân độ dài máy móc",
+      "source_ids": [
+        "B024-00",
+        "B024-01",
+        "B024-14"
+      ],
+      "source": "Nguồn giải thích video dài là kết quả tổ chức đoạn ngắn và biên tập.",
+      "explanation": "Lập danh sách cảnh theo mục đích kể chuyện. Dùng nối dài khi hành động thật sự cần tiếp diễn; dùng cắt dựng khi đổi góc, thời gian hoặc thông tin. Số đoạn lý tưởng bằng thời lượng đích chia thời lượng dùng được, còn số lần tạo phụ thuộc tỷ lệ đạt.",
+      "example": "Quá trình đan rổ gồm toàn cảnh không gian, cận luồn nan, phản ứng nhân vật và thành phẩm. Không cần kéo một góc máy thành cả mười phút.",
+      "check": "Mỗi đoạn có thông tin mới; có dự phòng hao hụt; không kéo dài chỉ để đủ phút.",
+      "illustration": 1
+    },
+    {
+      "title": "Duyệt điểm bắt đầu trước khi mở rộng",
+      "source_ids": [
+        "B024-02",
+        "B024-03",
+        "B024-04"
+      ],
+      "source": "Nguồn lấy clip gốc làm nền rồi chỉ đạo hành động tiếp theo bằng Extend.",
+      "explanation": "Hướng dẫn Flow được đối chiếu xác nhận có mở rộng và dựng chuỗi; giao diện minh họa trong bài có thể khác thực tế. Chỉ nối từ trạng thái đúng: mặt, tay, vật và hướng máy còn ổn định. Nếu cuối clip đã hỏng, quay lại điểm sạch hoặc tạo cảnh mới.",
+      "example": "Đoạn A kết thúc khi tay giữ được nan tre và nan đã luồn nửa đường. Đoạn B tiếp tục kéo chính nan ấy, không mọc thêm nan và không bắt đầu lại thao tác.",
+      "check": "Xem vài giây trước/sau điểm nối; tay, độ căng, vị trí nan và tốc độ không bật nhảy.",
+      "illustration": 2
+    },
+    {
+      "title": "Giữ trạng thái, thêm hành động mới",
+      "source_ids": [
+        "B024-05",
+        "B024-06",
+        "B024-11"
+      ],
+      "source": "Nguồn kết hợp nhân vật cố định, môi trường nhất quán và hành động tiếp diễn.",
+      "explanation": "Lập ghi chú trạng thái cuối: tay nào cầm gì, mặt hướng đâu, vật ở trạng thái nào, máy đang đi hướng nào. Giữ phần không đổi và mô tả phần tiếp tục. Không dựa vào câu 'như cảnh trước' khi công cụ không có đầu vào trước.",
+      "example": "Cô vẫn ngồi cùng ghế, tay trái giữ khung rổ, tay phải kéo nan đang cầm thêm một đoạn rồi miết xuống. Màu áo và hoa cài theo ảnh đã duyệt.",
+      "check": "Có đầu vào thật và ghi chú cụ thể; động tác không tự khởi động lại.",
+      "illustration": 5
+    },
+    {
+      "title": "Nối hình phải khớp cả nhịp và âm thanh",
+      "source_ids": [
+        "B024-07",
+        "B024-08",
+        "B024-09",
+        "B024-10"
+      ],
+      "source": "Nguồn đưa góc, chuyển động, ánh sáng, hiệu ứng và thời gian vào ngôn ngữ chỉ đạo.",
+      "explanation": "Chọn một chuyển động phù hợp rồi giữ tốc độ qua chỗ nối. Duy trì hướng sáng và âm nền nếu cùng thời điểm. Khi đổi cảnh bằng cắt, chọn một trạng thái có thể khớp hành động. Không ép zoom chỉ vì nguồn gợi ý; máy tĩnh rất hữu ích để nhìn thao tác.",
+      "example": "Đoạn A và B đều máy tĩnh nhìn bàn tre; tiếng cọ nan không dừng vô cớ ở đường nối. Đổi sang cận tay bằng cắt khi tay bắt đầu luồn nan mới.",
+      "check": "Không giật kích thước, đổi hướng hoặc đổi âm phòng; không biến tua nhanh thành thời gian thực giữa chuỗi.",
+      "illustration": 8
+    },
+    {
+      "title": "Duyệt chuỗi và dừng mở rộng khi lỗi tích lũy",
+      "source_ids": [
+        "B024-12",
+        "B024-13"
+      ],
+      "source": "Nguồn dành hậu kỳ để chọn, cắt và hoàn thiện.",
+      "explanation": "Sau mỗi đoạn, so cả với đoạn trước và ảnh tham chiếu ban đầu để phát hiện mặt hoặc vật liệu trôi dần. Lưu phiên bản được duyệt. Khi lỗi tích lũy, tạo cảnh mới từ nguồn chuẩn; dựng phim không đòi mọi đoạn phải nối vô hình.",
+      "example": "Sau vài đoạn đan, gương mặt hoặc áo thay đổi thì ngắt chuỗi, quay về ảnh chuẩn để tạo cận vật hoặc cảnh mới có chủ đích.",
+      "check": "Có bản sạch để quay lại; xuất bản cuối được xem liền cả hình và tiếng.",
+      "illustration": 13
+    }
+  ],
+  "editorial_corrections": [
+    "8 giây trong nguồn không là định luật của mọi mô hình/chế độ; không suy ra mỗi lần mở rộng luôn thêm 8 giây hoặc lặp vô hạn.",
+    "75 đoạn cho 10 phút chỉ là phép chia với giả định dùng trọn 8 giây mỗi đoạn; không phải dự toán 75 lần tạo.",
+    "Extend từ video, tạo mới từ ảnh cuối và dựng các clip bằng cắt là ba cách khác nhau.",
+    "Đường dẫn nút trong ảnh là giao diện nguồn; tài liệu Flow hiện tại cần được đối chiếu khi thao tác. Không bảo đảm ô câu lệnh trống hợp lệ.",
+    "Lặp mô tả và cùng dùng slow zoom in không bảo đảm danh tính hoặc điểm nối mượt.",
+    "Cinematic (điện ảnh) không bắt buộc tương phản cao, máy luôn chuyển động hay hậu cảnh luôn mờ."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B024-00",
+    "B024-01",
+    "B024-02",
+    "B024-03",
+    "B024-04",
+    "B024-05",
+    "B024-06",
+    "B024-07",
+    "B024-08",
+    "B024-09",
+    "B024-10",
+    "B024-11",
+    "B024-12",
+    "B024-13",
+    "B024-14"
+  ],
+  "references": [
+    {
+      "title": "Google Flow — chỉnh video và dựng cảnh",
+      "url": "https://support.google.com/labs/answer/16935718?hl=en",
+      "purpose": "Đối chiếu chức năng mở rộng, lưu khung và sắp xếp/cắt/xem/tải chuỗi. Vị trí nút có thể khác ảnh nguồn."
+    }
+  ]
+}
