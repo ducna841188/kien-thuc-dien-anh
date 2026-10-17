@@ -19,15 +19,15 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 6,
-    "pending_lessons": 27,
-    "images_read": 75,
-    "pending_images": 369
+    "completed_lessons": 7,
+    "pending_lessons": 26,
+    "images_read": 87,
+    "pending_images": 357
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B007",
-  "next_pending_batch": "D02",
+  "next_pending_lesson": "B008",
+  "next_pending_batch": "D03",
   "batches": [
     {
       "batch_id": "D01",
@@ -51,7 +51,7 @@
       "from_sequence": 5,
       "to_sequence": 7,
       "image_count": 40,
-      "status": "in_progress"
+      "status": "completed"
     },
     {
       "batch_id": "D03",
@@ -803,10 +803,10 @@
       "current_name": "007 - 10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau",
       "display_title": "10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 12,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 12,
+      "repository_lesson_path": "bai-hoc/007-muoi-cong-cu-video-ai",
       "image_inventory": [
         {
           "id": "1kl_VxhnzkchSdjOj3KxNMg4_Y-FSRdIp",
@@ -893,7 +893,8 @@
           "url": "https://drive.google.com/file/d/13BqWxVbzwVyWAXH-GD_GekzPcDU54Umg/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 8,

@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 6/33 bài; 75/444 ảnh đã đọc. Bài kế tiếp: **B007**.
+**Tiến độ:** 7/33 bài; 87/444 ảnh đã đọc. Bài kế tiếp: **B008**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -14,7 +14,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 004 | [4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?](https://drive.google.com/drive/folders/1whjdmVdATgovKxaEXnA9gWsU-TIdnTRJ) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/004-nano-banana-pro/README.md) |
 | 005 | [7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1](https://drive.google.com/drive/folders/1qDJzlfauIo-m6RDrBqJcpPr6Am94IHcC) | 13 | Đã hoàn thành | [Mở bài](bai-hoc/005-bay-cu-may/README.md) |
 | 006 | [7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)](https://drive.google.com/drive/folders/1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/006-negative-prompt-nhat-quan/README.md) |
-| 007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](https://drive.google.com/drive/folders/1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH) | 12 | Chưa đọc | — |
+| 007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](https://drive.google.com/drive/folders/1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/007-muoi-cong-cu-video-ai/README.md) |
 | 008 | [10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn](https://drive.google.com/drive/folders/1ctNomNol-Wsm_4FDwgpcRlnaAa7iPspU) | 18 | Chưa đọc | — |
 | 009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P) | 18 | Chưa đọc | — |
 | 010 | [Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1](https://drive.google.com/drive/folders/1VBQ0HiAWGWtDEMz2kQc5CwVu9gJroWHd) | 14 | Chưa đọc | — |
@@ -47,7 +47,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | Đợt | Bài | Ảnh | Trạng thái |
 | --- | --- | ---: | --- |
 | D01 | 002–004 | 35 | Đã hoàn thành |
-| D02 | 005–007 | 40 | Đang xử lý |
+| D02 | 005–007 | 40 | Đã hoàn thành |
 | D03 | 008–010 | 50 | Chưa đọc |
 | D04 | 011–013 | 50 | Chưa đọc |
 | D05 | 014–016 | 38 | Chưa đọc |
