@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 1,
-    "pending_lessons": 32,
-    "images_read": 12,
-    "pending_images": 432
+    "completed_lessons": 2,
+    "pending_lessons": 31,
+    "images_read": 22,
+    "pending_images": 422
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B002",
+  "next_pending_lesson": "B003",
   "next_pending_batch": "D01",
   "batches": [
     {
@@ -39,7 +39,7 @@
       "from_sequence": 2,
       "to_sequence": 4,
       "image_count": 35,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D02",
@@ -272,10 +272,10 @@
       "current_name": "002 - \"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1",
       "display_title": "\"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 10,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 10,
+      "repository_lesson_path": "bai-hoc/002-prompt-cau-truc",
       "image_inventory": [
         {
           "id": "1r-x7rveayxI-17GOMAkdEC5NGb6qusIL",
@@ -348,7 +348,8 @@
           "url": "https://drive.google.com/file/d/1IXLneWrxTLEUY8333DtjoI8ib7Vcv4yO/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 3,
