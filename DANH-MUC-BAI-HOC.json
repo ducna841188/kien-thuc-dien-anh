@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 10,
-    "pending_lessons": 23,
-    "images_read": 137,
-    "pending_images": 307
+    "completed_lessons": 11,
+    "pending_lessons": 22,
+    "images_read": 155,
+    "pending_images": 289
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B011",
+  "next_pending_lesson": "B012",
   "next_pending_batch": "D04",
   "batches": [
     {
@@ -75,7 +75,7 @@
       "from_sequence": 11,
       "to_sequence": 13,
       "image_count": 50,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D05",
@@ -1309,10 +1309,10 @@
       "current_name": "011 - Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood",
       "display_title": "Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 18,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 18,
+      "repository_lesson_path": "bai-hoc/011-anh-sang-bo-nen-nhip-cham",
       "image_inventory": [
         {
           "id": "1hfTC6cf7evOLZVkd7_SyBhh6oHz3eWsd",
@@ -1441,7 +1441,8 @@
           "url": "https://drive.google.com/file/d/1mATrADus4ZpAYUf75HAVZMeNudN35wks/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 12,

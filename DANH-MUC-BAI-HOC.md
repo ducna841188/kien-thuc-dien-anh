@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 10/33 bài; 137/444 ảnh đã đọc. Bài kế tiếp: **B011**.
+**Tiến độ:** 11/33 bài; 155/444 ảnh đã đọc. Bài kế tiếp: **B012**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -18,7 +18,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 008 | [10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn](https://drive.google.com/drive/folders/1ctNomNol-Wsm_4FDwgpcRlnaAa7iPspU) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/008-muoi-cu-phap-veo/README.md) |
 | 009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/009-nang-cap-ngon-ngu-dien-anh/README.md) |
 | 010 | [Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1](https://drive.google.com/drive/folders/1VBQ0HiAWGWtDEMz2kQc5CwVu9gJroWHd) | 14 | Đã hoàn thành | [Mở bài](bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md) |
-| 011 | [Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood](https://drive.google.com/drive/folders/1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15) | 18 | Chưa đọc | — |
+| 011 | [Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood](https://drive.google.com/drive/folders/1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/011-anh-sang-bo-nen-nhip-cham/README.md) |
 | 012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](https://drive.google.com/drive/folders/1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1) | 16 | Chưa đọc | — |
 | 013 | [Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)](https://drive.google.com/drive/folders/1DcfzftcYU9njo4dJcM3AXgUjWpFPsqMA) | 16 | Chưa đọc | — |
 | 014 | [Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)](https://drive.google.com/drive/folders/1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV) | 12 | Chưa đọc | — |
@@ -49,7 +49,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D01 | 002–004 | 35 | Đã hoàn thành |
 | D02 | 005–007 | 40 | Đã hoàn thành |
 | D03 | 008–010 | 50 | Đã hoàn thành |
-| D04 | 011–013 | 50 | Chưa đọc |
+| D04 | 011–013 | 50 | Đang xử lý |
 | D05 | 014–016 | 38 | Chưa đọc |
 | D06 | 017–019 | 35 | Chưa đọc |
 | D07 | 020–022 | 39 | Chưa đọc |
@@ -58,4 +58,4 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | D10 | 029–031 | 37 | Chưa đọc |
 | D11 | 032–033 | 26 | Chưa đọc |
 
-Mỗi bài được đọc, biên soạn, lưu và xác minh trên GitHub trước khi chuyển sang bài sau. D01–D03 đã hoàn thành; các đợt sau là danh mục chờ.
+Mỗi bài được đọc, biên soạn, lưu và xác minh trên GitHub trước khi chuyển sang bài sau. Trạng thái từng đợt được ghi trong bảng; các bài chưa hoàn thành tiếp tục nằm trong danh mục chờ.
