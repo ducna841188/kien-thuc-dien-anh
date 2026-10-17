@@ -1,0 +1,106 @@
+{
+  "lesson_id": "B015",
+  "summary": "12 ảnh về mô tả chuyển động, duy trì nhân vật/bối cảnh/camera và chuyển ý trừu tượng thành biểu hiện nhìn thấy. Tài liệu phân biệt mẹo viết prompt với suy đoán về cơ chế AI, đồng thời sửa nhầm lẫn về zoom, máy tĩnh và chuyển động nền.",
+  "principles": [
+    {
+      "title": "Mô tả quan hệ nhân–quả quan sát được",
+      "source_ids": [
+        "B015-03",
+        "B015-10",
+        "B015-11"
+      ],
+      "source": "Nguồn khuyên nêu hướng, vị trí máy và phản ứng môi trường để AI có yêu cầu rõ về chuyển động.",
+      "explanation": "Dùng chuỗi trạng thái đầu → chuyển động → tiếp xúc → kết quả. Nêu tay/dụng cụ nào tác động vật nào. Các điều này là yêu cầu đầu ra có thể kiểm tra, không chứng minh AI chạy bộ mô phỏng vật lý hay dựng mô hình 3D tường minh.",
+      "example": "Tay trái giữ mép giỏ, tay phải đưa bó rau xuống; đáy bó chạm đáy giỏ rồi tay buông. Giỏ đặt yên trên bàn suốt shot.",
+      "check": "Có tiếp xúc trước hệ quả; vật không xuyên nhau, biến dạng vô cớ, bay hoặc biến mất.",
+      "illustration": 3
+    },
+    {
+      "title": "Tách chuyển động chủ thể, camera và môi trường",
+      "source_ids": [
+        "B015-03",
+        "B015-09",
+        "B015-10"
+      ],
+      "source": "Nguồn gắn hành động chính với chuyển động camera và nền.",
+      "explanation": "Ba lớp có thể cùng chuyển động hoặc một số đứng yên. Với máy tĩnh, người chạy ngang khung và hậu cảnh cố định là hợp lý. Với máy theo người, người có thể giữ vị trí gần ổn định trong khung trong khi hậu cảnh trôi. Chỉ cho lá/cành dịch khi có gió hoặc tiếp xúc, không yêu cầu nền tự chuyển để trông sống.",
+      "example": "Máy tĩnh nhìn bờ ruộng, người gánh rau đi từ trái qua phải. Bản khác máy theo ngang giữ người giữa khung, ruộng phía sau trôi tương ứng.",
+      "check": "Không nhầm người đứng tại chỗ thành đang đi; nền thay đổi phù hợp với đường máy.",
+      "illustration": 9
+    },
+    {
+      "title": "Giữ ba nhóm ràng buộc thiết yếu",
+      "source_ids": [
+        "B015-04",
+        "B015-05"
+      ],
+      "source": "Nguồn dùng ràng buộc nhân vật, môi trường và camera để giảm lỗi tính liên tục.",
+      "explanation": "Tạo bảng nhận diện, sơ đồ không gian và thông số máy mong muốn. Giữ mô tả thiết yếu và tham chiếu nếu có; tránh yêu cầu trái nhau. Continuity là tính liên tục, gồm cả trạng thái vật, hướng nhìn, thời tiết và diễn tiến hành động.",
+      "example": "Áo nâu, khăn be, giỏ tre cố định; sân gạch và cửa gỗ cùng vị trí; sáng từ sân; máy trung cảnh tĩnh trong thao tác đặt rau.",
+      "check": "Đối chiếu khung đầu–giữa–cuối và đầu shot sau; ghi chính xác thứ bị đổi.",
+      "illustration": 5
+    },
+    {
+      "title": "Chuyển ý cảm xúc thành biểu hiện",
+      "source_ids": [
+        "B015-01",
+        "B015-06",
+        "B015-08"
+      ],
+      "source": "Nguồn minh họa thay từ 'ngầu' hoặc 'buồn' bằng tư thế, ánh sáng, bố cục và nhịp.",
+      "explanation": "Có thể giữ từ cảm xúc làm định hướng rồi thêm một đến hai dấu hiệu nhìn thấy/nghe được. Tránh công thức rập khuôn như cứ buồn là xanh lạnh hoặc cứ điện ảnh là xóa phông. Chỉ đạo diễn xuất bằng hành vi nhỏ hợp nhân vật.",
+      "example": "Người nhìn luống cây héo, hạ vai và dừng bàn tay trên vành chậu; ánh sáng tự nhiên vẫn ấm, tiếng gió thưa. Sắc thái lo lắng đến từ hành vi.",
+      "check": "Biểu hiện vừa đủ, không tự thêm khóc hoặc cử chỉ cường điệu.",
+      "illustration": 6
+    },
+    {
+      "title": "Dùng đúng từ, kiểm tra đúng kết quả",
+      "source_ids": [
+        "B015-07",
+        "B015-08",
+        "B015-09",
+        "B015-10"
+      ],
+      "source": "Nguồn có mẫu năm phần và bảng thuật ngữ camera, khuyên chọn dolly-in khi muốn tiến gần vật lý.",
+      "explanation": "Zoom thay đổi tiêu cự; dolly thay vị trí máy. Nếu muốn nhìn rõ hình khối do tiến gần, mô tả máy dịch; nếu muốn đổi khung bằng tiêu cự, zoom là từ đúng. Các nhãn 8K, cinematic hay 'chống thất bại' không thay tiêu chí kiểm tra. Thứ tự năm phần khác bài trước nhưng vẫn dùng được như bảng kế hoạch.",
+      "example": "Để thấy bàn tay và giỏ gần dần có quan hệ không gian rõ, yêu cầu máy tiến chậm; để giữ góc nhìn cố định mà thu khung, yêu cầu zoom riêng.",
+      "check": "Chuyển động đúng loại, hành động đúng nhân quả, nhận diện ổn định; không suy độ phân giải từ prompt.",
+      "illustration": 10
+    }
+  ],
+  "editorial_corrections": [
+    "Giải thích 'AI dựng thế giới 3D trong tưởng tượng' là ẩn dụ của nguồn, chưa chứng minh kiến trúc Veo 3.1.",
+    "'AI chỉ hiểu vật lý' quá tuyệt đối; tài liệu này không khẳng định cơ chế nhận thức của mô hình.",
+    "Nhân vật chạy trước camera đứng yên là dàn cảnh hợp lệ; hậu cảnh không cần tự chuyển động.",
+    "Zoom là đổi tiêu cự, không phải AI hiểu sai. Dolly-in phù hợp khi ý đồ là máy dịch tới gần.",
+    "90%, dẫn đầu thị trường, render nhanh và chống thất bại không có kiểm chứng tương ứng trong ảnh.",
+    "Không có định mức bắt buộc 5–7 từ mô tả ánh sáng; cỡ cảnh và cảm xúc do góc máy không phải luật cứng."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B015-00",
+    "B015-01",
+    "B015-02",
+    "B015-03",
+    "B015-04",
+    "B015-05",
+    "B015-06",
+    "B015-07",
+    "B015-08",
+    "B015-09",
+    "B015-10",
+    "B015-11"
+  ],
+  "references": [
+    {
+      "title": "Google DeepMind: thẻ mô hình Veo 3",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Veo-3-Model-Card.pdf",
+      "purpose": "Nguồn chính thức về giới hạn nhất quán trong cảnh phức tạp của Veo 3; không dùng làm mô tả chi tiết kiến trúc hoặc bảo đảm cho phiên bản 3.1."
+    },
+    {
+      "title": "Google: hướng dẫn prompt video",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Đối chiếu thuật ngữ máy, chuyển động và chỉ dẫn hình ảnh."
+    }
+  ]
+}

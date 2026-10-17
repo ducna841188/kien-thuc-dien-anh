@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 14,
-    "pending_lessons": 19,
-    "images_read": 199,
-    "pending_images": 245
+    "completed_lessons": 15,
+    "pending_lessons": 18,
+    "images_read": 211,
+    "pending_images": 233
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B015",
+  "next_pending_lesson": "B016",
   "next_pending_batch": "D05",
   "batches": [
     {
@@ -1815,10 +1815,10 @@
       "current_name": "015 - Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý)",
       "display_title": "Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý)",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 12,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 12,
+      "repository_lesson_path": "bai-hoc/015-logic-chuyen-dong-vat-ly",
       "image_inventory": [
         {
           "id": "1IX6ZgwxkV3iwuqVFKS1gSD16zR60qZ8M",
@@ -1905,7 +1905,8 @@
           "url": "https://drive.google.com/file/d/1NsOLGipDPRVAUegrFHCy33ZZqxldb-Xv/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 16,

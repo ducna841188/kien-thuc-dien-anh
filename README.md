@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 14/33 bài, đọc 199/444 ảnh.**
+**Đã hoàn thành 15/33 bài, đọc 211/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -24,6 +24,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](bai-hoc/012-cau-truc-camera/README.md) | 16 |
 | B013 | [Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)](bai-hoc/013-tach-shot-hoi-thoai/README.md) | 16 |
 | B014 | [Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)](bai-hoc/014-dao-dien-bang-yeu-cau-ro/README.md) | 12 |
+| B015 | [Bí Mật Veo 3.1- Tại Sao AI Không "Vẽ" Video Mà Chỉ "Dự Đoán Chuyển Động"? (Làm Chủ Logic Vật Lý)](bai-hoc/015-logic-chuyen-dong-vat-ly/README.md) | 12 |
 
 ## Quy ước học tập
 
