@@ -19,15 +19,15 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 24,
-    "pending_lessons": 9,
-    "images_read": 327,
-    "pending_images": 117
+    "completed_lessons": 25,
+    "pending_lessons": 8,
+    "images_read": 342,
+    "pending_images": 102
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B025",
-  "next_pending_batch": "D08",
+  "next_pending_lesson": "B026",
+  "next_pending_batch": "D09",
   "batches": [
     {
       "batch_id": "D01",
@@ -123,7 +123,7 @@
       "from_sequence": 23,
       "to_sequence": 25,
       "image_count": 43,
-      "status": "in_progress"
+      "status": "completed"
     },
     {
       "batch_id": "D09",
@@ -2891,10 +2891,10 @@
       "current_name": "025 - Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần",
       "display_title": "Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 15,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 15,
+      "repository_lesson_path": "bai-hoc/025-dieu-khien-camera",
       "image_inventory": [
         {
           "id": "1JIVd6iT1JqtMvoQTodj0_iQnVPaOG8N2",
@@ -3002,7 +3002,8 @@
           "url": "https://drive.google.com/file/d/1PpClvf0snAyTSdT-NvvqWMnljdrqpQwz/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-18"
     },
     {
       "sequence": 26,
