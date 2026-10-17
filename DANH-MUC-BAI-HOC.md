@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 8/33 bài; 105/444 ảnh đã đọc. Bài kế tiếp: **B009**.
+**Tiến độ:** 9/33 bài; 123/444 ảnh đã đọc. Bài kế tiếp: **B010**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -16,7 +16,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 006 | [7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)](https://drive.google.com/drive/folders/1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/006-negative-prompt-nhat-quan/README.md) |
 | 007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](https://drive.google.com/drive/folders/1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/007-muoi-cong-cu-video-ai/README.md) |
 | 008 | [10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn](https://drive.google.com/drive/folders/1ctNomNol-Wsm_4FDwgpcRlnaAa7iPspU) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/008-muoi-cu-phap-veo/README.md) |
-| 009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P) | 18 | Chưa đọc | — |
+| 009 | [10 Cú Pháp Prompt Nâng Cấp Video AI Từ "Phèn" Tới Điện Ảnh](https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P) | 18 | Đã hoàn thành | [Mở bài](bai-hoc/009-nang-cap-ngon-ngu-dien-anh/README.md) |
 | 010 | [Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1](https://drive.google.com/drive/folders/1VBQ0HiAWGWtDEMz2kQc5CwVu9gJroWHd) | 14 | Chưa đọc | — |
 | 011 | [Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood](https://drive.google.com/drive/folders/1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15) | 18 | Chưa đọc | — |
 | 012 | [Bí Mật Cinematic- Chỉ Cần Đổi "CẤU TRÚC CAMERA" Video Veo 3.1 Lên Đời Ngay Lập Tức!](https://drive.google.com/drive/folders/1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1) | 16 | Chưa đọc | — |
