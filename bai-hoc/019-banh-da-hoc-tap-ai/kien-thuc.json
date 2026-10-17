@@ -1,0 +1,118 @@
+{
+  "lesson_id": "B019",
+  "summary": "13 ảnh về chu trình học bảy bước với AI. Bài biên soạn áp dụng trực tiếp vào điện ảnh: chọn một kỹ năng, giải thích lại, tự kiểm tra, quan sát mẫu, làm shot/clip và ghi bài học. Các mức 50% và 80/20 được giữ như tuyên bố hoặc cách ưu tiên của nguồn, không cam kết hiệu quả.",
+  "principles": [
+    {
+      "title": "Bảy bước, mỗi bước có đầu ra",
+      "source_ids": [
+        "B019-03",
+        "B019-04",
+        "B019-05",
+        "B019-06",
+        "B019-07",
+        "B019-08",
+        "B019-09",
+        "B019-10"
+      ],
+      "source": "Nguồn tổ chức một vòng từ chọn trọng tâm tới phản tư rồi lặp.",
+      "explanation": "Bảng áp dụng tự biên soạn:\n\n| Bước | Việc làm | Đầu ra có thể xem lại |\n| --- | --- | --- |\n| 1. Trọng tâm | Chọn một lỗi/kỹ năng cần sửa | Một mục tiêu và tiêu chí đạt |\n| 2. Kế hoạch | Chia thời gian học, luyện, ôn | Lịch mẫu và việc từng buổi |\n| 3. Giải thích lại | Nói bằng lời mình, dùng ví dụ | Đoạn giải thích và chỗ còn mơ hồ |\n| 4. Kiểm tra | Tự trả lời trước khi xem đáp | Câu trả lời, lỗi, mã nguồn đối chiếu |\n| 5. Quan sát mẫu | Xem lựa chọn và kết quả | Ghi chú vì sao cách làm phù hợp |\n| 6. Sản phẩm | Viết shot list/prompt, tạo nếu có công cụ | Bản nháp, clip và bảng chấm |\n| 7. Phản tư | Chọn sửa gì ở vòng tới | Một điều giữ, một điều sửa |\n\nKhông đồng nhất đọc xong với làm được.",
+      "example": "Vòng học 'pan khác truck': giải thích đúng, nhận diện qua video rồi viết hai prompt khác nhau cho cùng luống rau.",
+      "check": "Đủ đầu ra, đặc biệt câu trả lời tự làm và sản phẩm thay vì chỉ bản tóm tắt AI.",
+      "illustration": 3
+    },
+    {
+      "title": "Chọn trọng tâm theo mục tiêu thực tế",
+      "source_ids": [
+        "B019-00",
+        "B019-01",
+        "B019-04",
+        "B019-05",
+        "B019-11"
+      ],
+      "source": "Nguồn dùng nguyên lý 80/20, lịch có ôn và tránh nhồi chủ đề.",
+      "explanation": "Ưu tiên kiến thức giúp sửa vấn đề đang gặp. 80/20 gợi chọn ít việc quan trọng, không yêu cầu đo chính xác 20% giáo trình hay hứa 80% kết quả. Chốt một việc nhỏ trong một buổi, đủ thời gian tự thử và xem lại. Con số giảm 50% chưa có dữ liệu để áp cho người học.",
+      "example": "Nếu clip cận luôn mất điểm tiếp xúc, học cỡ cảnh/vùng nét trước hiệu ứng roll hoặc từ khóa phong cách.",
+      "check": "Mục tiêu viết thành hành vi đo được, ví dụ 'khung luôn thấy tay–nan–vành giỏ'.",
+      "illustration": 4
+    },
+    {
+      "title": "Dùng hỏi gợi mở và giải thích lại",
+      "source_ids": [
+        "B019-02",
+        "B019-06"
+      ],
+      "source": "Nguồn khuyên hội thoại kiểu Socrates và đổi vai để người học dạy lại.",
+      "explanation": "Yêu cầu AI hỏi một câu, chờ bạn trả lời, rồi phản hồi dựa trên nguồn. Giải thích bằng lời đơn giản và tự tạo ví dụ/phản ví dụ để lộ chỗ hiểu nhầm. AI cần chỉ mã bài/ảnh làm căn cứ và nói khi chưa đủ chứng cứ. Không cần khẳng định giao diện nào có nút hay đường menu đúng như ảnh.",
+      "example": "Bạn giải thích vì sao tilt xuống mặt bàn khác hạ cả máy. AI hỏi hình quan hệ giỏ và hậu cảnh sẽ thay ra sao để bạn tự kiểm tra.",
+      "check": "Bạn có thể dùng kiến thức cho tình huống mới, không chỉ lặp định nghĩa.",
+      "illustration": 6
+    },
+    {
+      "title": "Tự gợi nhớ rồi đối chiếu nguồn",
+      "source_ids": [
+        "B019-07",
+        "B019-11"
+      ],
+      "source": "Nguồn đề xuất tự kiểm tra, thẻ nhớ, ôn cách quãng thay cho chỉ đọc lại.",
+      "explanation": "Đóng tài liệu, viết câu trả lời ngắn, sau đó mở ảnh/bản học để so. Với mỗi câu, ghi đáp án, giải thích và mã nguồn. Ôn lại các lỗi ở buổi khác; khoảng cách tùy mức nhớ và thời gian, không mặc định một lịch tối ưu chung. Thẻ nhớ có thể là câu mở hoặc nhận diện ảnh, không chỉ nhiều lựa chọn.",
+      "example": "Thẻ hỏi 'Máy giữ vị trí và xoay ngang là gì?' đối chiếu B018-09. Thẻ áp dụng 'Muốn lộ mặt bên giỏ thì pan đã đủ chưa?' cần lý giải.",
+      "check": "Trả lời trước khi xem đáp; sửa được lý do sai; đáp án không tự mâu thuẫn nguồn.",
+      "illustration": 7
+    },
+    {
+      "title": "Quan sát có phản biện rồi tạo sản phẩm",
+      "source_ids": [
+        "B019-08",
+        "B019-09"
+      ],
+      "source": "Nguồn gợi xem mẫu và để AI phản biện bản nháp sản phẩm.",
+      "explanation": "Đề nghị các bước làm công khai, lựa chọn chính, bản nháp và kết quả đối chiếu. Xem video thực tế khi đánh giá camera/âm; ảnh chỉ giúp đọc bố cục. Tự chọn phương án và làm một sản phẩm nhỏ. Phân biệt prompt đã viết, clip đã tạo và clip đã đạt; AI nhận xét không thay việc xem lại.",
+      "example": "Từ B017 viết ba shot tưới cây; dùng B015 rà vật lý, B016 rà âm, B018 rà camera. Nếu chưa tạo video, chỉ ghi 'shot list đã rà', không ghi video đạt.",
+      "check": "Sản phẩm có tiêu chí và bằng chứng tương ứng, phần chưa thử được đánh dấu.",
+      "illustration": 9
+    },
+    {
+      "title": "Phản tư để vòng sau có tiến bộ cụ thể",
+      "source_ids": [
+        "B019-10",
+        "B019-12"
+      ],
+      "source": "Nguồn kết vòng bằng khó khăn, điều học tiếp và gợi bắt đầu với kế hoạch ba ngày.",
+      "explanation": "Ghi lỗi quan sát, điều đã thử, điều giữ và đúng một việc sửa. Theo dõi bằng tài liệu lưu lại để phiên học sau đọc tiếp, không dựa vào giả định AI nhớ mọi ảnh vĩnh viễn. Kế hoạch là mẫu tự học; không có tác vụ tự động hay nhắc lịch nào được tạo ở đây.",
+      "example": "Sau clip đan giỏ: 'cỡ cảnh đạt; nan xuyên vành ở giây 4; vòng tới đơn giản hóa một lần luồn nan, giữ camera'.",
+      "check": "Có lỗi gắn sản phẩm/mốc, có hành động sửa cụ thể và điểm bắt đầu buổi sau.",
+      "illustration": 10
+    }
+  ],
+  "editorial_corrections": [
+    "Giảm 50% thời gian không được chứng minh trong nguồn; 80/20 là quy tắc ưu tiên, không bảo đảm phân phối hiệu quả.",
+    "Các nhãn Wiki Mode, Study Mode và đường Tools > Study and Learn được ghi như nội dung ảnh; chưa xác minh cho giao diện/tài khoản người học.",
+    "Không cần dùng tác nhân tự động để học theo mẫu; phương pháp có thể thực hiện bằng đối thoại và sản phẩm kiểm tra được.",
+    "Giải thích lại cho AI không huấn luyện lại mô hình hay bảo đảm AI nhớ vĩnh viễn; tài liệu GitHub là kho tham chiếu lưu được.",
+    "Flashcards không đồng nghĩa trắc nghiệm; AI có thể tạo câu hỏi/đáp án sai nên phải đối chiếu.",
+    "JetBrains Mono là chữ tên font còn trong ảnh; các tên 'Information Coma'/'Silent Reader Syndrome' là nhãn ẩn dụ."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B019-00",
+    "B019-01",
+    "B019-02",
+    "B019-03",
+    "B019-04",
+    "B019-05",
+    "B019-06",
+    "B019-07",
+    "B019-08",
+    "B019-09",
+    "B019-10",
+    "B019-11",
+    "B019-12"
+  ],
+  "references": [
+    {
+      "title": "OpenAI: xây hệ thống học từ nguồn",
+      "url": "https://learn.chatgpt.com/use-cases/build-exam-study-system",
+      "purpose": "Đối chiếu cách gắn kế hoạch/câu hỏi/đáp án với tài liệu gốc và cập nhật theo lỗ hổng; trang này không xác nhận đường menu Study Mode nêu trong ảnh."
+    }
+  ]
+}

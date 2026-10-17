@@ -19,15 +19,15 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 18,
-    "pending_lessons": 15,
-    "images_read": 247,
-    "pending_images": 197
+    "completed_lessons": 19,
+    "pending_lessons": 14,
+    "images_read": 260,
+    "pending_images": 184
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B019",
-  "next_pending_batch": "D06",
+  "next_pending_lesson": "B020",
+  "next_pending_batch": "D07",
   "batches": [
     {
       "batch_id": "D01",
@@ -99,7 +99,7 @@
       "from_sequence": 17,
       "to_sequence": 19,
       "image_count": 35,
-      "status": "in_progress"
+      "status": "completed"
     },
     {
       "batch_id": "D07",
@@ -2223,10 +2223,10 @@
       "current_name": "019 - Hệ thống Bánh Đà học tập bằng AI",
       "display_title": "Hệ thống Bánh Đà học tập bằng AI",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 13,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 13,
+      "repository_lesson_path": "bai-hoc/019-banh-da-hoc-tap-ai",
       "image_inventory": [
         {
           "id": "17otYqFcLjPGrpsWnZEP78JLYkVPTCjJz",
@@ -2320,7 +2320,8 @@
           "url": "https://drive.google.com/file/d/1EVDuYSW5I3q1bIEvGdFUQtL7xYAXyqhV/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 20,
