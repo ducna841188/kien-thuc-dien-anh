@@ -2,7 +2,7 @@
 
 Số thư mục Drive đã gắn 001–033. Bài mới dùng số từ 034; các mã hiện có giữ ổn định. Ngày cập nhật: 17/10/2026.
 
-**Tiến độ:** 3/33 bài; 32/444 ảnh đã đọc. Bài kế tiếp: **B004**.
+**Tiến độ:** 4/33 bài; 47/444 ảnh đã đọc. Bài kế tiếp: **B005**.
 
 Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành mới xác nhận đã đọc và biên soạn.
 
@@ -11,7 +11,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 | 001 | [4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director](https://drive.google.com/drive/folders/1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n) | 12 | Đã hoàn thành | [Mở bài](bai-hoc/001-bon-cau-truc-camera/README.md) |
 | 002 | ["Đạo Diễn" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1](https://drive.google.com/drive/folders/1rkAs-29TJoUIuhJpR2dfc7KjYPU6B4qg) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/002-prompt-cau-truc/README.md) |
 | 003 | [3 "Ác Mộng" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)](https://drive.google.com/drive/folders/1Xwl5Utm-Htki_HXiVIEVB1OBuWASKKf_) | 10 | Đã hoàn thành | [Mở bài](bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md) |
-| 004 | [4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?](https://drive.google.com/drive/folders/1whjdmVdATgovKxaEXnA9gWsU-TIdnTRJ) | 15 | Chưa đọc | — |
+| 004 | [4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?](https://drive.google.com/drive/folders/1whjdmVdATgovKxaEXnA9gWsU-TIdnTRJ) | 15 | Đã hoàn thành | [Mở bài](bai-hoc/004-nano-banana-pro/README.md) |
 | 005 | [7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1](https://drive.google.com/drive/folders/1qDJzlfauIo-m6RDrBqJcpPr6Am94IHcC) | 13 | Chưa đọc | — |
 | 006 | [7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)](https://drive.google.com/drive/folders/1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd) | 15 | Chưa đọc | — |
 | 007 | [10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau](https://drive.google.com/drive/folders/1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH) | 12 | Chưa đọc | — |
@@ -46,7 +46,7 @@ Tên và số ảnh là kết quả kiểm kê; chỉ trạng thái hoàn thành
 
 | Đợt | Bài | Ảnh | Trạng thái |
 | --- | --- | ---: | --- |
-| D01 | 002–004 | 35 | Đang xử lý |
+| D01 | 002–004 | 35 | Đã hoàn thành |
 | D02 | 005–007 | 40 | Chưa đọc |
 | D03 | 008–010 | 50 | Chưa đọc |
 | D04 | 011–013 | 50 | Chưa đọc |

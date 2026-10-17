@@ -1,0 +1,110 @@
+{
+  "lesson_id": "B004",
+  "summary": "Bộ 15 ảnh giới thiệu khả năng tạo và sửa ảnh, cấu trúc prompt và nhiều ứng dụng thiết kế. Với việc làm phim, giá trị dễ chuyển giao là tạo hình ý tưởng, ảnh tham chiếu, storyboard và vật liệu quảng bá; cần duyệt kỹ danh tính, chữ, dữ liệu và chi tiết sản phẩm.",
+  "principles": [
+    {
+      "title": "Chọn đầu ra phục vụ tiền kỳ",
+      "source_ids": [
+        "B004-00",
+        "B004-03",
+        "B004-07"
+      ],
+      "source": "Nguồn giới thiệu tạo, chỉnh và kết hợp nhiều ảnh, các ví dụ poster, truyện và figure.",
+      "explanation": "Bắt đầu bằng yêu cầu sản xuất cụ thể: một ảnh bối cảnh, thiết kế trang phục hay một khung storyboard. Ảnh tĩnh cần có bố cục đủ rõ để sau đó viết hành động và đường máy. Không suy ra khả năng video hay tệp 3D từ ảnh demo.",
+      "example": "Tạo một ảnh hiên nhà miền Tây sau mưa để duyệt màu, vị trí cửa và rổ rau trước khi sinh clip.",
+      "check": "Khung có không gian cho hành động; cửa, đồ vật và tỷ lệ nhân vật hợp lý.",
+      "illustration": 7
+    },
+    {
+      "title": "Viết yêu cầu theo năm nhóm",
+      "source_ids": [
+        "B004-04",
+        "B004-14"
+      ],
+      "source": "Chủ thể + hành động/bối cảnh + phong cách + ánh sáng/màu + chi tiết kỹ thuật.",
+      "explanation": "Dùng cấu trúc này như checklist. Chọn một trọng tâm thị giác, hướng nguồn sáng và vị trí máy rõ ràng. Yêu cầu độ phân giải ở thiết lập được hỗ trợ; không nhồi từ chất lượng thay cho mô tả hình.",
+      "example": "Lan ở bên phải khung, hiên nhà gỗ bên trái; buổi sáng âm u, ánh sáng mềm, màu nâu và xanh lá trầm; hiện thực tự nhiên, khung ngang.",
+      "check": "Người xem xác định được chủ thể và hướng sáng ngay; chi tiết kỹ thuật không mâu thuẫn ý đồ.",
+      "illustration": 4
+    },
+    {
+      "title": "Sửa một yếu tố và bảo vệ phần còn lại",
+      "source_ids": [
+        "B004-00",
+        "B004-05",
+        "B004-14"
+      ],
+      "source": "Nguồn có mẫu chỉ thay yếu tố cụ thể, giữ phần còn lại; tạo nhiều biến thể sản phẩm và nhận diện.",
+      "explanation": "Ghi ảnh chuẩn và vùng cần sửa, rồi so toàn bộ ảnh đầu ra với đầu vào. Câu giữ nguyên không đảm bảo các vùng khác thực sự bất biến. Các biến thể phục vụ so sánh chỉ nên đổi một nhóm quyết định.",
+      "example": "Giữ bếp, mặt và tư thế Lan, chỉ đổi áo sang nâu đất; sau đó mới thử ánh sáng bếp.",
+      "check": "Kiểm mặt, tay, cửa, đường bàn và chữ ngoài vùng sửa; loại bản làm thay đổi ngoài ý muốn.",
+      "illustration": 0
+    },
+    {
+      "title": "Duyệt chữ và dữ liệu độc lập",
+      "source_ids": [
+        "B004-03",
+        "B004-06"
+      ],
+      "source": "Nguồn đề cao chữ tiếng Việt và Search cho infographic.",
+      "explanation": "So từng ký tự, dấu và con số với bản nội dung đã chốt. Với sơ đồ chính xác, chuẩn bị dữ liệu và vẽ bằng công cụ xác định thay vì tin một ảnh đẹp. Search hỗ trợ thông tin nhưng không thay bước kiểm chứng.",
+      "example": "Poster phim ngắn có tên Bữa Cơm Chiều; duyệt dấu ữ, ơ, ề và tên đoàn trước khi dùng.",
+      "check": "Đọc ở kích thước xuất thật; mọi số liệu có nguồn và thời điểm, không lấy đồ thị minh họa làm dữ liệu.",
+      "illustration": 6
+    },
+    {
+      "title": "Đánh giá công cụ bằng tác vụ",
+      "source_ids": [
+        "B004-02",
+        "B004-08",
+        "B004-10",
+        "B004-11",
+        "B004-12",
+        "B004-13"
+      ],
+      "source": "Nguồn cân nhắc ưu nhược điểm, người dùng và quy trình bắt đầu.",
+      "explanation": "Google công bố Nano Banana Pro là Gemini 3 Pro Image; hỗ trợ 1K/2K/4K và nhiều ảnh theo bề mặt sử dụng. Ghi model, tài khoản, số lần thử, thời gian sửa và số bản dùng được. Không chọn công cụ từ một bình luận hoặc lời hứa thay toàn bộ phần mềm.",
+      "example": "Thử một bối cảnh, một ảnh nhân vật và một chỉnh sửa trang phục, đánh giá mức phù hợp với phim dự định.",
+      "check": "Có đầu vào, đầu ra và tiêu chí duyệt lưu cùng nhau; xem hạn mức hiện trong tài khoản trước khi lập ngân sách.",
+      "illustration": 10
+    }
+  ],
+  "editorial_corrections": [
+    "Nano Banana Pro được Google sử dụng chính thức để gọi Gemini 3 Pro Image; câu chỉ là tên cộng đồng ở B004-02 cần chỉnh.",
+    "4K không đồng nghĩa mọi tỉ lệ đều 4096×4096; kích thước phụ thuộc tỉ lệ và nơi sử dụng. Từ 8K trong prompt không nâng giới hạn xuất.",
+    "Google có công bố tối đa 14 ảnh và hỗ trợ duy trì nét giống của tối đa năm người; đây không phải bảo đảm mọi ảnh đều chính xác.",
+    "Không xác nhận chữ tiếng Việt hoàn hảo hoặc Search bảo đảm đúng dữ liệu. Google cũng nêu giới hạn với chữ, mặt nhỏ và chi tiết.",
+    "Miễn phí hai ảnh/ngày và vị trí nút trong ảnh thuộc bối cảnh nguồn tháng 12/2025, không được coi là điều kiện hiện tại.",
+    "Các con số lỗi 50%, tiếp cận 99% và so sánh Canva/Photoshop/Midjourney trong nguồn chưa có thử nghiệm đủ đối chiếu."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B004-00",
+    "B004-01",
+    "B004-02",
+    "B004-03",
+    "B004-04",
+    "B004-05",
+    "B004-06",
+    "B004-07",
+    "B004-08",
+    "B004-09",
+    "B004-10",
+    "B004-11",
+    "B004-12",
+    "B004-13",
+    "B004-14"
+  ],
+  "references": [
+    {
+      "title": "Google — công bố Nano Banana Pro",
+      "url": "https://blog.google/innovation-and-ai/products/nano-banana-pro/",
+      "purpose": "Đối chiếu tên, nhiều ảnh và độ phân giải."
+    },
+    {
+      "title": "Google DeepMind — Nano Banana Pro",
+      "url": "https://deepmind.google/models/gemini-image/pro/",
+      "purpose": "Đối chiếu giới hạn chữ, mặt nhỏ và chi tiết."
+    }
+  ]
+}
