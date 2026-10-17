@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 21/33 bài, đọc 285/444 ảnh.**
+**Đã hoàn thành 22/33 bài, đọc 299/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -31,6 +31,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B019 | [Hệ thống Bánh Đà học tập bằng AI](bai-hoc/019-banh-da-hoc-tap-ai/README.md) | 13 |
 | B020 | [Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến](bai-hoc/020-nam-chia-khoa-nhat-quan/README.md) | 10 |
 | B021 | [Làm chủ cảm xúc trong Video VEO](bai-hoc/021-lam-chu-cam-xuc/README.md) | 15 |
+| B022 | [Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp](bai-hoc/022-veo-tu-co-ban-den-quy-trinh/README.md) | 14 |
 
 ## Quy ước học tập
 

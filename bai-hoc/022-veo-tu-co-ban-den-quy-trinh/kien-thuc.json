@@ -1,0 +1,102 @@
+{
+  "lesson_id": "B022",
+  "summary": "Bài tổng hợp cách chuyển ý tưởng thành một cảnh: xác định chủ thể–bối cảnh–hành động–phong cách, chỉ đạo máy quay và âm thanh, chọn tạo từ chữ hoặc ảnh, rồi kiểm tra cả nội dung lẫn định dạng. Các bảng giá và so sánh sản phẩm trong ảnh chỉ là thông tin của tài liệu nguồn, không phải báo giá hay giới hạn hiện hành.",
+  "principles": [
+    {
+      "title": "Từ ý đồ đến một hành động đọc được",
+      "source_ids": [
+        "B022-01",
+        "B022-04"
+      ],
+      "source": "Bốn trụ cột và hai cách viết giúp người làm phim tổ chức ý tưởng rõ ràng.",
+      "explanation": "Trước hết chốt điều người xem phải thấy thay đổi trong cảnh. Chủ thể làm gì với vật nào, theo hướng nào, và kết thúc ở trạng thái nào? Dùng đoạn văn hay chia mục đều được nếu không mâu thuẫn. Với ảnh đã duyệt, chỉ bổ sung điều còn thiếu.",
+      "example": "Cô gái cầm mép tấm phủ và lùi dọc luống; tấm phủ dài dần, phủ thêm mặt đất. Câu này rõ hơn 'cô gái làm nông điện ảnh'.",
+      "check": "Có thể chỉ ra trạng thái đầu, thao tác và trạng thái cuối; không nhét nhiều công đoạn độc lập vào một cảnh ngắn.",
+      "illustration": 1
+    },
+    {
+      "title": "Máy quay phục vụ việc nhìn rõ",
+      "source_ids": [
+        "B022-02",
+        "B022-03"
+      ],
+      "source": "Nguồn bổ sung cỡ cảnh, góc nhìn, chuyển động, ánh sáng và âm thanh.",
+      "explanation": "Chọn cỡ cảnh theo bằng chứng cần thấy. Cảnh toàn cho hướng di chuyển; cận tay cho tiếp xúc vật liệu. Chỉ dùng một chuyển động chính khi thử thao tác khó. Viết riêng âm thanh môi trường, tiếng hành động và nhạc để biết phần nào cần sửa.",
+      "example": "Cảnh rộng máy tĩnh cho thấy cô gái lùi và tấm phủ căng dần; tiếng nilon sột soạt theo lực kéo, nền gió nhẹ. Cảnh cận tay được tạo thành cảnh riêng.",
+      "check": "Máy quay không che điểm tiếp xúc; âm thanh phát sinh đúng lúc vật chuyển động; không có nhạc lấn thao tác.",
+      "illustration": 2
+    },
+    {
+      "title": "Chọn chữ, ảnh hay hai khung theo mục tiêu",
+      "source_ids": [
+        "B022-05",
+        "B022-06",
+        "B022-07"
+      ],
+      "source": "Ba nhánh tạo giúp khám phá, giữ hình ảnh và thiết kế chuyển tiếp.",
+      "explanation": "Tạo từ chữ để thăm dò. Khi đã duyệt nhân vật, chuẩn bị ảnh bối cảnh đúng rồi dùng ảnh đó làm đầu vào chuyển động. Khung đầu/cuối phù hợp khi cần hai trạng thái đích, nhưng phải kiểm tra đoạn giữa. Không yêu cầu mô hình tự tạo ra cả quá trình lao động thực nếu chỉ muốn một hiệu ứng biến hình.",
+      "example": "Duyệt một ảnh đúng mặt, trang phục, luống đất và vị trí hai tay. Sau đó chỉ đạo kéo tấm phủ. Nếu cần timelapse (tua nhanh thời gian), ghi rõ lao động được nén và vẫn chỉ một người.",
+      "check": "Ảnh đầu đã đủ đúng để chuyển động; vật không tự mọc thêm; đường đi liên tục giữa hai trạng thái.",
+      "illustration": 5
+    },
+    {
+      "title": "Khung hình và thông số phải được đặt đúng chỗ",
+      "source_ids": [
+        "B022-08",
+        "B022-09",
+        "B022-10"
+      ],
+      "source": "Nguồn giới thiệu khung dọc, 4K, tham chiếu và bảng so sánh sản phẩm.",
+      "explanation": "Tỷ lệ, độ phân giải và số ảnh là thiết lập của công cụ, không phải lời hứa có được bằng cách thêm từ khóa. Tài liệu Gemini API được đối chiếu ghi khung 16:9/9:16 và tối đa ba ảnh tham chiếu. Kiểm tra đúng mã mô hình, loại đầu vào và độ phân giải trước khi chạy. Bảng so sánh trong ảnh không dùng làm bảng lựa chọn dịch vụ hiện tại.",
+      "example": "Cảnh đan tre ngang phải giữ hai tay và nan tre trong vùng an toàn. Nếu xuất bản dọc, dựng lại bố cục ảnh đầu để không cắt thao tác.",
+      "check": "Tệp thực có tỷ lệ và kích thước mong muốn; số ảnh hợp lệ; không nhầm nâng độ phân giải với bảo toàn mọi chi tiết gốc.",
+      "illustration": 9
+    },
+    {
+      "title": "Tối ưu bằng tỷ lệ cảnh dùng được",
+      "source_ids": [
+        "B022-11",
+        "B022-12",
+        "B022-13"
+      ],
+      "source": "Nguồn khuyên thử bản nháp rồi tạo bản cuối và duyệt theo checklist.",
+      "explanation": "Ghi chi phí cho mỗi lần thử và số giây thực sự dùng được. Công thức quản lý: tổng tiền đã chạy chia tổng giây đạt yêu cầu. Bản nháp đạt không bảo đảm bản chạy lại giữ đúng chuyển động; bản cuối phải qua cùng tiêu chí. Chỉ thay một nhóm biến để biết sửa gì có tác dụng.",
+      "example": "Thử máy tĩnh trước để xác nhận kéo phủ đúng. Khi đạt mới thử máy tiến nhẹ; nếu hỏng thao tác, giữ phiên bản máy tĩnh. Đừng trả thêm chỉ vì nhãn 'cinematic'.",
+      "check": "Có nhật ký phiên bản, lỗi theo giây và quyết định dùng/sửa; giá lấy từ trang thanh toán của công cụ lúc chạy.",
+      "illustration": 11
+    }
+  ],
+  "editorial_corrections": [
+    "100–150 từ, 3–6 câu, dưới 15 vật thể là các mẹo của nguồn, không phải giới hạn phổ quát đã được chứng minh.",
+    "Nguồn ghi tối đa 4 ảnh; tài liệu Gemini API được đối chiếu ghi tối đa 3 ảnh tham chiếu. Không áp dụng con số này cho mọi giao diện khác.",
+    "4K và native 9:16 (tạo trực tiếp theo khung dọc) là hai thuộc tính khác nhau; không mặc định mọi chế độ hỗ trợ cùng lúc.",
+    "Hai khung đầu/cuối không bảo đảm tuyệt đối chuyển động giữa; ảnh tĩnh cũng không chứng minh vật lý.",
+    "Bảng Veo/Sora và các giá USD/giây là thông tin trong ảnh nguồn, thiếu điều kiện và ngày. Không xác nhận các ô đó là khả năng hoặc giá hiện hành.",
+    "Standard/Fast có thể cho kết quả khác nhau. Chuyển từ bản nháp sang bản cuối phải xem lại toàn video.",
+    "Tilt là ngẩng/cúi máy; dolly là di chuyển máy; zoom là thay đổi góc nhìn bằng tiêu cự. Không dùng lẫn."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B022-00",
+    "B022-01",
+    "B022-02",
+    "B022-03",
+    "B022-04",
+    "B022-05",
+    "B022-06",
+    "B022-07",
+    "B022-08",
+    "B022-09",
+    "B022-10",
+    "B022-11",
+    "B022-12",
+    "B022-13"
+  ],
+  "references": [
+    {
+      "title": "Google — Veo trong Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs/veo",
+      "purpose": "Đối chiếu ngày 17/10/2026: khung ngang/dọc và tối đa ba ảnh tham chiếu. Kiểm tra lại theo đúng mô hình khi thực hành."
+    }
+  ]
+}
