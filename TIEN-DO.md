@@ -2,11 +2,11 @@
 
 Cập nhật: 17/10/2026.
 
-Đã hoàn thành **17 bài / 235 ảnh**; còn **16 bài / 209 ảnh**.
+Đã hoàn thành **18 bài / 247 ảnh**; còn **15 bài / 197 ảnh**.
 
 [Danh mục đầy đủ](DANH-MUC-BAI-HOC.md) · [Dữ liệu trạng thái](DANH-MUC-BAI-HOC.json)
 
-Bài tiếp theo: **B018**. Xử lý theo mã và mã thư mục Drive, không theo vị trí tìm kiếm.
+Bài tiếp theo: **B019**. Xử lý theo mã và mã thư mục Drive, không theo vị trí tìm kiếm.
 
 ## Nhật ký bài đã hoàn thành
 
@@ -27,6 +27,7 @@ Bài tiếp theo: **B018**. Xử lý theo mã và mã thư mục Drive, không t
 - B015: đã đọc 12/12 ảnh; [tài liệu](bai-hoc/015-logic-chuyen-dong-vat-ly/README.md).
 - B016: đã đọc 14/14 ảnh; [tài liệu](bai-hoc/016-thiet-ke-am-thanh/README.md).
 - B017: đã đọc 10/10 ảnh; [tài liệu](bai-hoc/017-mini-story-ba-nhip/README.md).
+- B018: đã đọc 12/12 ảnh; [tài liệu](bai-hoc/018-dolly-pan-tilt/README.md).
 
 ## Nguyên tắc tiếp tục
 

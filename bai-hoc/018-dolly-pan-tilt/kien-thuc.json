@@ -1,0 +1,103 @@
+{
+  "lesson_id": "B018",
+  "summary": "12 ảnh hệ thống hóa từ vựng máy quay. Bản học tách ba quyết định độc lập, phân biệt xoay tại chỗ với dịch máy, Dutch angle với tilt/roll và tracking với đi ngang, kèm bài tập dùng đúng dolly–pan–tilt trong cảnh nông thôn.",
+  "principles": [
+    {
+      "title": "Chọn cỡ cảnh theo thông tin cần thấy",
+      "source_ids": [
+        "B018-01",
+        "B018-02",
+        "B018-03",
+        "B018-04"
+      ],
+      "source": "Nguồn có sáu mức từ rất rộng tới cực cận để hướng chú ý.",
+      "explanation": "Bảng tra diễn đạt lại:\n\n| Mã | Nghĩa | Ưu tiên thường dùng |\n| --- | --- | --- |\n| EWS | Rất rộng | Quy mô, quan hệ người–cảnh |\n| WS/LS | Rộng/toàn thân theo quy ước nguồn | Dáng đi, không gian |\n| MS | Trung, thường khoảng eo trở lên | Thao tác lớn, hội thoại |\n| MCU | Trung cận, thường khoảng ngực trở lên | Biểu cảm có chút nền |\n| CU | Cận | Mặt hoặc đồ vật/việc chính |\n| ECU | Cực cận | Một chi tiết nhỏ |\n\nTên cỡ không thay việc ghi giới hạn khung cần giữ.",
+      "example": "Với đan giỏ, cận vừa đủ chứa hai tay và mép giỏ có ích hơn cực cận một đầu ngón khiến không hiểu đường nan.",
+      "check": "Mọi vật cần thiết để hiểu thao tác đều trong khung; chi tiết đủ lớn để quan sát.",
+      "illustration": 4
+    },
+    {
+      "title": "Góc nhìn và độ cao là lựa chọn kể chuyện",
+      "source_ids": [
+        "B018-00",
+        "B018-05",
+        "B018-06",
+        "B018-07"
+      ],
+      "source": "Nguồn giới thiệu ngang mắt, cao, thấp, Dutch cùng vị trí ngang hông/gối/sát đất.",
+      "explanation": "Góc cao nhìn xuống, góc thấp nhìn lên; ngang mắt theo tầm mắt chủ thể. Độ cao máy không tự xác định hướng nhìn. Dutch là khung nghiêng đường chân trời; không phải tilt ngẩng/cúi. Hiệu quả quyền lực, yếu thế hay bất an chỉ là khả năng, cần ngữ cảnh.",
+      "example": "Góc cao nhẹ nhìn xuống bàn giúp thấy cách đặt hạt vào rãnh, phục vụ đọc thao tác; không cần gán ý nghĩa nhân vật yếu đuối.",
+      "check": "Góc giúp thấy thông tin và phù hợp sắc thái; không nghiêng khung vô cớ.",
+      "illustration": 7
+    },
+    {
+      "title": "Phân biệt xoay tại chỗ với dịch máy",
+      "source_ids": [
+        "B018-08",
+        "B018-09",
+        "B018-10"
+      ],
+      "source": "Nguồn chia hai nhóm chuyển động máy với sơ đồ.",
+      "explanation": "Bảng áp dụng:\n\n| Thuật ngữ | Điều thay đổi | Ví dụ ngắn |\n| --- | --- | --- |\n| Pan | Hướng nhìn ngang, vị trí giữ nguyên | Lia từ cổng sang vườn |\n| Tilt | Hướng nhìn lên/xuống, vị trí giữ nguyên | Từ giỏ lên mặt |\n| Roll | Xoay quanh trục ống kính | Khung xoay nghiêng dần |\n| Dolly | Máy tiến gần/lùi xa | Tiến từ trung vào cận |\n| Truck | Máy dịch ngang | Đi ngang dọc luống |\n| Tracking | Máy bám chủ thể, nhiều đường có thể dùng | Theo từ phía sau |\n| Crane/Boom | Máy được nâng/hạ hoặc quét cung bằng cần | Lên cao lộ ruộng |\n| Arc/Orbit | Máy đi cung quanh chủ thể | Từ trước sang bên giỏ |\n| Zoom – bổ sung | Đổi tiêu cự, máy không dịch vì zoom | Thu khung trên vật |\n\nKhông suy chuyển động đúng chỉ từ một khung ảnh.",
+      "example": "Lia pan từ cổng sang vườn giữ nguyên chân máy. Nếu muốn thấy mặt bên của giỏ đổi theo vị trí nhìn, yêu cầu máy dịch hoặc đi cung, không chỉ lia.",
+      "check": "Toàn clip có đường máy đúng; vật thể không tự xoay thay máy; không nhầm zoom với tiến gần.",
+      "illustration": 9
+    },
+    {
+      "title": "Đưa điểm đầu, đường đi và điểm dừng vào prompt",
+      "source_ids": [
+        "B018-09",
+        "B018-10",
+        "B018-11"
+      ],
+      "source": "Nguồn cho các mẫu slow pan, tilt từ chân lên mặt, dolly-in và bảng ghép mục đích.",
+      "explanation": "Mẫu tự biên soạn: cỡ đầu + góc đầu + đường máy/tốc độ + đích cuối + phần luôn phải trong khung. Chọn một chuyển động trước; nếu phối hợp, nêu mục đích và thứ tự. Máy tĩnh là lựa chọn đầy đủ khi thao tác hoặc bố cục cần ổn định.",
+      "example": "Bắt đầu trung cảnh người ôm bó rau ở ngang ngực; máy tilt xuống chậm tới giỏ trên bàn, giữ nguyên vị trí, dừng khi thấy tay đặt rau vào giỏ.",
+      "check": "Đích lộ đúng lúc, không cắt mất điểm tiếp xúc; đường chân trời ổn định nếu không yêu cầu roll.",
+      "illustration": 10
+    },
+    {
+      "title": "Dùng bảng cảm xúc như giả thuyết",
+      "source_ids": [
+        "B018-06",
+        "B018-07",
+        "B018-11"
+      ],
+      "source": "Nguồn gợi ý cỡ/góc/chuyển động cho thân mật, căng thẳng, uy lực và choáng.",
+      "explanation": "Chọn hình thức vì lý do của cảnh rồi xem hiệu quả. Đừng ghép tất cả từ khóa trong một ô thành lệnh cùng lúc. Với cảnh thao tác, chấm rõ việc và vật lý trước, sau đó nhịp, cảm xúc và phong cách.",
+      "example": "Người chăm cây có thể gần gũi với trung cảnh ngang mắt tĩnh, chỉ một nụ cười nhỏ sau khi xong việc; không cần orbit hay Dutch để 'điện ảnh'.",
+      "check": "Người xem hiểu việc và sắc thái mà không cần giải thích từ khóa đã dùng.",
+      "illustration": 11
+    }
+  ],
+  "editorial_corrections": [
+    "Tracking không chỉ là máy đi song song; cần nêu hướng bám cụ thể.",
+    "Dutch angle là khung nghiêng; tilt là ngẩng/cúi, roll là chuyển động xoay quanh trục ống kính.",
+    "Góc thấp/cao không tự gây uy lực/yếu thế; góc cao cũng có chức năng mô tả thao tác.",
+    "Hình B018-00 không khớp chặt nhãn medium shot; cỡ cảnh nên đọc theo nội dung khung.",
+    "Chữ lạc ngôn ngữ ở B018-10 là lỗi biên tập; không dùng làm thuật ngữ.",
+    "Một từ khóa kỹ thuật không bảo đảm mô hình tuân thủ; kiểm tra video và sửa bằng mô tả đường máy."
+  ],
+  "practice_tested": false,
+  "source_ids": [
+    "B018-00",
+    "B018-01",
+    "B018-02",
+    "B018-03",
+    "B018-04",
+    "B018-05",
+    "B018-06",
+    "B018-07",
+    "B018-08",
+    "B018-09",
+    "B018-10",
+    "B018-11"
+  ],
+  "references": [
+    {
+      "title": "Google: thuật ngữ góc và chuyển động camera",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "purpose": "Đối chiếu pan, tilt, dolly, truck, zoom và các góc; kết quả thực tế vẫn cần kiểm tra."
+    }
+  ]
+}
