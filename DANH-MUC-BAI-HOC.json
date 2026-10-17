@@ -19,14 +19,14 @@
   "inventory_counts": {
     "lesson_folders": 33,
     "direct_images": 444,
-    "completed_lessons": 4,
-    "pending_lessons": 29,
-    "images_read": 47,
-    "pending_images": 397
+    "completed_lessons": 5,
+    "pending_lessons": 28,
+    "images_read": 60,
+    "pending_images": 384
   },
   "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
   "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
-  "next_pending_lesson": "B005",
+  "next_pending_lesson": "B006",
   "next_pending_batch": "D02",
   "batches": [
     {
@@ -51,7 +51,7 @@
       "from_sequence": 5,
       "to_sequence": 7,
       "image_count": 40,
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "batch_id": "D03",
@@ -571,10 +571,10 @@
       "current_name": "005 - 7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1",
       "display_title": "7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1",
       "rename_verified": true,
-      "status": "pending",
+      "status": "completed",
       "image_count": 13,
-      "images_read": 0,
-      "repository_lesson_path": null,
+      "images_read": 13,
+      "repository_lesson_path": "bai-hoc/005-bay-cu-may",
       "image_inventory": [
         {
           "id": "1xpBzraloO_ykfOZANDHSLTQcQC5QV5si",
@@ -668,7 +668,8 @@
           "url": "https://drive.google.com/file/d/1StfC2BlsxVlyy_qdlb3mtRvU0pquhN4P/view?usp=drivesdk"
         }
       ],
-      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion.",
+      "completed_on": "2026-10-17"
     },
     {
       "sequence": 6,

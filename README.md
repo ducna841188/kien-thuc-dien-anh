@@ -2,7 +2,7 @@
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 
-**Đã hoàn thành 4/33 bài, đọc 47/444 ảnh.**
+**Đã hoàn thành 5/33 bài, đọc 60/444 ảnh.**
 
 [Danh mục 33 bài và các đợt](DANH-MUC-BAI-HOC.md) · [Tiến độ](TIEN-DO.md) · [Dữ liệu danh mục](DANH-MUC-BAI-HOC.json)
 
@@ -14,6 +14,7 @@ Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. M�
 | B002 | ["Đạo Diễn" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1](bai-hoc/002-prompt-cau-truc/README.md) | 10 |
 | B003 | [3 "Ác Mộng" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)](bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md) | 10 |
 | B004 | [4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?](bai-hoc/004-nano-banana-pro/README.md) | 15 |
+| B005 | [7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1](bai-hoc/005-bay-cu-may/README.md) | 13 |
 
 ## Quy ước học tập
 
