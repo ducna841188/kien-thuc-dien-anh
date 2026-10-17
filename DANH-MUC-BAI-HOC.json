@@ -1,0 +1,3835 @@
+{
+  "schema_version": "1.0",
+  "catalogued_on": "2026-10-17",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "root_folder": {
+    "id": "1tR-tPhoveADKDuEDkiihlbzp7EoihFDE",
+    "name": "Bí ẩn đạo diễn",
+    "url": "https://drive.google.com/drive/folders/1tR-tPhoveADKDuEDkiihlbzp7EoihFDE"
+  },
+  "numbering_policy": {
+    "format": "NNN - original_name",
+    "completed_sample_kept_first": true,
+    "remainder_sort": "Vietnamese Intl.Collator locale vi, numeric true, sensitivity base, original names normalized to NFC for comparison only",
+    "stable_identifiers": true,
+    "next_new_sequence": 34
+  },
+  "drive_renames_verified": true,
+  "drive_folder_ids_preserved": true,
+  "inventory_counts": {
+    "lesson_folders": 33,
+    "direct_images": 444,
+    "completed_lessons": 1,
+    "pending_lessons": 32,
+    "images_read": 12,
+    "pending_images": 432
+  },
+  "content_review_scope": "Chỉ B001 đã đọc trong đợt trước. Đợt đánh số này chỉ kiểm kê metadata, không mở ảnh các bài còn lại.",
+  "execution_policy": "Xử lý từng bài theo số; lưu và xác minh xong một bài mới sang bài tiếp theo. Các đợt là kế hoạch, chưa chạy tự động.",
+  "next_pending_lesson": "B002",
+  "next_pending_batch": "D01",
+  "batches": [
+    {
+      "batch_id": "D01",
+      "lesson_ids": [
+        "B002",
+        "B003",
+        "B004"
+      ],
+      "from_sequence": 2,
+      "to_sequence": 4,
+      "image_count": 35,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D02",
+      "lesson_ids": [
+        "B005",
+        "B006",
+        "B007"
+      ],
+      "from_sequence": 5,
+      "to_sequence": 7,
+      "image_count": 40,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D03",
+      "lesson_ids": [
+        "B008",
+        "B009",
+        "B010"
+      ],
+      "from_sequence": 8,
+      "to_sequence": 10,
+      "image_count": 50,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D04",
+      "lesson_ids": [
+        "B011",
+        "B012",
+        "B013"
+      ],
+      "from_sequence": 11,
+      "to_sequence": 13,
+      "image_count": 50,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D05",
+      "lesson_ids": [
+        "B014",
+        "B015",
+        "B016"
+      ],
+      "from_sequence": 14,
+      "to_sequence": 16,
+      "image_count": 38,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D06",
+      "lesson_ids": [
+        "B017",
+        "B018",
+        "B019"
+      ],
+      "from_sequence": 17,
+      "to_sequence": 19,
+      "image_count": 35,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D07",
+      "lesson_ids": [
+        "B020",
+        "B021",
+        "B022"
+      ],
+      "from_sequence": 20,
+      "to_sequence": 22,
+      "image_count": 39,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D08",
+      "lesson_ids": [
+        "B023",
+        "B024",
+        "B025"
+      ],
+      "from_sequence": 23,
+      "to_sequence": 25,
+      "image_count": 43,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D09",
+      "lesson_ids": [
+        "B026",
+        "B027",
+        "B028"
+      ],
+      "from_sequence": 26,
+      "to_sequence": 28,
+      "image_count": 39,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D10",
+      "lesson_ids": [
+        "B029",
+        "B030",
+        "B031"
+      ],
+      "from_sequence": 29,
+      "to_sequence": 31,
+      "image_count": 37,
+      "status": "pending"
+    },
+    {
+      "batch_id": "D11",
+      "lesson_ids": [
+        "B032",
+        "B033"
+      ],
+      "from_sequence": 32,
+      "to_sequence": 33,
+      "image_count": 26,
+      "status": "pending"
+    }
+  ],
+  "lessons": [
+    {
+      "sequence": 1,
+      "lesson_id": "B001",
+      "drive_folder_id": "1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n",
+      "drive_url": "https://drive.google.com/drive/folders/1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n",
+      "original_name": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+      "current_name": "001 - 4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+      "display_title": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+      "rename_verified": true,
+      "status": "completed",
+      "image_count": 12,
+      "images_read": 12,
+      "repository_lesson_path": "bai-hoc/001-bon-cau-truc-camera",
+      "image_inventory": [
+        {
+          "id": "1C4NYW9-o3AcJJNAzKdM8fZ5UTmQNHbrp",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 101883,
+          "url": "https://drive.google.com/file/d/1C4NYW9-o3AcJJNAzKdM8fZ5UTmQNHbrp/view?usp=drivesdk"
+        },
+        {
+          "id": "17XG8inYOXIXn3VCx95zjqrr5yTprOfzl",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 157256,
+          "url": "https://drive.google.com/file/d/17XG8inYOXIXn3VCx95zjqrr5yTprOfzl/view?usp=drivesdk"
+        },
+        {
+          "id": "1P6By7LMQaMu3vGz_5FpL901wCDI0dsxk",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191792,
+          "url": "https://drive.google.com/file/d/1P6By7LMQaMu3vGz_5FpL901wCDI0dsxk/view?usp=drivesdk"
+        },
+        {
+          "id": "1pjjMzAxw5p4th6ZbZ3OizSCLo4ZpQFlo",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 126850,
+          "url": "https://drive.google.com/file/d/1pjjMzAxw5p4th6ZbZ3OizSCLo4ZpQFlo/view?usp=drivesdk"
+        },
+        {
+          "id": "1FymN2YjCw3eWCF4W8gkqmWv_G38iuL6v",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191491,
+          "url": "https://drive.google.com/file/d/1FymN2YjCw3eWCF4W8gkqmWv_G38iuL6v/view?usp=drivesdk"
+        },
+        {
+          "id": "1ScOnG7iEQxbBOLIK_Q4lyFe6M5kv7nQ_",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 137774,
+          "url": "https://drive.google.com/file/d/1ScOnG7iEQxbBOLIK_Q4lyFe6M5kv7nQ_/view?usp=drivesdk"
+        },
+        {
+          "id": "1GcIdxX4s72QHmEYzmaaClItougF0gmuK",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 128638,
+          "url": "https://drive.google.com/file/d/1GcIdxX4s72QHmEYzmaaClItougF0gmuK/view?usp=drivesdk"
+        },
+        {
+          "id": "1rSrgOOtaNnQDg092h9LkS0XquhOup77n",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 141358,
+          "url": "https://drive.google.com/file/d/1rSrgOOtaNnQDg092h9LkS0XquhOup77n/view?usp=drivesdk"
+        },
+        {
+          "id": "12CxcN3h6aq1fdZw04HqDGyIQ4zcrOehr",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145591,
+          "url": "https://drive.google.com/file/d/12CxcN3h6aq1fdZw04HqDGyIQ4zcrOehr/view?usp=drivesdk"
+        },
+        {
+          "id": "1jGKzQLGnQoNueJw08eETzFth1kJAaODg",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146080,
+          "url": "https://drive.google.com/file/d/1jGKzQLGnQoNueJw08eETzFth1kJAaODg/view?usp=drivesdk"
+        },
+        {
+          "id": "1HprgHMvTbGvUbE_izTYLF98nkC2hlQNS",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131048,
+          "url": "https://drive.google.com/file/d/1HprgHMvTbGvUbE_izTYLF98nkC2hlQNS/view?usp=drivesdk"
+        },
+        {
+          "id": "1ArfWaJYhniuMtQ5diIhZuwErfZl_J6V-",
+          "name": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131724,
+          "url": "https://drive.google.com/file/d/1ArfWaJYhniuMtQ5diIhZuwErfZl_J6V-/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 2,
+      "lesson_id": "B002",
+      "drive_folder_id": "1rkAs-29TJoUIuhJpR2dfc7KjYPU6B4qg",
+      "drive_url": "https://drive.google.com/drive/folders/1rkAs-29TJoUIuhJpR2dfc7KjYPU6B4qg",
+      "original_name": "\"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1",
+      "current_name": "002 - \"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1",
+      "display_title": "\"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 10,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1r-x7rveayxI-17GOMAkdEC5NGb6qusIL",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 153079,
+          "url": "https://drive.google.com/file/d/1r-x7rveayxI-17GOMAkdEC5NGb6qusIL/view?usp=drivesdk"
+        },
+        {
+          "id": "1EvIM1EoFmpob4aFw9j2fxHin-SEvYSsI",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 306340,
+          "url": "https://drive.google.com/file/d/1EvIM1EoFmpob4aFw9j2fxHin-SEvYSsI/view?usp=drivesdk"
+        },
+        {
+          "id": "1P0YavjLnBtjkxsS9C6vz8Izm9T43TG47",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 254456,
+          "url": "https://drive.google.com/file/d/1P0YavjLnBtjkxsS9C6vz8Izm9T43TG47/view?usp=drivesdk"
+        },
+        {
+          "id": "189Ny6yMwEOWf922qwoa1pXU9WHZ03PTP",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 214603,
+          "url": "https://drive.google.com/file/d/189Ny6yMwEOWf922qwoa1pXU9WHZ03PTP/view?usp=drivesdk"
+        },
+        {
+          "id": "1pK6BHh2e797ZLtgUsBkyInRM3YZsZldn",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 208748,
+          "url": "https://drive.google.com/file/d/1pK6BHh2e797ZLtgUsBkyInRM3YZsZldn/view?usp=drivesdk"
+        },
+        {
+          "id": "1v8nv1ftFhJgc1I5wpccLUTMYWQmVxGDF",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 202937,
+          "url": "https://drive.google.com/file/d/1v8nv1ftFhJgc1I5wpccLUTMYWQmVxGDF/view?usp=drivesdk"
+        },
+        {
+          "id": "1Y4g33qyi3S_20uuyHIKbpv6Zcvs6PL12",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 227979,
+          "url": "https://drive.google.com/file/d/1Y4g33qyi3S_20uuyHIKbpv6Zcvs6PL12/view?usp=drivesdk"
+        },
+        {
+          "id": "1MA19yNxh52cq04iQJORcdNvhnqTbnzf1",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 227818,
+          "url": "https://drive.google.com/file/d/1MA19yNxh52cq04iQJORcdNvhnqTbnzf1/view?usp=drivesdk"
+        },
+        {
+          "id": "1i0PHkbUysbwfEHyGe2yNO6BcnZTTWgde",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 213557,
+          "url": "https://drive.google.com/file/d/1i0PHkbUysbwfEHyGe2yNO6BcnZTTWgde/view?usp=drivesdk"
+        },
+        {
+          "id": "1IXLneWrxTLEUY8333DtjoI8ib7Vcv4yO",
+          "name": "\"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 205055,
+          "url": "https://drive.google.com/file/d/1IXLneWrxTLEUY8333DtjoI8ib7Vcv4yO/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 3,
+      "lesson_id": "B003",
+      "drive_folder_id": "1Xwl5Utm-Htki_HXiVIEVB1OBuWASKKf_",
+      "drive_url": "https://drive.google.com/drive/folders/1Xwl5Utm-Htki_HXiVIEVB1OBuWASKKf_",
+      "original_name": "3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)",
+      "current_name": "003 - 3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)",
+      "display_title": "3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 10,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1EVYm9osqlSQ5FildiU9rhd_gu81A_QkS",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152468,
+          "url": "https://drive.google.com/file/d/1EVYm9osqlSQ5FildiU9rhd_gu81A_QkS/view?usp=drivesdk"
+        },
+        {
+          "id": "1vJxnssocM77W3BvvSTn-qXlDOu2wkT4i",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167468,
+          "url": "https://drive.google.com/file/d/1vJxnssocM77W3BvvSTn-qXlDOu2wkT4i/view?usp=drivesdk"
+        },
+        {
+          "id": "19SUBeclxM01y1_w8UIhUwV-3Fh1Lqlqs",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 215584,
+          "url": "https://drive.google.com/file/d/19SUBeclxM01y1_w8UIhUwV-3Fh1Lqlqs/view?usp=drivesdk"
+        },
+        {
+          "id": "1hidFuPAG31Gln-Np_VuXxyJ03AQoAWGq",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 139420,
+          "url": "https://drive.google.com/file/d/1hidFuPAG31Gln-Np_VuXxyJ03AQoAWGq/view?usp=drivesdk"
+        },
+        {
+          "id": "1Nury1M9kfBdd3oSiqlDCS4tGJ7_Y4kzK",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 106413,
+          "url": "https://drive.google.com/file/d/1Nury1M9kfBdd3oSiqlDCS4tGJ7_Y4kzK/view?usp=drivesdk"
+        },
+        {
+          "id": "1HtGq_78Vh6rDZG9nbWDR9dpfIDaEVyD2",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 206582,
+          "url": "https://drive.google.com/file/d/1HtGq_78Vh6rDZG9nbWDR9dpfIDaEVyD2/view?usp=drivesdk"
+        },
+        {
+          "id": "12iFM34poKx71F_s67jbG6WXJWaVQDhKS",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 110855,
+          "url": "https://drive.google.com/file/d/12iFM34poKx71F_s67jbG6WXJWaVQDhKS/view?usp=drivesdk"
+        },
+        {
+          "id": "1Cejks0Y_TGybnlOHhHoh7xG0MUbudvCt",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 132908,
+          "url": "https://drive.google.com/file/d/1Cejks0Y_TGybnlOHhHoh7xG0MUbudvCt/view?usp=drivesdk"
+        },
+        {
+          "id": "166qIcL_t2GmQ8Lfdblfmlh_2dWw5ZaY-",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164540,
+          "url": "https://drive.google.com/file/d/166qIcL_t2GmQ8Lfdblfmlh_2dWw5ZaY-/view?usp=drivesdk"
+        },
+        {
+          "id": "1pXVa3oeuYRwX0MnUU3F6e35iwqWT629v",
+          "name": "3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 135471,
+          "url": "https://drive.google.com/file/d/1pXVa3oeuYRwX0MnUU3F6e35iwqWT629v/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 4,
+      "lesson_id": "B004",
+      "drive_folder_id": "1whjdmVdATgovKxaEXnA9gWsU-TIdnTRJ",
+      "drive_url": "https://drive.google.com/drive/folders/1whjdmVdATgovKxaEXnA9gWsU-TIdnTRJ",
+      "original_name": "4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?",
+      "current_name": "004 - 4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?",
+      "display_title": "4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 15,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1Il77o7U0H8y0IupVTUyqXQ-wF8tVriNZ",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 307693,
+          "url": "https://drive.google.com/file/d/1Il77o7U0H8y0IupVTUyqXQ-wF8tVriNZ/view?usp=drivesdk"
+        },
+        {
+          "id": "118N3tqd3Hnlj5B_U2-YgmXertOt0nRud",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 189320,
+          "url": "https://drive.google.com/file/d/118N3tqd3Hnlj5B_U2-YgmXertOt0nRud/view?usp=drivesdk"
+        },
+        {
+          "id": "1rpkkV5H06tqq6XzFyoFZfYfJJtpLKWX0",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 199610,
+          "url": "https://drive.google.com/file/d/1rpkkV5H06tqq6XzFyoFZfYfJJtpLKWX0/view?usp=drivesdk"
+        },
+        {
+          "id": "1qxJz-1n17lvgINVITAFq3HVNg2bW7m2W",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 165638,
+          "url": "https://drive.google.com/file/d/1qxJz-1n17lvgINVITAFq3HVNg2bW7m2W/view?usp=drivesdk"
+        },
+        {
+          "id": "1iYXxRRb-WQHLk9amdfqJq8885JNTD2H9",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 193086,
+          "url": "https://drive.google.com/file/d/1iYXxRRb-WQHLk9amdfqJq8885JNTD2H9/view?usp=drivesdk"
+        },
+        {
+          "id": "1M8NOV1xLvF7X7lQbJTv_Qo9qZwAp0tqY",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 217528,
+          "url": "https://drive.google.com/file/d/1M8NOV1xLvF7X7lQbJTv_Qo9qZwAp0tqY/view?usp=drivesdk"
+        },
+        {
+          "id": "1B6e7YXDcm4jqjF4VCdRhxNZ-Yso1Sglm",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 229144,
+          "url": "https://drive.google.com/file/d/1B6e7YXDcm4jqjF4VCdRhxNZ-Yso1Sglm/view?usp=drivesdk"
+        },
+        {
+          "id": "1nT45BmKhWFafju2Ch10NCwqWpuk0fsPZ",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 254995,
+          "url": "https://drive.google.com/file/d/1nT45BmKhWFafju2Ch10NCwqWpuk0fsPZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1Cldm124v8ClRs-Xwb-X2_TfVJnEIgz9l",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 213833,
+          "url": "https://drive.google.com/file/d/1Cldm124v8ClRs-Xwb-X2_TfVJnEIgz9l/view?usp=drivesdk"
+        },
+        {
+          "id": "1orppVTuzWDxe1YlLyYQ3N4Zznecq_UBL",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 247441,
+          "url": "https://drive.google.com/file/d/1orppVTuzWDxe1YlLyYQ3N4Zznecq_UBL/view?usp=drivesdk"
+        },
+        {
+          "id": "1IAXJEb5rHzIW1gMlimSwn-_BJmZNbCkS",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210859,
+          "url": "https://drive.google.com/file/d/1IAXJEb5rHzIW1gMlimSwn-_BJmZNbCkS/view?usp=drivesdk"
+        },
+        {
+          "id": "1cFkVKTHzWKIOETib6HWlYnFdbg34wBlL",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 212267,
+          "url": "https://drive.google.com/file/d/1cFkVKTHzWKIOETib6HWlYnFdbg34wBlL/view?usp=drivesdk"
+        },
+        {
+          "id": "10ZAObWj283TzbHeTGqYMOQLBcTrAPFz-",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 173295,
+          "url": "https://drive.google.com/file/d/10ZAObWj283TzbHeTGqYMOQLBcTrAPFz-/view?usp=drivesdk"
+        },
+        {
+          "id": "12qrUwxh4Hxto5We7lyUwNAUn59ZYI3Vm",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 215213,
+          "url": "https://drive.google.com/file/d/12qrUwxh4Hxto5We7lyUwNAUn59ZYI3Vm/view?usp=drivesdk"
+        },
+        {
+          "id": "1vDOummElOHIZpdL7M1TUVUa8_9z_s222",
+          "name": "4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 187644,
+          "url": "https://drive.google.com/file/d/1vDOummElOHIZpdL7M1TUVUa8_9z_s222/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 5,
+      "lesson_id": "B005",
+      "drive_folder_id": "1qDJzlfauIo-m6RDrBqJcpPr6Am94IHcC",
+      "drive_url": "https://drive.google.com/drive/folders/1qDJzlfauIo-m6RDrBqJcpPr6Am94IHcC",
+      "original_name": "7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1",
+      "current_name": "005 - 7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1",
+      "display_title": "7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 13,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1xpBzraloO_ykfOZANDHSLTQcQC5QV5si",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 151250,
+          "url": "https://drive.google.com/file/d/1xpBzraloO_ykfOZANDHSLTQcQC5QV5si/view?usp=drivesdk"
+        },
+        {
+          "id": "1T07wKhnlzSJ791wY7wxMWsSeGxhBhOhP",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 314208,
+          "url": "https://drive.google.com/file/d/1T07wKhnlzSJ791wY7wxMWsSeGxhBhOhP/view?usp=drivesdk"
+        },
+        {
+          "id": "1DmmYL9vfcl4-2oWsIRSfM4wzjCZZ4eLl",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 302717,
+          "url": "https://drive.google.com/file/d/1DmmYL9vfcl4-2oWsIRSfM4wzjCZZ4eLl/view?usp=drivesdk"
+        },
+        {
+          "id": "1BMnMWMdpSNwgMTOweBXg7jWXohkafzYC",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 409537,
+          "url": "https://drive.google.com/file/d/1BMnMWMdpSNwgMTOweBXg7jWXohkafzYC/view?usp=drivesdk"
+        },
+        {
+          "id": "1Q8BpJLmzkPbVJQRRrv3RP-hKfTqxpGEo",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 346149,
+          "url": "https://drive.google.com/file/d/1Q8BpJLmzkPbVJQRRrv3RP-hKfTqxpGEo/view?usp=drivesdk"
+        },
+        {
+          "id": "1SeqLhVHhMB5t-yyyq9wNM_DcSuSd4nVR",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 258383,
+          "url": "https://drive.google.com/file/d/1SeqLhVHhMB5t-yyyq9wNM_DcSuSd4nVR/view?usp=drivesdk"
+        },
+        {
+          "id": "1PXszUfS3TPHgrbPlokvHLme28wwzd0dx",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 263616,
+          "url": "https://drive.google.com/file/d/1PXszUfS3TPHgrbPlokvHLme28wwzd0dx/view?usp=drivesdk"
+        },
+        {
+          "id": "1Y1qKXXu12FInDcwGRIcpeKuRfIowtEal",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 286790,
+          "url": "https://drive.google.com/file/d/1Y1qKXXu12FInDcwGRIcpeKuRfIowtEal/view?usp=drivesdk"
+        },
+        {
+          "id": "1_SA3iuwHZQ9K6X0OqZpiRlLSBap9mmoW",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 253631,
+          "url": "https://drive.google.com/file/d/1_SA3iuwHZQ9K6X0OqZpiRlLSBap9mmoW/view?usp=drivesdk"
+        },
+        {
+          "id": "1U_31HHjDNVN8hkLAL8WZKyJsApZlzgyO",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186218,
+          "url": "https://drive.google.com/file/d/1U_31HHjDNVN8hkLAL8WZKyJsApZlzgyO/view?usp=drivesdk"
+        },
+        {
+          "id": "1BOI7FQhPE4_7jpaPeUoCYMVW2hSX7sog",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 134035,
+          "url": "https://drive.google.com/file/d/1BOI7FQhPE4_7jpaPeUoCYMVW2hSX7sog/view?usp=drivesdk"
+        },
+        {
+          "id": "1JzkhCvFFDcoAGsOhnOm_F4F7NpMS88PV",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 238518,
+          "url": "https://drive.google.com/file/d/1JzkhCvFFDcoAGsOhnOm_F4F7NpMS88PV/view?usp=drivesdk"
+        },
+        {
+          "id": "1StfC2BlsxVlyy_qdlb3mtRvU0pquhN4P",
+          "name": "7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 66550,
+          "url": "https://drive.google.com/file/d/1StfC2BlsxVlyy_qdlb3mtRvU0pquhN4P/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 6,
+      "lesson_id": "B006",
+      "drive_folder_id": "1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd",
+      "drive_url": "https://drive.google.com/drive/folders/1wpVlWl2bK5HLQTZatRITBCh5eF3YeYWd",
+      "original_name": "7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)",
+      "current_name": "006 - 7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)",
+      "display_title": "7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 15,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1YR14BcSTbI2illlhUci6Jw5kQMXCm5Hv",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 553423,
+          "url": "https://drive.google.com/file/d/1YR14BcSTbI2illlhUci6Jw5kQMXCm5Hv/view?usp=drivesdk"
+        },
+        {
+          "id": "1_bqY-ACAiPPGq6Ep_AlDmgb5Z-KtiaKH",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 368237,
+          "url": "https://drive.google.com/file/d/1_bqY-ACAiPPGq6Ep_AlDmgb5Z-KtiaKH/view?usp=drivesdk"
+        },
+        {
+          "id": "1Lmmq14Kov5NgS-6-3GCVIca1-u1DAUxV",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 426016,
+          "url": "https://drive.google.com/file/d/1Lmmq14Kov5NgS-6-3GCVIca1-u1DAUxV/view?usp=drivesdk"
+        },
+        {
+          "id": "1d9ZniUu_jd2_TsryOp5Ca-uCU_qygQrA",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 470945,
+          "url": "https://drive.google.com/file/d/1d9ZniUu_jd2_TsryOp5Ca-uCU_qygQrA/view?usp=drivesdk"
+        },
+        {
+          "id": "1t-t_TvaBFPQoxPD3qGA7TmgwHxl-VPTp",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 380615,
+          "url": "https://drive.google.com/file/d/1t-t_TvaBFPQoxPD3qGA7TmgwHxl-VPTp/view?usp=drivesdk"
+        },
+        {
+          "id": "1F3a_d7WfcEL3UpPFFKLyWqJt3NzXahIj",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 393355,
+          "url": "https://drive.google.com/file/d/1F3a_d7WfcEL3UpPFFKLyWqJt3NzXahIj/view?usp=drivesdk"
+        },
+        {
+          "id": "1Mok7JvANi_ve8lROrkq5WB90N_xB2fwC",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 386069,
+          "url": "https://drive.google.com/file/d/1Mok7JvANi_ve8lROrkq5WB90N_xB2fwC/view?usp=drivesdk"
+        },
+        {
+          "id": "1UM8-E4JiW_kimm_-lrq5t2wRnQgkdgVG",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 370525,
+          "url": "https://drive.google.com/file/d/1UM8-E4JiW_kimm_-lrq5t2wRnQgkdgVG/view?usp=drivesdk"
+        },
+        {
+          "id": "1LOCf3MsJLyGl9iUJDs2QNWarX0SOps4C",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 364800,
+          "url": "https://drive.google.com/file/d/1LOCf3MsJLyGl9iUJDs2QNWarX0SOps4C/view?usp=drivesdk"
+        },
+        {
+          "id": "14_H3gUcLFNMHhZq-6VRRr3D51qM-yl0R",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 356191,
+          "url": "https://drive.google.com/file/d/14_H3gUcLFNMHhZq-6VRRr3D51qM-yl0R/view?usp=drivesdk"
+        },
+        {
+          "id": "1hcGmW7HdXUf__pENONOtU5bFmzbNfReg",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 421350,
+          "url": "https://drive.google.com/file/d/1hcGmW7HdXUf__pENONOtU5bFmzbNfReg/view?usp=drivesdk"
+        },
+        {
+          "id": "1we2gvEIOSoTbj01_Ur0WHxc9miZmm6TF",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 353107,
+          "url": "https://drive.google.com/file/d/1we2gvEIOSoTbj01_Ur0WHxc9miZmm6TF/view?usp=drivesdk"
+        },
+        {
+          "id": "16dqlLoX1-wQlvPN76n74F5YY-4K5Uu6o",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 379282,
+          "url": "https://drive.google.com/file/d/16dqlLoX1-wQlvPN76n74F5YY-4K5Uu6o/view?usp=drivesdk"
+        },
+        {
+          "id": "1ONPnRKFexJWck80hzX7eAwbgiUfVfQCq",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 404597,
+          "url": "https://drive.google.com/file/d/1ONPnRKFexJWck80hzX7eAwbgiUfVfQCq/view?usp=drivesdk"
+        },
+        {
+          "id": "18xepMdX75kcQLPI9mgGMwlibl5Gn5LAu",
+          "name": "7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 553423,
+          "url": "https://drive.google.com/file/d/18xepMdX75kcQLPI9mgGMwlibl5Gn5LAu/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 7,
+      "lesson_id": "B007",
+      "drive_folder_id": "1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH",
+      "drive_url": "https://drive.google.com/drive/folders/1kQEIkAS6cgAaOJyujBFBgl13v8fIA1xH",
+      "original_name": "10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau",
+      "current_name": "007 - 10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau",
+      "display_title": "10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1kl_VxhnzkchSdjOj3KxNMg4_Y-FSRdIp",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 174026,
+          "url": "https://drive.google.com/file/d/1kl_VxhnzkchSdjOj3KxNMg4_Y-FSRdIp/view?usp=drivesdk"
+        },
+        {
+          "id": "1dMZMNph8lDC8JcqHmIHnp5umIonMvIJ1",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 155553,
+          "url": "https://drive.google.com/file/d/1dMZMNph8lDC8JcqHmIHnp5umIonMvIJ1/view?usp=drivesdk"
+        },
+        {
+          "id": "1Id2yt13q8EDGc9JI1qSFz3931gydC1Qt",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167883,
+          "url": "https://drive.google.com/file/d/1Id2yt13q8EDGc9JI1qSFz3931gydC1Qt/view?usp=drivesdk"
+        },
+        {
+          "id": "1059yH2-FL9ut1IMDw1Lt-MUMl-cKofxu",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 170855,
+          "url": "https://drive.google.com/file/d/1059yH2-FL9ut1IMDw1Lt-MUMl-cKofxu/view?usp=drivesdk"
+        },
+        {
+          "id": "1fxN_i_KJwQw_LWW_22U0O-D0ZQo1m7eY",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 194366,
+          "url": "https://drive.google.com/file/d/1fxN_i_KJwQw_LWW_22U0O-D0ZQo1m7eY/view?usp=drivesdk"
+        },
+        {
+          "id": "1DwhSi4ACGnUfazCTYTnBraTICSEjM52w",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 161776,
+          "url": "https://drive.google.com/file/d/1DwhSi4ACGnUfazCTYTnBraTICSEjM52w/view?usp=drivesdk"
+        },
+        {
+          "id": "1YGxX0pn93yTlQcSd9K0hv7P0vLSfWHrD",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 185587,
+          "url": "https://drive.google.com/file/d/1YGxX0pn93yTlQcSd9K0hv7P0vLSfWHrD/view?usp=drivesdk"
+        },
+        {
+          "id": "1wIXoBeQHSzw5DOZGA0QvrA-bCC-Czym1",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 169270,
+          "url": "https://drive.google.com/file/d/1wIXoBeQHSzw5DOZGA0QvrA-bCC-Czym1/view?usp=drivesdk"
+        },
+        {
+          "id": "1FL8Meme6M0RneKSaF7ROZU7l78cP-ewI",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 182558,
+          "url": "https://drive.google.com/file/d/1FL8Meme6M0RneKSaF7ROZU7l78cP-ewI/view?usp=drivesdk"
+        },
+        {
+          "id": "1hcI6w_B3wybbhQ5QF7vq2REftnpeTj8j",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 188461,
+          "url": "https://drive.google.com/file/d/1hcI6w_B3wybbhQ5QF7vq2REftnpeTj8j/view?usp=drivesdk"
+        },
+        {
+          "id": "14sz5bNcWcf5Ns3kEzibiYw1yb3SrDIwg",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 172745,
+          "url": "https://drive.google.com/file/d/14sz5bNcWcf5Ns3kEzibiYw1yb3SrDIwg/view?usp=drivesdk"
+        },
+        {
+          "id": "13BqWxVbzwVyWAXH-GD_GekzPcDU54Umg",
+          "name": "10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 140259,
+          "url": "https://drive.google.com/file/d/13BqWxVbzwVyWAXH-GD_GekzPcDU54Umg/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 8,
+      "lesson_id": "B008",
+      "drive_folder_id": "1ctNomNol-Wsm_4FDwgpcRlnaAa7iPspU",
+      "drive_url": "https://drive.google.com/drive/folders/1ctNomNol-Wsm_4FDwgpcRlnaAa7iPspU",
+      "original_name": "10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn",
+      "current_name": "008 - 10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn",
+      "display_title": "10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 18,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1FYOD2xCe6bcxecGrG4ewtgVkgl9OF7c5",
+          "name": "017.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156829,
+          "url": "https://drive.google.com/file/d/1FYOD2xCe6bcxecGrG4ewtgVkgl9OF7c5/view?usp=drivesdk"
+        },
+        {
+          "id": "1lvu4uJ2-t-c_yZgqMsnc1MDUO86DJTZS",
+          "name": "016.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 203790,
+          "url": "https://drive.google.com/file/d/1lvu4uJ2-t-c_yZgqMsnc1MDUO86DJTZS/view?usp=drivesdk"
+        },
+        {
+          "id": "1s9SyVxS9LfZzW375SM7gjH7XFGqZP2G8",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 154898,
+          "url": "https://drive.google.com/file/d/1s9SyVxS9LfZzW375SM7gjH7XFGqZP2G8/view?usp=drivesdk"
+        },
+        {
+          "id": "1Z71flUmKQeuPA_fnuIpX06bDzwsONkw7",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 254654,
+          "url": "https://drive.google.com/file/d/1Z71flUmKQeuPA_fnuIpX06bDzwsONkw7/view?usp=drivesdk"
+        },
+        {
+          "id": "1HK1PLxBA--8KjywPPkq0Hhaup0YpRuje",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 160538,
+          "url": "https://drive.google.com/file/d/1HK1PLxBA--8KjywPPkq0Hhaup0YpRuje/view?usp=drivesdk"
+        },
+        {
+          "id": "1CxGXnVjmqFp9hadCrCwIWNRcouWaavrs",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 215084,
+          "url": "https://drive.google.com/file/d/1CxGXnVjmqFp9hadCrCwIWNRcouWaavrs/view?usp=drivesdk"
+        },
+        {
+          "id": "1cCtBUofNPORrkm6Yfg5KfC9PG0UMOnss",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 136980,
+          "url": "https://drive.google.com/file/d/1cCtBUofNPORrkm6Yfg5KfC9PG0UMOnss/view?usp=drivesdk"
+        },
+        {
+          "id": "12UOvE3ODaD74yGHhMdla9IQwAKeQ8M53",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 204998,
+          "url": "https://drive.google.com/file/d/12UOvE3ODaD74yGHhMdla9IQwAKeQ8M53/view?usp=drivesdk"
+        },
+        {
+          "id": "1NpdBre1lG5TSYvubCQQ1V_gWsuNjyjMf",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 197563,
+          "url": "https://drive.google.com/file/d/1NpdBre1lG5TSYvubCQQ1V_gWsuNjyjMf/view?usp=drivesdk"
+        },
+        {
+          "id": "1IknoeSbwwnWysnHAhqOi7r3vA8N4gj8k",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 211393,
+          "url": "https://drive.google.com/file/d/1IknoeSbwwnWysnHAhqOi7r3vA8N4gj8k/view?usp=drivesdk"
+        },
+        {
+          "id": "1_EhM5wBDjmBMG9K4s7ogrB7T1wLj8FZq",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 101065,
+          "url": "https://drive.google.com/file/d/1_EhM5wBDjmBMG9K4s7ogrB7T1wLj8FZq/view?usp=drivesdk"
+        },
+        {
+          "id": "1E3wp6YDZrEDVfc_E1K0ffmINIImsi7HR",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 171932,
+          "url": "https://drive.google.com/file/d/1E3wp6YDZrEDVfc_E1K0ffmINIImsi7HR/view?usp=drivesdk"
+        },
+        {
+          "id": "1uzFYIg4AqZmfRKW3ecKxNvHNUUfwbA6G",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 137964,
+          "url": "https://drive.google.com/file/d/1uzFYIg4AqZmfRKW3ecKxNvHNUUfwbA6G/view?usp=drivesdk"
+        },
+        {
+          "id": "12fn3zd4OsceMVPViHdscprM1L826D-wx",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 184938,
+          "url": "https://drive.google.com/file/d/12fn3zd4OsceMVPViHdscprM1L826D-wx/view?usp=drivesdk"
+        },
+        {
+          "id": "1xiumWvC9M_VQY3BAbX0zNCs67mwvlD1I",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 241245,
+          "url": "https://drive.google.com/file/d/1xiumWvC9M_VQY3BAbX0zNCs67mwvlD1I/view?usp=drivesdk"
+        },
+        {
+          "id": "11tmLe905dHSQtnrpqZd8N2cHeYUxgeyQ",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152191,
+          "url": "https://drive.google.com/file/d/11tmLe905dHSQtnrpqZd8N2cHeYUxgeyQ/view?usp=drivesdk"
+        },
+        {
+          "id": "1qla9_MifZWQetUlaoBfpyUOvU82cOKHb",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 171272,
+          "url": "https://drive.google.com/file/d/1qla9_MifZWQetUlaoBfpyUOvU82cOKHb/view?usp=drivesdk"
+        },
+        {
+          "id": "10leSQZTIMYg-sbf36RV9T7As3gF-PLnC",
+          "name": "10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 158714,
+          "url": "https://drive.google.com/file/d/10leSQZTIMYg-sbf36RV9T7As3gF-PLnC/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 9,
+      "lesson_id": "B009",
+      "drive_folder_id": "1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P",
+      "drive_url": "https://drive.google.com/drive/folders/1yc3Pan6xsBwx6nQMa2etxyMkUVJOL99P",
+      "original_name": "10 Cú Pháp Prompt Nâng Cấp Video AI Từ \"Phèn\" Tới Điện Ảnh",
+      "current_name": "009 - 10 Cú Pháp Prompt Nâng Cấp Video AI Từ \"Phèn\" Tới Điện Ảnh",
+      "display_title": "10 Cú Pháp Prompt Nâng Cấp Video AI Từ \"Phèn\" Tới Điện Ảnh",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 18,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1WrpP5_CFP0ZlBJgy_7uFbgYZ5cfw3sTj",
+          "name": "017.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 163126,
+          "url": "https://drive.google.com/file/d/1WrpP5_CFP0ZlBJgy_7uFbgYZ5cfw3sTj/view?usp=drivesdk"
+        },
+        {
+          "id": "1lRvUBK7BTst6EmTMTM3Vyx6UvVzQCLv4",
+          "name": "016.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 150897,
+          "url": "https://drive.google.com/file/d/1lRvUBK7BTst6EmTMTM3Vyx6UvVzQCLv4/view?usp=drivesdk"
+        },
+        {
+          "id": "1x_CKFwYSOM5l4lVOsWFbah6tx2yoWr0i",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 168986,
+          "url": "https://drive.google.com/file/d/1x_CKFwYSOM5l4lVOsWFbah6tx2yoWr0i/view?usp=drivesdk"
+        },
+        {
+          "id": "1c0_FVjtJHr033pXzK-MwYC5qR5yN6_vQ",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 189808,
+          "url": "https://drive.google.com/file/d/1c0_FVjtJHr033pXzK-MwYC5qR5yN6_vQ/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ca90TypXs0K_BZliWfUPlqth1iqZSeS-",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 166336,
+          "url": "https://drive.google.com/file/d/1Ca90TypXs0K_BZliWfUPlqth1iqZSeS-/view?usp=drivesdk"
+        },
+        {
+          "id": "1r8ojUzJ6p-pAmwUW8GDI81EyVR-DcXfD",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152723,
+          "url": "https://drive.google.com/file/d/1r8ojUzJ6p-pAmwUW8GDI81EyVR-DcXfD/view?usp=drivesdk"
+        },
+        {
+          "id": "1YUB1YDpD901ctH-hS0wBWNHiExDkC72n",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 241713,
+          "url": "https://drive.google.com/file/d/1YUB1YDpD901ctH-hS0wBWNHiExDkC72n/view?usp=drivesdk"
+        },
+        {
+          "id": "1duHtSVtw6_S03KcHr7EG0VAQMjv9Sy2p",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156595,
+          "url": "https://drive.google.com/file/d/1duHtSVtw6_S03KcHr7EG0VAQMjv9Sy2p/view?usp=drivesdk"
+        },
+        {
+          "id": "1MEMOTYZWie4ImW39lXaNGWUDBZEi322x",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 198611,
+          "url": "https://drive.google.com/file/d/1MEMOTYZWie4ImW39lXaNGWUDBZEi322x/view?usp=drivesdk"
+        },
+        {
+          "id": "1RjGtYrhS9n64mvYdhfVO-QJZp9c-5Cl1",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 202057,
+          "url": "https://drive.google.com/file/d/1RjGtYrhS9n64mvYdhfVO-QJZp9c-5Cl1/view?usp=drivesdk"
+        },
+        {
+          "id": "1yeCc83AlTn2aQk77RFD5_wwp7iPmqenR",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 200505,
+          "url": "https://drive.google.com/file/d/1yeCc83AlTn2aQk77RFD5_wwp7iPmqenR/view?usp=drivesdk"
+        },
+        {
+          "id": "12q-hSBebmytQ6DjP-FJ_fFrAolhONW_O",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 114040,
+          "url": "https://drive.google.com/file/d/12q-hSBebmytQ6DjP-FJ_fFrAolhONW_O/view?usp=drivesdk"
+        },
+        {
+          "id": "13ybGa0k5Iz3d1C5WC1Iqc9OEugDWqbvQ",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 104298,
+          "url": "https://drive.google.com/file/d/13ybGa0k5Iz3d1C5WC1Iqc9OEugDWqbvQ/view?usp=drivesdk"
+        },
+        {
+          "id": "13Q2ZmvpKCxNi8Zv0LgbMyVgfQFECPjya",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146477,
+          "url": "https://drive.google.com/file/d/13Q2ZmvpKCxNi8Zv0LgbMyVgfQFECPjya/view?usp=drivesdk"
+        },
+        {
+          "id": "1CFUf94uoGcAJoBm0pMNWPKuvyUkl8kJI",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 217035,
+          "url": "https://drive.google.com/file/d/1CFUf94uoGcAJoBm0pMNWPKuvyUkl8kJI/view?usp=drivesdk"
+        },
+        {
+          "id": "1bS-kL41bAbh9wCL3Ql5CYXiptzfqCsg0",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 134105,
+          "url": "https://drive.google.com/file/d/1bS-kL41bAbh9wCL3Ql5CYXiptzfqCsg0/view?usp=drivesdk"
+        },
+        {
+          "id": "1nLHB-qmDetHLrUSH8IHRhyTH4K6-ing3",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 178513,
+          "url": "https://drive.google.com/file/d/1nLHB-qmDetHLrUSH8IHRhyTH4K6-ing3/view?usp=drivesdk"
+        },
+        {
+          "id": "1jpo59VTwh_abVtaLS9k7IulJOlFDQWye",
+          "name": "10 Cú Pháp Prompt Nâng Cấp Video AI Từ \"Phèn\" Tới Điện Ảnh.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191266,
+          "url": "https://drive.google.com/file/d/1jpo59VTwh_abVtaLS9k7IulJOlFDQWye/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 10,
+      "lesson_id": "B010",
+      "drive_folder_id": "1VBQ0HiAWGWtDEMz2kQc5CwVu9gJroWHd",
+      "drive_url": "https://drive.google.com/drive/folders/1VBQ0HiAWGWtDEMz2kQc5CwVu9gJroWHd",
+      "original_name": "Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1",
+      "current_name": "010 - Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1",
+      "display_title": "Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 14,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1tUCs_UPRgm2jXgicuzAb1QuTqgK8JJTv",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 177493,
+          "url": "https://drive.google.com/file/d/1tUCs_UPRgm2jXgicuzAb1QuTqgK8JJTv/view?usp=drivesdk"
+        },
+        {
+          "id": "1aMpq3z8OkWPx20S2tAK-2Gvcw-q6324k",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156663,
+          "url": "https://drive.google.com/file/d/1aMpq3z8OkWPx20S2tAK-2Gvcw-q6324k/view?usp=drivesdk"
+        },
+        {
+          "id": "1Q9bHe7OQetW0E0PF-hqYmsvwKjlh1uBz",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 181844,
+          "url": "https://drive.google.com/file/d/1Q9bHe7OQetW0E0PF-hqYmsvwKjlh1uBz/view?usp=drivesdk"
+        },
+        {
+          "id": "10DuuzRqgIF10RShs_kUjeMRBIdnASqeH",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 150211,
+          "url": "https://drive.google.com/file/d/10DuuzRqgIF10RShs_kUjeMRBIdnASqeH/view?usp=drivesdk"
+        },
+        {
+          "id": "1R_x2RHb2Y8U6LY-qMDwcgVThTUtW8GgP",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 154385,
+          "url": "https://drive.google.com/file/d/1R_x2RHb2Y8U6LY-qMDwcgVThTUtW8GgP/view?usp=drivesdk"
+        },
+        {
+          "id": "1B8GURyv8d36UHVB8erqHAHn0V-7RSbSF",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210699,
+          "url": "https://drive.google.com/file/d/1B8GURyv8d36UHVB8erqHAHn0V-7RSbSF/view?usp=drivesdk"
+        },
+        {
+          "id": "1tcZOoSrXCN3LvmpWXlMiacg_jQmqUhit",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 182850,
+          "url": "https://drive.google.com/file/d/1tcZOoSrXCN3LvmpWXlMiacg_jQmqUhit/view?usp=drivesdk"
+        },
+        {
+          "id": "1Aei15i2EpbZ7gF1Trlwuqnqn5LUicUUG",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 141505,
+          "url": "https://drive.google.com/file/d/1Aei15i2EpbZ7gF1Trlwuqnqn5LUicUUG/view?usp=drivesdk"
+        },
+        {
+          "id": "1w2_H9d9oKkvy_yoD4dtVygtRfmpxYSPq",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 207388,
+          "url": "https://drive.google.com/file/d/1w2_H9d9oKkvy_yoD4dtVygtRfmpxYSPq/view?usp=drivesdk"
+        },
+        {
+          "id": "1W5kCp1mWOa_ohAUm_H1QMEFnPC2vFZyq",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 192498,
+          "url": "https://drive.google.com/file/d/1W5kCp1mWOa_ohAUm_H1QMEFnPC2vFZyq/view?usp=drivesdk"
+        },
+        {
+          "id": "1wFtgBh9fGxOS05zvo_Mlik8xrk5DfQjf",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186702,
+          "url": "https://drive.google.com/file/d/1wFtgBh9fGxOS05zvo_Mlik8xrk5DfQjf/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ch8ssSedDV95ODYvF1Wn9YZ7lQWqstBd",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 138391,
+          "url": "https://drive.google.com/file/d/1Ch8ssSedDV95ODYvF1Wn9YZ7lQWqstBd/view?usp=drivesdk"
+        },
+        {
+          "id": "1bl4jdXWhg9f3dPPAJcwXIgO-3oX7kfAk",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 157492,
+          "url": "https://drive.google.com/file/d/1bl4jdXWhg9f3dPPAJcwXIgO-3oX7kfAk/view?usp=drivesdk"
+        },
+        {
+          "id": "15DUPRjVyq1Qt_OflMFl6Ex78O60NOvBO",
+          "name": "Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162596,
+          "url": "https://drive.google.com/file/d/15DUPRjVyq1Qt_OflMFl6Ex78O60NOvBO/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 11,
+      "lesson_id": "B011",
+      "drive_folder_id": "1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15",
+      "drive_url": "https://drive.google.com/drive/folders/1BwpHpUkcMaVEYLEZKiPSXNTDTq2S7I15",
+      "original_name": "Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood",
+      "current_name": "011 - Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood",
+      "display_title": "Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 18,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1hfTC6cf7evOLZVkd7_SyBhh6oHz3eWsd",
+          "name": "017.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156829,
+          "url": "https://drive.google.com/file/d/1hfTC6cf7evOLZVkd7_SyBhh6oHz3eWsd/view?usp=drivesdk"
+        },
+        {
+          "id": "1Rc7jzgnp8tC4jILWXzAcTar3cpN0WYfP",
+          "name": "016.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 203790,
+          "url": "https://drive.google.com/file/d/1Rc7jzgnp8tC4jILWXzAcTar3cpN0WYfP/view?usp=drivesdk"
+        },
+        {
+          "id": "1gR_DwoV4DC13JLcCCdRt2ti0wsxx3mxD",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 154898,
+          "url": "https://drive.google.com/file/d/1gR_DwoV4DC13JLcCCdRt2ti0wsxx3mxD/view?usp=drivesdk"
+        },
+        {
+          "id": "15ll6sjBPz8DC_MX7WvExFER1NWEoElrO",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 254654,
+          "url": "https://drive.google.com/file/d/15ll6sjBPz8DC_MX7WvExFER1NWEoElrO/view?usp=drivesdk"
+        },
+        {
+          "id": "117_f4PnCDoiwaXaOa9TO8j30sZhA6zZW",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 160538,
+          "url": "https://drive.google.com/file/d/117_f4PnCDoiwaXaOa9TO8j30sZhA6zZW/view?usp=drivesdk"
+        },
+        {
+          "id": "12YVeY1rh5h9pXQGXGFCUkimr7pFO4k3N",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 215084,
+          "url": "https://drive.google.com/file/d/12YVeY1rh5h9pXQGXGFCUkimr7pFO4k3N/view?usp=drivesdk"
+        },
+        {
+          "id": "1XQYCElfgbienC2zubByqI3d1fBX09ej0",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 136980,
+          "url": "https://drive.google.com/file/d/1XQYCElfgbienC2zubByqI3d1fBX09ej0/view?usp=drivesdk"
+        },
+        {
+          "id": "1kyzx7xQiac06dOBe5BI06DdxJYUbKBt6",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 204998,
+          "url": "https://drive.google.com/file/d/1kyzx7xQiac06dOBe5BI06DdxJYUbKBt6/view?usp=drivesdk"
+        },
+        {
+          "id": "18umq4QMXH1m0VFQsSn9sIOEaoZ8vaV_B",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 197563,
+          "url": "https://drive.google.com/file/d/18umq4QMXH1m0VFQsSn9sIOEaoZ8vaV_B/view?usp=drivesdk"
+        },
+        {
+          "id": "18ufdkqYCrzl8k1koZ5VltKJvfuwHA6f_",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 211393,
+          "url": "https://drive.google.com/file/d/18ufdkqYCrzl8k1koZ5VltKJvfuwHA6f_/view?usp=drivesdk"
+        },
+        {
+          "id": "1PseyuOaiFW12QyNxAarszxmp6yAhhphv",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 101065,
+          "url": "https://drive.google.com/file/d/1PseyuOaiFW12QyNxAarszxmp6yAhhphv/view?usp=drivesdk"
+        },
+        {
+          "id": "1TFQK1vaXMsJwxvlO59Fdeeo30rUJI1vq",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 171932,
+          "url": "https://drive.google.com/file/d/1TFQK1vaXMsJwxvlO59Fdeeo30rUJI1vq/view?usp=drivesdk"
+        },
+        {
+          "id": "18J5qe1OMxqNWYJDTO2KAGHwDBjkAZW1I",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 137964,
+          "url": "https://drive.google.com/file/d/18J5qe1OMxqNWYJDTO2KAGHwDBjkAZW1I/view?usp=drivesdk"
+        },
+        {
+          "id": "1v6CCwnSMLIuj-V_wjeNWh5x_SNLtjBRX",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 184938,
+          "url": "https://drive.google.com/file/d/1v6CCwnSMLIuj-V_wjeNWh5x_SNLtjBRX/view?usp=drivesdk"
+        },
+        {
+          "id": "1AfEdBUruPKU48vqDIO9mpL8h01bc9yuM",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 241245,
+          "url": "https://drive.google.com/file/d/1AfEdBUruPKU48vqDIO9mpL8h01bc9yuM/view?usp=drivesdk"
+        },
+        {
+          "id": "1uLNwNmo0hRxjcFfdLPHSNT7TvgEm_-sy",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152191,
+          "url": "https://drive.google.com/file/d/1uLNwNmo0hRxjcFfdLPHSNT7TvgEm_-sy/view?usp=drivesdk"
+        },
+        {
+          "id": "1qvxw4k-vu0nuLfw01ByotvYdiPDilSdK",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 171272,
+          "url": "https://drive.google.com/file/d/1qvxw4k-vu0nuLfw01ByotvYdiPDilSdK/view?usp=drivesdk"
+        },
+        {
+          "id": "1mATrADus4ZpAYUf75HAVZMeNudN35wks",
+          "name": "Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 158714,
+          "url": "https://drive.google.com/file/d/1mATrADus4ZpAYUf75HAVZMeNudN35wks/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 12,
+      "lesson_id": "B012",
+      "drive_folder_id": "1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1",
+      "drive_url": "https://drive.google.com/drive/folders/1rvOf5T7xt7gMc0_KdAm9lX6abW39n2j1",
+      "original_name": "Bí Mật Cinematic- Chỉ Cần Đổi \"CẤU TRÚC CAMERA\" Video Veo 3.1 Lên Đời Ngay Lập Tức!",
+      "current_name": "012 - Bí Mật Cinematic- Chỉ Cần Đổi \"CẤU TRÚC CAMERA\" Video Veo 3.1 Lên Đời Ngay Lập Tức!",
+      "display_title": "Bí Mật Cinematic- Chỉ Cần Đổi \"CẤU TRÚC CAMERA\" Video Veo 3.1 Lên Đời Ngay Lập Tức!",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 16,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1I81xI_2cYReoAbaOwKVRNf46qjJXnfQ2",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 161419,
+          "url": "https://drive.google.com/file/d/1I81xI_2cYReoAbaOwKVRNf46qjJXnfQ2/view?usp=drivesdk"
+        },
+        {
+          "id": "1gLp5eCr0xxizwAVD0HqXP_ngHtMFQGyp",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 193648,
+          "url": "https://drive.google.com/file/d/1gLp5eCr0xxizwAVD0HqXP_ngHtMFQGyp/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ra8GnLHvrvbDgNbr2_ZArSddgGOlTRa6",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 208447,
+          "url": "https://drive.google.com/file/d/1Ra8GnLHvrvbDgNbr2_ZArSddgGOlTRa6/view?usp=drivesdk"
+        },
+        {
+          "id": "1-yFfXFxbfJ3v8Akgebpi4JiaugQ70M06",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 181115,
+          "url": "https://drive.google.com/file/d/1-yFfXFxbfJ3v8Akgebpi4JiaugQ70M06/view?usp=drivesdk"
+        },
+        {
+          "id": "1xiKg6utnHh9hMO1sUbqAQUSU3LVIQ42E",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 179840,
+          "url": "https://drive.google.com/file/d/1xiKg6utnHh9hMO1sUbqAQUSU3LVIQ42E/view?usp=drivesdk"
+        },
+        {
+          "id": "1ZKZqDeqRI0WCpBejT35Ym-ZrookfSFT-",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 220419,
+          "url": "https://drive.google.com/file/d/1ZKZqDeqRI0WCpBejT35Ym-ZrookfSFT-/view?usp=drivesdk"
+        },
+        {
+          "id": "1-QXpaFxGYv5L9nqTDFfkDj9LBg1QKzo5",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 217160,
+          "url": "https://drive.google.com/file/d/1-QXpaFxGYv5L9nqTDFfkDj9LBg1QKzo5/view?usp=drivesdk"
+        },
+        {
+          "id": "1i8NOo5tRTjY6i_pC28CUFJziJRUktnRo",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 137275,
+          "url": "https://drive.google.com/file/d/1i8NOo5tRTjY6i_pC28CUFJziJRUktnRo/view?usp=drivesdk"
+        },
+        {
+          "id": "14f4q-vlW7jWndMTr1j0esaCYRP9Qgjat",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146369,
+          "url": "https://drive.google.com/file/d/14f4q-vlW7jWndMTr1j0esaCYRP9Qgjat/view?usp=drivesdk"
+        },
+        {
+          "id": "10NxHhX7gzool_1JPlEyImmHyddwdgL2O",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145149,
+          "url": "https://drive.google.com/file/d/10NxHhX7gzool_1JPlEyImmHyddwdgL2O/view?usp=drivesdk"
+        },
+        {
+          "id": "1wJDF3wf3G7EDkW0e_jVpXGlCC4jHIhWV",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162528,
+          "url": "https://drive.google.com/file/d/1wJDF3wf3G7EDkW0e_jVpXGlCC4jHIhWV/view?usp=drivesdk"
+        },
+        {
+          "id": "1CtywNjhMt9HeUyQEFnJI3UqaiHJO5E0a",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 95930,
+          "url": "https://drive.google.com/file/d/1CtywNjhMt9HeUyQEFnJI3UqaiHJO5E0a/view?usp=drivesdk"
+        },
+        {
+          "id": "1__wVi2DOMbrrmVcfnrk3tGiYkqDo73tI",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 166569,
+          "url": "https://drive.google.com/file/d/1__wVi2DOMbrrmVcfnrk3tGiYkqDo73tI/view?usp=drivesdk"
+        },
+        {
+          "id": "1wbjM_-2cO1m7gZ2sMMGu72m3h9XIXqbP",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 110662,
+          "url": "https://drive.google.com/file/d/1wbjM_-2cO1m7gZ2sMMGu72m3h9XIXqbP/view?usp=drivesdk"
+        },
+        {
+          "id": "1_c0pkBrBwlpdnb77Nwlqbrg375VjpuKz",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 180231,
+          "url": "https://drive.google.com/file/d/1_c0pkBrBwlpdnb77Nwlqbrg375VjpuKz/view?usp=drivesdk"
+        },
+        {
+          "id": "1bHuhmRp8cMDd5aEMf6Jx5G_4t1ozEOWS",
+          "name": "Bí Mật Cinematic- Chỉ Cần Đổi \"CẤU TRÚC CAMERA\" Video Veo 3.1 Lên Đời Ngay Lập Tức!.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 115293,
+          "url": "https://drive.google.com/file/d/1bHuhmRp8cMDd5aEMf6Jx5G_4t1ozEOWS/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 13,
+      "lesson_id": "B013",
+      "drive_folder_id": "1DcfzftcYU9njo4dJcM3AXgUjWpFPsqMA",
+      "drive_url": "https://drive.google.com/drive/folders/1DcfzftcYU9njo4dJcM3AXgUjWpFPsqMA",
+      "original_name": "Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)",
+      "current_name": "013 - Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)",
+      "display_title": "Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 16,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1QKPFmrgj9OyOKP5G4XsAZ0EFx0sv7yam",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 173962,
+          "url": "https://drive.google.com/file/d/1QKPFmrgj9OyOKP5G4XsAZ0EFx0sv7yam/view?usp=drivesdk"
+        },
+        {
+          "id": "1e3meZ8_clm-hYLZrypcdX3IgLGTCOk6Y",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 183160,
+          "url": "https://drive.google.com/file/d/1e3meZ8_clm-hYLZrypcdX3IgLGTCOk6Y/view?usp=drivesdk"
+        },
+        {
+          "id": "1kkDLFkyNISJibVjQEoYXgJ9itu56bnvZ",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 206792,
+          "url": "https://drive.google.com/file/d/1kkDLFkyNISJibVjQEoYXgJ9itu56bnvZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1rkSkLdmxZRc0U4ZfjtlKGmZD_xExG7lH",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 127442,
+          "url": "https://drive.google.com/file/d/1rkSkLdmxZRc0U4ZfjtlKGmZD_xExG7lH/view?usp=drivesdk"
+        },
+        {
+          "id": "14_U15RiTboZ5I_fMqHR0aTZOryZYbUAm",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 177718,
+          "url": "https://drive.google.com/file/d/14_U15RiTboZ5I_fMqHR0aTZOryZYbUAm/view?usp=drivesdk"
+        },
+        {
+          "id": "1LenY0Vj3hFiQCLTuwy8uLrR9CB9aeMSs",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 177718,
+          "url": "https://drive.google.com/file/d/1LenY0Vj3hFiQCLTuwy8uLrR9CB9aeMSs/view?usp=drivesdk"
+        },
+        {
+          "id": "1DjiKE6rTz9KTYhN80maFE5AEu1FnmWaT",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 208442,
+          "url": "https://drive.google.com/file/d/1DjiKE6rTz9KTYhN80maFE5AEu1FnmWaT/view?usp=drivesdk"
+        },
+        {
+          "id": "15DESvPDY1y36O3h3YqCT6DCB_Xr-r3zc",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 188273,
+          "url": "https://drive.google.com/file/d/15DESvPDY1y36O3h3YqCT6DCB_Xr-r3zc/view?usp=drivesdk"
+        },
+        {
+          "id": "1BIUtMGLcYZxq4fiFWzuFRU0139fqP0eh",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 213521,
+          "url": "https://drive.google.com/file/d/1BIUtMGLcYZxq4fiFWzuFRU0139fqP0eh/view?usp=drivesdk"
+        },
+        {
+          "id": "1LP19yRJOp4yXU6q0S5pJ_inFlTITZZl-",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 139324,
+          "url": "https://drive.google.com/file/d/1LP19yRJOp4yXU6q0S5pJ_inFlTITZZl-/view?usp=drivesdk"
+        },
+        {
+          "id": "1PMjqNhlqVsP-czhmUfba7QzKWjajZVX4",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 179549,
+          "url": "https://drive.google.com/file/d/1PMjqNhlqVsP-czhmUfba7QzKWjajZVX4/view?usp=drivesdk"
+        },
+        {
+          "id": "1js9S_m8IGsaWssBVv7TEG0NbP5ttuJG9",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 173633,
+          "url": "https://drive.google.com/file/d/1js9S_m8IGsaWssBVv7TEG0NbP5ttuJG9/view?usp=drivesdk"
+        },
+        {
+          "id": "156pBD-qQ_EUwgyMnN5tKeg9H2RKw1bs7",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 170858,
+          "url": "https://drive.google.com/file/d/156pBD-qQ_EUwgyMnN5tKeg9H2RKw1bs7/view?usp=drivesdk"
+        },
+        {
+          "id": "1xNsjX6CIkBTFjscpFatsbwQDzUZaO9OZ",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 158490,
+          "url": "https://drive.google.com/file/d/1xNsjX6CIkBTFjscpFatsbwQDzUZaO9OZ/view?usp=drivesdk"
+        },
+        {
+          "id": "145j7ejKFSvS7eR_SojKQNvPhnuMS_Ovd",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186318,
+          "url": "https://drive.google.com/file/d/145j7ejKFSvS7eR_SojKQNvPhnuMS_Ovd/view?usp=drivesdk"
+        },
+        {
+          "id": "1kTx5rGMvnq0ge02764-a8WCFVC83TeHQ",
+          "name": "Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 190664,
+          "url": "https://drive.google.com/file/d/1kTx5rGMvnq0ge02764-a8WCFVC83TeHQ/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 14,
+      "lesson_id": "B014",
+      "drive_folder_id": "1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV",
+      "drive_url": "https://drive.google.com/drive/folders/1wjF1f3YIGiAe_fHaXCA4ug6RX6WiISGV",
+      "original_name": "Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)",
+      "current_name": "014 - Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)",
+      "display_title": "Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1cyUrIA5Vk1rengVID7QqNMMz9JT0CKTZ",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 157241,
+          "url": "https://drive.google.com/file/d/1cyUrIA5Vk1rengVID7QqNMMz9JT0CKTZ/view?usp=drivesdk"
+        },
+        {
+          "id": "15LiIf5ubAtmcHVfEQlHcj41W8nTf1etD",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 218997,
+          "url": "https://drive.google.com/file/d/15LiIf5ubAtmcHVfEQlHcj41W8nTf1etD/view?usp=drivesdk"
+        },
+        {
+          "id": "1jmExKHLNNvyyNfIeI6nmcua0BiUysTW8",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 115663,
+          "url": "https://drive.google.com/file/d/1jmExKHLNNvyyNfIeI6nmcua0BiUysTW8/view?usp=drivesdk"
+        },
+        {
+          "id": "1QrzaAcoLHbhlPTflqwuzngcVS62WVMtJ",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 208594,
+          "url": "https://drive.google.com/file/d/1QrzaAcoLHbhlPTflqwuzngcVS62WVMtJ/view?usp=drivesdk"
+        },
+        {
+          "id": "17eV0M-XA-pp0G9GVhjTnlhl7EJMG_riy",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 150528,
+          "url": "https://drive.google.com/file/d/17eV0M-XA-pp0G9GVhjTnlhl7EJMG_riy/view?usp=drivesdk"
+        },
+        {
+          "id": "1D3_VGtoYbkdAepw4qTCyCaJfNvBuYHPl",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167079,
+          "url": "https://drive.google.com/file/d/1D3_VGtoYbkdAepw4qTCyCaJfNvBuYHPl/view?usp=drivesdk"
+        },
+        {
+          "id": "1hZRvDtK8ljgxXbdKL55UPg2FozYU_c_q",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146097,
+          "url": "https://drive.google.com/file/d/1hZRvDtK8ljgxXbdKL55UPg2FozYU_c_q/view?usp=drivesdk"
+        },
+        {
+          "id": "1_uTtz2f12eGfXd2OhC6NPygQqE94LAKO",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 148282,
+          "url": "https://drive.google.com/file/d/1_uTtz2f12eGfXd2OhC6NPygQqE94LAKO/view?usp=drivesdk"
+        },
+        {
+          "id": "16VJSWLzNCRoBqpENFdQMKVbXp5Tlh451",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 160801,
+          "url": "https://drive.google.com/file/d/16VJSWLzNCRoBqpENFdQMKVbXp5Tlh451/view?usp=drivesdk"
+        },
+        {
+          "id": "1gjIuoeSQX2A_HKx2WDT4HnPASKz1o99s",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 106578,
+          "url": "https://drive.google.com/file/d/1gjIuoeSQX2A_HKx2WDT4HnPASKz1o99s/view?usp=drivesdk"
+        },
+        {
+          "id": "1BxgL9UX3QH8rVfkm5VpvYVojO9wApC5t",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146231,
+          "url": "https://drive.google.com/file/d/1BxgL9UX3QH8rVfkm5VpvYVojO9wApC5t/view?usp=drivesdk"
+        },
+        {
+          "id": "1eFW--vZGB003oB_siziEfQ15S00pLnBh",
+          "name": "Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 168741,
+          "url": "https://drive.google.com/file/d/1eFW--vZGB003oB_siziEfQ15S00pLnBh/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 15,
+      "lesson_id": "B015",
+      "drive_folder_id": "15eT4W3GaEGptuMmpU0ArNPc0Bt89hIdv",
+      "drive_url": "https://drive.google.com/drive/folders/15eT4W3GaEGptuMmpU0ArNPc0Bt89hIdv",
+      "original_name": "Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý)",
+      "current_name": "015 - Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý)",
+      "display_title": "Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1IX6ZgwxkV3iwuqVFKS1gSD16zR60qZ8M",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162262,
+          "url": "https://drive.google.com/file/d/1IX6ZgwxkV3iwuqVFKS1gSD16zR60qZ8M/view?usp=drivesdk"
+        },
+        {
+          "id": "14cRkHMVQZxxRk1q2N3naMyOdWooK3Uaq",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 241079,
+          "url": "https://drive.google.com/file/d/14cRkHMVQZxxRk1q2N3naMyOdWooK3Uaq/view?usp=drivesdk"
+        },
+        {
+          "id": "1BUrUu_IVKpwZXExXLC_d0wjRMvb31ln4",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 209594,
+          "url": "https://drive.google.com/file/d/1BUrUu_IVKpwZXExXLC_d0wjRMvb31ln4/view?usp=drivesdk"
+        },
+        {
+          "id": "1t_9pql6Dqm9I0hcBlrPai_Bd6ZiB9R0p",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 183742,
+          "url": "https://drive.google.com/file/d/1t_9pql6Dqm9I0hcBlrPai_Bd6ZiB9R0p/view?usp=drivesdk"
+        },
+        {
+          "id": "1p1F5yN7EsyiL5uFjs_w20N7-IOBe369-",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 178333,
+          "url": "https://drive.google.com/file/d/1p1F5yN7EsyiL5uFjs_w20N7-IOBe369-/view?usp=drivesdk"
+        },
+        {
+          "id": "1W_UsI0wszvd7UKiFGPHPHDoYKph8ixYL",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 211266,
+          "url": "https://drive.google.com/file/d/1W_UsI0wszvd7UKiFGPHPHDoYKph8ixYL/view?usp=drivesdk"
+        },
+        {
+          "id": "1gxv2ScYpwHJ2wQGbKkUm2phoL3SLCfeN",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156309,
+          "url": "https://drive.google.com/file/d/1gxv2ScYpwHJ2wQGbKkUm2phoL3SLCfeN/view?usp=drivesdk"
+        },
+        {
+          "id": "10eYeyaCRxjplOz5MWk7FHf2C8X9hbRxw",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 189447,
+          "url": "https://drive.google.com/file/d/10eYeyaCRxjplOz5MWk7FHf2C8X9hbRxw/view?usp=drivesdk"
+        },
+        {
+          "id": "1kkiRcEfMFjmJ57n8QwJ6AIT6L3ZdAx0M",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 231042,
+          "url": "https://drive.google.com/file/d/1kkiRcEfMFjmJ57n8QwJ6AIT6L3ZdAx0M/view?usp=drivesdk"
+        },
+        {
+          "id": "1a6Z1VKEyiloW-nKbNQG1YvzF1yKV2Efg",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 155491,
+          "url": "https://drive.google.com/file/d/1a6Z1VKEyiloW-nKbNQG1YvzF1yKV2Efg/view?usp=drivesdk"
+        },
+        {
+          "id": "1XPpISuOR7g7DPnSEnvfdFGZbeVi1jjj_",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 207728,
+          "url": "https://drive.google.com/file/d/1XPpISuOR7g7DPnSEnvfdFGZbeVi1jjj_/view?usp=drivesdk"
+        },
+        {
+          "id": "1NsOLGipDPRVAUegrFHCy33ZZqxldb-Xv",
+          "name": "Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 116453,
+          "url": "https://drive.google.com/file/d/1NsOLGipDPRVAUegrFHCy33ZZqxldb-Xv/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 16,
+      "lesson_id": "B016",
+      "drive_folder_id": "1OMA50oqtlKvMFP25a5aPTrixLYecm3YO",
+      "drive_url": "https://drive.google.com/drive/folders/1OMA50oqtlKvMFP25a5aPTrixLYecm3YO",
+      "original_name": "Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1)",
+      "current_name": "016 - Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1)",
+      "display_title": "Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 14,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1mR3M0-z6eON7c_MBnW8Txm3UqW-PsU3K",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 166105,
+          "url": "https://drive.google.com/file/d/1mR3M0-z6eON7c_MBnW8Txm3UqW-PsU3K/view?usp=drivesdk"
+        },
+        {
+          "id": "1XRwdU91QbcosLYWD_F8GngyPQL_ezhE-",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 179540,
+          "url": "https://drive.google.com/file/d/1XRwdU91QbcosLYWD_F8GngyPQL_ezhE-/view?usp=drivesdk"
+        },
+        {
+          "id": "18cJ04zPhgtcV7UGR0bzgdhAbZvS7OFca",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 211272,
+          "url": "https://drive.google.com/file/d/18cJ04zPhgtcV7UGR0bzgdhAbZvS7OFca/view?usp=drivesdk"
+        },
+        {
+          "id": "1f5SytsS_sEaMfBJGU3XRmfxQKdUeJBHt",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 165706,
+          "url": "https://drive.google.com/file/d/1f5SytsS_sEaMfBJGU3XRmfxQKdUeJBHt/view?usp=drivesdk"
+        },
+        {
+          "id": "1xrplcNW3s8c04NFXkgdmosn3ZIWzKRfC",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 159243,
+          "url": "https://drive.google.com/file/d/1xrplcNW3s8c04NFXkgdmosn3ZIWzKRfC/view?usp=drivesdk"
+        },
+        {
+          "id": "16yYRtgmxtdS-B1SADYKpCmsCgwY1aVVj",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 181358,
+          "url": "https://drive.google.com/file/d/16yYRtgmxtdS-B1SADYKpCmsCgwY1aVVj/view?usp=drivesdk"
+        },
+        {
+          "id": "1PtY7EMBYB6pAQGp1f380ZlUPICbIuEWK",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167926,
+          "url": "https://drive.google.com/file/d/1PtY7EMBYB6pAQGp1f380ZlUPICbIuEWK/view?usp=drivesdk"
+        },
+        {
+          "id": "1ceeTAmgbD1-9E_gckC2M3W9KMfBam9jO",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 189554,
+          "url": "https://drive.google.com/file/d/1ceeTAmgbD1-9E_gckC2M3W9KMfBam9jO/view?usp=drivesdk"
+        },
+        {
+          "id": "1GOqbm1Wi6xjKKxqN9JOO-ZTmgJGCz_cR",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 185358,
+          "url": "https://drive.google.com/file/d/1GOqbm1Wi6xjKKxqN9JOO-ZTmgJGCz_cR/view?usp=drivesdk"
+        },
+        {
+          "id": "1_ZT4mEH4i319yCJLcNrsWZfh1ACxgtvE",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 180229,
+          "url": "https://drive.google.com/file/d/1_ZT4mEH4i319yCJLcNrsWZfh1ACxgtvE/view?usp=drivesdk"
+        },
+        {
+          "id": "1la-qO97ipJ5L3FexHuVC0bhFf-hpglba",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 126290,
+          "url": "https://drive.google.com/file/d/1la-qO97ipJ5L3FexHuVC0bhFf-hpglba/view?usp=drivesdk"
+        },
+        {
+          "id": "1rOFbUxFKiKT7FUi_FW4Mnhv2yCguxxfw",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152426,
+          "url": "https://drive.google.com/file/d/1rOFbUxFKiKT7FUi_FW4Mnhv2yCguxxfw/view?usp=drivesdk"
+        },
+        {
+          "id": "1tniIBNov8Fme_WiTo5cpcOis7c3Kl2WQ",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 180793,
+          "url": "https://drive.google.com/file/d/1tniIBNov8Fme_WiTo5cpcOis7c3Kl2WQ/view?usp=drivesdk"
+        },
+        {
+          "id": "1lQrjGw14WI-dw48IXK8S6YM62STqWKzQ",
+          "name": "Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 93707,
+          "url": "https://drive.google.com/file/d/1lQrjGw14WI-dw48IXK8S6YM62STqWKzQ/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 17,
+      "lesson_id": "B017",
+      "drive_folder_id": "1qepchr-kwNzUsXqxz87RG0dqwGuWAU8R",
+      "drive_url": "https://drive.google.com/drive/folders/1qepchr-kwNzUsXqxz87RG0dqwGuWAU8R",
+      "original_name": "CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!",
+      "current_name": "017 - CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!",
+      "display_title": "CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 10,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1B3Ig9_hd8EkCcERoCfYpY45-N-GM0EQS",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 149200,
+          "url": "https://drive.google.com/file/d/1B3Ig9_hd8EkCcERoCfYpY45-N-GM0EQS/view?usp=drivesdk"
+        },
+        {
+          "id": "1hfD8CrBgm5e9iUnxYnnfDmEzEaxSIaxH",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 207933,
+          "url": "https://drive.google.com/file/d/1hfD8CrBgm5e9iUnxYnnfDmEzEaxSIaxH/view?usp=drivesdk"
+        },
+        {
+          "id": "1hqYYuVcg2y4ouxrK8LW1V-MGYRmXb2bK",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 170931,
+          "url": "https://drive.google.com/file/d/1hqYYuVcg2y4ouxrK8LW1V-MGYRmXb2bK/view?usp=drivesdk"
+        },
+        {
+          "id": "1ror_9cwBPUgdjae_0Q2vQflAyvqT1AHQ",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156910,
+          "url": "https://drive.google.com/file/d/1ror_9cwBPUgdjae_0Q2vQflAyvqT1AHQ/view?usp=drivesdk"
+        },
+        {
+          "id": "1ZcrHPw7VauiyYQkinUCpOkTmJan5J2YL",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145233,
+          "url": "https://drive.google.com/file/d/1ZcrHPw7VauiyYQkinUCpOkTmJan5J2YL/view?usp=drivesdk"
+        },
+        {
+          "id": "1_krvyHHIMWHjwDnbzgjJvq3h2FGahZQ7",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 149022,
+          "url": "https://drive.google.com/file/d/1_krvyHHIMWHjwDnbzgjJvq3h2FGahZQ7/view?usp=drivesdk"
+        },
+        {
+          "id": "1dvVGp1FRu0jLPwkVXYEAMUshH_p9vh_h",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 120005,
+          "url": "https://drive.google.com/file/d/1dvVGp1FRu0jLPwkVXYEAMUshH_p9vh_h/view?usp=drivesdk"
+        },
+        {
+          "id": "1ameNckc9oSWhQcVvUUEDBkU2cPy8JGar",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152028,
+          "url": "https://drive.google.com/file/d/1ameNckc9oSWhQcVvUUEDBkU2cPy8JGar/view?usp=drivesdk"
+        },
+        {
+          "id": "1Nw-jmUZtbnLwRbZZ11lF13VjRVpoWHEO",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 144893,
+          "url": "https://drive.google.com/file/d/1Nw-jmUZtbnLwRbZZ11lF13VjRVpoWHEO/view?usp=drivesdk"
+        },
+        {
+          "id": "1TPn4NDoDfx0qtOaKRr53ZnoK1JehYt5g",
+          "name": "CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 126473,
+          "url": "https://drive.google.com/file/d/1TPn4NDoDfx0qtOaKRr53ZnoK1JehYt5g/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 18,
+      "lesson_id": "B018",
+      "drive_folder_id": "1r-plZ2jVlT7gmh6XJK_Fd7MIQ3jI8b-C",
+      "drive_url": "https://drive.google.com/drive/folders/1r-plZ2jVlT7gmh6XJK_Fd7MIQ3jI8b-C",
+      "original_name": "Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1",
+      "current_name": "018 - Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1",
+      "display_title": "Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1GR2iARx4I-qjHiNktsbnJXQXtr6F4Ij_",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210536,
+          "url": "https://drive.google.com/file/d/1GR2iARx4I-qjHiNktsbnJXQXtr6F4Ij_/view?usp=drivesdk"
+        },
+        {
+          "id": "1uUrJ-EWrielcWYfJ4z6wQTfhLjNpJHaE",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 180536,
+          "url": "https://drive.google.com/file/d/1uUrJ-EWrielcWYfJ4z6wQTfhLjNpJHaE/view?usp=drivesdk"
+        },
+        {
+          "id": "1vel0pwJcTTkdq4lgpOY0YIldrm9c09Jy",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167808,
+          "url": "https://drive.google.com/file/d/1vel0pwJcTTkdq4lgpOY0YIldrm9c09Jy/view?usp=drivesdk"
+        },
+        {
+          "id": "1d-fseo4YA0hZgEQeTXn9hBex2b5brbxE",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162955,
+          "url": "https://drive.google.com/file/d/1d-fseo4YA0hZgEQeTXn9hBex2b5brbxE/view?usp=drivesdk"
+        },
+        {
+          "id": "14Uizf86YckHgngCnjNptTNCdvPZo1V7Y",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 216779,
+          "url": "https://drive.google.com/file/d/14Uizf86YckHgngCnjNptTNCdvPZo1V7Y/view?usp=drivesdk"
+        },
+        {
+          "id": "1CETYjsXMbuI_gyrexzK_l-a0P6fd66oW",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 257424,
+          "url": "https://drive.google.com/file/d/1CETYjsXMbuI_gyrexzK_l-a0P6fd66oW/view?usp=drivesdk"
+        },
+        {
+          "id": "1tnrvMCG1dGlYTMrtHjnA8NaPIXPq-M07",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 163723,
+          "url": "https://drive.google.com/file/d/1tnrvMCG1dGlYTMrtHjnA8NaPIXPq-M07/view?usp=drivesdk"
+        },
+        {
+          "id": "1kVAKilqcK-aqceVAosxPmgrnXejp5KU-",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210550,
+          "url": "https://drive.google.com/file/d/1kVAKilqcK-aqceVAosxPmgrnXejp5KU-/view?usp=drivesdk"
+        },
+        {
+          "id": "1CW8eMCtJ6gXWDSlCsF9uSbzKXPk0psFi",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 202020,
+          "url": "https://drive.google.com/file/d/1CW8eMCtJ6gXWDSlCsF9uSbzKXPk0psFi/view?usp=drivesdk"
+        },
+        {
+          "id": "1Cno1LqZlt6ashMsfPpknb2Sc0BLR2aAn",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191540,
+          "url": "https://drive.google.com/file/d/1Cno1LqZlt6ashMsfPpknb2Sc0BLR2aAn/view?usp=drivesdk"
+        },
+        {
+          "id": "1rVg3GlJB5jBf1dQqvIraLq0eYcbs6z_V",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 153401,
+          "url": "https://drive.google.com/file/d/1rVg3GlJB5jBf1dQqvIraLq0eYcbs6z_V/view?usp=drivesdk"
+        },
+        {
+          "id": "1KbehbymiXK0c_7rDCqnESBv-1qM69oLz",
+          "name": "Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 288844,
+          "url": "https://drive.google.com/file/d/1KbehbymiXK0c_7rDCqnESBv-1qM69oLz/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 19,
+      "lesson_id": "B019",
+      "drive_folder_id": "1K77-ERUz2a6e-xvyEb3J1rZ36YaLvgPw",
+      "drive_url": "https://drive.google.com/drive/folders/1K77-ERUz2a6e-xvyEb3J1rZ36YaLvgPw",
+      "original_name": "Hệ thống Bánh Đà học tập bằng AI",
+      "current_name": "019 - Hệ thống Bánh Đà học tập bằng AI",
+      "display_title": "Hệ thống Bánh Đà học tập bằng AI",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 13,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "17otYqFcLjPGrpsWnZEP78JLYkVPTCjJz",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 124787,
+          "url": "https://drive.google.com/file/d/17otYqFcLjPGrpsWnZEP78JLYkVPTCjJz/view?usp=drivesdk"
+        },
+        {
+          "id": "133Dka_ACS134E4_u4rjjEnGZFRJtUpbJ",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 139110,
+          "url": "https://drive.google.com/file/d/133Dka_ACS134E4_u4rjjEnGZFRJtUpbJ/view?usp=drivesdk"
+        },
+        {
+          "id": "1jXbE_bt4HlanCXdxxOw_2q4JETcyZaa-",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 109824,
+          "url": "https://drive.google.com/file/d/1jXbE_bt4HlanCXdxxOw_2q4JETcyZaa-/view?usp=drivesdk"
+        },
+        {
+          "id": "1_KcjnV239zU-AlyRvdl7BNX9RnnMVM2b",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 139854,
+          "url": "https://drive.google.com/file/d/1_KcjnV239zU-AlyRvdl7BNX9RnnMVM2b/view?usp=drivesdk"
+        },
+        {
+          "id": "1C4YtUPyoELtZQe63AQ2nztZjOgKwi2cf",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152373,
+          "url": "https://drive.google.com/file/d/1C4YtUPyoELtZQe63AQ2nztZjOgKwi2cf/view?usp=drivesdk"
+        },
+        {
+          "id": "1yQNrTTUsKdrHqNmhzmTlyqtIhu8bHSX7",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 126631,
+          "url": "https://drive.google.com/file/d/1yQNrTTUsKdrHqNmhzmTlyqtIhu8bHSX7/view?usp=drivesdk"
+        },
+        {
+          "id": "1FClh17kmR7juzTnyTjPRiNk3ac72MjR8",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131500,
+          "url": "https://drive.google.com/file/d/1FClh17kmR7juzTnyTjPRiNk3ac72MjR8/view?usp=drivesdk"
+        },
+        {
+          "id": "1UJwUAlYv9EWnX8Yd3A9xBFCtxZgnIXCR",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146441,
+          "url": "https://drive.google.com/file/d/1UJwUAlYv9EWnX8Yd3A9xBFCtxZgnIXCR/view?usp=drivesdk"
+        },
+        {
+          "id": "1QyhrPYnGKzq0LrRGq9K3fhYtkXdMkWKT",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145465,
+          "url": "https://drive.google.com/file/d/1QyhrPYnGKzq0LrRGq9K3fhYtkXdMkWKT/view?usp=drivesdk"
+        },
+        {
+          "id": "1huUV3cyck6mtmaHPVltT4KudVvr2BOU3",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 118269,
+          "url": "https://drive.google.com/file/d/1huUV3cyck6mtmaHPVltT4KudVvr2BOU3/view?usp=drivesdk"
+        },
+        {
+          "id": "1wL2GfqL1YSzi0WpW96hKorZbBzYpkWEy",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 173439,
+          "url": "https://drive.google.com/file/d/1wL2GfqL1YSzi0WpW96hKorZbBzYpkWEy/view?usp=drivesdk"
+        },
+        {
+          "id": "1s-hhNhQqLIlwKrcRsw7iVTO7_Vgr7Xff",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 108459,
+          "url": "https://drive.google.com/file/d/1s-hhNhQqLIlwKrcRsw7iVTO7_Vgr7Xff/view?usp=drivesdk"
+        },
+        {
+          "id": "1EVDuYSW5I3q1bIEvGdFUQtL7xYAXyqhV",
+          "name": "Hệ thống Bánh Đà học tập bằng AI.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 129088,
+          "url": "https://drive.google.com/file/d/1EVDuYSW5I3q1bIEvGdFUQtL7xYAXyqhV/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 20,
+      "lesson_id": "B020",
+      "drive_folder_id": "1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw",
+      "drive_url": "https://drive.google.com/drive/folders/1-usvc29Tp4x1gsq3RZRaXYDVHayWouOw",
+      "original_name": "Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến",
+      "current_name": "020 - Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến",
+      "display_title": "Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 10,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1T_MGnt08vCkBbsfV6dS4CKfM_Tr9-5Yx",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 152468,
+          "url": "https://drive.google.com/file/d/1T_MGnt08vCkBbsfV6dS4CKfM_Tr9-5Yx/view?usp=drivesdk"
+        },
+        {
+          "id": "1yGSJNclY9DOQBqA1x-JCwrposWhsCidr",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167468,
+          "url": "https://drive.google.com/file/d/1yGSJNclY9DOQBqA1x-JCwrposWhsCidr/view?usp=drivesdk"
+        },
+        {
+          "id": "1HZgrLI8gwKSEEoHBrljkvY8gstVQxGXx",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 215584,
+          "url": "https://drive.google.com/file/d/1HZgrLI8gwKSEEoHBrljkvY8gstVQxGXx/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ilb85xA_LJhINqHOqQqp2uJhkoCaTeoP",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 139420,
+          "url": "https://drive.google.com/file/d/1Ilb85xA_LJhINqHOqQqp2uJhkoCaTeoP/view?usp=drivesdk"
+        },
+        {
+          "id": "10XJWcLqDSx59oHLaa9MyZy1-MItjRNY6",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 106413,
+          "url": "https://drive.google.com/file/d/10XJWcLqDSx59oHLaa9MyZy1-MItjRNY6/view?usp=drivesdk"
+        },
+        {
+          "id": "1Vm9xbilzGmfaxxcG2M_Myd9NjEnASp6F",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 206582,
+          "url": "https://drive.google.com/file/d/1Vm9xbilzGmfaxxcG2M_Myd9NjEnASp6F/view?usp=drivesdk"
+        },
+        {
+          "id": "1f3XvYFYiBkScgwdvoePbWd851pEgDc1l",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 110855,
+          "url": "https://drive.google.com/file/d/1f3XvYFYiBkScgwdvoePbWd851pEgDc1l/view?usp=drivesdk"
+        },
+        {
+          "id": "1ThP0v9WuCfpXwgOSo1M6T7Fj9k5U7l_D",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 132908,
+          "url": "https://drive.google.com/file/d/1ThP0v9WuCfpXwgOSo1M6T7Fj9k5U7l_D/view?usp=drivesdk"
+        },
+        {
+          "id": "1T4fmgUksrAck7MOGX0ZQr0epcAkns3P5",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164540,
+          "url": "https://drive.google.com/file/d/1T4fmgUksrAck7MOGX0ZQr0epcAkns3P5/view?usp=drivesdk"
+        },
+        {
+          "id": "1seAvmEhtBffRSU2ZCoZeIQjqgZtK6RiH",
+          "name": "Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 135471,
+          "url": "https://drive.google.com/file/d/1seAvmEhtBffRSU2ZCoZeIQjqgZtK6RiH/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 21,
+      "lesson_id": "B021",
+      "drive_folder_id": "1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK",
+      "drive_url": "https://drive.google.com/drive/folders/1T76HGlM0jhsDFB1OAJCcpnYfqJHnUQwK",
+      "original_name": "Làm chủ cảm xúc trong Video VEO",
+      "current_name": "021 - Làm chủ cảm xúc trong Video VEO",
+      "display_title": "Làm chủ cảm xúc trong Video VEO",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 15,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1jjGBXjlx5d7SV8YLxgq7380VmU0YHLRu",
+          "name": "016.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 89577,
+          "url": "https://drive.google.com/file/d/1jjGBXjlx5d7SV8YLxgq7380VmU0YHLRu/view?usp=drivesdk"
+        },
+        {
+          "id": "1zy8No9jzvLfOIu6MMe3io3SePxrlmzoV",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 178662,
+          "url": "https://drive.google.com/file/d/1zy8No9jzvLfOIu6MMe3io3SePxrlmzoV/view?usp=drivesdk"
+        },
+        {
+          "id": "1YDhPSlQkn4nOX80kdDACpud87T7Xe0iJ",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 221041,
+          "url": "https://drive.google.com/file/d/1YDhPSlQkn4nOX80kdDACpud87T7Xe0iJ/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ii4_8aInpfpmAEwdjTePR1pcBbu1qcS8",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164239,
+          "url": "https://drive.google.com/file/d/1Ii4_8aInpfpmAEwdjTePR1pcBbu1qcS8/view?usp=drivesdk"
+        },
+        {
+          "id": "1E7q_duQHWCeY8dUXzJ2fDJO_qk956Wnh",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 182530,
+          "url": "https://drive.google.com/file/d/1E7q_duQHWCeY8dUXzJ2fDJO_qk956Wnh/view?usp=drivesdk"
+        },
+        {
+          "id": "1s8-9wJyD3VOTLHxe1eqT4T0O6B-RZRqZ",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186780,
+          "url": "https://drive.google.com/file/d/1s8-9wJyD3VOTLHxe1eqT4T0O6B-RZRqZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1l2ViRmcH_UHx3NthKNhkmg0JMaiQlJdX",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 225247,
+          "url": "https://drive.google.com/file/d/1l2ViRmcH_UHx3NthKNhkmg0JMaiQlJdX/view?usp=drivesdk"
+        },
+        {
+          "id": "1aWBwdxJcECXWZURqPpQRhyaqIyZ4huB1",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 190709,
+          "url": "https://drive.google.com/file/d/1aWBwdxJcECXWZURqPpQRhyaqIyZ4huB1/view?usp=drivesdk"
+        },
+        {
+          "id": "1pmN_dcEURXlV4-eJq7la4pbNxgjGTUiX",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210633,
+          "url": "https://drive.google.com/file/d/1pmN_dcEURXlV4-eJq7la4pbNxgjGTUiX/view?usp=drivesdk"
+        },
+        {
+          "id": "16C0kZUaSj2aO4xWg3cA-8LkSMlDTIJF9",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 255148,
+          "url": "https://drive.google.com/file/d/16C0kZUaSj2aO4xWg3cA-8LkSMlDTIJF9/view?usp=drivesdk"
+        },
+        {
+          "id": "1FLywDpTY93gaIBwBqxRUO154L_YYznLF",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 168469,
+          "url": "https://drive.google.com/file/d/1FLywDpTY93gaIBwBqxRUO154L_YYznLF/view?usp=drivesdk"
+        },
+        {
+          "id": "1Q8buUZenyQHWk7FxAFaJjCXXvMG0xU5c",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 188084,
+          "url": "https://drive.google.com/file/d/1Q8buUZenyQHWk7FxAFaJjCXXvMG0xU5c/view?usp=drivesdk"
+        },
+        {
+          "id": "1lussCvkTw-KW5HLca_erWkr1xudlrnm6",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 198181,
+          "url": "https://drive.google.com/file/d/1lussCvkTw-KW5HLca_erWkr1xudlrnm6/view?usp=drivesdk"
+        },
+        {
+          "id": "1lnvRr_Xsh_XQldRvlYwBZeSQzkaRjNVS",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 207615,
+          "url": "https://drive.google.com/file/d/1lnvRr_Xsh_XQldRvlYwBZeSQzkaRjNVS/view?usp=drivesdk"
+        },
+        {
+          "id": "1c55LaO6fJhy-vUkkudUHmtAxf-F4Rht-",
+          "name": "01 Làm chủ cảm xúc trong Video AI.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 149160,
+          "url": "https://drive.google.com/file/d/1c55LaO6fJhy-vUkkudUHmtAxf-F4Rht-/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 22,
+      "lesson_id": "B022",
+      "drive_folder_id": "1TnL2r1IsnEXkVOgT4MRnsNRn0l2PzlBt",
+      "drive_url": "https://drive.google.com/drive/folders/1TnL2r1IsnEXkVOgT4MRnsNRn0l2PzlBt",
+      "original_name": "Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp",
+      "current_name": "022 - Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp",
+      "display_title": "Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 14,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "13vJofr6DmEEEWrQg1yi5CluvXaN-NXXw",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 222840,
+          "url": "https://drive.google.com/file/d/13vJofr6DmEEEWrQg1yi5CluvXaN-NXXw/view?usp=drivesdk"
+        },
+        {
+          "id": "14HKoYz2NAIfJfGYn8h2N_WoxBpv3a-08",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 247343,
+          "url": "https://drive.google.com/file/d/14HKoYz2NAIfJfGYn8h2N_WoxBpv3a-08/view?usp=drivesdk"
+        },
+        {
+          "id": "1ilCOgnhgzbMin0AqVihmRJGP-oK5ZtFS",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 176505,
+          "url": "https://drive.google.com/file/d/1ilCOgnhgzbMin0AqVihmRJGP-oK5ZtFS/view?usp=drivesdk"
+        },
+        {
+          "id": "1N_hGC5tnP8I-hh9bnY2jnWO7tZDFfZe-",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 201843,
+          "url": "https://drive.google.com/file/d/1N_hGC5tnP8I-hh9bnY2jnWO7tZDFfZe-/view?usp=drivesdk"
+        },
+        {
+          "id": "1gqzyNDNDmUH2grpptK3EMw_TEDfnV6At",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 204362,
+          "url": "https://drive.google.com/file/d/1gqzyNDNDmUH2grpptK3EMw_TEDfnV6At/view?usp=drivesdk"
+        },
+        {
+          "id": "1d_FG8-RdKuT97Z1yFW1_duTXRz9ucX1_",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164210,
+          "url": "https://drive.google.com/file/d/1d_FG8-RdKuT97Z1yFW1_duTXRz9ucX1_/view?usp=drivesdk"
+        },
+        {
+          "id": "13ngxZQ-WItDeIIgi-fBkJGqMTHdBNKrk",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 185574,
+          "url": "https://drive.google.com/file/d/13ngxZQ-WItDeIIgi-fBkJGqMTHdBNKrk/view?usp=drivesdk"
+        },
+        {
+          "id": "1XW-a3GCfuLTCG44TxaDw7tY_6xt-bijR",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 185389,
+          "url": "https://drive.google.com/file/d/1XW-a3GCfuLTCG44TxaDw7tY_6xt-bijR/view?usp=drivesdk"
+        },
+        {
+          "id": "1EVM1237A5nu9FtlN1kgN0gw07TOrIxRD",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 171721,
+          "url": "https://drive.google.com/file/d/1EVM1237A5nu9FtlN1kgN0gw07TOrIxRD/view?usp=drivesdk"
+        },
+        {
+          "id": "1s1yrGweJWQcUjC6Q4xcpPgPXqvwmFbU1",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 208520,
+          "url": "https://drive.google.com/file/d/1s1yrGweJWQcUjC6Q4xcpPgPXqvwmFbU1/view?usp=drivesdk"
+        },
+        {
+          "id": "1rTpuqKuGNB9IaeHECoTSHAdR3qZJXDdf",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 242053,
+          "url": "https://drive.google.com/file/d/1rTpuqKuGNB9IaeHECoTSHAdR3qZJXDdf/view?usp=drivesdk"
+        },
+        {
+          "id": "1Q-VCm6EOm_3LJGbpHCk0wnxubmSQn6qh",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 257362,
+          "url": "https://drive.google.com/file/d/1Q-VCm6EOm_3LJGbpHCk0wnxubmSQn6qh/view?usp=drivesdk"
+        },
+        {
+          "id": "1MWzUyd2diE6mbmNIrQrZ-Yjuk4ouvH_2",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 201735,
+          "url": "https://drive.google.com/file/d/1MWzUyd2diE6mbmNIrQrZ-Yjuk4ouvH_2/view?usp=drivesdk"
+        },
+        {
+          "id": "1RvV6pKE9P9xQtE--mw6DJtkRWvATeqK7",
+          "name": "Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 371878,
+          "url": "https://drive.google.com/file/d/1RvV6pKE9P9xQtE--mw6DJtkRWvATeqK7/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 23,
+      "lesson_id": "B023",
+      "drive_folder_id": "1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD",
+      "drive_url": "https://drive.google.com/drive/folders/1KvuuXJx7k9qJXmTebV9Ij9OzD4kDqMSD",
+      "original_name": "Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!",
+      "current_name": "023 - Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!",
+      "display_title": "Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 13,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1fzj-xDZXHBnkKrTD_F7Z2IH396LQ96_M",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186554,
+          "url": "https://drive.google.com/file/d/1fzj-xDZXHBnkKrTD_F7Z2IH396LQ96_M/view?usp=drivesdk"
+        },
+        {
+          "id": "1PRX_F8qAzZjoARuLwWy732m42qza75ku",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 200681,
+          "url": "https://drive.google.com/file/d/1PRX_F8qAzZjoARuLwWy732m42qza75ku/view?usp=drivesdk"
+        },
+        {
+          "id": "14EdkEbB6G6PZJ-YSpjE16Yi-NUZph-tp",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 221236,
+          "url": "https://drive.google.com/file/d/14EdkEbB6G6PZJ-YSpjE16Yi-NUZph-tp/view?usp=drivesdk"
+        },
+        {
+          "id": "17VsNWA2PG24ZXaRJ0vqqnma-Sq4M74NN",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 174631,
+          "url": "https://drive.google.com/file/d/17VsNWA2PG24ZXaRJ0vqqnma-Sq4M74NN/view?usp=drivesdk"
+        },
+        {
+          "id": "18BXZDSxdPOjG4ROcJ-bb6tFMpNNxRNpz",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 188939,
+          "url": "https://drive.google.com/file/d/18BXZDSxdPOjG4ROcJ-bb6tFMpNNxRNpz/view?usp=drivesdk"
+        },
+        {
+          "id": "1zoMBGfJmNdkGatdiaK3ckBXUdXn273lN",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 189270,
+          "url": "https://drive.google.com/file/d/1zoMBGfJmNdkGatdiaK3ckBXUdXn273lN/view?usp=drivesdk"
+        },
+        {
+          "id": "1tJtg8ULcVG4ktDR0cjywG3BDrg7lLpBV",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 182796,
+          "url": "https://drive.google.com/file/d/1tJtg8ULcVG4ktDR0cjywG3BDrg7lLpBV/view?usp=drivesdk"
+        },
+        {
+          "id": "1XeLXtUd-ISiV9Fx0KvNPauqFzYH3ArNa",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 174376,
+          "url": "https://drive.google.com/file/d/1XeLXtUd-ISiV9Fx0KvNPauqFzYH3ArNa/view?usp=drivesdk"
+        },
+        {
+          "id": "1jSRLpfRZ90_IplccKXapKz_5xrylq_5Y",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164874,
+          "url": "https://drive.google.com/file/d/1jSRLpfRZ90_IplccKXapKz_5xrylq_5Y/view?usp=drivesdk"
+        },
+        {
+          "id": "1snXJSZSwpqeBjCe7S45BEXuQWoHPTniS",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 195498,
+          "url": "https://drive.google.com/file/d/1snXJSZSwpqeBjCe7S45BEXuQWoHPTniS/view?usp=drivesdk"
+        },
+        {
+          "id": "1XZ5ikm29hG35hEFDUSil8aEPmx7J7eK6",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 168333,
+          "url": "https://drive.google.com/file/d/1XZ5ikm29hG35hEFDUSil8aEPmx7J7eK6/view?usp=drivesdk"
+        },
+        {
+          "id": "1_6IHr1orGNhhXvRebPhfCi7IOupqcrIf",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 168133,
+          "url": "https://drive.google.com/file/d/1_6IHr1orGNhhXvRebPhfCi7IOupqcrIf/view?usp=drivesdk"
+        },
+        {
+          "id": "1o58wRMZQISRGJ-OJDUGRmc2NJGLqEbyR",
+          "name": "Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 259073,
+          "url": "https://drive.google.com/file/d/1o58wRMZQISRGJ-OJDUGRmc2NJGLqEbyR/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 24,
+      "lesson_id": "B024",
+      "drive_folder_id": "1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ",
+      "drive_url": "https://drive.google.com/drive/folders/1kgxRLK9WGqrFxDsNpD9umwIIlL8oZUGZ",
+      "original_name": "Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)",
+      "current_name": "024 - Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)",
+      "display_title": "Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 15,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1qpbUeLIOPuQ5OKSJHBMbOSMn7g2C780f",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 112382,
+          "url": "https://drive.google.com/file/d/1qpbUeLIOPuQ5OKSJHBMbOSMn7g2C780f/view?usp=drivesdk"
+        },
+        {
+          "id": "1ZacJdmTl3ag3L2JdoFwx4cei4aPjzYJa",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 207916,
+          "url": "https://drive.google.com/file/d/1ZacJdmTl3ag3L2JdoFwx4cei4aPjzYJa/view?usp=drivesdk"
+        },
+        {
+          "id": "1rr6EOdqbfZIwIEeUpa1uZLtgUzL4u-p9",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 205249,
+          "url": "https://drive.google.com/file/d/1rr6EOdqbfZIwIEeUpa1uZLtgUzL4u-p9/view?usp=drivesdk"
+        },
+        {
+          "id": "1WwzomCzuLPUU0uF9w8F-qcJkx6NnMwAS",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 215163,
+          "url": "https://drive.google.com/file/d/1WwzomCzuLPUU0uF9w8F-qcJkx6NnMwAS/view?usp=drivesdk"
+        },
+        {
+          "id": "1Nip9_hDnDUmc6R7Ap2dlZSGChnJQci1G",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 251027,
+          "url": "https://drive.google.com/file/d/1Nip9_hDnDUmc6R7Ap2dlZSGChnJQci1G/view?usp=drivesdk"
+        },
+        {
+          "id": "1hNuIQAIxUUWvN8jOVL1xKvOcDDrxOpO_",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 279273,
+          "url": "https://drive.google.com/file/d/1hNuIQAIxUUWvN8jOVL1xKvOcDDrxOpO_/view?usp=drivesdk"
+        },
+        {
+          "id": "1f-CLUPHIWha7-eT5duGg9bk48dVPA50P",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 250637,
+          "url": "https://drive.google.com/file/d/1f-CLUPHIWha7-eT5duGg9bk48dVPA50P/view?usp=drivesdk"
+        },
+        {
+          "id": "1qKREVeMNyrUCG-wpuH69gJkpijB1MpkF",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 228652,
+          "url": "https://drive.google.com/file/d/1qKREVeMNyrUCG-wpuH69gJkpijB1MpkF/view?usp=drivesdk"
+        },
+        {
+          "id": "1R5kJcocxMy-lla5u-uMG6Ww2mnqpw1dO",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 241444,
+          "url": "https://drive.google.com/file/d/1R5kJcocxMy-lla5u-uMG6Ww2mnqpw1dO/view?usp=drivesdk"
+        },
+        {
+          "id": "1u1bWbks1HaiGqKRMFh9xEqDcakoKnF1C",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 205234,
+          "url": "https://drive.google.com/file/d/1u1bWbks1HaiGqKRMFh9xEqDcakoKnF1C/view?usp=drivesdk"
+        },
+        {
+          "id": "1VgIfk9oOKu3smYDpZIx-3oUVCghf_ABr",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 205784,
+          "url": "https://drive.google.com/file/d/1VgIfk9oOKu3smYDpZIx-3oUVCghf_ABr/view?usp=drivesdk"
+        },
+        {
+          "id": "1GL6_vhZGiYtn_KjkzKP1FTApsE6QN3jU",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186527,
+          "url": "https://drive.google.com/file/d/1GL6_vhZGiYtn_KjkzKP1FTApsE6QN3jU/view?usp=drivesdk"
+        },
+        {
+          "id": "1Sg_TYaALGMgJATfAROBRnkbmpSoBARti",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 197528,
+          "url": "https://drive.google.com/file/d/1Sg_TYaALGMgJATfAROBRnkbmpSoBARti/view?usp=drivesdk"
+        },
+        {
+          "id": "1j7RAb1lBJN8xuEJeFr1tAGmnl7QkhkZD",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 190793,
+          "url": "https://drive.google.com/file/d/1j7RAb1lBJN8xuEJeFr1tAGmnl7QkhkZD/view?usp=drivesdk"
+        },
+        {
+          "id": "1T9BcC75OpelKvvbBB3kKOEpqHb7cZDbd",
+          "name": "Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining).jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 182298,
+          "url": "https://drive.google.com/file/d/1T9BcC75OpelKvvbBB3kKOEpqHb7cZDbd/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 25,
+      "lesson_id": "B025",
+      "drive_folder_id": "1FSlu5jphR2IxsoQ4zVhhNpvnqjX1qIuq",
+      "drive_url": "https://drive.google.com/drive/folders/1FSlu5jphR2IxsoQ4zVhhNpvnqjX1qIuq",
+      "original_name": "Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần",
+      "current_name": "025 - Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần",
+      "display_title": "Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 15,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1JIVd6iT1JqtMvoQTodj0_iQnVPaOG8N2",
+          "name": "015.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 185098,
+          "url": "https://drive.google.com/file/d/1JIVd6iT1JqtMvoQTodj0_iQnVPaOG8N2/view?usp=drivesdk"
+        },
+        {
+          "id": "13PNMyUyDKqWTyE8U6wpf9p99eQB4Dd7u",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145558,
+          "url": "https://drive.google.com/file/d/13PNMyUyDKqWTyE8U6wpf9p99eQB4Dd7u/view?usp=drivesdk"
+        },
+        {
+          "id": "12FmSu-WzxiqxRgxljEHXi6UcgOgDy4Yp",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 124740,
+          "url": "https://drive.google.com/file/d/12FmSu-WzxiqxRgxljEHXi6UcgOgDy4Yp/view?usp=drivesdk"
+        },
+        {
+          "id": "1n14R6jUdTkzUF2SitYPIY4OJePEQfHQa",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131961,
+          "url": "https://drive.google.com/file/d/1n14R6jUdTkzUF2SitYPIY4OJePEQfHQa/view?usp=drivesdk"
+        },
+        {
+          "id": "1czeAKZZN0MBPc0EVk7wnHfUdOcKxDON1",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131961,
+          "url": "https://drive.google.com/file/d/1czeAKZZN0MBPc0EVk7wnHfUdOcKxDON1/view?usp=drivesdk"
+        },
+        {
+          "id": "1ExxizampU0lg-S9rulK8oybiAFcNumkx",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 181708,
+          "url": "https://drive.google.com/file/d/1ExxizampU0lg-S9rulK8oybiAFcNumkx/view?usp=drivesdk"
+        },
+        {
+          "id": "1IoCAicETB0pzPtR9B-T4YWwPvJRJA1YC",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 159191,
+          "url": "https://drive.google.com/file/d/1IoCAicETB0pzPtR9B-T4YWwPvJRJA1YC/view?usp=drivesdk"
+        },
+        {
+          "id": "1QBnLh6xCyqs5xTg7tITGd7DuJQH1-azp",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164034,
+          "url": "https://drive.google.com/file/d/1QBnLh6xCyqs5xTg7tITGd7DuJQH1-azp/view?usp=drivesdk"
+        },
+        {
+          "id": "1kqqD21V7cy-qr4FV_ods1nKD0xbZAnPf",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 149828,
+          "url": "https://drive.google.com/file/d/1kqqD21V7cy-qr4FV_ods1nKD0xbZAnPf/view?usp=drivesdk"
+        },
+        {
+          "id": "1z81G10C5xX7CSN8e2X43Ca9s2zdJ38tX",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 216172,
+          "url": "https://drive.google.com/file/d/1z81G10C5xX7CSN8e2X43Ca9s2zdJ38tX/view?usp=drivesdk"
+        },
+        {
+          "id": "1wHgkFpOfFvuKsyJUtqrMXptMiNWUXMmn",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 155020,
+          "url": "https://drive.google.com/file/d/1wHgkFpOfFvuKsyJUtqrMXptMiNWUXMmn/view?usp=drivesdk"
+        },
+        {
+          "id": "1ZHOzjSVOS4Nf_9A-1sCjDcN3E8VrZJHg",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 110789,
+          "url": "https://drive.google.com/file/d/1ZHOzjSVOS4Nf_9A-1sCjDcN3E8VrZJHg/view?usp=drivesdk"
+        },
+        {
+          "id": "1q0jct61Mz7qbvtvgN27ezJk2BjXEf4mM",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 149357,
+          "url": "https://drive.google.com/file/d/1q0jct61Mz7qbvtvgN27ezJk2BjXEf4mM/view?usp=drivesdk"
+        },
+        {
+          "id": "11nfbsuAxFtNa7r4ytSgYg9YpelqJ0_Cm",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 165507,
+          "url": "https://drive.google.com/file/d/11nfbsuAxFtNa7r4ytSgYg9YpelqJ0_Cm/view?usp=drivesdk"
+        },
+        {
+          "id": "1PpClvf0snAyTSdT-NvvqWMnljdrqpQwz",
+          "name": "Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 102127,
+          "url": "https://drive.google.com/file/d/1PpClvf0snAyTSdT-NvvqWMnljdrqpQwz/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 26,
+      "lesson_id": "B026",
+      "drive_folder_id": "1LsNiDrXGR5yyYjSNf-3u_P3DCcSyk5t5",
+      "drive_url": "https://drive.google.com/drive/folders/1LsNiDrXGR5yyYjSNf-3u_P3DCcSyk5t5",
+      "original_name": "Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1",
+      "current_name": "026 - Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1",
+      "display_title": "Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 11,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1_O0CPHi8TdJ2x9vKQq1ABaUjHS1Wqcop",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 140826,
+          "url": "https://drive.google.com/file/d/1_O0CPHi8TdJ2x9vKQq1ABaUjHS1Wqcop/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ys2_ynm7Vuo26_F-Z5SSAEVA68EWjuLi",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 183564,
+          "url": "https://drive.google.com/file/d/1Ys2_ynm7Vuo26_F-Z5SSAEVA68EWjuLi/view?usp=drivesdk"
+        },
+        {
+          "id": "1zPtv7_-c8KC1kVtqpGdYDdVE3f6pk72f",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210085,
+          "url": "https://drive.google.com/file/d/1zPtv7_-c8KC1kVtqpGdYDdVE3f6pk72f/view?usp=drivesdk"
+        },
+        {
+          "id": "185A23a29eagD5mwtmKBqGjlsnDwRa-uC",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 198563,
+          "url": "https://drive.google.com/file/d/185A23a29eagD5mwtmKBqGjlsnDwRa-uC/view?usp=drivesdk"
+        },
+        {
+          "id": "15KEOiJDIZGyAe1lbq24f_ET0KdGirssP",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 184110,
+          "url": "https://drive.google.com/file/d/15KEOiJDIZGyAe1lbq24f_ET0KdGirssP/view?usp=drivesdk"
+        },
+        {
+          "id": "1Y0O5e60Oh1PHo64fQDeDVVW0d_N21s9W",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 238517,
+          "url": "https://drive.google.com/file/d/1Y0O5e60Oh1PHo64fQDeDVVW0d_N21s9W/view?usp=drivesdk"
+        },
+        {
+          "id": "1BvPEbLJoVpsvgbGu5N4hUxC3z1U57sOW",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 170578,
+          "url": "https://drive.google.com/file/d/1BvPEbLJoVpsvgbGu5N4hUxC3z1U57sOW/view?usp=drivesdk"
+        },
+        {
+          "id": "1wSdGvxGkL0Q4esCFn3PWBTKE5xdekY-f",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 224908,
+          "url": "https://drive.google.com/file/d/1wSdGvxGkL0Q4esCFn3PWBTKE5xdekY-f/view?usp=drivesdk"
+        },
+        {
+          "id": "1wOseIE1ST29uFN848noU-8NHjAub-VR0",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 166922,
+          "url": "https://drive.google.com/file/d/1wOseIE1ST29uFN848noU-8NHjAub-VR0/view?usp=drivesdk"
+        },
+        {
+          "id": "1UqeykZTbMcFlyXTEx6BsBw6FzBeLvoFy",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 147244,
+          "url": "https://drive.google.com/file/d/1UqeykZTbMcFlyXTEx6BsBw6FzBeLvoFy/view?usp=drivesdk"
+        },
+        {
+          "id": "18XEenS6H9w_A-oq8WMtc9XIiZrzwi3eP",
+          "name": "Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 199117,
+          "url": "https://drive.google.com/file/d/18XEenS6H9w_A-oq8WMtc9XIiZrzwi3eP/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 27,
+      "lesson_id": "B027",
+      "drive_folder_id": "1_cyMghOhl8O241qxJWE9pdcpu7x_NGBP",
+      "drive_url": "https://drive.google.com/drive/folders/1_cyMghOhl8O241qxJWE9pdcpu7x_NGBP",
+      "original_name": "Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản",
+      "current_name": "027 - Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản",
+      "display_title": "Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 15,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1kiKDzFfVaBqBJ-oaLC4u7XXFbhOqF7My",
+          "name": "014.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 173962,
+          "url": "https://drive.google.com/file/d/1kiKDzFfVaBqBJ-oaLC4u7XXFbhOqF7My/view?usp=drivesdk"
+        },
+        {
+          "id": "1Y6OHX8D2qaZjncOEzIvVYCepq0nROGY7",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 183160,
+          "url": "https://drive.google.com/file/d/1Y6OHX8D2qaZjncOEzIvVYCepq0nROGY7/view?usp=drivesdk"
+        },
+        {
+          "id": "1b7FxAdhoId0t50XpJ1ojVjf5veDmPuqE",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 206792,
+          "url": "https://drive.google.com/file/d/1b7FxAdhoId0t50XpJ1ojVjf5veDmPuqE/view?usp=drivesdk"
+        },
+        {
+          "id": "1qLqnUq2TkrNg9SuU9RWdVPz7x2VkLQBP",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 127442,
+          "url": "https://drive.google.com/file/d/1qLqnUq2TkrNg9SuU9RWdVPz7x2VkLQBP/view?usp=drivesdk"
+        },
+        {
+          "id": "14jzMPasclGeTH6PQW0Xyuvlb7G3HUSr7",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 177718,
+          "url": "https://drive.google.com/file/d/14jzMPasclGeTH6PQW0Xyuvlb7G3HUSr7/view?usp=drivesdk"
+        },
+        {
+          "id": "1uWc2KMKtMhLzdoOaMH5Q_nTv9AZ88dnP",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 208442,
+          "url": "https://drive.google.com/file/d/1uWc2KMKtMhLzdoOaMH5Q_nTv9AZ88dnP/view?usp=drivesdk"
+        },
+        {
+          "id": "1zmYLoDF2axxC6sikah7o11rd_1-0h13f",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 188273,
+          "url": "https://drive.google.com/file/d/1zmYLoDF2axxC6sikah7o11rd_1-0h13f/view?usp=drivesdk"
+        },
+        {
+          "id": "1Sz1Wwh3X8Jo53kGg0J6BVntExNfTsB3G",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 213521,
+          "url": "https://drive.google.com/file/d/1Sz1Wwh3X8Jo53kGg0J6BVntExNfTsB3G/view?usp=drivesdk"
+        },
+        {
+          "id": "1pIsf69NTC8kVVEho9bkB8u2WS7A1q8KQ",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 139324,
+          "url": "https://drive.google.com/file/d/1pIsf69NTC8kVVEho9bkB8u2WS7A1q8KQ/view?usp=drivesdk"
+        },
+        {
+          "id": "19L11CZT3vQeYYlWREVgEdvWSauxuD_jn",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 179549,
+          "url": "https://drive.google.com/file/d/19L11CZT3vQeYYlWREVgEdvWSauxuD_jn/view?usp=drivesdk"
+        },
+        {
+          "id": "1L-Y_CgF_U1sQcULWE9g_wadM-v9asCZO",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 173633,
+          "url": "https://drive.google.com/file/d/1L-Y_CgF_U1sQcULWE9g_wadM-v9asCZO/view?usp=drivesdk"
+        },
+        {
+          "id": "11Uptheo485ccB-oZErZ7N4KAytOivX3u",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 170858,
+          "url": "https://drive.google.com/file/d/11Uptheo485ccB-oZErZ7N4KAytOivX3u/view?usp=drivesdk"
+        },
+        {
+          "id": "1k7cf1mOORAiEvDVKljnwSJlf5b9l9jFh",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 158490,
+          "url": "https://drive.google.com/file/d/1k7cf1mOORAiEvDVKljnwSJlf5b9l9jFh/view?usp=drivesdk"
+        },
+        {
+          "id": "1obfPmD0AdqHLhOY1SjKVC01NQxwM_Y-P",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 186318,
+          "url": "https://drive.google.com/file/d/1obfPmD0AdqHLhOY1SjKVC01NQxwM_Y-P/view?usp=drivesdk"
+        },
+        {
+          "id": "1Z0aTmfcQ_obdh07YogTu8FzLMr7Y9RB9",
+          "name": "Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 190664,
+          "url": "https://drive.google.com/file/d/1Z0aTmfcQ_obdh07YogTu8FzLMr7Y9RB9/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 28,
+      "lesson_id": "B028",
+      "drive_folder_id": "1hcYzx35MKqf4GhdkMKPKCm8voBNOHq4w",
+      "drive_url": "https://drive.google.com/drive/folders/1hcYzx35MKqf4GhdkMKPKCm8voBNOHq4w",
+      "original_name": "TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!",
+      "current_name": "028 - TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!",
+      "display_title": "TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 13,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1FmAiCXJ1lxBzlieme5eXG-Pdu9pzoDLP",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 220334,
+          "url": "https://drive.google.com/file/d/1FmAiCXJ1lxBzlieme5eXG-Pdu9pzoDLP/view?usp=drivesdk"
+        },
+        {
+          "id": "1zi8Laj40JDxkcDSTIKs05VUS7YSgZdvF",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 101883,
+          "url": "https://drive.google.com/file/d/1zi8Laj40JDxkcDSTIKs05VUS7YSgZdvF/view?usp=drivesdk"
+        },
+        {
+          "id": "1IWrpoMaHmuTiwrIWPxOEpRqKY00UUEyX",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 157256,
+          "url": "https://drive.google.com/file/d/1IWrpoMaHmuTiwrIWPxOEpRqKY00UUEyX/view?usp=drivesdk"
+        },
+        {
+          "id": "1arGZb4K1hCEO-6bglVwsErjNMd7ZGGZz",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191792,
+          "url": "https://drive.google.com/file/d/1arGZb4K1hCEO-6bglVwsErjNMd7ZGGZz/view?usp=drivesdk"
+        },
+        {
+          "id": "1EZ36-QshpkLtMdc4QIQ69cuxhyfJ0uAb",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 126850,
+          "url": "https://drive.google.com/file/d/1EZ36-QshpkLtMdc4QIQ69cuxhyfJ0uAb/view?usp=drivesdk"
+        },
+        {
+          "id": "1TRevAQlSc8BPkGBlQY_hIgSFpagfUImZ",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191491,
+          "url": "https://drive.google.com/file/d/1TRevAQlSc8BPkGBlQY_hIgSFpagfUImZ/view?usp=drivesdk"
+        },
+        {
+          "id": "1o63tmrAmTHhDircuWzzYtVNcnnpfME9-",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 137774,
+          "url": "https://drive.google.com/file/d/1o63tmrAmTHhDircuWzzYtVNcnnpfME9-/view?usp=drivesdk"
+        },
+        {
+          "id": "1bgvpijUf6HcP7HzVZ6dPLU0yGYRqAZh3",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 128638,
+          "url": "https://drive.google.com/file/d/1bgvpijUf6HcP7HzVZ6dPLU0yGYRqAZh3/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ezr-vmUlsRUPOi2zWFie9UPgN_RW0naT",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 141358,
+          "url": "https://drive.google.com/file/d/1Ezr-vmUlsRUPOi2zWFie9UPgN_RW0naT/view?usp=drivesdk"
+        },
+        {
+          "id": "1Vkd2Mvl-5gdVJ5OD6mSpebmM_hde0nUe",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145591,
+          "url": "https://drive.google.com/file/d/1Vkd2Mvl-5gdVJ5OD6mSpebmM_hde0nUe/view?usp=drivesdk"
+        },
+        {
+          "id": "1H6teXhiqaMAGiDNhyqONK0SsFYgtVSSh",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 146080,
+          "url": "https://drive.google.com/file/d/1H6teXhiqaMAGiDNhyqONK0SsFYgtVSSh/view?usp=drivesdk"
+        },
+        {
+          "id": "1uSnPnP6Z2tPrMCpX22jb3Rz7HPOBVBnX",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131048,
+          "url": "https://drive.google.com/file/d/1uSnPnP6Z2tPrMCpX22jb3Rz7HPOBVBnX/view?usp=drivesdk"
+        },
+        {
+          "id": "1K2xD7Qu4QGVSoo6H7QwYMu-z24pWTXAe",
+          "name": "TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 131724,
+          "url": "https://drive.google.com/file/d/1K2xD7Qu4QGVSoo6H7QwYMu-z24pWTXAe/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 29,
+      "lesson_id": "B029",
+      "drive_folder_id": "1JJGBH0ew1DF-EjXmZR-TA_rZJ_FLsOdv",
+      "drive_url": "https://drive.google.com/drive/folders/1JJGBH0ew1DF-EjXmZR-TA_rZJ_FLsOdv",
+      "original_name": "Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo",
+      "current_name": "029 - Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo",
+      "display_title": "Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 13,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1eDQbnPZl34o-m52FPDQarSITGFk0Kr5_",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 306227,
+          "url": "https://drive.google.com/file/d/1eDQbnPZl34o-m52FPDQarSITGFk0Kr5_/view?usp=drivesdk"
+        },
+        {
+          "id": "1TJqvLEbFr-9ycgdOG0fccABI7JwweR78",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 229078,
+          "url": "https://drive.google.com/file/d/1TJqvLEbFr-9ycgdOG0fccABI7JwweR78/view?usp=drivesdk"
+        },
+        {
+          "id": "1hbCfYspZCwuvHYMsFmiyVJROkBfPPJSk",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 222535,
+          "url": "https://drive.google.com/file/d/1hbCfYspZCwuvHYMsFmiyVJROkBfPPJSk/view?usp=drivesdk"
+        },
+        {
+          "id": "1HNfvP5KFfj02eIy6qMmrZHFj8uQua-2E",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 245870,
+          "url": "https://drive.google.com/file/d/1HNfvP5KFfj02eIy6qMmrZHFj8uQua-2E/view?usp=drivesdk"
+        },
+        {
+          "id": "1tVawxATSMwg6ipa61ffz61qgqlvRB0Ng",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 239428,
+          "url": "https://drive.google.com/file/d/1tVawxATSMwg6ipa61ffz61qgqlvRB0Ng/view?usp=drivesdk"
+        },
+        {
+          "id": "1SAnBi5O9WoLMgorUiciULDtndia6_hmU",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 219041,
+          "url": "https://drive.google.com/file/d/1SAnBi5O9WoLMgorUiciULDtndia6_hmU/view?usp=drivesdk"
+        },
+        {
+          "id": "1fJrYlsNc8DHXucOIfgBZyQSXUEW3eDT-",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 249137,
+          "url": "https://drive.google.com/file/d/1fJrYlsNc8DHXucOIfgBZyQSXUEW3eDT-/view?usp=drivesdk"
+        },
+        {
+          "id": "1HohSj_nQA8-B11f2opMrwe-md0DfTOaz",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 201038,
+          "url": "https://drive.google.com/file/d/1HohSj_nQA8-B11f2opMrwe-md0DfTOaz/view?usp=drivesdk"
+        },
+        {
+          "id": "1jwTA9EQM1gPKlgpGvax0BaGK8e-FuWSo",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 155050,
+          "url": "https://drive.google.com/file/d/1jwTA9EQM1gPKlgpGvax0BaGK8e-FuWSo/view?usp=drivesdk"
+        },
+        {
+          "id": "1rEEpolx5yJGwBXKFf1JJMjsKke0Rchr2",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 229773,
+          "url": "https://drive.google.com/file/d/1rEEpolx5yJGwBXKFf1JJMjsKke0Rchr2/view?usp=drivesdk"
+        },
+        {
+          "id": "163HouDgncIjqOTrtNAJxyCPhpRgs6V67",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 256619,
+          "url": "https://drive.google.com/file/d/163HouDgncIjqOTrtNAJxyCPhpRgs6V67/view?usp=drivesdk"
+        },
+        {
+          "id": "1r2LZg_JnPyBsP5EiSyJm0vc7_gR8Dgq8",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 244947,
+          "url": "https://drive.google.com/file/d/1r2LZg_JnPyBsP5EiSyJm0vc7_gR8Dgq8/view?usp=drivesdk"
+        },
+        {
+          "id": "1qa1hsVH2RsIkpmd4Hl78_2rzmA7ALGeC",
+          "name": "Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 363498,
+          "url": "https://drive.google.com/file/d/1qa1hsVH2RsIkpmd4Hl78_2rzmA7ALGeC/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 30,
+      "lesson_id": "B030",
+      "drive_folder_id": "1MwgVwSjwR2NgZIjxLi7tEPatZyv9lrME",
+      "drive_url": "https://drive.google.com/drive/folders/1MwgVwSjwR2NgZIjxLi7tEPatZyv9lrME",
+      "original_name": "Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau",
+      "current_name": "030 - Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau",
+      "display_title": "Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1QyQCKkDe40nuLe3iyUKDrqrPiGQygzD9",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 306352,
+          "url": "https://drive.google.com/file/d/1QyQCKkDe40nuLe3iyUKDrqrPiGQygzD9/view?usp=drivesdk"
+        },
+        {
+          "id": "1-rHZZyFGB2H9MR294rjmFUXkWGcuzg_0",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162361,
+          "url": "https://drive.google.com/file/d/1-rHZZyFGB2H9MR294rjmFUXkWGcuzg_0/view?usp=drivesdk"
+        },
+        {
+          "id": "1uBoNI1dxz3xXUbpVW7Ecp2cmd0umJfsN",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 179982,
+          "url": "https://drive.google.com/file/d/1uBoNI1dxz3xXUbpVW7Ecp2cmd0umJfsN/view?usp=drivesdk"
+        },
+        {
+          "id": "1lHItDiYwAkg8-KVpqCMCTFcrG9anEyxt",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 199539,
+          "url": "https://drive.google.com/file/d/1lHItDiYwAkg8-KVpqCMCTFcrG9anEyxt/view?usp=drivesdk"
+        },
+        {
+          "id": "1JBe2gGKPS7tkeTL6wLdVZ6t-SM1oirl3",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 159036,
+          "url": "https://drive.google.com/file/d/1JBe2gGKPS7tkeTL6wLdVZ6t-SM1oirl3/view?usp=drivesdk"
+        },
+        {
+          "id": "1uLYykiXemXo6QrVg47t_g3LTNchftLAk",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 196484,
+          "url": "https://drive.google.com/file/d/1uLYykiXemXo6QrVg47t_g3LTNchftLAk/view?usp=drivesdk"
+        },
+        {
+          "id": "1ih-86pyOOtHCYb0570hrkoV5zJSUm9z8",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 178438,
+          "url": "https://drive.google.com/file/d/1ih-86pyOOtHCYb0570hrkoV5zJSUm9z8/view?usp=drivesdk"
+        },
+        {
+          "id": "1bi7xdNX3r-FCUpiGtwmV2TALvgbGx5TR",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 168634,
+          "url": "https://drive.google.com/file/d/1bi7xdNX3r-FCUpiGtwmV2TALvgbGx5TR/view?usp=drivesdk"
+        },
+        {
+          "id": "1fUw6r2jCBm3YDPu_aUXOx2kRjaNN97id",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 125974,
+          "url": "https://drive.google.com/file/d/1fUw6r2jCBm3YDPu_aUXOx2kRjaNN97id/view?usp=drivesdk"
+        },
+        {
+          "id": "1F_xi-rjyUVLgopeXR1YjzGZm4AXF9YHb",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 158715,
+          "url": "https://drive.google.com/file/d/1F_xi-rjyUVLgopeXR1YjzGZm4AXF9YHb/view?usp=drivesdk"
+        },
+        {
+          "id": "1x7v0-sPQGv7FtgPLVVC5HqOLaz2_vfPX",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 185059,
+          "url": "https://drive.google.com/file/d/1x7v0-sPQGv7FtgPLVVC5HqOLaz2_vfPX/view?usp=drivesdk"
+        },
+        {
+          "id": "1zsglnM8o_j89mGc2DGuZS-efl-x2XKia",
+          "name": "Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 214981,
+          "url": "https://drive.google.com/file/d/1zsglnM8o_j89mGc2DGuZS-efl-x2XKia/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 31,
+      "lesson_id": "B031",
+      "drive_folder_id": "17sYCtB5SAM-8djJiv-yRbp6-yBPuw9fM",
+      "drive_url": "https://drive.google.com/drive/folders/17sYCtB5SAM-8djJiv-yRbp6-yBPuw9fM",
+      "original_name": "Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức",
+      "current_name": "031 - Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức",
+      "display_title": "Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1K5IQmZnzLoz-ZbSyMXWQbW0tGisko90s",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210536,
+          "url": "https://drive.google.com/file/d/1K5IQmZnzLoz-ZbSyMXWQbW0tGisko90s/view?usp=drivesdk"
+        },
+        {
+          "id": "1g_FtQnp9v8xUxsPXKORHDV1kQRUpAyh6",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 180536,
+          "url": "https://drive.google.com/file/d/1g_FtQnp9v8xUxsPXKORHDV1kQRUpAyh6/view?usp=drivesdk"
+        },
+        {
+          "id": "1VJsi5hbyrIR9deHdgSPqzjjBMq0eJnx9",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 167808,
+          "url": "https://drive.google.com/file/d/1VJsi5hbyrIR9deHdgSPqzjjBMq0eJnx9/view?usp=drivesdk"
+        },
+        {
+          "id": "1j8v3qbKFVR7nWYMY7gPg2oztHDetoGap",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162955,
+          "url": "https://drive.google.com/file/d/1j8v3qbKFVR7nWYMY7gPg2oztHDetoGap/view?usp=drivesdk"
+        },
+        {
+          "id": "1o8oiBJVdlm-zaInSM1kurREW8tscGcgz",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 216779,
+          "url": "https://drive.google.com/file/d/1o8oiBJVdlm-zaInSM1kurREW8tscGcgz/view?usp=drivesdk"
+        },
+        {
+          "id": "1u3p4Zuzk3b7NlMsJdySiU7tNvEzn2WpF",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 257424,
+          "url": "https://drive.google.com/file/d/1u3p4Zuzk3b7NlMsJdySiU7tNvEzn2WpF/view?usp=drivesdk"
+        },
+        {
+          "id": "1KUmpEoDKBiEbPt20ZT4BA8udJ-Qa-QaX",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 163723,
+          "url": "https://drive.google.com/file/d/1KUmpEoDKBiEbPt20ZT4BA8udJ-Qa-QaX/view?usp=drivesdk"
+        },
+        {
+          "id": "1vYtbRIQTNGiqcDnYiFaC_PrmTYJBD4zH",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 210550,
+          "url": "https://drive.google.com/file/d/1vYtbRIQTNGiqcDnYiFaC_PrmTYJBD4zH/view?usp=drivesdk"
+        },
+        {
+          "id": "14UI9lim7RYErZDq72Y9dlOCw00K_W3Sj",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 202020,
+          "url": "https://drive.google.com/file/d/14UI9lim7RYErZDq72Y9dlOCw00K_W3Sj/view?usp=drivesdk"
+        },
+        {
+          "id": "1XreUoVqXf_KcDWpBOxcuwuQwS450zuJJ",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191540,
+          "url": "https://drive.google.com/file/d/1XreUoVqXf_KcDWpBOxcuwuQwS450zuJJ/view?usp=drivesdk"
+        },
+        {
+          "id": "1gJtOewg1VE9h7FFb6OBI6J28Ppv7CJ04",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 153401,
+          "url": "https://drive.google.com/file/d/1gJtOewg1VE9h7FFb6OBI6J28Ppv7CJ04/view?usp=drivesdk"
+        },
+        {
+          "id": "17CwMrij1e38zKoijv2KAyr6hsxMrDqxJ",
+          "name": "Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 288844,
+          "url": "https://drive.google.com/file/d/17CwMrij1e38zKoijv2KAyr6hsxMrDqxJ/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 32,
+      "lesson_id": "B032",
+      "drive_folder_id": "1SsWJhGlNJgODyzgZ-hGfkouj-1YY-LAx",
+      "drive_url": "https://drive.google.com/drive/folders/1SsWJhGlNJgODyzgZ-hGfkouj-1YY-LAx",
+      "original_name": "Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1",
+      "current_name": "032 - Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1",
+      "display_title": "Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 12,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1jjIQJLuLSCl8MhN1D4vGsVWIxzM4b5sK",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 91159,
+          "url": "https://drive.google.com/file/d/1jjIQJLuLSCl8MhN1D4vGsVWIxzM4b5sK/view?usp=drivesdk"
+        },
+        {
+          "id": "1JN2VrOc_S7bVcu7XvebTSzFuZBeqbg4S",
+          "name": "10.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 138639,
+          "url": "https://drive.google.com/file/d/1JN2VrOc_S7bVcu7XvebTSzFuZBeqbg4S/view?usp=drivesdk"
+        },
+        {
+          "id": "10AcGzkpr2NB2n7Im3pZULWUIMro73eIB",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 195840,
+          "url": "https://drive.google.com/file/d/10AcGzkpr2NB2n7Im3pZULWUIMro73eIB/view?usp=drivesdk"
+        },
+        {
+          "id": "1dTnvKm4nGX6l1zhGvg2Z2ehQZLvRHNeH",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 121581,
+          "url": "https://drive.google.com/file/d/1dTnvKm4nGX6l1zhGvg2Z2ehQZLvRHNeH/view?usp=drivesdk"
+        },
+        {
+          "id": "1nvpTPWZ0S617s9skEY4U7EhOhEM7wzjt",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 220120,
+          "url": "https://drive.google.com/file/d/1nvpTPWZ0S617s9skEY4U7EhOhEM7wzjt/view?usp=drivesdk"
+        },
+        {
+          "id": "1uQfMFXoC2OjH4-m9ca29zZQXYqvfBlzw",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 156807,
+          "url": "https://drive.google.com/file/d/1uQfMFXoC2OjH4-m9ca29zZQXYqvfBlzw/view?usp=drivesdk"
+        },
+        {
+          "id": "1Smd1dHXdX4C4THs4yxlbVT3sVjAfUZ_K",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 153701,
+          "url": "https://drive.google.com/file/d/1Smd1dHXdX4C4THs4yxlbVT3sVjAfUZ_K/view?usp=drivesdk"
+        },
+        {
+          "id": "1K68JWSjMKuKROSdQc1wxTL4PEGwFPNen",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145787,
+          "url": "https://drive.google.com/file/d/1K68JWSjMKuKROSdQc1wxTL4PEGwFPNen/view?usp=drivesdk"
+        },
+        {
+          "id": "1eNroIQM5PDD1crk_yGRdn1XSU5M1obYw",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 141388,
+          "url": "https://drive.google.com/file/d/1eNroIQM5PDD1crk_yGRdn1XSU5M1obYw/view?usp=drivesdk"
+        },
+        {
+          "id": "1vhRAoPke4-mSkFLk0hpck8cjlKuXh2Ie",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 147124,
+          "url": "https://drive.google.com/file/d/1vhRAoPke4-mSkFLk0hpck8cjlKuXh2Ie/view?usp=drivesdk"
+        },
+        {
+          "id": "10FOhNDRhTX05d9ztBbFW_u1U64NSX2RY",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 199402,
+          "url": "https://drive.google.com/file/d/10FOhNDRhTX05d9ztBbFW_u1U64NSX2RY/view?usp=drivesdk"
+        },
+        {
+          "id": "1vj31kfC4Bad2j671b-wQ5NkKDQdQGhLn",
+          "name": "Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 219529,
+          "url": "https://drive.google.com/file/d/1vj31kfC4Bad2j671b-wQ5NkKDQdQGhLn/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    },
+    {
+      "sequence": 33,
+      "lesson_id": "B033",
+      "drive_folder_id": "1_I1lxxVN8q4UgmE6NTPtgANVvrTZ_9kt",
+      "drive_url": "https://drive.google.com/drive/folders/1_I1lxxVN8q4UgmE6NTPtgANVvrTZ_9kt",
+      "original_name": "VEO đang làm ngơ prompt của bạn",
+      "current_name": "033 - VEO đang làm ngơ prompt của bạn",
+      "display_title": "VEO đang làm ngơ prompt của bạn",
+      "rename_verified": true,
+      "status": "pending",
+      "image_count": 14,
+      "images_read": 0,
+      "repository_lesson_path": null,
+      "image_inventory": [
+        {
+          "id": "1DY0h0IyiVuoQJtMXF511kd2bBggQfIbX",
+          "name": "013.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 196590,
+          "url": "https://drive.google.com/file/d/1DY0h0IyiVuoQJtMXF511kd2bBggQfIbX/view?usp=drivesdk"
+        },
+        {
+          "id": "1QWqUrVQnDe8-EG4hUVIsyDJ3yzJ2IPvU",
+          "name": "012.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 162569,
+          "url": "https://drive.google.com/file/d/1QWqUrVQnDe8-EG4hUVIsyDJ3yzJ2IPvU/view?usp=drivesdk"
+        },
+        {
+          "id": "19UMQ_JGk9UybIAw6lS1Ap-LIE-ZQeIpt",
+          "name": "011.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 145719,
+          "url": "https://drive.google.com/file/d/19UMQ_JGk9UybIAw6lS1Ap-LIE-ZQeIpt/view?usp=drivesdk"
+        },
+        {
+          "id": "1Ony15OtUIsXJ9tuyzUJn2cz1rJZFLdJ_",
+          "name": "010.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 124436,
+          "url": "https://drive.google.com/file/d/1Ony15OtUIsXJ9tuyzUJn2cz1rJZFLdJ_/view?usp=drivesdk"
+        },
+        {
+          "id": "1nYn1ssyKcmEYFflF4d7Ce-DfYPS04D1c",
+          "name": "09.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 155970,
+          "url": "https://drive.google.com/file/d/1nYn1ssyKcmEYFflF4d7Ce-DfYPS04D1c/view?usp=drivesdk"
+        },
+        {
+          "id": "1pLbeU3mjmOcgTTliZX1csicGt3Q5hv9o",
+          "name": "08.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 174408,
+          "url": "https://drive.google.com/file/d/1pLbeU3mjmOcgTTliZX1csicGt3Q5hv9o/view?usp=drivesdk"
+        },
+        {
+          "id": "1yKddR8u72VC50BuH3kPQgh29EnA3TuJL",
+          "name": "07.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 201271,
+          "url": "https://drive.google.com/file/d/1yKddR8u72VC50BuH3kPQgh29EnA3TuJL/view?usp=drivesdk"
+        },
+        {
+          "id": "1s3jpLwHOC3YhL34F2O77mqVBkstjsNFF",
+          "name": "06.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 191229,
+          "url": "https://drive.google.com/file/d/1s3jpLwHOC3YhL34F2O77mqVBkstjsNFF/view?usp=drivesdk"
+        },
+        {
+          "id": "1yk3DNv9mXGL3U19xjfEI37reixbFZ8zV",
+          "name": "05.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 187397,
+          "url": "https://drive.google.com/file/d/1yk3DNv9mXGL3U19xjfEI37reixbFZ8zV/view?usp=drivesdk"
+        },
+        {
+          "id": "14dwF67n6Y2ZELZlashdujA7m9jBQ2KVH",
+          "name": "04.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 175028,
+          "url": "https://drive.google.com/file/d/14dwF67n6Y2ZELZlashdujA7m9jBQ2KVH/view?usp=drivesdk"
+        },
+        {
+          "id": "1tpxhl7LPAbzBCptJlr_zZoIeiimgqnn6",
+          "name": "03.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 188812,
+          "url": "https://drive.google.com/file/d/1tpxhl7LPAbzBCptJlr_zZoIeiimgqnn6/view?usp=drivesdk"
+        },
+        {
+          "id": "1Cchn-PP67F42NWey4MLRzYHak3qzfvVt",
+          "name": "02.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 140552,
+          "url": "https://drive.google.com/file/d/1Cchn-PP67F42NWey4MLRzYHak3qzfvVt/view?usp=drivesdk"
+        },
+        {
+          "id": "1tjhwTaiwJn2B3wAIVC3KS--PmcexZGDO",
+          "name": "01.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 164259,
+          "url": "https://drive.google.com/file/d/1tjhwTaiwJn2B3wAIVC3KS--PmcexZGDO/view?usp=drivesdk"
+        },
+        {
+          "id": "1qN62HjwXD6dkMK-zEP7OcXYDvg3EOebf",
+          "name": "0 VEO đang làm ngơ prompt của bạn.jpg",
+          "mime_type": "image/jpeg",
+          "size_bytes": 106185,
+          "url": "https://drive.google.com/file/d/1qN62HjwXD6dkMK-zEP7OcXYDvg3EOebf/view?usp=drivesdk"
+        }
+      ],
+      "image_inventory_method": "Metadata-only search for image files directly inside the lesson folder; provider pagination followed to completion."
+    }
+  ]
+}

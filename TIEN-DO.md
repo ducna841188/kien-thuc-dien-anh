@@ -2,11 +2,19 @@
 
 Ngày cập nhật: 17/10/2026, giờ Việt Nam.
 
-| Mã nhập | Thư mục bài học | Tệp tìm thấy | Đã mở trực tiếp | Kết quả |
-| --- | --- | ---: | ---: | --- |
-| B001 | 4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director | 12 | 12 | Đã biên soạn, có ảnh nguồn, chú giải, sơ đồ và bài thực hành |
+**Đã kiểm kê và đánh số trực tiếp 33 thư mục bài học**, tổng 444 ảnh. Đã đọc và biên soạn một bài; còn 32 bài với 432 ảnh chưa đọc.
 
-**Phạm vi hoàn thành:** một bài trên. Chưa kiểm kê hoặc đọc toàn bộ các bài còn lại. Số “4” trong tên bài chỉ số cấu trúc máy quay, không phải số thứ tự bài. Mã B001 là thứ tự nhập vào kho này.
+[Danh mục đầy đủ và các đợt xử lý](DANH-MUC-BAI-HOC.md) · [Trạng thái có cấu trúc](DANH-MUC-BAI-HOC.json)
+
+| Phạm vi | Số bài | Số ảnh | Ảnh đã đọc | Trạng thái |
+| --- | ---: | ---: | ---: | --- |
+| 001 / B001 — Bốn cấu trúc camera | 1 | 12 | 12 | Đã hoàn thành |
+| 002–033 / B002–B033 | 32 | 432 | 0 | Đã kiểm kê tên tệp, chưa đọc nội dung |
+| Tổng | 33 | 444 | 12 | Còn 32 bài |
+
+**Tiếp theo:** đợt D01 gồm bài 002–004, 35 ảnh. Trong đợt, đọc và lưu xong từng bài theo thứ tự. Chưa bắt đầu đợt D01.
+
+Số “4” trong tên bài mẫu là số cấu trúc máy quay, không phải thứ tự bài. Tiền tố **001** và mã **B001** cùng chỉ bài mẫu đã hoàn thành. Các mã đã cấp được giữ ổn định; bài mới nhận số từ 034 trở đi.
 
 ## Quy trình dùng cho các đợt tiếp theo
 

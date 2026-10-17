@@ -11,7 +11,10 @@
   },
   "lesson_folder": {
     "id": "1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n",
-    "url": "https://drive.google.com/drive/folders/1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n"
+    "url": "https://drive.google.com/drive/folders/1T8Eq1hxU22Cmk63jmHwSObFfVhCL8B3n",
+    "original_name": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+    "current_name": "001 - 4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+    "numbered_on": "2026-10-17"
   },
   "scope": "Chỉ bài học này. Không khẳng định đã đọc các bài khác trong thư mục gốc.",
   "visible_credit": "Vienhn",
@@ -339,5 +342,6 @@
         "note": "Tên gốc 011.jpg tương ứng vị trí nội dung số 11."
       }
     }
-  ]
+  ],
+  "catalogue_sequence": 1
 }

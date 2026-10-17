@@ -2,6 +2,14 @@
 
 Kho học tập tiếng Việt được biên soạn từ bộ ảnh trong thư mục Google Drive **Bí ẩn đạo diễn**. Mỗi bài giữ ảnh nguồn, bản đọc ảnh, phần phân tích và hướng dẫn thực hành để có thể kiểm tra lại kiến thức.
 
+## Danh mục và thứ tự xử lý
+
+**33 bài / 444 ảnh.** Đã gắn số 001–033 lên thư mục Drive. Bài 001 đã hoàn thành; còn 32 bài với 432 ảnh chưa đọc.
+
+- [Danh sách đầy đủ 33 bài và 11 đợt xử lý](DANH-MUC-BAI-HOC.md).
+- [Dữ liệu danh mục và trạng thái](DANH-MUC-BAI-HOC.json).
+- Tiếp theo: **bài 002–004 / đợt D01**, tổng 35 ảnh. Đây là đề xuất phạm vi, chưa bắt đầu đọc.
+
 ## Bắt đầu học
 
 | Bài | Nội dung | Trạng thái |
