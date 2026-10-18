@@ -1,0 +1,78 @@
+{
+  "id": "ST-010",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ST",
+  "title": "Lặp có biến đổi để tạo tiến triển và nhận diện",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Lần lặp này đem đến điều mới gì?",
+  "use_when": [
+    "Cảnh công việc lặp, series, nghi thức, âm thanh hoặc động tác trở lại nhiều lần."
+  ],
+  "principle": "Sự lặp có thể giúp nhận diện, so sánh, học thao tác hoặc thưởng thức nhịp. Để tạo tiến triển, thay đổi ít nhất một yếu tố có ý nghĩa thay vì chỉ đổi góc quay.",
+  "actions": [
+    "Xác định điều cố định để người xem nhận ra và điều thay đổi: độ thuần thục, vật liệu, quy mô, quan hệ, trạng thái hoàn thành hoặc kết quả.",
+    "Cho lần đầu đủ rõ để thiết lập; những lần sau chọn dấu khác biệt cần thiết. Có thể nén khi người xem đã hiểu thao tác.",
+    "Giữ nguyên một lần lặp dài nếu giá trị nằm ở trải nghiệm quan sát; ghi đó là lựa chọn theo tệp, không mặc định là cảnh thừa."
+  ],
+  "tradeoffs": [
+    "Nén quá mức mất cảm giác công sức; giữ mọi lần lặp đầy đủ có thể kéo dài mà không thêm giá trị."
+  ],
+  "verification": [
+    "Mỗi lần trở lại có vai trò hoặc thay đổi gọi tên được.",
+    "Không đo sự mới chỉ bằng số cỡ cảnh khác nhau."
+  ],
+  "original_example": "Ba lượt thử một bánh xe: lần đầu còn đảo, lần hai được chỉnh, lần ba lăn thẳng. Cùng góc máy có thể làm sự thay đổi rõ hơn ba góc đẹp khác nhau.",
+  "counterexample": "Lặp âm nước hoặc động tác đều không luôn gây chán; nội dung nghe/ngắm cần kiểm theo nhu cầu đã chốt.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-003",
+    "ST-004",
+    "ED-011",
+    "YT-004"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT",
+    "SRC-YT-RECOMMENDATIONS"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Phần ổn định tạo mốc so sánh; phần thay đổi truyền tiến độ. Chức năng này khác với việc thêm chuyển động máy để tạo cảm giác mới bề mặt.",
+    "worked_example": {
+      "brief": "Ba lượt thử một bánh xe: lần đầu còn đảo, lần hai được chỉnh, lần ba lăn thẳng. Cùng góc máy có thể làm sự thay đổi rõ hơn ba góc đẹp khác nhau.",
+      "protected_elements": [
+        "Điều kiện so ba lượt bánh xe.",
+        "Tiến triển từ đảo sang lăn thẳng."
+      ],
+      "option_a": "Đổi góc cho từng lượt nhưng vật và kết quả không thay đổi.",
+      "option_b": "Giữ góc so sánh và chỉ giữ những lượt cho thấy tiến triển hoặc giá trị quan sát.",
+      "selection_rule": "Chọn B nếu cần thấy quá trình cải thiện; A phù hợp khi mục tiêu chính là khám phá hình dạng từ nhiều phía.",
+      "observable_checks": [
+        "Mỗi lần trở lại có vai trò hoặc thay đổi gọi tên được.",
+        "Không đo sự mới chỉ bằng số cỡ cảnh khác nhau."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Video dài hơn nhưng khán giả không nhận ra tiến độ.",
+        "possible_causes": [
+          "Mọi công đoạn được đối xử ngang nhau.",
+          "Dấu kết quả quá nhỏ hoặc không cùng điều kiện so sánh."
+        ],
+        "next_test": "Dùng cùng mốc hình để so trạng thái trước/sau; hỏi người xem điều gì vừa cải thiện."
+      }
+    ],
+    "evidence_links": []
+  }
+}

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "id": "DECISION-NEW",
   "task": "design_shots",
-  "core_version": "1.0.0",
+  "core_version": "1.1.0",
   "niche_id": null,
   "brief": "Điền mục tiêu và ràng buộc của dự án",
   "known_inputs": [],

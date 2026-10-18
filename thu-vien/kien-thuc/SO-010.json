@@ -1,0 +1,78 @@
+{
+  "id": "SO-010",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "SO",
+  "title": "Phân chia ưu tiên để âm chính không bị che",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Âm nào cần rõ ở thời điểm này, và lớp nào đang cạnh tranh với nó?",
+  "use_when": [
+    "Lời lẫn nhạc, thao tác khó nghe, nhiều nền/SFX cùng lớn."
+  ],
+  "principle": "Độ rõ phụ thuộc quan hệ giữa các lớp, không chỉ mức của âm chính. Chọn ưu tiên theo mốc sự kiện; có thể giảm, dời, thưa hoặc thay âm cạnh tranh trước khi tăng mạnh âm cần nghe.",
+  "actions": [
+    "Đánh dấu mốc phải hiểu lời hoặc nghe tiếp xúc; solo để tìm vấn đề nhưng luôn quyết định trong toàn mix.",
+    "Thử giảm/automation lớp cạnh tranh, thay phối khí, EQ có mục đích hoặc để khoảng trống; với ducking kiểm vào/ra để tránh âm nền bơm theo từng khe thở.",
+    "So ở mức nghe tương đương và thiết bị nhỏ nếu đó là cách khán giả dùng. Không cho mọi nguồn cùng ở gần hoặc cùng phủ đầy phổ chỉ để âm “dày”."
+  ],
+  "tradeoffs": [
+    "Dọn quá nhiều làm không gian rỗng; tăng rõ bằng xử lý mạnh có thể làm tiếng nhân tạo hoặc mệt."
+  ],
+  "verification": [
+    "Nghe được nội dung quan trọng ở toàn mix.",
+    "Khi âm chính kết, lớp nền trở lại hợp nhịp và không bật mức vô cớ."
+  ],
+  "original_example": "Cần nghe tiếng khóa cài: giảm nhạc/âm kim loại cạnh tranh quanh thời điểm đó, giữ room tone thay vì kéo tiếng khóa cực lớn.",
+  "counterexample": "Có thể cố ý để lời bị át trong một cảnh; phải xác định người xem cần hiểu lời hay cảm nhận hoàn cảnh bị lấn.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "SO-001",
+    "SO-002",
+    "SO-005",
+    "SO-009"
+  ],
+  "source_ids": [
+    "SRC-ADOBE-SOUND",
+    "SRC-YALE-SOUND"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Một lớp có thể đủ rõ khi solo nhưng khó nghe trong phối trộn. Phân quyền theo thời điểm nối xử lý âm với mục tiêu thông tin của cảnh.",
+    "worked_example": {
+      "brief": "Cần nghe tiếng khóa cài: giảm nhạc/âm kim loại cạnh tranh quanh thời điểm đó, giữ room tone thay vì kéo tiếng khóa cực lớn.",
+      "protected_elements": [
+        "Thời điểm khóa cài.",
+        "Không gian nghe của cảnh."
+      ],
+      "option_a": "Tăng mọi lớp rồi đặt limiter cuối chuỗi.",
+      "option_b": "Chọn lớp dẫn từng mốc, giảm cạnh tranh và giữ quan hệ không gian.",
+      "selection_rule": "Chọn B khi vấn đề là che lẫn; A có thể làm mix đặc hơn mà không thêm độ rõ.",
+      "observable_checks": [
+        "Nghe được nội dung quan trọng ở toàn mix.",
+        "Khi âm chính kết, lớp nền trở lại hợp nhịp và không bật mức vô cớ."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Nghe có vẻ lớn nhưng không hiểu lời hoặc không nhận ra thao tác.",
+        "possible_causes": [
+          "Lớp cạnh tranh cùng thời điểm.",
+          "Màu âm hoặc phối khí phủ phần cần nghe."
+        ],
+        "next_test": "Tạm tắt từng lớp cạnh tranh; xác định lớp nào bỏ ra thì nội dung chính rõ, rồi sửa ít nhất có thể."
+      }
+    ],
+    "evidence_links": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "CA-012",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "CA",
+  "title": "Độ sâu trường ảnh là lựa chọn kết hợp, không phải nhãn ống kính",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cần giữ những mặt phẳng nào đủ rõ trong suốt hành động?",
+  "use_when": [
+    "Chọn vùng nét cho quay thật, thiết kế tham chiếu AI hoặc sửa tay/vật mất rõ."
+  ],
+  "principle": "Độ sâu trường ảnh là vùng khoảng cách có độ rõ chấp nhận được theo điều kiện quan sát. Nó phụ thuộc nhiều biến, gồm khẩu độ, tiêu cự, khoảng lấy nét và định dạng/tiêu chí hiển thị; độ nhòe nền còn chịu khoảng cách hậu cảnh. Phải nói điều gì được giữ cố định khi so.",
+  "actions": [
+    "Liệt kê những điểm cần đọc đồng thời hoặc theo thứ tự: mắt, bàn tay, dụng cụ, mặt vật. Chọn dàn cảnh và mặt phẳng hành động trước.",
+    "Khi so thay khẩu độ/tiêu cự/khoảng cách, ghi rõ điều kiện giữ nguyên hay bù khung; không nói 85 mm luôn tạo cùng bokeh hoặc vùng nét.",
+    "Với máy thật kiểm nét ở cự ly hành động thực. Với AI mô tả quan hệ rõ/nhòe và kiểm video; con số f-stop không chứng minh mô hình đã mô phỏng quang học."
+  ],
+  "tradeoffs": [
+    "Vùng nét nông tăng tách lớp nhưng giảm dung sai chuyển động; sâu hơn giữ quan hệ nhưng có thể cần giảm cạnh tranh bằng sáng/bố cục."
+  ],
+  "verification": [
+    "Mọi điểm mang bằng chứng đủ rõ đúng thời điểm.",
+    "Không đánh đồng nhòe chuyển động với mất nét theo khoảng cách."
+  ],
+  "original_example": "Hai bàn tay trao chìa khóa: bố trí tay gần cùng mặt phẳng và giữ điểm chuyển quyền rõ, thay vì ép hậu cảnh tan tối đa.",
+  "counterexample": "Giữ cùng cỡ người bằng cách đổi khoảng cách khi đổi ống không phải cùng phép so với giữ nguyên vị trí máy.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-007",
+    "CA-008",
+    "DR-008",
+    "MO-007"
+  ],
+  "source_ids": [
+    "SRC-SONY-DOF",
+    "SRC-ARRI-FORMAT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Vùng rõ là một lựa chọn thông tin. Các biến quang học tác động cùng nhau; kết luận thực hành phải nêu điều kiện, đặc biệt khi đổi khoảng cách để bù cỡ khung.",
+    "worked_example": {
+      "brief": "Hai bàn tay trao chìa khóa: bố trí tay gần cùng mặt phẳng và giữ điểm chuyển quyền rõ, thay vì ép hậu cảnh tan tối đa.",
+      "protected_elements": [
+        "Chuyển quyền giữ chìa khóa rõ.",
+        "Nhận diện hai người/tay."
+      ],
+      "option_a": "Ép khẩu thật mở để mọi shot có bokeh.",
+      "option_b": "Giữ tay và chìa khóa đủ rõ; làm nền bớt cạnh tranh bằng cách đặt vật hoặc đổi hướng sáng.",
+      "selection_rule": "Chọn B khi trao vật là bằng chứng chính; A chỉ khi tách nét không làm mất nội dung cần thấy.",
+      "observable_checks": [
+        "Mọi điểm mang bằng chứng đủ rõ đúng thời điểm.",
+        "Không đánh đồng nhòe chuyển động với mất nét theo khoảng cách."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mặt đẹp nhưng thao tác trước mặt không đọc được.",
+        "possible_causes": [
+          "Tay ra khỏi vùng rõ.",
+          "Điểm lấy nét không theo mục tiêu thông tin."
+        ],
+        "next_test": "Thử dàn tay cùng mặt phẳng hoặc mở rộng vùng rõ, giữ nguyên các yếu tố hình đã duyệt."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-SONY-DOF",
+        "claim": "Khẩu, tiêu cự và khoảng lấy nét tác động vùng rõ; phép so phải nêu điều kiện khung/vị trí.",
+        "scope_limit": "Không suy chính xác f-stop, định dạng hoặc tiêu cự từ vẻ hình; không xác nhận tuân thủ quang học của AI."
+      }
+    ]
+  }
+}

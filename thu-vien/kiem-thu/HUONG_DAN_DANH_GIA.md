@@ -1,6 +1,6 @@
 # Đánh giá khả năng AI dùng thư viện
 
-[24 tình huống](tinh-huong.json) bao phủ năm tác vụ. Đây là bộ đề chuẩn bị, chưa có kết quả chạy độc lập trên ChatGPT/Claude/Gemini hoặc mô hình khác.
+[40 tình huống](tinh-huong.json) bao phủ năm tác vụ. Đây là bộ đề chuẩn bị, chưa có kết quả chạy độc lập trên ChatGPT/Claude/Gemini hoặc mô hình khác.
 
 ## Cách thực hiện
 
@@ -16,3 +16,7 @@ Thang 0–2 là quy ước đánh giá nội bộ, không chuẩn đo tâm lý h
 ## Kiểm tự động khác kiểm suy luận
 
 cong-cu/validate.py kiểm schema, mã, liên kết và quan hệ dữ liệu. Nó không xem video, không nghe audio và không chấm chất lượng nghệ thuật. Ca dữ liệu hợp lệ/sai được chạy riêng để bảo đảm bộ kiểm phát hiện các lỗi cấu trúc có ý nghĩa.
+
+## Các tình huống bổ sung 1.1.0
+
+T25–T40 kiểm lựa chọn fps/nhòe, phối cảnh/vùng nét, trọng lượng và khả thi ảnh đầu, miền màu, cut/sự kiện, điểm nhìn, điều đáng quan tâm, thời gian có chức năng, thiết kế thử YouTube, học từ view, âm, sáng theo đường đi, giới hạn bản sơ và ghim phiên bản. Các tình huống này được chuẩn bị để chạy trên AI khác; kết quả cấu trúc không phải kết quả vượt qua bộ đề.

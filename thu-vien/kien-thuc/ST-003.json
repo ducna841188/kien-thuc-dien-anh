@@ -1,7 +1,7 @@
 {
   "id": "ST-003",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "ST",
   "title": "Nhịp diễn biến và bước ngoặt trong cảnh",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi chia một cảnh thành các phần chỉ đạo."
   ],
-  "principle": "Beat là một nhịp diễn biến có thay đổi nhiệm vụ hoặc thông tin. Nó không tự đồng nghĩa một shot, một giây hay một câu thoại.",
+  "principle": "Beat là một nhịp diễn biến có thay đổi nhiệm vụ hoặc thông tin. Nó không tự đồng nghĩa một shot, một giây hay một câu thoại. Thay đổi có thể thuộc trạng thái vật, quyết định, thông tin hoặc quan hệ; một nhịp không buộc trùng một shot hay một job tạo.",
   "actions": [
     "Đánh dấu trạng thái trước mỗi nhịp.",
     "Chỉ ra sự kiện khiến nhân vật/người xem đổi cách hiểu.",
-    "Ghi trạng thái sau và quyết định quay/dựng cần để đọc chuyển biến."
+    "Ghi trạng thái sau và quyết định quay/dựng cần để đọc chuyển biến.",
+    "Viết đầu–cuối của nhịp và bằng chứng làm nhận ra đổi; chỉ tách nhịp khi có ích cho quyết định cấu trúc hoặc coverage."
   ],
   "tradeoffs": [
     "Tách mọi động tác nhỏ thành nhịp làm kế hoạch nặng mà không thêm giá trị."
   ],
   "verification": [
     "Mỗi nhịp có thay đổi nêu được.",
-    "Một nhịp có thể qua nhiều shot hoặc nhiều nhịp ở trong một cú máy."
+    "Một nhịp có thể qua nhiều shot hoặc nhiều nhịp ở trong một cú máy.",
+    "Có thể bỏ tên cỡ cảnh mà vẫn hiểu nhịp làm thay đổi điều gì."
   ],
   "original_example": "Từ đang làm việc sang nhận ra có khách, rồi quyết định dừng tay; mỗi phần có nhiệm vụ khác.",
   "counterexample": "Nhấc tay rồi hạ tay không thành bước ngoặt nếu không đổi điều gì đáng kể.",
@@ -32,11 +34,14 @@
   "related_ids": [
     "EV-003",
     "DR-003",
-    "ED-001"
+    "ED-001",
+    "AU-007",
+    "AI-009"
   ],
   "source_ids": [
     "B017",
-    "B021"
+    "B021",
+    "SRC-PERCEPTION-EVENTS"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +50,36 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nhịp cần đo bằng thay đổi có chức năng thay vì mỗi dòng một động tác.",
+    "worked_example": {
+      "brief": "Một người đang làm rồi nhận ra khách và quyết định dừng.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Chia thành ba nhịp chỉ vì có ba góc.",
+      "option_b": "Đặt nhịp theo nhận ra và quyết định; chọn số góc sau.",
+      "selection_rule": "Chọn B khi lập cấu trúc; ba góc có thể phục vụ cùng một nhịp.",
+      "observable_checks": [
+        "Có thể bỏ tên cỡ cảnh mà vẫn hiểu nhịp làm thay đổi điều gì."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Kịch bản dài nhiều dòng nhưng ít thay đổi.",
+        "possible_causes": [
+          "Nhịp bị đồng nhất với shot hoặc động tác vụn."
+        ],
+        "next_test": "Gộp các dòng không đổi thông tin/trạng thái và kiểm lại tiến trình."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-PERCEPTION-EVENTS",
+        "claim": "Ranh giới cắt và ranh giới sự kiện được nghiên cứu như các biến khác nhau.",
+        "scope_limit": "Không có tỷ lệ cắt tối ưu, phép đo hài lòng khán giả kênh này hoặc quy luật mọi thể loại. Ứng dụng dựng trong kho là đề xuất cần kiểm."
+      }
+    ]
+  }
 }

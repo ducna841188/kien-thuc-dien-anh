@@ -1,0 +1,84 @@
+{
+  "id": "MO-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "MO",
+  "title": "Tốc độ khung, thời gian phơi sáng và nhòe chuyển động",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Độ nhòe và cách chuyển động được lấy mẫu có phù hợp ý đồ không?",
+  "use_when": [
+    "Thiết lập quay/xuất, chẩn đoán chuyển động giật hoặc mô tả motion blur cho AI."
+  ],
+  "principle": "Tốc độ khung quy định mật độ mẫu theo thời gian; thời gian phơi sáng góp phần tạo nhòe trong mỗi mẫu. Ở mô hình màn trập thông thường, t = góc/(360 × fps): 24 fps với 180° tương ứng khoảng 1/48 giây. Đây là ví dụ tính, không phải chuẩn bắt buộc để có điện ảnh.",
+  "actions": [
+    "Chọn fps theo trải nghiệm chuyển động và quy trình phát; phân biệt quay tốc độ cao rồi phát chậm với đổi nhãn fps hoặc nội suy.",
+    "Với quay thật cân độ nhòe với tốc độ chủ thể/lia máy, phơi sáng và điều kiện đèn. Với AI kiểm fps tệp và nhòe thực, tách mô tả hình khỏi thiết lập mà dịch vụ thật hỗ trợ.",
+    "Khi đổi fps trong dựng, ghi cách xử lý: bỏ/lặp frame, nội suy hay đổi tốc độ. Duyệt chuyển động sau xuất, không chỉ xem timeline."
+  ],
+  "tradeoffs": [
+    "Phơi ngắn làm rõ pha nhanh nhưng có thể cho cảm giác giật; phơi dài làm mềm chuyển động nhưng có thể mất chi tiết tiếp xúc."
+  ],
+  "verification": [
+    "Không coi 24 fps hoặc 180° là bằng chứng chất lượng tự động.",
+    "Không lấy upscale/nội suy làm bằng chứng phục hồi chuyển động thật."
+  ],
+  "original_example": "Động tác xoay bánh nhanh bị nhòe đến mất chốt: thử giảm độ nhòe hoặc giảm tốc hành động; vẫn giữ nhịp câu chuyện đã chọn.",
+  "counterexample": "Ghi “1/48s” trong prompt không xác nhận model dùng thời gian phơi thật; 60 fps phát bình thường không tự là slow motion.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "MO-005",
+    "MO-006",
+    "LI-007",
+    "QC-001"
+  ],
+  "source_ids": [
+    "SRC-RED-SHUTTER",
+    "SRC-YT-ENCODE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Độ nhòe hình thành trong khoảng ghi mỗi frame, còn khoảng cách thời gian giữa frame quyết định lấy mẫu. Hai biến có liên hệ nhưng không thay thế nhau; còn phải kiểm tốc độ/độ lớn chuyển động trên màn hình.",
+    "worked_example": {
+      "brief": "Động tác xoay bánh nhanh bị nhòe đến mất chốt: thử giảm độ nhòe hoặc giảm tốc hành động; vẫn giữ nhịp câu chuyện đã chọn.",
+      "protected_elements": [
+        "Hành động xoay bánh và chốt cần đọc.",
+        "Nhịp kể đã chọn."
+      ],
+      "option_a": "Đổi mọi clip sang 24 fps bằng thiết lập xuất rồi coi đã sửa giật.",
+      "option_b": "Kiểm fps nguồn, nhịp frame, nhòe và cách chuyển đổi; sửa biến gây lỗi cụ thể.",
+      "selection_rule": "Chọn B khi có lỗi chuyển động; A chỉ là thay thông số xuất và có thể sinh lỗi mới.",
+      "observable_checks": [
+        "Không coi 24 fps hoặc 180° là bằng chứng chất lượng tự động.",
+        "Không lấy upscale/nội suy làm bằng chứng phục hồi chuyển động thật."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Chuyển động có nhịp khựng định kỳ dù ảnh sắc nét.",
+        "possible_causes": [
+          "Chuyển fps bằng lặp/bỏ frame.",
+          "Nguồn hoặc nội suy có frame lặp/biến dạng."
+        ],
+        "next_test": "Xem nguồn và bản xuất ở tốc độ thường, rồi kiểm frame quanh chỗ khựng; so một bản không chuyển fps không cần thiết."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-RED-SHUTTER",
+        "claim": "Theo mô hình màn trập mô tả, 24 fps và góc 180° cho khoảng phơi 1/48 giây.",
+        "scope_limit": "Không chứng minh 180° tối ưu cho mọi cảnh hoặc một model AI mô phỏng thông số máy quay thật."
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "SO-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "SO",
   "title": "Nhạc: chức năng, tương phản và im lặng",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi chọn nhạc có sẵn hoặc tạo nhạc bằng AI."
   ],
-  "principle": "Chọn vai trò trước thể loại: nâng đỡ, tạo mong chờ, nối thời gian, tương phản hoặc để trống. Tempo nhạc không tự xác định tốc độ hành động hay cảm xúc.",
+  "principle": "Chọn vai trò trước thể loại: nâng đỡ, tạo mong chờ, nối thời gian, tương phản hoặc để trống. Tempo nhạc không tự xác định tốc độ hành động hay cảm xúc. Chọn vị trí vào/ra và biến đổi nhạc theo cấu trúc, có thể giữ âm đời sống dẫn. Chỉ chỉnh độc lập các nhạc cụ khi thực có stem hoặc công cụ tách được kiểm.",
   "actions": [
     "Ghi đoạn nào cần nhạc và đoạn nào cần nghe đời sống.",
     "Chọn mật độ, nhạc cụ, năng lượng và điểm chuyển phù hợp.",
-    "Thử bản không nhạc để biết nhạc đang hỗ trợ hay che vấn đề."
+    "Thử bản không nhạc để biết nhạc đang hỗ trợ hay che vấn đề.",
+    "Lập tuyến âm trước/sau biến chuyển; so bản ít nhạc hoặc không nhạc khi cần chẩn đoán nhạc có đang che hành động và đồng đều hóa cảm xúc không."
   ],
   "tradeoffs": [
     "Nhạc có thể kéo cảm xúc quá mức hoặc làm mọi đoạn giống nhau."
   ],
   "verification": [
     "Không cắt theo mọi nhịp chỉ vì có beat.",
-    "Khoảng lặng được định nghĩa: không nhạc, nền thưa hay im hoàn toàn."
+    "Khoảng lặng được định nghĩa: không nhạc, nền thưa hay im hoàn toàn.",
+    "Nhạc kết theo câu hoặc chủ ý rõ; không bị cắt cụt chỉ vì hình hết."
   ],
   "original_example": "Để tiếng gió và dụng cụ dẫn một đoạn, thêm nhạc nhẹ khi chuỗi thời gian mở rộng.",
   "counterexample": "Nhạc dịu vẫn có thể làm người xem khó chịu nếu lặp, quá lớn hoặc trái cảnh.",
@@ -32,11 +34,15 @@
   "related_ids": [
     "ED-005",
     "AU-004",
-    "SO-001"
+    "SO-001",
+    "SO-011",
+    "ST-012",
+    "AU-009"
   ],
   "source_ids": [
     "B016",
-    "B032"
+    "B032",
+    "SRC-ADOBE-SOUND"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +51,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nhạc nên có chức năng và phân câu; lời nhắc “thư giãn” không đủ để đặt mọi đoạn cùng một tông.",
+    "worked_example": {
+      "brief": "Một bài tạo AI hay nhưng kết đoạn giữa câu và che tiếng dụng cụ.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Lặp toàn bài ở cùng mức.",
+      "option_b": "Chọn đoạn/cắt/fade theo chức năng và nhường mốc thao tác quan trọng.",
+      "selection_rule": "Chọn B; nếu cần chỉnh nhạc cụ riêng phải xác minh đầu vào thực có.",
+      "observable_checks": [
+        "Nhạc kết theo câu hoặc chủ ý rõ; không bị cắt cụt chỉ vì hình hết."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Cảnh nào cũng tạo cùng một cảm giác và kết nghe cụt.",
+        "possible_causes": [
+          "Nhạc được dùng như nền phủ, không theo chức năng."
+        ],
+        "next_test": "Nghe tuyến nhạc riêng và bản bỏ nhạc, đánh dấu chỗ giá trị thay đổi."
+      }
+    ],
+    "evidence_links": []
+  }
 }

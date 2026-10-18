@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "test_cases_prepared_not_cross_model_evaluated",
   "cases": [
     {
@@ -326,6 +326,232 @@
       "core_ids": [
         "QC-004",
         "EV-006"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T25",
+      "task": "design_shots",
+      "input": "Mọi cảnh quay cần 24 fps, 180 độ để điện ảnh, AI ghi số đó là đã khóa.",
+      "must_do": [
+        "Tách fps, khoảng phơi và mô tả AI.",
+        "Nêu điều kiện công thức và kiểm đầu ra; không áp chuẩn bắt buộc."
+      ],
+      "core_ids": [
+        "MO-007",
+        "AI-013"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T26",
+      "task": "design_shots",
+      "input": "Đổi lens tại cùng vị trí sẽ tự đổi phối cảnh như khi lùi máy bù khung.",
+      "must_do": [
+        "Phân biệt góc thu với vị trí nhìn.",
+        "Nêu điều kiện giữ cố định khi so."
+      ],
+      "core_ids": [
+        "CA-008",
+        "CA-012"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T27",
+      "task": "diagnose_and_repair",
+      "input": "Thùng nổi vì tay nhả trước chạm, hãy thêm 8K và giữ mọi phần đã đúng.",
+      "must_do": [
+        "Chẩn đoán chuỗi tiếp xúc/điểm đỡ.",
+        "Giữ nhận diện, máy và nhịp; không hứa 8K sửa vật lý."
+      ],
+      "core_ids": [
+        "DR-008",
+        "AI-003",
+        "AI-011"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T28",
+      "task": "write_generation_prompts",
+      "input": "Ảnh đang giữ khay hai tay nhưng yêu cầu mở cửa đồng thời, cứ kéo prompt dài.",
+      "must_do": [
+        "Kiểm khả thi trạng thái đầu.",
+        "Đề xuất tư thế hoặc chia hành động phù hợp, bảo vệ mục tiêu."
+      ],
+      "core_ids": [
+        "AI-011",
+        "AI-010"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T29",
+      "task": "diagnose_and_repair",
+      "input": "Clip AI SDR trông phẳng, hãy gán camera Log và coi đã có RAW.",
+      "must_do": [
+        "Yêu cầu xác minh encoding/metadata.",
+        "Không gán Log/RAW từ vẻ phẳng, không hứa phục hồi dữ liệu mất."
+      ],
+      "core_ids": [
+        "CO-009",
+        "CO-006"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T30",
+      "task": "analyze_video",
+      "input": "Phim có ít cut nên chắc ít sự kiện và thư giãn hơn.",
+      "must_do": [
+        "Tách cut, sự kiện, ý đồ và phản hồi.",
+        "Giữ giới hạn nghiên cứu, không suy mức thư giãn từ một biến."
+      ],
+      "core_ids": [
+        "AU-007",
+        "ED-001",
+        "AU-004"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T31",
+      "task": "diagnose_and_repair",
+      "input": "Người xem bỏ lỡ chốt bật ngay đầu shot, hãy tăng nhạc.",
+      "must_do": [
+        "Xét nhận diện/điểm nhìn và pha cắt.",
+        "So vào shot hoặc bố cục trước khi sửa âm không đúng nguyên nhân."
+      ],
+      "core_ids": [
+        "ED-009",
+        "ED-010"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T32",
+      "task": "write_script",
+      "input": "Phim nhẹ về sửa ghế cần thêm tai nạn, nếu không sẽ không có điều đáng xem.",
+      "must_do": [
+        "Tìm giá trị hoàn tất, sử dụng hoặc quan hệ.",
+        "Không tự đổi lời hứa êm sang nguy hiểm."
+      ],
+      "core_ids": [
+        "ST-011",
+        "ST-002"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T33",
+      "task": "diagnose_and_repair",
+      "input": "Muốn nhịp nhanh hơn, rút mọi shot cùng còn ba giây.",
+      "must_do": [
+        "Xét chức năng thời gian và tiến triển.",
+        "Bảo vệ phần nhận diện/tiếp xúc/kết quả; không đặt số giây chung."
+      ],
+      "core_ids": [
+        "ED-011",
+        "ST-010"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T34",
+      "task": "analyze_video",
+      "input": "Đổi cả title/ảnh tuần sau, view tăng, màu ảnh mới chắc là nguyên nhân.",
+      "must_do": [
+        "Phân biệt tuần tự với đồng thời.",
+        "Không tách tác dụng màu từ tổ hợp/nguồn phân phối thay đổi."
+      ],
+      "core_ids": [
+        "YT-009",
+        "QC-003"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T35",
+      "task": "write_script",
+      "input": "Học tỷ lệ cận của ba phim hàng triệu view để áp cho mọi ngách.",
+      "must_do": [
+        "Ghi thiên lệch chọn mẫu và bối cảnh.",
+        "Rút chức năng có điều kiện, giữ tỷ lệ ở phạm vi mẫu."
+      ],
+      "core_ids": [
+        "EV-007",
+        "YT-010"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T36",
+      "task": "diagnose_and_repair",
+      "input": "CTR cao đã chứng minh người xem hài lòng, không cần xem lời hứa có khớp.",
+      "must_do": [
+        "Tách sức hấp dẫn, gắn kết và hài lòng.",
+        "Kiểm lời hứa và đúng loại bằng chứng."
+      ],
+      "core_ids": [
+        "YT-007",
+        "QC-008"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T37",
+      "task": "diagnose_and_repair",
+      "input": "Một tiếng chạm quá chói trong mix nhẹ, hạ toàn bộ rồi báo xong.",
+      "must_do": [
+        "Kiểm đỉnh/sự kiện và quan hệ các lớp.",
+        "Đề xuất sửa đúng phần, chưa có đầu ra thì chưa báo đạt."
+      ],
+      "core_ids": [
+        "SO-009",
+        "SO-010"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T38",
+      "task": "design_shots",
+      "input": "Đèn gần đổi sáng quá mạnh dọc đường người, chỉ hạ công suất để mềm.",
+      "must_do": [
+        "Tách khoảng cách/suy giảm với mềm/cứng.",
+        "Kiểm tại mốc đường đi, giữ điều kiện xấp xỉ nguồn điểm."
+      ],
+      "core_ids": [
+        "LI-008",
+        "LI-002"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T39",
+      "task": "write_script",
+      "input": "Có bản sơ toàn ảnh rồi, ghi mọi hành động và phản ứng khán giả đã được kiểm.",
+      "must_do": [
+        "Bản sơ kiểm cấu trúc trong giới hạn.",
+        "Không báo đã kiểm chuyển động/khán giả khi chưa có."
+      ],
+      "core_ids": [
+        "AI-009",
+        "QC-007"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T40",
+      "task": "diagnose_and_repair",
+      "input": "Farm ghim 1.0.0 nhưng main mới 1.1.0; hãy tự coi đã nâng mọi quy tắc ngách.",
+      "must_do": [
+        "Giải quyết đúng bản ghim.",
+        "Tương thích cấu trúc không phải quyết định chuyển kiến thức."
+      ],
+      "core_ids": [
+        "QC-004",
+        "QC-006"
       ],
       "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
     }

@@ -1,0 +1,85 @@
+{
+  "id": "AU-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AU",
+  "title": "Điểm cắt, sự kiện và công sức cập nhật mô hình câu chuyện",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem phải hiểu điều mới gì tại chỗ này, thay vì chỉ nhìn một khung mới?",
+  "use_when": [
+    "Chẩn đoán phim cắt ít vẫn rối hoặc cắt nhiều mà mạch vẫn rõ."
+  ],
+  "principle": "Điểm cắt là thay đổi hình; ranh giới sự kiện là thay đổi trong cách người xem hiểu việc đang diễn ra. Hai thứ có thể trùng hoặc không. Ưu tiên giữ rõ hành động, quan hệ và dấu chuyển khi cần người xem cập nhật.",
+  "actions": [
+    "Gắn riêng mốc cắt và mốc đổi mục tiêu/hành động/không gian/thời gian; đừng dùng chúng thay nhau.",
+    "Khi đổi nhiều yếu tố cùng lúc, thêm điểm neo nhận diện hoặc một khung xác lập nếu cần. Khi cắt nhiều góc của cùng hành động, bảo vệ trạng thái và hướng tiếp diễn.",
+    "Kiểm người xem mới kể được “đang làm gì, ở đâu, điều gì vừa đổi”; nếu khó thì sửa đúng chỗ thiếu dấu thay vì tự giảm mọi cut."
+  ],
+  "tradeoffs": [
+    "Định hướng rất rõ có thể giảm bất ngờ; gây lạc hướng có chủ ý cần được kiểm theo mục tiêu riêng."
+  ],
+  "verification": [
+    "Một chuỗi nhiều góc vẫn đọc được như một hành động khi đó là ý đồ.",
+    "Một thay đổi lớn không bị hiểu nhầm thành cùng nơi/cùng thời điểm."
+  ],
+  "original_example": "Ba góc cùng cảnh mở cửa có thể tiếp tục một việc. Một cú máy đi từ buổi tập sang biểu diễn qua chuyển cảnh ẩn vẫn chứa thay đổi sự kiện.",
+  "counterexample": "Kết quả nghiên cứu về một phim và nhóm người tham gia cụ thể không chứng minh số cut tối ưu hoặc tác dụng giữ chân trên YouTube.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-008",
+    "ST-003",
+    "ED-001",
+    "ED-003",
+    "ED-010"
+  ],
+  "source_ids": [
+    "SRC-PERCEPTION-EVENTS",
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Một nghiên cứu về dựng liên tục cho thấy đứt đoạn hành động gắn mạnh với phân đoạn sự kiện trong tập dữ liệu đó. Ứng dụng thực hành ở đây là giả thuyết: giữ hoặc làm rõ thay đổi trong việc đang xảy ra, không tối ưu chỉ số cut đơn lẻ.",
+    "worked_example": {
+      "brief": "Ba góc cùng cảnh mở cửa có thể tiếp tục một việc. Một cú máy đi từ buổi tập sang biểu diễn qua chuyển cảnh ẩn vẫn chứa thay đổi sự kiện.",
+      "protected_elements": [
+        "Hành động và trạng thái liên tục qua các góc.",
+        "Dấu đổi nơi khi mạch thật có đổi."
+      ],
+      "option_a": "Bỏ hai cận tay chỉ vì cho rằng nhiều cut luôn làm mệt.",
+      "option_b": "Giữ hai cận nếu chúng xác nhận thao tác; sửa shot sau đang đổi địa điểm nhưng thiếu dấu nối.",
+      "selection_rule": "Chọn theo chỗ người xem hiểu sai; số cut chỉ mô tả cấu trúc bề mặt.",
+      "observable_checks": [
+        "Một chuỗi nhiều góc vẫn đọc được như một hành động khi đó là ý đồ.",
+        "Một thay đổi lớn không bị hiểu nhầm thành cùng nơi/cùng thời điểm."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Người xem biết từng hình đẹp nhưng không biết đang ở giai đoạn nào.",
+        "possible_causes": [
+          "Đổi mục tiêu hoặc không gian không có dấu nhận biết.",
+          "Cảnh kết quả không nối được với nguyên liệu/hành động trước."
+        ],
+        "next_test": "Cho người chưa biết phim dừng tại các mốc và kể lại tiến trình; ghi lời họ nói trước khi giải thích."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-PERCEPTION-EVENTS",
+        "claim": "Trong tập nghiên cứu này, đứt đoạn hành động gắn mạnh hơn với phân đoạn sự kiện so với riêng đổi thời gian/không gian.",
+        "scope_limit": "Không có tỷ lệ cắt tối ưu, phép đo hài lòng khán giả kênh này hoặc quy luật mọi thể loại. Ứng dụng dựng trong kho là đề xuất cần kiểm."
+      }
+    ]
+  }
+}

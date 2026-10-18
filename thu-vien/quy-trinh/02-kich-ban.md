@@ -1,6 +1,6 @@
 # Xây và sửa kịch bản
 
-Tác vụ: write_script. Core 1.0.0.
+Tác vụ: write_script. Core release 1.1.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -28,3 +28,7 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 - Lời, hình và âm không vô tình mâu thuẫn.
 
 Mã trọng tâm: [AU-001](../kien-thuc/AU-001.json), [ST-001](../kien-thuc/ST-001.json), [ST-003](../kien-thuc/ST-003.json), [ST-005](../kien-thuc/ST-005.json), [ST-007](../kien-thuc/ST-007.json), [ST-008](../kien-thuc/ST-008.json)
+
+## Áp dụng chiều sâu 1.1.0
+
+Tách chủ đề khỏi góc tiếp cận theo YT-008. Với mỗi nhịp ghi thay đổi, điều đáng quan tâm và bằng chứng cuối nhịp. Dùng ST-009/ST-010/ST-011 để xử lý mạch rời, lặp không tiến và việc nhỏ thiếu giá trị; ST-012 khi cần mô-típ. Dựng sơ theo AI-009 trước tạo hàng loạt, bảo vệ dạng không thoại nếu đã chốt.

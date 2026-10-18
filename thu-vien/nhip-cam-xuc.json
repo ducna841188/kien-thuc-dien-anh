@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "profiles": [
     {
       "id": "EMO-001",
@@ -17,10 +17,12 @@
         "AU-005",
         "ED-001",
         "SO-005",
-        "SO-006"
+        "SO-006",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-002",
@@ -37,10 +39,12 @@
         "AU-003",
         "ST-004",
         "ST-006",
-        "SO-003"
+        "SO-003",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-003",
@@ -58,10 +62,12 @@
         "DR-004",
         "CA-006",
         "SO-006",
-        "AU-006"
+        "AU-006",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-004",
@@ -78,10 +84,12 @@
         "ST-002",
         "ST-006",
         "ED-005",
-        "SO-003"
+        "SO-003",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-005",
@@ -98,10 +106,12 @@
         "CA-004",
         "MO-005",
         "ED-001",
-        "SO-005"
+        "SO-005",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-006",
@@ -118,10 +128,12 @@
         "CA-005",
         "MO-003",
         "AU-003",
-        "ED-002"
+        "ED-002",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-007",
@@ -138,10 +150,12 @@
         "ST-004",
         "AI-003",
         "CO-004",
-        "ED-004"
+        "ED-004",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-008",
@@ -158,10 +172,12 @@
         "AU-004",
         "DR-003",
         "ST-008",
-        "SO-006"
+        "SO-006",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-009",
@@ -178,10 +194,12 @@
         "ST-004",
         "DR-003",
         "ED-005",
-        "SO-005"
+        "SO-005",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "EMO-010",
@@ -198,10 +216,12 @@
         "AU-003",
         "DR-003",
         "ED-002",
-        "SO-006"
+        "SO-006",
+        "AU-009",
+        "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ],
   "note": "Phương án tự biên soạn; không bảo đảm phản ứng khán giả."

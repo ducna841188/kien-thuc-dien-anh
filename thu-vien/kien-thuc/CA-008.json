@@ -1,7 +1,7 @@
 {
   "id": "CA-008",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "CA",
   "title": "Tiêu cự, khoảng cách và phối cảnh",
   "level": "nang_cao",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi mô tả tạo hình, chọn ống hoặc phân tích hình bị méo."
   ],
-  "principle": "Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn.",
+  "principle": "Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn. Ở cùng vị trí nhìn, đổi tiêu cự thay góc thu hình; đổi vị trí máy thay quan hệ phối cảnh. Định dạng ảnh hưởng góc nhìn theo tổ hợp dùng, không tự gán một “chất full frame” cố định.",
   "actions": [
     "Chọn cỡ cảnh và khoảng cách mong muốn trước.",
     "Ghi cách nền/tiền cảnh nên quan hệ với chủ thể.",
-    "Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo."
+    "Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo.",
+    "Khi đề xuất số mm, ghi định dạng và khoảng cách nếu đã biết; nếu chưa biết, mô tả quan hệ chủ thể/nền và để số là ứng viên thử."
   ],
   "tradeoffs": [
     "Ống rộng ở gần có thể nhấn chênh khoảng cách; đứng xa hơn có thể làm các lớp có vẻ sát nhau."
   ],
   "verification": [
     "Không quy mọi méo mặt cho một số mm.",
-    "Không suy chính xác tiêu cự hoặc máy từ một khung thiếu metadata."
+    "Không suy chính xác tiêu cự hoặc máy từ một khung thiếu metadata.",
+    "Mọi so trước/sau nêu được vị trí máy có đổi hay không."
   ],
   "original_example": "Muốn thấy người cùng căn bếp, chọn vị trí đủ đọc không gian; muốn nền như gần hơn thì xét góc nhìn và khoảng cách cùng nhau.",
   "counterexample": "Một cận góc rộng có thể là chủ ý biểu cảm; không phải lỗi bắt buộc sửa.",
@@ -32,11 +34,13 @@
   "related_ids": [
     "CA-001",
     "MO-004",
-    "EV-004"
+    "EV-004",
+    "CA-012"
   ],
   "source_ids": [
     "B021",
-    "SRC-ARRI-FORMAT"
+    "SRC-ARRI-FORMAT",
+    "SRC-SONY-DOF"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +49,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "So quang học cần giữ rõ biến vị trí máy; thay tiêu cự từ cùng vị trí khác với lùi máy để bù khung.",
+    "worked_example": {
+      "brief": "Muốn nền có vẻ gần hơn mà giữ kích thước người tương đương.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Chỉ zoom từ cùng chỗ và gọi đã đổi phối cảnh.",
+      "option_b": "Xét lùi vị trí máy rồi chọn góc thu để bù cỡ người; kiểm không gian thực.",
+      "selection_rule": "Chọn B khi mục tiêu là quan hệ khoảng cách biểu kiến; không áp số mm nếu chưa có điều kiện.",
+      "observable_checks": [
+        "Mọi so trước/sau nêu được vị trí máy có đổi hay không."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Thay tên lens trong prompt nhưng quan hệ hình không đúng ý.",
+        "possible_causes": [
+          "Mô tả số thiếu quan hệ không gian hoặc công cụ không kiểm soát được nó."
+        ],
+        "next_test": "Dùng bố trí/ảnh tham chiếu minh họa quan hệ cần thấy; kiểm kết quả thay vì suy từ nhãn lens."
+      }
+    ],
+    "evidence_links": []
+  }
 }

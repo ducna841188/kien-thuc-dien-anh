@@ -1,0 +1,81 @@
+{
+  "id": "AI-013",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AI",
+  "title": "Hiệu chỉnh bộ điều khiển theo model, chế độ và phiên bản thực tế",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Công cụ nào thật sự điều khiển được yêu cầu này, với mức sai lệch nào?",
+  "use_when": [
+    "Đổi model/dịch vụ, cần đường máy/nhân vật/khung cuối chính xác hoặc chuẩn bị sản xuất dài."
+  ],
+  "principle": "Tách ý đồ điện ảnh, đầu vào tham chiếu, thiết lập dịch vụ và kết quả đo. Tên model hoặc tài liệu quảng bá không đủ xác nhận một ràng buộc được giữ; cần hồ sơ khả năng theo đúng chế độ và các thử nghiệm nhỏ có ghi nhận.",
+  "actions": [
+    "Ghi model/version, nhà cung cấp/chế độ, ngày dùng, đầu vào, thiết lập có thật và đầu ra; không tự coi seed hay ảnh cuối là khóa tuyệt đối.",
+    "Chọn thử cho rủi ro quan trọng của dự án: nhận diện qua góc, tay chạm, quỹ đạo, che/lộ, chữ hoặc âm. Giữ các biến khác khi điều kiện cho phép và ghi phần không kiểm soát được.",
+    "Duyệt cả video tốc độ thường, khoảng rủi ro ở tốc độ chậm và tệp xuất. Lưu take không đạt cùng lý do; dùng kết quả để chọn cách chia việc thay vì xếp hạng model chung chung."
+  ],
+  "tradeoffs": [
+    "Thử nhiều tiêu chí tốn chi phí; kiểm theo rủi ro dự án, không cần mọi model làm mọi loại bài."
+  ],
+  "verification": [
+    "Không biến công bố năng lực thành kết quả thử của tài khoản.",
+    "Một take đẹp không được ghi là tỷ lệ đạt chắc chắn; cả clip được xem trước kết luận chuyển động."
+  ],
+  "original_example": "Cần trao hộp và giữ mặt: thử cùng đầu vào ở chế độ đã xác minh, ghi rõ lỗi chạm và lệch mặt; chọn phương án tạo riêng cận tay nếu cần.",
+  "counterexample": "Kết quả trên một model/version không tự chuyển sang model mới hoặc dịch vụ trung gian khác.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-007",
+    "EV-004",
+    "QC-003",
+    "QC-005",
+    "QC-009"
+  ],
+  "source_ids": [
+    "SRC-GOOGLE-PROMPT",
+    "SRC-RUNWAY-GEN4",
+    "SRC-SEEDANCE-25"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Các ràng buộc điện ảnh không luôn trùng với nút điều khiển có trong công cụ. Hồ sơ theo phiên bản nối ý đồ với điều đã thực sự làm được và giữ phần chưa biết.",
+    "worked_example": {
+      "brief": "Cần trao hộp và giữ mặt: thử cùng đầu vào ở chế độ đã xác minh, ghi rõ lỗi chạm và lệch mặt; chọn phương án tạo riêng cận tay nếu cần.",
+      "protected_elements": [
+        "Cùng bài trao hộp khi so.",
+        "Đúng model/chế độ và nhật ký đầu vào."
+      ],
+      "option_a": "Chọn model từ bảng xếp hạng rồi mặc định nó làm chính xác mọi shot.",
+      "option_b": "Thử hành động rủi ro của dự án, ghi sai lệch và chọn công đoạn phù hợp.",
+      "selection_rule": "Chọn B khi yêu cầu có tính đặc thù; bảng so sánh chỉ là đầu mối chọn thử, không thay kết quả trên bài thực tế.",
+      "observable_checks": [
+        "Không biến công bố năng lực thành kết quả thử của tài khoản.",
+        "Một take đẹp không được ghi là tỷ lệ đạt chắc chắn; cả clip được xem trước kết luận chuyển động."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Model được quảng bá tốt nhưng liên tục không đạt cảnh cụ thể.",
+        "possible_causes": [
+          "Chế độ/tính năng khác tài liệu.",
+          "Bài thử không giống rủi ro đang gặp.",
+          "Đầu vào không khả thi."
+        ],
+        "next_test": "Kiểm cấu hình trước, rồi thử một thay đổi đúng nguyên nhân; giữ nhật ký phiên bản và các take dùng/loại."
+      }
+    ],
+    "evidence_links": []
+  }
+}

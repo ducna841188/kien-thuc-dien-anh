@@ -1,7 +1,7 @@
 {
   "id": "LI-002",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "LI",
   "title": "Độ mềm/cứng và kích thước nguồn nhìn từ chủ thể",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi cần thấy chất liệu, khuôn mặt hoặc không khí."
   ],
-  "principle": "Chất lượng bóng liên quan kích thước góc của nguồn tại chủ thể. Mô tả biên bóng nhìn thấy và quan hệ sáng thay vì chỉ nói cinematic.",
+  "principle": "Chất lượng bóng liên quan kích thước góc của nguồn tại chủ thể. Mô tả biên bóng nhìn thấy và quan hệ sáng thay vì chỉ nói cinematic. Cùng kích thước thực, đổi khoảng cách có thể đổi độ mềm và độ suy giảm; nếu tăng kích thước để bù thì đó là một tổ hợp khác.",
   "actions": [
     "Chọn biên bóng rõ hay chuyển êm.",
     "Xét độ lớn nguồn so với khoảng cách tới chủ thể.",
-    "Giữ chi tiết cần đọc ở phía bóng bằng bố trí hoặc bù sáng khi cần."
+    "Giữ chi tiết cần đọc ở phía bóng bằng bố trí hoặc bù sáng khi cần.",
+    "Kiểm bóng ở vật/ mặt quan trọng, ghi hướng và độ chuyển mép bóng; so tại vị trí hành động thật, không chỉ khung đầu."
   ],
   "tradeoffs": [
     "Mềm có thể giảm nổi khối/bề mặt; cứng có thể làm tương phản khó giữ."
   ],
   "verification": [
     "Biên bóng đúng ý đồ, không đổi thất thường trong cùng shot.",
-    "Không suy mọi cảnh ngoài trời đều sáng mềm."
+    "Không suy mọi cảnh ngoài trời đều sáng mềm.",
+    "Không dùng mềm/cứng thay cho sáng/tối hoặc tương phản cao/thấp."
   ],
   "original_example": "Nguồn bên có biên bóng rõ làm vết trên vật liệu nổi hơn; cửa lớn có thể cho chuyển sáng êm.",
   "counterexample": "Ánh cứng vẫn có thể yên bình nếu mức tương phản, bố cục và hoàn cảnh phù hợp.",
@@ -32,12 +34,14 @@
   "related_ids": [
     "LI-003",
     "CO-004",
-    "CA-007"
+    "CA-007",
+    "LI-008"
   ],
   "source_ids": [
     "B008",
     "B011",
-    "SRC-YALE-STAGING"
+    "SRC-YALE-STAGING",
+    "SRC-ILT-LIGHT"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -46,5 +50,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Độ mềm gắn kích thước biểu kiến nguồn, không đơn giản là đèn yếu hoặc trời ấm.",
+    "worked_example": {
+      "brief": "Nguồn xa hơn giúp đều qua đường đi nhưng bóng cứng hơn.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Hạ công suất để gọi ánh sáng mềm.",
+      "option_b": "So kích thước biểu kiến hoặc bố trí nguồn/bounce, đồng thời kiểm công suất và độ đều.",
+      "selection_rule": "Chọn B nếu cần đổi mép bóng; công suất riêng không xác định độ mềm.",
+      "observable_checks": [
+        "Không dùng mềm/cứng thay cho sáng/tối hoặc tương phản cao/thấp."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hình tối đi nhưng bóng vẫn gắt.",
+        "possible_causes": [
+          "Đổi độ sáng thay vì kích thước biểu kiến."
+        ],
+        "next_test": "Giữ mức sáng tương đương, thử thay kích thước/vị trí nguồn và so bóng."
+      }
+    ],
+    "evidence_links": []
+  }
 }

@@ -1,0 +1,80 @@
+{
+  "id": "YT-011",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "YT",
+  "title": "Khả năng tiếp cận và ngữ cảnh xem là phần của thiết kế phim",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem ở thiết bị/ngôn ngữ/điều kiện nghe khác nhau có đọc được nội dung chính không?",
+  "use_when": [
+    "Khán giả đa quốc gia, xem màn hình nhỏ, không nghe được đầy đủ hoặc phim có chữ/lời cần hiểu."
+  ],
+  "principle": "Thiết kế thông tin thiết yếu để người phù hợp có thể tiếp cận trong ngữ cảnh dự kiến. Xem phụ đề, độ đọc hình, phần chữ và cách giải thích bối cảnh như các lựa chọn sáng tạo cần kiểm, không tự thêm lời kể trái quyết định đã chốt.",
+  "actions": [
+    "Ghi điều kiện mục tiêu: màn hình, tỷ lệ, ngôn ngữ, vai trò âm và chữ. Thiếu dữ liệu thì thử các bản xem phổ biến sẵn có và ghi phạm vi.",
+    "Giữ chữ/chi tiết chính đủ đọc trong bản xuất; phụ đề lời có kiểm nghĩa và thời điểm, chú thích âm có ý nghĩa nếu cần. Không lấy phụ đề tự động làm bản đã duyệt.",
+    "Với phim không lời, làm rõ mục tiêu qua hành động/hình–âm; chỉ thêm chữ hoặc phiên bản ngôn ngữ khi phù hợp. Kiểm riêng cách giới thiệu và nội dung thay vì dịch từng từ rồi coi trải nghiệm tương đương."
+  ],
+  "tradeoffs": [
+    "Thêm chữ có thể che hình hoặc phá không gian; bỏ hết giải thích có thể làm người mới ngoài bối cảnh không hiểu. Có thể cần phiên bản thay vì một bản gánh mọi yêu cầu."
+  ],
+  "verification": [
+    "Chữ không che bằng chứng hành động và đủ đọc ở cỡ sử dụng.",
+    "Không coi nghe hiểu một ngôn ngữ là yêu cầu mặc định cho mọi tệp."
+  ],
+  "original_example": "Phim thủ công không thoại giữ rõ trạng thái trước/sau; nếu có một câu nói quan trọng, phụ đề đúng nghĩa được thử ở bản điện thoại mà không che tay.",
+  "counterexample": "Bài test tắt âm chỉ kiểm phần hình tự truyền đạt được gì; không là yêu cầu phim vốn dựa âm phải đạt cùng cảm xúc khi tắt âm.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-009",
+    "ST-007",
+    "AU-001",
+    "SO-002",
+    "YT-008"
+  ],
+  "source_ids": [
+    "SRC-YT-PERFORMANCE",
+    "SRC-YT-ENCODE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Ngữ cảnh xem thay đổi khả năng nhận diện chi tiết và hiểu bối cảnh. Kiểm ở điều kiện sử dụng giúp quyết định rõ hơn mà vẫn bảo vệ dạng phim.",
+    "worked_example": {
+      "brief": "Phim thủ công không thoại giữ rõ trạng thái trước/sau; nếu có một câu nói quan trọng, phụ đề đúng nghĩa được thử ở bản điện thoại mà không che tay.",
+      "protected_elements": [
+        "Quyết định không thoại.",
+        "Điểm tiếp xúc không bị phụ đề che."
+      ],
+      "option_a": "Thêm voiceover vào phim đã chốt không thoại để phục vụ mọi người.",
+      "option_b": "Giữ dạng phim, sửa độ đọc bằng hình và chuẩn bị phụ đề/phiên bản khi thực sự cần.",
+      "selection_rule": "Chọn B nếu không thoại là ràng buộc hiện hành; thay đổi dạng cần được chốt như một lựa chọn dự án.",
+      "observable_checks": [
+        "Chữ không che bằng chứng hành động và đủ đọc ở cỡ sử dụng.",
+        "Không coi nghe hiểu một ngôn ngữ là yêu cầu mặc định cho mọi tệp."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Đoạn quan trọng chỉ hiểu được khi xem to hoặc biết trước văn hóa/ngôn ngữ.",
+        "possible_causes": [
+          "Chi tiết quá nhỏ.",
+          "Bối cảnh không được thiết lập.",
+          "Chữ/lời không được kiểm ở ngữ cảnh mục tiêu."
+        ],
+        "next_test": "Cho người chưa biết đoạn xem ở kích thước sử dụng; ghi chính xác điều họ bỏ lỡ và sửa dấu thông tin đó."
+      }
+    ],
+    "evidence_links": []
+  }
+}

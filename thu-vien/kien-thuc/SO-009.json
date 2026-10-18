@@ -1,0 +1,77 @@
+{
+  "id": "SO-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "SO",
+  "title": "Đỉnh âm, độ động và sự thoải mái khi nghe",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Lỗi nằm ở mức trung bình, một đỉnh chói hay sự chênh mạnh–nhẹ?",
+  "use_when": [
+    "Cảnh yên có tiếng chạm giật mình, lời khó nghe hoặc bản mix bị nén phẳng."
+  ],
+  "principle": "Tách độ lớn cảm nhận theo thời gian, đỉnh tín hiệu và độ động. Một giá trị loudness toàn phim không mô tả hết cú chạm ngắn hoặc đoạn lời nhỏ; sửa theo chức năng và kiểm trên thiết bị sử dụng thực tế.",
+  "actions": [
+    "Nghe ở mức tham chiếu nhất quán, đánh dấu đỉnh gây khó chịu, lời mất rõ và nền bật đột ngột. Kiểm gain từng clip trước khi thêm xử lý toàn mix.",
+    "Chọn automation để sửa sự kiện cụ thể, EQ hoặc xử lý động khi phù hợp; cân attack/release theo âm thật, giữ nét cần thiết và nghe bypass có mức tương đương.",
+    "Kiểm tệp sau xuất về méo, đỉnh và trải nghiệm ở loa/tai nghe sẵn có; ghi tiêu chuẩn giao tệp nếu dự án yêu cầu, không dùng một số LUFS làm quy luật cho mọi ngách."
+  ],
+  "tradeoffs": [
+    "Giảm đỉnh quá mạnh làm vật nhẹ và thiếu sức; nén mạnh tăng độ đều nhưng có thể mất tương phản, tiếng thở/nền trồi lên."
+  ],
+  "verification": [
+    "Không phải liên tục chỉnh âm lượng để nghe việc chính.",
+    "Tiếng đột ngột có lý do và mức phù hợp lời hứa."
+  ],
+  "original_example": "Tiếng đặt cốc quá chói trong cảnh nhẹ: giảm riêng sự kiện và đuôi cần thiết, giữ nền và hình đã đạt; so lại cảm giác vật liệu.",
+  "counterexample": "Một đỉnh lớn có thể là ý đồ phim căng thẳng; không tự làm phẳng mọi bản mix.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "SO-001",
+    "SO-005",
+    "SO-008",
+    "AU-001"
+  ],
+  "source_ids": [
+    "SRC-ADOBE-SOUND"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Các loại sai khác âm cần công cụ khác nhau. Cách sửa theo từng sự kiện bảo vệ tương phản của toàn phim tốt hơn việc tự hạ tất cả chỉ vì một tiếng chói.",
+    "worked_example": {
+      "brief": "Tiếng đặt cốc quá chói trong cảnh nhẹ: giảm riêng sự kiện và đuôi cần thiết, giữ nền và hình đã đạt; so lại cảm giác vật liệu.",
+      "protected_elements": [
+        "Chất liệu tiếng cốc.",
+        "Nền và hình đã duyệt."
+      ],
+      "option_a": "Hạ toàn bộ âm phim vì một tiếng cốc quá lớn.",
+      "option_b": "Sửa mức và phổ của riêng tiếng cốc, nghe cùng nền và hành động.",
+      "selection_rule": "Chọn B nếu chỉ một sự kiện gây lỗi; xử lý tổng chỉ sau khi kiểm quan hệ các lớp.",
+      "observable_checks": [
+        "Không phải liên tục chỉnh âm lượng để nghe việc chính.",
+        "Tiếng đột ngột có lý do và mức phù hợp lời hứa."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Lời đã đủ mức nhưng tiếng chạm vẫn gây giật mình.",
+        "possible_causes": [
+          "Đỉnh/transient quá nổi.",
+          "Tiếng được đặt quá gần so với không gian hình."
+        ],
+        "next_test": "So giảm riêng gain với sửa đặc tính âm/không gian; nghe ở mức phát thường trước khi chốt."
+      }
+    ],
+    "evidence_links": []
+  }
+}

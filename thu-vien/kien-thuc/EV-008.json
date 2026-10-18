@@ -1,0 +1,77 @@
+{
+  "id": "EV-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "EV",
+  "title": "Định nghĩa nhãn và đo nhất quán trước khi thống kê video",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Hai người hoặc hai AI có đang gắn cùng một nghĩa cho “tĩnh”, “nhịp” và “êm” không?",
+  "use_when": [
+    "Phân tích nhiều video, tổng hợp tỷ lệ shot hoặc xây dữ liệu học cho AI khác."
+  ],
+  "principle": "Số liệu chỉ so sánh được khi đơn vị, điều kiện gắn nhãn và phạm vi quan sát tương thích. Định nghĩa nhãn bằng dấu hiệu nhìn/nghe được, cho phép chưa xác định và lưu bất đồng.",
+  "actions": [
+    "Viết sổ nhãn: định nghĩa, đơn vị, ví dụ đạt/không đạt, nguồn bằng chứng cần. “Máy tĩnh” cần xem chuyển động; không suy từ ba ảnh.",
+    "Phân biệt tỷ lệ theo số shot với tỷ lệ theo thời lượng; một shot dài có trọng số rất khác. Ghi phần chưa xem trong mẫu số.",
+    "Cho hai lượt phân tích độc lập trên một phần mẫu đủ đa dạng, so điểm bất đồng rồi sửa định nghĩa; ghi đó là kiểm nhãn, không phải xác nhận ý đồ tác giả."
+  ],
+  "tradeoffs": [
+    "Sổ nhãn quá chi li làm chậm nạp; ưu tiên biến ảnh hưởng quyết định trước và giữ bản nhãn gốc khi đổi quy ước."
+  ],
+  "verification": [
+    "Mọi tỷ lệ nêu rõ tử số, mẫu số, đơn vị và phần chưa biết.",
+    "Nhãn cảm xúc dự kiến không bị trộn với lời tự báo của người xem."
+  ],
+  "original_example": "Một phim có 2 shot: tĩnh 50 giây và máy đi 10 giây. Theo số shot là 50% tĩnh; theo thời lượng đã xem là khoảng 83,3%.",
+  "counterexample": "Hai bảng cùng ghi 80% static nhưng một bảng suy từ thumbnail, bảng kia xem toàn chuyển động: không gộp như cùng phép đo.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-003",
+    "EV-004",
+    "EV-005",
+    "AU-004"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT",
+    "SRC-PERCEPTION-EVENTS"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nhãn là một thao tác đo có quy ước. Sai khác trong định nghĩa hoặc mẫu số có thể tạo ra kết luận khác dù cùng video.",
+    "worked_example": {
+      "brief": "Một phim có 2 shot: tĩnh 50 giây và máy đi 10 giây. Theo số shot là 50% tĩnh; theo thời lượng đã xem là khoảng 83,3%.",
+      "protected_elements": [
+        "Cùng đoạn video, đơn vị và độ phủ khi so nhãn."
+      ],
+      "option_a": "Gộp mọi số phần trăm được nguồn thuật lại.",
+      "option_b": "Giữ bảng nguồn riêng, chuẩn hóa đơn vị rồi chỉ tổng hợp phần nhãn đủ bằng chứng.",
+      "selection_rule": "Chọn B khi so phim; nếu không chuẩn hóa được thì báo bảng song song, không tạo trung bình chung.",
+      "observable_checks": [
+        "Mọi tỷ lệ nêu rõ tử số, mẫu số, đơn vị và phần chưa biết.",
+        "Nhãn cảm xúc dự kiến không bị trộn với lời tự báo của người xem."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hai lượt phân tích khác xa nhau về tỷ lệ nhịp nhanh.",
+        "possible_causes": [
+          "Một lượt đếm cut, lượt kia gắn nhãn mật độ sự kiện.",
+          "Khoảng xem hoặc định nghĩa nhãn khác nhau."
+        ],
+        "next_test": "Lấy cùng một đoạn, gắn riêng cut và sự kiện có ý nghĩa; xem bất đồng ở định nghĩa hay quan sát."
+      }
+    ],
+    "evidence_links": []
+  }
+}

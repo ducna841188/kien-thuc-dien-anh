@@ -1,0 +1,84 @@
+{
+  "id": "YT-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "YT",
+  "title": "Thử tiêu đề và ảnh đại diện đúng thiết kế phép thử",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Khác biệt kết quả có thể quy cho phương án đóng gói đến mức nào?",
+  "use_when": [
+    "So title/thumbnail hoặc muốn kết luận phương án nào tốt hơn."
+  ],
+  "principle": "Tách thử đồng thời do nền tảng phân phối với đổi tuần tự theo thời gian. Tính năng A/B của YouTube khi có trên tài khoản có thể thử tiêu đề/ảnh hoặc kết hợp, và đánh giá theo phần thời gian xem; không tự diễn giải đó là phép thi CTR đơn lẻ.",
+  "actions": [
+    "Kiểm điều kiện và lựa chọn thực có trong Studio. Xác định biến cần biết: nếu đổi cả title lẫn ảnh, chỉ kết luận về tổ hợp đó, chưa tách đóng góp từng phần.",
+    "Đặt các phương án cùng nội dung/lời hứa trung thực nhưng khác cách truyền đạt giá trị; ghi ngày, cấu hình và tiêu chí kết quả mà công cụ thật dùng.",
+    "Giữ trạng thái không đủ kết luận khi báo cáo như vậy. Nếu đổi tuần tự, ghi khả năng khác do khán giả, phân phối và tuổi video; không giả có ngẫu nhiên đồng thời."
+  ],
+  "tradeoffs": [
+    "Thử khác biệt nhỏ có thể không cho kết luận; thay đổi mạnh có thể thu hút nhóm khác. Kết quả một video không tự thành luật cho cả kênh."
+  ],
+  "verification": [
+    "Không báo thắng khi chưa có kết quả thử thật.",
+    "Báo cáo nêu đồng thời/tuần tự, biến đổi và giới hạn kết luận."
+  ],
+  "original_example": "Thử cùng hình với hai cách nêu giá trị: tiến trình yên tĩnh và kết quả thủ công, chỉ khi cả hai phản ánh nội dung. Ghi kết quả theo công cụ thay vì chọn theo gu riêng.",
+  "counterexample": "Đổi ảnh hôm nay rồi so tổng view với hôm qua không phải cùng thiết kế với A/B đồng thời; kết luận không tương đương.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "YT-002",
+    "YT-006",
+    "QC-003",
+    "QC-008"
+  ],
+  "source_ids": [
+    "SRC-YT-ABTEST",
+    "SRC-YT-CTR"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Thử đồng thời giảm một số sai khác theo thời gian; vẫn cần hiểu tiêu chí và kết quả chưa phân định. Tính năng nền tảng không kiểm riêng toàn bộ chất lượng phim.",
+    "worked_example": {
+      "brief": "Thử cùng hình với hai cách nêu giá trị: tiến trình yên tĩnh và kết quả thủ công, chỉ khi cả hai phản ánh nội dung. Ghi kết quả theo công cụ thay vì chọn theo gu riêng.",
+      "protected_elements": [
+        "Nội dung video và lời hứa trung thực.",
+        "Thiết kế/tiêu chí thử được ghi trước."
+      ],
+      "option_a": "Thay title và ảnh tuần sau rồi quy tăng view cho màu ảnh mới.",
+      "option_b": "Dùng phép thử phù hợp nếu tài khoản hỗ trợ, hoặc báo đổi tuần tự như quan sát có yếu tố nhiễu.",
+      "selection_rule": "Chọn B để giữ đúng mức kết luận; không có số view hay thời gian cố định bảo đảm thử sẽ phân định.",
+      "observable_checks": [
+        "Không báo thắng khi chưa có kết quả thử thật.",
+        "Báo cáo nêu đồng thời/tuần tự, biến đổi và giới hạn kết luận."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Các lần thử cho kết quả trái nhau dù ảnh gần giống.",
+        "possible_causes": [
+          "Khác thành phần khán giả/nguồn hiển thị.",
+          "Khác thiết kế thử hoặc chưa đủ dữ liệu."
+        ],
+        "next_test": "Kiểm báo cáo gốc, tiêu chí và biến đã đổi; không gộp các phép thử khác nhau thành cùng kết quả."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-YT-ABTEST",
+        "claim": "Công cụ mô tả thử đồng thời và đánh giá theo phần thời gian xem, không riêng CTR.",
+        "scope_limit": "Chưa chạy thử trên tài khoản người dùng. Không chứng minh một ảnh luôn thắng hoặc tách được tác dụng từng biến khi đổi cả tổ hợp."
+      }
+    ]
+  }
+}

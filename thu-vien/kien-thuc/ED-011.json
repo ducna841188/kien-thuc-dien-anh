@@ -1,0 +1,79 @@
+{
+  "id": "ED-011",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ED",
+  "title": "Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nên bỏ thời gian nào, và thời gian nào đang tạo giá trị?",
+  "use_when": [
+    "Phim dài mà ít tiến triển, phim quá gấp hoặc áp cùng độ dài cho mọi shot."
+  ],
+  "principle": "Nhịp được thiết kế ở hành động, shot, chuỗi, phân đoạn và toàn phim. Tách thời gian để nhận diện, theo dõi biến đổi, mong chờ và tiếp nhận kết quả khỏi thời gian không còn chức năng; độ dài tự nó không xác định chán hoặc yên.",
+  "actions": [
+    "Lập bản đồ mỗi đoạn: điều mới, loại lặp, thời gian chờ có giá trị và dấu kết quả. Phân biệt lặp để học/quan sát với lặp chỉ tái nói thông tin.",
+    "Nén ở chỗ người xem đã hiểu và không cần xem đủ, giữ ở chỗ biến đổi khó, phản ứng có ý nghĩa hoặc trải nghiệm cảm giác là lời hứa. Dùng âm/cử chỉ để phát triển trong một shot nếu phù hợp.",
+    "So các phiên bản tại cùng một đoạn và cả trong mạch toàn phim; ghi lý do sửa theo thông tin/trải nghiệm, rồi kiểm người xem thay vì dùng tỷ lệ shot cố định."
+  ],
+  "tradeoffs": [
+    "Nén mạnh tạo tiến độ nhưng mất cảm giác công sức; giữ khoảng thở có thể cho dư âm nhưng phải hợp nhu cầu xem chủ động hoặc xem nền."
+  ],
+  "verification": [
+    "Mỗi đoạn dài có giá trị thời gian nêu được.",
+    "Sau bản nén, người xem vẫn hiểu công đoạn và nhận ra kết quả."
+  ],
+  "original_example": "Chuỗi làm ba lần cùng một thao tác có thể giữ lần đầu đầy đủ, nén hai lần sau rồi giữ mốc so kết quả; nếu lời hứa là ngắm thao tác đều, có thể giữ nhiều hơn.",
+  "counterexample": "Một shot dài nhiều biến cố có thể rất dày; một chuỗi cut nhanh lặp cùng thông tin vẫn có thể trì trệ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ED-001",
+    "ST-010",
+    "AU-005",
+    "SO-011",
+    "YT-003"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT",
+    "SRC-YT-RETENTION"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Thời gian tạo tác dụng khác nhau theo chức năng. Nhìn nhiều quy mô tránh sửa một shot để rồi làm hỏng nhịp của cả chuỗi hoặc lược mất bằng chứng quan trọng.",
+    "worked_example": {
+      "brief": "Chuỗi làm ba lần cùng một thao tác có thể giữ lần đầu đầy đủ, nén hai lần sau rồi giữ mốc so kết quả; nếu lời hứa là ngắm thao tác đều, có thể giữ nhiều hơn.",
+      "protected_elements": [
+        "Công đoạn phải hiểu.",
+        "Trải nghiệm quan sát nếu đó là lời hứa."
+      ],
+      "option_a": "Cắt mọi shot còn ba giây để video nhanh hơn.",
+      "option_b": "Nén phần lặp không có thay đổi, giữ tiếp xúc khó và khoảng xác nhận thành quả.",
+      "selection_rule": "Chọn B nếu người xem vừa thấy dài vừa chưa hiểu; A không chẩn đoán chức năng thời gian.",
+      "observable_checks": [
+        "Mỗi đoạn dài có giá trị thời gian nêu được.",
+        "Sau bản nén, người xem vẫn hiểu công đoạn và nhận ra kết quả."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Cắt nhanh hơn nhưng người xem vẫn thấy lê thê hoặc còn khó theo dõi hơn.",
+        "possible_causes": [
+          "Mật độ thay đổi có ý nghĩa vẫn thấp.",
+          "Phần cần đọc bị rút ngắn, phần lặp vẫn giữ."
+        ],
+        "next_test": "Đánh dấu từng giây đang giúp nhận diện/theo dõi/chờ/tiếp nhận; thử một bản sửa đúng phần dư."
+      }
+    ],
+    "evidence_links": []
+  }
+}

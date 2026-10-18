@@ -1,0 +1,79 @@
+{
+  "id": "SO-011",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "SO",
+  "title": "Nhịp âm nhạc, mô-típ và sự liên tục của không gian nghe",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Âm đang dẫn câu chuyện, giữ nơi chốn hay chỉ phủ đều toàn bộ hình?",
+  "use_when": [
+    "Dùng nhạc mua/tạo AI, cắt nhạc đột ngột, đoạn nào cũng cùng mức hoặc không gian nghe thay vô cớ."
+  ],
+  "principle": "Tổ chức nhạc theo câu và chức năng, đồng thời giữ nền không gian đủ liền khi cần. Có thể nối bằng đuôi âm, room tone hoặc âm nguồn; các lớp không phải lúc nào cũng lên xuống cùng nhau.",
+  "actions": [
+    "Đánh dấu vào/ra câu nhạc, thay hòa âm/âm sắc và khoảng thưa; chọn điểm hỗ trợ biến chuyển câu chuyện thay vì cắt hình theo mọi beat.",
+    "Ghi nguồn âm môi trường và hướng/khoảng cách tương đối qua chuỗi; giữ nền hoặc chuyển nền có lý do khi đổi không gian.",
+    "Nếu dùng stem, xác minh thực có các lớp tách và nghe lỗi tách. Nếu chỉ có bản trộn, chọn đoạn/cắt/fade phù hợp trong giới hạn đó; không hứa chỉnh độc lập mọi nhạc cụ."
+  ],
+  "tradeoffs": [
+    "Nhạc ăn khớp quá mọi động tác có thể lộ thủ pháp; nền quá liền qua đổi nơi có thể làm người xem hiểu nhầm không gian."
+  ],
+  "verification": [
+    "Điểm đổi nhạc có quan hệ với chức năng cảnh hoặc chủ ý đối lập.",
+    "Không có đuôi nhạc/room tone đứt ngoài ý đồ; không giả định có stem."
+  ],
+  "original_example": "Chuỗi sửa đồ dùng tiếng dụng cụ dẫn; khi đồ bắt đầu được dùng, một mô-típ nhạc trở lại nhẹ. Tiếng phòng tiếp tục qua hai góc cùng không gian.",
+  "counterexample": "Không phải mọi phim cần nhạc hoặc mô-típ; im nhạc có thể là lựa chọn hoàn chỉnh nếu âm đời sống đã phục vụ trải nghiệm.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "SO-003",
+    "SO-004",
+    "SO-006",
+    "ST-012",
+    "ED-011"
+  ],
+  "source_ids": [
+    "SRC-YALE-SOUND",
+    "SRC-ADOBE-SOUND"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nhạc có cấu trúc riêng; không gian nghe có tính liên tục riêng. Quyết định theo hai lớp tránh dùng nhạc để che mọi lỗi dựng hoặc làm thế giới âm biến mất khi nhạc dừng.",
+    "worked_example": {
+      "brief": "Chuỗi sửa đồ dùng tiếng dụng cụ dẫn; khi đồ bắt đầu được dùng, một mô-típ nhạc trở lại nhẹ. Tiếng phòng tiếp tục qua hai góc cùng không gian.",
+      "protected_elements": [
+        "Âm thao tác dẫn chuỗi sửa.",
+        "Tiếng phòng liên tục qua cùng không gian."
+      ],
+      "option_a": "Kéo một bài lặp từ đầu tới cuối và cắt ngang ở frame cuối.",
+      "option_b": "Chọn đoạn và điểm kết câu phù hợp, bố trí lúc nhạc lùi để âm sự kiện được dẫn.",
+      "selection_rule": "Chọn theo trải nghiệm cần có; B hữu ích khi nhạc đang đồng đều hóa những đoạn có chức năng khác nhau.",
+      "observable_checks": [
+        "Điểm đổi nhạc có quan hệ với chức năng cảnh hoặc chủ ý đối lập.",
+        "Không có đuôi nhạc/room tone đứt ngoài ý đồ; không giả định có stem."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mọi phân đoạn giống nhau hoặc kết phim bị cụt dù hình đã hoàn tất.",
+        "possible_causes": [
+          "Nhạc không có phân câu theo chức năng.",
+          "Âm nền/đuôi âm bị cắt theo hình."
+        ],
+        "next_test": "Nghe riêng tuyến âm toàn đoạn, đánh dấu chỗ cần chuyển nhạc và chỗ chỉ cần giữ không gian."
+      }
+    ],
+    "evidence_links": []
+  }
+}

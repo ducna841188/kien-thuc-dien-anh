@@ -31,3 +31,11 @@ Ví dụ cùng một người mở hộp: có thể giữ toàn quan hệ và ti
 - Công cụ thực tế có điều khiển được phần cần chính xác không?
 
 Mẫu mau/quyet-dinh.json có thể dùng như phiếu ngắn. Các schema kịch bản, kế hoạch shot và yêu cầu tạo tách ý đồ khỏi quan sát.
+
+## Ra quyết định khi có nhiều mục tiêu
+
+Tách ràng buộc bắt buộc khỏi ưu tiên. Phương án sai hành động hoặc đổi phần đã duyệt không được bù bằng điểm hình đẹp. Trong các phương án còn phù hợp, so độ rõ, trải nghiệm, nhất quán, tính khả thi và chi phí theo brief; không có trọng số mặc định chung.
+
+Một phiếu quyết định dùng ngay gồm: câu hỏi; đầu vào/điều chưa biết; phần phải giữ; A và B; vì sao chọn; đánh đổi; thao tác tiếp theo; dấu hiệu kiểm; mã@phiên bản; trạng thái đề xuất/đã thử. Khi kết quả chưa phân định, giữ trạng thái đó và quyết định có cần thử tiếp hay có thể chọn theo mục tiêu.
+
+Chọn phép kiểm theo loại kết luận: xem hình/âm cho thực hiện, người xem phù hợp cho hiểu/cảm nhận, Analytics cho hành vi trong hoàn cảnh phân phối. Không dùng một phép đo để thay cả ba. Mã: QC-008, QC-009, YT-007. [Bốn ca hoàn chỉnh](vi-du/bon-ca-ra-quyet-dinh.md) minh họa cách chọn.

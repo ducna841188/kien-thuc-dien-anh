@@ -45,3 +45,13 @@ Mốc của đoạn cắt phải quy về bản gốc bằng offset. Quy ước 
 Ghi theo khoảng: việc khán giả đang theo, thông tin mới, điều đang chờ, nguồn nhịp trong hình/tiếng/dựng, trải nghiệm dự kiến, bằng chứng và giới hạn. Điểm số nếu tự tạo phải có định nghĩa; không báo như phép đo tâm lý chuẩn.
 
 Mẫu ở mau/phan-tich-video.json. Ví dụ trong vi-du/phan-tich-gia-lap.json chỉ dùng kiểm cấu trúc.
+
+## Bổ sung khi phân tích sâu ở 1.1.0
+
+Phân biệt ba tuyến: điểm cắt; sự kiện/thay đổi có ý nghĩa; âm. Một sự kiện có thể qua nhiều shot, một shot có thể có nhiều sự kiện. Giữ ranh giới shot theo bằng chứng cắt/chuyển cảnh; dùng sự kiện và findings/diễn giải để mô tả đổi mục tiêu hoặc quan hệ, không sửa cut cho khớp cảm giác nhịp.
+
+Rà chức năng theo thứ tự: lời hứa→điều đáng quan tâm→thông tin mới→cách làm rõ bằng hình/âm→điểm cắt/chuyển thời gian→bằng chứng kết quả. Ở tiếp xúc, ghi điểm đỡ/người giữ, pha chạm–chuyển lực–nhả và trạng thái ra. Với bố cục/màu/ánh sáng, kiểm biến đổi trong cả diễn tiến và qua các góc, không chỉ ảnh đầu.
+
+Trước thống kê nhiều phim, định nghĩa nhãn và mẫu số: theo số shot hay theo thời lượng; phần đã xem và phần chưa rõ; nhãn quan sát hay nhãn nguồn thuật lại. Lưu bất đồng giữa lượt gắn nhãn, chỉ gộp phần tương thích. Một nhận định từ phim nhiều view vẫn là giả thuyết về tác dụng cho đến khi có bằng chứng phù hợp.
+
+Mã mở rộng: EV-007, EV-008, AU-007, DR-008, CA-011, ED-009, ED-010, YT-010. Xem [bảng kiểm trải nghiệm](07_KIEM_TRA_TRAI_NGHIEM.md) để không suy cảm xúc từ chỉ số hành vi.

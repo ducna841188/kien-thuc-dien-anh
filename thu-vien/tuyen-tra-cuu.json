@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "routes": [
     {
       "query_hint": "sửa người thừa, duplicate, clone, ghosting",
@@ -152,6 +152,168 @@
         "AI-004",
         "DR-006",
         "AI-008"
+      ]
+    },
+    {
+      "query_hint": "sự kiện khác điểm cắt, nhiều cut vẫn rõ, ít cut vẫn rối",
+      "core_ids": [
+        "AU-007",
+        "EV-008",
+        "ED-001",
+        "ED-010"
+      ]
+    },
+    {
+      "query_hint": "diễn xuất vô hồn, mục tiêu, subtext, ý ngầm",
+      "core_ids": [
+        "DR-007",
+        "DR-001",
+        "DR-009"
+      ]
+    },
+    {
+      "query_hint": "trọng lượng, thùng nổi, trượt chân, tay nhả trước chạm",
+      "core_ids": [
+        "DR-008",
+        "AI-003",
+        "AI-011",
+        "ED-010"
+      ]
+    },
+    {
+      "query_hint": "đẹp nhưng khó nhìn, eye trace, chốt bật, tìm lại vật",
+      "core_ids": [
+        "ED-009",
+        "CA-011",
+        "AU-002"
+      ]
+    },
+    {
+      "query_hint": "lặp lại, không tiến triển, không muốn gây nguy hiểm",
+      "core_ids": [
+        "ST-010",
+        "ST-011",
+        "ED-011"
+      ]
+    },
+    {
+      "query_hint": "mô típ, motif, liên kết đầu cuối",
+      "core_ids": [
+        "ST-012",
+        "SO-011",
+        "ST-004"
+      ]
+    },
+    {
+      "query_hint": "24fps, 180 độ, shutter, motion blur, giật hình, nội suy",
+      "core_ids": [
+        "MO-007",
+        "MO-006",
+        "LI-007"
+      ]
+    },
+    {
+      "query_hint": "vùng nét, khẩu độ, bokeh, tay mất rõ",
+      "core_ids": [
+        "CA-012",
+        "CA-007",
+        "LI-007"
+      ]
+    },
+    {
+      "query_hint": "sáng tụt khi đi, khoảng cách đèn, inverse square",
+      "core_ids": [
+        "LI-008",
+        "LI-002",
+        "LI-005"
+      ]
+    },
+    {
+      "query_hint": "white balance, tint, xanh lục, cân trắng, nguồn pha",
+      "core_ids": [
+        "CO-007",
+        "CO-005",
+        "CO-009"
+      ]
+    },
+    {
+      "query_hint": "ACES, log raw, sai LUT, khớp shot, waveform",
+      "core_ids": [
+        "CO-009",
+        "CO-008",
+        "CO-006"
+      ]
+    },
+    {
+      "query_hint": "tiếng chói, transient, masking, nhạc che lời, stem",
+      "core_ids": [
+        "SO-009",
+        "SO-010",
+        "SO-011"
+      ]
+    },
+    {
+      "query_hint": "tiền kỳ, animatic, bản dựng sơ, gate",
+      "core_ids": [
+        "AI-009",
+        "QC-007",
+        "QC-009"
+      ]
+    },
+    {
+      "query_hint": "sổ trạng thái, asset, ref, ảnh đầu bất khả thi",
+      "core_ids": [
+        "AI-010",
+        "AI-011",
+        "AI-002"
+      ]
+    },
+    {
+      "query_hint": "compositing, hậu kỳ, inpaint, sửa vùng, hiệu chỉnh model",
+      "core_ids": [
+        "AI-012",
+        "AI-013",
+        "AI-008"
+      ]
+    },
+    {
+      "query_hint": "triệu view, kênh lớn, phim tham khảo, thiên lệch mẫu",
+      "core_ids": [
+        "EV-007",
+        "YT-010",
+        "QC-006"
+      ]
+    },
+    {
+      "query_hint": "appeal engagement satisfaction, ý tưởng, góc tiếp cận",
+      "core_ids": [
+        "YT-007",
+        "YT-008",
+        "AU-001"
+      ]
+    },
+    {
+      "query_hint": "A B test, title thumbnail, đồng thời, tuần tự",
+      "core_ids": [
+        "YT-009",
+        "QC-003",
+        "YT-002"
+      ]
+    },
+    {
+      "query_hint": "phụ đề, captions, đa ngôn ngữ, màn hình nhỏ",
+      "core_ids": [
+        "YT-011",
+        "CA-009",
+        "ST-007"
+      ]
+    },
+    {
+      "query_hint": "đo cảm xúc, người xem, phản hồi, điểm AI",
+      "core_ids": [
+        "QC-008",
+        "AU-009",
+        "AU-004"
       ]
     }
   ]

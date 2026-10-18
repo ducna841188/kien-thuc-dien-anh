@@ -98,3 +98,46 @@
 | RAG / retrieval | Tìm đoạn kiến thức liên quan rồi cung cấp cho AI; kho này chưa triển khai hệ truy hồi tự động | [QC-004](kien-thuc/QC-004.json) |
 | fine-tuning | Huấn luyện điều chỉnh tham số mô hình; khác cung cấp tài liệu tham chiếu | [QC-004](kien-thuc/QC-004.json) |
 | CTR / retention | Tỷ lệ nhấp theo lượt hiển thị được tính / giữ chân theo dữ liệu nền tảng | [YT-002](kien-thuc/YT-002.json) |
+| event segmentation | Cách người xem chia dòng diễn biến thành các sự kiện có nghĩa; khác ranh giới cut | [AU-007](kien-thuc/AU-007.json) |
+| eye trace | Quan hệ vị trí/ưu tiên điểm nhìn trước và sau điểm cắt; trong kho là dự kiến trừ khi có đo mắt | [ED-009](kien-thuc/ED-009.json) |
+| subtext | Ý hoặc mục tiêu không được nói thẳng, có thể bộc lộ qua chênh giữa lời và hành vi | [DR-007](kien-thuc/DR-007.json) |
+| tactic | Chiến thuật nhân vật dùng để tác động người/vật trong một nhịp | [DR-007](kien-thuc/DR-007.json) |
+| weight transfer | Chuyển trọng tâm hoặc chuyển lực đỡ; cần kiểm điểm tựa và thời điểm nhả | [DR-008](kien-thuc/DR-008.json) |
+| contact phase | Pha tiếp xúc trong chuỗi hành động, khác chuẩn bị và hậu quả | [ED-010](kien-thuc/ED-010.json) |
+| motif | Mô-típ: chi tiết hình/âm/hành động trở lại với chức năng liên kết hoặc đổi nghĩa | [ST-012](kien-thuc/ST-012.json) |
+| progression | Tiến triển về trạng thái, thông tin hoặc quan hệ; không chỉ có thêm góc quay | [ST-010](kien-thuc/ST-010.json) |
+| shutter angle | Góc màn trập dùng liên hệ thời gian phơi với fps trong mô hình tương ứng | [MO-007](kien-thuc/MO-007.json) |
+| exposure time | Thời gian ghi sáng cho mỗi mẫu/frame; góp phần quyết định nhòe chuyển động | [MO-007](kien-thuc/MO-007.json) |
+| frame sampling | Lấy mẫu theo thời gian; không đồng nhất với độ nhòe trong mỗi frame | [MO-007](kien-thuc/MO-007.json) |
+| retiming | Đổi tốc/ánh xạ thời gian trong dựng; cần ghi cách lặp/bỏ/nội suy frame | [MO-007](kien-thuc/MO-007.json) |
+| interpolation | Nội suy mẫu/frame mới; có thể tạo lỗi và không chứng minh khôi phục chuyển động thật | [MO-007](kien-thuc/MO-007.json) |
+| inverse square law | Quy luật độ rọi suy giảm theo bình phương khoảng cách trong điều kiện gần đúng nguồn điểm | [LI-008](kien-thuc/LI-008.json) |
+| illuminance | Độ rọi: lượng quang thông tới một đơn vị diện tích, thường tính lux | [LI-008](kien-thuc/LI-008.json) |
+| tint | Điều chỉnh ám màu, thường theo trục xanh lá–hồng tím; cách dùng tùy công cụ | [CO-007](kien-thuc/CO-007.json) |
+| scene-referred | Biểu diễn tín hiệu gắn với thông tin cảnh, cần xác định encoding và quy trình | [CO-009](kien-thuc/CO-009.json) |
+| display-referred | Biểu diễn đã được chuẩn bị theo hiển thị; không tự là dữ liệu máy quay gốc | [CO-009](kien-thuc/CO-009.json) |
+| input transform | Biến đổi đầu vào có miền dữ liệu xác định để đưa về quy trình màu | [CO-009](kien-thuc/CO-009.json) |
+| output transform | Biến đổi chuẩn bị dữ liệu trong quy trình cho mục tiêu hiển thị | [CO-009](kien-thuc/CO-009.json) |
+| waveform | Đồ thị mức tín hiệu hình theo vị trí, dùng kiểm trong điều kiện xử lý đã xác định | [CO-008](kien-thuc/CO-008.json) |
+| RGB parade | Hiển thị các kênh RGB để đối chiếu quan hệ mức tín hiệu | [CO-008](kien-thuc/CO-008.json) |
+| vectorscope | Công cụ xem quan hệ màu/chroma theo hệ biểu diễn; không tự chấm màu đẹp | [CO-008](kien-thuc/CO-008.json) |
+| transient | Phần biến thiên âm rất ngắn, thường ở đầu tiếng chạm; cần nghe và xử lý theo vật liệu | [SO-009](kien-thuc/SO-009.json) |
+| masking | Che lẫn: một lớp âm làm lớp cần nghe khó nhận hơn trong phối trộn | [SO-010](kien-thuc/SO-010.json) |
+| ducking | Hạ một lớp âm khi lớp ưu tiên xuất hiện; cần kiểm nhịp vào/ra | [SO-010](kien-thuc/SO-010.json) |
+| automation | Thay đổi tham số theo thời gian trong dựng/mix thay vì một mức cố định | [SO-009](kien-thuc/SO-009.json) |
+| stem | Một nhóm/lớp âm xuất tách để phối lại; không mặc định có từ một tệp trộn | [SO-011](kien-thuc/SO-011.json) |
+| animatic | Bản dựng sơ bằng hình phác/ảnh cùng thời gian và âm tạm để kiểm cấu trúc | [AI-009](kien-thuc/AI-009.json) |
+| previsualization | Tiền hình dung/dựng thử để kiểm cách thể hiện trước sản xuất hoàn thiện | [AI-009](kien-thuc/AI-009.json) |
+| state ledger | Sổ trạng thái vào/ra và quan hệ phụ thuộc theo shot/tài sản | [AI-010](kien-thuc/AI-010.json) |
+| compositing | Ghép/xử lý nhiều lớp hình; cần khớp che khuất, sáng, nhòe và thời gian | [AI-012](kien-thuc/AI-012.json) |
+| inpainting | Sửa/tạo vùng có chọn lọc; khả năng và giới hạn phụ thuộc công cụ thực tế | [AI-012](kien-thuc/AI-012.json) |
+| stage gate | Điểm duyệt có đầu ra và tiêu chí theo công đoạn | [QC-007](kien-thuc/QC-007.json) |
+| confound | Yếu tố cùng thay đổi khiến chưa thể quy kết khác biệt kết quả cho biến đang quan tâm | [QC-003](kien-thuc/QC-003.json) |
+| survivorship bias | Thiên lệch khi chỉ học các trường hợp nổi bật/đã thắng và bỏ các trường hợp còn lại | [EV-007](kien-thuc/EV-007.json) |
+| appeal | Sức hấp dẫn: người phù hợp có chọn xem khi nội dung được đưa tới hay không | [YT-007](kien-thuc/YT-007.json) |
+| engagement | Gắn kết sau khi bắt đầu xem; cần hiểu theo định dạng và dữ liệu thật có | [YT-007](kien-thuc/YT-007.json) |
+| satisfaction | Sự hài lòng/đáng xem; không tự đồng nhất với một số CTR hoặc thời gian xem | [YT-007](kien-thuc/YT-007.json) |
+| watch time share | Phần thời gian xem được công cụ thử phân bổ cho một phương án; không riêng tỷ lệ nhấp | [YT-009](kien-thuc/YT-009.json) |
+| concurrent test | Thử các phương án trong cùng giai đoạn theo cơ chế phân phối của phép thử | [YT-009](kien-thuc/YT-009.json) |
+| sequential comparison | So các phương án lần lượt theo thời gian, cần xét thay đổi khán giả và phân phối | [YT-009](kien-thuc/YT-009.json) |
+| captions | Phụ đề lời và/hoặc chú thích âm có ý nghĩa theo nhu cầu tiếp cận; cần kiểm nghĩa và thời điểm | [YT-011](kien-thuc/YT-011.json) |

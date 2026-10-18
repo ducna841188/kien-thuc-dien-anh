@@ -34,3 +34,18 @@ Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm t
 ## Tìm kiếm và giới hạn
 
 muc-luc.json tra mã/chuyên đề; tuyen-tra-cuu.json tra theo vấn đề. cong-cu/tra_cuu.py là tìm từ khóa cục bộ, chưa phải tìm ngữ nghĩa. JSONL có một mục kiến thức mỗi dòng; phần phân tích video giữ ở corpus riêng. Không tự dùng toàn bộ dữ liệu nguồn làm ví dụ trả lời đúng.
+
+## Hợp đồng mở rộng ở bản 1.1.0
+
+knowledge.schema 1.1.0 thêm application_depth tùy chọn; bản ghi kiến thức 1.0.0 vẫn hợp lệ. Tám hợp đồng phân tích/tác vụ còn lại vẫn là 1.0.0. schema_version của manifest chỉ bản bộ hợp đồng; xem chi tiết trong tuong-thich.json.
+
+| Thành phần application_depth | Chức năng |
+| --- | --- |
+| mechanism | Quan hệ/cơ chế cần xét; có thể là phương pháp tổng hợp, không tự là kết quả khoa học |
+| worked_example | Brief, phần phải giữ, hai phương án, cách chọn và dấu kiểm |
+| failure_diagnosis | Triệu chứng, các nguyên nhân có thể và phép thử tiếp theo |
+| evidence_links | Phát biểu cụ thể được nguồn hỗ trợ và giới hạn; mảng rỗng không có nghĩa mục đã được thực nghiệm |
+
+Các ca ở vi-du/bon-ca-ra-quyet-dinh.json là synthetic_worked_examples, chưa thực hiện và không dùng thay analysis. Bản đồ năng lực, vòng sản xuất và bảng phép kiểm là hướng dẫn điều phối, không thêm nhãn quan sát giả vào video nguồn.
+
+manifest.version là bản phát hành; version của từng mục chỉ đổi khi mục đó đổi. JSONL bản cũ được giữ nguyên byte, cùng checksum và commit trong tuong-thich.json. Kiểm tương thích cấu trúc không tự đổi ghim tri thức của ngách.

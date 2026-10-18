@@ -1,0 +1,79 @@
+{
+  "id": "MO-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "MO",
+  "title": "Quỹ đạo, gia tốc và phối hợp máy–chủ thể",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Chuyển động này bắt đầu vì sao, đổi tốc ở đâu và kết vào thông tin nào?",
+  "use_when": [
+    "Chỉ đạo tracking/orbit hoặc sửa máy AI trôi, tăng tốc vô cớ và mất điểm quan trọng."
+  ],
+  "principle": "Một đường đi cần mốc không gian và mốc sự kiện, không chỉ tên động tác. Chọn quan hệ giữa máy và chủ thể, pha bắt đầu/tiếp diễn/dừng và thông tin ở khung cuối; nhịp chuyển động có thể tạo ý nghĩa ngay khi không cắt.",
+  "actions": [
+    "Ghi máy bắt đầu ở đâu, chủ thể ở đâu, yếu tố nào đứng yên, vật mốc nào cho thấy thị sai và điểm nhìn kết thúc.",
+    "Nối tăng/giảm tốc với hành động hoặc hé lộ nếu phù hợp. Nếu cần tốc độ đều, nêu điều đó và kiểm lại; đừng đồng thời yêu cầu vừa khóa vị trí vừa bay vòng.",
+    "Với AI thử một chuyển động chính trước, xác định mức sai lệch chấp nhận; khi đường phức tạp lỗi hãy so phương án dàn cảnh hoặc cắt thay thế."
+  ],
+  "tradeoffs": [
+    "Chuyển động phối hợp có thể giàu thông tin nhưng tăng công kiểm hình học và đồng bộ; máy đứng yên vẫn có thể phục vụ cảnh tốt."
+  ],
+  "verification": [
+    "Khung cuối có chức năng cụ thể.",
+    "Không có trôi/đổi tốc hoặc lặp chuyển động ngoài ý đồ ở các pha nối."
+  ],
+  "original_example": "Máy đi ngang cùng người mang hộp, chậm lại khi người đặt hộp để điểm tiếp xúc ở trong khung; giữ bức tường như mốc không gian.",
+  "counterexample": "Chuyển động tốc độ đều có thể là phong cách chủ ý; không áp đường cong tăng giảm tốc cho mọi shot.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "MO-001",
+    "MO-003",
+    "MO-005",
+    "CA-011",
+    "AI-013"
+  ],
+  "source_ids": [
+    "SRC-YALE-CAMERA",
+    "SRC-GOOGLE-PROMPT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mốc không gian cho phép kiểm đường đi; mốc sự kiện cho phép kiểm lý do và thời điểm. Chúng biến tên chuyển động thành yêu cầu có thể duyệt.",
+    "worked_example": {
+      "brief": "Máy đi ngang cùng người mang hộp, chậm lại khi người đặt hộp để điểm tiếp xúc ở trong khung; giữ bức tường như mốc không gian.",
+      "protected_elements": [
+        "Đường người mang hộp.",
+        "Điểm đặt hộp không ra ngoài khung."
+      ],
+      "option_a": "Yêu cầu orbit, zoom, pan và theo người cùng lúc mà không có thứ tự.",
+      "option_b": "Chọn tracking ngang theo một hành động, điểm dừng gắn với lúc đặt hộp.",
+      "selection_rule": "Chọn B khi mục tiêu là đọc hành động; thêm chuyển động chỉ khi có thông tin cụ thể cần nó.",
+      "observable_checks": [
+        "Khung cuối có chức năng cụ thể.",
+        "Không có trôi/đổi tốc hoặc lặp chuyển động ngoài ý đồ ở các pha nối."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Máy đi đẹp nhưng sự kiện quan trọng ra ngoài khung.",
+        "possible_causes": [
+          "Không có mốc cuối.",
+          "Vận tốc máy và chủ thể không được phối hợp."
+        ],
+        "next_test": "Dựng sơ bằng khung mốc, kiểm vùng thao tác trước khi sinh lại toàn shot."
+      }
+    ],
+    "evidence_links": []
+  }
+}

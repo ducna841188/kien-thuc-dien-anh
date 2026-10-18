@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:film-kb:knowledge:1.0.0",
+  "$id": "urn:film-kb:knowledge:1.1.0",
   "type": "object",
   "properties": {
     "id": {
@@ -141,6 +141,125 @@
     "updated_on": {
       "type": "string",
       "minLength": 1
+    },
+    "application_depth": {
+      "type": "object",
+      "properties": {
+        "mechanism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "worked_example": {
+          "type": "object",
+          "properties": {
+            "brief": {
+              "type": "string",
+              "minLength": 1
+            },
+            "protected_elements": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1
+            },
+            "option_a": {
+              "type": "string",
+              "minLength": 1
+            },
+            "option_b": {
+              "type": "string",
+              "minLength": 1
+            },
+            "selection_rule": {
+              "type": "string",
+              "minLength": 1
+            },
+            "observable_checks": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "brief",
+            "protected_elements",
+            "option_a",
+            "option_b",
+            "selection_rule",
+            "observable_checks"
+          ],
+          "additionalProperties": false
+        },
+        "failure_diagnosis": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "symptom": {
+                "type": "string",
+                "minLength": 1
+              },
+              "possible_causes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "next_test": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "symptom",
+              "possible_causes",
+              "next_test"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "evidence_links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "claim": {
+                "type": "string",
+                "minLength": 1
+              },
+              "scope_limit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "claim",
+              "scope_limit"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "mechanism",
+        "worked_example",
+        "failure_diagnosis",
+        "evidence_links"
+      ],
+      "additionalProperties": false
     }
   },
   "required": [
@@ -166,5 +285,6 @@
     "evidence_policy",
     "updated_on"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$comment": "Bổ sung application_depth tùy chọn; các bản ghi kiến thức 1.0.0 vẫn hợp lệ. Các hợp đồng phân tích/tác vụ khác vẫn giữ 1.0.0."
 }

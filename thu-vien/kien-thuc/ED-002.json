@@ -1,7 +1,7 @@
 {
   "id": "ED-002",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "ED",
   "title": "Điểm cắt theo hành động, thông tin và phản ứng",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi có nhiều phiên bản điểm vào/ra."
   ],
-  "principle": "Chọn điểm cắt theo điều vừa đủ hiểu, mong chờ và hướng chú ý. Không bắt buộc cắt ngay khi hành động kết thúc.",
+  "principle": "Chọn điểm cắt theo điều vừa đủ hiểu, mong chờ và hướng chú ý. Không bắt buộc cắt ngay khi hành động kết thúc. Có thể cắt trước/trong/sau tiếp xúc theo mục tiêu; ưu tiên bằng chứng cần thấy và trạng thái nối hơn một mẹo cắt chung.",
   "actions": [
     "Xác định thông tin phải được nhận trước cut.",
     "Thử vào sớm/muộn và ra sớm/muộn quanh sự kiện.",
-    "Giữ hoặc bỏ nhịp phản ứng theo vai trò của nó."
+    "Giữ hoặc bỏ nhịp phản ứng theo vai trò của nó.",
+    "So đoạn liên tục quanh cut ở tốc độ thường, kiểm vị trí thông tin ở shot mới và chỉ rà frame để tìm nguyên nhân khi cần."
   ],
   "tradeoffs": [
     "Cắt rất gọn có thể mất trọng lượng thao tác; giữ dư có thể lặp thông tin."
   ],
   "verification": [
     "Không bỏ mất kết quả cần xác nhận.",
-    "Không cắt làm động tác có vẻ bị lặp hoặc nhảy vô cớ."
+    "Không cắt làm động tác có vẻ bị lặp hoặc nhảy vô cớ.",
+    "Người xem đọc được tác động và không phải tìm lại vật quá muộn."
   ],
   "original_example": "Đợi bát thật sự đứng trên khay rồi mới chuyển nếu việc đặt là bằng chứng cần thấy.",
   "counterexample": "Cắt trước tiếp xúc có thể tạo mong chờ nếu shot sau trả đúng sự kiện.",
@@ -32,7 +34,10 @@
   "related_ids": [
     "DR-003",
     "ED-003",
-    "SO-004"
+    "SO-004",
+    "ED-009",
+    "ED-010",
+    "DR-008"
   ],
   "source_ids": [
     "B024",
@@ -45,5 +50,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Điểm cắt cần xét pha hành động và thời gian nhận diện của shot mới.",
+    "worked_example": {
+      "brief": "Chốt chỉ bật một lần ở ngay đầu cận mới.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Cắt đúng lúc bật để “có lực”.",
+      "option_b": "Vào cận đủ sớm để nhận diện chốt nếu người mới đang bỏ lỡ.",
+      "selection_rule": "Chọn B khi bằng chứng bị mất; không có số frame sớm hơn chung cho mọi cảnh.",
+      "observable_checks": [
+        "Người xem đọc được tác động và không phải tìm lại vật quá muộn."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hành động đã có hình nhưng người xem vẫn không thấy.",
+        "possible_causes": [
+          "Thông tin xuất hiện trước khi người xem định hướng kịp."
+        ],
+        "next_test": "Thử điểm vào/cỡ cảnh khác, kiểm đúng khả năng nhận ra sự kiện."
+      }
+    ],
+    "evidence_links": []
+  }
 }

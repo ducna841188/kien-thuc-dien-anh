@@ -1,0 +1,79 @@
+{
+  "id": "AI-012",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AI",
+  "title": "Chia việc giữa sinh hình và hậu kỳ để sửa đúng tầng",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Lỗi này nên tạo lại, sửa vùng, dựng, ghép hay thay âm?",
+  "use_when": [
+    "Clip gần đạt, nhiều công cụ hoặc model không làm tốt một chi tiết chính xác."
+  ],
+  "principle": "Sản xuất AI là một chuỗi công việc có thể kết hợp sinh, dựng, compositing, màu và âm. Chọn công đoạn sửa theo lỗi và phần cần giữ; khả năng chỉnh cụ thể phải được xác minh trong công cụ thực tế.",
+  "actions": [
+    "Phân loại lỗi: cấu trúc, nhận diện, hình học/tiếp xúc, chuyển động, chữ/đồ họa, sáng/màu hoặc âm; xác định lỗi nằm cả shot hay một khoảng/vùng.",
+    "So phương án theo độ đúng mục tiêu, phần dễ hỏng và chi phí toàn chuỗi. Chữ cần chính xác có thể thêm ở hậu kỳ; âm lệch có thể thay riêng nếu nguồn/công cụ cho phép.",
+    "Khi ghép/sửa vùng, kiểm mép, che khuất, hướng sáng, bóng, hạt, nhòe và ổn định theo thời gian; xem bản xuất đầy đủ trước khi báo đạt."
+  ],
+  "tradeoffs": [
+    "Sửa cục bộ có thể tiết kiệm nhưng tăng công tracking/che mép; tạo lại có thể sạch hơn nhưng làm mất phần hình đã tốt."
+  ],
+  "verification": [
+    "Phương án bảo vệ rõ phần đã được duyệt.",
+    "Không tuyên bố có mask/track/stem/inpaint chỉ dựa trên tên model."
+  ],
+  "original_example": "Biển chữ cần đúng trong cảnh đã đẹp: so thêm chữ bằng đồ họa có phối cảnh với sinh lại toàn shot; kiểm chữ có bị vật đi qua che đúng không.",
+  "counterexample": "Lỗi tiếp xúc mang toàn chuỗi không luôn sửa bằng một frame; vá ảnh đứng có thể tạo nhấp nháy trong video.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-008",
+    "SO-008",
+    "CO-006",
+    "QC-002",
+    "QC-005"
+  ],
+  "source_ids": [
+    "SRC-BMD-TRAINING",
+    "SRC-GOOGLE-I2V"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mỗi công đoạn có khả năng kiểm soát khác nhau. Chọn đúng tầng giảm việc nhờ một model giải mọi vấn đề bằng một lần sinh.",
+    "worked_example": {
+      "brief": "Biển chữ cần đúng trong cảnh đã đẹp: so thêm chữ bằng đồ họa có phối cảnh với sinh lại toàn shot; kiểm chữ có bị vật đi qua che đúng không.",
+      "protected_elements": [
+        "Hình đạt.",
+        "Thời điểm và ý nghĩa âm cần thay."
+      ],
+      "option_a": "Sinh lại clip đã đạt chỉ vì một tiếng cửa bị lệch.",
+      "option_b": "Giữ hình, sửa thời điểm/nguồn âm và duyệt lại quan hệ hình–âm nếu công cụ cho phép.",
+      "selection_rule": "Chọn B khi lỗi độc lập ở âm; tạo lại chỉ khi sửa riêng không đạt hoặc có lỗi hình liên quan.",
+      "observable_checks": [
+        "Phương án bảo vệ rõ phần đã được duyệt.",
+        "Không tuyên bố có mask/track/stem/inpaint chỉ dựa trên tên model."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Sửa một lỗi nhỏ xong xuất hiện nhiều lỗi mới.",
+        "possible_causes": [
+          "Tạo lại toàn bộ mà không cần.",
+          "Sửa vùng không theo chuyển động/che khuất."
+        ],
+        "next_test": "So một phương án sửa cục bộ với chi phí/rủi ro tạo lại; đánh giá cả phần được giữ và vùng mới sửa."
+      }
+    ],
+    "evidence_links": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "AI-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AI",
+  "title": "Tiền kỳ bằng bản dựng sơ trước khi tạo hàng loạt",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Câu chuyện và thời lượng có hoạt động trước khi đầu tư vào clip đẹp không?",
+  "use_when": [
+    "Phim nhiều shot, nhiều model, ngân sách tạo có hạn hoặc kịch bản chưa chắc."
+  ],
+  "principle": "Dùng storyboard/bản dựng ảnh có thời gian và âm tạm để kiểm tiến trình, khả năng hiểu và nhịp trước khi sinh hàng loạt. Bản dựng sơ kiểm cấu trúc, không chứng minh chất lượng chuyển động hoặc phản ứng thật của khán giả.",
+  "actions": [
+    "Chuyển kịch bản thành các nhịp thay đổi và shot có chức năng, đặt ảnh phác/ảnh giữ chỗ cùng thời lượng dự kiến, lời/âm tạm nếu cần.",
+    "Kiểm lời hứa–mở–phát triển–kết quả, chỗ thiếu coverage và độ dài đọc/làm việc. Tạo thử shot khó có ảnh hưởng cấu trúc trước, không cần mọi cảnh đẹp mới xem mạch.",
+    "Sau duyệt sơ, lập danh sách tài sản/job và phần cần dự phòng; cập nhật bản dựng theo take đạt thay vì kéo mọi clip đủ thời lượng sinh sẵn."
+  ],
+  "tradeoffs": [
+    "Tiền kỳ thêm công ban đầu nhưng giảm sinh lại; ảnh đứng có thể đánh lừa về tính khả thi của hành động liên tục."
+  ],
+  "verification": [
+    "Mỗi shot có chức năng và liên hệ với nhịp.",
+    "Rủi ro chuyển động/tiếp xúc có thử riêng hoặc còn được ghi chưa biết."
+  ],
+  "original_example": "Một phim về sửa đồ được dựng bằng sáu ảnh và âm tạm để kiểm thấy hỏng→thử→sửa→dùng; chỉ sau đó mới quyết định cần bao nhiêu take khó.",
+  "counterexample": "Một phim ứng tác hoặc quay quan sát có thể phát triển cấu trúc khi dựng; vẫn có thể dùng bản sơ ở giai đoạn phù hợp, không ép khóa trước mọi thứ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-003",
+    "DR-006",
+    "AI-004",
+    "QC-005",
+    "QC-007"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT",
+    "SRC-GOOGLE-I2V"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Tách rủi ro cấu trúc khỏi rủi ro sinh hình giúp phát hiện lỗi bằng cách rẻ hơn. Bản sơ là công cụ ra quyết định, không là mẫu chuyển động đã được kiểm.",
+    "worked_example": {
+      "brief": "Một phim về sửa đồ được dựng bằng sáu ảnh và âm tạm để kiểm thấy hỏng→thử→sửa→dùng; chỉ sau đó mới quyết định cần bao nhiêu take khó.",
+      "protected_elements": [
+        "Trục hỏng→thử→sửa→dùng.",
+        "Chưa gán chuyển động đạt từ ảnh sơ."
+      ],
+      "option_a": "Tạo hết các shot ở chất lượng cao rồi mới ghép lần đầu.",
+      "option_b": "Dựng sơ bằng ảnh/âm tạm, thử hành động khó trước, rồi tạo theo danh sách có mục tiêu.",
+      "selection_rule": "Chọn B khi cấu trúc còn chưa rõ hoặc chi phí sinh đáng kể; A chỉ hợp khi cấu trúc đã được kiểm bằng đầu vào khác.",
+      "observable_checks": [
+        "Mỗi shot có chức năng và liên hệ với nhịp.",
+        "Rủi ro chuyển động/tiếp xúc có thử riêng hoặc còn được ghi chưa biết."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Có nhiều clip đẹp nhưng thiếu cảnh nối và phải tạo lại nhiều.",
+        "possible_causes": [
+          "Chưa kiểm mạch toàn phim.",
+          "Danh sách tạo không gắn với bằng chứng cần cho nhịp."
+        ],
+        "next_test": "Ghép bản sơ từ tài sản có sẵn; đánh dấu thiếu thông tin trước khi đặt thêm job."
+      }
+    ],
+    "evidence_links": []
+  }
+}

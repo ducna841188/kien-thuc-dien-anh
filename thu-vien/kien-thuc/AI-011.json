@@ -1,0 +1,78 @@
+{
+  "id": "AI-011",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AI",
+  "title": "Kiểm tính khả thi của ảnh tham chiếu trước khi viết thêm prompt",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Hành động mong muốn có thể bắt đầu từ tư thế và quan hệ trong ảnh này không?",
+  "use_when": [
+    "Image-to-video liên tục lỗi tay, trao vật, mở cửa, đi qua hoặc xoay đồ."
+  ],
+  "principle": "Ảnh tham chiếu vừa cung cấp nhận diện vừa đặt trạng thái ban đầu. Nếu điểm đỡ, tay, dụng cụ, khoảng trống hoặc che khuất mâu thuẫn với hành động, thêm chữ có thể không giải được; cần sửa đầu vào hoặc đổi cách chia shot.",
+  "actions": [
+    "Kiểm các điểm bắt đầu: tay nào rảnh/giữ gì, dụng cụ thật ở đâu, vật có đường đi không, cửa có khớp quay, khớp người có tư thế khả thi không.",
+    "Chọn một hành động chính đủ rõ cho job. Nếu ảnh đầu không phù hợp, chuẩn bị ảnh khác/sửa hình bằng công cụ có khả năng hoặc bắt đầu ở pha khác, bảo vệ phần đã duyệt.",
+    "Thử đoạn khó trước; xem toàn pha che/lộ và tiếp xúc. Nếu lỗi không ổn định, so dàn cảnh khác hoặc tách góc có chức năng thay vì chỉ kéo prompt dài."
+  ],
+  "tradeoffs": [
+    "Sửa ảnh có thể lệch nhận diện; đổi góc có thể mất cảm giác liên tục. Cần so chi phí và điều khán giả nhất thiết phải thấy."
+  ],
+  "verification": [
+    "Không yêu cầu tay đang ôm đồ thực hiện thêm thao tác bất khả thi.",
+    "Ảnh chỉnh hoặc shot tách vẫn giữ mục tiêu hành động và trạng thái đã chốt."
+  ],
+  "original_example": "Ảnh người giữ khay bằng cả hai tay nhưng cần mở cửa: có thể đặt khay trước, nhờ người khác mở hoặc chuẩn bị tư thế có tay rảnh tùy kịch bản.",
+  "counterexample": "Model có thể tự bịa một lối giải không có trong ảnh; điều đó không chứng minh đã giữ đúng yêu cầu của dự án.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-001",
+    "AI-003",
+    "DR-002",
+    "DR-008"
+  ],
+  "source_ids": [
+    "SRC-GOOGLE-I2V",
+    "SRC-RUNWAY-GEN4"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Lỗi đầu vào khác lỗi cách diễn đạt. Khi trạng thái đầu không chứa một lối hành động hợp lý, tăng độ chi tiết câu lệnh có thể chỉ thêm mâu thuẫn.",
+    "worked_example": {
+      "brief": "Ảnh người giữ khay bằng cả hai tay nhưng cần mở cửa: có thể đặt khay trước, nhờ người khác mở hoặc chuẩn bị tư thế có tay rảnh tùy kịch bản.",
+      "protected_elements": [
+        "Việc mang khay và mở cửa theo kịch bản.",
+        "Nhận diện và tư thế đã duyệt ở phần không sửa."
+      ],
+      "option_a": "Thêm “tay chính xác, vật lý hoàn hảo” nhiều lần.",
+      "option_b": "Kiểm và sửa tư thế/đường đi hoặc chia nhịp để có tay rảnh trước khi mở.",
+      "selection_rule": "Chọn B khi lỗi xuất phát từ quan hệ đầu; A không cung cấp trạng thái còn thiếu.",
+      "observable_checks": [
+        "Không yêu cầu tay đang ôm đồ thực hiện thêm thao tác bất khả thi.",
+        "Ảnh chỉnh hoặc shot tách vẫn giữ mục tiêu hành động và trạng thái đã chốt."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mỗi lần tạo lại model mọc tay hoặc làm khay biến mất.",
+        "possible_causes": [
+          "Không có tay rảnh.",
+          "Vật bị che hoặc không có đường di chuyển."
+        ],
+        "next_test": "Vẽ lại chuỗi trạng thái đơn giản, thay một điều kiện đầu và kiểm đúng tiếp xúc khó trước."
+      }
+    ],
+    "evidence_links": []
+  }
+}

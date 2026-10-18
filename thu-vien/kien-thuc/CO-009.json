@@ -1,0 +1,85 @@
+{
+  "id": "CO-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "CO",
+  "title": "Dữ liệu theo cảnh và hình đã hiển thị: tránh gán nhầm Log/RAW cho AI",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Tệp này còn mang dữ liệu theo cảnh hay đã được dựng vẻ để hiển thị?",
+  "use_when": [
+    "Dùng ACES, LUT, nhiều nguồn AI/quay thật/CGI hoặc xuất SDR/HDR."
+  ],
+  "principle": "Quy trình màu cần nhận diện đúng dữ liệu đầu vào, không đoán theo vẻ phẳng hoặc chữ “cinematic”. ACES dùng biến đổi đầu vào và đầu ra trong một hệ quản lý; nó không tự biến clip AI đã hoàn thiện thành dữ liệu máy quay gốc hay khôi phục phần đã mất.",
+  "actions": [
+    "Lập danh sách cho từng nguồn: container/codec, tag màu, tài liệu xuất và những điều chưa biết. Vẻ hình chỉ là manh mối, không thay metadata và nguồn cung cấp.",
+    "Chọn quy trình đủ dùng và ghi chuỗi biến đổi. Clip đã mang look hiển thị không tự nhận camera Log transform chỉ vì muốn grade sâu.",
+    "Khi cần giao nhiều chuẩn hiển thị, kiểm cả biến đổi đầu ra và bản xem lại; với YouTube SDR đối chiếu hướng dẫn đầu ra hiện hành và không gắn nhãn HDR cho nội dung chỉ được tăng sáng."
+  ],
+  "tradeoffs": [
+    "Quy trình quản lý đầy đủ tăng khả năng kiểm nhưng có thể quá phức tạp cho nguồn đơn giản; sai transform có thể tệ hơn việc grade trong một quy trình SDR rõ ràng."
+  ],
+  "verification": [
+    "Mỗi biến đổi có đầu vào/đầu ra được ghi.",
+    "Không áp trùng LUT/transform hoặc báo “phục hồi RAW” khi chỉ có clip đã xuất."
+  ],
+  "original_example": "Một clip AI SDR và một clip quay Log: xác minh từng nguồn, đưa qua cách xử lý phù hợp rồi mới cân khớp; không dùng cùng LUT máy quay cho cả hai.",
+  "counterexample": "Thiếu metadata phải ghi chưa chắc và thử có đối chiếu; không tự suy model sinh video xuất ACES hay Log.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CO-006",
+    "CO-007",
+    "CO-008",
+    "AI-013"
+  ],
+  "source_ids": [
+    "SRC-ACES-WORKFLOW",
+    "SRC-YT-ENCODE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Biến đổi kỹ thuật có miền đầu vào. Dùng sai miền có thể đổi tương phản/màu theo cách không mong muốn; cảm giác chuyên nghiệp đến từ quy trình đúng và kiểm đầu ra, không từ tên hệ màu.",
+    "worked_example": {
+      "brief": "Một clip AI SDR và một clip quay Log: xác minh từng nguồn, đưa qua cách xử lý phù hợp rồi mới cân khớp; không dùng cùng LUT máy quay cho cả hai.",
+      "protected_elements": [
+        "Bản gốc và metadata từng nguồn.",
+        "Chuỗi biến đổi có thể truy lại."
+      ],
+      "option_a": "Gán camera Log cho clip phẳng rồi thêm LUT chuyển Rec.709.",
+      "option_b": "Kiểm thông tin nguồn; nếu là hình đã render thì dùng cách quản lý phù hợp và ghi giới hạn dữ liệu.",
+      "selection_rule": "Chọn B khi không có bằng chứng về encoding theo máy quay; chỉ dùng A khi định dạng đó được xác minh.",
+      "observable_checks": [
+        "Mỗi biến đổi có đầu vào/đầu ra được ghi.",
+        "Không áp trùng LUT/transform hoặc báo “phục hồi RAW” khi chỉ có clip đã xuất."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hình bị tương phản hoặc saturation quá mạnh ngay khi bật transform.",
+        "possible_causes": [
+          "Gán nhầm đầu vào.",
+          "Biến đổi lặp.",
+          "Tag đầu ra/ứng dụng xem khác nhau."
+        ],
+        "next_test": "Tạm bỏ từng biến đổi theo chuỗi, so với tệp nguồn ở môi trường được kiểm và ghi điểm bắt đầu sai."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-ACES-WORKFLOW",
+        "claim": "Hệ ACES có các biến đổi phù hợp miền đầu vào và chuẩn bị đầu ra hiển thị.",
+        "scope_limit": "Không chứng minh một clip AI là Log/RAW/ACES, không phục hồi dữ liệu đã mất và không buộc mọi dự án dùng ACES."
+      }
+    ]
+  }
+}

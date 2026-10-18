@@ -1,7 +1,7 @@
 {
   "id": "LI-003",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "LI",
   "title": "Tương phản, bù sáng và vùng tối",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi cân bằng độ rõ và không khí."
   ],
-  "principle": "Tách mức sáng tổng thể khỏi chênh sáng–tối. Bù sáng nâng vùng tối; chặn ánh phản xạ có thể giữ vùng tối sâu hơn. Không gán tỷ lệ số khi chưa đo.",
+  "principle": "Tách mức sáng tổng thể khỏi chênh sáng–tối. Bù sáng nâng vùng tối; chặn ánh phản xạ có thể giữ vùng tối sâu hơn. Không gán tỷ lệ số khi chưa đo. Tách độ mềm của bóng khỏi chênh sáng hai phía. Fill/bounce có thể nâng phía tối, negative fill giảm hắt; cần giữ lý do nguồn và thông tin chính.",
   "actions": [
     "Chọn chi tiết phải giữ ở vùng sáng và tối.",
     "Điều chỉnh hướng/độ bù hoặc nền thay vì chỉ tăng mọi độ sáng.",
-    "Kiểm chuỗi hình và thiết bị hiển thị đích."
+    "Kiểm chuỗi hình và thiết bị hiển thị đích.",
+    "So một thay đổi tại vị trí chủ thể: thêm bề mặt hắt, bớt hắt hoặc đổi hướng nguồn; kiểm ảnh hưởng nền, phản chiếu và chuyển động."
   ],
   "tradeoffs": [
     "Tương phản thấp có thể thiếu tách lớp; tương phản cao có thể che hành động."
   ],
   "verification": [
     "Nhìn được bằng chứng quan trọng mà vẫn giữ không khí.",
-    "Không coi high-key là chỉ phơi sáng quá hoặc low-key là chỉ ảnh thiếu sáng."
+    "Không coi high-key là chỉ phơi sáng quá hoặc low-key là chỉ ảnh thiếu sáng.",
+    "Thao tác sửa độ nổi không phá quan hệ sáng có chủ đích trong cảnh."
   ],
   "original_example": "Mặt được đọc rõ trong phòng tối mà cửa sổ vẫn là hướng sáng chính.",
   "counterexample": "Một hình sáng rực vẫn có thể có bóng đen sâu; sáng tổng thể và tương phản là hai trục.",
@@ -32,7 +34,9 @@
   "related_ids": [
     "LI-004",
     "CO-003",
-    "QC-001"
+    "QC-001",
+    "LI-006",
+    "LI-008"
   ],
   "source_ids": [
     "B008",
@@ -45,5 +49,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Tương phản không bắt buộc giải bằng sơ đồ ba đèn; môi trường hắt và che sáng có vai trò lớn.",
+    "worked_example": {
+      "brief": "Một vật sáng hòa vào nền sáng dù ánh rất mềm.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Thêm rim light mạnh vào mọi cảnh.",
+      "option_b": "So đổi nền/độ hắt/hướng sáng theo nguồn hợp lý trước.",
+      "selection_rule": "Chọn theo khả năng đọc vật và phong cách; không bắt một sơ đồ đèn chung.",
+      "observable_checks": [
+        "Thao tác sửa độ nổi không phá quan hệ sáng có chủ đích trong cảnh."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Có chiều sâu nhưng vật như ghép vào nền.",
+        "possible_causes": [
+          "Độ tách hoặc viền sáng trái nguồn đã thiết lập."
+        ],
+        "next_test": "So phương án giảm cạnh tranh nền với phương án tăng sáng chủ thể; giữ vật liệu nhất quán."
+      }
+    ],
+    "evidence_links": []
+  }
 }

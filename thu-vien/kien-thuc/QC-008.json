@@ -1,0 +1,79 @@
+{
+  "id": "QC-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "QC",
+  "title": "Chuyển mục tiêu thành tiêu chí kiểm và giữ giới hạn kết luận",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Bằng chứng nào thực sự trả lời câu hỏi đang muốn biết?",
+  "use_when": [
+    "Duyệt “điện ảnh”, “êm”, “cuốn”, “rõ”, so phiên bản hoặc tổng kết dữ liệu người xem."
+  ],
+  "principle": "Mỗi mục tiêu cần tiêu chí tương ứng: hình/âm kiểm tính thực hiện, người xem kiểm khả năng hiểu/cảm nhận, Analytics mô tả hành vi trong hoàn cảnh phân phối. Một phép đo không tự thay thế tất cả mục tiêu.",
+  "actions": [
+    "Viết bảng mục tiêu→dấu hiệu→cách thu→giới hạn: “rõ thao tác” kiểm người xem kể bước; “nhất quán vật” kiểm trạng thái; “êm” cần phản hồi phù hợp, không suy riêng từ thời lượng shot.",
+    "Đặt tiêu chí trước khi nhìn kết quả, ghi tệp người xem/cỡ mẫu/cách chọn/thời điểm và các biến đổi cùng lúc. Mẫu nhỏ hữu ích tìm lỗi nhưng cần giữ giới hạn suy rộng.",
+    "So phiên bản cùng điều kiện khi có thể; nếu không ngẫu nhiên hoặc không kiểm biến, báo quan sát và giả thuyết. Không biến điểm tự chấm của AI thành hài lòng của khán giả."
+  ],
+  "tradeoffs": [
+    "Đo đầy đủ tốn công; ưu tiên câu hỏi quyết định bước tiếp theo, tránh gom nhiều chỉ số nhưng không biết sẽ sửa gì."
+  ],
+  "verification": [
+    "Mỗi kết luận dẫn về đúng loại bằng chứng.",
+    "Chỉ số, ý đồ và phản hồi người xem không bị trộn trong cùng một nhãn đạt."
+  ],
+  "original_example": "Bản B làm người thử kể đúng các bước hơn nhưng chưa có dữ liệu xem toàn phim: có thể báo cải thiện khả năng hiểu trong mẫu đó, chưa báo tăng retention hoặc view.",
+  "counterexample": "Không cần một thử nghiệm thống kê cho mọi lựa chọn thẩm mỹ nhỏ; vẫn có thể quyết định theo mục tiêu, kinh nghiệm và ghi phần chưa được kiểm.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-004",
+    "AU-006",
+    "EV-008",
+    "QC-003",
+    "YT-007"
+  ],
+  "source_ids": [
+    "SRC-YT-RETENTION",
+    "SRC-YT-CTR",
+    "SRC-YT-PERFORMANCE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Kết luận mạnh đến đâu phụ thuộc phép đo trả lời được đến đó. Gắn tiêu chí với quyết định giúp dùng dữ liệu mà không đánh đồng tương quan, tuân thủ kỹ thuật và tác dụng khán giả.",
+    "worked_example": {
+      "brief": "Bản B làm người thử kể đúng các bước hơn nhưng chưa có dữ liệu xem toàn phim: có thể báo cải thiện khả năng hiểu trong mẫu đó, chưa báo tăng retention hoặc view.",
+      "protected_elements": [
+        "Mục tiêu khả năng hiểu, không đổi thành tăng view."
+      ],
+      "option_a": "AI tự cho điểm 9/10 rồi ghi phim đã được khán giả thích.",
+      "option_b": "Dùng kiểm chuyên môn cho lỗi thực hiện, hỏi người xem phù hợp cho trải nghiệm và giữ Analytics thành dữ liệu hành vi.",
+      "selection_rule": "Chọn B khi đánh giá hiệu quả; điểm chuyên môn có ích nhưng không phải phản ứng của người xem.",
+      "observable_checks": [
+        "Mỗi kết luận dẫn về đúng loại bằng chứng.",
+        "Chỉ số, ý đồ và phản hồi người xem không bị trộn trong cùng một nhãn đạt."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Báo cáo nhiều điểm đẹp nhưng không giải thích vì sao khán giả chưa thích.",
+        "possible_causes": [
+          "Tiêu chí đo không khớp mục tiêu.",
+          "Tệp người thử khác tệp cần phục vụ."
+        ],
+        "next_test": "Chọn một mục tiêu còn thiếu bằng chứng và thu đúng loại phản hồi; đừng chỉ thêm điểm số tự chấm."
+      }
+    ],
+    "evidence_links": []
+  }
+}

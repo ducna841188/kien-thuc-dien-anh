@@ -1,0 +1,76 @@
+{
+  "id": "QC-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "QC",
+  "title": "Duyệt theo công đoạn để không hoàn thiện một cấu trúc còn sai",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Bằng chứng nào đủ để chuyển sang công đoạn tiếp theo?",
+  "use_when": [
+    "Sản xuất nhiều shot, nhiều người/AI hoặc liên tục phải quay lại sửa việc đã hoàn thiện."
+  ],
+  "principle": "Đặt điểm duyệt theo loại rủi ro: yêu cầu→kịch bản→bản sơ→tài sản/shot khó→take→bản dựng→âm/màu→bản giao. Duyệt đúng thứ cần chứng minh ở mỗi điểm; một ảnh đẹp không xác nhận chuyển động, một bản đúng schema không xác nhận chất lượng phim.",
+  "actions": [
+    "Ghi đầu vào, đầu ra và tiêu chí đạt cho từng công đoạn; phần thiếu quan trọng có thể giữ trạng thái tạm để thử, không giả hoàn tất.",
+    "Kiểm rủi ro khó sửa muộn trước: lời hứa/cấu trúc, nhận diện, hành động then chốt. Có thể tiến song song các phần độc lập nhưng phải giữ phiên bản.",
+    "Khi một thay đổi quay ngược, chỉ mở lại các phần phụ thuộc; ghi quyết định, lý do và phần vẫn được duyệt."
+  ],
+  "tradeoffs": [
+    "Quá nhiều điểm duyệt làm chậm; phim đơn giản có thể gộp công đoạn nhưng vẫn cần phân biệt bằng chứng."
+  ],
+  "verification": [
+    "Mỗi kết luận đạt nêu được đã kiểm điều gì và chưa kiểm điều gì.",
+    "Không làm màu/âm tỉ mỉ cho shot có khả năng bị bỏ vì sai cấu trúc chưa giải quyết."
+  ],
+  "original_example": "Trước tạo hàng chục cảnh, duyệt bản sơ hiểu được tiến trình và một thử tiếp xúc khó; chỉ sau đó mở rộng bộ tài sản.",
+  "counterexample": "Duyệt không buộc khóa sáng tạo vĩnh viễn; phát hiện mới có thể yêu cầu quay lại với tác động được ghi rõ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-009",
+    "QC-001",
+    "QC-004",
+    "QC-005"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Loại lỗi được phát hiện sớm bằng dạng đầu ra phù hợp thường ít làm mất công đã hoàn thiện. Đây là cách tổ chức công việc, không là chứng nhận hiệu quả đã đo cho dự án.",
+    "worked_example": {
+      "brief": "Trước tạo hàng chục cảnh, duyệt bản sơ hiểu được tiến trình và một thử tiếp xúc khó; chỉ sau đó mở rộng bộ tài sản.",
+      "protected_elements": [
+        "Mạch đã duyệt và phạm vi bằng chứng từng bước."
+      ],
+      "option_a": "Tạo xong, grade và mix mọi shot rồi mới duyệt kịch bản.",
+      "option_b": "Duyệt mạch bằng bản sơ, thử rủi ro tạo, sau đó hoàn thiện những take phục vụ bản dựng.",
+      "selection_rule": "Chọn B khi thay đổi cấu trúc còn khả năng lớn; A chỉ hợp khi cấu trúc đã được kiểm ở công đoạn khác.",
+      "observable_checks": [
+        "Mỗi kết luận đạt nêu được đã kiểm điều gì và chưa kiểm điều gì.",
+        "Không làm màu/âm tỉ mỉ cho shot có khả năng bị bỏ vì sai cấu trúc chưa giải quyết."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mỗi lần sửa kịch bản kéo theo sinh lại và làm màu toàn bộ.",
+        "possible_causes": [
+          "Không có phiên bản duyệt.",
+          "Rủi ro cấu trúc được để quá muộn."
+        ],
+        "next_test": "Lập danh sách phụ thuộc của một thay đổi; tách phần buộc sửa khỏi phần có thể giữ."
+      }
+    ],
+    "evidence_links": []
+  }
+}

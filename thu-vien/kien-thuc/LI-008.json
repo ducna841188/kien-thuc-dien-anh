@@ -1,0 +1,83 @@
+{
+  "id": "LI-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "LI",
+  "title": "Khoảng cách nguồn: độ suy giảm và vùng sáng ổn định",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nguồn nên ở đâu để người/vật đi qua cảnh vẫn giữ quan hệ sáng phù hợp?",
+  "use_when": [
+    "Dàn cảnh có chuyển động, ánh sáng quá tụt theo bước chân hoặc nền cần tối hơn."
+  ],
+  "principle": "Với nguồn gần đúng nguồn điểm và điều kiện phù hợp, độ rọi giảm theo bình phương khoảng cách. Nguồn lớn ở gần, phản xạ phòng và chùm sáng có thể lệch mô hình đơn giản; dùng quy luật để dự đoán rồi đo/xem thử. Khoảng cách nguồn cũng thay đổi kích thước biểu kiến và chất bóng.",
+  "actions": [
+    "Vẽ vị trí nguồn, chủ thể và vùng hành động; kiểm tại các mốc gần/xa quan trọng thay vì chỉ một vị trí đẹp.",
+    "Muốn tương đối đều qua đường đi, so nguồn xa hơn hoặc nguồn phủ phù hợp; muốn tách sáng chủ thể/nền, so bố trí có độ chênh khoảng cách lớn. Bù công suất và kích thước nguồn khi cần.",
+    "Với ảnh/video AI, mô tả dấu kết quả sáng nhất quán theo vị trí và kiểm lại; đừng hứa model tuân đúng công thức lux."
+  ],
+  "tradeoffs": [
+    "Đẩy nguồn ra xa có thể cần thêm công suất và làm bóng cứng hơn nếu không tăng kích thước; đưa gần có thể tăng chênh sáng ngoài ý đồ."
+  ],
+  "verification": [
+    "Sáng không nhảy vô cớ khi chủ thể đi qua vùng liên tục.",
+    "Mô tả mềm/cứng xét kích thước biểu kiến, không chỉ khoảng cách đơn lẻ."
+  ],
+  "original_example": "Người đi cạnh một đèn bàn: có thể chủ ý sáng tăng khi gần đèn; với cảnh cần mặt ổn định, thử bố trí nguồn phủ khác thay vì kéo sáng từng frame.",
+  "counterexample": "Không dùng 1/r² như phép đo chính xác cho mọi softbox sát chủ thể hoặc trời sáng rộng; các điều kiện xấp xỉ phải phù hợp.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "LI-001",
+    "LI-002",
+    "LI-005",
+    "MO-008"
+  ],
+  "source_ids": [
+    "SRC-ILT-LIGHT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Khoảng cách là biến thiết kế cả độ sáng lẫn chất lượng hình. Quy tắc nguồn điểm là mô hình giới hạn; phản xạ và kích thước thực làm kết quả tại trường quay cần kiểm riêng.",
+    "worked_example": {
+      "brief": "Người đi cạnh một đèn bàn: có thể chủ ý sáng tăng khi gần đèn; với cảnh cần mặt ổn định, thử bố trí nguồn phủ khác thay vì kéo sáng từng frame.",
+      "protected_elements": [
+        "Đường đi đã duyệt.",
+        "Nguồn sáng có lý do và chênh sáng có chủ đích."
+      ],
+      "option_a": "Đặt nguồn rất gần cho đẹp ở mốc đầu rồi khóa phơi sáng và bỏ kiểm cuối đường.",
+      "option_b": "Kiểm các mốc đường đi, chọn nguồn và mức chênh sáng phù hợp toàn hành động.",
+      "selection_rule": "Chọn B nếu hành động cần liên tục; A chỉ chấp nhận khi chênh sáng đó có lý do và phục vụ cảnh.",
+      "observable_checks": [
+        "Sáng không nhảy vô cớ khi chủ thể đi qua vùng liên tục.",
+        "Mô tả mềm/cứng xét kích thước biểu kiến, không chỉ khoảng cách đơn lẻ."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mặt sáng tối rất mạnh dù người chỉ dịch nhẹ.",
+        "possible_causes": [
+          "Nguồn gần so với độ dài đường đi.",
+          "Bị che nguồn hoặc đổi hướng mặt."
+        ],
+        "next_test": "Giữ đường người, thử vị trí nguồn khác và kiểm cả bóng, nền, công suất; không chỉ so độ sáng trung bình."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-ILT-LIGHT",
+        "claim": "Quy luật bình phương khoảng cách cần điều kiện gần đúng nguồn điểm.",
+        "scope_limit": "Không áp chính xác cho mọi nguồn lớn ở gần, phòng nhiều phản xạ hoặc mọi hình do AI sinh."
+      }
+    ]
+  }
+}

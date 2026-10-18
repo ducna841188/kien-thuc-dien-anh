@@ -1,0 +1,79 @@
+{
+  "id": "QC-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "QC",
+  "title": "Chọn phương án theo nhiều mục tiêu và ngân sách rủi ro",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nên đầu tư thử và sửa vào phần nào có ảnh hưởng lớn nhất?",
+  "use_when": [
+    "Cân chất lượng, độ tin, cảm xúc, chi phí, thời gian và năng lực công cụ."
+  ],
+  "principle": "Chọn theo ràng buộc bắt buộc trước, rồi so các đánh đổi còn lại. Dành thử nghiệm cho lỗi có hậu quả lớn, khó sửa muộn hoặc chưa biết khả năng làm; không cần mọi shot đạt cùng mức phức tạp.",
+  "actions": [
+    "Liệt kê điều bắt buộc: đúng hành động/thông tin, phần đã duyệt, thông số giao và ngân sách. Loại phương án không đáp ứng trước khi cộng điểm thẩm mỹ.",
+    "Với từng rủi ro ghi khả năng chưa chắc, hậu quả nếu lỗi, cách phát hiện sớm và phương án dự phòng. Đây là ước lượng lập kế hoạch, không là xác suất đã đo.",
+    "Ưu tiên thử cảnh then chốt, giữ cảnh đơn giản đủ tốt và tính chi phí trên take/giây thực dùng cộng công hậu kỳ. Chỉ lặp khi còn một giả thuyết sửa có ý nghĩa."
+  ],
+  "tradeoffs": [
+    "Thử quá ít tăng nguy cơ hỏng muộn; thử mọi thứ ở mức cao nhất có thể tiêu hết ngân sách trước khi cấu trúc thành hình."
+  ],
+  "verification": [
+    "Phương án chọn giải thích được vì sao phù hợp yêu cầu.",
+    "Không chấm một tổng điểm che việc vi phạm điều bắt buộc hoặc gọi ước lượng là tỷ lệ đạt thật."
+  ],
+  "original_example": "Shot trao vật quyết định kết nên thử tiếp xúc trước; ba shot không gian tĩnh có thể dùng cách tạo đơn giản hơn, vẫn kiểm nhận diện và màu.",
+  "counterexample": "Không phải cảnh phức tạp hoặc model đắt hơn sẽ phục vụ tốt hơn; cảnh cần thông tin rõ có thể hưởng lợi từ một khung đơn giản.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "QC-003",
+    "QC-005",
+    "AI-012",
+    "AI-013",
+    "DR-006"
+  ],
+  "source_ids": [
+    "SRC-GOOGLE-I2V",
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Ngân sách và thời gian có hạn; giá trị thử nằm ở việc giảm bất định cho quyết định quan trọng. Cân nhiều mục tiêu làm rõ hy sinh thay vì giấu trong một nhãn “chất lượng”.",
+    "worked_example": {
+      "brief": "Shot trao vật quyết định kết nên thử tiếp xúc trước; ba shot không gian tĩnh có thể dùng cách tạo đơn giản hơn, vẫn kiểm nhận diện và màu.",
+      "protected_elements": [
+        "Cảnh trao vật then chốt.",
+        "Ngân sách và phần dự phòng."
+      ],
+      "option_a": "Đầu tư mọi shot cùng số lần tạo lại, bất kể vai trò.",
+      "option_b": "Thử rủi ro then chốt trước, dùng tiêu chí tối thiểu cho phần phụ và giữ dự phòng có chức năng.",
+      "selection_rule": "Chọn B khi rủi ro không đều; số lần thử không có định mức chung bảo đảm chất lượng.",
+      "observable_checks": [
+        "Phương án chọn giải thích được vì sao phù hợp yêu cầu.",
+        "Không chấm một tổng điểm che việc vi phạm điều bắt buộc hoặc gọi ước lượng là tỷ lệ đạt thật."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Cạn ngân sách khi cảnh chính vẫn chưa làm được.",
+        "possible_causes": [
+          "Chi phí tập trung vào cảnh dễ đẹp.",
+          "Không có kiểm khả thi hoặc phương án dự phòng."
+        ],
+        "next_test": "Xếp lại các cảnh theo hậu quả nếu thất bại; thử hoặc đơn giản hóa cảnh chặn cấu trúc trước."
+      }
+    ],
+    "evidence_links": []
+  }
+}

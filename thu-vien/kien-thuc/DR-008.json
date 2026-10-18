@@ -1,0 +1,78 @@
+{
+  "id": "DR-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "DR",
+  "title": "Trọng lượng, thăng bằng và chuỗi tiếp xúc đáng tin",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Hành động này có cho thấy vật được đỡ, chịu lực và đổi trạng thái đúng lúc không?",
+  "use_when": [
+    "Chỉ đạo mang/vác/đổ/trao/đặt vật; sửa nhân vật AI trượt chân hoặc tay xuyên đồ."
+  ],
+  "principle": "Làm rõ chuỗi chuẩn bị→chạm/giữ→tác động→vật phản ứng→nhả/ổn định theo hành động thực tế. Trọng lượng được thể hiện bằng tư thế, gia tốc, điểm đỡ, biến dạng và tiếng phù hợp; không chỉ bằng một từ “nặng”.",
+  "actions": [
+    "Xác định vật được đỡ bởi gì ở từng thời điểm; đánh dấu lúc chuyển quyền giữ và lúc vật có thể tự đứng. Chọn cỡ/góc thấy được bằng chứng thiết yếu.",
+    "Chỉ đạo chuẩn bị tư thế, đổi trọng tâm hoặc điều chỉnh tay khi cần; không thêm động tác thừa cho vật nhẹ hoặc phong cách đã cách điệu.",
+    "Với AI, kiểm ảnh đầu có đủ tay/dụng cụ/khoảng trống. Tách tiếp xúc khó thành shot riêng nếu model không giữ được chuỗi; xem chuyển động đầy đủ quanh lúc chạm và nhả."
+  ],
+  "tradeoffs": [
+    "Chi tiết tiếp xúc tăng độ tin nhưng cũng tăng độ khó tạo. Che một phần có thể hợp dàn cảnh, nhưng không dùng che để làm mất bằng chứng khán giả cần."
+  ],
+  "verification": [
+    "Vật không có lúc treo không nguyên nhân hoặc xuyên điểm đỡ.",
+    "Âm tiếp xúc không đến trước chạm; bước chân không trượt ngoài chủ ý."
+  ],
+  "original_example": "Đặt thùng xuống: người hạ thùng, đáy chạm sàn, cơ thể giảm tải rồi tay rời; tiếng chạm thuộc thời điểm đáy gặp sàn.",
+  "counterexample": "Phim hoạt hình cách điệu có thể chủ ý vượt vật lý; phải giữ quy luật nội tại thay vì tự sửa thành hiện thực.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-002",
+    "AI-003",
+    "AI-011",
+    "SO-008"
+  ],
+  "source_ids": [
+    "SRC-YALE-STAGING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Người xem có nhiều dấu hình/âm để đọc một lực tác động. Phiếu kiểm ở đây là phương pháp thực hành theo trạng thái, không là mô phỏng động lực học định lượng.",
+    "worked_example": {
+      "brief": "Đặt thùng xuống: người hạ thùng, đáy chạm sàn, cơ thể giảm tải rồi tay rời; tiếng chạm thuộc thời điểm đáy gặp sàn.",
+      "protected_elements": [
+        "Đúng một chuỗi đặt thùng.",
+        "Điểm đỡ trước khi tay nhả."
+      ],
+      "option_a": "Tăng mô tả cơ bắp và độ nặng nhưng không chỉ rõ điểm thùng chạm.",
+      "option_b": "Chọn khung thấy đáy thùng và thời điểm nhả; giữ nguyên hình nhân vật đã duyệt.",
+      "selection_rule": "Chọn B khi vấn đề nằm ở chuỗi lực/tiếp xúc; tăng nét mặt không sửa quan hệ hình học.",
+      "observable_checks": [
+        "Vật không có lúc treo không nguyên nhân hoặc xuyên điểm đỡ.",
+        "Âm tiếp xúc không đến trước chạm; bước chân không trượt ngoài chủ ý."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Vật trông không có trọng lượng dù hình từng frame đẹp.",
+        "possible_causes": [
+          "Thiếu đổi tư thế hoặc gia tốc.",
+          "Nhả trước khi có điểm đỡ.",
+          "Âm không gắn với tiếp xúc."
+        ],
+        "next_test": "Xem chậm quanh điểm chuyển lực để tìm lỗi, sau đó xem lại tốc độ thường để duyệt cảm nhận chuyển động."
+      }
+    ],
+    "evidence_links": []
+  }
+}

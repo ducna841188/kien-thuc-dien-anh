@@ -1,0 +1,79 @@
+{
+  "id": "CO-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "CO",
+  "title": "Khớp shot trước, tạo phong cách sau và kiểm bằng mắt lẫn công cụ",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cần sửa chênh giữa các clip hay tạo một vẻ chung cho phim?",
+  "use_when": [
+    "Phim nhiều clip AI khác nguồn, màu không liền hoặc một LUT làm mất chi tiết."
+  ],
+  "principle": "Tách việc hiểu đúng dữ liệu, cân và khớp các shot khỏi việc tạo phong cách. Dùng waveform, RGB parade, vectorscope theo đúng thiết lập để kiểm tín hiệu; công cụ không tự quyết định cảm xúc hoặc mức đẹp.",
+  "actions": [
+    "Xác minh đầu vào/đầu ra và tránh biến đổi lặp. Chọn shot tham chiếu phù hợp điều kiện sáng, không nhất thiết ép mọi cảnh về cùng một shot.",
+    "Cân mức sáng/đen và quan hệ màu cần nhận diện; kiểm cạnh điểm cắt, vùng sáng/tối quan trọng và thời gian trong clip trước khi thêm look.",
+    "Thêm phong cách ở mức bảo vệ vật liệu và thông tin chính; so bypass ở độ sáng cảm nhận tương đương, xuất thử và mở lại đúng môi trường."
+  ],
+  "tradeoffs": [
+    "Khớp tuyệt đối có thể xóa thay đổi ngày/đêm hoặc nguồn sáng có ý nghĩa; cần nhất quán quan hệ chứ không đồng nhất mọi pixel."
+  ],
+  "verification": [
+    "Không có bước nhảy sáng/màu ngoài ý đồ ở điểm cắt.",
+    "Look không làm mất điểm tiếp xúc, vật liệu hoặc dấu kết quả cần xem."
+  ],
+  "original_example": "Hai góc của cùng căn phòng lệch xanh: kiểm cách đọc màu và cân shot trước; sau đó mới thêm bảng màu ấm chung ở mức vừa đủ.",
+  "counterexample": "Đường da trên vectorscope là điểm tham khảo tín hiệu, không là một góc bắt buộc cho mọi màu da, ánh sáng và phong cách.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CO-003",
+    "CO-005",
+    "CO-006",
+    "CO-009"
+  ],
+  "source_ids": [
+    "SRC-ACES-WORKFLOW",
+    "SRC-BMD-TRAINING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nếu sai khác kỹ thuật chưa được sửa, một look chung có thể khuếch đại sai khác. Thứ tự kiểm giúp phân biệt lỗi tín hiệu với chủ ý thẩm mỹ.",
+    "worked_example": {
+      "brief": "Hai góc của cùng căn phòng lệch xanh: kiểm cách đọc màu và cân shot trước; sau đó mới thêm bảng màu ấm chung ở mức vừa đủ.",
+      "protected_elements": [
+        "Cùng điều kiện xem hai góc.",
+        "Chi tiết vật liệu và điểm tiếp xúc."
+      ],
+      "option_a": "Tăng saturation cho cả phim để che hai shot lệch nhau.",
+      "option_b": "Khớp hai shot trong điều kiện xem thống nhất rồi thử phong cách chung.",
+      "selection_rule": "Chọn B nếu lỗi là lệch liên tục; A chỉ xét khi mức bão hòa là ý đồ đã duyệt sau bước cân.",
+      "observable_checks": [
+        "Không có bước nhảy sáng/màu ngoài ý đồ ở điểm cắt.",
+        "Look không làm mất điểm tiếp xúc, vật liệu hoặc dấu kết quả cần xem."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Clip riêng đẹp nhưng khi cắt nối thì rất gắt.",
+        "possible_causes": [
+          "Chênh mức sáng hoặc trung tính.",
+          "Biến đổi khác nhau.",
+          "Look làm lệch vật liệu giữa shot."
+        ],
+        "next_test": "So cặp frame ở điểm cắt và xem lại chuyển động; tạm tắt look để tìm tầng xuất hiện chênh."
+      }
+    ],
+    "evidence_links": []
+  }
+}

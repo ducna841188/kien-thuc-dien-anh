@@ -1,26 +1,31 @@
 {
-  "version": "1.0.0",
-  "canonical_record_count": 90,
+  "version": "1.1.0",
+  "canonical_record_count": 130,
   "files": [
     {
-      "path": "CORE_1_0_0.md",
-      "bytes": 282093,
-      "sha256": "c21daa733b1f098bb94116491e0c05fbe27a5872ddf6e25b71b8a56e9becd7b6"
+      "path": "CORE_1_1_0.md",
+      "bytes": 613173,
+      "sha256": "54788292c665b60024cde9b3060443dfb8485f28132ba43522b4a9aef9f34cf0"
     },
     {
-      "path": "CORE_1_0_0.jsonl",
-      "bytes": 169672,
-      "sha256": "b1d44f35a7cf320114f12d26dc79d118dabf0d84c191a842b0ebd37499ab237b"
+      "path": "CORE_1_1_0.jsonl",
+      "bytes": 391180,
+      "sha256": "8b9b4542884a663c5bf19a033632e03335813462b32f006f8c2bf83f53f80480"
+    },
+    {
+      "path": "SOURCES_1_1_0.json",
+      "bytes": 20486,
+      "sha256": "186c7fab16517bddc8fa23358937d8262884db2b6ba07ebeb3eeb49be8265e55"
     },
     {
       "path": "CORE_NGAN.md",
-      "bytes": 1359,
-      "sha256": "b735e97aa88f643d05fc5183ae7ed2c7efb4cf3ff13bf7befc979ed80bb43e7a"
+      "bytes": 1747,
+      "sha256": "fd72e093f282e6cfc75537ca04a4a0d9aff28ad7138c3742ffde37869397bf74"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 1905,
-      "sha256": "f25549c834b7b986fca5330d5a2e5ff6d70ba2fc991a94fc9fc8a6d5cf0f2da0"
+      "bytes": 2015,
+      "sha256": "e930640e50ef716a18016488f4801633d646da961e3c0fcfa43efd16633ade23"
     }
   ],
   "training_performed": false,

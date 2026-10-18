@@ -16,7 +16,7 @@ Giảm nhu cầu phải đoán nhưng vẫn có tiến triển dễ nhận.
 | Nguy cơ phản tác dụng | Kéo chậm mọi thứ có thể gây chán hoặc làm người xem bối rối lâu hơn. |
 | Kiểm với người xem | Hỏi đoạn nào dễ theo, đoạn nào phải tìm hiểu lại; tách thư giãn khỏi buồn ngủ/buồn. |
 
-Mã liên quan: [AU-001](kien-thuc/AU-001.json), [AU-005](kien-thuc/AU-005.json), [ED-001](kien-thuc/ED-001.json), [SO-005](kien-thuc/SO-005.json), [SO-006](kien-thuc/SO-006.json)
+Mã liên quan: [AU-001](kien-thuc/AU-001.json), [AU-005](kien-thuc/AU-005.json), [ED-001](kien-thuc/ED-001.json), [SO-005](kien-thuc/SO-005.json), [SO-006](kien-thuc/SO-006.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-002 — Tò mò nhẹ
 
@@ -32,7 +32,7 @@ Tạo một điều chưa biết đủ cụ thể và hứa có kết quả.
 | Nguy cơ phản tác dụng | Giấu cả mục tiêu khiến tò mò thành khó hiểu; kết quả nhỏ hơn lời hứa gây hụt. |
 | Kiểm với người xem | Người xem nói được đang muốn biết gì và lúc nào đã nhận câu trả lời. |
 
-Mã liên quan: [AU-003](kien-thuc/AU-003.json), [ST-004](kien-thuc/ST-004.json), [ST-006](kien-thuc/ST-006.json), [SO-003](kien-thuc/SO-003.json)
+Mã liên quan: [AU-003](kien-thuc/AU-003.json), [ST-004](kien-thuc/ST-004.json), [ST-006](kien-thuc/ST-006.json), [SO-003](kien-thuc/SO-003.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-003 — Gần gũi, ấm áp
 
@@ -48,7 +48,7 @@ Cho người xem nhận ra sự chú ý và đáp lại giữa các chủ thể.
 | Nguy cơ phản tác dụng | Cười liên tục hoặc nhạc ép cảm động có thể tạo cảm giác dàn dựng. |
 | Kiểm với người xem | Hỏi khán giả đọc được quan hệ nào; ghi cả ấm áp, hoài niệm và buồn nếu xuất hiện. |
 
-Mã liên quan: [DR-003](kien-thuc/DR-003.json), [DR-004](kien-thuc/DR-004.json), [CA-006](kien-thuc/CA-006.json), [SO-006](kien-thuc/SO-006.json), [AU-006](kien-thuc/AU-006.json)
+Mã liên quan: [DR-003](kien-thuc/DR-003.json), [DR-004](kien-thuc/DR-004.json), [CA-006](kien-thuc/CA-006.json), [SO-006](kien-thuc/SO-006.json), [AU-006](kien-thuc/AU-006.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-004 — Hồi hộp, chờ kết quả
 
@@ -64,7 +64,7 @@ Cho biết điều có thể xảy ra và trì hoãn có tiến triển.
 | Nguy cơ phản tác dụng | Nguy cơ không được thiết lập khiến giữ lâu thành trống; giật âm không tự tạo hồi hộp. |
 | Kiểm với người xem | Người xem nhận biết đang chờ điều gì, vì sao quan trọng và lúc được giải quyết. |
 
-Mã liên quan: [ST-002](kien-thuc/ST-002.json), [ST-006](kien-thuc/ST-006.json), [ED-005](kien-thuc/ED-005.json), [SO-003](kien-thuc/SO-003.json)
+Mã liên quan: [ST-002](kien-thuc/ST-002.json), [ST-006](kien-thuc/ST-006.json), [ED-005](kien-thuc/ED-005.json), [SO-003](kien-thuc/SO-003.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-005 — Khẩn trương, năng lượng
 
@@ -80,7 +80,7 @@ Tăng cảm giác việc phải được xử lý trong giới hạn.
 | Nguy cơ phản tác dụng | Cắt dồn và rung cùng lúc dễ thành mất định hướng. |
 | Kiểm với người xem | Người xem theo được ai làm gì và mức cấp bách, không chỉ báo thấy rối. |
 
-Mã liên quan: [CA-004](kien-thuc/CA-004.json), [MO-005](kien-thuc/MO-005.json), [ED-001](kien-thuc/ED-001.json), [SO-005](kien-thuc/SO-005.json)
+Mã liên quan: [CA-004](kien-thuc/CA-004.json), [MO-005](kien-thuc/MO-005.json), [ED-001](kien-thuc/ED-001.json), [SO-005](kien-thuc/SO-005.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-006 — Kinh ngạc, cảm giác quy mô
 
@@ -96,7 +96,7 @@ Tạo quan hệ giữa điều đã biết và điều lớn/khác vượt kỳ 
 | Nguy cơ phản tác dụng | Rộng đơn thuần thiếu vật mốc có thể không truyền quy mô. |
 | Kiểm với người xem | Hỏi người xem phát hiện điều mới nào và dựa vào gì để nhận quy mô. |
 
-Mã liên quan: [CA-005](kien-thuc/CA-005.json), [MO-003](kien-thuc/MO-003.json), [AU-003](kien-thuc/AU-003.json), [ED-002](kien-thuc/ED-002.json)
+Mã liên quan: [CA-005](kien-thuc/CA-005.json), [MO-003](kien-thuc/MO-003.json), [AU-003](kien-thuc/AU-003.json), [ED-002](kien-thuc/ED-002.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-007 — Thỏa mãn vì tiến triển và hoàn tất
 
@@ -112,7 +112,7 @@ Làm thay đổi và dấu hoàn thành dễ nhận.
 | Nguy cơ phản tác dụng | Thành phẩm xuất hiện vô cớ hoặc lược mất nguyên nhân làm giảm cảm giác đã hoàn thành. |
 | Kiểm với người xem | Người xem nói được việc gì đã xong và dấu nào cho biết điều đó. |
 
-Mã liên quan: [ST-004](kien-thuc/ST-004.json), [AI-003](kien-thuc/AI-003.json), [CO-004](kien-thuc/CO-004.json), [ED-004](kien-thuc/ED-004.json)
+Mã liên quan: [ST-004](kien-thuc/ST-004.json), [AI-003](kien-thuc/AI-003.json), [CO-004](kien-thuc/CO-004.json), [ED-004](kien-thuc/ED-004.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-008 — Trầm lắng, hoài niệm
 
@@ -128,7 +128,7 @@ Cho phép liên hệ và dư âm nhưng không ép mọi người phải buồn.
 | Nguy cơ phản tác dụng | Nhạc/diễn xuất quá chỉ dẫn có thể làm người xem thấy bị ép hoặc tự so sánh. |
 | Kiểm với người xem | Hỏi riêng dễ chịu, nhớ nhung, buồn và khó chịu; không đoán cảm xúc từ ý đồ. |
 
-Mã liên quan: [AU-004](kien-thuc/AU-004.json), [DR-003](kien-thuc/DR-003.json), [ST-008](kien-thuc/ST-008.json), [SO-006](kien-thuc/SO-006.json)
+Mã liên quan: [AU-004](kien-thuc/AU-004.json), [DR-003](kien-thuc/DR-003.json), [ST-008](kien-thuc/ST-008.json), [SO-006](kien-thuc/SO-006.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-009 — Nhẹ nhõm, giải tỏa
 
@@ -144,7 +144,7 @@ Cho thấy một sức ép đã thực sự giảm hoặc kết quả đã an to
 | Nguy cơ phản tác dụng | Thả nhạc mà tình huống chưa đổi có thể gây cảm giác kết giả. |
 | Kiểm với người xem | Người xem chỉ được điều vừa được giải quyết, vẫn phân biệt nguy cơ còn lại. |
 
-Mã liên quan: [ST-004](kien-thuc/ST-004.json), [DR-003](kien-thuc/DR-003.json), [ED-005](kien-thuc/ED-005.json), [SO-005](kien-thuc/SO-005.json)
+Mã liên quan: [ST-004](kien-thuc/ST-004.json), [DR-003](kien-thuc/DR-003.json), [ED-005](kien-thuc/ED-005.json), [SO-005](kien-thuc/SO-005.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
 ## EMO-010 — Hài hước nhẹ
 
@@ -160,4 +160,4 @@ Tạo lệch kỳ vọng dễ hiểu rồi cho người xem nhận ra.
 | Nguy cơ phản tác dụng | Giải thích lại trò đùa hoặc phản ứng quá lớn có thể làm mất bất ngờ. |
 | Kiểm với người xem | Xem người thử có nhận đúng lệch kỳ vọng; ghi ai không thấy hài và vì sao. |
 
-Mã liên quan: [AU-003](kien-thuc/AU-003.json), [DR-003](kien-thuc/DR-003.json), [ED-002](kien-thuc/ED-002.json), [SO-006](kien-thuc/SO-006.json)
+Mã liên quan: [AU-003](kien-thuc/AU-003.json), [DR-003](kien-thuc/DR-003.json), [ED-002](kien-thuc/ED-002.json), [SO-006](kien-thuc/SO-006.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)

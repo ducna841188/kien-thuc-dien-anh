@@ -1,0 +1,83 @@
+{
+  "id": "YT-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "YT",
+  "title": "Ý tưởng, góc tiếp cận và bằng chứng giá trị trước khi chọn cảnh đẹp",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cùng một chủ đề, vì sao tệp này nên chọn cách kể này?",
+  "use_when": [
+    "Bắt đầu video hoặc series khi chưa rõ điểm hấp dẫn ngoài hình ảnh chất lượng cao."
+  ],
+  "principle": "Chủ đề là vùng nội dung; góc tiếp cận là lời hứa cụ thể cho người xem. Xây ý tưởng bằng nhu cầu, điều đáng chờ và bằng chứng có thể đưa lên hình/âm; hình đẹp hỗ trợ giá trị đó nhưng không tự thay thế nó.",
+  "actions": [
+    "Viết một câu: dành cho ai, họ sẽ nhận gì và vì sao cách thể hiện này đáng xem. Khi chưa chốt ngách, để biến người xem mở và tạo các phương án, không tự mặc định Farm.",
+    "Phác vài góc thật khác về giá trị: học cách làm, ngắm một tiến trình, khám phá điều chưa biết, theo một quan hệ hoặc nhận kết quả bất ngờ phù hợp.",
+    "Kiểm mỗi góc có chất liệu/bằng chứng khả thi, có mở để nhận ra và kết để trả; chỉ sau đó thiết kế cấu trúc và bộ hình."
+  ],
+  "tradeoffs": [
+    "Góc rộng dễ tiếp cận nhưng có thể mất nét riêng; góc sâu có thể ít người phù hợp hơn nhưng phục vụ họ tốt hơn."
+  ],
+  "verification": [
+    "Lời hứa diễn đạt được bằng ngôn ngữ khán giả.",
+    "Có bằng chứng trong phim cho giá trị đã hứa, không chỉ nhãn “điện ảnh”."
+  ],
+  "original_example": "Cùng đề tài chiếc ghế: “cách sửa mối ghép”, “một buổi sửa đồ không lời” và “chiếc ghế trở về bàn ăn” cần mở, coverage và âm khác nhau.",
+  "counterexample": "Không nhất thiết biến mọi video thành lời giải một vấn đề; chiêm ngắm và đồng hành cũng có thể là giá trị rõ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-001",
+    "ST-001",
+    "ST-011",
+    "YT-001",
+    "AI-009"
+  ],
+  "source_ids": [
+    "SRC-YT-PERFORMANCE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Lời hứa cụ thể giúp nối ý tưởng với lựa chọn cảnh và cách giới thiệu. Các phương án là giả thuyết nội dung, cần kiểm với tệp chứ chưa được xác nhận bởi việc viết brief.",
+    "worked_example": {
+      "brief": "Cùng đề tài chiếc ghế: “cách sửa mối ghép”, “một buổi sửa đồ không lời” và “chiếc ghế trở về bàn ăn” cần mở, coverage và âm khác nhau.",
+      "protected_elements": [
+        "Cùng tập tài liệu chiếc ghế khi so các góc tiếp cận."
+      ],
+      "option_a": "Chọn hàng chục cảnh rất đẹp rồi tìm tiêu đề bao quát chúng.",
+      "option_b": "Chọn giá trị cho người xem, liệt kê bằng chứng và dựng sơ cách giao giá trị đó.",
+      "selection_rule": "Chọn B khi chưa có trục; A có thể là cách khám phá tài liệu quan sát nhưng vẫn cần biên tập theo giá trị khi dựng.",
+      "observable_checks": [
+        "Lời hứa diễn đạt được bằng ngôn ngữ khán giả.",
+        "Có bằng chứng trong phim cho giá trị đã hứa, không chỉ nhãn “điện ảnh”."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Phim chỉ có thể mô tả là “cảnh đẹp”, không biết nên cắt gì.",
+        "possible_causes": [
+          "Chưa rõ giá trị khác biệt.",
+          "Cảnh được chọn theo năng lực model hơn nhu cầu khán giả."
+        ],
+        "next_test": "Viết ba lời hứa khác nhau cho cùng tài liệu, thử bản sơ và xem mỗi lời hứa cần cảnh nào."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-YT-PERFORMANCE",
+        "claim": "Trang hướng dẫn nối lựa chọn ý tưởng với khán giả và cách truyền đạt giá trị.",
+        "scope_limit": "Không công bố trọng số, ngưỡng thành công, công thức hook theo số giây hoặc bảo đảm lượt xem."
+      }
+    ]
+  }
+}

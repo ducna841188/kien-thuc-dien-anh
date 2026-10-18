@@ -1,7 +1,7 @@
 {
   "id": "MO-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "MO",
   "title": "Thời gian thực, chậm, tua nhanh và lược thời gian",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi dựng quá trình dài hoặc sửa yêu cầu timelapse."
   ],
-  "principle": "Tách chuyển động chậm, tăng tốc liên tục, timelapse lấy mẫu theo thời gian và dựng lược qua các trạng thái. FPS đầu ra không tự cho biết tốc độ sự việc.",
+  "principle": "Tách chuyển động chậm, tăng tốc liên tục, timelapse lấy mẫu theo thời gian và dựng lược qua các trạng thái. FPS đầu ra không tự cho biết tốc độ sự việc. Slow motion có thể cần nguồn tốc độ cao phát chậm; nội suy có thể tạo frame mới và lỗi. Timelapse, tua nhanh và lược thời gian không chứng minh cùng quá trình đã diễn ra liên tục.",
   "actions": [
     "Ghi loại nhịp thời gian đã chốt.",
     "Chọn dấu tiến triển cần nhìn thấy và bước có thể lược.",
-    "Kiểm chuyển động/nhòe/liên tục sau xử lý; giữ âm theo ý đồ thời gian."
+    "Kiểm chuyển động/nhòe/liên tục sau xử lý; giữ âm theo ý đồ thời gian.",
+    "Ghi thời gian trong thế giới, cách xử lý hình và thời lượng phát nếu biết; không đổi timelapse đã duyệt thành real time chỉ để dễ tạo."
   ],
   "tradeoffs": [
     "Nén mạnh có thể làm mất kỹ thuật thao tác; kéo chậm có thể tạo cảm giác nặng hoặc giả."
   ],
   "verification": [
     "Sửa lỗi số người không tự đổi timelapse thành thời gian thực.",
-    "Thông số tệp và loại chuyển động được kiểm riêng."
+    "Thông số tệp và loại chuyển động được kiểm riêng.",
+    "Không suy fps gốc hoặc thời gian thực của quá trình từ nhãn phong cách."
   ],
   "original_example": "Phủ đất cả buổi được nén nhưng phải vẫn thấy kéo/trải đúng vật, không thành chuyển tấm phủ qua luống khác.",
   "counterexample": "Chuỗi mầm–cây–quả có thể là dựng lược, không đủ bằng chứng gọi timelapse chỉ từ ảnh tĩnh.",
@@ -32,12 +34,15 @@
   "related_ids": [
     "EV-005",
     "AI-005",
-    "ED-004"
+    "ED-004",
+    "MO-007",
+    "AI-008"
   ],
   "source_ids": [
     "B011",
     "B015",
-    "B033"
+    "B033",
+    "SRC-YT-ENCODE"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -46,5 +51,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Thời gian kể chuyện và cách lấy mẫu/đổi tốc cần được ghi riêng.",
+    "worked_example": {
+      "brief": "Đoạn timelapse làm việc đạt nhưng có người thừa.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Đổi sang cảnh chậm để model dễ làm.",
+      "option_b": "Giữ loại thời gian, sửa nhận diện/số người và kiểm toàn pha.",
+      "selection_rule": "Chọn B theo yêu cầu; chỉ đổi nhịp khi ràng buộc được xét lại rõ.",
+      "observable_checks": [
+        "Không suy fps gốc hoặc thời gian thực của quá trình từ nhãn phong cách."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Sửa lỗi hình nhưng video không còn trải nghiệm đã chốt.",
+        "possible_causes": [
+          "Biến điều kiện thuận tiện của model thành thay đổi mục tiêu."
+        ],
+        "next_test": "So bản sửa với danh sách phải giữ trước khi đánh giá riêng lỗi mới sửa."
+      }
+    ],
+    "evidence_links": []
+  }
 }

@@ -1,0 +1,77 @@
+{
+  "id": "DR-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "DR",
+  "title": "Chi tiết đời sống có chức năng và mức hoàn hảo phù hợp",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì khiến cảnh giống một hoạt động đang diễn ra thay vì một ảnh quảng bá?",
+  "use_when": [
+    "Thế giới AI quá sạch, cử chỉ máy móc, đồ vật chỉ làm nền hoặc ai cũng nhìn máy."
+  ],
+  "principle": "Tạo cảm giác sống bằng mục đích sử dụng, dấu thời gian và phản ứng với môi trường. Chọn sự không đều có nguyên nhân; không đồng nhất tự nhiên với bẩn, lỗi hình hoặc rung máy.",
+  "actions": [
+    "Gắn đạo cụ và dấu sử dụng với công việc thật của cảnh: vật cần lấy, chỗ đặt, trạng thái đã dùng và đường đi hợp lý.",
+    "Cho nhân vật chú ý vào nhiệm vụ/người kia, có điều chỉnh nhỏ do vật và không gian; chỉ thêm khi diễn tiến vẫn rõ và phù hợp năng lực tạo.",
+    "Lập giới hạn phong cách: mức gọn gàng, hao mòn, đối xứng và biểu diễn; so toàn chuỗi để dấu sử dụng không tự mất/nhân lên."
+  ],
+  "tradeoffs": [
+    "Nhiều chi tiết tăng công giữ liên tục và có thể hút mắt khỏi việc chính; phim cách điệu có thể cần sự hoàn hảo rõ ràng."
+  ],
+  "verification": [
+    "Mỗi dấu đời sống có lý do trong thế giới cảnh.",
+    "Nhân vật không nhìn thẳng máy nếu không thuộc quan hệ đã chốt."
+  ],
+  "original_example": "Người soạn bàn dành chỗ cho khay sắp tới và gạt nhẹ một vật cản; chi tiết xuất phát từ nhiệm vụ, không cần thêm cả phòng bừa bộn.",
+  "counterexample": "Vết bẩn ngẫu nhiên hoặc mọi vật cũ kỹ không chứng nhận tính chân thực của một bối cảnh cụ thể.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-005",
+    "CO-004",
+    "AI-010",
+    "AU-002"
+  ],
+  "source_ids": [
+    "SRC-YALE-STAGING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Chức năng và hệ quả nối đồ vật với hành động. Dấu không đều chỉ hữu ích nếu có quan hệ với việc, người và thời gian; đây là lựa chọn thiết kế được kiểm theo mục tiêu.",
+    "worked_example": {
+      "brief": "Người soạn bàn dành chỗ cho khay sắp tới và gạt nhẹ một vật cản; chi tiết xuất phát từ nhiệm vụ, không cần thêm cả phòng bừa bộn.",
+      "protected_elements": [
+        "Công năng bàn và khay.",
+        "Mức gọn gàng đúng phong cách."
+      ],
+      "option_a": "Thêm hạt phim, rung và bụi cho toàn cảnh.",
+      "option_b": "Chọn một dấu sử dụng và một điều chỉnh hành vi liên quan trực tiếp đến nhiệm vụ.",
+      "selection_rule": "Chọn B nếu hình đang vô hồn do thiếu công năng; A chỉ xét như lớp phong cách sau khi quan hệ cảnh đã rõ.",
+      "observable_checks": [
+        "Mỗi dấu đời sống có lý do trong thế giới cảnh.",
+        "Nhân vật không nhìn thẳng máy nếu không thuộc quan hệ đã chốt."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Đã có nhiều texture nhưng cảnh vẫn giống ảnh dàn dựng.",
+        "possible_causes": [
+          "Mọi người chờ máy hơn là làm việc.",
+          "Đạo cụ không được sử dụng hoặc không để lại hệ quả."
+        ],
+        "next_test": "Xem cảnh không lời và hỏi từng hành vi đang phục vụ việc gì; bỏ trang trí không có chức năng."
+      }
+    ],
+    "evidence_links": []
+  }
+}

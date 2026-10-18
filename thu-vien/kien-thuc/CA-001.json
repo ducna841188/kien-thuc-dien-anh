@@ -1,7 +1,7 @@
 {
   "id": "CA-001",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "CA",
   "title": "Cỡ cảnh theo thông tin phải thấy",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi chọn khung cho một nhiệm vụ kể chuyện."
   ],
-  "principle": "Toàn, trung, cận và đặc tả mô tả lượng chủ thể/không gian trong khung. Cỡ cảnh không tự xác định tiêu cự, góc hoặc cảm xúc.",
+  "principle": "Toàn, trung, cận và đặc tả mô tả lượng chủ thể/không gian trong khung. Cỡ cảnh không tự xác định tiêu cự, góc hoặc cảm xúc. Chọn cỡ theo bằng chứng ở thời điểm đó và quan hệ với shot trước/sau; đổi cỡ chỉ để đa dạng có thể làm lặp hoặc mất định hướng.",
   "actions": [
     "Chỉ ra bằng chứng bắt buộc phải nằm trong khung.",
     "Chọn cỡ đủ để đọc bằng chứng trên màn hình xem thực tế.",
-    "Ghi phần cơ thể/vật thể được thấy thay vì chỉ viết chữ viết tắt."
+    "Ghi phần cơ thể/vật thể được thấy thay vì chỉ viết chữ viết tắt.",
+    "Đặt câu hỏi cho từng shot: cần đọc vị trí, hành động, tiếp xúc hay phản ứng? Kiểm cỡ trong bản xuất thật trước khi chọn thuật ngữ."
   ],
   "tradeoffs": [
     "Khung gần làm rõ chi tiết nhưng có thể mất hướng và quy mô."
   ],
   "verification": [
     "Không cắt mất điểm tiếp xúc cần xem.",
-    "Tên cỡ và nội dung khung không mâu thuẫn."
+    "Tên cỡ và nội dung khung không mâu thuẫn.",
+    "Bộ cỡ phục vụ tiến trình, không bị ép theo tỷ lệ của một kênh tham khảo."
   ],
   "original_example": "Toàn cho thấy khoảng cách hai người; cận cho thấy một bàn tay vừa siết chặt.",
   "counterexample": "Cận mặt không bắt buộc giàu cảm xúc hơn toàn thân trong mọi cảnh.",
@@ -30,7 +32,10 @@
   "related_ids": [
     "AU-002",
     "CA-003",
-    "DR-006"
+    "DR-006",
+    "CA-011",
+    "CA-012",
+    "YT-010"
   ],
   "source_ids": [
     "B005",
@@ -43,5 +48,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Cỡ cảnh là quyết định lượng thông tin; tỷ lệ cận/toàn không tự định nghĩa một phong cách tốt.",
+    "worked_example": {
+      "brief": "Cần vừa hiểu hai người đứng đâu vừa thấy chuyển chìa khóa.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Dùng toàn bộ cận vì ngách mẫu có nhiều cận.",
+      "option_b": "Xác lập quan hệ rồi chọn cận chuyển quyền nếu cần.",
+      "selection_rule": "Chọn B khi hai lớp thông tin đều cần đọc; một khung có thể đủ nếu bố trí thấy cả hai.",
+      "observable_checks": [
+        "Bộ cỡ phục vụ tiến trình, không bị ép theo tỷ lệ của một kênh tham khảo."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Nhiều chi tiết đẹp nhưng người xem lạc nơi chốn.",
+        "possible_causes": [
+          "Thiếu thông tin quan hệ do chọn cỡ theo gu đơn lẻ."
+        ],
+        "next_test": "Thử một khung xác lập hoặc dàn lại quan hệ trong cùng shot."
+      }
+    ],
+    "evidence_links": []
+  }
 }

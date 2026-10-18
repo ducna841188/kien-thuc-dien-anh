@@ -1,0 +1,78 @@
+{
+  "id": "AU-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AU",
+  "title": "Thiết kế đường cảm xúc bằng thay đổi và tương phản có căn cứ",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cảnh này cần chuyển trải nghiệm từ đâu đến đâu, nhờ điều gì?",
+  "use_when": [
+    "Lập nhịp toàn phim, tránh một tông kéo dài, nối hình–âm–diễn xuất."
+  ],
+  "principle": "Thiết kế cảm xúc qua thông tin, điều người xem quan tâm, mức chắc chắn và bằng chứng kết quả; phối hợp các bộ phận theo cùng một chuyển biến. Một màu, nhạc hay góc máy đơn lẻ không mã hóa sẵn một cảm xúc.",
+  "actions": [
+    "Ghi trạng thái đầu–cuối dự kiến: chưa rõ→hiểu, chờ→thỏa mãn, xa lạ→quen, căng→an tâm; tách chúng khỏi cảm xúc nhân vật.",
+    "Chỉ rõ tác nhân: một lựa chọn, một kết quả, một sự xuất hiện hoặc dấu sử dụng vật đã hoàn tất; chọn hình và âm làm đọc được tác nhân đó.",
+    "Lập đường tương phản theo đoạn, cho khoảng tiếp nhận kết quả nếu cần. Kiểm phản hồi bằng câu hỏi trung tính, giữ cả phản ứng trái dự kiến."
+  ],
+  "tradeoffs": [
+    "Tương phản lớn tăng độ nổi nhưng có thể phá lời hứa êm dịu; đồng đều có thể phù hợp nội dung xem nền nếu đã xác định đúng nhu cầu."
+  ],
+  "verification": [
+    "Mỗi chuyển cảm xúc dự kiến gắn được với sự kiện/hình/âm cụ thể.",
+    "Báo cáo ghi “dự kiến” đến khi có phản hồi người xem thích hợp."
+  ],
+  "original_example": "Một món đồ được sửa: đầu là chưa dùng được, giữa là thử lắp, cuối là người nhận dùng nó. Nhạc có thể lùi ở lúc thử và mở khi việc sử dụng xác nhận kết quả.",
+  "counterexample": "Hạ saturation toàn phim rồi gọi đó là đường cảm xúc không mô tả được điều khán giả vừa biết hoặc vừa coi trọng.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-004",
+    "ST-001",
+    "ST-011",
+    "ED-005",
+    "SO-006"
+  ],
+  "source_ids": [
+    "SRC-YALE-SOUND",
+    "SRC-YT-PERFORMANCE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Tương phản chỉ là quan hệ so sánh với những gì đã được thiết lập. Giá trị của kết quả thường phụ thuộc sự quan tâm và kỳ vọng đã có; cần kiểm đúng tệp thay vì gán một đường cảm xúc phổ quát.",
+    "worked_example": {
+      "brief": "Một món đồ được sửa: đầu là chưa dùng được, giữa là thử lắp, cuối là người nhận dùng nó. Nhạc có thể lùi ở lúc thử và mở khi việc sử dụng xác nhận kết quả.",
+      "protected_elements": [
+        "Kết quả sửa đồ có thể được xác nhận qua sử dụng."
+      ],
+      "option_a": "Tăng nhạc ở mọi shot cuối phân đoạn để tự tạo cao trào.",
+      "option_b": "Đặt một bằng chứng hoàn tất có ý nghĩa, rồi chọn mức nhạc đủ hỗ trợ phản ứng đó.",
+      "selection_rule": "Chọn B khi phim đẹp nhưng kết thiếu sức nặng; A chỉ có ích nếu vấn đề thực sự là âm nhạc chưa nâng đỡ kết quả đã rõ.",
+      "observable_checks": [
+        "Mỗi chuyển cảm xúc dự kiến gắn được với sự kiện/hình/âm cụ thể.",
+        "Báo cáo ghi “dự kiến” đến khi có phản hồi người xem thích hợp."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Phim một màu cảm xúc dù đã đổi nhạc nhiều lần.",
+        "possible_causes": [
+          "Không có thay đổi quan trọng để tiếp nhận.",
+          "Nhạc đang mô tả quá mức những sự kiện ngang nhau."
+        ],
+        "next_test": "Xem bản không nhạc, đánh dấu điều mới được biết và kết quả đáng nhận; sửa cấu trúc trước khi so bản nhạc."
+      }
+    ],
+    "evidence_links": []
+  }
+}

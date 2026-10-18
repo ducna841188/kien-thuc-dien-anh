@@ -24,6 +24,8 @@ def main():
  render_auxiliary(cards)
  # JSONL has only canonical knowledge records; no source material mislabeled as model answers.
  (OUT/(STEM+'.jsonl')).write_text(''.join(json.dumps(c,ensure_ascii=False)+chr(10) for c in cards))
+ source_stem='SOURCES_'+VERSION.replace('.','_')+'.json'
+ (OUT/source_stem).write_bytes((ROOT/'nguon/nguon-chinh-thuc.json').read_bytes())
  head=f"""# FILM-KB {VERSION} — Gói đọc đầy đủ cho AI
 
 Bản xuất từ JSON chuẩn và tài liệu cùng phiên bản. Gói này là dữ liệu tham chiếu, chưa huấn luyện thay đổi mô hình. Chia lượt theo chuyên đề nếu môi trường không nhận đủ; ghi những phần đã thực đọc.
@@ -34,10 +36,10 @@ Các tác dụng cảm xúc là giả thuyết có điều kiện; ví dụ mớ
 
 """
  pieces=[head]
- paths=[ROOT/n for n in ['00_HUONG_DAN_AI.md','01_KIEN_TRUC_DU_LIEU.md','02_CHUAN_PHAN_TICH.md','03_RA_QUYET_DINH.md','04_CAP_NHAT_KIEN_THUC.md']]
+ paths=[ROOT/n for n in ['00_HUONG_DAN_AI.md','01_KIEN_TRUC_DU_LIEU.md','02_CHUAN_PHAN_TICH.md','03_RA_QUYET_DINH.md','04_CAP_NHAT_KIEN_THUC.md','06_VAN_HANH_SAN_XUAT.md','07_KIEM_TRA_TRAI_NGHIEM.md','08_BAN_DO_NANG_LUC.md']]
  paths+=sorted((ROOT/'quy-trinh').glob('*.md'))
  paths+=sorted((ROOT/'chuyen-de').glob('*.md'))
- paths+=[ROOT/'NHIP_CAM_XUC.md',ROOT/'TU_DIEN.md',ROOT/'mo-hinh/README.md',ROOT/'05_NGUON_VA_KIEM_TOAN.md']
+ paths+=[ROOT/'vi-du/bon-ca-ra-quyet-dinh.md',ROOT/'NHIP_CAM_XUC.md',ROOT/'TU_DIEN.md',ROOT/'mo-hinh/README.md',ROOT/'05_NGUON_VA_KIEM_TOAN.md',ROOT/'nguon/SO_NGUON.md']
  for path in paths:
   pieces+=['---',f'Nguồn bản xuất: {path.relative_to(ROOT).as_posix()}',absolute_links(path.read_text(),path)]
  (OUT/(STEM+'.md')).write_text((chr(10)*2).join(pieces)+chr(10))
@@ -56,7 +58,9 @@ Các tác dụng cảm xúc là giả thuyết có điều kiện; ví dụ mớ
 9. Sửa một lỗi thì bảo vệ phần đã đạt; chưa thử không báo đã khắc phục.
 10. Ngách ghim mã/phiên bản core; nâng bài học theo điều kiện và bằng chứng, trình thay đổi đảo nguyên tắc.
 
-Mở ../muc-luc.json, ../tuyen-tra-cuu.json, ../00_HUONG_DAN_AI.md và quy trình tác vụ tương ứng.
+Mục có application_depth cung cấp ca chọn phương án và chẩn đoán; đọc cả phần phải giữ và giới hạn nguồn. Dùng ../06_VAN_HANH_SAN_XUAT.md để nối công đoạn, ../07_KIEM_TRA_TRAI_NGHIEM.md để chọn đúng bằng chứng và ../08_BAN_DO_NANG_LUC.md để chọn độ sâu.
+
+Mở ../muc-luc.json, ../tuyen-tra-cuu.json, ../00_HUONG_DAN_AI.md và quy trình tác vụ tương ứng. Bản phát hành và version từng mục là hai cấp khác nhau.
 """
  (OUT/'CORE_NGAN.md').write_text(brief)
  start="""# Mang thư viện sang một AI khác
@@ -71,6 +75,7 @@ Gửi [hướng dẫn AI](../00_HUONG_DAN_AI.md), [chuẩn phân tích](../02_CH
 
 - [CORE_1_0_0.md](CORE_1_0_0.md): bản Markdown đầy đủ.
 - [CORE_1_0_0.jsonl](CORE_1_0_0.jsonl): 90 bản ghi kiến thức, mỗi dòng một đối tượng.
+- [Sổ nguồn đi kèm](SOURCES_1_0_0.json): phạm vi đã đọc và giới hạn từng nguồn ngoài.
 - [manifest-goi.json](manifest-goi.json): kích thước và SHA-256 các tệp gói.
 
 Đây là dữ liệu tham chiếu. Cần công cụ đọc tệp/đường dẫn thực sự; gửi URL không tự xác nhận mọi tệp đã được đọc. Dùng cách đọc chọn nếu một lượt không đủ.
@@ -91,10 +96,10 @@ Trả quyết định thực hiện được cùng đánh đổi và tiêu chí 
 
 Chưa có tuyên bố bộ gói đã được đánh giá độc lập trên các mô hình khác. Dùng [bộ tình huống](../kiem-thu/HUONG_DAN_DANH_GIA.md) để thực hiện bước đó.
 """
- start=start.replace('CORE_1_0_0',STEM).replace('90 bản ghi',str(len(cards))+' bản ghi')
+ start=start.replace('CORE_1_0_0',STEM).replace('SOURCES_1_0_0.json',source_stem).replace('90 bản ghi',str(len(cards))+' bản ghi')
  (OUT/'START_HERE.md').write_text(start)
  files=[]
- for name in [STEM+'.md',STEM+'.jsonl','CORE_NGAN.md','START_HERE.md']:
+ for name in [STEM+'.md',STEM+'.jsonl',source_stem,'CORE_NGAN.md','START_HERE.md']:
   p=OUT/name;b=p.read_bytes();files.append({'path':name,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
  manifest={'version':VERSION,'canonical_record_count':len(cards),'files':files,'training_performed':False,'semantic_retrieval_deployed':False}
  (OUT/'manifest-goi.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+chr(10))
@@ -113,12 +118,25 @@ def render_views(cards):
   for c in subset:lines.append(f"| [{c['id']}](#{c['id'].lower()}) | {c['title']} | {c['level']} |")
   for c in subset:
    lines+=['',f'<a id="{c["id"].lower()}"></a>',f"## {c['id']} — {c['title']}",'',
-    '**Câu hỏi quyết định:** '+c['decision_question'],'','**Dùng khi:** '+' '.join(c['use_when']),'',
+    '**Phiên bản mục:** '+c['version'],'','**Câu hỏi quyết định:** '+c['decision_question'],'','**Dùng khi:** '+' '.join(c['use_when']),'',
     '**Nguyên lý thực hành:** '+c['principle'],'','**Cách làm:**','']
    lines += [f'{i}. {a}' for i,a in enumerate(c['actions'],1)]
    lines += ['','**Đánh đổi:** '+' '.join(c['tradeoffs']),'','**Kiểm tra:**','']+['- '+a for a in c['verification']]
    lines += ['','**Ví dụ tự biên soạn:** '+c['original_example'],'','**Phản ví dụ / giới hạn:** '+c['counterexample'],'',
     '**Liên quan:** '+', '.join(f'[{i}](../kien-thuc/{i}.json)' for i in c['related_ids']),'']
+   if 'application_depth' in c:
+    d=c['application_depth'];w=d['worked_example']
+    lines+=['','### Áp dụng và chẩn đoán','','**Cơ chế/quan hệ cần xét:** '+d['mechanism'],'',
+     '**Tình huống:** '+w['brief'],'','**Phần phải giữ:** '+' '.join(w['protected_elements']),'',
+     '| Phương án | Thực hiện |','| --- | --- |',
+     '| A | '+w['option_a']+' |','| B | '+w['option_b']+' |','',
+     '**Cách chọn:** '+w['selection_rule'],'','**Dấu hiệu kiểm trong ca:**','']
+    lines+=['- '+x for x in w['observable_checks']]
+    for f in d['failure_diagnosis']:
+     lines+=['','**Nếu gặp:** '+f['symptom'],'','Có thể do: '+' '.join(f['possible_causes']),'','Thử tiếp: '+f['next_test']]
+    for e in d['evidence_links']:
+     lines+=['','**Phát biểu được đối chiếu:** '+e['claim']+' Nguồn: ['+e['source_id']+']('+sources[e['source_id']]['url']+').',
+      '','**Giới hạn nguồn:** '+e['scope_limit']]
    refs=[]
    for ident in c['source_ids']:
     if ident in sources:refs.append(f"[{ident}]({sources[ident]['url']})")
@@ -131,6 +149,12 @@ def render_views(cards):
  index['version']=VERSION;index['items']=items
  (ROOT/'muc-luc.json').write_text(json.dumps(index,ensure_ascii=False,indent=2)+chr(10))
 def render_auxiliary(cards):
+ source_data=json.loads((ROOT/'nguon/nguon-chinh-thuc.json').read_text())
+ slines=['# Sổ nguồn đối chiếu có phạm vi','','Bản xuất từ nguon-chinh-thuc.json. Nguồn hỗ trợ phát biểu trong phạm vi đã đọc; phương án và ca áp dụng là biên soạn thực hành.']
+ for s in source_data['sources']:
+  slines+=['',f"## {s['id']} — {s['title']}",'',f"[Nguồn]({s['url']}) · Kiểm ngày {s['verified_on']} · Loại: {s['kind']}",'',
+   '**Phạm vi:** '+s['scope'],'','**Phần đã đọc/cách dùng:** '+s['notes'],'','**Chưa xác nhận:** '+s['not_established']]
+ (ROOT/'nguon/SO_NGUON.md').write_text(chr(10).join(slines)+chr(10))
  terms=json.loads((ROOT/'tu-dien-thuat-ngu.json').read_text())['terms']
  text='# Từ điển thuật ngữ thực hành'+chr(10)*2+'[Mục lục](README.md). Nghĩa được dùng trong kho; một số từ có cách dùng rộng hơn ở nguồn khác.'+chr(10)*2
  text+=chr(10).join(['| Thuật ngữ | Nghĩa tiếng Việt | Mã |','| --- | --- | --- |']+
@@ -148,6 +172,7 @@ def render_auxiliary(cards):
  manifest=json.loads((ROOT/'manifest.json').read_text())
  manifest.update(core_card_count=len(cards),module_count=len(json.loads((ROOT/'muc-luc.json').read_text())['modules']),
   schema_count=len(list((ROOT/'schema').glob('*.json'))),emotion_profile_count=len(profiles),glossary_term_count=len(terms),
-  ai_evaluation_case_count=len(json.loads((ROOT/'kiem-thu/tinh-huong.json').read_text())['cases']))
+  ai_evaluation_case_count=len(json.loads((ROOT/'kiem-thu/tinh-huong.json').read_text())['cases']),
+  official_reference_count=len(source_data['sources']))
  (ROOT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+chr(10))
 if __name__=='__main__':main()

@@ -1,7 +1,7 @@
 {
   "id": "CO-001",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "CO",
   "title": "Sắc, độ bão hòa và độ sáng là ba lựa chọn",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi chọn bảng màu hoặc nhận xét tông hình."
   ],
-  "principle": "Tách tên sắc, mức rực và quan hệ sáng–tối. Ý nghĩa màu phụ thuộc văn hóa, vật thể, lịch sử trong phim và bối cảnh; không dùng bảng màu như luật cảm xúc.",
+  "principle": "Tách tên sắc, mức rực và quan hệ sáng–tối. Ý nghĩa màu phụ thuộc văn hóa, vật thể, lịch sử trong phim và bối cảnh; không dùng bảng màu như luật cảm xúc. Các hệ màu dùng lightness/luma/luminance và saturation/chroma khác nhau; khi đo cần ghi hệ/công cụ thay vì coi các thuật ngữ là một phép đo giống hệt.",
   "actions": [
     "Chọn quan hệ màu quan trọng thay vì một tên mood chung.",
     "Ghi mục tiêu độ sáng và mức bão hòa tương đối.",
-    "Kiểm màu cùng nội dung và các cảnh lân cận."
+    "Kiểm màu cùng nội dung và các cảnh lân cận.",
+    "Nếu màu không truyền đạt đúng, kiểm độ tách sáng và vật liệu trước; dùng lời mô tả quan hệ và bản tham chiếu thay một mã HEX đơn lẻ."
   ],
   "tradeoffs": [
     "Giảm rực có thể mất sinh khí; tăng rực có thể làm vật liệu giả hoặc che điểm nhấn."
   ],
   "verification": [
     "Nhận xét cảm xúc có điều kiện thay vì đỏ luôn giận/xanh luôn buồn.",
-    "Chi tiết thiết yếu vẫn đọc khi xem hình gần như đen trắng."
+    "Chi tiết thiết yếu vẫn đọc khi xem hình gần như đen trắng.",
+    "Bảng màu không làm mất nhận diện hoặc điểm tiếp xúc khi xem ở đầu ra thật."
   ],
   "original_example": "Lam–xám sương và hồng hoa có thể yên bình; đỏ có thể là thức ăn ấm áp hoặc tín hiệu nguy hiểm.",
   "counterexample": "Một bảng màu hài hòa không tự làm câu chuyện dễ hiểu.",
@@ -30,12 +32,16 @@
   "related_ids": [
     "AU-004",
     "CO-003",
-    "LI-003"
+    "LI-003",
+    "CO-007",
+    "CO-008",
+    "CO-009"
   ],
   "source_ids": [
     "B008",
     "B009",
-    "SRC-YALE-CAMERA"
+    "SRC-YALE-CAMERA",
+    "SRC-ACES-WORKFLOW"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -44,5 +50,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Màu dùng được ngay phải giữ quan hệ độ sáng, vật liệu và bối cảnh, không gán bảng cảm xúc tuyệt đối.",
+    "worked_example": {
+      "brief": "Một món đồ đỏ không nổi vì nền sáng hơn và chuyển động nền mạnh.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Tăng đỏ đến khi clipping.",
+      "option_b": "Sửa quan hệ độ sáng/nền, giữ màu và vật liệu có lý do.",
+      "selection_rule": "Chọn B nếu vấn đề là phân cấp; saturation không phải cách duy nhất.",
+      "observable_checks": [
+        "Bảng màu không làm mất nhận diện hoặc điểm tiếp xúc khi xem ở đầu ra thật."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Màu càng rực càng giả nhưng trọng tâm vẫn yếu.",
+        "possible_causes": [
+          "Sai chẩn đoán giữa độ nổi và độ bão hòa."
+        ],
+        "next_test": "So bản giảm cạnh tranh nền và bản tăng màu ở mức tương đương; kiểm vật liệu và thông tin."
+      }
+    ],
+    "evidence_links": []
+  }
 }

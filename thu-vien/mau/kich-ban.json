@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "id": "SCRIPT-SYN-001",
-  "core_version": "1.0.0",
+  "core_version": "1.1.0",
   "niche_id": null,
   "status": "draft",
   "brief": "Ví dụ thiết kế: một người xếp bát lên khay, không có video thật",

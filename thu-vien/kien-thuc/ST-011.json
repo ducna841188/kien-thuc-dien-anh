@@ -1,0 +1,78 @@
+{
+  "id": "ST-011",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ST",
+  "title": "Tạo điều đáng quan tâm mà không cần phóng đại nguy hiểm",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Vì sao người xem nên quan tâm kết quả của hành động nhỏ này?",
+  "use_when": [
+    "Phim đời sống, thủ công, thiên nhiên, quan sát hoặc câu chuyện ít xung đột."
+  ],
+  "principle": "Điều đáng quan tâm có thể là hoàn tất việc, chăm sóc ai đó, khám phá, độ khéo, vẻ đẹp hoặc cảm giác thuộc về. Làm rõ giá trị của kết quả và người/vật chịu tác động; không tự thêm tai nạn để tạo kịch tính.",
+  "actions": [
+    "Ghi ai hoặc điều gì được lợi từ việc hoàn tất: một công dụng, một bữa chung, một nơi được chăm hoặc một câu hỏi được trả.",
+    "Cho một bằng chứng ban đầu khiến kết quả có nghĩa: đồ chưa dùng được, người sẽ nhận, trạng thái đang dở hoặc đặc điểm cần khám phá.",
+    "Kết bằng hành động sử dụng, kết quả kiểm tra hoặc sự tiếp tục đời sống để xác nhận giá trị; không chỉ dừng ở ảnh sản phẩm."
+  ],
+  "tradeoffs": [
+    "Giải thích quá nhiều biến khoảnh khắc tinh tế thành thông điệp lộ; có thể dùng hành động nhỏ và âm thanh thay lời."
+  ],
+  "verification": [
+    "Mục tiêu nhỏ vẫn nêu được giá trị với tệp mong muốn.",
+    "Kết quả có dấu sử dụng/tiếp nhận hoặc lý do kết mở rõ."
+  ],
+  "original_example": "Người sửa chiếc ghế cũ để khách có chỗ ngồi; cuối phim người khách ngồi xuống và cuộc trò chuyện tiếp tục.",
+  "counterexample": "Phim ngắm thiên nhiên có thể không cần nhân vật hoặc một vật được hoàn tất; giá trị khám phá/chiêm ngắm vẫn là một lời hứa hợp lệ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-001",
+    "AU-009",
+    "ST-002",
+    "ST-008"
+  ],
+  "source_ids": [
+    "SRC-YALE-STAGING",
+    "SRC-YT-PERFORMANCE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Một kết quả có trọng lượng khi đã có mối quan tâm phù hợp trước đó. Quy mô nhỏ không có nghĩa giá trị nhỏ; lựa chọn phụ thuộc nhu cầu người xem, không phải mức hiểm nguy tối đa.",
+    "worked_example": {
+      "brief": "Người sửa chiếc ghế cũ để khách có chỗ ngồi; cuối phim người khách ngồi xuống và cuộc trò chuyện tiếp tục.",
+      "protected_elements": [
+        "Trải nghiệm yên và sự tiếp đón.",
+        "Kết quả chiếc ghế được dùng."
+      ],
+      "option_a": "Thêm biến cố chiếc ghế gãy nguy hiểm dù phim đã chốt êm dịu.",
+      "option_b": "Cho thấy công dụng thiếu trước sửa và dấu người nhận sử dụng sau sửa.",
+      "selection_rule": "Chọn B nếu mục tiêu là sự chăm sóc và hoàn tất; A chỉ xét khi đổi trải nghiệm đã được người dùng duyệt.",
+      "observable_checks": [
+        "Mục tiêu nhỏ vẫn nêu được giá trị với tệp mong muốn.",
+        "Kết quả có dấu sử dụng/tiếp nhận hoặc lý do kết mở rõ."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Cảnh hoàn tất rất đẹp nhưng kết phim nhạt.",
+        "possible_causes": [
+          "Không biết sản phẩm dùng cho ai hoặc việc hoàn thành có ý nghĩa gì.",
+          "Kết chỉ trưng bày mà thiếu xác nhận chức năng."
+        ],
+        "next_test": "Thêm một hành vi tiếp nhận phù hợp thay vì tăng nhạc hay tạo nguy hiểm."
+      }
+    ],
+    "evidence_links": []
+  }
+}

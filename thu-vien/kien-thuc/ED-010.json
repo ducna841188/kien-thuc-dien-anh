@@ -1,0 +1,78 @@
+{
+  "id": "ED-010",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ED",
+  "title": "Dựng hành động: chọn pha cắt và giữ bằng chứng cần thấy",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nên cắt trước, trong hay sau tiếp xúc để hành động rõ và có trọng lượng?",
+  "use_when": [
+    "Nối hành động giữa góc, dựng trao/đổ/mở hoặc sửa một động tác bị lặp/nhảy."
+  ],
+  "principle": "Điểm cắt là lựa chọn pha hành động theo mục tiêu thông tin. Cắt trong động tác có thể nối năng lượng, giữ sau tiếp xúc có thể xác nhận kết quả; không có quy tắc cứ chuyển động là phải cắt.",
+  "actions": [
+    "Chia hành động theo chuẩn bị, bắt đầu tác động, tiếp xúc, biến đổi và kết quả; đánh dấu phần nào là bằng chứng không được mất.",
+    "So trạng thái ở hai phía cut: tay nào giữ, vị trí, hướng/vận tốc, mức đầy và mức hoàn tất. Dựng lại theo trạng thái thay vì nối hai frame giống hình nhưng khác việc.",
+    "Cho âm góp phần nối hoặc nhấn tác động; kiểm bản tốc độ thường sau khi rà frame. Nếu chủ đích lược thời gian, thêm dấu đủ hiểu thay vì che thành nối liên tục."
+  ],
+  "tradeoffs": [
+    "Giữ đầy đủ tăng độ tin nhưng có thể dư; cắt sớm tạo lực đi tiếp nhưng có thể mất xác nhận hoặc gây hiểu nhầm."
+  ],
+  "verification": [
+    "Không có hai lần nhận, hai lần đổ hoặc vật nhảy trạng thái ngoài ý đồ.",
+    "Điểm tiếp xúc/kết quả còn đọc được bằng hình hoặc quan hệ hình–âm phù hợp."
+  ],
+  "original_example": "Góc rộng thấy người hạ khay; cận nối ở pha khay sắp chạm bàn và giữ đủ để thấy tay nhả. Nếu việc chạm đã rõ ở góc rộng, cận có thể dành cho kết quả.",
+  "counterexample": "Tua từng frame có thể lộ lệch nhỏ không đáng kể ở tốc độ thường; tiêu chí nghiệm thu vẫn theo điều khán giả cần đọc và phong cách.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-008",
+    "ED-002",
+    "ED-003",
+    "AI-010"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT",
+    "SRC-PERCEPTION-EVENTS"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Khớp hình không đủ nếu chuỗi hành động mất quan hệ trước–sau. Mốc pha giúp tìm đúng phần cần giữ và quyết định khi nào một điểm cắt là lược thời gian có chủ ý.",
+    "worked_example": {
+      "brief": "Góc rộng thấy người hạ khay; cận nối ở pha khay sắp chạm bàn và giữ đủ để thấy tay nhả. Nếu việc chạm đã rõ ở góc rộng, cận có thể dành cho kết quả.",
+      "protected_elements": [
+        "Khớp pha khay chạm và tay rời.",
+        "Không lặp hành động đặt."
+      ],
+      "option_a": "Cắt ở frame hai chiếc khay nằm cùng chỗ dù tay đã nhả ở cả hai góc.",
+      "option_b": "Chọn pha liền nhau: khay chạm rồi tay rời, loại động tác lặp.",
+      "selection_rule": "Chọn B khi cần liên tục; chồng lặp chỉ dùng nếu phong cách và ý nghĩa đã xác định.",
+      "observable_checks": [
+        "Không có hai lần nhận, hai lần đổ hoặc vật nhảy trạng thái ngoài ý đồ.",
+        "Điểm tiếp xúc/kết quả còn đọc được bằng hình hoặc quan hệ hình–âm phù hợp."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hành động có vẻ bị làm hai lần hoặc kết quả không thuyết phục.",
+        "possible_causes": [
+          "Nối hai take ở pha sai.",
+          "Clip AI thiếu trạng thái trung gian."
+        ],
+        "next_test": "Lập ba mốc trước chạm–chạm–sau nhả và so hai nguồn; chọn take, sửa đoạn hoặc dùng lược thời gian rõ."
+      }
+    ],
+    "evidence_links": []
+  }
+}

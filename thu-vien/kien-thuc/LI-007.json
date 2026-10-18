@@ -1,0 +1,85 @@
+{
+  "id": "LI-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "LI",
+  "title": "Phơi sáng: chọn biến theo điều cần bảo vệ",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cần thay độ sáng bằng cách nào mà vẫn giữ vùng nét và chuyển động mong muốn?",
+  "use_when": [
+    "Quay thật, làm tiền kỳ hoặc sửa clip AI tối/sáng nhưng chưa biết nguyên nhân."
+  ],
+  "principle": "Khẩu độ và thời gian phơi ảnh hưởng lượng sáng ghi nhận đồng thời ảnh hưởng vùng nét/nhòe. ISO là điều khiển theo hệ thống máy, không tự tăng photon; cách máy xử lý nhiễu và vùng sáng cần kiểm theo cấu hình. Không đánh đổi mù thông tin quan trọng chỉ để hình sáng hơn.",
+  "actions": [
+    "Chọn phần phải giữ: nhòe chuyển động, vùng rõ, chi tiết vùng sáng/tối. Với quay thật, ưu tiên điều chỉnh nguồn/ND/khẩu hoặc thời gian theo đúng ràng buộc.",
+    "Kiểm cảnh ở điều kiện thực và công cụ đo phù hợp; ghi rõ phần bị cắt dữ liệu khác với phần chỉ hiển thị tối. Với AI xuất sẵn, không giả định có RAW/Log để cứu.",
+    "Nếu sửa bằng hậu kỳ, so nhiễu, dải chuyển và màu sau chỉnh; mất chi tiết do clipping không tự được phục hồi chính xác bằng tăng sáng hay AI."
+  ],
+  "tradeoffs": [
+    "Thêm sáng thay đổi cảm giác nguồn; mở khẩu giảm dung sai nét; đổi thời gian phơi đổi nhòe; nâng tín hiệu có thể lộ nhiễu."
+  ],
+  "verification": [
+    "Bằng chứng chính vẫn đọc được và vùng cần giữ không mất ngoài ý đồ.",
+    "Thay độ sáng không vô tình đổi trải nghiệm chuyển động hoặc độ rõ quan trọng."
+  ],
+  "original_example": "Cần tay và vật cùng rõ khi quay: thay vì mở hết khẩu, thử bổ sung/bố trí lại sáng và kiểm vùng phản chiếu.",
+  "counterexample": "Vùng tối có thể là chủ ý; không ép mọi cảnh về cùng độ sáng hoặc cùng một mức da bất kể bối cảnh.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "LI-004",
+    "CA-012",
+    "MO-007",
+    "CO-006"
+  ],
+  "source_ids": [
+    "SRC-RED-SHUTTER",
+    "SRC-NIKON-APERTURE",
+    "SRC-NIKON-ISO"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Các điều khiển dùng chung ngân sách hình ảnh: thay một biến có thể giải độ sáng nhưng làm hỏng nét hoặc chuyển động. Lựa chọn cần bắt đầu từ thông tin phải giữ.",
+    "worked_example": {
+      "brief": "Cần tay và vật cùng rõ khi quay: thay vì mở hết khẩu, thử bổ sung/bố trí lại sáng và kiểm vùng phản chiếu.",
+      "protected_elements": [
+        "Tay và vật đủ rõ.",
+        "Thông tin phản chiếu quan trọng không mất."
+      ],
+      "option_a": "Mở khẩu tối đa dù thao tác đi qua nhiều khoảng cách.",
+      "option_b": "Giữ vùng rõ cần thiết rồi điều chỉnh ánh sáng/ND theo môi trường và máy thực tế.",
+      "selection_rule": "Chọn B khi vùng nét là ràng buộc; không có biến phơi sáng tối ưu cho mọi cảnh.",
+      "observable_checks": [
+        "Bằng chứng chính vẫn đọc được và vùng cần giữ không mất ngoài ý đồ.",
+        "Thay độ sáng không vô tình đổi trải nghiệm chuyển động hoặc độ rõ quan trọng."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hình đủ sáng nhưng mất chi tiết thao tác hoặc nhòe khác ý đồ.",
+        "possible_causes": [
+          "Biến phơi sáng được chọn sai ưu tiên.",
+          "Clip đầu vào đã mất dữ liệu."
+        ],
+        "next_test": "So trước/sau tại vùng thông tin chính; nếu dữ liệu đã mất, đánh giá sửa cục bộ hay tạo/quay lại thay vì hứa khôi phục thật."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-NIKON-ISO",
+        "claim": "ISO là một điều khiển gain trong hệ thống máy số; khẩu và thời gian phơi liên quan lượng sáng tới cảm biến.",
+        "scope_limit": "Tăng ISO không tự thêm photon vào cảm biến hoặc xác nhận có thể cứu phần dữ liệu đã cắt."
+      }
+    ]
+  }
+}

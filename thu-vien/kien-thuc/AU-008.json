@@ -1,0 +1,78 @@
+{
+  "id": "AU-008",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AU",
+  "title": "Tò mò cần một khoảng thiếu thông tin có thể theo dõi",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Giấu chi tiết này tạo mong chờ hay chỉ làm người xem không hiểu?",
+  "use_when": [
+    "Thiết kế hé lộ, mở hộp, khám phá, chờ kết quả hoặc cảnh không lời."
+  ],
+  "principle": "Muốn người xem chờ lời giải, trước hết giúp họ nhận ra câu hỏi và lý do đáng chờ. Giấu câu trả lời khác với giấu toàn bộ bối cảnh cần hiểu.",
+  "actions": [
+    "Viết câu hỏi đang mở bằng ngôn ngữ đời thường; ghi người xem đã biết gì và còn thiếu gì.",
+    "Cho dấu tiến triển hoặc bằng chứng từng phần trước khi lặp lại cùng lời hứa; bố trí lời giải đủ cụ thể để nhận ra.",
+    "Nếu muốn thư giãn, dùng tò mò nhẹ về kết quả hoặc vật liệu; chỉ tăng nguy cơ khi phù hợp trải nghiệm đã chốt."
+  ],
+  "tradeoffs": [
+    "Trả sớm giảm bí mật nhưng có thể tăng tin cậy; trì hoãn giúp mong chờ nếu mỗi bước vẫn có giá trị."
+  ],
+  "verification": [
+    "Người xem nêu được đang chờ biết điều gì.",
+    "Sau hé lộ, nhận ra câu hỏi đã được trả hoặc được đổi có căn cứ."
+  ],
+  "original_example": "Thấy người chọn hai mảnh gỗ để làm chiếc hộp nhỏ: có thể chờ chúng khớp thế nào mà vẫn hiểu mục tiêu.",
+  "counterexample": "Chỉ có cận vật lạ, cắt liên tục và không cho biết ai làm gì có thể tạo bối rối; không tự gọi đó là bí ẩn thành công.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-003",
+    "ST-004",
+    "ST-006",
+    "YT-001"
+  ],
+  "source_ids": [
+    "SRC-YT-PERFORMANCE",
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Khoảng thiếu chỉ có chức năng khi thông tin hiện có cho phép hình thành một kỳ vọng. Đây là cách thiết kế và kiểm, không là bảo đảm phản ứng tâm lý cho mọi tệp.",
+    "worked_example": {
+      "brief": "Thấy người chọn hai mảnh gỗ để làm chiếc hộp nhỏ: có thể chờ chúng khớp thế nào mà vẫn hiểu mục tiêu.",
+      "protected_elements": [
+        "Mục tiêu làm hộp phải hiểu được.",
+        "Phần hé lộ được chọn theo lời hứa."
+      ],
+      "option_a": "Giấu sản phẩm, người làm lẫn vật liệu cho đến cuối.",
+      "option_b": "Cho thấy vật liệu và mục tiêu; giữ lại cách giải quyết hoặc hình hoàn tất.",
+      "selection_rule": "Chọn B nếu người mới đang không biết họ xem việc gì; A chỉ phù hợp khi mất định hướng là ý đồ đã duyệt.",
+      "observable_checks": [
+        "Người xem nêu được đang chờ biết điều gì.",
+        "Sau hé lộ, nhận ra câu hỏi đã được trả hoặc được đổi có căn cứ."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Người xem rời trước kết quả dù đã nhiều lần hứa cuối phim.",
+        "possible_causes": [
+          "Câu hỏi không rõ/không có giá trị với họ.",
+          "Các lần trì hoãn không thêm tiến triển."
+        ],
+        "next_test": "Thử một bản nêu rõ mục tiêu và một dấu kết quả sớm, giữ phần còn lại để so khả năng theo dõi."
+      }
+    ],
+    "evidence_links": []
+  }
+}

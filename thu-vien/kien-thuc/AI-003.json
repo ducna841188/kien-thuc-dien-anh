@@ -1,7 +1,7 @@
 {
   "id": "AI-003",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "AI",
   "title": "Hợp đồng hành động: đầu, tiếp xúc, biến đổi, cuối",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi cảnh có tay, dụng cụ, trao vật, đổ/trải/cắt hoặc tác động vật."
   ],
-  "principle": "Viết ai làm gì với vật nào và chuỗi trạng thái cần thấy. Mô tả hành vi có nguyên nhân thay cho nhãn vật lý hoàn hảo.",
+  "principle": "Viết ai làm gì với vật nào và chuỗi trạng thái cần thấy. Mô tả hành vi có nguyên nhân thay cho nhãn vật lý hoàn hảo. Ghi điều gì đang đỡ/giữ vật và ai có quyền sở hữu ở mỗi pha. Lỗi trạng thái đầu có thể cần sửa ảnh hoặc cách chia shot trước khi sửa câu chữ.",
   "actions": [
     "Nêu trạng thái đầu và quyền giữ vật.",
     "Ghi tiếp xúc, hướng lực hoặc đường đi cần thiết.",
-    "Nêu trạng thái kết có thể đối chiếu và điều giữ ổn định."
+    "Nêu trạng thái kết có thể đối chiếu và điều giữ ổn định.",
+    "Rà tính khả thi ảnh đầu và các mốc tiếp xúc/che lộ; xem tốc độ thường lẫn rà chậm khi tìm lỗi, giữ mục tiêu hành động đã chốt."
   ],
   "tradeoffs": [
     "Nhiều tiểu bước có thể quá tải một clip; chia shot khi cần."
   ],
   "verification": [
     "Đúng mục tiêu thao tác và không xuyên/nhân đôi/biến mất ở đoạn quan trọng.",
-    "Ghi thiếu dụng cụ hoặc tư thế ngay từ ảnh đầu."
+    "Ghi thiếu dụng cụ hoặc tư thế ngay từ ảnh đầu.",
+    "Vật đổi trạng thái có tác nhân và không có pha treo/xuyên/nhân đôi ngoài ý đồ."
   ],
   "original_example": "Gạo rơi từ dụng cụ vào bát và tích trên lớp sẵn có; lượng tăng có nguyên nhân.",
   "counterexample": "Một câu một hành động vẫn có thể sai nếu ảnh đầu không có đủ dụng cụ hoặc tư thế.",
@@ -32,11 +34,15 @@
   "related_ids": [
     "DR-001",
     "CO-004",
-    "AI-004"
+    "AI-004",
+    "DR-008",
+    "AI-010",
+    "AI-011"
   ],
   "source_ids": [
     "B015",
-    "B033"
+    "B033",
+    "SRC-GOOGLE-I2V"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +51,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Hợp đồng hành động cần trạng thái vào/ra và điểm chuyển lực, không chỉ chuỗi động từ.",
+    "worked_example": {
+      "brief": "Người giữ khay hai tay nhưng prompt yêu cầu mở cửa cùng lúc.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Thêm “chính xác tuyệt đối” nhiều lần.",
+      "option_b": "Tạo trạng thái có tay rảnh hoặc chia hành động theo kịch bản phù hợp.",
+      "selection_rule": "Chọn B khi lỗi thuộc quan hệ đầu; không tự bỏ việc mở cửa nếu đó là mục tiêu.",
+      "observable_checks": [
+        "Vật đổi trạng thái có tác nhân và không có pha treo/xuyên/nhân đôi ngoài ý đồ."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Tạo nhiều lần vẫn mọc tay hoặc làm đồ biến mất.",
+        "possible_causes": [
+          "Tư thế đầu mâu thuẫn với hành động cần làm."
+        ],
+        "next_test": "Kiểm điểm đỡ và tay rảnh, thử một thay đổi đầu vào có căn cứ."
+      }
+    ],
+    "evidence_links": []
+  }
 }

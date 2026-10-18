@@ -1,6 +1,6 @@
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.0.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.1.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
@@ -33,6 +33,14 @@ Khi thiếu dữ liệu thiết yếu, hỏi đúng phần chặn quyết địn
 ## Hai cách mang dữ liệu sang AI khác
 
 - Đọc chọn: tài liệu này + chuẩn phân tích/ra quyết định + mô-đun liên quan + hồ sơ ngách + đầu vào.
-- Đọc toàn: goi-doc/CORE_1_0_0.md và JSONL tương ứng. Dùng mục lục để chia lượt nếu môi trường không nhận đủ; không coi việc gửi link là bằng chứng AI đã đọc mọi tệp.
+- Đọc toàn: goi-doc/CORE_1_1_0.md và JSONL tương ứng. Dùng mục lục để chia lượt nếu môi trường không nhận đủ; không coi việc gửi link là bằng chứng AI đã đọc mọi tệp.
 
 Các gói là bản xuất từ JSON chuẩn. Việc kiểm hành vi của AI khác dùng bộ tình huống ở kiem-thu/; báo cáo cấu trúc không thay thế đánh giá kết quả suy luận.
+
+## Dùng phần mở rộng 1.1.0
+
+Mục có application_depth bổ sung cơ chế/quan hệ cần xét, một ca so phương án với phần phải giữ, dấu kiểm và chẩn đoán lỗi. Đọc phần này khi quyết định có đánh đổi hoặc lỗi lặp; các ví dụ là thiết kế, không phải kết quả thử. evidence_links chỉ phát biểu cụ thể và giới hạn nguồn hỗ trợ; source_ids cũng có thể chứa nguồn bối cảnh, không bảo chứng mọi hành động biên soạn.
+
+Khi lập việc mới, dùng [bản đồ năng lực](08_BAN_DO_NANG_LUC.md) và [vòng sản xuất](06_VAN_HANH_SAN_XUAT.md). Khi nói đã cải thiện, dùng [tiêu chí bằng chứng](07_KIEM_TRA_TRAI_NGHIEM.md), giữ phân biệt tuân thủ kỹ thuật, khả năng hiểu, hành vi xem và hài lòng.
+
+Bản phát hành 1.1.0 chứa cả mục 1.0.0 giữ nguyên và mục 1.1.0 mới/sửa. Dẫn ID@version thực đọc, cùng release/commit của gói. Dự án ghim bản trước phải dùng đúng commit/gói trước; không thay nội dung bằng main rồi gọi vẫn cùng phiên bản. Xem [tương thích](tuong-thich.json).

@@ -1,0 +1,78 @@
+{
+  "id": "ST-012",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ST",
+  "title": "Mô-típ hình và âm trở lại với nghĩa đã thay đổi",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Chi tiết lặp này phát triển ý nghĩa hay chỉ trang trí?",
+  "use_when": [
+    "Tạo liên kết đầu–cuối, bản sắc series hoặc dư âm không cần lời giải thích."
+  ],
+  "principle": "Mô-típ là một chi tiết, hành động, hình hoặc âm có chức năng khi trở lại. Thiết lập đủ nhận ra và thay đổi ngữ cảnh để lần trở lại bổ sung nghĩa; không bắt người xem giải mật mã mới hiểu việc chính.",
+  "actions": [
+    "Chọn ít yếu tố dễ nhận, gắn với câu chuyện: âm cửa, bàn tay trao vật, ánh đèn hoặc vật dụng có công năng.",
+    "Ghi cho mỗi lần xuất hiện: điều ổn định, ngữ cảnh mới và liên hệ dự kiến. Cho dấu biến đổi cụ thể thay vì chỉ lặp cùng stock shot.",
+    "Kiểm hai lớp: người không nhận ra mô-típ vẫn hiểu mạch; người nhận ra có thêm liên hệ hoặc cảm giác hoàn tất."
+  ],
+  "tradeoffs": [
+    "Nhấn quá rõ gây đoán trước; quá kín khiến ý nghĩa chỉ tồn tại trong thuyết minh của tác giả."
+  ],
+  "verification": [
+    "Lần trở lại có quan hệ với thay đổi chính.",
+    "Phim vẫn hiểu được khi chưa gọi tên biểu tượng."
+  ],
+  "original_example": "Đầu phim tiếng chốt cửa gắn với căn phòng chưa dùng; cuối phim cùng âm mở ra buổi sinh hoạt. Nguồn âm giống nhưng công năng trong câu chuyện đổi.",
+  "counterexample": "Một tông cam xuất hiện nhiều lần chưa đủ để kết luận đó là biểu tượng về gia đình của tác giả.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-004",
+    "ST-010",
+    "CO-002",
+    "SO-006"
+  ],
+  "source_ids": [
+    "SRC-YALE-STAGING",
+    "SRC-YALE-SOUND"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mốc quen cho phép so ngữ cảnh trước–sau. Ý nghĩa được đề xuất qua quan hệ trong phim; khi phân tích nguồn, phải tách quan sát lặp khỏi diễn giải biểu tượng.",
+    "worked_example": {
+      "brief": "Đầu phim tiếng chốt cửa gắn với căn phòng chưa dùng; cuối phim cùng âm mở ra buổi sinh hoạt. Nguồn âm giống nhưng công năng trong câu chuyện đổi.",
+      "protected_elements": [
+        "Nguồn tiếng chốt nhận ra được.",
+        "Việc chính vẫn hiểu khi chưa nhận ra mô-típ."
+      ],
+      "option_a": "Lặp cận vật ở mọi chương dù không liên quan.",
+      "option_b": "Giữ hai hoặc vài lần có chức năng rõ và để ngữ cảnh tạo khác biệt.",
+      "selection_rule": "Chọn B khi mô-típ đang làm ngắt mạch; tần suất không có ngưỡng chung.",
+      "observable_checks": [
+        "Lần trở lại có quan hệ với thay đổi chính.",
+        "Phim vẫn hiểu được khi chưa gọi tên biểu tượng."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Chi tiết lặp bị cảm như quảng cáo hoặc cảnh chèn.",
+        "possible_causes": [
+          "Xuất hiện không có tác nhân.",
+          "Lặp hình nhưng không phát triển công năng/quan hệ."
+        ],
+        "next_test": "Tạm bỏ một lần lặp; xem câu chuyện hoặc liên hệ có mất điều gì cụ thể không."
+      }
+    ],
+    "evidence_links": []
+  }
+}

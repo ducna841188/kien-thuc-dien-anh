@@ -1,0 +1,76 @@
+{
+  "id": "ST-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ST",
+  "title": "Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Vì sao cảnh kế tiếp phải có mặt sau cảnh này?",
+  "use_when": [
+    "Kịch bản thành danh sách cảnh đẹp, trình tự công đoạn hoặc montage thiếu trục."
+  ],
+  "principle": "Một chuỗi có thể nối bằng nguyên nhân, thời gian, câu hỏi–lời giải, không gian hoặc liên tưởng. Chọn quan hệ chính và làm người xem đọc được; không bắt mọi phim thành chuỗi xung đột.",
+  "actions": [
+    "Viết bên cạnh mỗi nối cảnh một từ chỉ quan hệ: vì vậy, nhưng, sau đó, đồng thời, tương phản hoặc gợi nhớ; nếu không xác định được thì xem lại chức năng.",
+    "Đối với tiến trình, cho thấy điều kiện đầu, hành động đổi trạng thái và hệ quả cần cho bước sau. Với liên tưởng, giữ dấu hình/âm/ý nghĩa đủ nhận ra.",
+    "Loại hoặc chuyển vị trí cảnh đẹp nếu không bổ sung trải nghiệm, thông tin hoặc khoảng nghỉ có mục đích."
+  ],
+  "tradeoffs": [
+    "Giải thích mọi quan hệ có thể làm phim khô; có thể để người xem tự nối khi bằng chứng đủ."
+  ],
+  "verification": [
+    "Đảo thứ tự hai cảnh làm thay đổi nghĩa hoặc nhịp theo cách nêu được.",
+    "Không tạo nhân quả giả khi chỉ có quan hệ cắt xen."
+  ],
+  "original_example": "Chốt cửa kẹt→người kiểm khe→tháo vật cản→cửa mở. Một phim quan sát khác có thể nối các cánh cửa bằng tương đồng hình để nói về nơi chốn.",
+  "counterexample": "Các cảnh có chung tông màu không tự tạo tiến trình; nhưng phim mang mục tiêu chiêm ngắm có thể chủ động dùng quan hệ thị giác làm trục.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-001",
+    "ST-003",
+    "ST-005",
+    "ED-006"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nêu quan hệ buộc người dựng xác định đóng góp của mỗi đoạn. Đây là công cụ biên tập, không yêu cầu mọi cú nối phải được khán giả diễn đạt thành lời.",
+    "worked_example": {
+      "brief": "Chốt cửa kẹt→người kiểm khe→tháo vật cản→cửa mở. Một phim quan sát khác có thể nối các cánh cửa bằng tương đồng hình để nói về nơi chốn.",
+      "protected_elements": [
+        "Quan hệ cửa kẹt, kiểm tra và khắc phục."
+      ],
+      "option_a": "Giữ tất cả cảnh đã tạo vì mỗi cảnh đều đẹp.",
+      "option_b": "Lập bản dựng theo các bước thay đổi chính, rồi chèn cảnh quan sát ở chỗ chúng có tác dụng cụ thể.",
+      "selection_rule": "Chọn theo lời hứa; khi người xem đang lạc tiến trình, thử B trước khi tạo thêm hình.",
+      "observable_checks": [
+        "Đảo thứ tự hai cảnh làm thay đổi nghĩa hoặc nhịp theo cách nêu được.",
+        "Không tạo nhân quả giả khi chỉ có quan hệ cắt xen."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Phim có nhiều công đoạn nhưng không thấy việc tiến tới đâu.",
+        "possible_causes": [
+          "Thiếu kết quả trung gian.",
+          "Cảnh lặp chức năng hoặc thứ tự theo ngày sinh file."
+        ],
+        "next_test": "Tóm tắt mỗi cảnh bằng một thay đổi; thử bỏ một cảnh và xem quan hệ nào bị mất."
+      }
+    ],
+    "evidence_links": []
+  }
+}

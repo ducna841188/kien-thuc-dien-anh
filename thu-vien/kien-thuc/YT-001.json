@@ -1,7 +1,7 @@
 {
   "id": "YT-001",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "YT",
   "title": "Lời hứa ảnh thu nhỏ, tiêu đề và mở đầu",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi giới thiệu hoặc mở một video YouTube."
   ],
-  "principle": "Xác lập giá trị/thông tin thật của phim và sớm cho tín hiệu phù hợp. Không có một kiểu mở đầu bắt buộc cho mọi tệp xem.",
+  "principle": "Xác lập giá trị/thông tin thật của phim và sớm cho tín hiệu phù hợp. Không có một kiểu mở đầu bắt buộc cho mọi tệp xem. Tránh phần mở chỉ kể sẽ có gì mà không cho người xem nhận giá trị. Với phim êm, chính nơi chốn/hành động/âm có thể làm nhiệm vụ mở; không tự thêm giật gân hoặc nhịp cắt trái tông.",
   "actions": [
     "Viết lời hứa trong một câu.",
     "Chọn hình/chi tiết mở giúp nhận ra giá trị ấy.",
-    "Ghi nơi phim thực sự trả lời hứa; rà sự chênh giữa giới thiệu và nội dung."
+    "Ghi nơi phim thực sự trả lời hứa; rà sự chênh giữa giới thiệu và nội dung.",
+    "Đặt các phương án mở theo cùng lời hứa và kiểm độ rõ, giá trị nhận được cùng sự liền mạch; mốc đầu video trong Analytics là dấu chẩn đoán, không phải thời hạn cho mọi kỹ thuật."
   ],
   "tradeoffs": [
     "Lộ kết quả sớm có thể giảm bí mật nhưng tăng rõ lợi ích; chọn theo lời hứa."
   ],
   "verification": [
     "Không hứa thu hoạch một thứ rồi toàn phim chủ yếu việc khác không liên quan.",
-    "Không dùng yếu tố sốc trái trải nghiệm đã chốt chỉ để kéo nhấp."
+    "Không dùng yếu tố sốc trái trải nghiệm đã chốt chỉ để kéo nhấp.",
+    "Không gọi “ba giây”, “ba mươi giây” hoặc số cut mở là công thức bảo đảm giữ chân."
   ],
   "original_example": "Video thư giãn có thể mở bằng nơi chốn và việc dễ hiểu; phim điều tra có thể mở bằng câu hỏi.",
   "counterexample": "Không phải mọi video phải mở bằng thành phẩm hoặc cao trào.",
@@ -30,10 +32,14 @@
   "related_ids": [
     "ST-008",
     "AU-001",
-    "YT-002"
+    "YT-002",
+    "YT-007",
+    "YT-008",
+    "ST-011"
   ],
   "source_ids": [
-    "SRC-YT-RETENTION"
+    "SRC-YT-RETENTION",
+    "SRC-YT-PERFORMANCE"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -42,5 +48,36 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mở hấp dẫn cần giao giá trị đúng lời hứa sớm nhưng không có một cấu trúc hook bắt buộc cho mọi dạng phim.",
+    "worked_example": {
+      "brief": "Phim không lời hứa một buổi làm thủ công yên.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Mở bằng tai nạn giả rồi montage gấp.",
+      "option_b": "Vào một việc dễ hiểu và chất âm phù hợp, thiết lập điều đáng chờ.",
+      "selection_rule": "Chọn B nếu lời hứa êm còn hiệu lực; xem phản hồi thực trước khi tăng cường độ.",
+      "observable_checks": [
+        "Không gọi “ba giây”, “ba mươi giây” hoặc số cut mở là công thức bảo đảm giữ chân."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Khán giả vào xem nhưng nói nội dung không như mong đợi.",
+        "possible_causes": [
+          "Mở và đóng gói đang hứa trải nghiệm khác phim."
+        ],
+        "next_test": "So từng lời hứa với bằng chứng trong mở và thân; sửa chỗ sai khớp."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-YT-PERFORMANCE",
+        "claim": "YouTube hướng dẫn phần mở giao đúng lời hứa sớm; trang này không đặt công thức hook bằng số giây.",
+        "scope_limit": "Không công bố trọng số, ngưỡng thành công, công thức hook theo số giây hoặc bảo đảm lượt xem."
+      }
+    ]
+  }
 }

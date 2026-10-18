@@ -1,7 +1,7 @@
 {
   "id": "ST-007",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "ST",
   "title": "Kịch bản hình–tiếng và lời bổ sung",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi viết kịch bản có thoại/lời bình hoặc phim không thoại."
   ],
-  "principle": "Phân công kênh truyền đạt theo điều mỗi kênh làm tốt. Lời có thể thêm bối cảnh, quy luật, suy nghĩ; hình/tiếng có thể tự cho thấy hành động.",
+  "principle": "Phân công kênh truyền đạt theo điều mỗi kênh làm tốt. Lời có thể thêm bối cảnh, quy luật, suy nghĩ; hình/tiếng có thể tự cho thấy hành động. Thiết lập mục tiêu, tác động và hệ quả có thể đọc qua hành động/hình–âm; lời vẫn có ích cho bối cảnh không thể thấy khi dạng phim cho phép.",
   "actions": [
     "Lập cột hình, âm, lời và thông tin mới.",
     "Rà câu nào chỉ lặp điều đã quá rõ trong hình.",
-    "Chừa thời gian để hình/tiếng mang thông tin trước khi thêm lời."
+    "Chừa thời gian để hình/tiếng mang thông tin trước khi thêm lời.",
+    "Làm bản sơ chỉ bằng hình–âm để tìm chỗ người mới hiểu sai; sửa đúng dấu thiếu, bảo vệ lựa chọn không thoại nếu đã chốt."
   ],
   "tradeoffs": [
     "Bỏ hết lời có thể làm mất bối cảnh khó thấy; nhiều lời có thể che trải nghiệm quan sát."
   ],
   "verification": [
     "Mỗi câu có chức năng và vừa thời lượng đọc thực tế.",
-    "Không dùng lời để tuyên bố một hành động mà hình mâu thuẫn."
+    "Không dùng lời để tuyên bố một hành động mà hình mâu thuẫn.",
+    "Người xem có thể kể tiến trình chính mà không cần biết trước bản thuyết minh của tác giả."
   ],
   "original_example": "Thấy bàn tay nhào bột; lời nếu có nói về thời gian chờ hoặc ký ức, không cần đọc mọi cử động.",
   "counterexample": "Video hướng dẫn có thể cần gọi tên thao tác đang thấy để người mới học theo.",
@@ -32,7 +34,10 @@
   "related_ids": [
     "SO-002",
     "SO-007",
-    "AU-005"
+    "AU-005",
+    "ST-009",
+    "ST-011",
+    "YT-011"
   ],
   "source_ids": [
     "B016",
@@ -45,5 +50,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Kể không lời cần bằng chứng và quan hệ, không phải chỉ bỏ voiceover.",
+    "worked_example": {
+      "brief": "Một vật được sửa nhưng nguồn không có thoại.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Bổ sung lời tuyên bố vật đã hoạt động.",
+      "option_b": "Thêm hoặc chọn hành động sử dụng chứng minh chức năng.",
+      "selection_rule": "Chọn B khi phải giữ không thoại; lời chỉ xem xét nếu cần bối cảnh và được cho phép.",
+      "observable_checks": [
+        "Người xem có thể kể tiến trình chính mà không cần biết trước bản thuyết minh của tác giả."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Bỏ lời xong phim không còn hiểu được.",
+        "possible_causes": [
+          "Thông tin thiết yếu chỉ tồn tại trong bản thuyết minh."
+        ],
+        "next_test": "Lập danh sách thông tin đó và tìm bằng chứng hình–âm khả thi cho từng mục."
+      }
+    ],
+    "evidence_links": []
+  }
 }

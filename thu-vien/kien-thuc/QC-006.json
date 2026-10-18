@@ -1,7 +1,7 @@
 {
   "id": "QC-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "QC",
   "title": "Từ ví dụ ngách tới kiến thức chung",
   "level": "nang_cao",
@@ -11,18 +11,20 @@
   "use_when": [
     "Sau một lượt phân tích nhiều video hoặc kết quả sản xuất."
   ],
-  "principle": "Ghi mẫu, cơ chế được đề xuất, điều kiện và phản ví dụ. Lặp lại không tự chứng minh nhân quả; nguồn trùng không tăng sức bằng chứng.",
+  "principle": "Ghi mẫu, cơ chế được đề xuất, điều kiện và phản ví dụ. Lặp lại không tự chứng minh nhân quả; nguồn trùng không tăng sức bằng chứng. Chức năng có thể chuyển giao qua nhiều thủ pháp, còn tỷ lệ/cỡ/nhịp thường phụ thuộc lời hứa và tệp. Nguồn nghiên cứu hẹp không tự chứng minh hiệu quả trên YouTube.",
   "actions": [
     "Tạo ứng viên kiến thức với liên kết đến các quan sát.",
     "Thử giải thích mẫu trong một ngách khác và tìm trường hợp ngược.",
-    "Phân loại bổ sung, sửa điều kiện hay đảo nguyên tắc; trình loại đảo trước áp dụng rộng."
+    "Phân loại bổ sung, sửa điều kiện hay đảo nguyên tắc; trình loại đảo trước áp dụng rộng.",
+    "Mỗi ứng viên core có điều kiện, bằng chứng thuận/trái, lý giải chức năng, phương án khác và phép thử; sửa đảo nguyên tắc vẫn giữ proposed_reversal."
   ],
   "tradeoffs": [
     "Khái quát quá sớm dễ mang gu tác giả thành luật; giữ quá riêng làm khó chuyển giao."
   ],
   "verification": [
     "Không dùng số video cố định như điều kiện đủ tự động nâng lên core.",
-    "Nguồn bất đồng và kết quả thử trái ý đồ được giữ."
+    "Nguồn bất đồng và kết quả thử trái ý đồ được giữ.",
+    "Không gọi kiến thức được xác nhận rộng khi mới có các ví dụ cùng tác giả hoặc một thử mô hình."
   ],
   "original_example": "Từ chuỗi món ăn hoàn tất đề xuất nguyên lý cho người xem nhận ra kết quả; không nâng tỷ lệ cận của một phim thành chuẩn chung.",
   "counterexample": "Cùng thủ pháp có thể phục vụ căng thẳng ở ngách khác; nguyên lý nên giữ điều kiện thay vì đổi tên cảm xúc.",
@@ -32,11 +34,16 @@
   "related_ids": [
     "EV-006",
     "AU-006",
-    "QC-004"
+    "QC-004",
+    "EV-007",
+    "EV-008",
+    "YT-010",
+    "QC-008"
   ],
   "source_ids": [
     "B019",
-    "B033"
+    "B033",
+    "SRC-PERCEPTION-EVENTS"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +52,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Nâng kiến thức cần xét chức năng và phản chứng chứ không cộng số video như số phiếu bầu.",
+    "worked_example": {
+      "brief": "Một nhóm phim đều có khoảng kết quả sau thao tác.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Chốt mọi shot kết quả phải dài tám giây.",
+      "option_b": "Nêu chức năng xác nhận thành quả, giữ thời lượng theo thông tin và tệp.",
+      "selection_rule": "Chọn B để chuyển giao; thời lượng mẫu giữ ở báo cáo/ngách tương ứng.",
+      "observable_checks": [
+        "Không gọi kiến thức được xác nhận rộng khi mới có các ví dụ cùng tác giả hoặc một thử mô hình."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Core dần biến thành công thức của một kênh.",
+        "possible_causes": [
+          "Không tách chức năng khỏi biểu hiện phong cách."
+        ],
+        "next_test": "Viết phản ví dụ ở một ngách khác và kiểm điều kiện của nguyên lý đề xuất."
+      }
+    ],
+    "evidence_links": []
+  }
 }

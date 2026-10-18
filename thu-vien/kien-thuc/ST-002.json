@@ -1,7 +1,7 @@
 {
   "id": "ST-002",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "ST",
   "title": "Mục tiêu, trở ngại và lựa chọn",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi cảnh có người/vật đang cố đạt một kết quả."
   ],
-  "principle": "Mục tiêu tạo hướng; trở ngại tạo nhu cầu thích nghi; lựa chọn làm lộ năng lực hoặc tính cách. Mức trở ngại theo lời hứa trải nghiệm.",
+  "principle": "Mục tiêu tạo hướng; trở ngại tạo nhu cầu thích nghi; lựa chọn làm lộ năng lực hoặc tính cách. Mức trở ngại theo lời hứa trải nghiệm. Trở ngại không bắt buộc là đối đầu hay nguy hiểm; điều đáng quan tâm có thể là hoàn tất, chăm sóc, khám phá hoặc làm đúng một việc.",
   "actions": [
     "Nêu mục tiêu có thể nhìn thấy.",
     "Chọn trở ngại đúng hoàn cảnh, có thể rất nhỏ.",
-    "Cho hành động thay đổi trước trở ngại và để lại hệ quả."
+    "Cho hành động thay đổi trước trở ngại và để lại hệ quả.",
+    "Ghi giá trị của kết quả và cách lựa chọn tác động nó; nếu cảnh không cần trở ngại, dùng tiến triển hoặc khám phá phù hợp lời hứa."
   ],
   "tradeoffs": [
     "Tăng trở ngại quá mức có thể phá cảm giác an toàn hoặc làm nhân vật kém tin cậy."
   ],
   "verification": [
     "Không phải mọi hành động đều là lặp lại không đổi.",
-    "Khán giả hiểu lựa chọn đã tác động kết quả thế nào."
+    "Khán giả hiểu lựa chọn đã tác động kết quả thế nào.",
+    "Không tự thêm tai nạn hoặc căng thẳng trái mục tiêu để thỏa một mẫu cấu trúc."
   ],
   "original_example": "Người điều chỉnh quai giỏ để mang nặng dễ hơn; ở phim khác đó có thể là lựa chọn đường thoát.",
   "counterexample": "Một cảnh ngắm cảnh có thể có giá trị dù không có xung đột; đừng bịa tai nạn để đủ công thức.",
@@ -30,7 +32,9 @@
   "related_ids": [
     "DR-001",
     "AU-003",
-    "ST-004"
+    "ST-004",
+    "ST-011",
+    "YT-008"
   ],
   "source_ids": [
     "B017",
@@ -43,5 +47,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Một mục tiêu nhỏ có thể tạo lực theo dõi nếu giá trị và lựa chọn đọc được.",
+    "worked_example": {
+      "brief": "Người chuẩn bị một chỗ ngồi cho khách trong phim yên.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Thêm ghế sắp gãy để có nguy hiểm.",
+      "option_b": "Giữ mục tiêu tiếp đón, cho thao tác sửa và hành vi sử dụng xác nhận.",
+      "selection_rule": "Chọn B nếu sự chăm sóc là giá trị chính.",
+      "observable_checks": [
+        "Không tự thêm tai nạn hoặc căng thẳng trái mục tiêu để thỏa một mẫu cấu trúc."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Câu chuyện trở nên giật gân khi chuyển kịch bản sang shot.",
+        "possible_causes": [
+          "Nhầm có lực theo dõi với phải có hiểm nguy."
+        ],
+        "next_test": "Viết lại mục tiêu và giá trị của kết quả trước khi thiết kế trở ngại."
+      }
+    ],
+    "evidence_links": []
+  }
 }

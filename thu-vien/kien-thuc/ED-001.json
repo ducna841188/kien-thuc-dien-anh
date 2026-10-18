@@ -1,7 +1,7 @@
 {
   "id": "ED-001",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "ED",
   "title": "Nhịp trong shot, giữa shot và toàn phim",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi video quá chậm, quá dồn hoặc đều đều."
   ],
-  "principle": "Xét chuyển động, diễn xuất, lượng thông tin, âm thanh, thời lượng và quan hệ chuỗi. Không lấy thời lượng trung bình làm định nghĩa duy nhất của nhịp.",
+  "principle": "Xét chuyển động, diễn xuất, lượng thông tin, âm thanh, thời lượng và quan hệ chuỗi. Không lấy thời lượng trung bình làm định nghĩa duy nhất của nhịp. Xem nhịp ở mốc hành động, shot, chuỗi, phân đoạn và toàn phim; phân biệt tần suất cắt với tần suất sự kiện có ý nghĩa.",
   "actions": [
     "Đọc một shot với âm và không âm để tách đóng góp.",
     "Rà chỗ đổi việc, thông tin và năng lượng trong chuỗi.",
-    "Chọn thay đổi nhỏ nhất phục vụ trải nghiệm cần đạt."
+    "Chọn thay đổi nhỏ nhất phục vụ trải nghiệm cần đạt.",
+    "Lập hai tuyến cut và thay đổi nội dung; trước khi rút thời lượng xác định phần dành cho nhận diện, hành động, chờ hoặc tiếp nhận."
   ],
   "tradeoffs": [
     "Tăng tốc cắt có thể tạo năng lượng nhưng cũng tăng công sức theo dõi."
   ],
   "verification": [
     "Nêu được yếu tố đang tạo nhịp ở một mốc cụ thể.",
-    "Bản sửa không chỉ cắt đều theo một số giây."
+    "Bản sửa không chỉ cắt đều theo một số giây.",
+    "Bản sửa cho biết đã thay chức năng thời gian nào và kiểm nó ở cả đoạn lẫn toàn phim."
   ],
   "original_example": "Chuỗi thao tác ngắn, rõ có thể nhẹ nhàng; cảnh dài nhiều biến cố vẫn có thể căng.",
   "counterexample": "Giữ hình lâu không tự tạo thư giãn hoặc chiều sâu.",
@@ -30,12 +32,17 @@
   "related_ids": [
     "AU-005",
     "MO-005",
-    "SO-006"
+    "SO-006",
+    "AU-007",
+    "ED-009",
+    "ED-010",
+    "ED-011"
   ],
   "source_ids": [
     "B017",
     "B024",
-    "SRC-YALE-EDIT"
+    "SRC-YALE-EDIT",
+    "SRC-PERCEPTION-EVENTS"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -44,5 +51,36 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Đếm cut không mô tả hết công sức theo dõi hoặc giá trị thời gian.",
+    "worked_example": {
+      "brief": "Chuỗi nhiều cận cùng một thao tác vẫn rõ, nhưng cú đổi phòng thiếu định hướng.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Giảm tất cả cut vì cho rằng phim rối do cắt nhiều.",
+      "option_b": "Sửa mốc đổi phòng và giữ những cận có bằng chứng.",
+      "selection_rule": "Chọn B khi lỗi thuộc cập nhật nơi chốn; kiểm người mới thay vì suy từ số cut.",
+      "observable_checks": [
+        "Bản sửa cho biết đã thay chức năng thời gian nào và kiểm nó ở cả đoạn lẫn toàn phim."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Phim chậm hơn mà vẫn rối.",
+        "possible_causes": [
+          "Sửa chỉ số hình thức thay vì dấu thông tin thiếu."
+        ],
+        "next_test": "Đánh dấu nơi người xem không kể tiếp được tiến trình và sửa đúng mốc đó."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-PERCEPTION-EVENTS",
+        "claim": "Không thể đồng nhất mọi cut với một sự kiện mới trong cách hiểu của người xem.",
+        "scope_limit": "Không có tỷ lệ cắt tối ưu, phép đo hài lòng khán giả kênh này hoặc quy luật mọi thể loại. Ứng dụng dựng trong kho là đề xuất cần kiểm."
+      }
+    ]
+  }
 }

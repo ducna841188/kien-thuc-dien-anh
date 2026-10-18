@@ -23,3 +23,11 @@ Tỷ lệ quảng bá, công thức thời lượng chung, phần trăm rung kh�
 Sổ nguon/nguon-chinh-thuc.json ghi ngày, phạm vi và điều chưa chứng minh. Có nguồn đào tạo điện ảnh, lời kể nhà quay phim, tài liệu nền tảng YouTube và tài liệu nhà phát triển. Đây là nguồn đối chiếu có chọn lọc; không tuyên bố đã xem mọi video/sách trong trang đào tạo.
 
 Các quy trình, ví dụ và phản ví dụ mới là biên soạn thực hành. Chưa tạo video để chứng minh, chưa có thử nghiệm người xem hoặc đánh giá độc lập trên các AI khác.
+
+## Đối chiếu thêm trong lượt rà 1.1.0
+
+Sổ nguồn hiện có 27 tài liệu ngoài, thêm 13 nguồn về sự kiện/dựng liên tục, quang học/phơi sáng, màu, âm và YouTube. Danh mục ghi chính xác đã đọc phần nào; có nguồn chỉ truy xuất được một đoạn manual, không báo đọc toàn bộ.
+
+Đọc scope, notes và not_established trong [sổ nguồn](nguon/nguon-chinh-thuc.json). Với nghiên cứu phân đoạn sự kiện, giới hạn gồm phim/tập người tham gia cụ thể; không nâng thành tỷ lệ cut hoặc kết luận giữ chân YouTube. Với tài liệu hệ màu/camera, không suy model AI đã thực thi thông số vật lý. Với YouTube, không suy trọng số thuật toán hoặc cam kết view từ hướng dẫn chung.
+
+Các phương án, ca và quy trình do thư viện biên soạn, chưa chạy thử sinh video/đo khán giả. Các phát biểu đối chiếu trực tiếp trong mục có evidence_links; tham chiếu bối cảnh không có nghĩa nguồn đã kiểm chứng toàn bộ bài. [Báo cáo rà](kiem-toan/RA_SOAT_1_1_0.md) ghi lớp sửa, phần giữ và các việc cần dữ liệu thật.

@@ -1,6 +1,6 @@
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.0.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.1.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -18,21 +18,26 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [CA-008](#ca-008) | Tiêu cự, khoảng cách và phối cảnh | nang_cao |
 | [CA-009](#ca-009) | Khung hình và cách xem thực tế | trung_cap |
 | [CA-010](#ca-010) | Cú máy dài và thiết kế thay đổi trong khung | nang_cao |
+| [CA-011](#ca-011) | Bố cục phát triển qua thời gian và sự che khuất | trung_cap |
+| [CA-012](#ca-012) | Độ sâu trường ảnh là lựa chọn kết hợp, không phải nhãn ống kính | trung_cap |
 
 <a id="ca-001"></a>
 ## CA-001 — Cỡ cảnh theo thông tin phải thấy
+
+**Phiên bản mục:** 1.1.0
 
 **Câu hỏi quyết định:** Khán giả cần thấy quan hệ không gian hay chi tiết nào?
 
 **Dùng khi:** Khi chọn khung cho một nhiệm vụ kể chuyện.
 
-**Nguyên lý thực hành:** Toàn, trung, cận và đặc tả mô tả lượng chủ thể/không gian trong khung. Cỡ cảnh không tự xác định tiêu cự, góc hoặc cảm xúc.
+**Nguyên lý thực hành:** Toàn, trung, cận và đặc tả mô tả lượng chủ thể/không gian trong khung. Cỡ cảnh không tự xác định tiêu cự, góc hoặc cảm xúc. Chọn cỡ theo bằng chứng ở thời điểm đó và quan hệ với shot trước/sau; đổi cỡ chỉ để đa dạng có thể làm lặp hoặc mất định hướng.
 
 **Cách làm:**
 
 1. Chỉ ra bằng chứng bắt buộc phải nằm trong khung.
 2. Chọn cỡ đủ để đọc bằng chứng trên màn hình xem thực tế.
 3. Ghi phần cơ thể/vật thể được thấy thay vì chỉ viết chữ viết tắt.
+4. Đặt câu hỏi cho từng shot: cần đọc vị trí, hành động, tiếp xúc hay phản ứng? Kiểm cỡ trong bản xuất thật trước khi chọn thuật ngữ.
 
 **Đánh đổi:** Khung gần làm rõ chi tiết nhưng có thể mất hướng và quy mô.
 
@@ -40,19 +45,47 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 - Không cắt mất điểm tiếp xúc cần xem.
 - Tên cỡ và nội dung khung không mâu thuẫn.
+- Bộ cỡ phục vụ tiến trình, không bị ép theo tỷ lệ của một kênh tham khảo.
 
 **Ví dụ tự biên soạn:** Toàn cho thấy khoảng cách hai người; cận cho thấy một bàn tay vừa siết chặt.
 
 **Phản ví dụ / giới hạn:** Cận mặt không bắt buộc giàu cảm xúc hơn toàn thân trong mọi cảnh.
 
-**Liên quan:** [AU-002](../kien-thuc/AU-002.json), [CA-003](../kien-thuc/CA-003.json), [DR-006](../kien-thuc/DR-006.json)
+**Liên quan:** [AU-002](../kien-thuc/AU-002.json), [CA-003](../kien-thuc/CA-003.json), [DR-006](../kien-thuc/DR-006.json), [CA-011](../kien-thuc/CA-011.json), [CA-012](../kien-thuc/CA-012.json), [YT-010](../kien-thuc/YT-010.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Cỡ cảnh là quyết định lượng thông tin; tỷ lệ cận/toàn không tự định nghĩa một phong cách tốt.
+
+**Tình huống:** Cần vừa hiểu hai người đứng đâu vừa thấy chuyển chìa khóa.
+
+**Phần phải giữ:** Mục tiêu và các phần đã duyệt trong tình huống.
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Dùng toàn bộ cận vì ngách mẫu có nhiều cận. |
+| B | Xác lập quan hệ rồi chọn cận chuyển quyền nếu cần. |
+
+**Cách chọn:** Chọn B khi hai lớp thông tin đều cần đọc; một khung có thể đủ nếu bố trí thấy cả hai.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Bộ cỡ phục vụ tiến trình, không bị ép theo tỷ lệ của một kênh tham khảo.
+
+**Nếu gặp:** Nhiều chi tiết đẹp nhưng người xem lạc nơi chốn.
+
+Có thể do: Thiếu thông tin quan hệ do chọn cỡ theo gu đơn lẻ.
+
+Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cùng shot.
 **Nguồn đối chiếu:** [B005](../../bai-hoc/005-bay-cu-may/README.md), [B010](../../bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/CA-001.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
 <a id="ca-002"></a>
 ## CA-002 — Độ cao, góc nhìn và độ nghiêng
+
+**Phiên bản mục:** 1.0.0
 
 **Câu hỏi quyết định:** Máy ở đâu và nhìn theo hướng nào?
 
@@ -86,6 +119,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="ca-003"></a>
 ## CA-003 — Bố cục và trọng tâm theo thời gian
 
+**Phiên bản mục:** 1.0.0
+
 **Câu hỏi quyết định:** Điều gì được ưu tiên ở đầu và cuối khung?
 
 **Dùng khi:** Khi hình nhiều chi tiết hoặc trọng tâm chuyển.
@@ -117,6 +152,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 <a id="ca-004"></a>
 ## CA-004 — Địa lý màn hình và hướng liên tục
+
+**Phiên bản mục:** 1.0.0
 
 **Câu hỏi quyết định:** Qua điểm cắt, người xem có giữ được ai ở đâu không?
 
@@ -150,6 +187,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="ca-005"></a>
 ## CA-005 — Chiều sâu và không gian ngoài khung
 
+**Phiên bản mục:** 1.0.0
+
 **Câu hỏi quyết định:** Quan hệ gần–xa và phần chưa thấy đóng vai trò gì?
 
 **Dùng khi:** Khi tạo cảm giác nơi chốn, quy mô hoặc thông tin giấu.
@@ -181,6 +220,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 <a id="ca-006"></a>
 ## CA-006 — Quan hệ máy với nhân vật: qua vai, hai người, điểm nhìn
+
+**Phiên bản mục:** 1.0.0
 
 **Câu hỏi quyết định:** Người xem được đặt vào quan hệ với ai?
 
@@ -214,6 +255,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="ca-007"></a>
 ## CA-007 — Nét, vùng nét và chuyển sự chú ý
 
+**Phiên bản mục:** 1.0.0
+
 **Câu hỏi quyết định:** Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?
 
 **Dùng khi:** Khi nền mờ hoặc chuyển nét ảnh hưởng hiểu cảnh.
@@ -246,17 +289,20 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="ca-008"></a>
 ## CA-008 — Tiêu cự, khoảng cách và phối cảnh
 
+**Phiên bản mục:** 1.1.0
+
 **Câu hỏi quyết định:** Cảm giác gần–xa đến từ vị trí máy hay góc nhìn ống kính?
 
 **Dùng khi:** Khi mô tả tạo hình, chọn ống hoặc phân tích hình bị méo.
 
-**Nguyên lý thực hành:** Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn.
+**Nguyên lý thực hành:** Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn. Ở cùng vị trí nhìn, đổi tiêu cự thay góc thu hình; đổi vị trí máy thay quan hệ phối cảnh. Định dạng ảnh hưởng góc nhìn theo tổ hợp dùng, không tự gán một “chất full frame” cố định.
 
 **Cách làm:**
 
 1. Chọn cỡ cảnh và khoảng cách mong muốn trước.
 2. Ghi cách nền/tiền cảnh nên quan hệ với chủ thể.
 3. Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo.
+4. Khi đề xuất số mm, ghi định dạng và khoảng cách nếu đã biết; nếu chưa biết, mô tả quan hệ chủ thể/nền và để số là ứng viên thử.
 
 **Đánh đổi:** Ống rộng ở gần có thể nhấn chênh khoảng cách; đứng xa hơn có thể làm các lớp có vẻ sát nhau.
 
@@ -264,19 +310,47 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 - Không quy mọi méo mặt cho một số mm.
 - Không suy chính xác tiêu cự hoặc máy từ một khung thiếu metadata.
+- Mọi so trước/sau nêu được vị trí máy có đổi hay không.
 
 **Ví dụ tự biên soạn:** Muốn thấy người cùng căn bếp, chọn vị trí đủ đọc không gian; muốn nền như gần hơn thì xét góc nhìn và khoảng cách cùng nhau.
 
 **Phản ví dụ / giới hạn:** Một cận góc rộng có thể là chủ ý biểu cảm; không phải lỗi bắt buộc sửa.
 
-**Liên quan:** [CA-001](../kien-thuc/CA-001.json), [MO-004](../kien-thuc/MO-004.json), [EV-004](../kien-thuc/EV-004.json)
+**Liên quan:** [CA-001](../kien-thuc/CA-001.json), [MO-004](../kien-thuc/MO-004.json), [EV-004](../kien-thuc/EV-004.json), [CA-012](../kien-thuc/CA-012.json)
 
-**Nguồn đối chiếu:** [B021](../../bai-hoc/021-lam-chu-cam-xuc/README.md), [SRC-ARRI-FORMAT](https://www.arri.com/en/learn/camera-systems/frequently-asked-questions/alexa-lf-faq)
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** So quang học cần giữ rõ biến vị trí máy; thay tiêu cự từ cùng vị trí khác với lùi máy để bù khung.
+
+**Tình huống:** Muốn nền có vẻ gần hơn mà giữ kích thước người tương đương.
+
+**Phần phải giữ:** Mục tiêu và các phần đã duyệt trong tình huống.
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Chỉ zoom từ cùng chỗ và gọi đã đổi phối cảnh. |
+| B | Xét lùi vị trí máy rồi chọn góc thu để bù cỡ người; kiểm không gian thực. |
+
+**Cách chọn:** Chọn B khi mục tiêu là quan hệ khoảng cách biểu kiến; không áp số mm nếu chưa có điều kiện.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Mọi so trước/sau nêu được vị trí máy có đổi hay không.
+
+**Nếu gặp:** Thay tên lens trong prompt nhưng quan hệ hình không đúng ý.
+
+Có thể do: Mô tả số thiếu quan hệ không gian hoặc công cụ không kiểm soát được nó.
+
+Thử tiếp: Dùng bố trí/ảnh tham chiếu minh họa quan hệ cần thấy; kiểm kết quả thay vì suy từ nhãn lens.
+**Nguồn đối chiếu:** [B021](../../bai-hoc/021-lam-chu-cam-xuc/README.md), [SRC-ARRI-FORMAT](https://www.arri.com/en/learn/camera-systems/frequently-asked-questions/alexa-lf-faq), [SRC-SONY-DOF](https://www.sony.com/electronics/support/e-mount-body-ilce-6000-series/ilce-6700k/articles/00031291)
 
 [Bản JSON chuẩn](../kien-thuc/CA-008.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
 <a id="ca-009"></a>
 ## CA-009 — Khung hình và cách xem thực tế
+
+**Phiên bản mục:** 1.0.0
 
 **Câu hỏi quyết định:** Bố cục có sống được ở nơi khán giả xem không?
 
@@ -310,6 +384,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="ca-010"></a>
 ## CA-010 — Cú máy dài và thiết kế thay đổi trong khung
 
+**Phiên bản mục:** 1.0.0
+
 **Câu hỏi quyết định:** Vì sao cần giữ liên tục thay vì cắt?
 
 **Dùng khi:** Khi muốn hiện diện, theo dõi hành động hoặc tránh đứt quan hệ.
@@ -338,3 +414,127 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 **Nguồn đối chiếu:** [B024](../../bai-hoc/024-xau-chuoi-canh/README.md), [SRC-YALE-EDIT](https://filmanalysis.yale.edu/editing/)
 
 [Bản JSON chuẩn](../kien-thuc/CA-010.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
+
+<a id="ca-011"></a>
+## CA-011 — Bố cục phát triển qua thời gian và sự che khuất
+
+**Phiên bản mục:** 1.1.0
+
+**Câu hỏi quyết định:** Khung hình dẫn sự chú ý thế nào từ đầu tới cuối shot?
+
+**Dùng khi:** Khung đầu đẹp nhưng máy đi/hành động làm mất chủ thể, lộ thông tin quá sớm.
+
+**Nguyên lý thực hành:** Bố cục của video là một tiến trình. Thiết kế thứ tự xuất hiện, che/lộ, khoảng trống và vị trí điểm quan trọng qua chuyển động; duyệt đầu–giữa–cuối chỉ là bước định hướng, còn chất lượng cần xem toàn diễn tiến.
+
+**Cách làm:**
+
+1. Đánh dấu thông tin cần thấy trước, trong và sau hành động; xác định vật nào có thể che tạm và vật nào phải đọc ở thời điểm quyết định.
+2. Chọn đường người hoặc máy để một quan hệ mới xuất hiện có lý do. Theo dõi độ nổi tương đối khi vùng sáng, mặt hoặc vật chuyển vào khung.
+3. Kiểm trên tỷ lệ xuất thật; với AI kiểm biến hình ở mép che khuất và vùng vừa lộ, không chỉ chấm khung đầu.
+
+**Đánh đổi:** Hé lộ bằng dàn cảnh có thể cần nhiều không gian và tăng lỗi AI; cắt sang góc khác có thể rõ hơn.
+
+**Kiểm tra:**
+
+- Bằng chứng cần thiết không bị che đúng lúc diễn ra.
+- Phần vừa lộ có hình học và nhận diện nối được với thế giới trước đó.
+
+**Ví dụ tự biên soạn:** Một người bước sang bên để lộ chiếc ghế vừa sửa; khung đầu dành chỗ cho ghế, khung cuối cho thấy người khách dùng nó.
+
+**Phản ví dụ / giới hạn:** Khung cân đối ở mọi thời điểm không phải mục tiêu bắt buộc; khoảng trống hoặc mất cân bằng có thể phục vụ mong chờ.
+
+**Liên quan:** [CA-003](../kien-thuc/CA-003.json), [CA-005](../kien-thuc/CA-005.json), [MO-003](../kien-thuc/MO-003.json), [ED-009](../kien-thuc/ED-009.json)
+
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Điểm nhấn trong khung đổi theo hành động và sự xuất hiện. Tổ chức thời điểm làm rõ thông tin giúp việc chọn bố cục gắn với câu chuyện thay vì một ảnh đứng.
+
+**Tình huống:** Một người bước sang bên để lộ chiếc ghế vừa sửa; khung đầu dành chỗ cho ghế, khung cuối cho thấy người khách dùng nó.
+
+**Phần phải giữ:** Thứ tự lộ chiếc ghế và kết quả sử dụng.
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Khóa mọi vật giữa khung để tránh mất đối tượng. |
+| B | Đặt mốc khung đầu/cuối và cho chủ thể dịch chuyển có mục đích, giữ vùng bằng chứng đủ rõ. |
+
+**Cách chọn:** Chọn theo nhu cầu đọc việc; không mặc định giữa khung hoặc lệch khung là đẹp hơn.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Bằng chứng cần thiết không bị che đúng lúc diễn ra.
+- Phần vừa lộ có hình học và nhận diện nối được với thế giới trước đó.
+
+**Nếu gặp:** Cảnh đẹp khi dừng nhưng khi xem không biết nhìn đâu.
+
+Có thể do: Điểm nhấn đổi đột ngột không có tác nhân. Nền sáng hoặc người phụ chiếm chú ý vào lúc thao tác chính.
+
+Thử tiếp: Đánh dấu vị trí thông tin chính theo các mốc sự kiện; thử giảm cạnh tranh ở đúng mốc gặp lỗi.
+**Nguồn đối chiếu:** [SRC-YALE-CAMERA](https://filmanalysis.yale.edu/cinematography/), [SRC-YALE-STAGING](https://filmanalysis.yale.edu/mise-en-scene/)
+
+[Bản JSON chuẩn](../kien-thuc/CA-011.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
+
+<a id="ca-012"></a>
+## CA-012 — Độ sâu trường ảnh là lựa chọn kết hợp, không phải nhãn ống kính
+
+**Phiên bản mục:** 1.1.0
+
+**Câu hỏi quyết định:** Cần giữ những mặt phẳng nào đủ rõ trong suốt hành động?
+
+**Dùng khi:** Chọn vùng nét cho quay thật, thiết kế tham chiếu AI hoặc sửa tay/vật mất rõ.
+
+**Nguyên lý thực hành:** Độ sâu trường ảnh là vùng khoảng cách có độ rõ chấp nhận được theo điều kiện quan sát. Nó phụ thuộc nhiều biến, gồm khẩu độ, tiêu cự, khoảng lấy nét và định dạng/tiêu chí hiển thị; độ nhòe nền còn chịu khoảng cách hậu cảnh. Phải nói điều gì được giữ cố định khi so.
+
+**Cách làm:**
+
+1. Liệt kê những điểm cần đọc đồng thời hoặc theo thứ tự: mắt, bàn tay, dụng cụ, mặt vật. Chọn dàn cảnh và mặt phẳng hành động trước.
+2. Khi so thay khẩu độ/tiêu cự/khoảng cách, ghi rõ điều kiện giữ nguyên hay bù khung; không nói 85 mm luôn tạo cùng bokeh hoặc vùng nét.
+3. Với máy thật kiểm nét ở cự ly hành động thực. Với AI mô tả quan hệ rõ/nhòe và kiểm video; con số f-stop không chứng minh mô hình đã mô phỏng quang học.
+
+**Đánh đổi:** Vùng nét nông tăng tách lớp nhưng giảm dung sai chuyển động; sâu hơn giữ quan hệ nhưng có thể cần giảm cạnh tranh bằng sáng/bố cục.
+
+**Kiểm tra:**
+
+- Mọi điểm mang bằng chứng đủ rõ đúng thời điểm.
+- Không đánh đồng nhòe chuyển động với mất nét theo khoảng cách.
+
+**Ví dụ tự biên soạn:** Hai bàn tay trao chìa khóa: bố trí tay gần cùng mặt phẳng và giữ điểm chuyển quyền rõ, thay vì ép hậu cảnh tan tối đa.
+
+**Phản ví dụ / giới hạn:** Giữ cùng cỡ người bằng cách đổi khoảng cách khi đổi ống không phải cùng phép so với giữ nguyên vị trí máy.
+
+**Liên quan:** [CA-007](../kien-thuc/CA-007.json), [CA-008](../kien-thuc/CA-008.json), [DR-008](../kien-thuc/DR-008.json), [MO-007](../kien-thuc/MO-007.json)
+
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Vùng rõ là một lựa chọn thông tin. Các biến quang học tác động cùng nhau; kết luận thực hành phải nêu điều kiện, đặc biệt khi đổi khoảng cách để bù cỡ khung.
+
+**Tình huống:** Hai bàn tay trao chìa khóa: bố trí tay gần cùng mặt phẳng và giữ điểm chuyển quyền rõ, thay vì ép hậu cảnh tan tối đa.
+
+**Phần phải giữ:** Chuyển quyền giữ chìa khóa rõ. Nhận diện hai người/tay.
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Ép khẩu thật mở để mọi shot có bokeh. |
+| B | Giữ tay và chìa khóa đủ rõ; làm nền bớt cạnh tranh bằng cách đặt vật hoặc đổi hướng sáng. |
+
+**Cách chọn:** Chọn B khi trao vật là bằng chứng chính; A chỉ khi tách nét không làm mất nội dung cần thấy.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Mọi điểm mang bằng chứng đủ rõ đúng thời điểm.
+- Không đánh đồng nhòe chuyển động với mất nét theo khoảng cách.
+
+**Nếu gặp:** Mặt đẹp nhưng thao tác trước mặt không đọc được.
+
+Có thể do: Tay ra khỏi vùng rõ. Điểm lấy nét không theo mục tiêu thông tin.
+
+Thử tiếp: Thử dàn tay cùng mặt phẳng hoặc mở rộng vùng rõ, giữ nguyên các yếu tố hình đã duyệt.
+
+**Phát biểu được đối chiếu:** Khẩu, tiêu cự và khoảng lấy nét tác động vùng rõ; phép so phải nêu điều kiện khung/vị trí. Nguồn: [SRC-SONY-DOF](https://www.sony.com/electronics/support/e-mount-body-ilce-6000-series/ilce-6700k/articles/00031291).
+
+**Giới hạn nguồn:** Không suy chính xác f-stop, định dạng hoặc tiêu cự từ vẻ hình; không xác nhận tuân thủ quang học của AI.
+**Nguồn đối chiếu:** [SRC-SONY-DOF](https://www.sony.com/electronics/support/e-mount-body-ilce-6000-series/ilce-6700k/articles/00031291), [SRC-ARRI-FORMAT](https://www.arri.com/en/learn/camera-systems/frequently-asked-questions/alexa-lf-faq)
+
+[Bản JSON chuẩn](../kien-thuc/CA-012.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).

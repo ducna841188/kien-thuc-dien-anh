@@ -1,0 +1,78 @@
+{
+  "id": "ED-009",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "ED",
+  "title": "Dẫn điểm nhìn qua điểm cắt và cho thời gian đọc thông tin mới",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Sau điểm cắt, người xem có tìm được điều cần nhìn đúng lúc không?",
+  "use_when": [
+    "Dựng cận thao tác, đổi không gian hoặc chuỗi nhanh khiến người xem phải tìm lại chủ thể."
+  ],
+  "principle": "Theo dõi vị trí và độ nổi của thông tin trước/sau điểm cắt. Có thể giữ điểm nhìn gần vùng cũ để nối trơn, hoặc chủ động chuyển nó để tạo tác dụng khác; ưu tiên kiểm việc đọc thông tin, không áp một tọa độ hay thời lượng cố định.",
+  "actions": [
+    "Ghi điều mắt dự kiến theo dõi ở cuối shot A và nơi thông tin quan trọng xuất hiện ở shot B; coi đó là dự kiến nếu chưa đo mắt người xem.",
+    "Nếu phải tìm vật mới, cho dấu hướng, chuyển động, âm hoặc khoảng nhận diện trước sự kiện không thể bỏ lỡ. Thử đổi điểm cắt/khung thay vì chỉ kéo dài toàn bộ.",
+    "Kiểm trên màn hình và cỡ phát dự kiến với người chưa biết việc; hỏi họ có bỏ lỡ bằng chứng nào, không gợi trước vị trí cần nhìn."
+  ],
+  "tradeoffs": [
+    "Nối quá êm có thể giảm tác dụng bất ngờ; cú đổi điểm nhìn có thể hợp chủ ý nhưng tăng yêu cầu định hướng."
+  ],
+  "verification": [
+    "Sự kiện chỉ xảy ra một lần không kết trước khi có thể nhận diện đối tượng.",
+    "Không khẳng định gaze/eye tracking đã đo nếu chỉ đánh dấu bằng biên tập."
+  ],
+  "original_example": "Shot trước kết ở bàn tay bên phải; shot sau là một chiếc chốt nhỏ bên trái. Thử vào sớm hơn hoặc đặt chốt gần vùng tiếp nhận trước khi nó bật.",
+  "counterexample": "Không có quy tắc mọi điểm chính phải đứng cùng một vị trí; gây đứt có thể là lựa chọn của cảnh.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-002",
+    "AU-005",
+    "CA-003",
+    "ED-002"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT",
+    "SRC-YALE-CAMERA"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mỗi đổi khung có thể thêm công việc tìm và nhận diện. Phương pháp thực hành là bảo vệ thời điểm bằng chứng xuất hiện; không suy một quy luật mắt tuyệt đối từ cách dựng quen thuộc.",
+    "worked_example": {
+      "brief": "Shot trước kết ở bàn tay bên phải; shot sau là một chiếc chốt nhỏ bên trái. Thử vào sớm hơn hoặc đặt chốt gần vùng tiếp nhận trước khi nó bật.",
+      "protected_elements": [
+        "Sự kiện chốt bật đúng một lần.",
+        "Khả năng nhận diện chốt trước lúc bật."
+      ],
+      "option_a": "Thêm chuyển cảnh hào nhoáng để người xem chú ý vào cut.",
+      "option_b": "Sửa vị trí vào shot hoặc ưu tiên hình để người xem đọc được chốt trước lúc bật.",
+      "selection_rule": "Chọn B khi vấn đề là bỏ lỡ hành động; A chỉ xét nếu bản thân ngắt quãng là mục tiêu.",
+      "observable_checks": [
+        "Sự kiện chỉ xảy ra một lần không kết trước khi có thể nhận diện đối tượng.",
+        "Không khẳng định gaze/eye tracking đã đo nếu chỉ đánh dấu bằng biên tập."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Người xem phải tua lại để hiểu một thao tác nhanh.",
+        "possible_causes": [
+          "Đối tượng mới chưa kịp nhận diện.",
+          "Điểm tiếp xúc nhỏ hoặc có yếu tố cạnh tranh."
+        ],
+        "next_test": "So bản vào shot sớm hơn với bản đổi bố cục, giữ cùng hành động và âm để tìm nguyên nhân."
+      }
+    ],
+    "evidence_links": []
+  }
+}

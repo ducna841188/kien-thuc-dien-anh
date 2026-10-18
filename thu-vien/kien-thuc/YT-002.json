@@ -1,7 +1,7 @@
 {
   "id": "YT-002",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "YT",
   "title": "Tỷ lệ nhấp và bối cảnh phân phối",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi đánh giá thumbnail/tiêu đề."
   ],
-  "principle": "CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Khán giả và nguồn lưu lượng có thể thay đổi nên không quy mọi chênh lệch cho ảnh/tiêu đề.",
+  "principle": "CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Khán giả và nguồn lưu lượng có thể thay đổi nên không quy mọi chênh lệch cho ảnh/tiêu đề. Thay thành phần nguồn hiển thị có thể đổi CTR mà không nói được chất lượng đã tăng/giảm. Đóng gói cần thu hút người phù hợp và trả đúng giá trị.",
   "actions": [
     "Ghi khoảng thời gian, số hiển thị và nguồn truy cập.",
     "So các trường hợp đủ tương đồng và đủ dữ liệu cho quyết định.",
-    "Đọc cùng trải nghiệm sau nhấp và mục tiêu kênh."
+    "Đọc cùng trải nghiệm sau nhấp và mục tiêu kênh.",
+    "Ghi giai đoạn đo và nguồn lưu lượng, đặt CTR cạnh dữ liệu xem/giá trị sẵn có; nếu thử title/ảnh thì dùng đúng thiết kế thử thay so tổng view khác ngày."
   ],
   "tradeoffs": [
     "Một chỉ số dễ theo dõi nhưng có thể làm bỏ qua giá trị người xem thực nhận."
   ],
   "verification": [
     "Không chia tổng view cho mọi impression rồi coi đó luôn là CTR báo cáo.",
-    "Không lấy một ngưỡng chung làm chứng nhận tốt/xấu."
+    "Không lấy một ngưỡng chung làm chứng nhận tốt/xấu.",
+    "Không giải thích một chênh CTR bằng màu ảnh nếu các biến chính khác chưa được xét."
   ],
   "original_example": "Hai video có nguồn tìm kiếm và trang chủ khác nhau cần xét phân phối trước khi đổi gu thiết kế.",
   "counterexample": "Một tỷ lệ thấp hơn khi tiếp cận rộng hơn không tự chứng minh ảnh kém.",
@@ -32,10 +34,14 @@
   "related_ids": [
     "YT-001",
     "YT-003",
-    "AU-006"
+    "AU-006",
+    "YT-007",
+    "YT-009"
   ],
   "source_ids": [
-    "SRC-YT-CTR"
+    "SRC-YT-CTR",
+    "SRC-YT-PERFORMANCE",
+    "SRC-YT-ABTEST"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -44,5 +50,36 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "CTR cần được đọc cùng ngữ cảnh phân phối và phần trải nghiệm sau nhấp.",
+    "worked_example": {
+      "brief": "CTR giảm khi video mở rộng ra nhiều người mới.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Kết luận ảnh đại diện hỏng và đổi phong cách.",
+      "option_b": "Kiểm nguồn/khán giả/giai đoạn và trải nghiệm sau nhấp trước.",
+      "selection_rule": "Chọn B; không suy người mới chắc kém phù hợp nếu chưa có dữ liệu.",
+      "observable_checks": [
+        "Không giải thích một chênh CTR bằng màu ảnh nếu các biến chính khác chưa được xét."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Đổi ảnh liên tục nhưng không có bài học rõ.",
+        "possible_causes": [
+          "Không ghi thiết kế thử và ngữ cảnh đo."
+        ],
+        "next_test": "Lấy báo cáo cùng nguồn/giai đoạn phù hợp, hoặc giữ kết luận quan sát khi không so được."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-YT-CTR",
+        "claim": "CTR có ngữ cảnh nguồn hiển thị và không bao gồm mọi đường dẫn vào một view.",
+        "scope_limit": "Không có một ngưỡng CTR áp dụng như chỉ tiêu bắt buộc cho mọi kênh."
+      }
+    ]
+  }
 }

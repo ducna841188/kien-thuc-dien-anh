@@ -1,0 +1,77 @@
+{
+  "id": "DR-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "DR",
+  "title": "Chỉ đạo mục tiêu, chiến thuật và điều nhân vật không nói ra",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nhân vật đang cố tác động điều gì, bằng hành vi nào?",
+  "use_when": [
+    "Diễn xuất chỉ có nhãn vui/buồn, đối thoại phẳng hoặc biểu cảm quá mức."
+  ],
+  "principle": "Chỉ đạo diễn xuất bằng mục tiêu ngay lúc này, hành động hướng tới người/vật và phản ứng với điều vừa nhận. Nội tâm có thể thể hiện qua chênh lệch giữa lời và việc; không cần một biểu cảm mạnh ở mọi nhịp.",
+  "actions": [
+    "Viết động từ tác động được: trấn an, thăm dò, né tránh, hướng dẫn, giấu hoặc mời; ghi đối tượng và tác nhân làm đổi chiến thuật.",
+    "Chọn một vài dấu hành vi quan sát được: nhường chỗ, chậm trao vật, nhìn kiểm tra phản ứng rồi mới nói; tránh cùng lúc ép mắt, môi, tay và thở diễn mọi cảm xúc.",
+    "Cho phản ứng người nghe và khoảng trước/sau câu nếu nó đổi quan hệ. Trong AI, thử từng hành vi rõ trước khi tăng lớp diễn xuất."
+  ],
+  "tradeoffs": [
+    "Hành vi quá tinh có thể không đọc trên màn hình nhỏ; tăng rõ bằng cỡ cảnh hoặc ngữ cảnh trước khi phóng đại nét mặt."
+  ],
+  "verification": [
+    "Hành vi có đối tượng và lý do theo cảnh.",
+    "Không gán nội tâm chắc chắn khi chỉ phân tích cử chỉ không đủ bối cảnh."
+  ],
+  "original_example": "Người muốn mời khách ở lại nhưng ngại nói: đặt thêm cốc và kéo ghế; lời vẫn chỉ là hỏi khách có khát không.",
+  "counterexample": "Phim hướng dẫn thao tác có thể không cần tầng ý ngầm; sự rõ ràng có thể phục vụ lời hứa tốt hơn.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-001",
+    "DR-003",
+    "DR-004",
+    "ST-006"
+  ],
+  "source_ids": [
+    "SRC-YALE-STAGING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mục tiêu và chiến thuật gắn biểu cảm với sự kiện và quan hệ. Đây là phương pháp chỉ đạo để thử, không là quy tắc đọc tâm trí từ một dấu cơ thể.",
+    "worked_example": {
+      "brief": "Người muốn mời khách ở lại nhưng ngại nói: đặt thêm cốc và kéo ghế; lời vẫn chỉ là hỏi khách có khát không.",
+      "protected_elements": [
+        "Mục tiêu mời khách ở lại.",
+        "Mức biểu lộ dè dặt của cảnh."
+      ],
+      "option_a": "Yêu cầu “rất xúc động, mắt rưng rưng” cho mọi lượt lời.",
+      "option_b": "Mô tả việc nhân vật muốn người kia ở lại và một hành động nhỏ thể hiện lời mời.",
+      "selection_rule": "Chọn B nếu cảnh cần sự dè dặt; A chỉ xét khi mức biểu lộ đó hợp bối cảnh và đã duyệt.",
+      "observable_checks": [
+        "Hành vi có đối tượng và lý do theo cảnh.",
+        "Không gán nội tâm chắc chắn khi chỉ phân tích cử chỉ không đủ bối cảnh."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Diễn xuất giống trình diễn cảm xúc hơn là đang sống trong cảnh.",
+        "possible_causes": [
+          "Không có mục tiêu tác động.",
+          "Quá nhiều chỉ dẫn vi biểu cảm mâu thuẫn."
+        ],
+        "next_test": "Bỏ nhãn cảm xúc khỏi một bản thử, giữ mục tiêu và hành động; so độ đọc được của quan hệ."
+      }
+    ],
+    "evidence_links": []
+  }
+}

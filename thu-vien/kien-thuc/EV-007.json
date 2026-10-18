@@ -1,0 +1,78 @@
+{
+  "id": "EV-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "EV",
+  "title": "Học từ phim nhiều lượt xem mà không nhầm tương quan với nguyên nhân",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Có thể học điều gì từ một video thành công, và điều gì còn chưa biết?",
+  "use_when": [
+    "Chọn phim tham khảo, so kênh lớn, giải thích một video hàng triệu lượt xem."
+  ],
+  "principle": "Lượt xem xác nhận mức phân phối tích lũy trong một hoàn cảnh; riêng con số đó không xác định thủ pháp nào gây thành công. Tách đặc điểm quan sát được, giả thuyết về tác dụng và bằng chứng hiệu quả.",
+  "actions": [
+    "Ghi ngày đo, tuổi video, quy mô/kênh, dạng phim, ngôn ngữ và nguồn lưu lượng nếu tiếp cận được; thiếu thì để chưa biết.",
+    "Chọn thêm phim cùng nhu cầu nhưng kết quả khác, tránh chỉ lấy những phim nổi tiếng rồi tìm một đặc điểm chung.",
+    "Đổi đặc điểm thành giả thuyết có thể bác bỏ: làm rõ kết quả thao tác có giúp người xem mới kể lại đúng tiến trình không? Giữ nguồn phản chứng và các phim cùng tác giả không độc lập."
+  ],
+  "tradeoffs": [
+    "Mẫu đối chiếu giúp giảm thiên lệch nhưng vẫn có nhiều yếu tố chưa kiểm soát; chưa phải thử nghiệm nhân quả."
+  ],
+  "verification": [
+    "Báo cáo tách view công khai khỏi dữ liệu riêng của kênh chưa có.",
+    "Không viết “cận cảnh làm tăng X% view” từ vài phim quan sát."
+  ],
+  "original_example": "Ba phim đồ thủ công nổi bật đều có cận tay. Thay vì chốt tỷ lệ cận, đề xuất kiểm việc người mới hiểu điểm tiếp xúc ở bản có/không có cận.",
+  "counterexample": "Phim ít view có thể mới đăng hoặc tiếp cận sai tệp; không đủ căn cứ coi kỹ thuật của phim đó kém.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-002",
+    "AU-006",
+    "QC-003",
+    "YT-010"
+  ],
+  "source_ids": [
+    "SRC-YT-CTR",
+    "SRC-YT-RECOMMENDATIONS"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Đặc điểm hình, độ nổi tiếng, nhu cầu chủ đề, lịch sử kênh và phân phối cùng thay đổi. Chỉ nhìn những phim đã thắng làm mất các trường hợp có cùng thủ pháp nhưng không thắng.",
+    "worked_example": {
+      "brief": "Ba phim đồ thủ công nổi bật đều có cận tay. Thay vì chốt tỷ lệ cận, đề xuất kiểm việc người mới hiểu điểm tiếp xúc ở bản có/không có cận.",
+      "protected_elements": [
+        "Tài liệu gốc và mốc đo view.",
+        "Câu hỏi cụ thể về khả năng hiểu điểm tiếp xúc."
+      ],
+      "option_a": "Sao chép tỷ lệ cận của ba phim nổi tiếng và coi đó là chuẩn chung.",
+      "option_b": "Chọn một điểm cần truyền đạt, thiết kế hai cách thể hiện và kiểm đúng khả năng theo dõi ở tệp mục tiêu.",
+      "selection_rule": "Chọn B khi cần ra quyết định kỹ thuật; A chỉ dùng như mô tả phong cách của tập mẫu, không làm quy luật.",
+      "observable_checks": [
+        "Báo cáo tách view công khai khỏi dữ liệu riêng của kênh chưa có.",
+        "Không viết “cận cảnh làm tăng X% view” từ vài phim quan sát."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Thay phong cách liên tục nhưng không biết vì sao kết quả khác.",
+        "possible_causes": [
+          "Mẫu chỉ gồm phim thắng.",
+          "Khán giả/tuổi video/nguồn đề xuất khác nhau."
+        ],
+        "next_test": "Lập bảng các yếu tố khác nhau và chọn một câu hỏi nhỏ để thử ở lần sản xuất tiếp theo."
+      }
+    ],
+    "evidence_links": []
+  }
+}

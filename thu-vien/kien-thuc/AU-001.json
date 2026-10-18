@@ -1,7 +1,7 @@
 {
   "id": "AU-001",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "AU",
   "title": "Bản yêu cầu trải nghiệm của khán giả",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Trước khi chọn thủ pháp hoặc đánh giá một phim."
   ],
-  "principle": "Mô tả hoàn cảnh xem, nhu cầu, lời hứa và điều cần tránh. Nhân khẩu học là một phần; không tự suy sở thích từng người từ tuổi/giới.",
+  "principle": "Mô tả hoàn cảnh xem, nhu cầu, lời hứa và điều cần tránh. Nhân khẩu học là một phần; không tự suy sở thích từng người từ tuổi/giới. Ghi riêng nhu cầu muốn phục vụ, dữ liệu đang có và giả định về tệp. Có thể có nhiều ngữ cảnh sử dụng cùng một phim.",
   "actions": [
     "Viết một câu về giá trị khán giả muốn nhận.",
     "Chọn trải nghiệm chính và trải nghiệm phụ có thể cùng tồn tại.",
-    "Phân biệt dữ liệu người xem thực tế với tệp mục tiêu giả định."
+    "Phân biệt dữ liệu người xem thực tế với tệp mục tiêu giả định.",
+    "Viết brief một câu, cộng điều phải giữ và loại bằng chứng dùng để kiểm nhu cầu; chưa có tệp thì để biến mở thay vì tự áp gu ngách đầu tiên."
   ],
   "tradeoffs": [
     "Chọn rõ trải nghiệm có thể giới hạn một số cách gây chú ý ngắn hạn."
   ],
   "verification": [
     "Mọi quyết định lớn giải thích được quan hệ với lời hứa.",
-    "Không tự chuyển mục tiêu thư giãn thành bắt buộc không có tò mò."
+    "Không tự chuyển mục tiêu thư giãn thành bắt buộc không có tò mò.",
+    "Mục tiêu cụ thể đủ để chọn giữa hai phương án và có thể sửa khi phản hồi trái dự kiến."
   ],
   "original_example": "Cùng cảnh chờ nước sôi có thể phục vụ nghỉ ngơi, học kỹ thuật hoặc hồi hộp tùy lời hứa.",
   "counterexample": "Một người thuộc nhóm tuổi mục tiêu vẫn có thể không thích phong cách của video.",
@@ -30,11 +32,14 @@
   "related_ids": [
     "YT-001",
     "AU-005",
-    "ST-001"
+    "ST-001",
+    "YT-007",
+    "YT-008"
   ],
   "source_ids": [
     "B002",
-    "B014"
+    "B014",
+    "SRC-YT-PERFORMANCE"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -43,5 +48,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Hồ sơ khán giả là giả thuyết vận hành cần được đối chiếu, không mô tả chắc mọi cá nhân.",
+    "worked_example": {
+      "brief": "Cùng phim sửa ghế có người muốn học và người muốn nghỉ ngơi.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Nhồi cả chỉ dẫn kỹ thuật lẫn khoảng lặng vào một cấu trúc không ưu tiên.",
+      "option_b": "Chọn trải nghiệm chính cho bản hiện tại và ghi nhu cầu phụ.",
+      "selection_rule": "Chọn theo brief; nếu hai nhu cầu kéo trái nhau, so hai cách dựng hoặc phiên bản.",
+      "observable_checks": [
+        "Mục tiêu cụ thể đủ để chọn giữa hai phương án và có thể sửa khi phản hồi trái dự kiến."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mỗi cảnh đúng một nhu cầu nhưng toàn phim thiếu nhất quán.",
+        "possible_causes": [
+          "Brief không có ưu tiên khi mục tiêu xung đột."
+        ],
+        "next_test": "Nêu điều bản này phải giao trước và đánh giá lại các cảnh theo ưu tiên đó."
+      }
+    ],
+    "evidence_links": []
+  }
 }

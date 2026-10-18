@@ -1,0 +1,77 @@
+{
+  "id": "CA-011",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "CA",
+  "title": "Bố cục phát triển qua thời gian và sự che khuất",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Khung hình dẫn sự chú ý thế nào từ đầu tới cuối shot?",
+  "use_when": [
+    "Khung đầu đẹp nhưng máy đi/hành động làm mất chủ thể, lộ thông tin quá sớm."
+  ],
+  "principle": "Bố cục của video là một tiến trình. Thiết kế thứ tự xuất hiện, che/lộ, khoảng trống và vị trí điểm quan trọng qua chuyển động; duyệt đầu–giữa–cuối chỉ là bước định hướng, còn chất lượng cần xem toàn diễn tiến.",
+  "actions": [
+    "Đánh dấu thông tin cần thấy trước, trong và sau hành động; xác định vật nào có thể che tạm và vật nào phải đọc ở thời điểm quyết định.",
+    "Chọn đường người hoặc máy để một quan hệ mới xuất hiện có lý do. Theo dõi độ nổi tương đối khi vùng sáng, mặt hoặc vật chuyển vào khung.",
+    "Kiểm trên tỷ lệ xuất thật; với AI kiểm biến hình ở mép che khuất và vùng vừa lộ, không chỉ chấm khung đầu."
+  ],
+  "tradeoffs": [
+    "Hé lộ bằng dàn cảnh có thể cần nhiều không gian và tăng lỗi AI; cắt sang góc khác có thể rõ hơn."
+  ],
+  "verification": [
+    "Bằng chứng cần thiết không bị che đúng lúc diễn ra.",
+    "Phần vừa lộ có hình học và nhận diện nối được với thế giới trước đó."
+  ],
+  "original_example": "Một người bước sang bên để lộ chiếc ghế vừa sửa; khung đầu dành chỗ cho ghế, khung cuối cho thấy người khách dùng nó.",
+  "counterexample": "Khung cân đối ở mọi thời điểm không phải mục tiêu bắt buộc; khoảng trống hoặc mất cân bằng có thể phục vụ mong chờ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-003",
+    "CA-005",
+    "MO-003",
+    "ED-009"
+  ],
+  "source_ids": [
+    "SRC-YALE-CAMERA",
+    "SRC-YALE-STAGING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Điểm nhấn trong khung đổi theo hành động và sự xuất hiện. Tổ chức thời điểm làm rõ thông tin giúp việc chọn bố cục gắn với câu chuyện thay vì một ảnh đứng.",
+    "worked_example": {
+      "brief": "Một người bước sang bên để lộ chiếc ghế vừa sửa; khung đầu dành chỗ cho ghế, khung cuối cho thấy người khách dùng nó.",
+      "protected_elements": [
+        "Thứ tự lộ chiếc ghế và kết quả sử dụng."
+      ],
+      "option_a": "Khóa mọi vật giữa khung để tránh mất đối tượng.",
+      "option_b": "Đặt mốc khung đầu/cuối và cho chủ thể dịch chuyển có mục đích, giữ vùng bằng chứng đủ rõ.",
+      "selection_rule": "Chọn theo nhu cầu đọc việc; không mặc định giữa khung hoặc lệch khung là đẹp hơn.",
+      "observable_checks": [
+        "Bằng chứng cần thiết không bị che đúng lúc diễn ra.",
+        "Phần vừa lộ có hình học và nhận diện nối được với thế giới trước đó."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Cảnh đẹp khi dừng nhưng khi xem không biết nhìn đâu.",
+        "possible_causes": [
+          "Điểm nhấn đổi đột ngột không có tác nhân.",
+          "Nền sáng hoặc người phụ chiếm chú ý vào lúc thao tác chính."
+        ],
+        "next_test": "Đánh dấu vị trí thông tin chính theo các mốc sự kiện; thử giảm cạnh tranh ở đúng mốc gặp lỗi."
+      }
+    ],
+    "evidence_links": []
+  }
+}

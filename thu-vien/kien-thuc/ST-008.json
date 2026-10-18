@@ -1,7 +1,7 @@
 {
   "id": "ST-008",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "ST",
   "title": "Mở, kết và đời sống tiếp diễn",
   "level": "nang_cao",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi thiết kế tập độc lập hoặc loạt có nhân vật quen."
   ],
-  "principle": "Mở xác lập lời hứa và việc đáng theo; kết xác nhận phần đã đi qua và tạo dư âm. Một tập nên hiểu được ngay cả khi người xem chưa xem tập trước.",
+  "principle": "Mở xác lập lời hứa và việc đáng theo; kết xác nhận phần đã đi qua và tạo dư âm. Một tập nên hiểu được ngay cả khi người xem chưa xem tập trước. Mở có thể vào trực tiếp một việc, một nơi chốn hoặc câu hỏi; cần cho người phù hợp nhận ra giá trị sớm. Kết cần xác nhận giá trị hoặc lựa chọn kết mở có lý do.",
   "actions": [
     "Cho sớm một tín hiệu phù hợp lời hứa.",
     "Đóng vòng công việc/câu hỏi chính hoặc đánh dấu lý do giữ mở.",
-    "Gieo chi tiết đời sống tiếp diễn mà không làm tập hiện tại thiếu phần kết."
+    "Gieo chi tiết đời sống tiếp diễn mà không làm tập hiện tại thiếu phần kết.",
+    "So chính xác điều tiêu đề/ảnh/mở hứa với bằng chứng ở kết; không dùng teaser hoặc lời kêu gọi thay phần trả giá trị."
   ],
   "tradeoffs": [
     "Mở quá giải thích giảm sức vào phim; kết quá nhiều nhiệm vụ làm dư âm loãng."
   ],
   "verification": [
     "Người xem mới hiểu việc chính.",
-    "Kết không chỉ hết nhạc hoặc hết clip mà có trạng thái cuối rõ."
+    "Kết không chỉ hết nhạc hoặc hết clip mà có trạng thái cuối rõ.",
+    "Không áp thời hạn ba giây, ba mươi giây hoặc một tỷ lệ hồi như luật chung."
   ],
   "original_example": "Vườn mới gieo ở tập sau là phần tiếp diễn; tập hiện tại vẫn cho thấy bữa ăn hay việc đã hoàn tất.",
   "counterexample": "Một phim thử nghiệm có thể không đóng câu hỏi; đó phải là lựa chọn được nêu trong bản yêu cầu.",
@@ -32,11 +34,14 @@
   "related_ids": [
     "YT-001",
     "ST-004",
-    "ED-008"
+    "ED-008",
+    "YT-008",
+    "ST-011"
   ],
   "source_ids": [
     "B017",
-    "B024"
+    "B024",
+    "SRC-YT-PERFORMANCE"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +50,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Mở và kết phải cùng trả một lời hứa nhưng không cần cùng một công thức.",
+    "worked_example": {
+      "brief": "Video hứa trải nghiệm một buổi sửa đồ không lời.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Mở bằng tình huống sốc không xuất hiện lại.",
+      "option_b": "Vào việc rõ và cho thấy hướng giá trị phù hợp tông phim.",
+      "selection_rule": "Chọn B; tốc độ mở tùy thông tin và tệp, không tùy một số giây duy nhất.",
+      "observable_checks": [
+        "Không áp thời hạn ba giây, ba mươi giây hoặc một tỷ lệ hồi như luật chung."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Mở kéo được nhấp nhưng khán giả nói nội dung khác kỳ vọng.",
+        "possible_causes": [
+          "Lời hứa không khớp trải nghiệm thật."
+        ],
+        "next_test": "Đối chiếu lời hứa với đoạn đầu và phần trả giá trị, sửa chỗ lệch cụ thể."
+      }
+    ],
+    "evidence_links": []
+  }
 }

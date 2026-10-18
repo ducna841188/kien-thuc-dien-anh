@@ -1,0 +1,135 @@
+{
+  "version": "1.1.0",
+  "record_type": "synthetic_worked_examples",
+  "execution_status": "not_executed",
+  "generation_tests": 0,
+  "viewer_tests": 0,
+  "external_model_evaluations": 0,
+  "format_note": "Tình huống thiết kế dùng đọc/tra; không phải analysis.schema và không được nhập như quan sát video.",
+  "cases": [
+    {
+      "id": "CASE-01",
+      "goal": "Chọn giá trị cho cùng tài liệu chiếc ghế",
+      "inputs": "Tài liệu giả định sửa ghế và người nhận sử dụng",
+      "preserve": [
+        "Tập tài liệu khi so các góc tiếp cận"
+      ],
+      "options": [
+        "Học sửa",
+        "Đồng hành yên",
+        "Giá trị tiếp đón"
+      ],
+      "decision": "Nếu brief chọn yên, giữ tiến trình và âm đời sống; không thêm tai nạn.",
+      "verification": [
+        "Kể lại thay đổi",
+        "Nhận ra giá trị kết",
+        "Phản hồi trung tính về trải nghiệm"
+      ],
+      "core_ids": [
+        "YT-008",
+        "ST-011",
+        "CA-001",
+        "ED-011",
+        "SO-011"
+      ]
+    },
+    {
+      "id": "CASE-02",
+      "goal": "Sửa trọng lượng khi đặt thùng",
+      "inputs": "Triệu chứng giả định tay nhả sớm",
+      "preserve": [
+        "Một người",
+        "Thiết kế thùng",
+        "Máy tĩnh",
+        "Thời gian thực"
+      ],
+      "options": [
+        "Sửa trạng thái đầu và chuỗi tiếp xúc",
+        "Tách góc hoặc sửa hậu kỳ nếu khả thi"
+      ],
+      "decision": "Kiểm điểm đỡ và đầu vào trước; không dùng từ khóa độ phân giải làm cách sửa.",
+      "verification": [
+        "Đáy chạm trước nhả",
+        "Thùng đứng ổn",
+        "Không xuyên/đổi nhận diện",
+        "Hình và âm được kiểm riêng"
+      ],
+      "state_chain": [
+        {
+          "phase": "prepare",
+          "support": "two_hands"
+        },
+        {
+          "phase": "contact",
+          "support": "hands_and_floor"
+        },
+        {
+          "phase": "release",
+          "support": "floor"
+        }
+      ],
+      "core_ids": [
+        "DR-008",
+        "AI-003",
+        "AI-011",
+        "AI-012",
+        "AI-013"
+      ]
+    },
+    {
+      "id": "CASE-03",
+      "goal": "Sửa nhịp êm nhưng trì trệ",
+      "inputs": "Bản sơ giả định lặp thao tác và thiếu kết quả có công năng",
+      "preserve": [
+        "Không thoại",
+        "Trải nghiệm nhẹ",
+        "Bằng chứng công đoạn"
+      ],
+      "options": [
+        "Rút đều mọi shot",
+        "Nén phần dư theo chức năng, giữ nhận diện và kết quả"
+      ],
+      "decision": "Thử phương án theo chức năng, không có định mức giây.",
+      "verification": [
+        "Kể được tiến trình",
+        "Nhận ra kết quả",
+        "Ghi chỗ dư/gấp theo phản hồi"
+      ],
+      "core_ids": [
+        "AU-007",
+        "ST-010",
+        "ED-009",
+        "ED-010",
+        "ED-011",
+        "QC-008"
+      ]
+    },
+    {
+      "id": "CASE-04",
+      "goal": "Chẩn đoán kỳ vọng và hiệu suất",
+      "inputs": "Báo cáo giả định không có số thật",
+      "preserve": [
+        "Nội dung và lời hứa trung thực",
+        "Thiết kế thử được ghi rõ"
+      ],
+      "options": [
+        "Sửa đóng gói nếu hứa sai",
+        "Sửa mở/bằng chứng nếu phim giao giá trị muộn"
+      ],
+      "decision": "Phân biệt sức hấp dẫn, xem tiếp và hài lòng; thử theo câu hỏi còn thiếu.",
+      "verification": [
+        "Đối chiếu title/ảnh/mở/kết",
+        "Ghi đồng thời hay tuần tự",
+        "Giữ chưa phân định nếu dữ liệu chưa đủ"
+      ],
+      "core_ids": [
+        "YT-001",
+        "YT-002",
+        "YT-003",
+        "YT-007",
+        "YT-009",
+        "EV-007"
+      ]
+    }
+  ]
+}

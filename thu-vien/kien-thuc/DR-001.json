@@ -1,7 +1,7 @@
 {
   "id": "DR-001",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "DR",
   "title": "Chỉ đạo bằng mục tiêu và hành vi",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi chỉ đạo người thật hoặc nhân vật AI."
   ],
-  "principle": "Chuyển nhãn cảm xúc thành hành vi có đối tượng và nguyên nhân. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh.",
+  "principle": "Chuyển nhãn cảm xúc thành hành vi có đối tượng và nguyên nhân. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh. Hành vi rõ hơn khi có đối tượng và tác nhân; không suy nội tâm chắc chắn chỉ vì một cử chỉ.",
   "actions": [
     "Ghi mục tiêu hiện tại của nhân vật.",
     "Chọn động từ và đối tượng tác động.",
-    "Thêm phản ứng vừa đủ khi mục tiêu thành/bại."
+    "Thêm phản ứng vừa đủ khi mục tiêu thành/bại.",
+    "Thêm mục tiêu tác động, một hành động và phản ứng sau tác nhân; tách chỉ đạo sáng tạo khỏi diễn giải khi phân tích phim nguồn."
   ],
   "tradeoffs": [
     "Mô tả quá nhiều dấu hiệu có thể khiến diễn xuất cường điệu hoặc AI quá tải."
   ],
   "verification": [
     "Hành vi nhìn/nghe được và nối với sự kiện.",
-    "Không dùng nước mắt, run hoặc cười làm điều kiện bắt buộc."
+    "Không dùng nước mắt, run hoặc cười làm điều kiện bắt buộc.",
+    "Có thể chỉ ra nhân vật đang cố đạt điều gì và điều nào làm họ đổi cách làm."
   ],
   "original_example": "Người kiểm tra miệng giỏ, chỉnh một sợi rồi mới trao; cho thấy sự quan tâm qua việc làm.",
   "counterexample": "Nhân vật có thể giấu cảm xúc; lời nói và hành vi không cần đồng nhất hoàn toàn.",
@@ -30,7 +32,9 @@
   "related_ids": [
     "ST-002",
     "DR-003",
-    "AI-003"
+    "AI-003",
+    "DR-007",
+    "DR-008"
   ],
   "source_ids": [
     "B021",
@@ -43,5 +47,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Tính quan sát được phải nối với mục tiêu và phản ứng, tránh ra lệnh diễn bằng danh sách nét mặt.",
+    "worked_example": {
+      "brief": "Người do dự khi nhận một món đồ.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Yêu cầu buồn, xúc động, vui và lo cùng lúc.",
+      "option_b": "Cho tay chậm nhận, nhìn người trao rồi lựa chọn nhận theo bối cảnh.",
+      "selection_rule": "Chọn B khi cần biểu hiện qua quan hệ; mức diễn phải được kiểm ở cỡ phát thật.",
+      "observable_checks": [
+        "Có thể chỉ ra nhân vật đang cố đạt điều gì và điều nào làm họ đổi cách làm."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Biểu cảm nhiều nhưng hành vi vô cớ.",
+        "possible_causes": [
+          "Không có mục tiêu hoặc tác nhân được thiết lập."
+        ],
+        "next_test": "Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành động hướng tới đối tượng."
+      }
+    ],
+    "evidence_links": []
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "AU-002",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "AU",
   "title": "Dẫn chú ý bằng một trọng tâm đọc được",
   "level": "co_ban",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi khung có nhiều vật, hành động hoặc lớp âm cạnh tranh."
   ],
-  "principle": "Tổ chức ưu tiên thay vì làm mọi thứ nổi bật. Trọng tâm có thể chuyển qua diễn tiến; phải cho người xem cơ hội theo được.",
+  "principle": "Tổ chức ưu tiên thay vì làm mọi thứ nổi bật. Trọng tâm có thể chuyển qua diễn tiến; phải cho người xem cơ hội theo được. Chú ý có thể bị hút bởi mặt, chuyển động, tương phản hoặc âm; hướng hút thực tế còn phụ thuộc bối cảnh và tệp. Đánh dấu điểm nhìn chỉ là dự kiến nếu chưa đo.",
   "actions": [
     "Chỉ ra chi tiết thiết yếu cho hiểu việc hoặc cảm xúc.",
     "Chọn vị trí, tương phản, nét, chuyển động hoặc âm để làm rõ nó.",
-    "Giảm yếu tố cạnh tranh không phục vụ cảnh, rồi thử xem lại ở kích thước nhỏ."
+    "Giảm yếu tố cạnh tranh không phục vụ cảnh, rồi thử xem lại ở kích thước nhỏ.",
+    "Rà từng mốc quyết định để xem nền, mặt phụ, vùng sáng hoặc âm có đang cạnh tranh với điều cần đọc không."
   ],
   "tradeoffs": [
     "Cô lập quá mạnh có thể làm mất không gian và quan hệ nhân–quả."
   ],
   "verification": [
     "Người xem thử chỉ đúng điều quan trọng mà không được chỉ trước.",
-    "Thông tin nền cần thiết vẫn có thể đọc ở thời điểm phù hợp."
+    "Thông tin nền cần thiết vẫn có thể đọc ở thời điểm phù hợp.",
+    "Người chưa biết đoạn nhận ra thông tin thiết yếu mà không được chỉ vị trí trước."
   ],
   "original_example": "Tiếng chốt bật và cận tay làm rõ cửa được mở; trong cảnh khác, toàn thân cho thấy người đang do dự.",
   "counterexample": "Vật sáng nhất không luôn là ý đồ chú ý; khuôn mặt hoặc chuyển động có thể hút mắt hơn.",
@@ -30,11 +32,14 @@
   "related_ids": [
     "CA-003",
     "CA-007",
-    "SO-005"
+    "SO-005",
+    "CA-011",
+    "ED-009"
   ],
   "source_ids": [
     "B005",
-    "B021"
+    "B021",
+    "SRC-YALE-CAMERA"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -43,5 +48,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Độ nổi thị giác cần phục vụ thông tin ở đúng thời điểm, không chỉ làm ảnh có điểm sáng.",
+    "worked_example": {
+      "brief": "Một vùng cửa sáng phía sau lấn điểm tay vừa nhả vật.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Tăng sắc nét toàn ảnh.",
+      "option_b": "Giảm cạnh tranh nền hoặc đổi bố trí để điểm nhả được đọc.",
+      "selection_rule": "Chọn B nếu thông tin thiếu vì ưu tiên sai; sắc toàn ảnh không phân cấp chú ý.",
+      "observable_checks": [
+        "Người chưa biết đoạn nhận ra thông tin thiết yếu mà không được chỉ vị trí trước."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Không biết nhìn đâu dù mọi thứ rất rõ.",
+        "possible_causes": [
+          "Nhiều yếu tố nổi ngang nhau ở mốc quan trọng."
+        ],
+        "next_test": "Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành động và hỏi lại người xem mới."
+      }
+    ],
+    "evidence_links": []
+  }
 }

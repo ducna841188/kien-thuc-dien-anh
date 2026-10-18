@@ -13,4 +13,6 @@
 9. Sửa một lỗi thì bảo vệ phần đã đạt; chưa thử không báo đã khắc phục.
 10. Ngách ghim mã/phiên bản core; nâng bài học theo điều kiện và bằng chứng, trình thay đổi đảo nguyên tắc.
 
-Mở ../muc-luc.json, ../tuyen-tra-cuu.json, ../00_HUONG_DAN_AI.md và quy trình tác vụ tương ứng.
+Mục có application_depth cung cấp ca chọn phương án và chẩn đoán; đọc cả phần phải giữ và giới hạn nguồn. Dùng ../06_VAN_HANH_SAN_XUAT.md để nối công đoạn, ../07_KIEM_TRA_TRAI_NGHIEM.md để chọn đúng bằng chứng và ../08_BAN_DO_NANG_LUC.md để chọn độ sâu.
+
+Mở ../muc-luc.json, ../tuyen-tra-cuu.json, ../00_HUONG_DAN_AI.md và quy trình tác vụ tương ứng. Bản phát hành và version từng mục là hai cấp khác nhau.

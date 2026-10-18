@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "SRC-YALE-CAMERA",
+      "title": "Yale Film Analysis — Cinematography",
+      "url": "https://filmanalysis.yale.edu/cinematography/",
+      "kind": "university_teaching",
+      "verified_on": "2026-10-18",
+      "scope": "Đối chiếu thuật ngữ khung hình, góc, vùng nét, chuyển nét và sự phụ thuộc bối cảnh của màu/góc nhìn. Không dùng các liên hệ cảm xúc trong ví dụ như luật chung.",
+      "notes": "Màu không mang một ý nghĩa độc quyền; cỡ cảnh và vị trí máy là các lựa chọn riêng. Bài thực hành trong kho do người biên soạn xây.",
+      "not_established": "Không xác nhận phản ứng của khán giả YouTube hoặc hiệu quả prompt AI."
+    },
+    {
+      "id": "SRC-YALE-STAGING",
+      "title": "Yale Film Analysis — Mise-en-scene",
+      "url": "https://filmanalysis.yale.edu/mise-en-scene/",
+      "kind": "university_teaching",
+      "verified_on": "2026-10-18",
+      "scope": "Đối chiếu cách tổ chức không gian, biểu diễn và thuộc tính ánh sáng.",
+      "notes": "Hướng, cường độ và chất lượng ánh sáng ảnh hưởng cách hình được đọc. Ba điểm sáng là một mô hình bố trí, không bắt buộc mọi cảnh có ba đèn.",
+      "not_established": "Không cung cấp tỷ lệ ánh sáng tối ưu hoặc công thức cảm xúc phổ quát."
+    },
+    {
+      "id": "SRC-YALE-EDIT",
+      "title": "Yale Film Analysis — Editing",
+      "url": "https://filmanalysis.yale.edu/editing/",
+      "kind": "university_teaching",
+      "verified_on": "2026-10-18",
+      "scope": "Đối chiếu nối hướng nhìn, nối hành động, dựng song song, lược thời gian và nhịp.",
+      "notes": "Nhịp liên quan âm thanh, chuỗi shot và chuyển động trong shot. Quyết định giữ hình cũng có thể quan trọng như cắt. Các thời lượng ví dụ của kho là đề xuất biên soạn.",
+      "not_established": "Không xác nhận số giây chuẩn, tỷ lệ cỡ cảnh hay mức giữ chân tối ưu."
+    },
+    {
+      "id": "SRC-YALE-SOUND",
+      "title": "Yale Film Analysis — Sound",
+      "url": "https://filmanalysis.yale.edu/sound/",
+      "kind": "university_teaching",
+      "verified_on": "2026-10-18",
+      "scope": "Đối chiếu cầu nối âm thanh, âm trong/ngoài thế giới phim và quan hệ âm–hình.",
+      "notes": "Âm có thể kéo qua ranh giới hình hoặc xuất hiện trước hình cảnh kế tiếp. Những phương án sử dụng âm trong kho là lựa chọn có điều kiện.",
+      "not_established": "Không cung cấp ngưỡng trộn âm phù hợp mọi thiết bị/người xem."
+    },
+    {
+      "id": "SRC-ASC-KAUFMAN",
+      "title": "Boris Kaufman, ASC — Filming 12 Angry Men On A Single Set",
+      "url": "https://theasc.com/article/filming-12-angry-men/",
+      "kind": "practitioner_primary_account",
+      "verified_on": "2026-10-18",
+      "scope": "Lời kể của nhà quay phim về thiết kế hình và ánh sáng trong một không gian giới hạn.",
+      "notes": "Bài gốc năm 1956, đăng lại năm 2024. Chọn góc, bố trí và ánh sáng được bàn theo yêu cầu của cảnh và điều kiện trường quay.",
+      "not_established": "Lựa chọn của một phim không tự thành luật cho mọi phong cách hoặc video AI."
+    },
+    {
+      "id": "SRC-ARRI-FORMAT",
+      "title": "ARRI — ALEXA LF FAQ",
+      "url": "https://www.arri.com/en/learn/camera-systems/frequently-asked-questions/alexa-lf-faq",
+      "kind": "manufacturer_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Đối chiếu rằng góc nhìn và vùng nét cần xét cùng định dạng ghi hình và điều kiện so sánh.",
+      "notes": "Không so hai con số tiêu cự mà bỏ kích thước vùng ảnh và cách giữ khung. Không suy ra máy/ống kính thật chỉ từ một ảnh AI.",
+      "not_established": "Không xác minh độ dài tiêu cự mô phỏng chính xác từ câu lệnh hoặc khả năng của mọi camera."
+    },
+    {
+      "id": "SRC-BMD-TRAINING",
+      "title": "Blackmagic Design — DaVinci Resolve Training",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "kind": "manufacturer_training_directory",
+      "verified_on": "2026-10-18",
+      "scope": "Xác nhận nguồn đào tạo chính thức về quản lý màu, chỉnh màu, dựng và Fairlight.",
+      "notes": "Danh mục có quản lý màu, thiết kế âm, trộn âm và xuất bản. Chưa xem toàn bộ video hay đọc toàn bộ sách liên kết; hướng dẫn thực hành cụ thể trong kho là phần tự biên soạn.",
+      "not_established": "Không dùng danh mục này làm bằng chứng đã kiểm mọi thao tác phần mềm hoặc thông số xuất."
+    },
+    {
+      "id": "SRC-YT-RETENTION",
+      "title": "YouTube Help — Measure key moments for audience retention",
+      "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+      "kind": "platform_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Cách hiểu các dấu hiệu giữ chân và so sánh theo nhóm người xem.",
+      "notes": "Đỉnh có thể do xem lại, chia sẻ hoặc đoạn chưa rõ khiến phải xem lại. Hõm chỉ ra bỏ qua/rời video; phải xem hoàn cảnh trước khi suy nguyên nhân. Phản hồi cảm xúc là dữ liệu riêng.",
+      "not_established": "Biểu đồ không tự xác nhận tác dụng cảm xúc, quan hệ nhân quả hay tác dụng trị liệu."
+    },
+    {
+      "id": "SRC-YT-CTR",
+      "title": "YouTube Help — Impressions and click-through-rate FAQs",
+      "url": "https://support.google.com/youtube/answer/7628154?hl=en",
+      "kind": "platform_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Cách hiểu tỷ lệ nhấp theo lượt hiển thị được tính và nguồn lưu lượng.",
+      "notes": "CTR phụ thuộc nội dung, khán giả và vị trí hiển thị; không phải mọi lượt xem bắt nguồn từ lượt hiển thị được tính. So sánh cần xét nguồn lưu lượng và đủ dữ liệu.",
+      "not_established": "Không có một ngưỡng CTR áp dụng như chỉ tiêu bắt buộc cho mọi kênh."
+    },
+    {
+      "id": "SRC-GOOGLE-PROMPT",
+      "title": "Google Cloud — Video generation prompt guide",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "kind": "provider_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Hướng dẫn tổ chức mô tả hình/âm và trường negative trong sản phẩm được tài liệu đề cập.",
+      "notes": "Trường negative được hướng dẫn liệt kê yếu tố không muốn, tránh câu mệnh lệnh no/don't. Đây là hướng dẫn theo hệ thống tương ứng, không quy định chung cho mọi giao diện Veo.",
+      "not_established": "Không bảo đảm tuyệt đối hình học, nhận diện, đồng bộ hoặc sự tuân thủ prompt."
+    },
+    {
+      "id": "SRC-GOOGLE-I2V",
+      "title": "Google Cloud — Best practices for generating videos",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice",
+      "kind": "provider_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Đối chiếu hướng dẫn đầu vào ảnh và mô tả chuyển động trong tạo video từ ảnh.",
+      "notes": "Ảnh đầu vào cung cấp thông tin tạo hình; phần chữ nên phục vụ diễn biến cần thêm. Đọc lại đúng chế độ khi thao tác; không chuyển hướng dẫn này thành yêu cầu bỏ mọi ràng buộc quan trọng.",
+      "not_established": "Không bảo đảm mọi ảnh tham chiếu được giữ chính xác."
+    },
+    {
+      "id": "SRC-RUNWAY-GEN4",
+      "title": "Runway — Gen-4 Video Prompting Guide",
+      "url": "https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide",
+      "kind": "provider_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Hướng dẫn riêng Gen-4: mô tả đơn giản, chuyển động, diễn đạt khẳng định.",
+      "notes": "Tài liệu khuyên tránh diễn đạt loại trừ và tránh lặp dài những gì ảnh đã có. Thử thêm từng thành phần sau khi có bản chuyển động cơ bản.",
+      "not_established": "Không mặc định hướng dẫn Gen-4 áp dụng mọi phiên bản Runway hoặc sản phẩm khác."
+    },
+    {
+      "id": "SRC-SEEDANCE-25",
+      "title": "ByteDance Seed — Introducing Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "kind": "provider_announcement",
+      "verified_on": "2026-10-18",
+      "scope": "Nhà phát triển công bố tham chiếu đa phương thức và chỉnh sửa theo thời điểm.",
+      "notes": "Phân biệt năng lực công bố của mô hình với lựa chọn thật có trong dịch vụ trung gian/tài khoản. Không đưa số ảnh, độ dài hay giá vào nguyên lý điện ảnh chung.",
+      "not_established": "Chưa kiểm chứng các tính năng trên tài khoản Dola, Artlist hoặc nhà cung cấp của người dùng."
+    },
+    {
+      "id": "SRC-MINIMAX-H3",
+      "title": "MiniMax Platform — Token Plan / API Pricing",
+      "url": "https://platform.minimax.io/subscribe/token-plan?tab=api-enterprise",
+      "kind": "provider_pricing_listing",
+      "verified_on": "2026-10-18",
+      "scope": "Xác nhận tên MiniMax H3 có trong danh mục nhà cung cấp.",
+      "notes": "Lần đọc này dùng để xác nhận tên; không chuyển bảng giá thành cam kết chi phí hoặc suy ra cú pháp điều khiển.",
+      "not_established": "Chưa có cấu hình thực tế, trọng số, giấy phép cụ thể, nút giao diện hoặc quy trình node được kiểm nghiệm."
+    },
+    {
+      "id": "SRC-RED-SHUTTER",
+      "title": "RED — Shutter Angle Tutorial",
+      "url": "https://www.reddigitalcinema.com/red-101/shutter-angle-tutorial",
+      "kind": "manufacturer_technical_guide",
+      "verified_on": "2026-10-18",
+      "scope": "Quan hệ góc màn trập, fps và khoảng phơi sáng của mỗi frame.",
+      "notes": "Đã đọc phần quan hệ thời gian, ví dụ 180° và đánh đổi nhòe. Chỉ áp công thức khi mô hình màn trập tương ứng phù hợp.",
+      "not_established": "Không chứng minh 180° tối ưu cho mọi cảnh hoặc một model AI mô phỏng thông số máy quay thật."
+    },
+    {
+      "id": "SRC-PERCEPTION-EVENTS",
+      "title": "Magliano & Zacks (2011) — The Impact of Continuity Editing in Narrative Film on Event Segmentation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3208769/",
+      "kind": "primary_research",
+      "verified_on": "2026-10-18",
+      "scope": "Phân biệt ranh giới cắt và sự kiện; kết quả về đứt đoạn hành động trong tập dữ liệu nghiên cứu.",
+      "notes": "Đã đọc tóm tắt, thiết kế và đoạn phương pháp: phân tích phim The Red Balloon; hai nhóm 41 và 24 người trẻ thuộc môi trường đại học. Không phải thử tối ưu phim YouTube. DOI: 10.1111/j.1551-6709.2011.01202.x.",
+      "not_established": "Không có tỷ lệ cắt tối ưu, phép đo hài lòng khán giả kênh này hoặc quy luật mọi thể loại. Ứng dụng dựng trong kho là đề xuất cần kiểm."
+    },
+    {
+      "id": "SRC-YT-PERFORMANCE",
+      "title": "YouTube Help — Understand your content performance for YouTube’s recommendation system",
+      "url": "https://support.google.com/youtube/answer/16559650",
+      "kind": "platform_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Ba nhóm tín hiệu hiệu suất và vai trò ý tưởng, đóng gói, phần mở giao đúng giá trị.",
+      "notes": "Đã đọc ba nhóm appeal, engagement, satisfaction cùng hướng dẫn về ý tưởng và phần mở. Các phép kiểm sáng tạo cụ thể của thư viện là biên soạn gốc.",
+      "not_established": "Không công bố trọng số, ngưỡng thành công, công thức hook theo số giây hoặc bảo đảm lượt xem."
+    },
+    {
+      "id": "SRC-YT-RECOMMENDATIONS",
+      "title": "YouTube Help — YouTube’s Recommendation System",
+      "url": "https://support.google.com/youtube/answer/16533387?hl=en",
+      "kind": "platform_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Mục tiêu hài lòng dài hạn, tính cá nhân hóa và sự phụ thuộc vào khán giả/ngữ cảnh.",
+      "notes": "Đã đọc mục tiêu, cá nhân hóa và chiến lược phục vụ khán giả. Dùng để giới hạn cách quy mọi kết quả về một thủ pháp điện ảnh.",
+      "not_established": "Không cho phép suy cơ chế nhân quả hoặc thứ hạng riêng của một video từ view công khai."
+    },
+    {
+      "id": "SRC-YT-ABTEST",
+      "title": "YouTube Help — A/B test titles & thumbnails",
+      "url": "https://support.google.com/youtube/answer/16391400?hl=en",
+      "kind": "platform_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Thiết kế thử đồng thời, biến title/thumbnail, tiêu chí phần thời gian xem và kết quả có thể chưa phân định.",
+      "notes": "Đã đọc cách thử, tiêu chí và phần so với thử tuần tự. Lựa chọn có thật cần kiểm trên Studio/tài khoản trước khi thực hiện.",
+      "not_established": "Chưa chạy thử trên tài khoản người dùng. Không chứng minh một ảnh luôn thắng hoặc tách được tác dụng từng biến khi đổi cả tổ hợp."
+    },
+    {
+      "id": "SRC-YT-ENCODE",
+      "title": "YouTube Help — Recommended upload encoding settings",
+      "url": "https://support.google.com/youtube/answer/1722171",
+      "kind": "platform_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Khuyến nghị giữ fps nguồn khi mã hóa/tải lên và BT.709 cho đầu ra SDR.",
+      "notes": "Đã đọc mục frame rate và color space. Không đưa bảng bitrate/codec dễ đổi thành nguyên lý nghệ thuật; khi giao tệp phải đối chiếu phiên bản hiện hành.",
+      "not_established": "Không có fps duy nhất làm phim thành điện ảnh, cũng không xác nhận encoding hoặc HDR của clip AI cụ thể."
+    },
+    {
+      "id": "SRC-ACES-WORKFLOW",
+      "title": "Academy ACES — System Overview",
+      "url": "https://docs.acescentral.com/background/overview/",
+      "kind": "official_technical_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Hệ quản lý màu theo cảnh, các biến đổi đầu vào/đầu ra và vai trò dữ liệu/metadata.",
+      "notes": "Đã đọc tổng quan và mô tả transforms. Dùng để phân biệt miền dữ liệu; quy trình cân màu thực hành là tổng hợp có điều kiện.",
+      "not_established": "Không chứng minh một clip AI là Log/RAW/ACES, không phục hồi dữ liệu đã mất và không buộc mọi dự án dùng ACES."
+    },
+    {
+      "id": "SRC-SONY-DOF",
+      "title": "Sony Support — What is depth of field (DOF)?",
+      "url": "https://www.sony.com/electronics/support/e-mount-body-ilce-6000-series/ilce-6700k/articles/00031291",
+      "kind": "manufacturer_technical_guide",
+      "verified_on": "2026-10-18",
+      "scope": "Các biến quang học ảnh hưởng vùng rõ và điều kiện khoảng cách khi so tiêu cự.",
+      "notes": "Đã đọc định nghĩa, khoảng cách/khẩu/tiêu cự và ví dụ giữ cùng vị trí so với bù kích thước chủ thể. Vùng rõ phải xét tiêu chí chấp nhận và đầu ra.",
+      "not_established": "Không suy chính xác f-stop, định dạng hoặc tiêu cự từ vẻ hình; không xác nhận tuân thủ quang học của AI."
+    },
+    {
+      "id": "SRC-NIKON-WB",
+      "title": "Nikon D600 User Manual — Fine-Tuning White Balance, p.117",
+      "url": "https://www.nikonusa.com/pdf/manuals/dslr/D600_EN.pdf",
+      "kind": "manufacturer_manual_excerpt",
+      "verified_on": "2026-10-18",
+      "scope": "Tinh chỉnh cân bằng trắng theo hai trục hổ phách–lam và xanh lá–hồng tím.",
+      "notes": "Chỉ đọc trích đoạn được truy xuất tại trang in 117; không tuyên bố đọc toàn bộ manual. Tệp PDF mở trực tiếp không thành công trong lượt này.",
+      "not_established": "Không chứng minh một giá trị Kelvin sửa mọi nguồn pha trộn hoặc là số đo của clip đã qua grade."
+    },
+    {
+      "id": "SRC-ADOBE-SOUND",
+      "title": "Adobe Audition — Deep Dive: The Essential Sound Panel",
+      "url": "https://helpx.adobe.com/audition/desktop/kb/editing-using-essential-sound-panel-audition.html",
+      "kind": "official_technical_documentation",
+      "verified_on": "2026-10-18",
+      "scope": "Phân lớp dialogue/music/effects/ambience, vai trò EQ, xử lý động và không gian âm.",
+      "notes": "Đã đọc các phần mix type, dialogue, EQ/dynamics và reverb. Khuyến nghị thao tác cụ thể của kho là phương án để thử theo tín hiệu thực tế.",
+      "not_established": "Không xác nhận tài khoản có Audition, chất lượng tách stem hoặc một mức loudness phổ quát cho YouTube."
+    },
+    {
+      "id": "SRC-ILT-LIGHT",
+      "title": "Alex Ryer / International Light — Light Measurement Handbook: Basic Principles",
+      "url": "https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/RYER/ch06.html",
+      "kind": "primary_author_handbook_mirror",
+      "verified_on": "2026-10-18",
+      "scope": "Quy luật suy giảm theo bình phương khoảng cách và điều kiện gần đúng nguồn điểm.",
+      "notes": "Đã đọc chương của tác giả/nhà sản xuất, bản lưu tại University of Edinburgh, ghi International Light 1997. Phân biệt bản lưu của văn bản gốc với một nguồn xác nhận độc lập.",
+      "not_established": "Không áp chính xác cho mọi nguồn lớn ở gần, phòng nhiều phản xạ hoặc mọi hình do AI sinh."
+    },
+    {
+      "id": "SRC-NIKON-APERTURE",
+      "title": "Nikon — Understanding Maximum Aperture",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-maximum-aperture",
+      "kind": "manufacturer_technical_guide",
+      "verified_on": "2026-10-18",
+      "scope": "Khẩu độ và lựa chọn vùng rõ, kiểm thử tại đầu ra.",
+      "notes": "Đã đọc phần khẩu lớn/nhỏ/trung gian. Khẩu là một biến trong tổ hợp, không tự xác định mọi thuộc tính của nền nhòe.",
+      "not_established": "Không bảo chứng thiết lập AI hoặc một vùng nét đúng cho mọi khoảng cách/định dạng."
+    },
+    {
+      "id": "SRC-NIKON-ISO",
+      "title": "Nikon — ISO Control",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/iso-control",
+      "kind": "manufacturer_technical_guide",
+      "verified_on": "2026-10-18",
+      "scope": "ISO theo điều khiển signal gain, cùng đánh đổi với khẩu và thời gian phơi.",
+      "notes": "Đã đọc mô tả gain và điều khiển phơi sáng. Xử lý thực tế phụ thuộc máy/cấu hình; không chuyển cách quảng bá nhiễu của một đời máy thành quy luật cảm biến.",
+      "not_established": "Tăng ISO không tự thêm photon vào cảm biến hoặc xác nhận có thể cứu phần dữ liệu đã cắt."
+    }
+  ],
+  "usage_policy": "Nguồn không bảo chứng toàn bộ kho. Chỉ dùng trong scope; không có trích dài. Ví dụ và quy trình là biên soạn gốc.",
+  "research_date": "2026-10-18",
+  "content_release": "1.1.0"
+}

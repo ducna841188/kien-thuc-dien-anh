@@ -1,0 +1,85 @@
+{
+  "id": "CO-007",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "CO",
+  "title": "Cân bằng trắng, ám xanh–hồng và nguồn sáng pha trộn",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Sai màu này thuộc nhận diện nguồn, cân bằng trắng hay một lựa chọn tạo hình?",
+  "use_when": [
+    "Nối clip khác nguồn, da/vật đổi màu vô cớ, hai phía khuôn mặt chịu ánh khác nhau."
+  ],
+  "principle": "Cân bằng trắng liên quan cách hệ thống diễn giải màu ánh sáng; trục nhiệt màu không mô tả hết mọi ám màu, còn có trục xanh lá–hồng tím. Nguồn pha trộn có thể chiếu các vùng khác nhau; một thao tác toàn ảnh không luôn sửa được mọi vùng cùng lúc.",
+  "actions": [
+    "Ghi nguồn chính, nguồn phụ, bề mặt hắt và màu cần nhận diện. Chọn giữ cảm giác ấm/lạnh có chủ ý thay vì tự trung hòa tất cả.",
+    "Với quay thật, kiểm vật trung tính và ánh sáng ở vị trí sử dụng; với clip AI giữ một mốc nhận diện và phân biệt màu vật với màu chiếu lên vật.",
+    "Sửa nhận diện/thiết lập đầu vào trước, rồi cân toàn ảnh và vùng cục bộ nếu cần. Kiểm liên tục trong shot, tránh tự cân theo từng frame làm màu bơm nhấp nháy."
+  ],
+  "tradeoffs": [
+    "Trung hòa mọi nguồn có thể mất cảm giác nơi chốn; giữ màu pha có thể khó nối hoặc ảnh hưởng khả năng đọc vật."
+  ],
+  "verification": [
+    "Vật vẫn nhận ra đúng thiết kế dưới điều kiện sáng đã thiết lập.",
+    "Không dùng một số Kelvin làm bảo đảm da hoặc nguyên liệu chính xác."
+  ],
+  "original_example": "Ánh cửa sổ mát và đèn bàn ấm cùng hiện diện: giữ quan hệ nếu có lý do; sửa ám lục bất thường riêng thay vì kéo toàn cảnh về cam.",
+  "counterexample": "Không thể suy chính xác nhiệt màu nguồn hoặc cân bằng trắng máy từ một ảnh đã qua tạo màu.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CO-005",
+    "CO-006",
+    "LI-001",
+    "LI-005"
+  ],
+  "source_ids": [
+    "SRC-NIKON-WB",
+    "SRC-ACES-WORKFLOW"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Cảm giác màu là quan hệ nguồn–vật–xử lý–màn hình. Chẩn đoán đúng tầng giúp tránh sửa màu vật thể để bù một lỗi biến đổi hoặc ánh sáng.",
+    "worked_example": {
+      "brief": "Ánh cửa sổ mát và đèn bàn ấm cùng hiện diện: giữ quan hệ nếu có lý do; sửa ám lục bất thường riêng thay vì kéo toàn cảnh về cam.",
+      "protected_elements": [
+        "Quan hệ cửa sổ mát và đèn ấm nếu đã duyệt.",
+        "Nhận diện màu vật."
+      ],
+      "option_a": "Áp cùng Kelvin/LUT lên mọi clip và coi đã khớp.",
+      "option_b": "Xác định quan hệ sáng cần giữ, kiểm đầu vào rồi cân clip theo mốc phù hợp.",
+      "selection_rule": "Chọn B khi các clip đến từ nhiều nguồn; số giống nhau không chứng minh hình hiển thị giống nhau.",
+      "observable_checks": [
+        "Vật vẫn nhận ra đúng thiết kế dưới điều kiện sáng đã thiết lập.",
+        "Không dùng một số Kelvin làm bảo đảm da hoặc nguyên liệu chính xác."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Sửa phía mặt này thì phía kia sai hoặc màu nhấp nháy.",
+        "possible_causes": [
+          "Nguồn pha trộn.",
+          "Tự cân theo thời gian.",
+          "Biến đổi màu đầu vào sai."
+        ],
+        "next_test": "Khóa một mốc kiểm, so từng vùng và đường thời gian; kiểm cách phần mềm hiểu tệp trước khi tăng chỉnh sáng tạo."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-NIKON-WB",
+        "claim": "Manual mô tả hai trục tinh chỉnh trắng: amber–blue và green–magenta.",
+        "scope_limit": "Không chứng minh một giá trị Kelvin sửa mọi nguồn pha trộn hoặc là số đo của clip đã qua grade."
+      }
+    ]
+  }
+}

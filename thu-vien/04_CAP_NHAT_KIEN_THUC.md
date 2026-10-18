@@ -25,3 +25,11 @@ Giữ mã; thay version khi sửa nội dung. Ghi trước/sau, lý do, nguồn,
 ## Mức hoàn thành
 
 Nền tảng v1 là bộ khung có nội dung hoạt động và hợp đồng dữ liệu. Những phần quan sát mới, thử video, đánh giá AI khác và phản hồi khán giả được bổ sung khi có đầu vào thực. Không đổi trạng thái chưa thử thành đạt để đủ bảng.
+
+## Tiếp nhận bản 1.1.0
+
+Đây là bản bổ sung/làm rõ: không áp đảo nguyên tắc. 60 mục cũ giữ nguyên; 30 mục đổi phiên bản vì thêm điều kiện và chiều áp dụng; 40 mã mới. Báo cáo và dấu vết từng mục nằm trong [lượt rà](kiem-toan/RA_SOAT_1_1_0.md).
+
+Giữ CORE_1_0_0.md/JSONL; hồ sơ ngách cũ tiếp tục giải quyết theo commit/gói đã ghim. Farm vẫn ghi core 1.0.0, không được hiểu là đã dùng mọi bổ sung mới. Khi muốn nâng ngách, lập bản so các mã thực dùng, ràng buộc khán giả và quyết định hiện hành; việc đọc được schema mới chỉ là kiểm cấu trúc.
+
+Nguồn sơ cấp mới ghi ngày, phạm vi đã đọc và điều chưa xác nhận. Thay đổi tài liệu model/nền tảng về sau cần kiểm lại khi triển khai; không đóng băng thông số sản phẩm thành nguyên lý điện ảnh.

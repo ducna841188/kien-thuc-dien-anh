@@ -1,16 +1,16 @@
 {
   "library_id": "FILM-KB",
-  "version": "1.0.0",
-  "schema_version": "1.0.0",
+  "version": "1.1.0",
+  "schema_version": "1.1.0",
   "released_on": "2026-10-18",
-  "status": "foundation_release",
+  "status": "expanded_practice_release",
   "language": "vi",
-  "core_card_count": 90,
+  "core_card_count": 130,
   "module_count": 13,
   "source_lesson_count": 33,
   "source_image_file_count": 444,
   "distinct_image_bytes": 374,
-  "official_reference_count": 14,
+  "official_reference_count": 27,
   "supported_tasks": [
     "analyze_video",
     "write_script",
@@ -24,7 +24,7 @@
     "goi-doc/*"
   ],
   "human_illustrated_edition": "not_created_yet",
-  "verification_scope": "Cấu trúc, liên kết, mã nguồn, tính nhất quán dữ liệu và ca kiểm tra; chưa thử tạo video hay chạy đánh giá độc lập trên nhiều mô hình.",
+  "verification_scope": "Rà nội dung có đối chiếu nguồn, cấu trúc/liên kết/mã và tính nhất quán bản xuất; chưa thử tạo video, đánh giá AI ngoài hoặc đo phản ứng khán giả.",
   "evolution_policy": "Bổ sung/sửa có căn cứ và nhật ký; đảo nguyên tắc ở trạng thái proposed_reversal cho tới khi người dùng chốt.",
   "niche_registry": [
     {
@@ -36,6 +36,9 @@
   ],
   "schema_count": 9,
   "emotion_profile_count": 10,
-  "glossary_term_count": 94,
-  "ai_evaluation_case_count": 24
+  "glossary_term_count": 137,
+  "ai_evaluation_case_count": 40,
+  "review_report": "kiem-toan/RA_SOAT_1_1_0.md",
+  "core_card_version_policy": "Dẫn phiên bản từng mục trong muc-luc.json; release 1.1.0 gồm mục 1.0.0 giữ nguyên và mục 1.1.0 mới/sửa.",
+  "compatibility_registry": "tuong-thich.json"
 }

@@ -1,0 +1,79 @@
+{
+  "id": "AI-010",
+  "namespace": "film.core",
+  "version": "1.1.0",
+  "module_id": "AI",
+  "title": "Sổ trạng thái và tài sản dùng chung giữa các shot",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì phải ổn định, điều gì được phép thay đổi ở lần xuất hiện tiếp theo?",
+  "use_when": [
+    "Nhân vật/đồ vật/bối cảnh trở lại, đổi góc hoặc nối nhiều công đoạn."
+  ],
+  "principle": "Quản lý nhận diện và trạng thái theo sự kiện, không khóa mọi thứ bất biến. Thiết kế có thể giữ ổn định trong khi mức đầy, độ ướt, vị trí, người giữ và ánh sáng thay đổi có nguyên nhân.",
+  "actions": [
+    "Cấp mã tài sản và chọn tham chiếu có thẩm quyền cho mặt/đồ/không gian. Ghi phiên bản, vai trò tham chiếu và những thuộc tính phải giữ.",
+    "Cho mỗi shot ghi trạng thái vào, hành động đổi trạng thái, trạng thái ra và shot phụ thuộc; lưu người giữ, vị trí, lượng tương đối, dấu sử dụng và những phần chưa biết.",
+    "Khi đổi take hoặc sửa một tài sản, kiểm các shot liên quan thay vì tự cập nhật toàn bộ ngách. Dùng hình mốc được duyệt khi công cụ thật hỗ trợ."
+  ],
+  "tradeoffs": [
+    "Ghi quá chi tiết tăng công và có thể gây ràng buộc sai; ưu tiên thuộc tính khán giả dùng để hiểu mạch hoặc nhận diện."
+  ],
+  "verification": [
+    "Không có vật tự đầy/sạch/đổi chủ ngoài hành động hoặc lược thời gian rõ.",
+    "Phiên bản tài sản thực được dùng có thể truy ngược."
+  ],
+  "original_example": "Chiếc hộp P01: đầu mở và rỗng, sau người đặt vật A vào, cuối đóng và được khách giữ; màu gỗ giữ thiết kế nhưng đổi sáng theo phòng.",
+  "counterexample": "Không bắt vật ướt phải giữ cùng biểu hiện màu dưới mọi ánh sáng chỉ để “nhất quán”.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-002",
+    "AI-003",
+    "ED-003",
+    "CO-005",
+    "QC-004"
+  ],
+  "source_ids": [
+    "SRC-GOOGLE-I2V",
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Cùng một vật không có nghĩa cùng trạng thái. Sổ trạng thái nối ý đồ liên tục với đầu vào tạo và giúp phân biệt lệch nhận diện với biến đổi hợp lý.",
+    "worked_example": {
+      "brief": "Chiếc hộp P01: đầu mở và rỗng, sau người đặt vật A vào, cuối đóng và được khách giữ; màu gỗ giữ thiết kế nhưng đổi sáng theo phòng.",
+      "protected_elements": [
+        "Mã hộp P01, vật A và người giữ.",
+        "Thay đổi trạng thái có tác nhân."
+      ],
+      "option_a": "Sao chép một đoạn mô tả dài vào mọi prompt và hy vọng tự khớp.",
+      "option_b": "Ghi tài sản có mã cùng trạng thái vào/ra theo shot; chọn ảnh tham chiếu đúng vai trò.",
+      "selection_rule": "Chọn B khi có chuỗi liên tục; chữ giống nhau không chứng minh kết quả giống nhau.",
+      "observable_checks": [
+        "Không có vật tự đầy/sạch/đổi chủ ngoài hành động hoặc lược thời gian rõ.",
+        "Phiên bản tài sản thực được dùng có thể truy ngược."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Cảnh sau nhận đúng nhân vật nhưng sai vật hoặc mức hoàn tất.",
+        "possible_causes": [
+          "Chỉ khóa nhận diện, thiếu trạng thái.",
+          "Take được thay mà không cập nhật phụ thuộc."
+        ],
+        "next_test": "So chuỗi trạng thái vào/ra của các shot liên quan; sửa đúng take hoặc dấu lược thời gian."
+      }
+    ],
+    "evidence_links": []
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "EV-004",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module_id": "EV",
   "title": "Độ phủ xem và những điều chưa biết",
   "level": "trung_cap",
@@ -11,18 +11,20 @@
   "use_when": [
     "Khi dùng khung lấy mẫu, bản rút gọn hoặc thiếu âm thanh."
   ],
-  "principle": "Tách độ phủ hình chuyển động, ảnh tĩnh và audio. Không suy ra đã xem trọn từ việc có khung đầu–giữa–cuối.",
+  "principle": "Tách độ phủ hình chuyển động, ảnh tĩnh và audio. Không suy ra đã xem trọn từ việc có khung đầu–giữa–cuối. Xem đủ frame đứng không tự xác nhận nhịp vận tốc, che/lộ hoặc đồng bộ âm. Khoảng chưa kiểm có thể chứa lỗi quyết định.",
   "actions": [
     "Ghi các khoảng hình đã xem liên tục, các khung lấy mẫu và khoảng âm đã nghe.",
     "Dùng null cùng lý do thiếu, thay vì đoán thông số.",
-    "Xem lại đoạn quanh điểm cắt, tiếp xúc hoặc biến hình khi kết luận phụ thuộc diễn tiến."
+    "Xem lại đoạn quanh điểm cắt, tiếp xúc hoặc biến hình khi kết luận phụ thuộc diễn tiến.",
+    "Ghi khoảng chuyển động/âm đã tiếp cận; với lỗi AI ưu tiên xem toàn clip và rà thêm vùng tiếp xúc/che lộ, nhưng không lấy rà điểm thay việc xem toàn."
   ],
   "tradeoffs": [
     "Xem lại tốn công nhưng ưu tiên vùng có thể thay đổi quyết định."
   ],
   "verification": [
     "Không có kết luận âm khi audio chưa được nghe.",
-    "Không gán máy tĩnh tuyệt đối từ ba khung gần giống."
+    "Không gán máy tĩnh tuyệt đối từ ba khung gần giống.",
+    "Kết luận toàn clip chỉ được đưa khi phạm vi xem/nghe phù hợp với kết luận đó."
   ],
   "original_example": "Ba khung tay cầm dao cho phép thấy hình thể; chưa đủ xác nhận dao có xuyên tay giữa các khung hay không.",
   "counterexample": "Không quan sát thấy người ở ba khung không chứng minh toàn clip chỉ có một người.",
@@ -32,7 +34,9 @@
   "related_ids": [
     "EV-001",
     "CA-004",
-    "QC-001"
+    "QC-001",
+    "AI-013",
+    "DR-008"
   ],
   "source_ids": [
     "B001",
@@ -46,5 +50,30 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Độ phủ phải gắn với kết luận cụ thể, không chỉ số ảnh đã lấy.",
+    "worked_example": {
+      "brief": "Ba ảnh của clip trao hộp đều đúng nhưng chưa có diễn tiến giữa ảnh.",
+      "protected_elements": [
+        "Mục tiêu và các phần đã duyệt trong tình huống."
+      ],
+      "option_a": "Báo trao hộp liên tục đã đạt.",
+      "option_b": "Ghi hình mốc phù hợp, chuyển động/tiếp xúc chưa xác minh.",
+      "selection_rule": "Chọn B cho đến khi đã xem khoảng hành động cần kết luận.",
+      "observable_checks": [
+        "Kết luận toàn clip chỉ được đưa khi phạm vi xem/nghe phù hợp với kết luận đó."
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Báo đạt nhưng clip vẫn có tay xuyên ở giữa.",
+        "possible_causes": [
+          "Kiểm chỉ ở các ảnh mốc."
+        ],
+        "next_test": "Xem toàn diễn tiến và rà khoảng chuyển quyền giữ vật."
+      }
+    ],
+    "evidence_links": []
+  }
 }

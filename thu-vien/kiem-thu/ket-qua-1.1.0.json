@@ -1,0 +1,117 @@
+{
+  "core_cards": 130,
+  "schemas_valid": 9,
+  "external_sources": 27,
+  "legacy_lessons_mapped": 33,
+  "negative_fixture_tests": [
+    {
+      "case": "invalid time order",
+      "rejected_as_expected": true,
+      "reason": "shots/0/end_seconds: -1 is less than the minimum of 0"
+    },
+    {
+      "case": "duplicate shot ID",
+      "rejected_as_expected": true,
+      "reason": "duplicate shot ID"
+    },
+    {
+      "case": "missing parent",
+      "rejected_as_expected": true,
+      "reason": "missing sequence parent"
+    },
+    {
+      "case": "outside parent",
+      "rejected_as_expected": true,
+      "reason": "shot outside parent"
+    },
+    {
+      "case": "overlapping shots",
+      "rejected_as_expected": true,
+      "reason": "shot overlap or unsorted"
+    },
+    {
+      "case": "invented evidence",
+      "rejected_as_expected": true,
+      "reason": "summary missing evidence NOPE"
+    },
+    {
+      "case": "null without reason",
+      "rejected_as_expected": true,
+      "reason": "shots/0/observed/focus/uncertainty_reason: None is not of type 'string'"
+    },
+    {
+      "case": "whole coverage overclaim",
+      "rejected_as_expected": true,
+      "reason": "whole visual flag exceeds coverage"
+    },
+    {
+      "case": "missing core reference",
+      "rejected_as_expected": true,
+      "reason": "missing core ZZ-999"
+    },
+    {
+      "case": "invented viewer effect",
+      "rejected_as_expected": true,
+      "reason": "viewer effect lacks linked viewer data"
+    },
+    {
+      "case": "motion asserted from still",
+      "rejected_as_expected": true,
+      "reason": "camera_motion observed without motion"
+    },
+    {
+      "case": "audio asserted from still",
+      "rejected_as_expected": true,
+      "reason": "audio_action observed without audio"
+    }
+  ],
+  "relative_links_valid": true,
+  "farm_files_checked": 6,
+  "farm_pinned_core_version_checked": "1.0.0",
+  "archived_records_checked": 90,
+  "knowledge_contract_tests": [
+    {
+      "case": "missing protected elements rejected",
+      "passed": true
+    },
+    {
+      "case": "unattached scoped claim source rejected",
+      "passed": true
+    },
+    {
+      "case": "empty diagnostic next test rejected",
+      "passed": true
+    },
+    {
+      "case": "archived cards valid with extended knowledge schema",
+      "passed": true
+    }
+  ],
+  "package_checksums_valid": true,
+  "canonical_jsonl_matches": true,
+  "generated_video_tests": 0,
+  "external_model_evaluations": 0,
+  "scope": "Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.",
+  "version": "1.1.0",
+  "checked_on": "2026-10-18",
+  "status": "passed_structural_and_integrity_checks",
+  "preservation": {
+    "baseline_commit": "da4b991ef001943138f5df9ab58067f01d19f4d1",
+    "baseline_files": 778,
+    "deleted_baseline_files": 0,
+    "legacy_files_unchanged_excluding_root_readme": 616,
+    "original_images_unchanged": 444,
+    "unchanged_core_cards": 60,
+    "archived_packages_byte_identical": 2
+  },
+  "application_depth_records": 70,
+  "prepared_external_ai_cases": 40,
+  "external_ai_cases_run": 0,
+  "viewer_tests": 0,
+  "manual_content_review": "90 mục cũ và 40 mục mới, phạm vi/căn cứ và lựa chọn áp dụng; xem kiem-toan/RA_SOAT_1_1_0.md.",
+  "lookup_smoke_checks": [
+    "Trọng lượng/tay nhả: trả AI-003, DR-008, ED-010, AI-011 trong 4 kết quả đầu.",
+    "ACES Log RAW: trả CO-006, CO-009, CO-008 trong 3 kết quả đầu.",
+    "A/B title/thumbnail: trả YT-002, QC-003, YT-009 trong 3 kết quả đầu."
+  ]
+}

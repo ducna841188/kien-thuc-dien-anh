@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "terms": [
     {
       "term": "shot",
@@ -657,6 +657,307 @@
       "meaning_vi": "Tỷ lệ nhấp theo lượt hiển thị được tính / giữ chân theo dữ liệu nền tảng",
       "core_ids": [
         "YT-002"
+      ]
+    },
+    {
+      "term": "event segmentation",
+      "meaning_vi": "Cách người xem chia dòng diễn biến thành các sự kiện có nghĩa; khác ranh giới cut",
+      "core_ids": [
+        "AU-007"
+      ]
+    },
+    {
+      "term": "eye trace",
+      "meaning_vi": "Quan hệ vị trí/ưu tiên điểm nhìn trước và sau điểm cắt; trong kho là dự kiến trừ khi có đo mắt",
+      "core_ids": [
+        "ED-009"
+      ]
+    },
+    {
+      "term": "subtext",
+      "meaning_vi": "Ý hoặc mục tiêu không được nói thẳng, có thể bộc lộ qua chênh giữa lời và hành vi",
+      "core_ids": [
+        "DR-007"
+      ]
+    },
+    {
+      "term": "tactic",
+      "meaning_vi": "Chiến thuật nhân vật dùng để tác động người/vật trong một nhịp",
+      "core_ids": [
+        "DR-007"
+      ]
+    },
+    {
+      "term": "weight transfer",
+      "meaning_vi": "Chuyển trọng tâm hoặc chuyển lực đỡ; cần kiểm điểm tựa và thời điểm nhả",
+      "core_ids": [
+        "DR-008"
+      ]
+    },
+    {
+      "term": "contact phase",
+      "meaning_vi": "Pha tiếp xúc trong chuỗi hành động, khác chuẩn bị và hậu quả",
+      "core_ids": [
+        "ED-010"
+      ]
+    },
+    {
+      "term": "motif",
+      "meaning_vi": "Mô-típ: chi tiết hình/âm/hành động trở lại với chức năng liên kết hoặc đổi nghĩa",
+      "core_ids": [
+        "ST-012"
+      ]
+    },
+    {
+      "term": "progression",
+      "meaning_vi": "Tiến triển về trạng thái, thông tin hoặc quan hệ; không chỉ có thêm góc quay",
+      "core_ids": [
+        "ST-010"
+      ]
+    },
+    {
+      "term": "shutter angle",
+      "meaning_vi": "Góc màn trập dùng liên hệ thời gian phơi với fps trong mô hình tương ứng",
+      "core_ids": [
+        "MO-007"
+      ]
+    },
+    {
+      "term": "exposure time",
+      "meaning_vi": "Thời gian ghi sáng cho mỗi mẫu/frame; góp phần quyết định nhòe chuyển động",
+      "core_ids": [
+        "MO-007"
+      ]
+    },
+    {
+      "term": "frame sampling",
+      "meaning_vi": "Lấy mẫu theo thời gian; không đồng nhất với độ nhòe trong mỗi frame",
+      "core_ids": [
+        "MO-007"
+      ]
+    },
+    {
+      "term": "retiming",
+      "meaning_vi": "Đổi tốc/ánh xạ thời gian trong dựng; cần ghi cách lặp/bỏ/nội suy frame",
+      "core_ids": [
+        "MO-007"
+      ]
+    },
+    {
+      "term": "interpolation",
+      "meaning_vi": "Nội suy mẫu/frame mới; có thể tạo lỗi và không chứng minh khôi phục chuyển động thật",
+      "core_ids": [
+        "MO-007"
+      ]
+    },
+    {
+      "term": "inverse square law",
+      "meaning_vi": "Quy luật độ rọi suy giảm theo bình phương khoảng cách trong điều kiện gần đúng nguồn điểm",
+      "core_ids": [
+        "LI-008"
+      ]
+    },
+    {
+      "term": "illuminance",
+      "meaning_vi": "Độ rọi: lượng quang thông tới một đơn vị diện tích, thường tính lux",
+      "core_ids": [
+        "LI-008"
+      ]
+    },
+    {
+      "term": "tint",
+      "meaning_vi": "Điều chỉnh ám màu, thường theo trục xanh lá–hồng tím; cách dùng tùy công cụ",
+      "core_ids": [
+        "CO-007"
+      ]
+    },
+    {
+      "term": "scene-referred",
+      "meaning_vi": "Biểu diễn tín hiệu gắn với thông tin cảnh, cần xác định encoding và quy trình",
+      "core_ids": [
+        "CO-009"
+      ]
+    },
+    {
+      "term": "display-referred",
+      "meaning_vi": "Biểu diễn đã được chuẩn bị theo hiển thị; không tự là dữ liệu máy quay gốc",
+      "core_ids": [
+        "CO-009"
+      ]
+    },
+    {
+      "term": "input transform",
+      "meaning_vi": "Biến đổi đầu vào có miền dữ liệu xác định để đưa về quy trình màu",
+      "core_ids": [
+        "CO-009"
+      ]
+    },
+    {
+      "term": "output transform",
+      "meaning_vi": "Biến đổi chuẩn bị dữ liệu trong quy trình cho mục tiêu hiển thị",
+      "core_ids": [
+        "CO-009"
+      ]
+    },
+    {
+      "term": "waveform",
+      "meaning_vi": "Đồ thị mức tín hiệu hình theo vị trí, dùng kiểm trong điều kiện xử lý đã xác định",
+      "core_ids": [
+        "CO-008"
+      ]
+    },
+    {
+      "term": "RGB parade",
+      "meaning_vi": "Hiển thị các kênh RGB để đối chiếu quan hệ mức tín hiệu",
+      "core_ids": [
+        "CO-008"
+      ]
+    },
+    {
+      "term": "vectorscope",
+      "meaning_vi": "Công cụ xem quan hệ màu/chroma theo hệ biểu diễn; không tự chấm màu đẹp",
+      "core_ids": [
+        "CO-008"
+      ]
+    },
+    {
+      "term": "transient",
+      "meaning_vi": "Phần biến thiên âm rất ngắn, thường ở đầu tiếng chạm; cần nghe và xử lý theo vật liệu",
+      "core_ids": [
+        "SO-009"
+      ]
+    },
+    {
+      "term": "masking",
+      "meaning_vi": "Che lẫn: một lớp âm làm lớp cần nghe khó nhận hơn trong phối trộn",
+      "core_ids": [
+        "SO-010"
+      ]
+    },
+    {
+      "term": "ducking",
+      "meaning_vi": "Hạ một lớp âm khi lớp ưu tiên xuất hiện; cần kiểm nhịp vào/ra",
+      "core_ids": [
+        "SO-010"
+      ]
+    },
+    {
+      "term": "automation",
+      "meaning_vi": "Thay đổi tham số theo thời gian trong dựng/mix thay vì một mức cố định",
+      "core_ids": [
+        "SO-009"
+      ]
+    },
+    {
+      "term": "stem",
+      "meaning_vi": "Một nhóm/lớp âm xuất tách để phối lại; không mặc định có từ một tệp trộn",
+      "core_ids": [
+        "SO-011"
+      ]
+    },
+    {
+      "term": "animatic",
+      "meaning_vi": "Bản dựng sơ bằng hình phác/ảnh cùng thời gian và âm tạm để kiểm cấu trúc",
+      "core_ids": [
+        "AI-009"
+      ]
+    },
+    {
+      "term": "previsualization",
+      "meaning_vi": "Tiền hình dung/dựng thử để kiểm cách thể hiện trước sản xuất hoàn thiện",
+      "core_ids": [
+        "AI-009"
+      ]
+    },
+    {
+      "term": "state ledger",
+      "meaning_vi": "Sổ trạng thái vào/ra và quan hệ phụ thuộc theo shot/tài sản",
+      "core_ids": [
+        "AI-010"
+      ]
+    },
+    {
+      "term": "compositing",
+      "meaning_vi": "Ghép/xử lý nhiều lớp hình; cần khớp che khuất, sáng, nhòe và thời gian",
+      "core_ids": [
+        "AI-012"
+      ]
+    },
+    {
+      "term": "inpainting",
+      "meaning_vi": "Sửa/tạo vùng có chọn lọc; khả năng và giới hạn phụ thuộc công cụ thực tế",
+      "core_ids": [
+        "AI-012"
+      ]
+    },
+    {
+      "term": "stage gate",
+      "meaning_vi": "Điểm duyệt có đầu ra và tiêu chí theo công đoạn",
+      "core_ids": [
+        "QC-007"
+      ]
+    },
+    {
+      "term": "confound",
+      "meaning_vi": "Yếu tố cùng thay đổi khiến chưa thể quy kết khác biệt kết quả cho biến đang quan tâm",
+      "core_ids": [
+        "QC-003"
+      ]
+    },
+    {
+      "term": "survivorship bias",
+      "meaning_vi": "Thiên lệch khi chỉ học các trường hợp nổi bật/đã thắng và bỏ các trường hợp còn lại",
+      "core_ids": [
+        "EV-007"
+      ]
+    },
+    {
+      "term": "appeal",
+      "meaning_vi": "Sức hấp dẫn: người phù hợp có chọn xem khi nội dung được đưa tới hay không",
+      "core_ids": [
+        "YT-007"
+      ]
+    },
+    {
+      "term": "engagement",
+      "meaning_vi": "Gắn kết sau khi bắt đầu xem; cần hiểu theo định dạng và dữ liệu thật có",
+      "core_ids": [
+        "YT-007"
+      ]
+    },
+    {
+      "term": "satisfaction",
+      "meaning_vi": "Sự hài lòng/đáng xem; không tự đồng nhất với một số CTR hoặc thời gian xem",
+      "core_ids": [
+        "YT-007"
+      ]
+    },
+    {
+      "term": "watch time share",
+      "meaning_vi": "Phần thời gian xem được công cụ thử phân bổ cho một phương án; không riêng tỷ lệ nhấp",
+      "core_ids": [
+        "YT-009"
+      ]
+    },
+    {
+      "term": "concurrent test",
+      "meaning_vi": "Thử các phương án trong cùng giai đoạn theo cơ chế phân phối của phép thử",
+      "core_ids": [
+        "YT-009"
+      ]
+    },
+    {
+      "term": "sequential comparison",
+      "meaning_vi": "So các phương án lần lượt theo thời gian, cần xét thay đổi khán giả và phân phối",
+      "core_ids": [
+        "YT-009"
+      ]
+    },
+    {
+      "term": "captions",
+      "meaning_vi": "Phụ đề lời và/hoặc chú thích âm có ý nghĩa theo nhu cầu tiếp cận; cần kiểm nghĩa và thời điểm",
+      "core_ids": [
+        "YT-011"
       ]
     }
   ]
