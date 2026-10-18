@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "modules": [
     {
       "id": "EV",
@@ -164,7 +164,7 @@
     {
       "id": "EV-005",
       "title": "Mốc thời gian, khung hình và ranh giới",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "module_id": "EV",
       "level": "trung_cap",
       "decision_question": "Đơn vị thời gian có chính xác và nối được không?",
@@ -287,14 +287,15 @@
     {
       "id": "AU-003",
       "title": "Thiết kế mong chờ và trả kết quả",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "module_id": "AU",
       "level": "trung_cap",
       "decision_question": "Khán giả đang đợi biết hoặc thấy điều gì?",
       "related_ids": [
         "ST-002",
         "ST-004",
-        "ED-005"
+        "ED-005",
+        "AU-008"
       ],
       "source_ids": [
         "B017",
@@ -466,7 +467,7 @@
     {
       "id": "ST-003",
       "title": "Nhịp diễn biến và bước ngoặt trong cảnh",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "ST",
       "level": "trung_cap",
       "decision_question": "Tại đâu mục tiêu, hiểu biết hoặc quan hệ đổi?",
@@ -488,14 +489,15 @@
     {
       "id": "ST-004",
       "title": "Chuẩn bị, phát triển và trả kết quả",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "module_id": "ST",
       "level": "trung_cap",
       "decision_question": "Kết quả có được chuẩn bị đủ và nhìn thấy đủ không?",
       "related_ids": [
         "AU-003",
         "ST-008",
-        "ED-005"
+        "ED-005",
+        "AU-008"
       ],
       "source_ids": [
         "B017",
@@ -507,14 +509,15 @@
     {
       "id": "ST-005",
       "title": "Cấu trúc phân đoạn và chuỗi hành động",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "module_id": "ST",
       "level": "trung_cap",
-      "decision_question": "Các phần phim nối nhau bằng quan hệ nào?",
+      "decision_question": "Toàn phim chia thành những phân đoạn/chuỗi nào, mỗi phần đóng góp gì?",
       "related_ids": [
         "EV-003",
         "ED-003",
-        "ST-006"
+        "ST-006",
+        "ST-009"
       ],
       "source_ids": [
         "B012",
@@ -545,7 +548,7 @@
     {
       "id": "ST-007",
       "title": "Kịch bản hình–tiếng và lời bổ sung",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "ST",
       "level": "trung_cap",
       "decision_question": "Thông tin nào cần hình, tiếng hoặc lời kể?",
@@ -567,7 +570,7 @@
     {
       "id": "ST-008",
       "title": "Mở, kết và đời sống tiếp diễn",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "ST",
       "level": "nang_cao",
       "decision_question": "Đầu phim mời vào bằng gì, cuối phim để lại gì?",
@@ -588,8 +591,8 @@
     },
     {
       "id": "ST-009",
-      "title": "Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích",
-      "version": "1.1.0",
+      "title": "Nối hai cảnh bằng nguyên nhân hoặc liên tưởng có chủ đích",
+      "version": "1.2.1",
       "module_id": "ST",
       "level": "trung_cap",
       "decision_question": "Vì sao cảnh kế tiếp phải có mặt sau cảnh này?",
@@ -668,7 +671,7 @@
     {
       "id": "DR-001",
       "title": "Chỉ đạo bằng mục tiêu và hành vi",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "DR",
       "level": "co_ban",
       "decision_question": "Nhân vật đang cố làm gì với ai hoặc vật nào?",
@@ -747,14 +750,15 @@
     {
       "id": "DR-005",
       "title": "Chi tiết đời sống và thiết kế sản xuất",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "module_id": "DR",
       "level": "trung_cap",
       "decision_question": "Chi tiết nào làm thế giới có lịch sử và chức năng?",
       "related_ids": [
         "CO-002",
         "AI-002",
-        "QC-002"
+        "QC-002",
+        "DR-009"
       ],
       "source_ids": [
         "B002",
@@ -824,7 +828,7 @@
     {
       "id": "DR-009",
       "title": "Chi tiết đời sống có chức năng và mức hoàn hảo phù hợp",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "DR",
       "level": "trung_cap",
       "decision_question": "Điều gì khiến cảnh giống một hoạt động đang diễn ra thay vì một ảnh quảng bá?",
@@ -962,14 +966,15 @@
     {
       "id": "CA-007",
       "title": "Nét, vùng nét và chuyển sự chú ý",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "module_id": "CA",
       "level": "trung_cap",
       "decision_question": "Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?",
       "related_ids": [
         "AU-002",
         "LI-004",
-        "AI-001"
+        "AI-001",
+        "CA-012"
       ],
       "source_ids": [
         "B008",
@@ -982,7 +987,7 @@
     {
       "id": "CA-008",
       "title": "Tiêu cự, khoảng cách và phối cảnh",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "CA",
       "level": "nang_cao",
       "decision_question": "Cảm giác gần–xa đến từ vị trí máy hay góc nhìn ống kính?",
@@ -1505,7 +1510,7 @@
     {
       "id": "CO-006",
       "title": "Quản lý màu, sửa cân bằng và tạo phong cách",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "CO",
       "level": "nang_cao",
       "decision_question": "Tệp và hệ hiển thị đang được diễn giải đúng chưa?",
@@ -1589,7 +1594,7 @@
     {
       "id": "ED-001",
       "title": "Nhịp trong shot, giữa shot và toàn phim",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "ED",
       "level": "co_ban",
       "decision_question": "Nhịp đang đến từ yếu tố nào?",
@@ -1787,8 +1792,8 @@
     },
     {
       "id": "ED-011",
-      "title": "Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô",
-      "version": "1.1.0",
+      "title": "Giữ, nén hoặc nới thời gian theo chức năng",
+      "version": "1.2.1",
       "module_id": "ED",
       "level": "nang_cao",
       "decision_question": "Nên bỏ thời gian nào, và thời gian nào đang tạo giá trị?",
@@ -2513,7 +2518,7 @@
     {
       "id": "YT-002",
       "title": "Tỷ lệ nhấp và bối cảnh phân phối",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "YT",
       "level": "trung_cap",
       "decision_question": "Tỷ lệ nhấp đang được so trong điều kiện nào?",
@@ -2535,7 +2540,7 @@
     {
       "id": "YT-003",
       "title": "Giữ chân theo đoạn và giả thuyết sửa",
-      "version": "1.1.0",
+      "version": "1.2.1",
       "module_id": "YT",
       "level": "trung_cap",
       "decision_question": "Ở mốc nào hành vi xem thay đổi, và có những giải thích nào?",

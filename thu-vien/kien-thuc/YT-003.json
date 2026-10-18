@@ -1,7 +1,7 @@
 {
   "id": "YT-003",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "YT",
   "title": "Giữ chân theo đoạn và giả thuyết sửa",
   "level": "trung_cap",
@@ -11,7 +11,7 @@
   "use_when": [
     "Khi có dữ liệu giữ chân của video thực."
   ],
-  "principle": "Đỉnh/hõm là dấu để xem lại, không phải kết luận nguyên nhân. Liên kết biểu đồ với diễn tiến và hoàn cảnh khán giả. Đỉnh/hõm là vị trí hành vi đáng xem lại, không tự xác nhận thích/ghét, khó/êm hoặc nhân quả của một yếu tố hình. Xét cả loại người xem và nguồn nếu có.",
+  "principle": "Đỉnh/hõm giữ chân chỉ ra vị trí cần xem lại, chưa xác nhận thích/ghét hoặc nguyên nhân của một yếu tố hình–âm. Đối chiếu diễn tiến, hoàn cảnh và nhóm khán giả nếu có, rồi dùng các giả thuyết cạnh tranh để chọn phép kiểm.",
   "actions": [
     "Gắn đoạn biến đổi vào shot/chuỗi cụ thể.",
     "Đưa ít nhất hai cách giải thích hợp lý trước khi sửa.",

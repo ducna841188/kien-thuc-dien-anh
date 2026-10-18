@@ -1,7 +1,7 @@
 {
   "id": "CO-006",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "CO",
   "title": "Quản lý màu, sửa cân bằng và tạo phong cách",
   "level": "nang_cao",
@@ -9,14 +9,13 @@
   "knowledge_kind": "practical_guidance",
   "decision_question": "Tệp và hệ hiển thị đang được diễn giải đúng chưa?",
   "use_when": [
-    "Khi ghép nhiều nguồn hoặc xuất hình khác bản dựng."
+    "Chọn và kiểm quy trình màu tổng thể khi ghép nguồn hoặc xuất khác bản duyệt; miền dữ liệu xem CO-009, thao tác khớp shot xem CO-008."
   ],
-  "principle": "Tách giải mã/biến đổi không gian màu, cân bằng kỹ thuật và tạo look. Không gán Log, HDR hoặc một loại LUT chỉ bằng mắt khi không có metadata. Nhận diện encoding/biến đổi đã áp trước khi grade; bản xuất sẵn không tự mang dữ liệu theo cảnh hoặc phần chi tiết đã mất.",
+  "principle": "Tách ba công việc: hiểu đúng dữ liệu đầu vào/đầu ra, cân khớp kỹ thuật và tạo phong cách. Ghi chuỗi biến đổi, tránh gán Log/HDR/LUT theo vẻ hình hoặc áp lặp; kiểm tệp xuất trong điều kiện xem dự kiến.",
   "actions": [
-    "Ghi thông tin màu có trong nguồn và phần chưa biết.",
-    "Chọn quy trình vào–làm việc–ra phù hợp phần mềm thực tế.",
-    "Cân khớp các góc, rồi tạo phong cách và kiểm tệp xuất trên thiết bị đích.",
-    "Lưu chuỗi đầu vào→biến đổi→look→đầu ra; tách bước cân/khớp khỏi phong cách và kiểm bản upload đã xử lý khi có đầu vào thật."
+    "Ghi metadata/tài liệu nguồn và điều chưa biết; dùng CO-009 nếu chưa xác định miền dữ liệu.",
+    "Chọn chuỗi đầu vào→không gian làm việc→look→đầu ra phù hợp phần mềm; ghi từng biến đổi có thật.",
+    "Cân khớp qua CO-008 rồi tạo phong cách; mở lại bản xuất và đối chiếu bản duyệt."
   ],
   "tradeoffs": [
     "Biến đổi lặp hoặc LUT sai đầu vào có thể làm sai tương phản và màu."

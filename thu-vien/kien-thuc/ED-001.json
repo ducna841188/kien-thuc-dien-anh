@@ -1,7 +1,7 @@
 {
   "id": "ED-001",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "ED",
   "title": "Nhịp trong shot, giữa shot và toàn phim",
   "level": "co_ban",
@@ -9,7 +9,7 @@
   "knowledge_kind": "practical_guidance",
   "decision_question": "Nhịp đang đến từ yếu tố nào?",
   "use_when": [
-    "Khi video quá chậm, quá dồn hoặc đều đều."
+    "Lập nhịp hoặc chẩn đoán nguồn gây cảm giác chậm/dồn/đều. Dùng ED-011 khi quyết định giữ, nén hoặc nới thời gian của một bản dựng cụ thể."
   ],
   "principle": "Xét chuyển động, diễn xuất, lượng thông tin, âm thanh, thời lượng và quan hệ chuỗi. Không lấy thời lượng trung bình làm định nghĩa duy nhất của nhịp. Xem nhịp ở mốc hành động, shot, chuỗi, phân đoạn và toàn phim; phân biệt tần suất cắt với tần suất sự kiện có ý nghĩa.",
   "actions": [

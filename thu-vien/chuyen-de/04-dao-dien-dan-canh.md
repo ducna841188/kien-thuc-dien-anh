@@ -1,6 +1,6 @@
 # DR — Đạo diễn, diễn xuất và dàn cảnh
 
-Phiên bản 1.2.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
+Phiên bản 1.2.1. Tổ chức người, vật, không gian và hành vi có mục tiêu.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -21,20 +21,19 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="dr-001"></a>
 ## DR-001 — Chỉ đạo bằng mục tiêu và hành vi
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Nhân vật đang cố làm gì với ai hoặc vật nào?
 
 **Dùng khi:** Khi chỉ đạo người thật hoặc nhân vật AI.
 
-**Nguyên lý thực hành:** Chuyển nhãn cảm xúc thành hành vi có đối tượng và nguyên nhân. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh. Hành vi rõ hơn khi có đối tượng và tác nhân; không suy nội tâm chắc chắn chỉ vì một cử chỉ.
+**Nguyên lý thực hành:** Chỉ đạo bằng mục tiêu, động từ và đối tượng tác động; phản ứng cần có tác nhân trong cảnh. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh, nên khi phân tích nguồn không suy chắc nội tâm từ một cử chỉ.
 
 **Cách làm:**
 
-1. Ghi mục tiêu hiện tại của nhân vật.
-2. Chọn động từ và đối tượng tác động.
-3. Thêm phản ứng vừa đủ khi mục tiêu thành/bại.
-4. Thêm mục tiêu tác động, một hành động và phản ứng sau tác nhân; tách chỉ đạo sáng tạo khỏi diễn giải khi phân tích phim nguồn.
+1. Ghi mục tiêu hiện tại và người/vật nhân vật muốn tác động.
+2. Chọn một hành động cụ thể, vừa mức và có thể quan sát.
+3. Bố trí phản ứng khi có tác nhân hoặc kết quả; đọc DR-007 khi cần chiến thuật và ý ngầm sâu hơn.
 
 **Đánh đổi:** Mô tả quá nhiều dấu hiệu có thể khiến diễn xuất cường điệu hoặc AI quá tải.
 
@@ -184,11 +183,11 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 <a id="dr-005"></a>
 ## DR-005 — Chi tiết đời sống và thiết kế sản xuất
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Chi tiết nào làm thế giới có lịch sử và chức năng?
 
-**Dùng khi:** Khi thiết kế bối cảnh, phục trang, vật liệu và sinh hoạt.
+**Dùng khi:** Thiết kế thế giới trước sản xuất: bối cảnh, phục trang, vật liệu, công năng và dấu sử dụng. Dùng DR-009 để chẩn đoán đầu ra đang dàn dựng hoặc vô hồn.
 
 **Nguyên lý thực hành:** Chọn chi tiết theo cách sống, thời tiết, công việc và nhân vật. Cảm giác chân thực đến từ quan hệ hoạt động, không chỉ thêm bụi hoặc khuyết điểm.
 
@@ -209,7 +208,7 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 
 **Phản ví dụ / giới hạn:** Phong cách cách điệu có thể dùng vật liệu phi hiện thực nếu thống nhất quy tắc của thế giới.
 
-**Liên quan:** [CO-002](../kien-thuc/CO-002.json), [AI-002](../kien-thuc/AI-002.json), [QC-002](../kien-thuc/QC-002.json)
+**Liên quan:** [CO-002](../kien-thuc/CO-002.json), [AI-002](../kien-thuc/AI-002.json), [QC-002](../kien-thuc/QC-002.json), [DR-009](../kien-thuc/DR-009.json)
 
 **Nguồn đối chiếu:** [B002](../../bai-hoc/002-prompt-cau-truc/README.md), [B003](../../bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md)
 
@@ -372,11 +371,11 @@ Thử tiếp: Xem chậm quanh điểm chuyển lực để tìm lỗi, sau đó
 <a id="dr-009"></a>
 ## DR-009 — Chi tiết đời sống có chức năng và mức hoàn hảo phù hợp
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Điều gì khiến cảnh giống một hoạt động đang diễn ra thay vì một ảnh quảng bá?
 
-**Dùng khi:** Thế giới AI quá sạch, cử chỉ máy móc, đồ vật chỉ làm nền hoặc ai cũng nhìn máy.
+**Dùng khi:** Chẩn đoán đầu ra đã có khi cử chỉ/đạo cụ thiếu công năng hoặc quá trình diễn. Nền thiết kế thế giới xem DR-005.
 
 **Nguyên lý thực hành:** Tạo cảm giác sống bằng mục đích sử dụng, dấu thời gian và phản ứng với môi trường. Chọn sự không đều có nguyên nhân; không đồng nhất tự nhiên với bẩn, lỗi hình hoặc rung máy.
 

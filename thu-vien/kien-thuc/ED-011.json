@@ -1,17 +1,17 @@
 {
   "id": "ED-011",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "ED",
-  "title": "Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô",
+  "title": "Giữ, nén hoặc nới thời gian theo chức năng",
   "level": "nang_cao",
   "status": "active",
   "knowledge_kind": "practical_guidance",
   "decision_question": "Nên bỏ thời gian nào, và thời gian nào đang tạo giá trị?",
   "use_when": [
-    "Phim dài mà ít tiến triển, phim quá gấp hoặc áp cùng độ dài cho mọi shot."
+    "Đã có bản dựng và cần quyết định đoạn nào được giữ đủ, bỏ bớt hoặc nới để đọc thông tin. Khung chẩn đoán các nguồn nhịp xem ED-001."
   ],
-  "principle": "Nhịp được thiết kế ở hành động, shot, chuỗi, phân đoạn và toàn phim. Tách thời gian để nhận diện, theo dõi biến đổi, mong chờ và tiếp nhận kết quả khỏi thời gian không còn chức năng; độ dài tự nó không xác định chán hoặc yên.",
+  "principle": "Đánh giá chức năng của từng khoảng thời gian: nhận diện, theo dõi biến đổi, mong chờ, thưởng thức hoặc tiếp nhận kết quả. Nén phần không còn giá trị theo brief, giữ hoặc nới phần đang thiếu thời gian đọc; kiểm cả quan hệ với chuỗi/toàn phim.",
   "actions": [
     "Lập bản đồ mỗi đoạn: điều mới, loại lặp, thời gian chờ có giá trị và dấu kết quả. Phân biệt lặp để học/quan sát với lặp chỉ tái nói thông tin.",
     "Nén ở chỗ người xem đã hiểu và không cần xem đủ, giữ ở chỗ biến đổi khó, phản ứng có ý nghĩa hoặc trải nghiệm cảm giác là lời hứa. Dùng âm/cử chỉ để phát triển trong một shot nếu phù hợp.",

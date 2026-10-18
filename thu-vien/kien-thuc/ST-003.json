@@ -1,7 +1,7 @@
 {
   "id": "ST-003",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "ST",
   "title": "Nhịp diễn biến và bước ngoặt trong cảnh",
   "level": "trung_cap",
@@ -11,7 +11,7 @@
   "use_when": [
     "Khi chia một cảnh thành các phần chỉ đạo."
   ],
-  "principle": "Beat là một nhịp diễn biến có thay đổi nhiệm vụ hoặc thông tin. Nó không tự đồng nghĩa một shot, một giây hay một câu thoại. Thay đổi có thể thuộc trạng thái vật, quyết định, thông tin hoặc quan hệ; một nhịp không buộc trùng một shot hay một job tạo.",
+  "principle": "Beat là nhịp diễn biến có thay đổi nhiệm vụ, trạng thái vật, quyết định, thông tin hoặc quan hệ. Nó không bắt buộc trùng một shot, một giây, một câu thoại hay một job tạo AI.",
   "actions": [
     "Đánh dấu trạng thái trước mỗi nhịp.",
     "Chỉ ra sự kiện khiến nhân vật/người xem đổi cách hiểu.",

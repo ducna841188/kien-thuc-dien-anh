@@ -1,7 +1,7 @@
 {
   "id": "DR-005",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "module_id": "DR",
   "title": "Chi tiết đời sống và thiết kế sản xuất",
   "level": "trung_cap",
@@ -9,7 +9,7 @@
   "knowledge_kind": "practical_guidance",
   "decision_question": "Chi tiết nào làm thế giới có lịch sử và chức năng?",
   "use_when": [
-    "Khi thiết kế bối cảnh, phục trang, vật liệu và sinh hoạt."
+    "Thiết kế thế giới trước sản xuất: bối cảnh, phục trang, vật liệu, công năng và dấu sử dụng. Dùng DR-009 để chẩn đoán đầu ra đang dàn dựng hoặc vô hồn."
   ],
   "principle": "Chọn chi tiết theo cách sống, thời tiết, công việc và nhân vật. Cảm giác chân thực đến từ quan hệ hoạt động, không chỉ thêm bụi hoặc khuyết điểm.",
   "actions": [
@@ -32,7 +32,8 @@
   "related_ids": [
     "CO-002",
     "AI-002",
-    "QC-002"
+    "QC-002",
+    "DR-009"
   ],
   "source_ids": [
     "B002",

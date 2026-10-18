@@ -1,4 +1,4 @@
-# FILM-KB 1.2.0 — Gói đọc đầy đủ cho AI
+# FILM-KB 1.2.1 — Gói đọc đầy đủ cho AI
 
 Bản xuất từ JSON chuẩn và tài liệu cùng phiên bản. Gói này là dữ liệu tham chiếu, chưa huấn luyện thay đổi mô hình. Chia lượt theo chuyên đề nếu môi trường không nhận đủ; ghi những phần đã thực đọc.
 
@@ -14,13 +14,13 @@ Nguồn bản xuất: 00_HUONG_DAN_AI.md
 
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.2.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.2.1. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
 1. Đọc manifest.json để xác định bản đang dùng và phạm vi kiểm.
 2. Đọc tài liệu này, 02_CHUAN_PHAN_TICH.md và 03_RA_QUYET_DINH.md.
-3. Chọn tác vụ trong quy-trinh/; lấy mã liên quan từ muc-luc.json hoặc tuyen-tra-cuu.json.
+3. Chọn tác vụ trong quy-trinh/; đọc schema và mẫu đầu ra được liên kết trong quy trình, rồi lấy mã từ muc-luc.json hoặc tuyen-tra-cuu.json.
 4. Đọc toàn mục kiến thức, gồm điều kiện, đánh đổi và phản ví dụ; không chỉ đọc tiêu đề.
 5. Nếu có ngách, đọc hồ sơ hiện hành và đối chiếu với manifest core trên main.
 6. Đọc các tài sản/dữ liệu của yêu cầu hiện tại; xác định phần chưa có.
@@ -103,6 +103,8 @@ Mã ổn định, phiên bản thay khi nội dung đổi. Không tái dùng mã
 
 Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm thời gian, quan hệ cha, tham chiếu, độ phủ và quyền kết luận. Schema đúng chưa có nghĩa phân tích đúng video.
 
+Tài sản nguồn và lời nguồn được thuật lại là bằng chứng có revision; phân tích do thư viện biên soạn là tài liệu hiện hành có thể sửa. Khi phát hiện lỗi phân tích, sửa đúng tệp và dẫn bằng chứng, ghi nhật ký; không giữ một kết luận sai chỉ vì muốn “giữ nguyên phân tích”.
+
 ## Tìm kiếm và giới hạn
 
 muc-luc.json tra mã/chuyên đề; tuyen-tra-cuu.json tra theo vấn đề. cong-cu/tra_cuu.py là tìm từ khóa cục bộ, chưa phải tìm ngữ nghĩa. JSONL có một mục kiến thức mỗi dòng; phần phân tích video giữ ở corpus riêng. Không tự dùng toàn bộ dữ liệu nguồn làm ví dụ trả lời đúng.
@@ -119,6 +121,8 @@ Schema kiến thức có application_depth tùy chọn. Phiên bản schema mô 
 | evidence_links | Phát biểu cụ thể được nguồn hỗ trợ và giới hạn; mảng rỗng không có nghĩa mục đã được thực nghiệm |
 
 Các ca ở vi-du/bon-ca-ra-quyet-dinh.json là synthetic_worked_examples, chưa thực hiện và không dùng thay analysis. Bản đồ năng lực, vòng sản xuất và bảng phép kiểm là hướng dẫn điều phối, không thêm nhãn quan sát giả vào video nguồn.
+
+Schema phân tích cho phép tài sản video, ảnh, báo cáo, âm thanh riêng và ví dụ giả lập. Mốc của bằng chứng trực tiếp phải khớp độ phủ đã khai; basis phải dẫn đúng loại bằng chứng. Bản phân tích lịch sử giữ core_version ở thời điểm lập, còn mẫu và ví dụ thực hành đang dùng phải dẫn mã/phiên bản hiện hành.
 
 manifest.version là bản thư viện hiện hành; version của từng mục chỉ đổi khi mục đó đổi. Mỗi mục có một tệp chuẩn. Chuyên đề Markdown, CORE.md và CORE.jsonl là các dạng xuất phục vụ đọc khác nhau, đều phản ánh cùng dữ liệu hiện hành; không là các phiên bản lịch sử.
 
@@ -162,6 +166,12 @@ Mỗi thuộc tính lưu value, status, basis, evidence_refs và uncertainty_rea
 Shot, sự kiện và khoảng âm dùng giây số. Một giây có thể chứa nhiều shot; một shot có thể dài nhiều giây. Sự kiện ngắn dùng mốc nhỏ hơn một giây khi bằng chứng cho phép. Chỉ mục từng giây được suy từ các khoảng đã có để tra cứu, không biến ảnh mẫu thành độ phủ chuyển động.
 
 Mốc của đoạn cắt phải quy về bản gốc bằng offset. Quy ước khoảng [start, end): chứa điểm đầu, không chứa điểm cuối. Không đổi phút:giây sang frame timecode khi chưa biết fps; video tốc độ khung biến thiên cần theo timestamp thực khi công cụ cho đo.
+
+Trong một bản ghi, mọi span và sampled_frame_times dùng cùng trục thời gian gốc. duration_seconds là độ dài của trục gốc đó khi biết; không điền độ dài một đoạn cắt vào đây trong khi các mốc đã cộng offset. Nếu chưa biết độ dài bản gốc, để null, ghi độ dài đoạn/offset và giới hạn trong locator/limitations. Một frame hoặc sự kiện điểm ở đúng end thuộc khoảng kế tiếp.
+
+motion_interval và audio_interval cần đủ mốc đầu/cuối, có độ dài dương và nằm trong độ phủ tương ứng. still_frame có mốc thì là một điểm đã xem; nếu ảnh không có mốc video, ghi rõ giới hạn định vị và không dùng nó để xác nhận chuyển động. Nguồn âm riêng dùng asset.kind = audio, không cần gán giả thành video.
+
+Mỗi thuộc tính dùng evidence_refs khớp basis và liên quan khoảng shot; không dẫn bằng chứng của một đoạn khác. Sự kiện có mốc cụ thể cần được bằng chứng bao phủ đúng khoảng sự kiện. Sự kiện cả hình–âm cần đủ hai kênh; một âm hoặc một ảnh riêng không chứng nhận đồng bộ. Đây là kiểm hợp đồng dữ liệu; nội dung trong bằng chứng vẫn cần được xem/nghe thật.
 
 ## Những kết luận cần kiểm đặc biệt
 
@@ -276,7 +286,7 @@ Nguồn bản xuất: 06_VAN_HANH_SAN_XUAT.md
 
 # Từ yêu cầu đến bản phim có thể duyệt
 
-FILM-KB 1.2.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md).
+FILM-KB 1.2.1. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md).
 
 Quy trình này nối năm tác vụ của kho vào một vòng sản xuất. Mục tiêu là tìm lỗi bằng đầu ra phù hợp và sửa trước khi chi phí lan sang những phần khác. Dự án nhỏ có thể gộp bước; các loại bằng chứng vẫn cần được phân biệt.
 
@@ -343,7 +353,7 @@ Nguồn bản xuất: 07_KIEM_TRA_TRAI_NGHIEM.md
 
 # Chọn đúng bằng chứng cho trải nghiệm muốn tạo
 
-FILM-KB 1.2.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [QC-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-008.json) · [YT-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/YT-007.json).
+FILM-KB 1.2.1. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [QC-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-008.json) · [YT-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/YT-007.json).
 
 Một phim đúng kỹ thuật có thể chưa phù hợp người xem. Một video được xem lâu có thể được thích, được dùng làm nền, được học lại hoặc khó hiểu. Đặt câu hỏi trước, thu đúng dữ liệu và chỉ kết luận trong phạm vi dữ liệu trả lời được.
 
@@ -402,7 +412,7 @@ Nguồn bản xuất: 08_BAN_DO_NANG_LUC.md
 
 # Bản đồ năng lực: đọc để phân tích, quyết định và thực hiện
 
-FILM-KB 1.2.0. [Mục lục đầy đủ](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/muc-luc.json) · [Tra theo vấn đề](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuyen-tra-cuu.json).
+FILM-KB 1.2.1. [Mục lục đầy đủ](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/muc-luc.json) · [Tra theo vấn đề](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuyen-tra-cuu.json).
 
 Các mức căn bản, trung cấp và nâng cao mô tả độ phức tạp của quyết định. Người mới đi theo cột căn bản; AI đang làm việc lấy cả nền, mục liên quan và phản ví dụ, không cần đọc lại tuần tự mọi mã cho mỗi yêu cầu.
 
@@ -457,7 +467,7 @@ Nguồn bản xuất: quy-trinh/01-phan-tich-video.md
 
 # Phân tích video
 
-Tác vụ: analyze_video. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: analyze_video. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -475,7 +485,7 @@ Tác vụ: analyze_video. Core release 1.2.0; dẫn version của từng mục t
 
 ## Đầu ra
 
-analysis.schema.json; mau/phan-tich-video.json
+[Schema đầu ra](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/analysis.schema.json) · [Mẫu hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/mau/phan-tich-video.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 
@@ -498,7 +508,7 @@ Nguồn bản xuất: quy-trinh/02-kich-ban.md
 
 # Xây và sửa kịch bản
 
-Tác vụ: write_script. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_script. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -515,7 +525,7 @@ Tác vụ: write_script. Core release 1.2.0; dẫn version của từng mục th
 
 ## Đầu ra
 
-script.schema.json; mau/kich-ban.json
+[Schema đầu ra](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/script.schema.json) · [Mẫu hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/mau/kich-ban.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 
@@ -538,7 +548,7 @@ Nguồn bản xuất: quy-trinh/03-danh-sach-shot.md
 
 # Thiết kế danh sách shot
 
-Tác vụ: design_shots. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: design_shots. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -555,7 +565,7 @@ Tác vụ: design_shots. Core release 1.2.0; dẫn version của từng mục th
 
 ## Đầu ra
 
-shot-plan.schema.json; mau/danh-sach-shot.json
+[Schema đầu ra](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/shot-plan.schema.json) · [Mẫu hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/mau/danh-sach-shot.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 
@@ -578,7 +588,7 @@ Nguồn bản xuất: quy-trinh/04-cau-lenh-ai.md
 
 # Viết yêu cầu tạo ảnh/video
 
-Tác vụ: write_generation_prompts. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_generation_prompts. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -595,7 +605,7 @@ Tác vụ: write_generation_prompts. Core release 1.2.0; dẫn version của t�
 
 ## Đầu ra
 
-generation-request.schema.json; mau/yeu-cau-tao.json
+[Schema đầu ra](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/generation-request.schema.json) · [Mẫu hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/mau/yeu-cau-tao.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 
@@ -618,7 +628,7 @@ Nguồn bản xuất: quy-trinh/05-chan-doan-sua-loi.md
 
 # Chẩn đoán và sửa lỗi
 
-Tác vụ: diagnose_and_repair. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: diagnose_and_repair. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -635,7 +645,7 @@ Tác vụ: diagnose_and_repair. Core release 1.2.0; dẫn version của từng m
 
 ## Đầu ra
 
-decision.schema.json; vi-du/sua-loi-it-thay-doi.json
+[Schema đầu ra](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/decision.schema.json) · [Mẫu hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/mau/quyet-dinh.json) · [Ví dụ sửa lỗi](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/sua-loi-it-thay-doi.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 
@@ -658,7 +668,7 @@ Nguồn bản xuất: chuyen-de/01-bang-chung-va-phan-tich.md
 
 # EV — Bằng chứng và chuẩn phân tích
 
-Phiên bản 1.2.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
+Phiên bản 1.2.1. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -840,7 +850,7 @@ Thử tiếp: Xem toàn diễn tiến và rà khoảng chuyển quyền giữ v�
 <a id="ev-005"></a>
 ## EV-005 — Mốc thời gian, khung hình và ranh giới
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Đơn vị thời gian có chính xác và nối được không?
 
@@ -853,6 +863,7 @@ Thử tiếp: Xem toàn diễn tiến và rà khoảng chuyển quyền giữ v�
 1. Đánh dấu điểm vào/ra trên tệp thực; ghi độ chính xác đo.
 2. Giữ thời gian cục bộ và offset về bản gốc cho từng phần.
 3. Kiểm tra chồng/hở; sự kiện dưới một giây có thể có bản ghi riêng.
+4. Chuẩn hóa mọi mốc về cùng trục gốc; duration_seconds là độ dài trục gốc nếu biết, không dùng độ dài đoạn cắt thay cho nó. Chưa biết độ dài gốc thì để null và ghi offset/giới hạn.
 
 **Đánh đổi:** Khung lấy mẫu định kỳ dễ bỏ sót cú cắt nhanh; chỉ mục từng giây không thay thế phát hiện ranh giới.
 
@@ -1032,7 +1043,7 @@ Nguồn bản xuất: chuyen-de/02-khan-gia-chu-y-cam-xuc.md
 
 # AU — Khán giả, chú ý và cảm xúc
 
-Phiên bản 1.2.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
+Phiên bản 1.2.1. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -1175,11 +1186,11 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 <a id="au-003"></a>
 ## AU-003 — Thiết kế mong chờ và trả kết quả
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Khán giả đang đợi biết hoặc thấy điều gì?
 
-**Dùng khi:** Khi xây mở đầu, quá trình và đoạn kết của một việc.
+**Dùng khi:** Lập lời hứa và điều người xem chờ ở mức trải nghiệm tổng thể. Dùng ST-004 để bố trí dấu chuẩn bị/kết quả, AU-008 để quyết định một chi tiết nên giấu hay làm rõ.
 
 **Nguyên lý thực hành:** Đặt câu hỏi hoặc khoảng thiếu thông tin đủ hiểu, tiến triển nó rồi cho kết quả tương xứng. Đây là lựa chọn kể chuyện cần kiểm với người xem.
 
@@ -1200,7 +1211,7 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 
 **Phản ví dụ / giới hạn:** Phim quan sát có thể tạo hấp dẫn bằng hiện diện và chất liệu mà không giấu đáp án.
 
-**Liên quan:** [ST-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-002.json), [ST-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-004.json), [ED-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-005.json)
+**Liên quan:** [ST-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-002.json), [ST-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-004.json), [ED-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-005.json), [AU-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-008.json)
 
 **Nguồn đối chiếu:** [B017](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/017-mini-story-ba-nhip/README.md), [B024](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/024-xau-chuoi-canh/README.md)
 
@@ -1526,7 +1537,7 @@ Nguồn bản xuất: chuyen-de/03-kich-ban-va-cau-truc.md
 
 # ST — Kịch bản và cấu trúc
 
-Phiên bản 1.2.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
+Phiên bản 1.2.1. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -1542,7 +1553,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [ST-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-006) | Điểm nhìn và phân phối thông tin | nang_cao |
 | [ST-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-007) | Kịch bản hình–tiếng và lời bổ sung | trung_cap |
 | [ST-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-008) | Mở, kết và đời sống tiếp diễn | nang_cao |
-| [ST-009](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-009) | Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích | trung_cap |
+| [ST-009](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-009) | Nối hai cảnh bằng nguyên nhân hoặc liên tưởng có chủ đích | trung_cap |
 | [ST-010](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-010) | Lặp có biến đổi để tạo tiến triển và nhận diện | trung_cap |
 | [ST-011](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-011) | Tạo điều đáng quan tâm mà không cần phóng đại nguy hiểm | co_ban |
 | [ST-012](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/03-kich-ban-va-cau-truc.md#st-012) | Mô-típ hình và âm trở lại với nghĩa đã thay đổi | nang_cao |
@@ -1645,13 +1656,13 @@ Thử tiếp: Viết lại mục tiêu và giá trị của kết quả trước
 <a id="st-003"></a>
 ## ST-003 — Nhịp diễn biến và bước ngoặt trong cảnh
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Tại đâu mục tiêu, hiểu biết hoặc quan hệ đổi?
 
 **Dùng khi:** Khi chia một cảnh thành các phần chỉ đạo.
 
-**Nguyên lý thực hành:** Beat là một nhịp diễn biến có thay đổi nhiệm vụ hoặc thông tin. Nó không tự đồng nghĩa một shot, một giây hay một câu thoại. Thay đổi có thể thuộc trạng thái vật, quyết định, thông tin hoặc quan hệ; một nhịp không buộc trùng một shot hay một job tạo.
+**Nguyên lý thực hành:** Beat là nhịp diễn biến có thay đổi nhiệm vụ, trạng thái vật, quyết định, thông tin hoặc quan hệ. Nó không bắt buộc trùng một shot, một giây, một câu thoại hay một job tạo AI.
 
 **Cách làm:**
 
@@ -1710,11 +1721,11 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-004"></a>
 ## ST-004 — Chuẩn bị, phát triển và trả kết quả
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Kết quả có được chuẩn bị đủ và nhìn thấy đủ không?
 
-**Dùng khi:** Khi xây một việc, mối quan hệ hoặc bí mật kéo dài nhiều đoạn.
+**Dùng khi:** Bố trí chi tiết chuẩn bị, sự trở lại và bằng chứng trả kết quả trong kịch bản. Mục tiêu mong chờ tổng thể xem AU-003; quyết định giấu thông tin xem AU-008.
 
 **Nguyên lý thực hành:** Gieo thông tin để kết quả có nghĩa; phát triển mong chờ; cho dấu hoàn tất phù hợp. Không bắt buộc ba phần dài bằng nhau.
 
@@ -1735,7 +1746,7 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 
 **Phản ví dụ / giới hạn:** Kết mở có thể chủ ý; cần phân biệt sự bỏ ngỏ có ý nghĩa với công đoạn bị quên.
 
-**Liên quan:** [AU-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-003.json), [ST-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-008.json), [ED-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-005.json)
+**Liên quan:** [AU-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-003.json), [ST-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-008.json), [ED-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-005.json), [AU-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-008.json)
 
 **Nguồn đối chiếu:** [B017](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/017-mini-story-ba-nhip/README.md), [B024](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/024-xau-chuoi-canh/README.md)
 
@@ -1744,13 +1755,13 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-005"></a>
 ## ST-005 — Cấu trúc phân đoạn và chuỗi hành động
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
-**Câu hỏi quyết định:** Các phần phim nối nhau bằng quan hệ nào?
+**Câu hỏi quyết định:** Toàn phim chia thành những phân đoạn/chuỗi nào, mỗi phần đóng góp gì?
 
-**Dùng khi:** Khi biến nhiều shot đẹp thành một video có mạch.
+**Dùng khi:** Lập cấu trúc toàn phim và vai trò các phân đoạn/chuỗi. Dùng ST-009 khi sửa quan hệ giữa hai cảnh hoặc hai nhịp kề nhau.
 
-**Nguyên lý thực hành:** Tổ chức theo nguyên nhân, tiến trình, không gian, thời gian, so sánh hoặc ý tưởng. Ghi quan hệ thật thay vì mặc định mọi shot là trước–sau của cùng một việc.
+**Nguyên lý thực hành:** Phân đoạn và chuỗi tổ chức các thay đổi thành một đường phát triển có thể theo dõi. Xác định chức năng từng phần và điều được mang qua ranh giới; không mặc định mọi hình là trước–sau của cùng một sự việc.
 
 **Cách làm:**
 
@@ -1769,7 +1780,7 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 
 **Phản ví dụ / giới hạn:** Montage có thể liên kết bằng cảm giác hoặc hình khối, nhưng nên ghi rõ đó là liên hệ ý tưởng.
 
-**Liên quan:** [EV-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-003.json), [ED-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-003.json), [ST-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-006.json)
+**Liên quan:** [EV-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-003.json), [ED-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-003.json), [ST-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-006.json), [ST-009](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-009.json)
 
 **Nguồn đối chiếu:** [B012](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/012-cau-truc-camera/README.md), [B024](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/024-xau-chuoi-canh/README.md)
 
@@ -1812,13 +1823,13 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-007"></a>
 ## ST-007 — Kịch bản hình–tiếng và lời bổ sung
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Thông tin nào cần hình, tiếng hoặc lời kể?
 
 **Dùng khi:** Khi viết kịch bản có thoại/lời bình hoặc phim không thoại.
 
-**Nguyên lý thực hành:** Phân công kênh truyền đạt theo điều mỗi kênh làm tốt. Lời có thể thêm bối cảnh, quy luật, suy nghĩ; hình/tiếng có thể tự cho thấy hành động. Thiết lập mục tiêu, tác động và hệ quả có thể đọc qua hành động/hình–âm; lời vẫn có ích cho bối cảnh không thể thấy khi dạng phim cho phép.
+**Nguyên lý thực hành:** Phân công hình, tiếng và lời theo thông tin cần truyền: hình–âm có thể làm rõ mục tiêu, tác động và hệ quả; lời có thể bổ sung bối cảnh, quy luật hoặc suy nghĩ khó thấy. Giữ dạng phim đã chốt và kiểm người mới hiểu được tiến trình, không chỉ bỏ lời rồi coi đã kể không lời.
 
 **Cách làm:**
 
@@ -1873,13 +1884,13 @@ Thử tiếp: Lập danh sách thông tin đó và tìm bằng chứng hình–�
 <a id="st-008"></a>
 ## ST-008 — Mở, kết và đời sống tiếp diễn
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Đầu phim mời vào bằng gì, cuối phim để lại gì?
 
 **Dùng khi:** Khi thiết kế tập độc lập hoặc loạt có nhân vật quen.
 
-**Nguyên lý thực hành:** Mở xác lập lời hứa và việc đáng theo; kết xác nhận phần đã đi qua và tạo dư âm. Một tập nên hiểu được ngay cả khi người xem chưa xem tập trước. Mở có thể vào trực tiếp một việc, một nơi chốn hoặc câu hỏi; cần cho người phù hợp nhận ra giá trị sớm. Kết cần xác nhận giá trị hoặc lựa chọn kết mở có lý do.
+**Nguyên lý thực hành:** Mở giúp người phù hợp nhận ra lời hứa và việc đáng theo sớm, qua hành động, nơi chốn hoặc câu hỏi. Kết xác nhận giá trị đã giao hoặc mở tiếp có lý do, có thể để lại dư âm. Một tập cần đủ điểm vào cho người mới, không mặc định họ đã xem tập trước.
 
 **Cách làm:**
 
@@ -1932,13 +1943,13 @@ Thử tiếp: Đối chiếu lời hứa với đoạn đầu và phần trả g
 [Bản JSON chuẩn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-008.json). Đọc phạm vi nguồn trong [sổ nguồn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/nguon/nguon-chinh-thuc.json).
 
 <a id="st-009"></a>
-## ST-009 — Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích
+## ST-009 — Nối hai cảnh bằng nguyên nhân hoặc liên tưởng có chủ đích
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Vì sao cảnh kế tiếp phải có mặt sau cảnh này?
 
-**Dùng khi:** Kịch bản thành danh sách cảnh đẹp, trình tự công đoạn hoặc montage thiếu trục.
+**Dùng khi:** Sửa một chỗ nối cụ thể giữa hai cảnh/nhịp: người xem chưa hiểu vì sao chúng đứng cạnh nhau. Cấu trúc toàn phim và vai trò phân đoạn xem ST-005.
 
 **Nguyên lý thực hành:** Một chuỗi có thể nối bằng nguyên nhân, thời gian, câu hỏi–lời giải, không gian hoặc liên tưởng. Chọn quan hệ chính và làm người xem đọc được; không bắt mọi phim thành chuỗi xung đột.
 
@@ -2178,7 +2189,7 @@ Nguồn bản xuất: chuyen-de/04-dao-dien-dan-canh.md
 
 # DR — Đạo diễn, diễn xuất và dàn cảnh
 
-Phiên bản 1.2.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
+Phiên bản 1.2.1. Tổ chức người, vật, không gian và hành vi có mục tiêu.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -2199,20 +2210,19 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="dr-001"></a>
 ## DR-001 — Chỉ đạo bằng mục tiêu và hành vi
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Nhân vật đang cố làm gì với ai hoặc vật nào?
 
 **Dùng khi:** Khi chỉ đạo người thật hoặc nhân vật AI.
 
-**Nguyên lý thực hành:** Chuyển nhãn cảm xúc thành hành vi có đối tượng và nguyên nhân. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh. Hành vi rõ hơn khi có đối tượng và tác nhân; không suy nội tâm chắc chắn chỉ vì một cử chỉ.
+**Nguyên lý thực hành:** Chỉ đạo bằng mục tiêu, động từ và đối tượng tác động; phản ứng cần có tác nhân trong cảnh. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh, nên khi phân tích nguồn không suy chắc nội tâm từ một cử chỉ.
 
 **Cách làm:**
 
-1. Ghi mục tiêu hiện tại của nhân vật.
-2. Chọn động từ và đối tượng tác động.
-3. Thêm phản ứng vừa đủ khi mục tiêu thành/bại.
-4. Thêm mục tiêu tác động, một hành động và phản ứng sau tác nhân; tách chỉ đạo sáng tạo khỏi diễn giải khi phân tích phim nguồn.
+1. Ghi mục tiêu hiện tại và người/vật nhân vật muốn tác động.
+2. Chọn một hành động cụ thể, vừa mức và có thể quan sát.
+3. Bố trí phản ứng khi có tác nhân hoặc kết quả; đọc DR-007 khi cần chiến thuật và ý ngầm sâu hơn.
 
 **Đánh đổi:** Mô tả quá nhiều dấu hiệu có thể khiến diễn xuất cường điệu hoặc AI quá tải.
 
@@ -2362,11 +2372,11 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 <a id="dr-005"></a>
 ## DR-005 — Chi tiết đời sống và thiết kế sản xuất
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Chi tiết nào làm thế giới có lịch sử và chức năng?
 
-**Dùng khi:** Khi thiết kế bối cảnh, phục trang, vật liệu và sinh hoạt.
+**Dùng khi:** Thiết kế thế giới trước sản xuất: bối cảnh, phục trang, vật liệu, công năng và dấu sử dụng. Dùng DR-009 để chẩn đoán đầu ra đang dàn dựng hoặc vô hồn.
 
 **Nguyên lý thực hành:** Chọn chi tiết theo cách sống, thời tiết, công việc và nhân vật. Cảm giác chân thực đến từ quan hệ hoạt động, không chỉ thêm bụi hoặc khuyết điểm.
 
@@ -2387,7 +2397,7 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 
 **Phản ví dụ / giới hạn:** Phong cách cách điệu có thể dùng vật liệu phi hiện thực nếu thống nhất quy tắc của thế giới.
 
-**Liên quan:** [CO-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/CO-002.json), [AI-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-002.json), [QC-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-002.json)
+**Liên quan:** [CO-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/CO-002.json), [AI-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-002.json), [QC-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-002.json), [DR-009](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/DR-009.json)
 
 **Nguồn đối chiếu:** [B002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/002-prompt-cau-truc/README.md), [B003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md)
 
@@ -2550,11 +2560,11 @@ Thử tiếp: Xem chậm quanh điểm chuyển lực để tìm lỗi, sau đó
 <a id="dr-009"></a>
 ## DR-009 — Chi tiết đời sống có chức năng và mức hoàn hảo phù hợp
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Điều gì khiến cảnh giống một hoạt động đang diễn ra thay vì một ảnh quảng bá?
 
-**Dùng khi:** Thế giới AI quá sạch, cử chỉ máy móc, đồ vật chỉ làm nền hoặc ai cũng nhìn máy.
+**Dùng khi:** Chẩn đoán đầu ra đã có khi cử chỉ/đạo cụ thiếu công năng hoặc quá trình diễn. Nền thiết kế thế giới xem DR-005.
 
 **Nguyên lý thực hành:** Tạo cảm giác sống bằng mục đích sử dụng, dấu thời gian và phản ứng với môi trường. Chọn sự không đều có nguyên nhân; không đồng nhất tự nhiên với bẩn, lỗi hình hoặc rung máy.
 
@@ -2614,7 +2624,7 @@ Nguồn bản xuất: chuyen-de/05-bo-cuc-may-quay-quang-hoc.md
 
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.2.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.2.1. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -2869,11 +2879,11 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 <a id="ca-007"></a>
 ## CA-007 — Nét, vùng nét và chuyển sự chú ý
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?
 
-**Dùng khi:** Khi nền mờ hoặc chuyển nét ảnh hưởng hiểu cảnh.
+**Dùng khi:** Quyết định vật/người nào cần rõ và khi nào chuyển nét để kể chuyện. Dùng CA-012 khi cần chọn tổ hợp khẩu, tiêu cự, cự ly và điều kiện hiển thị.
 
 **Nguyên lý thực hành:** Focus là mặt phẳng lấy nét; depth of field là vùng độ sâu được xem đủ nét trong điều kiện hiển thị. Rack focus là đổi mặt phẳng nét, không phải đường máy.
 
@@ -2894,7 +2904,7 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 
 **Phản ví dụ / giới hạn:** Cảnh sâu nhiều lớp có thể cần đọc đồng thời thay vì làm nền mờ.
 
-**Liên quan:** [AU-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-002.json), [LI-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/LI-004.json), [AI-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-001.json)
+**Liên quan:** [AU-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-002.json), [LI-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/LI-004.json), [AI-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-001.json), [CA-012](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/CA-012.json)
 
 **Nguồn đối chiếu:** [B008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/008-muoi-cu-phap-veo/README.md), [B011](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/011-anh-sang-bo-nen-nhip-cham/README.md), [SRC-YALE-CAMERA](https://filmanalysis.yale.edu/cinematography/)
 
@@ -2903,20 +2913,19 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 <a id="ca-008"></a>
 ## CA-008 — Tiêu cự, khoảng cách và phối cảnh
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Cảm giác gần–xa đến từ vị trí máy hay góc nhìn ống kính?
 
 **Dùng khi:** Khi mô tả tạo hình, chọn ống hoặc phân tích hình bị méo.
 
-**Nguyên lý thực hành:** Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn. Ở cùng vị trí nhìn, đổi tiêu cự thay góc thu hình; đổi vị trí máy thay quan hệ phối cảnh. Định dạng ảnh hưởng góc nhìn theo tổ hợp dùng, không tự gán một “chất full frame” cố định.
+**Nguyên lý thực hành:** Vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc thu hình. Đổi ống rồi lùi máy để giữ cỡ chủ thể đã đổi cả vị trí nhìn, khác với đổi ống tại cùng vị trí. Không gán một “chất full frame” cố định ngoài tổ hợp và điều kiện cụ thể.
 
 **Cách làm:**
 
-1. Chọn cỡ cảnh và khoảng cách mong muốn trước.
-2. Ghi cách nền/tiền cảnh nên quan hệ với chủ thể.
-3. Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo.
-4. Khi đề xuất số mm, ghi định dạng và khoảng cách nếu đã biết; nếu chưa biết, mô tả quan hệ chủ thể/nền và để số là ứng viên thử.
+1. Chọn cỡ cảnh và quan hệ khoảng cách chủ thể–nền mong muốn.
+2. Ghi vị trí máy có đổi hay không khi so; phân biệt phối cảnh, độ méo của ống và phóng/crop hậu kỳ.
+3. Nếu đề xuất số mm, ghi định dạng và khoảng cách khi đã biết; nếu thiếu, mô tả quan hệ không gian và coi số là ứng viên thử.
 
 **Đánh đổi:** Ống rộng ở gần có thể nhấn chênh khoảng cách; đứng xa hơn có thể làm các lớp có vẻ sát nhau.
 
@@ -3160,7 +3169,7 @@ Nguồn bản xuất: chuyen-de/06-chuyen-dong-thoi-gian.md
 
 # MO — Chuyển động và thời gian
 
-Phiên bản 1.2.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
+Phiên bản 1.2.1. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3539,7 +3548,7 @@ Nguồn bản xuất: chuyen-de/07-anh-sang.md
 
 # LI — Ánh sáng
 
-Phiên bản 1.2.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
+Phiên bản 1.2.1. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3949,7 +3958,7 @@ Nguồn bản xuất: chuyen-de/08-mau-sac-thiet-ke-hinh.md
 
 # CO — Màu sắc và thiết kế hình ảnh
 
-Phiên bản 1.2.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
+Phiên bản 1.2.1. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -4167,20 +4176,19 @@ Thử tiếp: So bản giảm cạnh tranh nền và bản tăng màu ở mức 
 <a id="co-006"></a>
 ## CO-006 — Quản lý màu, sửa cân bằng và tạo phong cách
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Tệp và hệ hiển thị đang được diễn giải đúng chưa?
 
-**Dùng khi:** Khi ghép nhiều nguồn hoặc xuất hình khác bản dựng.
+**Dùng khi:** Chọn và kiểm quy trình màu tổng thể khi ghép nguồn hoặc xuất khác bản duyệt; miền dữ liệu xem CO-009, thao tác khớp shot xem CO-008.
 
-**Nguyên lý thực hành:** Tách giải mã/biến đổi không gian màu, cân bằng kỹ thuật và tạo look. Không gán Log, HDR hoặc một loại LUT chỉ bằng mắt khi không có metadata. Nhận diện encoding/biến đổi đã áp trước khi grade; bản xuất sẵn không tự mang dữ liệu theo cảnh hoặc phần chi tiết đã mất.
+**Nguyên lý thực hành:** Tách ba công việc: hiểu đúng dữ liệu đầu vào/đầu ra, cân khớp kỹ thuật và tạo phong cách. Ghi chuỗi biến đổi, tránh gán Log/HDR/LUT theo vẻ hình hoặc áp lặp; kiểm tệp xuất trong điều kiện xem dự kiến.
 
 **Cách làm:**
 
-1. Ghi thông tin màu có trong nguồn và phần chưa biết.
-2. Chọn quy trình vào–làm việc–ra phù hợp phần mềm thực tế.
-3. Cân khớp các góc, rồi tạo phong cách và kiểm tệp xuất trên thiết bị đích.
-4. Lưu chuỗi đầu vào→biến đổi→look→đầu ra; tách bước cân/khớp khỏi phong cách và kiểm bản upload đã xử lý khi có đầu vào thật.
+1. Ghi metadata/tài liệu nguồn và điều chưa biết; dùng CO-009 nếu chưa xác định miền dữ liệu.
+2. Chọn chuỗi đầu vào→không gian làm việc→look→đầu ra phù hợp phần mềm; ghi từng biến đổi có thật.
+3. Cân khớp qua CO-008 rồi tạo phong cách; mở lại bản xuất và đối chiếu bản duyệt.
 
 **Đánh đổi:** Biến đổi lặp hoặc LUT sai đầu vào có thể làm sai tương phản và màu.
 
@@ -4424,7 +4432,7 @@ Nguồn bản xuất: chuyen-de/09-dung-phim-va-nhip.md
 
 # ED — Dựng phim và điều khiển nhịp
 
-Phiên bản 1.2.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
+Phiên bản 1.2.1. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -4442,16 +4450,16 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [ED-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/09-dung-phim-va-nhip.md#ed-008) | Dựng bản thô, rà trải nghiệm và hoàn thiện | nang_cao |
 | [ED-009](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/09-dung-phim-va-nhip.md#ed-009) | Dẫn điểm nhìn qua điểm cắt và cho thời gian đọc thông tin mới | trung_cap |
 | [ED-010](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/09-dung-phim-va-nhip.md#ed-010) | Dựng hành động: chọn pha cắt và giữ bằng chứng cần thấy | trung_cap |
-| [ED-011](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/09-dung-phim-va-nhip.md#ed-011) | Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô | nang_cao |
+| [ED-011](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/09-dung-phim-va-nhip.md#ed-011) | Giữ, nén hoặc nới thời gian theo chức năng | nang_cao |
 
 <a id="ed-001"></a>
 ## ED-001 — Nhịp trong shot, giữa shot và toàn phim
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Nhịp đang đến từ yếu tố nào?
 
-**Dùng khi:** Khi video quá chậm, quá dồn hoặc đều đều.
+**Dùng khi:** Lập nhịp hoặc chẩn đoán nguồn gây cảm giác chậm/dồn/đều. Dùng ED-011 khi quyết định giữ, nén hoặc nới thời gian của một bản dựng cụ thể.
 
 **Nguyên lý thực hành:** Xét chuyển động, diễn xuất, lượng thông tin, âm thanh, thời lượng và quan hệ chuỗi. Không lấy thời lượng trung bình làm định nghĩa duy nhất của nhịp. Xem nhịp ở mốc hành động, shot, chuỗi, phân đoạn và toàn phim; phân biệt tần suất cắt với tần suất sự kiện có ý nghĩa.
 
@@ -4895,15 +4903,15 @@ Thử tiếp: Lập ba mốc trước chạm–chạm–sau nhả và so hai ngu
 [Bản JSON chuẩn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-010.json). Đọc phạm vi nguồn trong [sổ nguồn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/nguon/nguon-chinh-thuc.json).
 
 <a id="ed-011"></a>
-## ED-011 — Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô
+## ED-011 — Giữ, nén hoặc nới thời gian theo chức năng
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Nên bỏ thời gian nào, và thời gian nào đang tạo giá trị?
 
-**Dùng khi:** Phim dài mà ít tiến triển, phim quá gấp hoặc áp cùng độ dài cho mọi shot.
+**Dùng khi:** Đã có bản dựng và cần quyết định đoạn nào được giữ đủ, bỏ bớt hoặc nới để đọc thông tin. Khung chẩn đoán các nguồn nhịp xem ED-001.
 
-**Nguyên lý thực hành:** Nhịp được thiết kế ở hành động, shot, chuỗi, phân đoạn và toàn phim. Tách thời gian để nhận diện, theo dõi biến đổi, mong chờ và tiếp nhận kết quả khỏi thời gian không còn chức năng; độ dài tự nó không xác định chán hoặc yên.
+**Nguyên lý thực hành:** Đánh giá chức năng của từng khoảng thời gian: nhận diện, theo dõi biến đổi, mong chờ, thưởng thức hoặc tiếp nhận kết quả. Nén phần không còn giá trị theo brief, giữ hoặc nới phần đang thiếu thời gian đọc; kiểm cả quan hệ với chuỗi/toàn phim.
 
 **Cách làm:**
 
@@ -4961,7 +4969,7 @@ Nguồn bản xuất: chuyen-de/10-am-thanh-nhac-loi.md
 
 # SO — Âm thanh, nhạc và lời kể
 
-Phiên bản 1.2.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
+Phiên bản 1.2.1. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -5494,7 +5502,7 @@ Nguồn bản xuất: chuyen-de/11-san-xuat-bang-ai.md
 
 # AI — Sản xuất bằng AI
 
-Phiên bản 1.2.0. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
+Phiên bản 1.2.1. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -6176,7 +6184,7 @@ Nguồn bản xuất: chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md
 
 # QC — Kiểm tra và học từ kết quả
 
-Phiên bản 1.2.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
+Phiên bản 1.2.1. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -6671,7 +6679,7 @@ Nguồn bản xuất: chuyen-de/13-youtube-loi-hua-phan-hoi.md
 
 # YT — YouTube: lời hứa và phản hồi
 
-Phiên bản 1.2.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
+Phiên bản 1.2.1. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -6759,13 +6767,13 @@ Thử tiếp: So từng lời hứa với bằng chứng trong mở và thân; s
 <a id="yt-002"></a>
 ## YT-002 — Tỷ lệ nhấp và bối cảnh phân phối
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Tỷ lệ nhấp đang được so trong điều kiện nào?
 
 **Dùng khi:** Khi đánh giá thumbnail/tiêu đề.
 
-**Nguyên lý thực hành:** CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Khán giả và nguồn lưu lượng có thể thay đổi nên không quy mọi chênh lệch cho ảnh/tiêu đề. Thay thành phần nguồn hiển thị có thể đổi CTR mà không nói được chất lượng đã tăng/giảm. Đóng gói cần thu hút người phù hợp và trả đúng giá trị.
+**Nguyên lý thực hành:** CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Phải xét nguồn, thành phần khán giả và giai đoạn đo trước khi quy chênh lệch cho ảnh/tiêu đề. Thu hút người phù hợp và trả đúng giá trị sau nhấp là hai phần liên quan, không dùng CTR thay toàn bộ trải nghiệm.
 
 **Cách làm:**
 
@@ -6824,13 +6832,13 @@ Thử tiếp: Lấy báo cáo cùng nguồn/giai đoạn phù hợp, hoặc gi�
 <a id="yt-003"></a>
 ## YT-003 — Giữ chân theo đoạn và giả thuyết sửa
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Ở mốc nào hành vi xem thay đổi, và có những giải thích nào?
 
 **Dùng khi:** Khi có dữ liệu giữ chân của video thực.
 
-**Nguyên lý thực hành:** Đỉnh/hõm là dấu để xem lại, không phải kết luận nguyên nhân. Liên kết biểu đồ với diễn tiến và hoàn cảnh khán giả. Đỉnh/hõm là vị trí hành vi đáng xem lại, không tự xác nhận thích/ghét, khó/êm hoặc nhân quả của một yếu tố hình. Xét cả loại người xem và nguồn nếu có.
+**Nguyên lý thực hành:** Đỉnh/hõm giữ chân chỉ ra vị trí cần xem lại, chưa xác nhận thích/ghét hoặc nguyên nhân của một yếu tố hình–âm. Đối chiếu diễn tiến, hoàn cảnh và nhóm khán giả nếu có, rồi dùng các giả thuyết cạnh tranh để chọn phép kiểm.
 
 **Cách làm:**
 
@@ -7334,7 +7342,7 @@ Nguồn bản xuất: vi-du/bon-ca-ra-quyet-dinh.md
 
 # Bốn ca áp dụng từ mục tiêu đến quyết định
 
-FILM-KB 1.2.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Bản dữ liệu ca](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/bon-ca-ra-quyet-dinh.json).
+FILM-KB 1.2.1. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Bản dữ liệu ca](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/bon-ca-ra-quyet-dinh.json).
 
 Đây là các tình huống tự biên soạn để hướng dẫn sử dụng kho. Thời gian và kết quả dự kiến là thiết kế, chưa có video được tạo, thử công cụ hoặc phản hồi khán giả cho các ca này. Những phương án chưa được chọn vẫn có thể phù hợp một brief khác.
 

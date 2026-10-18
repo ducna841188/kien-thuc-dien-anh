@@ -1,7 +1,7 @@
 {
   "library_id": "FILM-KB",
-  "version": "1.2.0",
-  "schema_version": "1.1.0",
+  "version": "1.2.1",
+  "schema_version": "1.1.1",
   "released_on": "2026-10-18",
   "status": "current_release",
   "language": "vi",
@@ -31,7 +31,7 @@
       "id": "FARM",
       "repository": "ducna841188/yt-ly-tu-that",
       "path": "Farm/Thu_vien_kien_thuc",
-      "core_version": "1.2.0",
+      "core_version": "1.2.1",
       "update_policy": "latest_main"
     }
   ],

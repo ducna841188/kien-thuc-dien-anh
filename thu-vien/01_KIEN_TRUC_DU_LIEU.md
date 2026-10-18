@@ -31,6 +31,8 @@ Mã ổn định, phiên bản thay khi nội dung đổi. Không tái dùng mã
 
 Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm thời gian, quan hệ cha, tham chiếu, độ phủ và quyền kết luận. Schema đúng chưa có nghĩa phân tích đúng video.
 
+Tài sản nguồn và lời nguồn được thuật lại là bằng chứng có revision; phân tích do thư viện biên soạn là tài liệu hiện hành có thể sửa. Khi phát hiện lỗi phân tích, sửa đúng tệp và dẫn bằng chứng, ghi nhật ký; không giữ một kết luận sai chỉ vì muốn “giữ nguyên phân tích”.
+
 ## Tìm kiếm và giới hạn
 
 muc-luc.json tra mã/chuyên đề; tuyen-tra-cuu.json tra theo vấn đề. cong-cu/tra_cuu.py là tìm từ khóa cục bộ, chưa phải tìm ngữ nghĩa. JSONL có một mục kiến thức mỗi dòng; phần phân tích video giữ ở corpus riêng. Không tự dùng toàn bộ dữ liệu nguồn làm ví dụ trả lời đúng.
@@ -47,6 +49,8 @@ Schema kiến thức có application_depth tùy chọn. Phiên bản schema mô 
 | evidence_links | Phát biểu cụ thể được nguồn hỗ trợ và giới hạn; mảng rỗng không có nghĩa mục đã được thực nghiệm |
 
 Các ca ở vi-du/bon-ca-ra-quyet-dinh.json là synthetic_worked_examples, chưa thực hiện và không dùng thay analysis. Bản đồ năng lực, vòng sản xuất và bảng phép kiểm là hướng dẫn điều phối, không thêm nhãn quan sát giả vào video nguồn.
+
+Schema phân tích cho phép tài sản video, ảnh, báo cáo, âm thanh riêng và ví dụ giả lập. Mốc của bằng chứng trực tiếp phải khớp độ phủ đã khai; basis phải dẫn đúng loại bằng chứng. Bản phân tích lịch sử giữ core_version ở thời điểm lập, còn mẫu và ví dụ thực hành đang dùng phải dẫn mã/phiên bản hiện hành.
 
 manifest.version là bản thư viện hiện hành; version của từng mục chỉ đổi khi mục đó đổi. Mỗi mục có một tệp chuẩn. Chuyên đề Markdown, CORE.md và CORE.jsonl là các dạng xuất phục vụ đọc khác nhau, đều phản ánh cùng dữ liệu hiện hành; không là các phiên bản lịch sử.
 

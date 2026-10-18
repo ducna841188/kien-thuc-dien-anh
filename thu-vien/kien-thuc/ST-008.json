@@ -1,7 +1,7 @@
 {
   "id": "ST-008",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "ST",
   "title": "Mở, kết và đời sống tiếp diễn",
   "level": "nang_cao",
@@ -11,7 +11,7 @@
   "use_when": [
     "Khi thiết kế tập độc lập hoặc loạt có nhân vật quen."
   ],
-  "principle": "Mở xác lập lời hứa và việc đáng theo; kết xác nhận phần đã đi qua và tạo dư âm. Một tập nên hiểu được ngay cả khi người xem chưa xem tập trước. Mở có thể vào trực tiếp một việc, một nơi chốn hoặc câu hỏi; cần cho người phù hợp nhận ra giá trị sớm. Kết cần xác nhận giá trị hoặc lựa chọn kết mở có lý do.",
+  "principle": "Mở giúp người phù hợp nhận ra lời hứa và việc đáng theo sớm, qua hành động, nơi chốn hoặc câu hỏi. Kết xác nhận giá trị đã giao hoặc mở tiếp có lý do, có thể để lại dư âm. Một tập cần đủ điểm vào cho người mới, không mặc định họ đã xem tập trước.",
   "actions": [
     "Cho sớm một tín hiệu phù hợp lời hứa.",
     "Đóng vòng công việc/câu hỏi chính hoặc đánh dấu lý do giữ mở.",

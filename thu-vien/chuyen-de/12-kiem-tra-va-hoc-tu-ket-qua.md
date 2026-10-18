@@ -1,6 +1,6 @@
 # QC — Kiểm tra và học từ kết quả
 
-Phiên bản 1.2.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
+Phiên bản 1.2.1. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

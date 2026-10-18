@@ -1,6 +1,6 @@
 # Phân tích video
 
-Tác vụ: analyze_video. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: analyze_video. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -18,7 +18,7 @@ Tác vụ: analyze_video. Core release 1.2.0; dẫn version của từng mục t
 
 ## Đầu ra
 
-analysis.schema.json; mau/phan-tich-video.json
+[Schema đầu ra](../schema/analysis.schema.json) · [Mẫu hiện hành](../mau/phan-tich-video.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 

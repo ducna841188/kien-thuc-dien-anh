@@ -1,16 +1,16 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "canonical_record_count": 130,
   "files": [
     {
       "path": "CORE.md",
-      "bytes": 615354,
-      "sha256": "bb3732ac4386aab0f54b879aa2ecd899353dc1e9940da75bcaa9fe7001d7ac01"
+      "bytes": 619957,
+      "sha256": "b927e9b154b4adaa1280bfd92ea1f8ef9551092e41af8826a09e76245090ad40"
     },
     {
       "path": "CORE.jsonl",
-      "bytes": 391978,
-      "sha256": "5f302fad850659dcb95c9ef834e1b5056a502603828b7b3bb712b12eedac6d94"
+      "bytes": 392871,
+      "sha256": "fd4d897bf1637a690ff43a6cc3f8506347c6446bff702a4d8e1ff13fd14f8379"
     },
     {
       "path": "SOURCES.json",
@@ -24,8 +24,8 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2222,
-      "sha256": "8e87e1bed8c0697c7c4fa61f23d3ad73242b93489b5ec3ac7dc6463dab8216f3"
+      "bytes": 2582,
+      "sha256": "38fa1cebc307de84ee9a32b4174b3cd4bc5f2280830b934c8773192897d75e02"
     }
   ],
   "storage_mode": "in_place_latest",

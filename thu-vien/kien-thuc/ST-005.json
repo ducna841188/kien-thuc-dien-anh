@@ -1,17 +1,17 @@
 {
   "id": "ST-005",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "module_id": "ST",
   "title": "Cấu trúc phân đoạn và chuỗi hành động",
   "level": "trung_cap",
   "status": "active",
   "knowledge_kind": "practical_guidance",
-  "decision_question": "Các phần phim nối nhau bằng quan hệ nào?",
+  "decision_question": "Toàn phim chia thành những phân đoạn/chuỗi nào, mỗi phần đóng góp gì?",
   "use_when": [
-    "Khi biến nhiều shot đẹp thành một video có mạch."
+    "Lập cấu trúc toàn phim và vai trò các phân đoạn/chuỗi. Dùng ST-009 khi sửa quan hệ giữa hai cảnh hoặc hai nhịp kề nhau."
   ],
-  "principle": "Tổ chức theo nguyên nhân, tiến trình, không gian, thời gian, so sánh hoặc ý tưởng. Ghi quan hệ thật thay vì mặc định mọi shot là trước–sau của cùng một việc.",
+  "principle": "Phân đoạn và chuỗi tổ chức các thay đổi thành một đường phát triển có thể theo dõi. Xác định chức năng từng phần và điều được mang qua ranh giới; không mặc định mọi hình là trước–sau của cùng một sự việc.",
   "actions": [
     "Viết vai trò mỗi phân đoạn trong một dòng.",
     "Ghi vật/người/trạng thái nào được mang qua ranh giới.",
@@ -32,7 +32,8 @@
   "related_ids": [
     "EV-003",
     "ED-003",
-    "ST-006"
+    "ST-006",
+    "ST-009"
   ],
   "source_ids": [
     "B012",

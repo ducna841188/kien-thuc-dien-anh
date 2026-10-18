@@ -30,6 +30,8 @@ xuat_goi.py luôn ghi đè CORE.md, CORE.jsonl, SOURCES.json, CORE_NGAN.md, STAR
 
 Xuất trước, kiểm sau. Bộ kiểm đối chiếu JSONL/sổ nguồn với JSON chuẩn, checksum các tệp gói, application_depth, nguồn phát biểu, mã, liên kết, thời gian và độ phủ. Bộ kiểm cũng phát hiện tệp gói/báo cáo theo version và nhật ký riêng ngoài vị trí chung.
 
+Bộ kiểm đối chiếu thêm mục lục với JSON chuẩn; phiên bản và phương án được chọn trong ví dụ quyết định; loại tài sản, basis, khoảng bằng chứng và độ phủ; mốc sự kiện, dữ liệu người xem và biên [start, end). Các ca kiểm là dữ liệu giả lập để thử bộ kiểm, không là lượt xem/nghe video hoặc khảo sát khán giả. Ví dụ lịch sử Farm vẫn giữ core_version lúc được lập và dấu vết nguồn.
+
 Với --farm-root, đối chiếu core_dependency với manifest hiện hành: version đã kiểm phải khớp, manifest_url trỏ main và commit = null. Kiểm cấu trúc không tự đổi lựa chọn sáng tạo của ngách. Nếu thiếu hoặc lệch dữ liệu, báo lỗi cần cập nhật; không âm thầm dùng bản cũ.
 
 Ghi đè kết quả tại một đường dẫn:

@@ -80,6 +80,8 @@ Gửi [hướng dẫn AI](../00_HUONG_DAN_AI.md), [chuẩn phân tích](../02_CH
 
 Các đường dẫn cố định luôn chỉ bản hiện hành; version xem trong manifest. Lịch sử dùng Git và [nhật ký chung](../CHANGELOG.md); không cần đọc các gói cũ để sử dụng.
 
+CORE.md chứa kiến thức và hướng dẫn; CORE.jsonl chứa các mục kiến thức chuẩn. Để trả JSON theo một tác vụ, đọc thêm schema và mẫu đầu ra được liên kết trong [quy trình tác vụ](../quy-trinh/). Ghi rõ những tệp thực sự tiếp cận được trước khi xác nhận đầu ra khớp hợp đồng.
+
 Đây là dữ liệu tham chiếu. Cần công cụ đọc tệp/đường dẫn thực sự; gửi URL không tự xác nhận mọi tệp đã được đọc. Dùng cách đọc chọn nếu một lượt không đủ.
 
 ## Lời giao việc mẫu

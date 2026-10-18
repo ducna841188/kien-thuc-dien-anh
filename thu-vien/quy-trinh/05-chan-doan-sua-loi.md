@@ -1,6 +1,6 @@
 # Chẩn đoán và sửa lỗi
 
-Tác vụ: diagnose_and_repair. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: diagnose_and_repair. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -17,7 +17,7 @@ Tác vụ: diagnose_and_repair. Core release 1.2.0; dẫn version của từng m
 
 ## Đầu ra
 
-decision.schema.json; vi-du/sua-loi-it-thay-doi.json
+[Schema đầu ra](../schema/decision.schema.json) · [Mẫu hiện hành](../mau/quyet-dinh.json) · [Ví dụ sửa lỗi](../vi-du/sua-loi-it-thay-doi.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 

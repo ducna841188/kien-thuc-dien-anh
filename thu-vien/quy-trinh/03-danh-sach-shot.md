@@ -1,6 +1,6 @@
 # Thiết kế danh sách shot
 
-Tác vụ: design_shots. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: design_shots. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -17,7 +17,7 @@ Tác vụ: design_shots. Core release 1.2.0; dẫn version của từng mục th
 
 ## Đầu ra
 
-shot-plan.schema.json; mau/danh-sach-shot.json
+[Schema đầu ra](../schema/shot-plan.schema.json) · [Mẫu hiện hành](../mau/danh-sach-shot.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 

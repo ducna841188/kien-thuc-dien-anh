@@ -1,6 +1,6 @@
 # CO — Màu sắc và thiết kế hình ảnh
 
-Phiên bản 1.2.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
+Phiên bản 1.2.1. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -218,20 +218,19 @@ Thử tiếp: So bản giảm cạnh tranh nền và bản tăng màu ở mức 
 <a id="co-006"></a>
 ## CO-006 — Quản lý màu, sửa cân bằng và tạo phong cách
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Tệp và hệ hiển thị đang được diễn giải đúng chưa?
 
-**Dùng khi:** Khi ghép nhiều nguồn hoặc xuất hình khác bản dựng.
+**Dùng khi:** Chọn và kiểm quy trình màu tổng thể khi ghép nguồn hoặc xuất khác bản duyệt; miền dữ liệu xem CO-009, thao tác khớp shot xem CO-008.
 
-**Nguyên lý thực hành:** Tách giải mã/biến đổi không gian màu, cân bằng kỹ thuật và tạo look. Không gán Log, HDR hoặc một loại LUT chỉ bằng mắt khi không có metadata. Nhận diện encoding/biến đổi đã áp trước khi grade; bản xuất sẵn không tự mang dữ liệu theo cảnh hoặc phần chi tiết đã mất.
+**Nguyên lý thực hành:** Tách ba công việc: hiểu đúng dữ liệu đầu vào/đầu ra, cân khớp kỹ thuật và tạo phong cách. Ghi chuỗi biến đổi, tránh gán Log/HDR/LUT theo vẻ hình hoặc áp lặp; kiểm tệp xuất trong điều kiện xem dự kiến.
 
 **Cách làm:**
 
-1. Ghi thông tin màu có trong nguồn và phần chưa biết.
-2. Chọn quy trình vào–làm việc–ra phù hợp phần mềm thực tế.
-3. Cân khớp các góc, rồi tạo phong cách và kiểm tệp xuất trên thiết bị đích.
-4. Lưu chuỗi đầu vào→biến đổi→look→đầu ra; tách bước cân/khớp khỏi phong cách và kiểm bản upload đã xử lý khi có đầu vào thật.
+1. Ghi metadata/tài liệu nguồn và điều chưa biết; dùng CO-009 nếu chưa xác định miền dữ liệu.
+2. Chọn chuỗi đầu vào→không gian làm việc→look→đầu ra phù hợp phần mềm; ghi từng biến đổi có thật.
+3. Cân khớp qua CO-008 rồi tạo phong cách; mở lại bản xuất và đối chiếu bản duyệt.
 
 **Đánh đổi:** Biến đổi lặp hoặc LUT sai đầu vào có thể làm sai tương phản và màu.
 

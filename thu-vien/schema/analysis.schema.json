@@ -1,10 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:film-kb:analysis:1.0.0",
+  "$id": "urn:film-kb:analysis:1.0.1",
   "type": "object",
   "properties": {
     "schema_version": {
-      "const": "1.0.0"
+      "enum": [
+        "1.0.0",
+        "1.0.1"
+      ]
     },
     "id": {
       "type": "string",
@@ -935,7 +938,8 @@
             "video",
             "image",
             "report",
-            "synthetic"
+            "synthetic",
+            "audio"
           ]
         },
         "title": {
@@ -1106,5 +1110,6 @@
       ],
       "additionalProperties": false
     }
-  }
+  },
+  "$comment": "Bổ sung asset audio, tương thích bản ghi 1.0.0; kiểm phạm vi bằng chứng bổ sung trong validate.py."
 }

@@ -1,6 +1,6 @@
 # YT — YouTube: lời hứa và phản hồi
 
-Phiên bản 1.2.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
+Phiên bản 1.2.1. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -88,13 +88,13 @@ Thử tiếp: So từng lời hứa với bằng chứng trong mở và thân; s
 <a id="yt-002"></a>
 ## YT-002 — Tỷ lệ nhấp và bối cảnh phân phối
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Tỷ lệ nhấp đang được so trong điều kiện nào?
 
 **Dùng khi:** Khi đánh giá thumbnail/tiêu đề.
 
-**Nguyên lý thực hành:** CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Khán giả và nguồn lưu lượng có thể thay đổi nên không quy mọi chênh lệch cho ảnh/tiêu đề. Thay thành phần nguồn hiển thị có thể đổi CTR mà không nói được chất lượng đã tăng/giảm. Đóng gói cần thu hút người phù hợp và trả đúng giá trị.
+**Nguyên lý thực hành:** CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Phải xét nguồn, thành phần khán giả và giai đoạn đo trước khi quy chênh lệch cho ảnh/tiêu đề. Thu hút người phù hợp và trả đúng giá trị sau nhấp là hai phần liên quan, không dùng CTR thay toàn bộ trải nghiệm.
 
 **Cách làm:**
 
@@ -153,13 +153,13 @@ Thử tiếp: Lấy báo cáo cùng nguồn/giai đoạn phù hợp, hoặc gi�
 <a id="yt-003"></a>
 ## YT-003 — Giữ chân theo đoạn và giả thuyết sửa
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Ở mốc nào hành vi xem thay đổi, và có những giải thích nào?
 
 **Dùng khi:** Khi có dữ liệu giữ chân của video thực.
 
-**Nguyên lý thực hành:** Đỉnh/hõm là dấu để xem lại, không phải kết luận nguyên nhân. Liên kết biểu đồ với diễn tiến và hoàn cảnh khán giả. Đỉnh/hõm là vị trí hành vi đáng xem lại, không tự xác nhận thích/ghét, khó/êm hoặc nhân quả của một yếu tố hình. Xét cả loại người xem và nguồn nếu có.
+**Nguyên lý thực hành:** Đỉnh/hõm giữ chân chỉ ra vị trí cần xem lại, chưa xác nhận thích/ghét hoặc nguyên nhân của một yếu tố hình–âm. Đối chiếu diễn tiến, hoàn cảnh và nhóm khán giả nếu có, rồi dùng các giả thuyết cạnh tranh để chọn phép kiểm.
 
 **Cách làm:**
 

@@ -1,6 +1,6 @@
 # EV — Bằng chứng và chuẩn phân tích
 
-Phiên bản 1.2.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
+Phiên bản 1.2.1. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -182,7 +182,7 @@ Thử tiếp: Xem toàn diễn tiến và rà khoảng chuyển quyền giữ v�
 <a id="ev-005"></a>
 ## EV-005 — Mốc thời gian, khung hình và ranh giới
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Đơn vị thời gian có chính xác và nối được không?
 
@@ -195,6 +195,7 @@ Thử tiếp: Xem toàn diễn tiến và rà khoảng chuyển quyền giữ v�
 1. Đánh dấu điểm vào/ra trên tệp thực; ghi độ chính xác đo.
 2. Giữ thời gian cục bộ và offset về bản gốc cho từng phần.
 3. Kiểm tra chồng/hở; sự kiện dưới một giây có thể có bản ghi riêng.
+4. Chuẩn hóa mọi mốc về cùng trục gốc; duration_seconds là độ dài trục gốc nếu biết, không dùng độ dài đoạn cắt thay cho nó. Chưa biết độ dài gốc thì để null và ghi offset/giới hạn.
 
 **Đánh đổi:** Khung lấy mẫu định kỳ dễ bỏ sót cú cắt nhanh; chỉ mục từng giây không thay thế phát hiện ranh giới.
 

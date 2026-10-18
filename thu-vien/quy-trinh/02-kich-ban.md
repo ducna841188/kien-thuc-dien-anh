@@ -1,6 +1,6 @@
 # Xây và sửa kịch bản
 
-Tác vụ: write_script. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_script. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -17,7 +17,7 @@ Tác vụ: write_script. Core release 1.2.0; dẫn version của từng mục th
 
 ## Đầu ra
 
-script.schema.json; mau/kich-ban.json
+[Schema đầu ra](../schema/script.schema.json) · [Mẫu hiện hành](../mau/kich-ban.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 

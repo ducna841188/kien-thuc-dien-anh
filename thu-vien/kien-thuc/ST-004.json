@@ -1,7 +1,7 @@
 {
   "id": "ST-004",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "module_id": "ST",
   "title": "Chuẩn bị, phát triển và trả kết quả",
   "level": "trung_cap",
@@ -9,7 +9,7 @@
   "knowledge_kind": "practical_guidance",
   "decision_question": "Kết quả có được chuẩn bị đủ và nhìn thấy đủ không?",
   "use_when": [
-    "Khi xây một việc, mối quan hệ hoặc bí mật kéo dài nhiều đoạn."
+    "Bố trí chi tiết chuẩn bị, sự trở lại và bằng chứng trả kết quả trong kịch bản. Mục tiêu mong chờ tổng thể xem AU-003; quyết định giấu thông tin xem AU-008."
   ],
   "principle": "Gieo thông tin để kết quả có nghĩa; phát triển mong chờ; cho dấu hoàn tất phù hợp. Không bắt buộc ba phần dài bằng nhau.",
   "actions": [
@@ -32,7 +32,8 @@
   "related_ids": [
     "AU-003",
     "ST-008",
-    "ED-005"
+    "ED-005",
+    "AU-008"
   ],
   "source_ids": [
     "B017",

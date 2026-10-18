@@ -1,6 +1,6 @@
 # ED — Dựng phim và điều khiển nhịp
 
-Phiên bản 1.2.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
+Phiên bản 1.2.1. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -18,16 +18,16 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [ED-008](#ed-008) | Dựng bản thô, rà trải nghiệm và hoàn thiện | nang_cao |
 | [ED-009](#ed-009) | Dẫn điểm nhìn qua điểm cắt và cho thời gian đọc thông tin mới | trung_cap |
 | [ED-010](#ed-010) | Dựng hành động: chọn pha cắt và giữ bằng chứng cần thấy | trung_cap |
-| [ED-011](#ed-011) | Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô | nang_cao |
+| [ED-011](#ed-011) | Giữ, nén hoặc nới thời gian theo chức năng | nang_cao |
 
 <a id="ed-001"></a>
 ## ED-001 — Nhịp trong shot, giữa shot và toàn phim
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Nhịp đang đến từ yếu tố nào?
 
-**Dùng khi:** Khi video quá chậm, quá dồn hoặc đều đều.
+**Dùng khi:** Lập nhịp hoặc chẩn đoán nguồn gây cảm giác chậm/dồn/đều. Dùng ED-011 khi quyết định giữ, nén hoặc nới thời gian của một bản dựng cụ thể.
 
 **Nguyên lý thực hành:** Xét chuyển động, diễn xuất, lượng thông tin, âm thanh, thời lượng và quan hệ chuỗi. Không lấy thời lượng trung bình làm định nghĩa duy nhất của nhịp. Xem nhịp ở mốc hành động, shot, chuỗi, phân đoạn và toàn phim; phân biệt tần suất cắt với tần suất sự kiện có ý nghĩa.
 
@@ -471,15 +471,15 @@ Thử tiếp: Lập ba mốc trước chạm–chạm–sau nhả và so hai ngu
 [Bản JSON chuẩn](../kien-thuc/ED-010.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
 <a id="ed-011"></a>
-## ED-011 — Nén phần dư và giữ nhịp tiếp nhận ở nhiều quy mô
+## ED-011 — Giữ, nén hoặc nới thời gian theo chức năng
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Nên bỏ thời gian nào, và thời gian nào đang tạo giá trị?
 
-**Dùng khi:** Phim dài mà ít tiến triển, phim quá gấp hoặc áp cùng độ dài cho mọi shot.
+**Dùng khi:** Đã có bản dựng và cần quyết định đoạn nào được giữ đủ, bỏ bớt hoặc nới để đọc thông tin. Khung chẩn đoán các nguồn nhịp xem ED-001.
 
-**Nguyên lý thực hành:** Nhịp được thiết kế ở hành động, shot, chuỗi, phân đoạn và toàn phim. Tách thời gian để nhận diện, theo dõi biến đổi, mong chờ và tiếp nhận kết quả khỏi thời gian không còn chức năng; độ dài tự nó không xác định chán hoặc yên.
+**Nguyên lý thực hành:** Đánh giá chức năng của từng khoảng thời gian: nhận diện, theo dõi biến đổi, mong chờ, thưởng thức hoặc tiếp nhận kết quả. Nén phần không còn giá trị theo brief, giữ hoặc nới phần đang thiếu thời gian đọc; kiểm cả quan hệ với chuỗi/toàn phim.
 
 **Cách làm:**
 

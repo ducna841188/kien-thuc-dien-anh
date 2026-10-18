@@ -1,10 +1,10 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.1",
   "id": "SYNTHETIC-ANALYSIS-001",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "record_type": "synthetic_example",
   "status": "reviewed",
-  "core_version": "1.0.0",
+  "core_version": "1.2.1",
   "niche_id": null,
   "title": "Ví dụ giả lập: một người xếp ba chiếc bát lên khay",
   "duration_seconds": 12,
@@ -80,7 +80,7 @@
       "end_seconds": 3,
       "observed": {
         "summary": {
-          "value": "Một người, bàn và khay trống",
+          "value": "Xác lập một người, ba bát ở bàn và khay trống",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -105,7 +105,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "action": {
-          "value": "Người đặt tay gần chiếc bát đầu tiên.",
+          "value": "Người nhìn khay và đưa tay tới bát thứ nhất, chưa nhấc bát.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -114,25 +114,31 @@
           "uncertainty_reason": null
         },
         "state_start": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Ba bát ở bàn; khay trống; một người trong khung.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "contact_and_change": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Tay tới và giữ bát thứ nhất; chưa chuyển bát lên khay.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "state_end": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Khay vẫn trống; tay sẵn sàng nhấc bát thứ nhất.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "setting": {
           "value": null,
@@ -216,7 +222,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "time_treatment": {
-          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "value": "Thời gian thực trong shot; chưa lược công đoạn.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -225,18 +231,22 @@
           "uncertainty_reason": null
         },
         "cut_in": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Bắt đầu chuỗi, xác lập quan hệ người–bàn–khay.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "cut_out": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Nối sang cận cùng bát và tay đang chuẩn bị nhấc.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "audio_ambience": {
           "value": null,
@@ -246,7 +256,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "audio_action": {
-          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "value": "Chỉ đề xuất tiếng cử động tay/áo phù hợp; không có tiếng bát đặt lên khay.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -274,7 +284,7 @@
       "events": [],
       "interpretations": [
         {
-          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "statement": "Xác lập việc và số vật trước tác động.",
           "function": "Theo dõi hành động",
           "desired_response": "Hiểu việc và nhận ra kết quả",
           "status": "synthetic_design",
@@ -299,7 +309,7 @@
       "end_seconds": 6,
       "observed": {
         "summary": {
-          "value": "Tay nhấc và đặt bát đầu tiên",
+          "value": "Nắm, nhấc và đặt bát thứ nhất lên khay",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -324,7 +334,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "action": {
-          "value": "Tay nắm, nhấc, đưa tới khay, đặt và buông.",
+          "value": "Tay nhấc bát thứ nhất, đưa tới khay; đáy chạm rồi tay nhả.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -333,25 +343,31 @@
           "uncertainty_reason": null
         },
         "state_start": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Khay trống; tay đang giữ bát thứ nhất ở bàn.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "contact_and_change": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Đáy bát chạm khay trước khi tay nhả; một bát chuyển từ bàn lên khay.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "state_end": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Một bát ổn trên khay; hai bát còn ở bàn.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "setting": {
           "value": null,
@@ -435,7 +451,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "time_treatment": {
-          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "value": "Thời gian thực trong shot; lược việc ở điểm cắt ra.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -444,18 +460,22 @@
           "uncertainty_reason": null
         },
         "cut_in": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Cận nối hành động từ shot 1, cùng người/vật/trạng thái.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "cut_out": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Cut lược lượt đặt bát thứ hai; shot sau mở với hai bát đã trên khay và bát cuối còn trên tay.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "audio_ambience": {
           "value": null,
@@ -465,7 +485,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "audio_action": {
-          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "value": "Một tiếng chạm dự kiến ở lúc đáy bát thứ nhất gặp khay; chưa đo đồng bộ.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -493,7 +513,7 @@
       "events": [],
       "interpretations": [
         {
-          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "statement": "Cho thấy điểm chuyển lực và kết quả lượt đầu.",
           "function": "Theo dõi hành động",
           "desired_response": "Hiểu việc và nhận ra kết quả",
           "status": "synthetic_design",
@@ -518,7 +538,7 @@
       "end_seconds": 9,
       "observed": {
         "summary": {
-          "value": "Hai bát tiếp được xếp theo cùng quy luật",
+          "value": "Đặt bát cuối sau khi đã lược lượt đặt bát thứ hai",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -543,7 +563,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "action": {
-          "value": "Chuỗi thao tác được lược rõ, không tự nhân đôi bát.",
+          "value": "Bát thứ ba được hạ vào chỗ còn lại; tay nhả sau tiếp xúc và ổn định.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -552,25 +572,31 @@
           "uncertainty_reason": null
         },
         "state_start": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Hai bát đã trên khay; bát thứ ba đang được tay giữ phía trên vị trí đặt.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "contact_and_change": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Đáy bát thứ ba chạm khay; tay giảm lực rồi nhả, không tự nhân đôi vật.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "state_end": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Ba bát đứng ổn trên khay; tay chuẩn bị rút khỏi vùng bát.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "setting": {
           "value": null,
@@ -654,7 +680,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "time_treatment": {
-          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "value": "Thời gian thực trong shot sau một khoảng được lược ở cut vào; không có jump cut nội bộ.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -663,18 +689,22 @@
           "uncertainty_reason": null
         },
         "cut_in": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Lược thời gian tại cut: số bát trên khay tăng từ một sang hai, lượt đặt thứ hai không được trình bày.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "cut_out": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Nối từ ba bát ổn sang khung xác nhận kết quả.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "audio_ambience": {
           "value": null,
@@ -684,7 +714,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "audio_action": {
-          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "value": "Một tiếng chạm dự kiến thuộc bát thứ ba; không chèn tiếng đặt bát thứ hai ở phần đã lược.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -712,7 +742,7 @@
       "events": [],
       "interpretations": [
         {
-          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "statement": "Nén lượt lặp tại cut, giữ lượt cuối để đọc kết quả.",
           "function": "Theo dõi hành động",
           "desired_response": "Hiểu việc và nhận ra kết quả",
           "status": "synthetic_design",
@@ -737,7 +767,7 @@
       "end_seconds": 12,
       "observed": {
         "summary": {
-          "value": "Ba bát đứng yên trên khay",
+          "value": "Ba bát đứng ổn; giữ khung xác nhận thành quả",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -762,7 +792,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "action": {
-          "value": "Người rút tay, kết quả ở lại trong khung.",
+          "value": "Tay rút khỏi vùng bát, ba bát tiếp tục đứng yên trên khay.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -771,25 +801,31 @@
           "uncertainty_reason": null
         },
         "state_start": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Ba bát đã ổn trên khay; tay ở gần và đang rút.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "contact_and_change": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Không đặt thêm bát; không có tiếp xúc mới tạo tiếng va.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "state_end": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Ba bát ở nguyên trên khay; việc xếp hoàn tất.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "setting": {
           "value": null,
@@ -873,7 +909,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "time_treatment": {
-          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "value": "Thời gian thực, giữ kết quả; không lặp động tác đặt.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -882,18 +918,22 @@
           "uncertainty_reason": null
         },
         "cut_in": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Khớp trạng thái ba bát và hướng rút tay của shot 3.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "cut_out": {
-          "value": null,
-          "status": "unknown",
-          "basis": "unknown",
-          "evidence_refs": [],
-          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+          "value": "Kết chuỗi sau thời gian tiếp nhận thiết kế; chưa kiểm phản ứng người xem.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
         },
         "audio_ambience": {
           "value": null,
@@ -903,7 +943,7 @@
           "uncertainty_reason": "Chưa có bằng chứng cho trường này."
         },
         "audio_action": {
-          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "value": "Không có tiếng đặt bát mới; có thể giữ đuôi âm hợp lý từ shot trước và nền đã chọn.",
           "status": "synthetic",
           "basis": "synthetic",
           "evidence_refs": [
@@ -931,7 +971,7 @@
       "events": [],
       "interpretations": [
         {
-          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "statement": "Xác nhận ba bát ổn, không lặp tiếng hoặc hành động mới.",
           "function": "Theo dõi hành động",
           "desired_response": "Hiểu việc và nhận ra kết quả",
           "status": "synthetic_design",
@@ -962,6 +1002,11 @@
       "date": "2026-10-18",
       "action": "Tạo ví dụ giả lập",
       "scope": "Kiểm schema và quan hệ thời gian; không xem video."
+    },
+    {
+      "date": "2026-10-18",
+      "action": "Sửa tại chỗ tính nhất quán trạng thái, tiếng tiếp xúc và vị trí lược thời gian.",
+      "scope": "Ví dụ thiết kế; chưa có video/audio được tạo hoặc quan sát."
     }
   ]
 }

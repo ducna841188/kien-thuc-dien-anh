@@ -1,7 +1,7 @@
 {
   "id": "DR-009",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "DR",
   "title": "Chi tiết đời sống có chức năng và mức hoàn hảo phù hợp",
   "level": "trung_cap",
@@ -9,7 +9,7 @@
   "knowledge_kind": "practical_guidance",
   "decision_question": "Điều gì khiến cảnh giống một hoạt động đang diễn ra thay vì một ảnh quảng bá?",
   "use_when": [
-    "Thế giới AI quá sạch, cử chỉ máy móc, đồ vật chỉ làm nền hoặc ai cũng nhìn máy."
+    "Chẩn đoán đầu ra đã có khi cử chỉ/đạo cụ thiếu công năng hoặc quá trình diễn. Nền thiết kế thế giới xem DR-005."
   ],
   "principle": "Tạo cảm giác sống bằng mục đích sử dụng, dấu thời gian và phản ứng với môi trường. Chọn sự không đều có nguyên nhân; không đồng nhất tự nhiên với bẩn, lỗi hình hoặc rung máy.",
   "actions": [

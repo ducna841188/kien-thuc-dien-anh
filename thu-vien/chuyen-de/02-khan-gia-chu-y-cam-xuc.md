@@ -1,6 +1,6 @@
 # AU — Khán giả, chú ý và cảm xúc
 
-Phiên bản 1.2.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
+Phiên bản 1.2.1. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -143,11 +143,11 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 <a id="au-003"></a>
 ## AU-003 — Thiết kế mong chờ và trả kết quả
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Khán giả đang đợi biết hoặc thấy điều gì?
 
-**Dùng khi:** Khi xây mở đầu, quá trình và đoạn kết của một việc.
+**Dùng khi:** Lập lời hứa và điều người xem chờ ở mức trải nghiệm tổng thể. Dùng ST-004 để bố trí dấu chuẩn bị/kết quả, AU-008 để quyết định một chi tiết nên giấu hay làm rõ.
 
 **Nguyên lý thực hành:** Đặt câu hỏi hoặc khoảng thiếu thông tin đủ hiểu, tiến triển nó rồi cho kết quả tương xứng. Đây là lựa chọn kể chuyện cần kiểm với người xem.
 
@@ -168,7 +168,7 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 
 **Phản ví dụ / giới hạn:** Phim quan sát có thể tạo hấp dẫn bằng hiện diện và chất liệu mà không giấu đáp án.
 
-**Liên quan:** [ST-002](../kien-thuc/ST-002.json), [ST-004](../kien-thuc/ST-004.json), [ED-005](../kien-thuc/ED-005.json)
+**Liên quan:** [ST-002](../kien-thuc/ST-002.json), [ST-004](../kien-thuc/ST-004.json), [ED-005](../kien-thuc/ED-005.json), [AU-008](../kien-thuc/AU-008.json)
 
 **Nguồn đối chiếu:** [B017](../../bai-hoc/017-mini-story-ba-nhip/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
 

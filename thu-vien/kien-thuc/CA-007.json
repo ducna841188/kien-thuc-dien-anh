@@ -1,7 +1,7 @@
 {
   "id": "CA-007",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "module_id": "CA",
   "title": "Nét, vùng nét và chuyển sự chú ý",
   "level": "trung_cap",
@@ -9,7 +9,7 @@
   "knowledge_kind": "practical_guidance",
   "decision_question": "Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?",
   "use_when": [
-    "Khi nền mờ hoặc chuyển nét ảnh hưởng hiểu cảnh."
+    "Quyết định vật/người nào cần rõ và khi nào chuyển nét để kể chuyện. Dùng CA-012 khi cần chọn tổ hợp khẩu, tiêu cự, cự ly và điều kiện hiển thị."
   ],
   "principle": "Focus là mặt phẳng lấy nét; depth of field là vùng độ sâu được xem đủ nét trong điều kiện hiển thị. Rack focus là đổi mặt phẳng nét, không phải đường máy.",
   "actions": [
@@ -32,7 +32,8 @@
   "related_ids": [
     "AU-002",
     "LI-004",
-    "AI-001"
+    "AI-001",
+    "CA-012"
   ],
   "source_ids": [
     "B008",

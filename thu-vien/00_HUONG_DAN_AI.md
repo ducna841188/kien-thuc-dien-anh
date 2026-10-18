@@ -1,12 +1,12 @@
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.2.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.2.1. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
 1. Đọc manifest.json để xác định bản đang dùng và phạm vi kiểm.
 2. Đọc tài liệu này, 02_CHUAN_PHAN_TICH.md và 03_RA_QUYET_DINH.md.
-3. Chọn tác vụ trong quy-trinh/; lấy mã liên quan từ muc-luc.json hoặc tuyen-tra-cuu.json.
+3. Chọn tác vụ trong quy-trinh/; đọc schema và mẫu đầu ra được liên kết trong quy trình, rồi lấy mã từ muc-luc.json hoặc tuyen-tra-cuu.json.
 4. Đọc toàn mục kiến thức, gồm điều kiện, đánh đổi và phản ví dụ; không chỉ đọc tiêu đề.
 5. Nếu có ngách, đọc hồ sơ hiện hành và đối chiếu với manifest core trên main.
 6. Đọc các tài sản/dữ liệu của yêu cầu hiện tại; xác định phần chưa có.

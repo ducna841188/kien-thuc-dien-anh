@@ -1,15 +1,15 @@
 {
   "id": "ST-009",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "ST",
-  "title": "Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích",
+  "title": "Nối hai cảnh bằng nguyên nhân hoặc liên tưởng có chủ đích",
   "level": "trung_cap",
   "status": "active",
   "knowledge_kind": "practical_guidance",
   "decision_question": "Vì sao cảnh kế tiếp phải có mặt sau cảnh này?",
   "use_when": [
-    "Kịch bản thành danh sách cảnh đẹp, trình tự công đoạn hoặc montage thiếu trục."
+    "Sửa một chỗ nối cụ thể giữa hai cảnh/nhịp: người xem chưa hiểu vì sao chúng đứng cạnh nhau. Cấu trúc toàn phim và vai trò phân đoạn xem ST-005."
   ],
   "principle": "Một chuỗi có thể nối bằng nguyên nhân, thời gian, câu hỏi–lời giải, không gian hoặc liên tưởng. Chọn quan hệ chính và làm người xem đọc được; không bắt mọi phim thành chuỗi xung đột.",
   "actions": [

@@ -1,7 +1,7 @@
 {
   "id": "DR-001",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "DR",
   "title": "Chỉ đạo bằng mục tiêu và hành vi",
   "level": "co_ban",
@@ -11,12 +11,11 @@
   "use_when": [
     "Khi chỉ đạo người thật hoặc nhân vật AI."
   ],
-  "principle": "Chuyển nhãn cảm xúc thành hành vi có đối tượng và nguyên nhân. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh. Hành vi rõ hơn khi có đối tượng và tác nhân; không suy nội tâm chắc chắn chỉ vì một cử chỉ.",
+  "principle": "Chỉ đạo bằng mục tiêu, động từ và đối tượng tác động; phản ứng cần có tác nhân trong cảnh. Một hành vi có thể biểu đạt nhiều cảm xúc tùy ngữ cảnh, nên khi phân tích nguồn không suy chắc nội tâm từ một cử chỉ.",
   "actions": [
-    "Ghi mục tiêu hiện tại của nhân vật.",
-    "Chọn động từ và đối tượng tác động.",
-    "Thêm phản ứng vừa đủ khi mục tiêu thành/bại.",
-    "Thêm mục tiêu tác động, một hành động và phản ứng sau tác nhân; tách chỉ đạo sáng tạo khỏi diễn giải khi phân tích phim nguồn."
+    "Ghi mục tiêu hiện tại và người/vật nhân vật muốn tác động.",
+    "Chọn một hành động cụ thể, vừa mức và có thể quan sát.",
+    "Bố trí phản ứng khi có tác nhân hoặc kết quả; đọc DR-007 khi cần chiến thuật và ý ngầm sâu hơn."
   ],
   "tradeoffs": [
     "Mô tả quá nhiều dấu hiệu có thể khiến diễn xuất cường điệu hoặc AI quá tải."

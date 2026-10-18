@@ -1,7 +1,7 @@
 {
   "id": "CA-008",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "CA",
   "title": "Tiêu cự, khoảng cách và phối cảnh",
   "level": "nang_cao",
@@ -11,12 +11,11 @@
   "use_when": [
     "Khi mô tả tạo hình, chọn ống hoặc phân tích hình bị méo."
   ],
-  "principle": "Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn. Ở cùng vị trí nhìn, đổi tiêu cự thay góc thu hình; đổi vị trí máy thay quan hệ phối cảnh. Định dạng ảnh hưởng góc nhìn theo tổ hợp dùng, không tự gán một “chất full frame” cố định.",
+  "principle": "Vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc thu hình. Đổi ống rồi lùi máy để giữ cỡ chủ thể đã đổi cả vị trí nhìn, khác với đổi ống tại cùng vị trí. Không gán một “chất full frame” cố định ngoài tổ hợp và điều kiện cụ thể.",
   "actions": [
-    "Chọn cỡ cảnh và khoảng cách mong muốn trước.",
-    "Ghi cách nền/tiền cảnh nên quan hệ với chủ thể.",
-    "Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo.",
-    "Khi đề xuất số mm, ghi định dạng và khoảng cách nếu đã biết; nếu chưa biết, mô tả quan hệ chủ thể/nền và để số là ứng viên thử."
+    "Chọn cỡ cảnh và quan hệ khoảng cách chủ thể–nền mong muốn.",
+    "Ghi vị trí máy có đổi hay không khi so; phân biệt phối cảnh, độ méo của ống và phóng/crop hậu kỳ.",
+    "Nếu đề xuất số mm, ghi định dạng và khoảng cách khi đã biết; nếu thiếu, mô tả quan hệ không gian và coi số là ứng viên thử."
   ],
   "tradeoffs": [
     "Ống rộng ở gần có thể nhấn chênh khoảng cách; đứng xa hơn có thể làm các lớp có vẻ sát nhau."

@@ -1,7 +1,7 @@
 {
   "id": "EV-005",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "module_id": "EV",
   "title": "Mốc thời gian, khung hình và ranh giới",
   "level": "trung_cap",
@@ -15,7 +15,8 @@
   "actions": [
     "Đánh dấu điểm vào/ra trên tệp thực; ghi độ chính xác đo.",
     "Giữ thời gian cục bộ và offset về bản gốc cho từng phần.",
-    "Kiểm tra chồng/hở; sự kiện dưới một giây có thể có bản ghi riêng."
+    "Kiểm tra chồng/hở; sự kiện dưới một giây có thể có bản ghi riêng.",
+    "Chuẩn hóa mọi mốc về cùng trục gốc; duration_seconds là độ dài trục gốc nếu biết, không dùng độ dài đoạn cắt thay cho nó. Chưa biết độ dài gốc thì để null và ghi offset/giới hạn."
   ],
   "tradeoffs": [
     "Khung lấy mẫu định kỳ dễ bỏ sót cú cắt nhanh; chỉ mục từng giây không thay thế phát hiện ranh giới."

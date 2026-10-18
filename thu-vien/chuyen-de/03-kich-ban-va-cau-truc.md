@@ -1,6 +1,6 @@
 # ST — Kịch bản và cấu trúc
 
-Phiên bản 1.2.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
+Phiên bản 1.2.1. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -16,7 +16,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [ST-006](#st-006) | Điểm nhìn và phân phối thông tin | nang_cao |
 | [ST-007](#st-007) | Kịch bản hình–tiếng và lời bổ sung | trung_cap |
 | [ST-008](#st-008) | Mở, kết và đời sống tiếp diễn | nang_cao |
-| [ST-009](#st-009) | Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích | trung_cap |
+| [ST-009](#st-009) | Nối hai cảnh bằng nguyên nhân hoặc liên tưởng có chủ đích | trung_cap |
 | [ST-010](#st-010) | Lặp có biến đổi để tạo tiến triển và nhận diện | trung_cap |
 | [ST-011](#st-011) | Tạo điều đáng quan tâm mà không cần phóng đại nguy hiểm | co_ban |
 | [ST-012](#st-012) | Mô-típ hình và âm trở lại với nghĩa đã thay đổi | nang_cao |
@@ -119,13 +119,13 @@ Thử tiếp: Viết lại mục tiêu và giá trị của kết quả trước
 <a id="st-003"></a>
 ## ST-003 — Nhịp diễn biến và bước ngoặt trong cảnh
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Tại đâu mục tiêu, hiểu biết hoặc quan hệ đổi?
 
 **Dùng khi:** Khi chia một cảnh thành các phần chỉ đạo.
 
-**Nguyên lý thực hành:** Beat là một nhịp diễn biến có thay đổi nhiệm vụ hoặc thông tin. Nó không tự đồng nghĩa một shot, một giây hay một câu thoại. Thay đổi có thể thuộc trạng thái vật, quyết định, thông tin hoặc quan hệ; một nhịp không buộc trùng một shot hay một job tạo.
+**Nguyên lý thực hành:** Beat là nhịp diễn biến có thay đổi nhiệm vụ, trạng thái vật, quyết định, thông tin hoặc quan hệ. Nó không bắt buộc trùng một shot, một giây, một câu thoại hay một job tạo AI.
 
 **Cách làm:**
 
@@ -184,11 +184,11 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-004"></a>
 ## ST-004 — Chuẩn bị, phát triển và trả kết quả
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Kết quả có được chuẩn bị đủ và nhìn thấy đủ không?
 
-**Dùng khi:** Khi xây một việc, mối quan hệ hoặc bí mật kéo dài nhiều đoạn.
+**Dùng khi:** Bố trí chi tiết chuẩn bị, sự trở lại và bằng chứng trả kết quả trong kịch bản. Mục tiêu mong chờ tổng thể xem AU-003; quyết định giấu thông tin xem AU-008.
 
 **Nguyên lý thực hành:** Gieo thông tin để kết quả có nghĩa; phát triển mong chờ; cho dấu hoàn tất phù hợp. Không bắt buộc ba phần dài bằng nhau.
 
@@ -209,7 +209,7 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 
 **Phản ví dụ / giới hạn:** Kết mở có thể chủ ý; cần phân biệt sự bỏ ngỏ có ý nghĩa với công đoạn bị quên.
 
-**Liên quan:** [AU-003](../kien-thuc/AU-003.json), [ST-008](../kien-thuc/ST-008.json), [ED-005](../kien-thuc/ED-005.json)
+**Liên quan:** [AU-003](../kien-thuc/AU-003.json), [ST-008](../kien-thuc/ST-008.json), [ED-005](../kien-thuc/ED-005.json), [AU-008](../kien-thuc/AU-008.json)
 
 **Nguồn đối chiếu:** [B017](../../bai-hoc/017-mini-story-ba-nhip/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
 
@@ -218,13 +218,13 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-005"></a>
 ## ST-005 — Cấu trúc phân đoạn và chuỗi hành động
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
-**Câu hỏi quyết định:** Các phần phim nối nhau bằng quan hệ nào?
+**Câu hỏi quyết định:** Toàn phim chia thành những phân đoạn/chuỗi nào, mỗi phần đóng góp gì?
 
-**Dùng khi:** Khi biến nhiều shot đẹp thành một video có mạch.
+**Dùng khi:** Lập cấu trúc toàn phim và vai trò các phân đoạn/chuỗi. Dùng ST-009 khi sửa quan hệ giữa hai cảnh hoặc hai nhịp kề nhau.
 
-**Nguyên lý thực hành:** Tổ chức theo nguyên nhân, tiến trình, không gian, thời gian, so sánh hoặc ý tưởng. Ghi quan hệ thật thay vì mặc định mọi shot là trước–sau của cùng một việc.
+**Nguyên lý thực hành:** Phân đoạn và chuỗi tổ chức các thay đổi thành một đường phát triển có thể theo dõi. Xác định chức năng từng phần và điều được mang qua ranh giới; không mặc định mọi hình là trước–sau của cùng một sự việc.
 
 **Cách làm:**
 
@@ -243,7 +243,7 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 
 **Phản ví dụ / giới hạn:** Montage có thể liên kết bằng cảm giác hoặc hình khối, nhưng nên ghi rõ đó là liên hệ ý tưởng.
 
-**Liên quan:** [EV-003](../kien-thuc/EV-003.json), [ED-003](../kien-thuc/ED-003.json), [ST-006](../kien-thuc/ST-006.json)
+**Liên quan:** [EV-003](../kien-thuc/EV-003.json), [ED-003](../kien-thuc/ED-003.json), [ST-006](../kien-thuc/ST-006.json), [ST-009](../kien-thuc/ST-009.json)
 
 **Nguồn đối chiếu:** [B012](../../bai-hoc/012-cau-truc-camera/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
 
@@ -286,13 +286,13 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-007"></a>
 ## ST-007 — Kịch bản hình–tiếng và lời bổ sung
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Thông tin nào cần hình, tiếng hoặc lời kể?
 
 **Dùng khi:** Khi viết kịch bản có thoại/lời bình hoặc phim không thoại.
 
-**Nguyên lý thực hành:** Phân công kênh truyền đạt theo điều mỗi kênh làm tốt. Lời có thể thêm bối cảnh, quy luật, suy nghĩ; hình/tiếng có thể tự cho thấy hành động. Thiết lập mục tiêu, tác động và hệ quả có thể đọc qua hành động/hình–âm; lời vẫn có ích cho bối cảnh không thể thấy khi dạng phim cho phép.
+**Nguyên lý thực hành:** Phân công hình, tiếng và lời theo thông tin cần truyền: hình–âm có thể làm rõ mục tiêu, tác động và hệ quả; lời có thể bổ sung bối cảnh, quy luật hoặc suy nghĩ khó thấy. Giữ dạng phim đã chốt và kiểm người mới hiểu được tiến trình, không chỉ bỏ lời rồi coi đã kể không lời.
 
 **Cách làm:**
 
@@ -347,13 +347,13 @@ Thử tiếp: Lập danh sách thông tin đó và tìm bằng chứng hình–�
 <a id="st-008"></a>
 ## ST-008 — Mở, kết và đời sống tiếp diễn
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Đầu phim mời vào bằng gì, cuối phim để lại gì?
 
 **Dùng khi:** Khi thiết kế tập độc lập hoặc loạt có nhân vật quen.
 
-**Nguyên lý thực hành:** Mở xác lập lời hứa và việc đáng theo; kết xác nhận phần đã đi qua và tạo dư âm. Một tập nên hiểu được ngay cả khi người xem chưa xem tập trước. Mở có thể vào trực tiếp một việc, một nơi chốn hoặc câu hỏi; cần cho người phù hợp nhận ra giá trị sớm. Kết cần xác nhận giá trị hoặc lựa chọn kết mở có lý do.
+**Nguyên lý thực hành:** Mở giúp người phù hợp nhận ra lời hứa và việc đáng theo sớm, qua hành động, nơi chốn hoặc câu hỏi. Kết xác nhận giá trị đã giao hoặc mở tiếp có lý do, có thể để lại dư âm. Một tập cần đủ điểm vào cho người mới, không mặc định họ đã xem tập trước.
 
 **Cách làm:**
 
@@ -406,13 +406,13 @@ Thử tiếp: Đối chiếu lời hứa với đoạn đầu và phần trả g
 [Bản JSON chuẩn](../kien-thuc/ST-008.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
 <a id="st-009"></a>
-## ST-009 — Tạo mạch nguyên nhân hoặc liên tưởng có chủ đích
+## ST-009 — Nối hai cảnh bằng nguyên nhân hoặc liên tưởng có chủ đích
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Vì sao cảnh kế tiếp phải có mặt sau cảnh này?
 
-**Dùng khi:** Kịch bản thành danh sách cảnh đẹp, trình tự công đoạn hoặc montage thiếu trục.
+**Dùng khi:** Sửa một chỗ nối cụ thể giữa hai cảnh/nhịp: người xem chưa hiểu vì sao chúng đứng cạnh nhau. Cấu trúc toàn phim và vai trò phân đoạn xem ST-005.
 
 **Nguyên lý thực hành:** Một chuỗi có thể nối bằng nguyên nhân, thời gian, câu hỏi–lời giải, không gian hoặc liên tưởng. Chọn quan hệ chính và làm người xem đọc được; không bắt mọi phim thành chuỗi xung đột.
 

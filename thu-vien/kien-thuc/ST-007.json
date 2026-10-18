@@ -1,7 +1,7 @@
 {
   "id": "ST-007",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "ST",
   "title": "Kịch bản hình–tiếng và lời bổ sung",
   "level": "trung_cap",
@@ -11,7 +11,7 @@
   "use_when": [
     "Khi viết kịch bản có thoại/lời bình hoặc phim không thoại."
   ],
-  "principle": "Phân công kênh truyền đạt theo điều mỗi kênh làm tốt. Lời có thể thêm bối cảnh, quy luật, suy nghĩ; hình/tiếng có thể tự cho thấy hành động. Thiết lập mục tiêu, tác động và hệ quả có thể đọc qua hành động/hình–âm; lời vẫn có ích cho bối cảnh không thể thấy khi dạng phim cho phép.",
+  "principle": "Phân công hình, tiếng và lời theo thông tin cần truyền: hình–âm có thể làm rõ mục tiêu, tác động và hệ quả; lời có thể bổ sung bối cảnh, quy luật hoặc suy nghĩ khó thấy. Giữ dạng phim đã chốt và kiểm người mới hiểu được tiến trình, không chỉ bỏ lời rồi coi đã kể không lời.",
   "actions": [
     "Lập cột hình, âm, lời và thông tin mới.",
     "Rà câu nào chỉ lặp điều đã quá rõ trong hình.",

@@ -1,7 +1,7 @@
 {
   "id": "YT-002",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "module_id": "YT",
   "title": "Tỷ lệ nhấp và bối cảnh phân phối",
   "level": "trung_cap",
@@ -11,7 +11,7 @@
   "use_when": [
     "Khi đánh giá thumbnail/tiêu đề."
   ],
-  "principle": "CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Khán giả và nguồn lưu lượng có thể thay đổi nên không quy mọi chênh lệch cho ảnh/tiêu đề. Thay thành phần nguồn hiển thị có thể đổi CTR mà không nói được chất lượng đã tăng/giảm. Đóng gói cần thu hút người phù hợp và trả đúng giá trị.",
+  "principle": "CTR là tỷ lệ nhấp theo lượt hiển thị được nền tảng tính. Phải xét nguồn, thành phần khán giả và giai đoạn đo trước khi quy chênh lệch cho ảnh/tiêu đề. Thu hút người phù hợp và trả đúng giá trị sau nhấp là hai phần liên quan, không dùng CTR thay toàn bộ trải nghiệm.",
   "actions": [
     "Ghi khoảng thời gian, số hiển thị và nguồn truy cập.",
     "So các trường hợp đủ tương đồng và đủ dữ liệu cho quyết định.",

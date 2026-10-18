@@ -1,6 +1,6 @@
 # Viết yêu cầu tạo ảnh/video
 
-Tác vụ: write_generation_prompts. Core release 1.2.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_generation_prompts. Core release 1.2.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -17,7 +17,7 @@ Tác vụ: write_generation_prompts. Core release 1.2.0; dẫn version của t�
 
 ## Đầu ra
 
-generation-request.schema.json; mau/yeu-cau-tao.json
+[Schema đầu ra](../schema/generation-request.schema.json) · [Mẫu hiện hành](../mau/yeu-cau-tao.json)
 
 Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thái kiểm nghiệm. Các mẫu chưa điền không phải sản phẩm đã phân tích.
 

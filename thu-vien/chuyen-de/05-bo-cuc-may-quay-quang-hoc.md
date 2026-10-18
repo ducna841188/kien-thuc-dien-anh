@@ -1,6 +1,6 @@
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.2.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.2.1. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -255,11 +255,11 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 <a id="ca-007"></a>
 ## CA-007 — Nét, vùng nét và chuyển sự chú ý
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?
 
-**Dùng khi:** Khi nền mờ hoặc chuyển nét ảnh hưởng hiểu cảnh.
+**Dùng khi:** Quyết định vật/người nào cần rõ và khi nào chuyển nét để kể chuyện. Dùng CA-012 khi cần chọn tổ hợp khẩu, tiêu cự, cự ly và điều kiện hiển thị.
 
 **Nguyên lý thực hành:** Focus là mặt phẳng lấy nét; depth of field là vùng độ sâu được xem đủ nét trong điều kiện hiển thị. Rack focus là đổi mặt phẳng nét, không phải đường máy.
 
@@ -280,7 +280,7 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 
 **Phản ví dụ / giới hạn:** Cảnh sâu nhiều lớp có thể cần đọc đồng thời thay vì làm nền mờ.
 
-**Liên quan:** [AU-002](../kien-thuc/AU-002.json), [LI-004](../kien-thuc/LI-004.json), [AI-001](../kien-thuc/AI-001.json)
+**Liên quan:** [AU-002](../kien-thuc/AU-002.json), [LI-004](../kien-thuc/LI-004.json), [AI-001](../kien-thuc/AI-001.json), [CA-012](../kien-thuc/CA-012.json)
 
 **Nguồn đối chiếu:** [B008](../../bai-hoc/008-muoi-cu-phap-veo/README.md), [B011](../../bai-hoc/011-anh-sang-bo-nen-nhip-cham/README.md), [SRC-YALE-CAMERA](https://filmanalysis.yale.edu/cinematography/)
 
@@ -289,20 +289,19 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 <a id="ca-008"></a>
 ## CA-008 — Tiêu cự, khoảng cách và phối cảnh
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.1
 
 **Câu hỏi quyết định:** Cảm giác gần–xa đến từ vị trí máy hay góc nhìn ống kính?
 
 **Dùng khi:** Khi mô tả tạo hình, chọn ống hoặc phân tích hình bị méo.
 
-**Nguyên lý thực hành:** Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn. Ở cùng vị trí nhìn, đổi tiêu cự thay góc thu hình; đổi vị trí máy thay quan hệ phối cảnh. Định dạng ảnh hưởng góc nhìn theo tổ hợp dùng, không tự gán một “chất full frame” cố định.
+**Nguyên lý thực hành:** Vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc thu hình. Đổi ống rồi lùi máy để giữ cỡ chủ thể đã đổi cả vị trí nhìn, khác với đổi ống tại cùng vị trí. Không gán một “chất full frame” cố định ngoài tổ hợp và điều kiện cụ thể.
 
 **Cách làm:**
 
-1. Chọn cỡ cảnh và khoảng cách mong muốn trước.
-2. Ghi cách nền/tiền cảnh nên quan hệ với chủ thể.
-3. Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo.
-4. Khi đề xuất số mm, ghi định dạng và khoảng cách nếu đã biết; nếu chưa biết, mô tả quan hệ chủ thể/nền và để số là ứng viên thử.
+1. Chọn cỡ cảnh và quan hệ khoảng cách chủ thể–nền mong muốn.
+2. Ghi vị trí máy có đổi hay không khi so; phân biệt phối cảnh, độ méo của ống và phóng/crop hậu kỳ.
+3. Nếu đề xuất số mm, ghi định dạng và khoảng cách khi đã biết; nếu thiếu, mô tả quan hệ không gian và coi số là ứng viên thử.
 
 **Đánh đổi:** Ống rộng ở gần có thể nhấn chênh khoảng cách; đứng xa hơn có thể làm các lớp có vẻ sát nhau.
 

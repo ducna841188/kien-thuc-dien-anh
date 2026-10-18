@@ -32,6 +32,12 @@ Shot, sự kiện và khoảng âm dùng giây số. Một giây có thể chứ
 
 Mốc của đoạn cắt phải quy về bản gốc bằng offset. Quy ước khoảng [start, end): chứa điểm đầu, không chứa điểm cuối. Không đổi phút:giây sang frame timecode khi chưa biết fps; video tốc độ khung biến thiên cần theo timestamp thực khi công cụ cho đo.
 
+Trong một bản ghi, mọi span và sampled_frame_times dùng cùng trục thời gian gốc. duration_seconds là độ dài của trục gốc đó khi biết; không điền độ dài một đoạn cắt vào đây trong khi các mốc đã cộng offset. Nếu chưa biết độ dài bản gốc, để null, ghi độ dài đoạn/offset và giới hạn trong locator/limitations. Một frame hoặc sự kiện điểm ở đúng end thuộc khoảng kế tiếp.
+
+motion_interval và audio_interval cần đủ mốc đầu/cuối, có độ dài dương và nằm trong độ phủ tương ứng. still_frame có mốc thì là một điểm đã xem; nếu ảnh không có mốc video, ghi rõ giới hạn định vị và không dùng nó để xác nhận chuyển động. Nguồn âm riêng dùng asset.kind = audio, không cần gán giả thành video.
+
+Mỗi thuộc tính dùng evidence_refs khớp basis và liên quan khoảng shot; không dẫn bằng chứng của một đoạn khác. Sự kiện có mốc cụ thể cần được bằng chứng bao phủ đúng khoảng sự kiện. Sự kiện cả hình–âm cần đủ hai kênh; một âm hoặc một ảnh riêng không chứng nhận đồng bộ. Đây là kiểm hợp đồng dữ liệu; nội dung trong bằng chứng vẫn cần được xem/nghe thật.
+
 ## Những kết luận cần kiểm đặc biệt
 
 - Chuyển động máy, vận tốc, vật xuyên/biến hình: cần diễn tiến, không chỉ một ảnh.

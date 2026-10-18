@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "id": "REPAIR-ONE-PERSON",
   "task": "diagnose_and_repair",
-  "core_version": "1.0.0",
+  "core_version": "1.2.1",
   "niche_id": null,
   "brief": "Sửa người thừa trong timelapse đã đúng thao tác và nhịp",
   "known_inputs": [
@@ -20,7 +20,7 @@
   "knowledge_refs": [
     {
       "id": "AI-008",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "QC-002",
@@ -28,7 +28,7 @@
     },
     {
       "id": "MO-006",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "id": "AI-002",
