@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm 1.3.0 — 18/10/2026 — Đào sâu hình VID_02, loại âm khỏi phạm vi
+
+- VID_02 0.2.0 sửa trực tiếp hồ sơ cũ: màu theo vật thể cho 176 cú, vị trí máy có vật mốc, phiếu quyết định hình và kế hoạch trạng thái đầu–tác động–cuối.
+- Thêm vào dữ liệu hiện hành 26 phiếu chuỗi/77 nhịp nội dung, 175 liên kết hình giữ hai trạng thái qua cut, năm vòng chờ–trả và hai mối nối nhân quả chưa được chứng minh.
+- Phân biệt thêm khối quả S171 với rưới/nhấc S172; cuộn còn ở chảo với khay nhiều ống; tải rời đất với người mang tải. Không nối bưởi/quýt thành khối vàng hoặc khẳng định nón cùng mẻ ống bánh.
+- Đào sâu DNA bộ góc/trao–nhận tại mã cũ, thêm DNA-13 về màu có vật mang và biến đổi trạng thái. 13 giả thuyết của một phim, chưa nâng thành nguyên lý chung/nguyên nhân lượt xem.
+- Theo người dùng: âm ngoài phạm vi, giữ dữ liệu âm cũ và bốn trường null để tương thích schema, bỏ điều kiện phải nghe âm mới hoàn tất lượt hình. Bản đọc hiện 21 nhóm hình, JSON vẫn 25 nhóm.
+- Xuất lại mục lục và tám phần chi tiết từ JSON; giữ nguồn/ảnh, thời gian/ID, VID_01, lựa chọn Farm và 132 mục core. Chưa phát toàn motion, sinh clip hoặc kiểm khán giả. Lịch sử tiếp tục nằm trong Git.
+
 ## Farm 1.2.0 — 18/10/2026 — Nạp VID_02 theo ảnh có mốc
 
 - Tiếp nhận video người dùng gán VID_02, URL FWMIPukvdsQ; giữ nguồn tải lên với checksum, 611,92 giây, 1280×720, audio stereo. Nạp từng video; chưa nhận bảy video bổ sung còn lại.
