@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm 1.4.0 — 18/10/2026 — Rà điểm cắt và học chức năng hình VID_02
+
+- VID_02 0.3.0 sửa tại chỗ: trích 350 frame liền kề n−1/n tại 175 ranh giới hiện hành, rà đủ 12 bảng và xác nhận đổi hình tại mỗi cặp. Giữ 176 cú là phân hoạch làm việc vì chưa loại hết cut có thể còn thiếu bên trong khoảng; chưa khai phát trọn chuyển động.
+- Bằng chứng tăng từ 1.328 lên 1.665 mốc ảnh riêng (13 frame trùng bộ cũ). Thêm 12 bảng điểm cắt, bốn bảng ca sâu và một bảng màu, tổng 60 bảng; ảnh nguồn cũ giữ nguyên byte.
+- Thêm 12 ca học sâu: khung trống có nhiệm vụ; sợi siro; bản đồ nguyên liệu/khối/mặt cắt; vai hai tay cán; lan–nhiệt–cuộn; chuyển điểm đỡ giỏ; gói một viên/tích lượng; khói và đổi góc; công dụng đạo cụ; gieo người nhận; chuyển quyền giữ; đời sống cùng kho thành quả.
+- Thêm 17 cầu nối chú ý dự kiến (không đo mắt), 12 vùng pixel có tọa độ/checksum (không suy LUT, tỷ lệ đèn hoặc luminance tuyến tính), ba mốc thời gian có giới hạn (không gọi mốc chọn là khởi điểm thật hay toàn thời gian giữ kết quả).
+- Liên kết ca sâu vào từng cú liên quan, DNA mã cũ và bản đọc; mở rộng công cụ trích ảnh cho bố cục bằng chứng mới. JSON là bản chuẩn, không tạo bản sao theo version.
+- Giữ nguyên 13 giả thuyết có điều kiện, 132 mục core, nguồn/lựa chọn Farm/VID_01 và tuyến âm cũ. Âm tiếp tục ngoài phạm vi; chưa tạo clip, chạy AI ngoài hoặc kiểm khán giả.
+
 ## Farm 1.3.0 — 18/10/2026 — Đào sâu hình VID_02, loại âm khỏi phạm vi
 
 - VID_02 0.2.0 sửa trực tiếp hồ sơ cũ: màu theo vật thể cho 176 cú, vị trí máy có vật mốc, phiếu quyết định hình và kế hoạch trạng thái đầu–tác động–cuối.

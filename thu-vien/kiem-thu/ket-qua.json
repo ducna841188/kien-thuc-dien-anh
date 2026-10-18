@@ -222,7 +222,7 @@
   "status": "passed_current_structure_and_integrity_checks",
   "fixture_test_count": 40,
   "content_review": {
-    "scope": "VID_02 visual deepening: 176 visual sheets, 26 sequences/77 beats, 175 state/edit links, 13 conditional hypotheses. Audio excluded by user; no full-motion claim, generation or viewer test.",
+    "scope": "VID_02 0.3.0: 350 adjacent frames verify 175 selected boundaries; 12 advanced visual cases, 17 editorial attention bridges, 12 pixel regions, 3 qualified timing landmarks, 60 source comparison boards. Still-based evidence, no full-motion, audio, generation or viewer-effect claim.",
     "existing_cards_changed": [],
     "existing_cards_unchanged": 132,
     "new_cards": [],
@@ -268,20 +268,21 @@
       2
     ],
     "all_nine_videos_to_be_analyzed": true,
-    "new_video_analysis_scope": "VID_02 visual still-based analysis/design 0.2.0; audio excluded by user",
+    "new_video_analysis_scope": "VID_02 deep visual cases and selected adjacent boundaries; audio excluded",
     "remaining_additional_videos_not_received": 7,
     "pilot_full_review_completed": false,
     "pilot_in_scope_deliverable_complete": true
   },
   "preservation": {
-    "baseline_core_commit": "2ab9d9ef131f4788e8fd240bc09e7293542498f1",
-    "baseline_farm_commit": "b81c88add0e8e6976229e3c742a41642b4a085bf",
+    "baseline_core_commit": "ff6acf53a770a8b1b239b80b2bd16cc6c98757d9",
+    "baseline_farm_commit": "767cc66f9ec1216d6723e2f59ae8127b9e81fb6a",
     "canonical_cards_unchanged": 132,
     "original_images_unchanged": 444,
     "legacy_lesson_files_unchanged": 610,
     "legacy_farm_source_and_analysis_example_unchanged": true,
     "farm_production_choices_unchanged": true,
-    "farm_rule_change": "Only FARM-010 scope/limits and current corpus status; production choices unchanged."
+    "farm_rule_change": "Only FARM-010 scope/limits and current corpus status; production choices unchanged.",
+    "old_vid02_atlases_unchanged": 43
   },
   "storage": {
     "mode": "in_place_latest",
@@ -309,8 +310,8 @@
     "groups_per_shot": 25,
     "events_are_points_not_invented_intervals": true,
     "point_event_count": 403,
-    "distinct_frame_evidence": 1328,
-    "atlas_checksums_valid": 43,
+    "distinct_frame_evidence": 1665,
+    "atlas_checksums_valid": 60,
     "reconstruction_links_valid": true,
     "state_ledgers_valid": 13,
     "conditional_dna_records_valid": 13,
@@ -328,6 +329,16 @@
     "visual_edit_links_valid": 175,
     "audio_excluded_from_acceptance": true,
     "visual_content_beats_valid": 77,
-    "legacy_and_source_bytes_unchanged": true
+    "legacy_and_source_bytes_unchanged": true,
+    "adjacent_boundary_pairs_valid": 175,
+    "advanced_visual_case_studies_valid": 12,
+    "editorial_attention_bridges_valid": 17,
+    "color_region_records_valid": 12,
+    "exact_selected_boundaries_confirmed": true,
+    "missing_cut_search_complete": false,
+    "timing_landmarks_valid": 3,
+    "old_vid02_atlases_unchanged": 43,
+    "second_index_points_valid": 1665,
+    "render_layouts_within_bounds": true
   }
 }
