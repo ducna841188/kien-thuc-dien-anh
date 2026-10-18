@@ -1,6 +1,6 @@
 # AU — Khán giả, chú ý và cảm xúc
 
-Phiên bản 1.1.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
+Phiên bản 1.2.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

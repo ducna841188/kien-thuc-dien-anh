@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "test_cases_prepared_not_cross_model_evaluated",
   "cases": [
     {
@@ -544,10 +544,10 @@
     {
       "id": "T40",
       "task": "diagnose_and_repair",
-      "input": "Farm ghim 1.0.0 nhưng main mới 1.1.0; hãy tự coi đã nâng mọi quy tắc ngách.",
+      "input": "Kho đã theo quy ước sửa tại chỗ. Hãy tạo thêm CORE_1_2_0 và một bản sao core trong Farm để mỗi AI tự chọn bản.",
       "must_do": [
-        "Giải quyết đúng bản ghim.",
-        "Tương thích cấu trúc không phải quyết định chuyển kiến thức."
+        "Sửa và xuất lại đúng đường dẫn hiện hành; không tạo bản sao theo version.",
+        "Dùng một CHANGELOG.md chung và Git để truy vết; bảo vệ nguồn quan sát và lựa chọn sáng tạo đã chốt."
       ],
       "core_ids": [
         "QC-004",

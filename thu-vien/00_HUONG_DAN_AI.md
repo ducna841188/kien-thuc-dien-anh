@@ -1,6 +1,6 @@
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.1.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.2.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
@@ -8,7 +8,7 @@ Phiên bản 1.1.0. Đây là kho tham chiếu dùng để phân tích và ra qu
 2. Đọc tài liệu này, 02_CHUAN_PHAN_TICH.md và 03_RA_QUYET_DINH.md.
 3. Chọn tác vụ trong quy-trinh/; lấy mã liên quan từ muc-luc.json hoặc tuyen-tra-cuu.json.
 4. Đọc toàn mục kiến thức, gồm điều kiện, đánh đổi và phản ví dụ; không chỉ đọc tiêu đề.
-5. Nếu có ngách, đọc hồ sơ ngách đúng phiên bản và đối chiếu phụ thuộc core.
+5. Nếu có ngách, đọc hồ sơ hiện hành và đối chiếu với manifest core trên main.
 6. Đọc các tài sản/dữ liệu của yêu cầu hiện tại; xác định phần chưa có.
 7. Trả kết quả có quyết định cụ thể, mã kiến thức/phiên bản, giả định và cách kiểm.
 
@@ -33,14 +33,20 @@ Khi thiếu dữ liệu thiết yếu, hỏi đúng phần chặn quyết địn
 ## Hai cách mang dữ liệu sang AI khác
 
 - Đọc chọn: tài liệu này + chuẩn phân tích/ra quyết định + mô-đun liên quan + hồ sơ ngách + đầu vào.
-- Đọc toàn: goi-doc/CORE_1_1_0.md và JSONL tương ứng. Dùng mục lục để chia lượt nếu môi trường không nhận đủ; không coi việc gửi link là bằng chứng AI đã đọc mọi tệp.
+- Đọc toàn: goi-doc/CORE.md và JSONL tương ứng. Dùng mục lục để chia lượt nếu môi trường không nhận đủ; không coi việc gửi link là bằng chứng AI đã đọc mọi tệp.
 
 Các gói là bản xuất từ JSON chuẩn. Việc kiểm hành vi của AI khác dùng bộ tình huống ở kiem-thu/; báo cáo cấu trúc không thay thế đánh giá kết quả suy luận.
 
-## Dùng phần mở rộng 1.1.0
+## Áp dụng và chẩn đoán
 
 Mục có application_depth bổ sung cơ chế/quan hệ cần xét, một ca so phương án với phần phải giữ, dấu kiểm và chẩn đoán lỗi. Đọc phần này khi quyết định có đánh đổi hoặc lỗi lặp; các ví dụ là thiết kế, không phải kết quả thử. evidence_links chỉ phát biểu cụ thể và giới hạn nguồn hỗ trợ; source_ids cũng có thể chứa nguồn bối cảnh, không bảo chứng mọi hành động biên soạn.
 
 Khi lập việc mới, dùng [bản đồ năng lực](08_BAN_DO_NANG_LUC.md) và [vòng sản xuất](06_VAN_HANH_SAN_XUAT.md). Khi nói đã cải thiện, dùng [tiêu chí bằng chứng](07_KIEM_TRA_TRAI_NGHIEM.md), giữ phân biệt tuân thủ kỹ thuật, khả năng hiểu, hành vi xem và hài lòng.
 
-Bản phát hành 1.1.0 chứa cả mục 1.0.0 giữ nguyên và mục 1.1.0 mới/sửa. Dẫn ID@version thực đọc, cùng release/commit của gói. Dự án ghim bản trước phải dùng đúng commit/gói trước; không thay nội dung bằng main rồi gọi vẫn cùng phiên bản. Xem [tương thích](tuong-thich.json).
+## Một bản hiện hành, một nhật ký
+
+Luôn đọc các đường dẫn hiện hành trên main. Sửa trực tiếp đúng tệp và mã cũ; cập nhật version của phần đổi, xuất đè các gói cố định. Không tạo tệp/nhánh tài liệu v1/v2, gói theo ngày/version hoặc báo cáo riêng cho từng lượt sửa. [CHANGELOG.md](CHANGELOG.md) là nhật ký chung của thư viện và Farm.
+
+manifest.version là bản thư viện hiện hành; version trong từng bản ghi là lần sửa mới nhất của mục đó. Một mục chưa đổi vẫn là mục hiện hành, không cần đọc thêm một tệp khác. Dẫn ID@version thực đọc khi cần truy nguyên. Nội dung trước sửa nằm trong lịch sử Git.
+
+Ngách đọc core hiện hành và kiểm các mã đang dùng; không tự đổi lựa chọn sáng tạo đã duyệt. Khi kiểm một phân tích lịch sử, dùng revision/checksum nguồn của nó và commit Git nếu cần tái hiện; không tạo lại bản sao cũ trong main.

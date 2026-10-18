@@ -1,6 +1,6 @@
 # ED — Dựng phim và điều khiển nhịp
 
-Phiên bản 1.1.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
+Phiên bản 1.2.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

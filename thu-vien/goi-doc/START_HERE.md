@@ -8,10 +8,12 @@ Gửi [hướng dẫn AI](../00_HUONG_DAN_AI.md), [chuẩn phân tích](../02_CH
 
 ## Đọc toàn bộ
 
-- [CORE_1_1_0.md](CORE_1_1_0.md): bản Markdown đầy đủ.
-- [CORE_1_1_0.jsonl](CORE_1_1_0.jsonl): 130 bản ghi kiến thức, mỗi dòng một đối tượng.
-- [Sổ nguồn đi kèm](SOURCES_1_1_0.json): phạm vi đã đọc và giới hạn từng nguồn ngoài.
+- [CORE.md](CORE.md): bản Markdown đầy đủ hiện hành.
+- [CORE.jsonl](CORE.jsonl): 130 bản ghi kiến thức hiện hành, mỗi dòng một đối tượng.
+- [Sổ nguồn đi kèm](SOURCES.json): phạm vi đã đọc và giới hạn từng nguồn ngoài.
 - [manifest-goi.json](manifest-goi.json): kích thước và SHA-256 các tệp gói.
+
+Các đường dẫn cố định luôn chỉ bản hiện hành; version xem trong manifest. Lịch sử dùng Git và [nhật ký chung](../CHANGELOG.md); không cần đọc các gói cũ để sử dụng.
 
 Đây là dữ liệu tham chiếu. Cần công cụ đọc tệp/đường dẫn thực sự; gửi URL không tự xác nhận mọi tệp đã được đọc. Dùng cách đọc chọn nếu một lượt không đủ.
 

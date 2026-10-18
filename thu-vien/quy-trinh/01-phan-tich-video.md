@@ -1,6 +1,6 @@
 # Phân tích video
 
-Tác vụ: analyze_video. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: analyze_video. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -30,6 +30,6 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [EV-001](../kien-thuc/EV-001.json), [EV-003](../kien-thuc/EV-003.json), [EV-004](../kien-thuc/EV-004.json), [EV-005](../kien-thuc/EV-005.json), [ED-001](../kien-thuc/ED-001.json), [AU-004](../kien-thuc/AU-004.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Trước gắn nhãn hàng loạt, lập sổ định nghĩa và mẫu số theo EV-008. Gắn riêng cut, sự kiện và âm; rà chuyển lực/tiếp xúc, điểm nhìn qua cut và chức năng thời gian. Khi rút bài học từ phim nổi bật, giữ thiên lệch mẫu và điều kiện theo EV-007, YT-010. Đối chiếu kết luận với 07_KIEM_TRA_TRAI_NGHIEM trước khi viết tác dụng khán giả.

@@ -1,6 +1,6 @@
 # Thiết kế danh sách shot
 
-Tác vụ: design_shots. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: design_shots. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -29,6 +29,6 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [DR-002](../kien-thuc/DR-002.json), [DR-006](../kien-thuc/DR-006.json), [CA-001](../kien-thuc/CA-001.json), [CA-004](../kien-thuc/CA-004.json), [MO-001](../kien-thuc/MO-001.json), [AI-003](../kien-thuc/AI-003.json), [ED-003](../kien-thuc/ED-003.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Ghi chức năng và trạng thái vào/ra trước thông số. CA-011/CA-012 giúp bố cục theo thời gian và vùng nét đủ đọc; MO-007/MO-008 cho nhòe, quỹ đạo và nhịp chuyển động; LI-007/LI-008 cho phơi sáng và đường sáng. Với tiếp xúc, xác định điểm đỡ, pha chạm/nhả và cách nối qua ED-009/ED-010. Chỉ nêu số máy quay thật khi có điều kiện, còn AI cần kiểm kết quả.

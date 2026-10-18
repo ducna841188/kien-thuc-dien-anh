@@ -1,35 +1,29 @@
-# Quy trình cập nhật và nâng kiến thức
+# Cập nhật kiến thức tại chỗ
 
-## Quyền đã được người dùng chốt
+## Quyền và quy ước hiện hành
 
-Chủ động bổ sung/sửa có căn cứ. Thay đổi làm đảo nguyên tắc đang dùng phải trình rõ trước khi áp dụng rộng. Kho chung và Farm giữ nguồn, mã và phiên bản.
+Chủ động bổ sung/sửa có căn cứ. Người dùng chốt: sửa trực tiếp tài liệu/mã hiện hành, chỉ giữ bản mới nhất ở mỗi đường dẫn. Git lưu lịch sử; [CHANGELOG.md](CHANGELOG.md) là một nhật ký chung cho thư viện và các thay đổi liên quan Farm. Không tạo bản sao theo ngày/version, thư mục archive hay báo cáo riêng cho mỗi lượt.
 
-## Vòng phản hồi từ ngách
+Thay đổi đảo nguyên tắc sáng tạo đang dùng phải trình rõ trước áp dụng rộng. Quy ước lưu trữ tại chỗ đã được người dùng chỉ định, áp dụng ngay. Giữ nguồn và dấu vết quan sát, không sửa bằng chứng để khớp giả thuyết.
 
-1. Hoàn tất nhập nguồn và ghi độ phủ cho các video của một lượt.
-2. So các chuỗi/shot theo cùng tiêu chí; đếm mẫu chỉ trong phần có bằng chứng phù hợp.
-3. Lập ứng viên: phát biểu, phạm vi, nguồn, phản ví dụ và hệ quả dự kiến.
-4. Tách phần có thể chuyển giao khỏi đặc điểm khán giả/gu tác giả.
-5. Phân loại bổ sung, sửa điều kiện, sửa sai dữ kiện hoặc đảo nguyên tắc.
-6. Bổ sung/sửa có căn cứ được ghi phiên bản và nhật ký. Đảo nguyên tắc giữ proposed_reversal và trình tác động, chưa áp dụng rộng.
-7. Rà các hồ sơ ngách phụ thuộc; cập nhật ghim phiên bản có giải thích.
+## Một lượt cập nhật
 
-## Không dùng số lượng thay cho chất lượng bằng chứng
+1. Đọc tệp hiện hành, manifest, các mã/tài liệu phụ thuộc và yêu cầu mới.
+2. Xác định lỗi hoặc điều cần thêm; ghi căn cứ, điều kiện, phản ví dụ và tác động.
+3. Sửa đúng JSON/tài liệu cũ. Chỉ thêm mã mới khi có một nội dung/chức năng mới, không thêm mã chỉ để chứa bản sửa.
+4. Cập nhật version của mục đổi và version thư viện khi xuất bản. Ngách đọc core hiện hành, kiểm các mã đang dùng và cập nhật metadata; giữ lựa chọn sáng tạo đã chốt.
+5. Xuất lại chuyên đề và gói vào cùng đường dẫn: goi-doc/CORE.md, CORE.jsonl, SOURCES.json và manifest-goi.json.
+6. Chạy các kiểm phù hợp; ghi đè kết quả hiện hành ở kiem-thu/ket-qua.json. Không báo video/khán giả/AI ngoài đã kiểm khi chưa thực hiện.
+7. Ghi một mục vào CHANGELOG.md: version/ngày, nội dung và lý do đổi, mã/tệp ảnh hưởng, căn cứ cần thiết và trạng thái kiểm. Commit Git cung cấp phần diff chi tiết.
 
-Ba video giống nhau không tự đủ khái quát. Các tệp trùng, cùng chiến dịch hoặc cùng tác giả có thể không độc lập. Dữ liệu giữ chân không tự chứng minh cơ chế cảm xúc. Nghiên cứu hỗ trợ câu hỏi thiết kế ở phạm vi nào thì giữ đúng phạm vi đó.
+## Vòng học từ ngách
 
-## Phiên bản và khả năng quay lại
+Nhập nguồn theo asset/video thật, ghi mốc và độ phủ. Phân tích theo cùng chuẩn; tách quan sát, nguồn thuật lại, diễn giải và đề xuất. Sửa phân tích tại tệp hiện hành, giữ dấu vết bằng chứng. Khi có thêm một nguồn thật, tạo định danh nguồn mới; không xem nó như bản sao v2 của tài liệu.
 
-Giữ mã; thay version khi sửa nội dung. Ghi trước/sau, lý do, nguồn, loại tác động, trạng thái và mã phụ thuộc. Bản ngách ghi cả version core và commit. Không sửa kho nguồn thành vừa khít với kiến thức mới; bổ sung lớp đối chiếu.
+Tổng hợp bài học có điều kiện, kiểm nguồn thuận/trái và tính độc lập. Tách chức năng có thể chuyển giao khỏi gu hoặc tỷ lệ của một tác giả. Phân loại bổ sung, sửa điều kiện, sửa dữ kiện hoặc đảo nguyên tắc; mục đảo nguyên tắc giữ proposed_reversal cho đến khi được chốt.
 
-## Mức hoàn thành
+## Truy nguyên và quay lại
 
-Nền tảng v1 là bộ khung có nội dung hoạt động và hợp đồng dữ liệu. Những phần quan sát mới, thử video, đánh giá AI khác và phản hồi khán giả được bổ sung khi có đầu vào thực. Không đổi trạng thái chưa thử thành đạt để đủ bảng.
+Để xem trước–sau hoặc phục hồi, dùng lịch sử/diff/commit của Git tại đúng đường dẫn. Nhật ký giúp tìm mốc thay đổi, không chứa toàn bộ bản sao nội dung cũ. Không cần đọc các bản trước để sử dụng thư viện hiện hành.
 
-## Tiếp nhận bản 1.1.0
-
-Đây là bản bổ sung/làm rõ: không áp đảo nguyên tắc. 60 mục cũ giữ nguyên; 30 mục đổi phiên bản vì thêm điều kiện và chiều áp dụng; 40 mã mới. Báo cáo và dấu vết từng mục nằm trong [lượt rà](kiem-toan/RA_SOAT_1_1_0.md).
-
-Giữ CORE_1_0_0.md/JSONL; hồ sơ ngách cũ tiếp tục giải quyết theo commit/gói đã ghim. Farm vẫn ghi core 1.0.0, không được hiểu là đã dùng mọi bổ sung mới. Khi muốn nâng ngách, lập bản so các mã thực dùng, ràng buộc khán giả và quyết định hiện hành; việc đọc được schema mới chỉ là kiểm cấu trúc.
-
-Nguồn sơ cấp mới ghi ngày, phạm vi đã đọc và điều chưa xác nhận. Thay đổi tài liệu model/nền tảng về sau cần kiểm lại khi triển khai; không đóng băng thông số sản phẩm thành nguyên lý điện ảnh.
+Revision, checksum và asset ID trong một phân tích cho biết bằng chứng đã dùng. Chúng không buộc tài liệu hướng dẫn đang dùng trỏ về phiên bản cũ. Dữ liệu chưa biết tiếp tục ghi rõ; chưa thử không đổi thành đạt.

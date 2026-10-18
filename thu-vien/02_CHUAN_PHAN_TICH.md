@@ -46,7 +46,7 @@ Ghi theo khoảng: việc khán giả đang theo, thông tin mới, điều đan
 
 Mẫu ở mau/phan-tich-video.json. Ví dụ trong vi-du/phan-tich-gia-lap.json chỉ dùng kiểm cấu trúc.
 
-## Bổ sung khi phân tích sâu ở 1.1.0
+## Phân tích sâu
 
 Phân biệt ba tuyến: điểm cắt; sự kiện/thay đổi có ý nghĩa; âm. Một sự kiện có thể qua nhiều shot, một shot có thể có nhiều sự kiện. Giữ ranh giới shot theo bằng chứng cắt/chuyển cảnh; dùng sự kiện và findings/diễn giải để mô tả đổi mục tiêu hoặc quan hệ, không sửa cut cho khớp cảm giác nhịp.
 

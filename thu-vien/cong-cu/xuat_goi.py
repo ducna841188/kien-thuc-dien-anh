@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 REPO=ROOT.parent
 OUT=ROOT/'goi-doc'
 VERSION=json.loads((ROOT/'manifest.json').read_text())['version']
-STEM='CORE_'+VERSION.replace('.','_')
+STEM='CORE'
 BASE='https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/'
 def absolute_links(text,source):
  def replace(m):
@@ -24,13 +24,13 @@ def main():
  render_auxiliary(cards)
  # JSONL has only canonical knowledge records; no source material mislabeled as model answers.
  (OUT/(STEM+'.jsonl')).write_text(''.join(json.dumps(c,ensure_ascii=False)+chr(10) for c in cards))
- source_stem='SOURCES_'+VERSION.replace('.','_')+'.json'
+ source_stem='SOURCES.json'
  (OUT/source_stem).write_bytes((ROOT/'nguon/nguon-chinh-thuc.json').read_bytes())
  head=f"""# FILM-KB {VERSION} — Gói đọc đầy đủ cho AI
 
 Bản xuất từ JSON chuẩn và tài liệu cùng phiên bản. Gói này là dữ liệu tham chiếu, chưa huấn luyện thay đổi mô hình. Chia lượt theo chuyên đề nếu môi trường không nhận đủ; ghi những phần đã thực đọc.
 
-Liên kết trong gói dẫn về các tệp của kho. Khi cần bản ghim tuyệt đối, lấy commit chứa manifest của bản phát hành đang dùng; không giả định main mãi giữ nguyên.
+Gói có một đường dẫn hiện hành, được xuất đè từ JSON chuẩn mới nhất. Liên kết làm việc trỏ main. Lịch sử nằm trong Git; thay đổi được ghi tại CHANGELOG.md chung.
 
 Các tác dụng cảm xúc là giả thuyết có điều kiện; ví dụ mới chưa chạy tạo video/kiểm khán giả. Bộ kiểm cấu trúc không thay đánh giá AI khác.
 
@@ -56,7 +56,7 @@ Các tác dụng cảm xúc là giả thuyết có điều kiện; ví dụ mớ
 7. Cảm xúc nhân vật, ý đồ đạo diễn và phản ứng khán giả là dữ liệu khác nhau.
 8. Tách ý đồ chung khỏi cú pháp/thiết lập của model/chế độ cụ thể.
 9. Sửa một lỗi thì bảo vệ phần đã đạt; chưa thử không báo đã khắc phục.
-10. Ngách ghim mã/phiên bản core; nâng bài học theo điều kiện và bằng chứng, trình thay đổi đảo nguyên tắc.
+10. Ngách đọc core hiện hành trên main; cập nhật tại chỗ, giữ mã và một nhật ký chung; nâng bài học theo căn cứ và trình thay đổi đảo nguyên tắc.
 
 Mục có application_depth cung cấp ca chọn phương án và chẩn đoán; đọc cả phần phải giữ và giới hạn nguồn. Dùng ../06_VAN_HANH_SAN_XUAT.md để nối công đoạn, ../07_KIEM_TRA_TRAI_NGHIEM.md để chọn đúng bằng chứng và ../08_BAN_DO_NANG_LUC.md để chọn độ sâu.
 
@@ -73,10 +73,12 @@ Gửi [hướng dẫn AI](../00_HUONG_DAN_AI.md), [chuẩn phân tích](../02_CH
 
 ## Đọc toàn bộ
 
-- [CORE_1_0_0.md](CORE_1_0_0.md): bản Markdown đầy đủ.
-- [CORE_1_0_0.jsonl](CORE_1_0_0.jsonl): 90 bản ghi kiến thức, mỗi dòng một đối tượng.
-- [Sổ nguồn đi kèm](SOURCES_1_0_0.json): phạm vi đã đọc và giới hạn từng nguồn ngoài.
+- [CORE.md](CORE.md): bản Markdown đầy đủ hiện hành.
+- [CORE.jsonl](CORE.jsonl): __CARD_COUNT__ bản ghi kiến thức hiện hành, mỗi dòng một đối tượng.
+- [Sổ nguồn đi kèm](SOURCES.json): phạm vi đã đọc và giới hạn từng nguồn ngoài.
 - [manifest-goi.json](manifest-goi.json): kích thước và SHA-256 các tệp gói.
+
+Các đường dẫn cố định luôn chỉ bản hiện hành; version xem trong manifest. Lịch sử dùng Git và [nhật ký chung](../CHANGELOG.md); không cần đọc các gói cũ để sử dụng.
 
 Đây là dữ liệu tham chiếu. Cần công cụ đọc tệp/đường dẫn thực sự; gửi URL không tự xác nhận mọi tệp đã được đọc. Dùng cách đọc chọn nếu một lượt không đủ.
 
@@ -96,12 +98,12 @@ Trả quyết định thực hiện được cùng đánh đổi và tiêu chí 
 
 Chưa có tuyên bố bộ gói đã được đánh giá độc lập trên các mô hình khác. Dùng [bộ tình huống](../kiem-thu/HUONG_DAN_DANH_GIA.md) để thực hiện bước đó.
 """
- start=start.replace('CORE_1_0_0',STEM).replace('SOURCES_1_0_0.json',source_stem).replace('90 bản ghi',str(len(cards))+' bản ghi')
+ start=start.replace('__CARD_COUNT__',str(len(cards)))
  (OUT/'START_HERE.md').write_text(start)
  files=[]
  for name in [STEM+'.md',STEM+'.jsonl',source_stem,'CORE_NGAN.md','START_HERE.md']:
   p=OUT/name;b=p.read_bytes();files.append({'path':name,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
- manifest={'version':VERSION,'canonical_record_count':len(cards),'files':files,'training_performed':False,'semantic_retrieval_deployed':False}
+ manifest={'version':VERSION,'canonical_record_count':len(cards),'files':files,'storage_mode':'in_place_latest','history':'git_commits','training_performed':False,'semantic_retrieval_deployed':False}
  (OUT/'manifest-goi.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+chr(10))
  print(json.dumps({'exported':len(files),'canonical_records':len(cards),'full_markdown_bytes':files[0]['bytes']}))
 def render_views(cards):

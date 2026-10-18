@@ -1,6 +1,6 @@
 # SO — Âm thanh, nhạc và lời kể
 
-Phiên bản 1.1.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
+Phiên bản 1.2.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

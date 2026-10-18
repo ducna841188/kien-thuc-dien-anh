@@ -66,9 +66,11 @@
     }
   ],
   "relative_links_valid": true,
-  "farm_files_checked": 6,
-  "farm_pinned_core_version_checked": "1.0.0",
-  "archived_records_checked": 90,
+  "version": "1.2.0",
+  "storage_mode": "in_place_latest",
+  "farm_files_checked": 5,
+  "farm_current_core_version_checked": "1.2.0",
+  "single_current_copy_policy_valid": true,
   "knowledge_contract_tests": [
     {
       "case": "missing protected elements rejected",
@@ -83,7 +85,15 @@
       "passed": true
     },
     {
-      "case": "archived cards valid with extended knowledge schema",
+      "case": "versioned active copy rejected",
+      "passed": true
+    },
+    {
+      "case": "separate niche change log rejected",
+      "passed": true
+    },
+    {
+      "case": "old working dependency rejected",
       "passed": true
     }
   ],
@@ -92,26 +102,25 @@
   "generated_video_tests": 0,
   "external_model_evaluations": 0,
   "scope": "Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.",
-  "version": "1.1.0",
   "checked_on": "2026-10-18",
-  "status": "passed_structural_and_integrity_checks",
+  "status": "passed_current_structure_and_integrity_checks",
   "preservation": {
-    "baseline_commit": "da4b991ef001943138f5df9ab58067f01d19f4d1",
-    "baseline_files": 778,
-    "deleted_baseline_files": 0,
-    "legacy_files_unchanged_excluding_root_readme": 616,
+    "baseline_core_commit": "6120ba1e9d1a5ce7e42277ef5b8e9efd125db3b5",
+    "baseline_farm_commit": "2951bb36d0738d33fd4ac2682b862e3351acd7c5",
     "original_images_unchanged": 444,
-    "unchanged_core_cards": 60,
-    "archived_packages_byte_identical": 2
+    "legacy_source_files_unchanged": 615,
+    "filmmaking_knowledge_cards_unchanged": 129,
+    "governance_card_changed": "QC-004",
+    "farm_rules_and_candidates_unchanged": true,
+    "farm_source_registry_and_analysis_example_unchanged": true
   },
-  "application_depth_records": 70,
-  "prepared_external_ai_cases": 40,
-  "external_ai_cases_run": 0,
+  "layout_changes": {
+    "superseded_core_files_removed": 11,
+    "farm_change_logs_merged": 1,
+    "central_change_log": "CHANGELOG.md",
+    "history": "git_commits",
+    "generated_files_overwrite_stable_paths": true
+  },
   "viewer_tests": 0,
-  "manual_content_review": "90 mục cũ và 40 mục mới, phạm vi/căn cứ và lựa chọn áp dụng; xem kiem-toan/RA_SOAT_1_1_0.md.",
-  "lookup_smoke_checks": [
-    "Trọng lượng/tay nhả: trả AI-003, DR-008, ED-010, AI-011 trong 4 kết quả đầu.",
-    "ACES Log RAW: trả CO-006, CO-009, CO-008 trong 3 kết quả đầu.",
-    "A/B title/thumbnail: trả YT-002, QC-003, YT-009 trong 3 kết quả đầu."
-  ]
+  "external_ai_cases_run": 0
 }

@@ -16,15 +16,21 @@ def knowledge_errors(card,schema,known_ids,source_ids):
   if e['source_id'] not in source_ids or e['source_id'] not in card['source_ids']:errors.append('scoped claim source is not attached to card')
  return errors
 
-def pinned_cards(dependency,current_ids,current_version):
- if dependency['version']==current_version:return current_ids,current_version
- registry=load(ROOT/'tuong-thich.json')
- release=next((r for r in registry['archived_core_releases'] if r['version']==dependency['version']),None)
- if not release:raise ValueError('unavailable pinned release: '+dependency['version'])
- if release['commit']!=dependency['commit']:raise ValueError('pinned commit differs from archived release')
- p=ROOT/release['canonical_jsonl']
- if hashlib.sha256(p.read_bytes()).hexdigest()!=release['sha256']:raise ValueError('pinned package checksum mismatch')
- return {json.loads(line)['id'] for line in p.read_text().splitlines() if line.strip()},release['version']
+def current_dependency_errors(dependency,current_version):
+ errors=[]
+ if dependency['version']!=current_version:errors.append('niche dependency needs current core version review')
+ if dependency['commit'] is not None:errors.append('working core dependency must follow main')
+ if dependency['manifest_url']!='https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/manifest.json':errors.append('working manifest URL must follow main')
+ return errors
+
+def current_layout_errors(paths,expected_logs=('CHANGELOG.md',)):
+ errors=[]
+ for path in paths:
+  if re.search(r'(?:^|/)(?:(?:CORE|SOURCES)_\d|manifest-goi-\d|ket-qua-\d|ra-soat-\d|RA_SOAT_\d)',path):errors.append('versioned active copy '+path)
+  if any(part.lower() in ('archive','archives','luu-tru') for part in Path(path).parts):errors.append('active archive folder '+path)
+ logs={p for p in paths if Path(p).name=='CHANGELOG.md'}
+ if logs!=set(expected_logs):errors.append('change log must be centralized')
+ return errors
 def spans_cover(spans,duration):
  if duration is None:return False
  point=0.0
@@ -192,35 +198,30 @@ def run(farm_root=None):
  expected=load(ROOT/'manifest.json')
  if len(cards)!=expected['core_card_count']:errors.append('manifest card count')
  if len(sources)!=expected['official_reference_count']:errors.append('manifest reference count')
- archived_count=0;archived_valid=True
- registry=load(ROOT/'tuong-thich.json')
- for release in registry['archived_core_releases']:
-  pkg=ROOT/release['canonical_jsonl'];b=pkg.read_bytes()
-  if hashlib.sha256(b).hexdigest()!=release['sha256']:errors.append('archived package checksum mismatch')
-  archived=[json.loads(line) for line in pkg.read_text().splitlines() if line.strip()]
-  for old in archived:
-   old_errors=json_errors(old,schemas['knowledge']);errors+=old_errors
-   if old_errors:archived_valid=False
-   current=next((c for c in cards if c['id']==old['id']),None)
-   if current and current['version']==old['version'] and current!=old:errors.append('same ID/version changed content '+old['id'])
-  archived_count+=len(archived)
- latest=ROOT/'goi-doc'/('CORE_'+expected['version'].replace('.','_')+'.jsonl')
+ latest=ROOT/'goi-doc/CORE.jsonl'
  if [json.loads(x) for x in latest.read_text().splitlines() if x.strip()]!=sorted(cards,key=lambda c:c['id']):errors.append('exported JSONL differs from canonical cards')
- for pack in [load(ROOT/'goi-doc/manifest-goi.json'),load(ROOT/'goi-doc/manifest-goi-1.0.0.json')]:
-  for entry in pack['files']:
-   b=(ROOT/'goi-doc'/entry['path']).read_bytes()
-   if len(b)!=entry['bytes'] or hashlib.sha256(b).hexdigest()!=entry['sha256']:errors.append('package manifest mismatch '+entry['path'])
+ pack=load(ROOT/'goi-doc/manifest-goi.json')
+ if pack['version']!=expected['version'] or pack['storage_mode']!='in_place_latest':errors.append('package current version/policy mismatch')
+ if {x['path'] for x in pack['files']}!={'CORE.md','CORE.jsonl','SOURCES.json','CORE_NGAN.md','START_HERE.md'}:errors.append('package paths must be stable')
+ if load(ROOT/'goi-doc/SOURCES.json')!=load(ROOT/'nguon/nguon-chinh-thuc.json'):errors.append('exported sources differ from canonical registry')
+ for entry in pack['files']:
+  b=(ROOT/'goi-doc'/entry['path']).read_bytes()
+  if len(b)!=entry['bytes'] or hashlib.sha256(b).hexdigest()!=entry['sha256']:errors.append('package manifest mismatch '+entry['path'])
  errors+=link_errors(ROOT.parent)
+ active_paths=[p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*') if p.is_file() and '__pycache__' not in p.parts]
+ errors+=current_layout_errors(active_paths)
  farm_files=0
  farm_version=None
  if farm_root:
   farm_root=Path(farm_root)
   p=load(farm_root/'ho-so-ngach.json');errors+=json_errors(p,schemas['niche'])
-  farm_ids,farm_version=pinned_cards(p['core_dependency'],ids,expected['version'])
+  errors+=current_dependency_errors(p['core_dependency'],expected['version'])
+  farm_ids,farm_version=ids,p['core_dependency']['version']
   for rule in p['rules']:
-   if any(i not in farm_ids for i in rule['core_ids']):errors.append('farm rule missing pinned core')
+   if any(i not in farm_ids for i in rule['core_ids']):errors.append('farm rule missing current core')
   errors+=analysis_errors(load(farm_root/'vi-du-vid01-tu-bao-cao.json'),schemas['analysis'],farm_ids)
   errors+=link_errors(farm_root);farm_files=sum(x.is_file() for x in farm_root.rglob('*'))
+  errors+=current_layout_errors([x.relative_to(farm_root).as_posix() for x in farm_root.rglob('*') if x.is_file()],expected_logs=())
  negative=negative_tests(schemas['analysis'],ids)
  sample=next(c for c in cards if c.get('application_depth',{}).get('evidence_links'))
  bad_depth=copy.deepcopy(sample);bad_depth['application_depth']['worked_example'].pop('protected_elements')
@@ -230,13 +231,15 @@ def run(farm_root=None):
   {'case':'missing protected elements rejected','passed':bool(knowledge_errors(bad_depth,schemas['knowledge'],ids,sourceids))},
   {'case':'unattached scoped claim source rejected','passed':bool(knowledge_errors(bad_source,schemas['knowledge'],ids,sourceids))},
   {'case':'empty diagnostic next test rejected','passed':bool(knowledge_errors(bad_test,schemas['knowledge'],ids,sourceids))},
-  {'case':'archived cards valid with extended knowledge schema','passed':archived_count>0 and archived_valid}]
+  {'case':'versioned active copy rejected','passed':bool(current_layout_errors(['CHANGELOG.md','goi-doc/CORE_1_2_0.jsonl']))},
+  {'case':'separate niche change log rejected','passed':bool(current_layout_errors(['CHANGELOG.md','farm/CHANGELOG.md']))},
+  {'case':'old working dependency rejected','passed':bool(current_dependency_errors({'version':'old','commit':'old','manifest_url':'old'},expected['version']))}]
  if not all(t['passed'] for t in contract_tests):errors.append('knowledge contract test failed')
  if errors:raise AssertionError(json.dumps(errors,ensure_ascii=False,indent=2))
  return {'core_cards':len(cards),'schemas_valid':len(schemas),'external_sources':len(sources),
   'legacy_lessons_mapped':33,'negative_fixture_tests':negative,'relative_links_valid':True,
-  'farm_files_checked':farm_files,'farm_pinned_core_version_checked':farm_version,
-  'archived_records_checked':archived_count,'knowledge_contract_tests':contract_tests,
+  'version':expected['version'],'storage_mode':'in_place_latest','farm_files_checked':farm_files,'farm_current_core_version_checked':farm_version,
+  'single_current_copy_policy_valid':True,'knowledge_contract_tests':contract_tests,
   'package_checksums_valid':True,'canonical_jsonl_matches':True,
   'generated_video_tests':0,'external_model_evaluations':0,
   'scope':'Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.'}

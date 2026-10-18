@@ -1,8 +1,8 @@
-# FILM-KB 1.1.0 — Gói đọc đầy đủ cho AI
+# FILM-KB 1.2.0 — Gói đọc đầy đủ cho AI
 
 Bản xuất từ JSON chuẩn và tài liệu cùng phiên bản. Gói này là dữ liệu tham chiếu, chưa huấn luyện thay đổi mô hình. Chia lượt theo chuyên đề nếu môi trường không nhận đủ; ghi những phần đã thực đọc.
 
-Liên kết trong gói dẫn về các tệp của kho. Khi cần bản ghim tuyệt đối, lấy commit chứa manifest của bản phát hành đang dùng; không giả định main mãi giữ nguyên.
+Gói có một đường dẫn hiện hành, được xuất đè từ JSON chuẩn mới nhất. Liên kết làm việc trỏ main. Lịch sử nằm trong Git; thay đổi được ghi tại CHANGELOG.md chung.
 
 Các tác dụng cảm xúc là giả thuyết có điều kiện; ví dụ mới chưa chạy tạo video/kiểm khán giả. Bộ kiểm cấu trúc không thay đánh giá AI khác.
 
@@ -14,7 +14,7 @@ Nguồn bản xuất: 00_HUONG_DAN_AI.md
 
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.1.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.2.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
@@ -22,7 +22,7 @@ Phiên bản 1.1.0. Đây là kho tham chiếu dùng để phân tích và ra qu
 2. Đọc tài liệu này, 02_CHUAN_PHAN_TICH.md và 03_RA_QUYET_DINH.md.
 3. Chọn tác vụ trong quy-trinh/; lấy mã liên quan từ muc-luc.json hoặc tuyen-tra-cuu.json.
 4. Đọc toàn mục kiến thức, gồm điều kiện, đánh đổi và phản ví dụ; không chỉ đọc tiêu đề.
-5. Nếu có ngách, đọc hồ sơ ngách đúng phiên bản và đối chiếu phụ thuộc core.
+5. Nếu có ngách, đọc hồ sơ hiện hành và đối chiếu với manifest core trên main.
 6. Đọc các tài sản/dữ liệu của yêu cầu hiện tại; xác định phần chưa có.
 7. Trả kết quả có quyết định cụ thể, mã kiến thức/phiên bản, giả định và cách kiểm.
 
@@ -47,17 +47,23 @@ Khi thiếu dữ liệu thiết yếu, hỏi đúng phần chặn quyết địn
 ## Hai cách mang dữ liệu sang AI khác
 
 - Đọc chọn: tài liệu này + chuẩn phân tích/ra quyết định + mô-đun liên quan + hồ sơ ngách + đầu vào.
-- Đọc toàn: goi-doc/CORE_1_1_0.md và JSONL tương ứng. Dùng mục lục để chia lượt nếu môi trường không nhận đủ; không coi việc gửi link là bằng chứng AI đã đọc mọi tệp.
+- Đọc toàn: goi-doc/CORE.md và JSONL tương ứng. Dùng mục lục để chia lượt nếu môi trường không nhận đủ; không coi việc gửi link là bằng chứng AI đã đọc mọi tệp.
 
 Các gói là bản xuất từ JSON chuẩn. Việc kiểm hành vi của AI khác dùng bộ tình huống ở kiem-thu/; báo cáo cấu trúc không thay thế đánh giá kết quả suy luận.
 
-## Dùng phần mở rộng 1.1.0
+## Áp dụng và chẩn đoán
 
 Mục có application_depth bổ sung cơ chế/quan hệ cần xét, một ca so phương án với phần phải giữ, dấu kiểm và chẩn đoán lỗi. Đọc phần này khi quyết định có đánh đổi hoặc lỗi lặp; các ví dụ là thiết kế, không phải kết quả thử. evidence_links chỉ phát biểu cụ thể và giới hạn nguồn hỗ trợ; source_ids cũng có thể chứa nguồn bối cảnh, không bảo chứng mọi hành động biên soạn.
 
 Khi lập việc mới, dùng [bản đồ năng lực](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/08_BAN_DO_NANG_LUC.md) và [vòng sản xuất](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/06_VAN_HANH_SAN_XUAT.md). Khi nói đã cải thiện, dùng [tiêu chí bằng chứng](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md), giữ phân biệt tuân thủ kỹ thuật, khả năng hiểu, hành vi xem và hài lòng.
 
-Bản phát hành 1.1.0 chứa cả mục 1.0.0 giữ nguyên và mục 1.1.0 mới/sửa. Dẫn ID@version thực đọc, cùng release/commit của gói. Dự án ghim bản trước phải dùng đúng commit/gói trước; không thay nội dung bằng main rồi gọi vẫn cùng phiên bản. Xem [tương thích](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuong-thich.json).
+## Một bản hiện hành, một nhật ký
+
+Luôn đọc các đường dẫn hiện hành trên main. Sửa trực tiếp đúng tệp và mã cũ; cập nhật version của phần đổi, xuất đè các gói cố định. Không tạo tệp/nhánh tài liệu v1/v2, gói theo ngày/version hoặc báo cáo riêng cho từng lượt sửa. [CHANGELOG.md](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md) là nhật ký chung của thư viện và Farm.
+
+manifest.version là bản thư viện hiện hành; version trong từng bản ghi là lần sửa mới nhất của mục đó. Một mục chưa đổi vẫn là mục hiện hành, không cần đọc thêm một tệp khác. Dẫn ID@version thực đọc khi cần truy nguyên. Nội dung trước sửa nằm trong lịch sử Git.
+
+Ngách đọc core hiện hành và kiểm các mã đang dùng; không tự đổi lựa chọn sáng tạo đã duyệt. Khi kiểm một phân tích lịch sử, dùng revision/checksum nguồn của nó và commit Git nếu cần tái hiện; không tạo lại bản sao cũ trong main.
 
 
 ---
@@ -93,7 +99,7 @@ Các hồ sơ mô hình ở mo-hinh/ phục vụ cả hai tầng, là phần tri
 
 ## Định danh, phiên bản và dữ liệu thiếu
 
-Mã ổn định, phiên bản thay khi nội dung đổi. Không tái dùng mã đã bỏ cho ý khác. Bản ngách ghim core bằng phiên bản và commit; bản phân tích ghim nguồn hoặc lưu checksum/asset ID. Nếu không có dữ liệu đo thì null với lý do; khác với số 0, không có hoặc không áp dụng.
+Mã ổn định, phiên bản thay khi nội dung đổi. Không tái dùng mã đã bỏ cho ý khác. Ngách liên kết core hiện hành trên main và ghi version đã kiểm; bản phân tích giữ revision nguồn hoặc checksum/asset ID. Nếu không có dữ liệu đo thì null với lý do; khác với số 0, không có hoặc không áp dụng.
 
 Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm thời gian, quan hệ cha, tham chiếu, độ phủ và quyền kết luận. Schema đúng chưa có nghĩa phân tích đúng video.
 
@@ -101,9 +107,9 @@ Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm t
 
 muc-luc.json tra mã/chuyên đề; tuyen-tra-cuu.json tra theo vấn đề. cong-cu/tra_cuu.py là tìm từ khóa cục bộ, chưa phải tìm ngữ nghĩa. JSONL có một mục kiến thức mỗi dòng; phần phân tích video giữ ở corpus riêng. Không tự dùng toàn bộ dữ liệu nguồn làm ví dụ trả lời đúng.
 
-## Hợp đồng mở rộng ở bản 1.1.0
+## Hợp đồng dữ liệu hiện hành
 
-knowledge.schema 1.1.0 thêm application_depth tùy chọn; bản ghi kiến thức 1.0.0 vẫn hợp lệ. Tám hợp đồng phân tích/tác vụ còn lại vẫn là 1.0.0. schema_version của manifest chỉ bản bộ hợp đồng; xem chi tiết trong tuong-thich.json.
+Schema kiến thức có application_depth tùy chọn. Phiên bản schema mô tả hợp đồng dữ liệu, khác version của nội dung; các tệp schema hiện hành luôn được sửa tại cùng đường dẫn. Không sao schema theo bản phát hành.
 
 | Thành phần application_depth | Chức năng |
 | --- | --- |
@@ -114,7 +120,9 @@ knowledge.schema 1.1.0 thêm application_depth tùy chọn; bản ghi kiến th�
 
 Các ca ở vi-du/bon-ca-ra-quyet-dinh.json là synthetic_worked_examples, chưa thực hiện và không dùng thay analysis. Bản đồ năng lực, vòng sản xuất và bảng phép kiểm là hướng dẫn điều phối, không thêm nhãn quan sát giả vào video nguồn.
 
-manifest.version là bản phát hành; version của từng mục chỉ đổi khi mục đó đổi. JSONL bản cũ được giữ nguyên byte, cùng checksum và commit trong tuong-thich.json. Kiểm tương thích cấu trúc không tự đổi ghim tri thức của ngách.
+manifest.version là bản thư viện hiện hành; version của từng mục chỉ đổi khi mục đó đổi. Mỗi mục có một tệp chuẩn. Chuyên đề Markdown, CORE.md và CORE.jsonl là các dạng xuất phục vụ đọc khác nhau, đều phản ánh cùng dữ liệu hiện hành; không là các phiên bản lịch sử.
+
+Gói xuất và kết quả kiểm dùng tên cố định. Lịch sử, diff và khôi phục dùng Git; thay đổi được ghi trong một [CHANGELOG.md](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md) chung. Corpus tổ chức theo video/asset thật, mỗi phân tích được sửa tại tệp hiện hành của nó; không nhân thư mục theo version chỉ vì biên tập lại.
 
 
 ---
@@ -169,7 +177,7 @@ Ghi theo khoảng: việc khán giả đang theo, thông tin mới, điều đan
 
 Mẫu ở mau/phan-tich-video.json. Ví dụ trong vi-du/phan-tich-gia-lap.json chỉ dùng kiểm cấu trúc.
 
-## Bổ sung khi phân tích sâu ở 1.1.0
+## Phân tích sâu
 
 Phân biệt ba tuyến: điểm cắt; sự kiện/thay đổi có ý nghĩa; âm. Một sự kiện có thể qua nhiều shot, một shot có thể có nhiều sự kiện. Giữ ranh giới shot theo bằng chứng cắt/chuyển cảnh; dùng sự kiện và findings/diễn giải để mô tả đổi mục tiêu hoặc quan hệ, không sửa cut cho khớp cảm giác nhịp.
 
@@ -231,41 +239,35 @@ Chọn phép kiểm theo loại kết luận: xem hình/âm cho thực hiện, n
 
 Nguồn bản xuất: 04_CAP_NHAT_KIEN_THUC.md
 
-# Quy trình cập nhật và nâng kiến thức
+# Cập nhật kiến thức tại chỗ
 
-## Quyền đã được người dùng chốt
+## Quyền và quy ước hiện hành
 
-Chủ động bổ sung/sửa có căn cứ. Thay đổi làm đảo nguyên tắc đang dùng phải trình rõ trước khi áp dụng rộng. Kho chung và Farm giữ nguồn, mã và phiên bản.
+Chủ động bổ sung/sửa có căn cứ. Người dùng chốt: sửa trực tiếp tài liệu/mã hiện hành, chỉ giữ bản mới nhất ở mỗi đường dẫn. Git lưu lịch sử; [CHANGELOG.md](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md) là một nhật ký chung cho thư viện và các thay đổi liên quan Farm. Không tạo bản sao theo ngày/version, thư mục archive hay báo cáo riêng cho mỗi lượt.
 
-## Vòng phản hồi từ ngách
+Thay đổi đảo nguyên tắc sáng tạo đang dùng phải trình rõ trước áp dụng rộng. Quy ước lưu trữ tại chỗ đã được người dùng chỉ định, áp dụng ngay. Giữ nguồn và dấu vết quan sát, không sửa bằng chứng để khớp giả thuyết.
 
-1. Hoàn tất nhập nguồn và ghi độ phủ cho các video của một lượt.
-2. So các chuỗi/shot theo cùng tiêu chí; đếm mẫu chỉ trong phần có bằng chứng phù hợp.
-3. Lập ứng viên: phát biểu, phạm vi, nguồn, phản ví dụ và hệ quả dự kiến.
-4. Tách phần có thể chuyển giao khỏi đặc điểm khán giả/gu tác giả.
-5. Phân loại bổ sung, sửa điều kiện, sửa sai dữ kiện hoặc đảo nguyên tắc.
-6. Bổ sung/sửa có căn cứ được ghi phiên bản và nhật ký. Đảo nguyên tắc giữ proposed_reversal và trình tác động, chưa áp dụng rộng.
-7. Rà các hồ sơ ngách phụ thuộc; cập nhật ghim phiên bản có giải thích.
+## Một lượt cập nhật
 
-## Không dùng số lượng thay cho chất lượng bằng chứng
+1. Đọc tệp hiện hành, manifest, các mã/tài liệu phụ thuộc và yêu cầu mới.
+2. Xác định lỗi hoặc điều cần thêm; ghi căn cứ, điều kiện, phản ví dụ và tác động.
+3. Sửa đúng JSON/tài liệu cũ. Chỉ thêm mã mới khi có một nội dung/chức năng mới, không thêm mã chỉ để chứa bản sửa.
+4. Cập nhật version của mục đổi và version thư viện khi xuất bản. Ngách đọc core hiện hành, kiểm các mã đang dùng và cập nhật metadata; giữ lựa chọn sáng tạo đã chốt.
+5. Xuất lại chuyên đề và gói vào cùng đường dẫn: goi-doc/CORE.md, CORE.jsonl, SOURCES.json và manifest-goi.json.
+6. Chạy các kiểm phù hợp; ghi đè kết quả hiện hành ở kiem-thu/ket-qua.json. Không báo video/khán giả/AI ngoài đã kiểm khi chưa thực hiện.
+7. Ghi một mục vào CHANGELOG.md: version/ngày, nội dung và lý do đổi, mã/tệp ảnh hưởng, căn cứ cần thiết và trạng thái kiểm. Commit Git cung cấp phần diff chi tiết.
 
-Ba video giống nhau không tự đủ khái quát. Các tệp trùng, cùng chiến dịch hoặc cùng tác giả có thể không độc lập. Dữ liệu giữ chân không tự chứng minh cơ chế cảm xúc. Nghiên cứu hỗ trợ câu hỏi thiết kế ở phạm vi nào thì giữ đúng phạm vi đó.
+## Vòng học từ ngách
 
-## Phiên bản và khả năng quay lại
+Nhập nguồn theo asset/video thật, ghi mốc và độ phủ. Phân tích theo cùng chuẩn; tách quan sát, nguồn thuật lại, diễn giải và đề xuất. Sửa phân tích tại tệp hiện hành, giữ dấu vết bằng chứng. Khi có thêm một nguồn thật, tạo định danh nguồn mới; không xem nó như bản sao v2 của tài liệu.
 
-Giữ mã; thay version khi sửa nội dung. Ghi trước/sau, lý do, nguồn, loại tác động, trạng thái và mã phụ thuộc. Bản ngách ghi cả version core và commit. Không sửa kho nguồn thành vừa khít với kiến thức mới; bổ sung lớp đối chiếu.
+Tổng hợp bài học có điều kiện, kiểm nguồn thuận/trái và tính độc lập. Tách chức năng có thể chuyển giao khỏi gu hoặc tỷ lệ của một tác giả. Phân loại bổ sung, sửa điều kiện, sửa dữ kiện hoặc đảo nguyên tắc; mục đảo nguyên tắc giữ proposed_reversal cho đến khi được chốt.
 
-## Mức hoàn thành
+## Truy nguyên và quay lại
 
-Nền tảng v1 là bộ khung có nội dung hoạt động và hợp đồng dữ liệu. Những phần quan sát mới, thử video, đánh giá AI khác và phản hồi khán giả được bổ sung khi có đầu vào thực. Không đổi trạng thái chưa thử thành đạt để đủ bảng.
+Để xem trước–sau hoặc phục hồi, dùng lịch sử/diff/commit của Git tại đúng đường dẫn. Nhật ký giúp tìm mốc thay đổi, không chứa toàn bộ bản sao nội dung cũ. Không cần đọc các bản trước để sử dụng thư viện hiện hành.
 
-## Tiếp nhận bản 1.1.0
-
-Đây là bản bổ sung/làm rõ: không áp đảo nguyên tắc. 60 mục cũ giữ nguyên; 30 mục đổi phiên bản vì thêm điều kiện và chiều áp dụng; 40 mã mới. Báo cáo và dấu vết từng mục nằm trong [lượt rà](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kiem-toan/RA_SOAT_1_1_0.md).
-
-Giữ CORE_1_0_0.md/JSONL; hồ sơ ngách cũ tiếp tục giải quyết theo commit/gói đã ghim. Farm vẫn ghi core 1.0.0, không được hiểu là đã dùng mọi bổ sung mới. Khi muốn nâng ngách, lập bản so các mã thực dùng, ràng buộc khán giả và quyết định hiện hành; việc đọc được schema mới chỉ là kiểm cấu trúc.
-
-Nguồn sơ cấp mới ghi ngày, phạm vi đã đọc và điều chưa xác nhận. Thay đổi tài liệu model/nền tảng về sau cần kiểm lại khi triển khai; không đóng băng thông số sản phẩm thành nguyên lý điện ảnh.
+Revision, checksum và asset ID trong một phân tích cho biết bằng chứng đã dùng. Chúng không buộc tài liệu hướng dẫn đang dùng trỏ về phiên bản cũ. Dữ liệu chưa biết tiếp tục ghi rõ; chưa thử không đổi thành đạt.
 
 
 ---
@@ -274,7 +276,7 @@ Nguồn bản xuất: 06_VAN_HANH_SAN_XUAT.md
 
 # Từ yêu cầu đến bản phim có thể duyệt
 
-FILM-KB 1.1.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md).
+FILM-KB 1.2.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md).
 
 Quy trình này nối năm tác vụ của kho vào một vòng sản xuất. Mục tiêu là tìm lỗi bằng đầu ra phù hợp và sửa trước khi chi phí lan sang những phần khác. Dự án nhỏ có thể gộp bước; các loại bằng chứng vẫn cần được phân biệt.
 
@@ -341,7 +343,7 @@ Nguồn bản xuất: 07_KIEM_TRA_TRAI_NGHIEM.md
 
 # Chọn đúng bằng chứng cho trải nghiệm muốn tạo
 
-FILM-KB 1.1.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [QC-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-008.json) · [YT-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/YT-007.json).
+FILM-KB 1.2.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [QC-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-008.json) · [YT-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/YT-007.json).
 
 Một phim đúng kỹ thuật có thể chưa phù hợp người xem. Một video được xem lâu có thể được thích, được dùng làm nền, được học lại hoặc khó hiểu. Đặt câu hỏi trước, thu đúng dữ liệu và chỉ kết luận trong phạm vi dữ liệu trả lời được.
 
@@ -400,7 +402,7 @@ Nguồn bản xuất: 08_BAN_DO_NANG_LUC.md
 
 # Bản đồ năng lực: đọc để phân tích, quyết định và thực hiện
 
-FILM-KB 1.1.0. [Mục lục đầy đủ](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/muc-luc.json) · [Tra theo vấn đề](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuyen-tra-cuu.json).
+FILM-KB 1.2.0. [Mục lục đầy đủ](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/muc-luc.json) · [Tra theo vấn đề](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuyen-tra-cuu.json).
 
 Các mức căn bản, trung cấp và nâng cao mô tả độ phức tạp của quyết định. Người mới đi theo cột căn bản; AI đang làm việc lấy cả nền, mục liên quan và phản ví dụ, không cần đọc lại tuần tự mọi mã cho mỗi yêu cầu.
 
@@ -455,7 +457,7 @@ Nguồn bản xuất: quy-trinh/01-phan-tich-video.md
 
 # Phân tích video
 
-Tác vụ: analyze_video. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: analyze_video. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -485,7 +487,7 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [EV-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-001.json), [EV-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-003.json), [EV-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-004.json), [EV-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-005.json), [ED-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-001.json), [AU-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-004.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Trước gắn nhãn hàng loạt, lập sổ định nghĩa và mẫu số theo EV-008. Gắn riêng cut, sự kiện và âm; rà chuyển lực/tiếp xúc, điểm nhìn qua cut và chức năng thời gian. Khi rút bài học từ phim nổi bật, giữ thiên lệch mẫu và điều kiện theo EV-007, YT-010. Đối chiếu kết luận với 07_KIEM_TRA_TRAI_NGHIEM trước khi viết tác dụng khán giả.
 
@@ -496,7 +498,7 @@ Nguồn bản xuất: quy-trinh/02-kich-ban.md
 
 # Xây và sửa kịch bản
 
-Tác vụ: write_script. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_script. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -525,7 +527,7 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [AU-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AU-001.json), [ST-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-001.json), [ST-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-003.json), [ST-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-005.json), [ST-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-007.json), [ST-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ST-008.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Tách chủ đề khỏi góc tiếp cận theo YT-008. Với mỗi nhịp ghi thay đổi, điều đáng quan tâm và bằng chứng cuối nhịp. Dùng ST-009/ST-010/ST-011 để xử lý mạch rời, lặp không tiến và việc nhỏ thiếu giá trị; ST-012 khi cần mô-típ. Dựng sơ theo AI-009 trước tạo hàng loạt, bảo vệ dạng không thoại nếu đã chốt.
 
@@ -536,7 +538,7 @@ Nguồn bản xuất: quy-trinh/03-danh-sach-shot.md
 
 # Thiết kế danh sách shot
 
-Tác vụ: design_shots. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: design_shots. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -565,7 +567,7 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [DR-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/DR-002.json), [DR-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/DR-006.json), [CA-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/CA-001.json), [CA-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/CA-004.json), [MO-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/MO-001.json), [AI-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-003.json), [ED-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/ED-003.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Ghi chức năng và trạng thái vào/ra trước thông số. CA-011/CA-012 giúp bố cục theo thời gian và vùng nét đủ đọc; MO-007/MO-008 cho nhòe, quỹ đạo và nhịp chuyển động; LI-007/LI-008 cho phơi sáng và đường sáng. Với tiếp xúc, xác định điểm đỡ, pha chạm/nhả và cách nối qua ED-009/ED-010. Chỉ nêu số máy quay thật khi có điều kiện, còn AI cần kiểm kết quả.
 
@@ -576,7 +578,7 @@ Nguồn bản xuất: quy-trinh/04-cau-lenh-ai.md
 
 # Viết yêu cầu tạo ảnh/video
 
-Tác vụ: write_generation_prompts. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_generation_prompts. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -605,7 +607,7 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [AI-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-001.json), [AI-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-002.json), [AI-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-003.json), [AI-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-004.json), [AI-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-007.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Kiểm khả thi ảnh đầu theo AI-011 và sổ trạng thái theo AI-010. Tách ý đồ, tham chiếu và thiết lập thật của model/chế độ theo AI-013. Chuẩn bị tiêu chí toàn clip và mốc rủi ro; không coi từ khóa lens/fps/8K hoặc seed là khóa tuyệt đối. AI-012 giúp giao phần chính xác sang hậu kỳ khi có cách làm phù hợp. Chưa sinh đầu ra thì giữ trạng thái yêu cầu/đề xuất.
 
@@ -616,7 +618,7 @@ Nguồn bản xuất: quy-trinh/05-chan-doan-sua-loi.md
 
 # Chẩn đoán và sửa lỗi
 
-Tác vụ: diagnose_and_repair. Core release 1.1.0; dẫn version của từng mục thực dùng.
+Tác vụ: diagnose_and_repair. Core release 1.2.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -645,7 +647,7 @@ Kết quả kèm mã kiến thức, phiên bản, giả định và trạng thá
 
 Mã trọng tâm: [QC-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-002.json), [AI-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-008.json), [QC-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-003.json), [MO-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/MO-006.json), [QC-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-001.json)
 
-## Áp dụng chiều sâu 1.1.0
+## Áp dụng và kiểm tra
 
 Phân loại lỗi trước: cấu trúc/thông tin, hành vi/tiếp xúc, hình/nhận diện, chuyển động, màu hoặc âm. Dùng phần failure_diagnosis và related_ids của mục liên quan để chọn giả thuyết; QC-008 chọn đúng phép kiểm. Ghi phần phải giữ, thử ít biến có mục đích; AI-012/QC-009 giúp quyết định sửa vùng, dựng, âm, tạo lại hoặc đổi công đoạn. Chưa có kết quả mới không báo đã khắc phục.
 
@@ -656,7 +658,7 @@ Nguồn bản xuất: chuyen-de/01-bang-chung-va-phan-tich.md
 
 # EV — Bằng chứng và chuẩn phân tích
 
-Phiên bản 1.1.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
+Phiên bản 1.2.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -1030,7 +1032,7 @@ Nguồn bản xuất: chuyen-de/02-khan-gia-chu-y-cam-xuc.md
 
 # AU — Khán giả, chú ý và cảm xúc
 
-Phiên bản 1.1.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
+Phiên bản 1.2.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -1524,7 +1526,7 @@ Nguồn bản xuất: chuyen-de/03-kich-ban-va-cau-truc.md
 
 # ST — Kịch bản và cấu trúc
 
-Phiên bản 1.1.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
+Phiên bản 1.2.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -2176,7 +2178,7 @@ Nguồn bản xuất: chuyen-de/04-dao-dien-dan-canh.md
 
 # DR — Đạo diễn, diễn xuất và dàn cảnh
 
-Phiên bản 1.1.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
+Phiên bản 1.2.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -2612,7 +2614,7 @@ Nguồn bản xuất: chuyen-de/05-bo-cuc-may-quay-quang-hoc.md
 
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.1.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.2.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3158,7 +3160,7 @@ Nguồn bản xuất: chuyen-de/06-chuyen-dong-thoi-gian.md
 
 # MO — Chuyển động và thời gian
 
-Phiên bản 1.1.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
+Phiên bản 1.2.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3537,7 +3539,7 @@ Nguồn bản xuất: chuyen-de/07-anh-sang.md
 
 # LI — Ánh sáng
 
-Phiên bản 1.1.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
+Phiên bản 1.2.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3947,7 +3949,7 @@ Nguồn bản xuất: chuyen-de/08-mau-sac-thiet-ke-hinh.md
 
 # CO — Màu sắc và thiết kế hình ảnh
 
-Phiên bản 1.1.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
+Phiên bản 1.2.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -4422,7 +4424,7 @@ Nguồn bản xuất: chuyen-de/09-dung-phim-va-nhip.md
 
 # ED — Dựng phim và điều khiển nhịp
 
-Phiên bản 1.1.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
+Phiên bản 1.2.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -4959,7 +4961,7 @@ Nguồn bản xuất: chuyen-de/10-am-thanh-nhac-loi.md
 
 # SO — Âm thanh, nhạc và lời kể
 
-Phiên bản 1.1.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
+Phiên bản 1.2.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -5492,7 +5494,7 @@ Nguồn bản xuất: chuyen-de/11-san-xuat-bang-ai.md
 
 # AI — Sản xuất bằng AI
 
-Phiên bản 1.1.0. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
+Phiên bản 1.2.0. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -6174,7 +6176,7 @@ Nguồn bản xuất: chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md
 
 # QC — Kiểm tra và học từ kết quả
 
-Phiên bản 1.1.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
+Phiên bản 1.2.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -6185,7 +6187,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [QC-001](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-001) | Duyệt theo mục tiêu và lỗi chặn sử dụng | co_ban |
 | [QC-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-002) | Chẩn đoán lỗi trước khi viết lại | trung_cap |
 | [QC-003](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-003) | Thử có kiểm soát và nhật ký kết quả | nang_cao |
-| [QC-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-004) | Quản lý tri thức, phiên bản và phụ thuộc | nang_cao |
+| [QC-004](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-004) | Cập nhật tại chỗ, bản hiện hành và lịch sử Git | nang_cao |
 | [QC-005](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-005) | Dự toán bằng sản phẩm dùng được | trung_cap |
 | [QC-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-006) | Từ ví dụ ngách tới kiến thức chung | nang_cao |
 | [QC-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-007) | Duyệt theo công đoạn để không hoàn thiện một cấu trúc còn sai | trung_cap |
@@ -6326,62 +6328,63 @@ Thử tiếp: Kiểm nhật ký cấu hình và tiêu chí, rồi chọn thử �
 [Bản JSON chuẩn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-003.json). Đọc phạm vi nguồn trong [sổ nguồn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/nguon/nguon-chinh-thuc.json).
 
 <a id="qc-004"></a>
-## QC-004 — Quản lý tri thức, phiên bản và phụ thuộc
+## QC-004 — Cập nhật tại chỗ, bản hiện hành và lịch sử Git
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.0
 
 **Câu hỏi quyết định:** Đâu là bản hiện hành và thay đổi ảnh hưởng những gì?
 
 **Dùng khi:** Khi nhiều AI hoặc nhiều ngách dùng chung kho.
 
-**Nguyên lý thực hành:** Mỗi mục có mã ổn định, phiên bản, trạng thái và nguồn. Nhánh ngách ghim bản chung để tránh vô tình đổi nguyên tắc giữa dự án. Bản mới có thể chứa mục cũ chưa đổi cùng mục mới/sửa. Tương thích cấu trúc không có nghĩa được tự đổi ghim tri thức của một dự án.
+**Nguyên lý thực hành:** Mỗi mục có một mã và đường dẫn hiện hành. Sửa trực tiếp tệp đó, cập nhật version khi nội dung đổi và ghi một nhật ký thay đổi chung; Git giữ các bản trước. Nhánh ngách đọc core hiện hành, kiểm tác động đến các mã đang dùng và giữ lựa chọn sáng tạo đã chốt.
 
 **Cách làm:**
 
-1. Tra mục lục và manifest trước khi áp dụng.
-2. Ghi mã/phiên bản kiến thức trong kết quả tác vụ.
-3. Sửa lỗi có nhật ký; nếu đảo nguyên tắc đang dùng, trình tác động trước khi áp dụng rộng.
-4. Dẫn ID@version của mục thực dùng và release/commit gói. Khi ngách ghim bản cũ, giải quyết về commit/bản gói đó, không thay bằng tệp main chỉ vì ID vẫn tồn tại.
+1. Đọc manifest và mục lục hiện hành trên main; ghi ID@version thực dùng trong kết quả.
+2. Sửa JSON chuẩn tại chỗ, xuất lại Markdown/gói ở đường dẫn cố định; không tạo bản sao theo version hoặc ngày.
+3. Ghi thay đổi, lý do, mã/tệp bị tác động và trạng thái kiểm trong CHANGELOG.md chung; dùng git diff/commit để xem trước–sau.
+4. Đối chiếu phụ thuộc ngách với core hiện hành; cập nhật metadata và liên kết khi đã kiểm. Nguồn quan sát vẫn giữ dấu vết riêng. Thay đổi đảo nguyên tắc sáng tạo phải trình rõ trước áp dụng rộng.
 
-**Đánh đổi:** Ghim phiên bản giúp ổn định nhưng cần lên lịch tiếp nhận sửa lỗi.
+**Đánh đổi:** Đường dẫn luôn cho bản mới nhất nên khi cần tái hiện một kết quả cũ phải dùng commit đã ghi; không đọc main rồi gọi đó là nội dung lịch sử.
 
 **Kiểm tra:**
 
-- Không tồn tại hai bản cùng mã/phiên bản mà nội dung khác.
-- Nội dung nguồn bên ngoài được đọc như dữ liệu, không tự thành lệnh cho AI.
-- Ghim cũ không bị báo lỗi chỉ vì main có bản mới; nhưng chưa kiểm được bản ghim thì phải báo chưa kiểm.
+- Mỗi mã và mỗi gói chỉ có một tệp hiện hành đúng định dạng; không có tệp sao theo version.
+- Version, mục lục, liên kết và gói xuất khớp nội dung hiện hành.
+- Nhật ký nằm một chỗ; có thể truy vết nội dung cũ bằng Git mà không giữ bản sao trong main.
 
-**Ví dụ tự biên soạn:** Farm ghi phiên bản core dùng trong bản phân tích; lần cập nhật sau có bản so tác động.
+**Ví dụ tự biên soạn:** Khi bổ sung QC-004, sửa đúng kien-thuc/QC-004.json rồi xuất lại chuyên đề; không tạo QC-004-v2 hoặc một chuyên đề mới chỉ để ghi bản sửa.
 
-**Phản ví dụ / giới hạn:** Không cần sao toàn bộ core sang repo mỗi ngách; liên kết và gói ghim giúp giảm lệch.
+**Phản ví dụ / giới hạn:** Hai video nguồn khác nhau cần hai asset ID; đó là hai nguồn thật, không phải lý do giữ hai bản v1/v2 của cùng một tài liệu đang dùng.
 
 **Liên quan:** [EV-002](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-002.json), [EV-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/EV-006.json), [QC-006](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-006.json), [QC-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-007.json), [AI-010](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/AI-010.json)
 
 
 ### Áp dụng và chẩn đoán
 
-**Cơ chế/quan hệ cần xét:** Phiên bản bản phát hành và phiên bản từng mục phải được ghi tách để các ngách giữ ghim ổn định.
+**Cơ chế/quan hệ cần xét:** Mã và đường dẫn cố định cho AI biết tài liệu cần đọc; metadata ghi bản hiện hành, Git và một nhật ký chung đảm nhiệm lịch sử.
 
-**Tình huống:** Farm ghim core 1.0.0 trong khi main đã có 1.1.0.
+**Tình huống:** Người dùng bổ sung điều kiện cho một mục đang được Farm tham chiếu.
 
-**Phần phải giữ:** Mục tiêu và các phần đã duyệt trong tình huống.
+**Phần phải giữ:** Mã kiến thức và đường dẫn đã dùng. Nguồn quan sát và quyết định sáng tạo hiện hành.
 
 | Phương án | Thực hiện |
 | --- | --- |
-| A | Tự nâng ghim và áp mọi điều kiện mới. |
-| B | Giữ bản ghim, cung cấp bản so tác động rồi chỉ nâng khi có quyết định phù hợp. |
+| A | Tạo một gói mới có hậu tố version và giữ gói cũ cạnh nó để các AI tự chọn. |
+| B | Sửa mục hiện hành, kiểm các tham chiếu, xuất đè gói cố định và ghi thay đổi vào CHANGELOG.md. |
 
-**Cách chọn:** Chọn B; nhiệm vụ rà tầng 1 không tự là nhiệm vụ đổi mọi dự án đang chạy.
+**Cách chọn:** Chọn B theo chính sách người dùng; khi cần đối chiếu bản trước, mở commit của Git.
 
 **Dấu hiệu kiểm trong ca:**
 
-- Ghim cũ không bị báo lỗi chỉ vì main có bản mới; nhưng chưa kiểm được bản ghim thì phải báo chưa kiểm.
+- Chỉ có một tệp hiện hành cho mỗi mã/định dạng.
+- Farm đọc manifest hiện hành; nội dung nguồn và lựa chọn đã duyệt không bị đổi ngoài phạm vi.
 
-**Nếu gặp:** Cùng báo ID nhưng hai AI ra quyết định từ hai nội dung khác nhau.
+**Nếu gặp:** Hai AI đọc hai tệp tên gần nhau rồi dùng hai nguyên tắc khác nhau.
 
-Có thể do: Thiếu version hoặc đọc main thay commit ghim.
+Có thể do: Còn bản sao theo version ở main. Liên kết làm việc trỏ commit cũ hoặc gói cũ.
 
-Thử tiếp: So manifest, mục thực đọc và commit/gói; ghi lại đúng phiên bản trước khi so kết luận.
+Thử tiếp: Kiểm manifest, đường dẫn và liên kết; hợp nhất vào tệp hiện hành, xem lịch sử bằng Git và xuất lại gói.
 **Nguồn đối chiếu:** [B019](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/bai-hoc/019-banh-da-hoc-tap-ai/README.md)
 
 [Bản JSON chuẩn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-004.json). Đọc phạm vi nguồn trong [sổ nguồn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/nguon/nguon-chinh-thuc.json).
@@ -6668,7 +6671,7 @@ Nguồn bản xuất: chuyen-de/13-youtube-loi-hua-phan-hoi.md
 
 # YT — YouTube: lời hứa và phản hồi
 
-Phiên bản 1.1.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
+Phiên bản 1.2.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -7331,7 +7334,7 @@ Nguồn bản xuất: vi-du/bon-ca-ra-quyet-dinh.md
 
 # Bốn ca áp dụng từ mục tiêu đến quyết định
 
-FILM-KB 1.1.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Bản dữ liệu ca](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/bon-ca-ra-quyet-dinh.json).
+FILM-KB 1.2.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Bản dữ liệu ca](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/bon-ca-ra-quyet-dinh.json).
 
 Đây là các tình huống tự biên soạn để hướng dẫn sử dụng kho. Thời gian và kết quả dự kiến là thiết kế, chưa có video được tạo, thử công cụ hoặc phản hồi khán giả cho các ca này. Những phương án chưa được chọn vẫn có thể phù hợp một brief khác.
 
@@ -7762,13 +7765,13 @@ Sổ nguon/nguon-chinh-thuc.json ghi ngày, phạm vi và điều chưa chứng 
 
 Các quy trình, ví dụ và phản ví dụ mới là biên soạn thực hành. Chưa tạo video để chứng minh, chưa có thử nghiệm người xem hoặc đánh giá độc lập trên các AI khác.
 
-## Đối chiếu thêm trong lượt rà 1.1.0
+## Nguồn đối chiếu hiện hành
 
-Sổ nguồn hiện có 27 tài liệu ngoài, thêm 13 nguồn về sự kiện/dựng liên tục, quang học/phơi sáng, màu, âm và YouTube. Danh mục ghi chính xác đã đọc phần nào; có nguồn chỉ truy xuất được một đoạn manual, không báo đọc toàn bộ.
+Sổ nguồn hiện có 27 tài liệu ngoài, gồm các nguồn về sự kiện/dựng liên tục, quang học/phơi sáng, màu, âm và YouTube. Danh mục ghi chính xác đã đọc phần nào; có nguồn chỉ truy xuất được một đoạn manual, không báo đọc toàn bộ.
 
 Đọc scope, notes và not_established trong [sổ nguồn](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/nguon/nguon-chinh-thuc.json). Với nghiên cứu phân đoạn sự kiện, giới hạn gồm phim/tập người tham gia cụ thể; không nâng thành tỷ lệ cut hoặc kết luận giữ chân YouTube. Với tài liệu hệ màu/camera, không suy model AI đã thực thi thông số vật lý. Với YouTube, không suy trọng số thuật toán hoặc cam kết view từ hướng dẫn chung.
 
-Các phương án, ca và quy trình do thư viện biên soạn, chưa chạy thử sinh video/đo khán giả. Các phát biểu đối chiếu trực tiếp trong mục có evidence_links; tham chiếu bối cảnh không có nghĩa nguồn đã kiểm chứng toàn bộ bài. [Báo cáo rà](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kiem-toan/RA_SOAT_1_1_0.md) ghi lớp sửa, phần giữ và các việc cần dữ liệu thật.
+Các phương án, ca và quy trình do thư viện biên soạn, chưa chạy thử sinh video/đo khán giả. Các phát biểu đối chiếu trực tiếp trong mục có evidence_links; tham chiếu bối cảnh không có nghĩa nguồn đã kiểm chứng toàn bộ bài. [Nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md) ghi các thay đổi; lịch sử diff và báo cáo trước đây được truy nguyên trong Git.
 
 
 ---

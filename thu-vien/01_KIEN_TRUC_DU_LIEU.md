@@ -27,7 +27,7 @@ Các hồ sơ mô hình ở mo-hinh/ phục vụ cả hai tầng, là phần tri
 
 ## Định danh, phiên bản và dữ liệu thiếu
 
-Mã ổn định, phiên bản thay khi nội dung đổi. Không tái dùng mã đã bỏ cho ý khác. Bản ngách ghim core bằng phiên bản và commit; bản phân tích ghim nguồn hoặc lưu checksum/asset ID. Nếu không có dữ liệu đo thì null với lý do; khác với số 0, không có hoặc không áp dụng.
+Mã ổn định, phiên bản thay khi nội dung đổi. Không tái dùng mã đã bỏ cho ý khác. Ngách liên kết core hiện hành trên main và ghi version đã kiểm; bản phân tích giữ revision nguồn hoặc checksum/asset ID. Nếu không có dữ liệu đo thì null với lý do; khác với số 0, không có hoặc không áp dụng.
 
 Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm thời gian, quan hệ cha, tham chiếu, độ phủ và quyền kết luận. Schema đúng chưa có nghĩa phân tích đúng video.
 
@@ -35,9 +35,9 @@ Schema mô tả hình dạng dữ liệu. Kiểm ngữ nghĩa bổ sung kiểm t
 
 muc-luc.json tra mã/chuyên đề; tuyen-tra-cuu.json tra theo vấn đề. cong-cu/tra_cuu.py là tìm từ khóa cục bộ, chưa phải tìm ngữ nghĩa. JSONL có một mục kiến thức mỗi dòng; phần phân tích video giữ ở corpus riêng. Không tự dùng toàn bộ dữ liệu nguồn làm ví dụ trả lời đúng.
 
-## Hợp đồng mở rộng ở bản 1.1.0
+## Hợp đồng dữ liệu hiện hành
 
-knowledge.schema 1.1.0 thêm application_depth tùy chọn; bản ghi kiến thức 1.0.0 vẫn hợp lệ. Tám hợp đồng phân tích/tác vụ còn lại vẫn là 1.0.0. schema_version của manifest chỉ bản bộ hợp đồng; xem chi tiết trong tuong-thich.json.
+Schema kiến thức có application_depth tùy chọn. Phiên bản schema mô tả hợp đồng dữ liệu, khác version của nội dung; các tệp schema hiện hành luôn được sửa tại cùng đường dẫn. Không sao schema theo bản phát hành.
 
 | Thành phần application_depth | Chức năng |
 | --- | --- |
@@ -48,4 +48,6 @@ knowledge.schema 1.1.0 thêm application_depth tùy chọn; bản ghi kiến th�
 
 Các ca ở vi-du/bon-ca-ra-quyet-dinh.json là synthetic_worked_examples, chưa thực hiện và không dùng thay analysis. Bản đồ năng lực, vòng sản xuất và bảng phép kiểm là hướng dẫn điều phối, không thêm nhãn quan sát giả vào video nguồn.
 
-manifest.version là bản phát hành; version của từng mục chỉ đổi khi mục đó đổi. JSONL bản cũ được giữ nguyên byte, cùng checksum và commit trong tuong-thich.json. Kiểm tương thích cấu trúc không tự đổi ghim tri thức của ngách.
+manifest.version là bản thư viện hiện hành; version của từng mục chỉ đổi khi mục đó đổi. Mỗi mục có một tệp chuẩn. Chuyên đề Markdown, CORE.md và CORE.jsonl là các dạng xuất phục vụ đọc khác nhau, đều phản ánh cùng dữ liệu hiện hành; không là các phiên bản lịch sử.
+
+Gói xuất và kết quả kiểm dùng tên cố định. Lịch sử, diff và khôi phục dùng Git; thay đổi được ghi trong một [CHANGELOG.md](CHANGELOG.md) chung. Corpus tổ chức theo video/asset thật, mỗi phân tích được sửa tại tệp hiện hành của nó; không nhân thư mục theo version chỉ vì biên tập lại.

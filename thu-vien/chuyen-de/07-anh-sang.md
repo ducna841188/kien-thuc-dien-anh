@@ -1,6 +1,6 @@
 # LI — Ánh sáng
 
-Phiên bản 1.1.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
+Phiên bản 1.2.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

@@ -1,9 +1,9 @@
 {
   "library_id": "FILM-KB",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "schema_version": "1.1.0",
   "released_on": "2026-10-18",
-  "status": "expanded_practice_release",
+  "status": "current_release",
   "language": "vi",
   "core_card_count": 130,
   "module_count": 13,
@@ -24,21 +24,33 @@
     "goi-doc/*"
   ],
   "human_illustrated_edition": "not_created_yet",
-  "verification_scope": "Rà nội dung có đối chiếu nguồn, cấu trúc/liên kết/mã và tính nhất quán bản xuất; chưa thử tạo video, đánh giá AI ngoài hoặc đo phản ứng khán giả.",
+  "verification_scope": "Kiểm nội dung/tham chiếu, JSON/schema, liên kết, gói hiện hành và dữ liệu nguồn; không thay kiểm nghiệm video/khán giả/AI ngoài.",
   "evolution_policy": "Bổ sung/sửa có căn cứ và nhật ký; đảo nguyên tắc ở trạng thái proposed_reversal cho tới khi người dùng chốt.",
   "niche_registry": [
     {
       "id": "FARM",
       "repository": "ducna841188/yt-ly-tu-that",
       "path": "Farm/Thu_vien_kien_thuc",
-      "core_version": "1.0.0"
+      "core_version": "1.2.0",
+      "update_policy": "latest_main"
     }
   ],
   "schema_count": 9,
   "emotion_profile_count": 10,
   "glossary_term_count": 137,
   "ai_evaluation_case_count": 40,
-  "review_report": "kiem-toan/RA_SOAT_1_1_0.md",
-  "core_card_version_policy": "Dẫn phiên bản từng mục trong muc-luc.json; release 1.1.0 gồm mục 1.0.0 giữ nguyên và mục 1.1.0 mới/sửa.",
-  "compatibility_registry": "tuong-thich.json"
+  "core_card_version_policy": "Mỗi ID có một tệp hiện hành; version là lần sửa mới nhất của mục đó, không sinh bản sao. Lịch sử nội dung nằm trong Git.",
+  "change_log": "CHANGELOG.md",
+  "storage_policy": {
+    "mode": "in_place_latest",
+    "active_ref": "main",
+    "history": "git_commits",
+    "change_log": "CHANGELOG.md",
+    "versioned_backup_files": false,
+    "reading_packages": {
+      "markdown": "goi-doc/CORE.md",
+      "jsonl": "goi-doc/CORE.jsonl",
+      "sources": "goi-doc/SOURCES.json"
+    }
+  }
 }

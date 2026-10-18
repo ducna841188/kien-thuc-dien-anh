@@ -1,6 +1,6 @@
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.1.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.2.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

@@ -8,6 +8,7 @@
     "Chủ động bổ sung và sửa có căn cứ; trình rõ thay đổi đảo nguyên tắc đang dùng trước khi áp dụng rộng.",
     "Core ở ducna841188/kien-thuc-dien-anh; Farm ở ducna841188/yt-ly-tu-that/Farm; liên kết mã và phiên bản.",
     "Giữ nguồn và phân tích đã nạp để truy nguyên; bản dễ đọc có minh họa cho người làm ở giai đoạn sau.",
-    "Kiến thức dùng cho khán giả YouTube thực tế, từ căn bản đến nâng cao, không ép theo một ngách."
+    "Kiến thức dùng cho khán giả YouTube thực tế, từ căn bản đến nâng cao, không ép theo một ngách.",
+    "Từ 18/10/2026: sửa trực tiếp tại đường dẫn hiện hành, chỉ hiển thị bản mới nhất; lịch sử dùng Git và một CHANGELOG.md chung cho thư viện/core–Farm. Không tạo tệp/gói/báo cáo song song theo version."
   ]
 }

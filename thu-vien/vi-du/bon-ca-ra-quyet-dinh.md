@@ -1,6 +1,6 @@
 # Bốn ca áp dụng từ mục tiêu đến quyết định
 
-FILM-KB 1.1.0. [Mục lục](../README.md) · [Bản dữ liệu ca](bon-ca-ra-quyet-dinh.json).
+FILM-KB 1.2.0. [Mục lục](../README.md) · [Bản dữ liệu ca](bon-ca-ra-quyet-dinh.json).
 
 Đây là các tình huống tự biên soạn để hướng dẫn sử dụng kho. Thời gian và kết quả dự kiến là thiết kế, chưa có video được tạo, thử công cụ hoặc phản hồi khán giả cho các ca này. Những phương án chưa được chọn vẫn có thể phù hợp một brief khác.
 

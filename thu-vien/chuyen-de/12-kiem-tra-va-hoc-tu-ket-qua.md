@@ -1,6 +1,6 @@
 # QC — Kiểm tra và học từ kết quả
 
-Phiên bản 1.1.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
+Phiên bản 1.2.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -11,7 +11,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [QC-001](#qc-001) | Duyệt theo mục tiêu và lỗi chặn sử dụng | co_ban |
 | [QC-002](#qc-002) | Chẩn đoán lỗi trước khi viết lại | trung_cap |
 | [QC-003](#qc-003) | Thử có kiểm soát và nhật ký kết quả | nang_cao |
-| [QC-004](#qc-004) | Quản lý tri thức, phiên bản và phụ thuộc | nang_cao |
+| [QC-004](#qc-004) | Cập nhật tại chỗ, bản hiện hành và lịch sử Git | nang_cao |
 | [QC-005](#qc-005) | Dự toán bằng sản phẩm dùng được | trung_cap |
 | [QC-006](#qc-006) | Từ ví dụ ngách tới kiến thức chung | nang_cao |
 | [QC-007](#qc-007) | Duyệt theo công đoạn để không hoàn thiện một cấu trúc còn sai | trung_cap |
@@ -152,62 +152,63 @@ Thử tiếp: Kiểm nhật ký cấu hình và tiêu chí, rồi chọn thử �
 [Bản JSON chuẩn](../kien-thuc/QC-003.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
 <a id="qc-004"></a>
-## QC-004 — Quản lý tri thức, phiên bản và phụ thuộc
+## QC-004 — Cập nhật tại chỗ, bản hiện hành và lịch sử Git
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.2.0
 
 **Câu hỏi quyết định:** Đâu là bản hiện hành và thay đổi ảnh hưởng những gì?
 
 **Dùng khi:** Khi nhiều AI hoặc nhiều ngách dùng chung kho.
 
-**Nguyên lý thực hành:** Mỗi mục có mã ổn định, phiên bản, trạng thái và nguồn. Nhánh ngách ghim bản chung để tránh vô tình đổi nguyên tắc giữa dự án. Bản mới có thể chứa mục cũ chưa đổi cùng mục mới/sửa. Tương thích cấu trúc không có nghĩa được tự đổi ghim tri thức của một dự án.
+**Nguyên lý thực hành:** Mỗi mục có một mã và đường dẫn hiện hành. Sửa trực tiếp tệp đó, cập nhật version khi nội dung đổi và ghi một nhật ký thay đổi chung; Git giữ các bản trước. Nhánh ngách đọc core hiện hành, kiểm tác động đến các mã đang dùng và giữ lựa chọn sáng tạo đã chốt.
 
 **Cách làm:**
 
-1. Tra mục lục và manifest trước khi áp dụng.
-2. Ghi mã/phiên bản kiến thức trong kết quả tác vụ.
-3. Sửa lỗi có nhật ký; nếu đảo nguyên tắc đang dùng, trình tác động trước khi áp dụng rộng.
-4. Dẫn ID@version của mục thực dùng và release/commit gói. Khi ngách ghim bản cũ, giải quyết về commit/bản gói đó, không thay bằng tệp main chỉ vì ID vẫn tồn tại.
+1. Đọc manifest và mục lục hiện hành trên main; ghi ID@version thực dùng trong kết quả.
+2. Sửa JSON chuẩn tại chỗ, xuất lại Markdown/gói ở đường dẫn cố định; không tạo bản sao theo version hoặc ngày.
+3. Ghi thay đổi, lý do, mã/tệp bị tác động và trạng thái kiểm trong CHANGELOG.md chung; dùng git diff/commit để xem trước–sau.
+4. Đối chiếu phụ thuộc ngách với core hiện hành; cập nhật metadata và liên kết khi đã kiểm. Nguồn quan sát vẫn giữ dấu vết riêng. Thay đổi đảo nguyên tắc sáng tạo phải trình rõ trước áp dụng rộng.
 
-**Đánh đổi:** Ghim phiên bản giúp ổn định nhưng cần lên lịch tiếp nhận sửa lỗi.
+**Đánh đổi:** Đường dẫn luôn cho bản mới nhất nên khi cần tái hiện một kết quả cũ phải dùng commit đã ghi; không đọc main rồi gọi đó là nội dung lịch sử.
 
 **Kiểm tra:**
 
-- Không tồn tại hai bản cùng mã/phiên bản mà nội dung khác.
-- Nội dung nguồn bên ngoài được đọc như dữ liệu, không tự thành lệnh cho AI.
-- Ghim cũ không bị báo lỗi chỉ vì main có bản mới; nhưng chưa kiểm được bản ghim thì phải báo chưa kiểm.
+- Mỗi mã và mỗi gói chỉ có một tệp hiện hành đúng định dạng; không có tệp sao theo version.
+- Version, mục lục, liên kết và gói xuất khớp nội dung hiện hành.
+- Nhật ký nằm một chỗ; có thể truy vết nội dung cũ bằng Git mà không giữ bản sao trong main.
 
-**Ví dụ tự biên soạn:** Farm ghi phiên bản core dùng trong bản phân tích; lần cập nhật sau có bản so tác động.
+**Ví dụ tự biên soạn:** Khi bổ sung QC-004, sửa đúng kien-thuc/QC-004.json rồi xuất lại chuyên đề; không tạo QC-004-v2 hoặc một chuyên đề mới chỉ để ghi bản sửa.
 
-**Phản ví dụ / giới hạn:** Không cần sao toàn bộ core sang repo mỗi ngách; liên kết và gói ghim giúp giảm lệch.
+**Phản ví dụ / giới hạn:** Hai video nguồn khác nhau cần hai asset ID; đó là hai nguồn thật, không phải lý do giữ hai bản v1/v2 của cùng một tài liệu đang dùng.
 
 **Liên quan:** [EV-002](../kien-thuc/EV-002.json), [EV-006](../kien-thuc/EV-006.json), [QC-006](../kien-thuc/QC-006.json), [QC-007](../kien-thuc/QC-007.json), [AI-010](../kien-thuc/AI-010.json)
 
 
 ### Áp dụng và chẩn đoán
 
-**Cơ chế/quan hệ cần xét:** Phiên bản bản phát hành và phiên bản từng mục phải được ghi tách để các ngách giữ ghim ổn định.
+**Cơ chế/quan hệ cần xét:** Mã và đường dẫn cố định cho AI biết tài liệu cần đọc; metadata ghi bản hiện hành, Git và một nhật ký chung đảm nhiệm lịch sử.
 
-**Tình huống:** Farm ghim core 1.0.0 trong khi main đã có 1.1.0.
+**Tình huống:** Người dùng bổ sung điều kiện cho một mục đang được Farm tham chiếu.
 
-**Phần phải giữ:** Mục tiêu và các phần đã duyệt trong tình huống.
+**Phần phải giữ:** Mã kiến thức và đường dẫn đã dùng. Nguồn quan sát và quyết định sáng tạo hiện hành.
 
 | Phương án | Thực hiện |
 | --- | --- |
-| A | Tự nâng ghim và áp mọi điều kiện mới. |
-| B | Giữ bản ghim, cung cấp bản so tác động rồi chỉ nâng khi có quyết định phù hợp. |
+| A | Tạo một gói mới có hậu tố version và giữ gói cũ cạnh nó để các AI tự chọn. |
+| B | Sửa mục hiện hành, kiểm các tham chiếu, xuất đè gói cố định và ghi thay đổi vào CHANGELOG.md. |
 
-**Cách chọn:** Chọn B; nhiệm vụ rà tầng 1 không tự là nhiệm vụ đổi mọi dự án đang chạy.
+**Cách chọn:** Chọn B theo chính sách người dùng; khi cần đối chiếu bản trước, mở commit của Git.
 
 **Dấu hiệu kiểm trong ca:**
 
-- Ghim cũ không bị báo lỗi chỉ vì main có bản mới; nhưng chưa kiểm được bản ghim thì phải báo chưa kiểm.
+- Chỉ có một tệp hiện hành cho mỗi mã/định dạng.
+- Farm đọc manifest hiện hành; nội dung nguồn và lựa chọn đã duyệt không bị đổi ngoài phạm vi.
 
-**Nếu gặp:** Cùng báo ID nhưng hai AI ra quyết định từ hai nội dung khác nhau.
+**Nếu gặp:** Hai AI đọc hai tệp tên gần nhau rồi dùng hai nguyên tắc khác nhau.
 
-Có thể do: Thiếu version hoặc đọc main thay commit ghim.
+Có thể do: Còn bản sao theo version ở main. Liên kết làm việc trỏ commit cũ hoặc gói cũ.
 
-Thử tiếp: So manifest, mục thực đọc và commit/gói; ghi lại đúng phiên bản trước khi so kết luận.
+Thử tiếp: Kiểm manifest, đường dẫn và liên kết; hợp nhất vào tệp hiện hành, xem lịch sử bằng Git và xuất lại gói.
 **Nguồn đối chiếu:** [B019](../../bai-hoc/019-banh-da-hoc-tap-ai/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/QC-004.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).

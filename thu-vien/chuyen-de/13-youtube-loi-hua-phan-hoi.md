@@ -1,6 +1,6 @@
 # YT — YouTube: lời hứa và phản hồi
 
-Phiên bản 1.1.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
+Phiên bản 1.2.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

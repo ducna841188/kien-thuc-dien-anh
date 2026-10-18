@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "modules": [
     {
       "id": "EV",
@@ -2364,8 +2364,8 @@
     },
     {
       "id": "QC-004",
-      "title": "Quản lý tri thức, phiên bản và phụ thuộc",
-      "version": "1.1.0",
+      "title": "Cập nhật tại chỗ, bản hiện hành và lịch sử Git",
+      "version": "1.2.0",
       "module_id": "QC",
       "level": "nang_cao",
       "decision_question": "Đâu là bản hiện hành và thay đổi ảnh hưởng những gì?",

@@ -1,8 +1,8 @@
 # FILM-KB — Thư viện kiến thức làm phim cho AI
 
-Phiên bản **1.1.0**, ngày 18/10/2026. **130 mục thực hành · 13 chuyên đề · 10 hồ sơ nhịp–cảm xúc · 5 quy trình tác vụ · 137 thuật ngữ.**
+Phiên bản **1.2.0**, ngày 18/10/2026. **130 mục thực hành · 13 chuyên đề · 10 hồ sơ nhịp–cảm xúc · 5 quy trình tác vụ · 137 thuật ngữ.**
 
-Lượt rà tầng 1: giữ nguyên 60 mục, làm rõ 30 mục, thêm 40 mục; đối chiếu 27 nguồn ngoài. [Báo cáo thay đổi](kiem-toan/RA_SOAT_1_1_0.md) · [Dữ liệu rà từng mục](kiem-toan/ra-soat-1.1.0.json).
+Mỗi tài liệu chỉ có một bản hiện hành, được cập nhật tại chỗ. [Nhật ký thay đổi chung](CHANGELOG.md); lịch sử chi tiết dùng Git. Gói AI có đường dẫn cố định, luôn xuất từ JSON chuẩn mới nhất.
 
 Thư viện chung phục vụ làm phim cho khán giả YouTube, từ căn bản đến nâng cao. Bản này ưu tiên dữ liệu và hướng dẫn cho AI; bản minh họa dành cho người học sẽ làm sau. Kiến thức theo ngách ở repo riêng và liên kết mã/phiên bản.
 

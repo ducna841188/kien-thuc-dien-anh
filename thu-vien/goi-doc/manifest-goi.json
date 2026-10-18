@@ -1,33 +1,35 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "canonical_record_count": 130,
   "files": [
     {
-      "path": "CORE_1_1_0.md",
-      "bytes": 613173,
-      "sha256": "54788292c665b60024cde9b3060443dfb8485f28132ba43522b4a9aef9f34cf0"
+      "path": "CORE.md",
+      "bytes": 615354,
+      "sha256": "bb3732ac4386aab0f54b879aa2ecd899353dc1e9940da75bcaa9fe7001d7ac01"
     },
     {
-      "path": "CORE_1_1_0.jsonl",
-      "bytes": 391180,
-      "sha256": "8b9b4542884a663c5bf19a033632e03335813462b32f006f8c2bf83f53f80480"
+      "path": "CORE.jsonl",
+      "bytes": 391978,
+      "sha256": "5f302fad850659dcb95c9ef834e1b5056a502603828b7b3bb712b12eedac6d94"
     },
     {
-      "path": "SOURCES_1_1_0.json",
-      "bytes": 20486,
-      "sha256": "186c7fab16517bddc8fa23358937d8262884db2b6ba07ebeb3eeb49be8265e55"
+      "path": "SOURCES.json",
+      "bytes": 20456,
+      "sha256": "5ca07513c0129cfc9190cb066006a7039fb80e6974e574ec503c34a1dcc4d375"
     },
     {
       "path": "CORE_NGAN.md",
-      "bytes": 1747,
-      "sha256": "fd72e093f282e6cfc75537ca04a4a0d9aff28ad7138c3742ffde37869397bf74"
+      "bytes": 1799,
+      "sha256": "78a7cbbb1e4cf52ed53937ed3fd9cc559554fb7738b00b48a1edc7b3faffc4d4"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2015,
-      "sha256": "e930640e50ef716a18016488f4801633d646da961e3c0fcfa43efd16633ade23"
+      "bytes": 2222,
+      "sha256": "8e87e1bed8c0697c7c4fa61f23d3ad73242b93489b5ec3ac7dc6463dab8216f3"
     }
   ],
+  "storage_mode": "in_place_latest",
+  "history": "git_commits",
   "training_performed": false,
   "semantic_retrieval_deployed": false
 }

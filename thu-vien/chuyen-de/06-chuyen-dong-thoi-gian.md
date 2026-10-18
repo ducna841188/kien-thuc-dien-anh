@@ -1,6 +1,6 @@
 # MO — Chuyển động và thời gian
 
-Phiên bản 1.1.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
+Phiên bản 1.2.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

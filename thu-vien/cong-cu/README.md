@@ -24,10 +24,18 @@ python thu-vien/cong-cu/validate.py --farm-root /duong-dan/yt-ly-tu-that/Farm/Th
 
 JSON Schema mô tả cấu trúc, bộ kiểm bổ sung ràng buộc không biểu diễn đủ bằng schema như end > start và độ phủ. [Tài liệu thư viện jsonschema](https://python-jsonschema.readthedocs.io/en/stable/validate/).
 
-## Kiểm bản phát hành 1.1.0
+## Xuất và kiểm bản hiện hành
 
-Xuất gói trước, sau đó chạy validate.py. Bộ kiểm so JSONL với JSON chuẩn, checksum gói mới và hai gói cũ, phần mở rộng application_depth, nguồn phát biểu cụ thể và nguyên tắc không đổi nội dung cùng mã/phiên bản.
+xuat_goi.py luôn ghi đè CORE.md, CORE.jsonl, SOURCES.json, CORE_NGAN.md, START_HERE.md và manifest-goi.json ở goi-doc/. Không tạo gói mang hậu tố version; version hiện hành nằm trong manifest. JSON chuẩn là nguồn cho chuyên đề và gói đọc.
 
-Khi thêm --farm-root, bộ kiểm đọc đúng bản core Farm ghim qua tuong-thich.json và checksum JSONL lưu trữ. Việc này không nâng Farm lên 1.1.0. Nếu bản ghim không sẵn có hoặc commit không khớp, báo chưa kiểm được thay vì thay bằng main.
+Xuất trước, kiểm sau. Bộ kiểm đối chiếu JSONL/sổ nguồn với JSON chuẩn, checksum các tệp gói, application_depth, nguồn phát biểu, mã, liên kết, thời gian và độ phủ. Bộ kiểm cũng phát hiện tệp gói/báo cáo theo version và nhật ký riêng ngoài vị trí chung.
 
-Xem báo cáo mới ở ../kiem-thu/ket-qua-1.1.0.json; báo cáo ket-qua-cau-truc.json giữ nguyên là lịch sử 1.0.0.
+Với --farm-root, đối chiếu core_dependency với manifest hiện hành: version đã kiểm phải khớp, manifest_url trỏ main và commit = null. Kiểm cấu trúc không tự đổi lựa chọn sáng tạo của ngách. Nếu thiếu hoặc lệch dữ liệu, báo lỗi cần cập nhật; không âm thầm dùng bản cũ.
+
+Ghi đè kết quả tại một đường dẫn:
+
+~~~sh
+python thu-vien/cong-cu/validate.py --farm-root /duong-dan/yt-ly-tu-that/Farm/Thu_vien_kien_thuc --report thu-vien/kiem-thu/ket-qua.json
+~~~
+
+[Kết quả hiện hành](../kiem-thu/ket-qua.json) · [Nhật ký chung](../CHANGELOG.md). Lịch sử nội dung và kết quả cũ được xem bằng Git.

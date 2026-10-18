@@ -1,6 +1,6 @@
 # CO — Màu sắc và thiết kế hình ảnh
 
-Phiên bản 1.1.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
+Phiên bản 1.2.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

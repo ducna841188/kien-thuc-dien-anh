@@ -24,10 +24,10 @@ Sổ nguon/nguon-chinh-thuc.json ghi ngày, phạm vi và điều chưa chứng 
 
 Các quy trình, ví dụ và phản ví dụ mới là biên soạn thực hành. Chưa tạo video để chứng minh, chưa có thử nghiệm người xem hoặc đánh giá độc lập trên các AI khác.
 
-## Đối chiếu thêm trong lượt rà 1.1.0
+## Nguồn đối chiếu hiện hành
 
-Sổ nguồn hiện có 27 tài liệu ngoài, thêm 13 nguồn về sự kiện/dựng liên tục, quang học/phơi sáng, màu, âm và YouTube. Danh mục ghi chính xác đã đọc phần nào; có nguồn chỉ truy xuất được một đoạn manual, không báo đọc toàn bộ.
+Sổ nguồn hiện có 27 tài liệu ngoài, gồm các nguồn về sự kiện/dựng liên tục, quang học/phơi sáng, màu, âm và YouTube. Danh mục ghi chính xác đã đọc phần nào; có nguồn chỉ truy xuất được một đoạn manual, không báo đọc toàn bộ.
 
 Đọc scope, notes và not_established trong [sổ nguồn](nguon/nguon-chinh-thuc.json). Với nghiên cứu phân đoạn sự kiện, giới hạn gồm phim/tập người tham gia cụ thể; không nâng thành tỷ lệ cut hoặc kết luận giữ chân YouTube. Với tài liệu hệ màu/camera, không suy model AI đã thực thi thông số vật lý. Với YouTube, không suy trọng số thuật toán hoặc cam kết view từ hướng dẫn chung.
 
-Các phương án, ca và quy trình do thư viện biên soạn, chưa chạy thử sinh video/đo khán giả. Các phát biểu đối chiếu trực tiếp trong mục có evidence_links; tham chiếu bối cảnh không có nghĩa nguồn đã kiểm chứng toàn bộ bài. [Báo cáo rà](kiem-toan/RA_SOAT_1_1_0.md) ghi lớp sửa, phần giữ và các việc cần dữ liệu thật.
+Các phương án, ca và quy trình do thư viện biên soạn, chưa chạy thử sinh video/đo khán giả. Các phát biểu đối chiếu trực tiếp trong mục có evidence_links; tham chiếu bối cảnh không có nghĩa nguồn đã kiểm chứng toàn bộ bài. [Nhật ký chung](CHANGELOG.md) ghi các thay đổi; lịch sử diff và báo cáo trước đây được truy nguyên trong Git.
