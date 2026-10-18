@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm 1.2.0 — 18/10/2026 — Nạp VID_02 theo ảnh có mốc
+
+- Tiếp nhận video người dùng gán VID_02, URL FWMIPukvdsQ; giữ nguồn tải lên với checksum, 611,92 giây, 1280×720, audio stereo. Nạp từng video; chưa nhận bảy video bổ sung còn lại.
+- Bản phân tích 0.1.0 có 176 cú máy dự kiến/26 chuỗi/8 phân đoạn, đủ 25 nhóm với trạng thái bằng chứng, 1.328 mốc ảnh riêng; 10 lượt rà dày tiếp xúc và 43 bảng ảnh. Gộp báo động khói 359,48 giây vào cùng cú trước, không biến sự kiện thành cut.
+- Thêm phiếu tái tạo từng cú, 13 sổ trạng thái, chỉ mục từng giây và 12 giả thuyết DNA có điều kiện/ngoại lệ/phép kiểm. Chưa nâng giả thuyết một phim thành nguyên lý core hoặc công thức gây lượt xem.
+- Phạm vi partial: ảnh theo toàn trục không thay phát đầy đủ chuyển động; audio đã đo tín hiệu nhưng môi trường không hỗ trợ nghe. Máy, tốc độ và ngữ nghĩa/đồng bộ âm giữ chưa biết. Chưa tạo clip/kiểm người xem.
+- Sửa hàm kiểm giao khoảng để chấp nhận sự kiện điểm đúng mốc ảnh/đúng đầu khoảng, vẫn loại mốc khác hoặc cuối khoảng bị loại. Bốn ca hồi quy mới, tổng 40 ca metadata. Bộ kiểm tự đọc phân tích VID_*/phan-tich.json trong Farm.
+- Sửa trạng thái hiện hành của Farm tại chỗ, giữ lựa chọn sản xuất, nguồn và phân tích VID_01. Core vẫn 1.3.1, 132 mục kiến thức và 444 ảnh bài học không đổi; bản đọc người học không đổi. Một nhật ký chung, Git giữ lịch sử.
+
 ## 1.3.1 — 18/10/2026 — Sổ tay cho máy tính và chuẩn bị bộ chín video
 
 - Ghi nhận người dùng ưu tiên đọc trên máy tính, hình lớn và đã chọn đủ tám video bổ sung. Tạo kế hoạch tiếp nhận/nghiên cứu trong Farm; chưa nhận danh sách/media và chưa phân tích video mới.

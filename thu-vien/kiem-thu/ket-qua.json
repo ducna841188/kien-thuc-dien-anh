@@ -115,6 +115,14 @@
       "valid_fixture_accepted": true
     },
     {
+      "case": "still point event at matching frame",
+      "valid_fixture_accepted": true
+    },
+    {
+      "case": "point event at included motion start",
+      "valid_fixture_accepted": true
+    },
+    {
       "case": "separate audio asset",
       "valid_fixture_accepted": true
     },
@@ -146,6 +154,16 @@
       "case": "still basis cites no still frame",
       "invalid_fixture_rejected": true,
       "reason": "summary lacks evidence matching basis"
+    },
+    {
+      "case": "point event cites a different sampled time",
+      "invalid_fixture_rejected": true,
+      "reason": "event evidence belongs to another time interval"
+    },
+    {
+      "case": "point event at excluded evidence end",
+      "invalid_fixture_rejected": true,
+      "reason": "event evidence belongs to another time interval"
     },
     {
       "case": "event exceeds cited interval",
@@ -202,9 +220,9 @@
   "scope": "Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.",
   "checked_on": "2026-10-18",
   "status": "passed_current_structure_and_integrity_checks",
-  "fixture_test_count": 36,
+  "fixture_test_count": 40,
   "content_review": {
-    "scope": "Reader edition outline and one illustrated sample chapter; existing canonical knowledge cards were not revised in this release.",
+    "scope": "No canonical core knowledge change. New VID_02 timed-still annotation, design proposals and conditional niche hypotheses; no full motion playback, listening, generation or viewer study.",
     "existing_cards_changed": [],
     "existing_cards_unchanged": 132,
     "new_cards": [],
@@ -240,8 +258,8 @@
     "additional_videos_selected_by_user": 8,
     "expected_total_videos": 9,
     "additional_video_list_received": false,
-    "additional_video_media_received": 0,
-    "new_video_analyses_performed": 0,
+    "additional_video_media_received": 1,
+    "new_video_analyses_performed": 1,
     "existing_vid01_state": "workbook_and_twelve_stills; full motion and audio unverified",
     "staged_corpus_plan": [
       1,
@@ -249,18 +267,20 @@
       3,
       2
     ],
-    "all_nine_videos_to_be_analyzed": true
+    "all_nine_videos_to_be_analyzed": true,
+    "new_video_analysis_scope": "VID_02 partial timed-still annotation; no full motion or semantic audio review",
+    "remaining_additional_videos_not_received": 7,
+    "pilot_full_review_completed": false
   },
   "preservation": {
-    "baseline_core_commit": "71702d1d206363707ede177096e63acffaa58ded",
-    "baseline_farm_commit": "1440a2d4eac31f7d14e02573bc6be6578fec4ecc",
+    "baseline_core_commit": "0e155d415e9ff0bb0dfccc0184b31bd498cd2b5f",
+    "baseline_farm_commit": "591ccee4538a3069ba8945aef6079521703a4f0e",
+    "canonical_cards_unchanged": 132,
     "original_images_unchanged": 444,
     "legacy_lesson_files_unchanged": 610,
-    "canonical_cards_unchanged": 132,
-    "missing_baseline_core_files": 0,
-    "farm_rules_and_candidates_unchanged": true,
-    "farm_source_registry_and_analysis_example_unchanged": true,
-    "farm_changes": "Profile dependency/metadata and README; new current research plan. Production choices preserved."
+    "legacy_farm_source_and_analysis_example_unchanged": true,
+    "farm_production_choices_unchanged": true,
+    "farm_rule_change": "FARM-010 limits updated only to remove stale claim that no new video was received."
   },
   "storage": {
     "mode": "in_place_latest",
@@ -269,5 +289,38 @@
     "new_versioned_copies": 0
   },
   "viewer_tests": 0,
-  "external_ai_cases_run": 0
+  "external_ai_cases_run": 0,
+  "corpus_analysis_checks": [
+    {
+      "path": "VID_02/phan-tich.json",
+      "id": "FARM-VID02-ANALYSIS",
+      "status": "partial",
+      "shots": 176,
+      "whole_visual_reviewed": false,
+      "whole_audio_reviewed": false,
+      "contracts_valid": true
+    }
+  ],
+  "vid02_checks": {
+    "analysis_contracts_valid": true,
+    "shots_contiguous_complete_partition": true,
+    "provisional_shots": 176,
+    "groups_per_shot": 25,
+    "events_are_points_not_invented_intervals": true,
+    "point_event_count": 403,
+    "distinct_frame_evidence": 1328,
+    "atlas_checksums_valid": 43,
+    "reconstruction_links_valid": true,
+    "state_ledgers_valid": 13,
+    "conditional_dna_records_valid": 12,
+    "full_motion_or_listening_claimed": false,
+    "source_file_sha256_verified": true,
+    "original_core_cards_unchanged": 132,
+    "original_lesson_images_unchanged": 444,
+    "legacy_lesson_files_unchanged": 610,
+    "legacy_farm_source_and_example_unchanged": true,
+    "production_choices_changed": false,
+    "generated_video_tests": 0,
+    "viewer_tests": 0
+  }
 }

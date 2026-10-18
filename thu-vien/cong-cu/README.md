@@ -44,3 +44,5 @@ python thu-vien/cong-cu/validate.py --farm-root /duong-dan/yt-ly-tu-that/Farm/Th
 ~~~
 
 [Kết quả hiện hành](../kiem-thu/ket-qua.json) · [Nhật ký chung](../CHANGELOG.md). Lịch sử nội dung và kết quả cũ được xem bằng Git.
+
+Khi có `--farm-root`, bộ kiểm còn đọc các `../VID_*/phan-tich.json`, kiểm hợp đồng nguồn/mốc/25 nhóm và liên kết bản đọc trong từng hồ sơ. Kết quả giữ nguyên trạng thái partial và độ phủ thật; kiểm schema không chứng nhận đã xem motion hoặc nghe âm. Sự kiện điểm được nhận khi khớp mốc ảnh hoặc nằm trong [start, end), gồm điểm đầu và loại điểm cuối.

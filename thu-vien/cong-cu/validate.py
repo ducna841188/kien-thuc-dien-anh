@@ -67,7 +67,10 @@ def interval_covered(start,end,spans):
 
 def intervals_overlap(e,span):
  if e['start_seconds'] is None or e['end_seconds'] is None:return True
- if e['start_seconds']==e['end_seconds']:return point_inside(e['start_seconds'],span)
+ if e['start_seconds']==e['end_seconds']:
+  if span['start_seconds']==span['end_seconds']:return e['start_seconds']==span['start_seconds']
+  return point_inside(e['start_seconds'],span)
+ if span['start_seconds']==span['end_seconds']:return point_inside(span['start_seconds'],e)
  return e['start_seconds']<span['end_seconds'] and e['end_seconds']>span['start_seconds']
 def analysis_errors(data,schema=None,known_core=None):
  schema=schema or load(ROOT/'schema/analysis.schema.json')
@@ -248,6 +251,11 @@ def scoped_evidence_tests(schema,known):
  still['evidence_records'][0].update(kind='still_frame',start_seconds=0.5,end_seconds=0.5)
  still['coverage'].update(visual_motion_intervals=[],sampled_frame_times=[0.5])
  still['shots'][0]['observed']['summary']['basis']='direct_still';positive.append(('sampled image feature',still))
+ point_event={'id':'MOCK-POINT','start_seconds':0.5,'end_seconds':0.5,'channel':'visual','description':'Mock visible feature at the exact sampled frame','basis':'direct_still','evidence_refs':['SYN-E1'],'state_before':None,'state_after':None}
+ still_point=copy.deepcopy(still);still_point['shots'][0]['events']=[copy.deepcopy(point_event)]
+ positive.append(('still point event at matching frame',still_point))
+ motion_start=copy.deepcopy(seed);motion_start['shots'][0]['events']=[point_event|{'start_seconds':0,'end_seconds':0,'basis':'direct_motion'}]
+ positive.append(('point event at included motion start',motion_start))
  audio=copy.deepcopy(seed);audio['assets'][0]['kind']='audio'
  audio['evidence_records'][0].update(kind='audio_interval')
  audio['coverage'].update(visual_motion_intervals=[],audio_intervals=[{'start_seconds':0,'end_seconds':1}],audio_presence='present')
@@ -269,6 +277,8 @@ def scoped_evidence_tests(schema,known):
  add('incomplete direct evidence timestamps',lambda d:d['evidence_records'][0].update(start_seconds=None))
  add('motion interval backed by image',lambda d:d['assets'][0].update(kind='image'))
  add('still basis cites no still frame',lambda d:d['shots'][0]['observed']['summary'].update(basis='direct_still'))
+ add('point event cites a different sampled time',lambda d:d['shots'][0]['events'][0].update(start_seconds=0.6,end_seconds=0.6),still_point)
+ add('point event at excluded evidence end',lambda d:d['shots'][0]['events'][0].update(start_seconds=1,end_seconds=1),motion_start)
  event={'id':'MOCK-EVENT','start_seconds':2,'end_seconds':2.5,'channel':'visual','description':'Mock event only','basis':'direct_motion','evidence_refs':['SYN-E1'],'state_before':None,'state_after':None}
  add('event exceeds cited interval',lambda d:d['shots'][0]['events'].append(copy.deepcopy(event)))
  add('event point at excluded shot end',lambda d:d['shots'][0]['events'].append(event|{'start_seconds':3,'end_seconds':3}))
@@ -378,6 +388,7 @@ def run(farm_root=None):
  errors+=current_layout_errors(active_paths)
  farm_files=0
  farm_version=None
+ corpus_checks=[]
  if farm_root:
   farm_root=Path(farm_root)
   p=load(farm_root/'ho-so-ngach.json');errors+=json_errors(p,schemas['niche'])
@@ -388,6 +399,11 @@ def run(farm_root=None):
   errors+=analysis_errors(load(farm_root/'vi-du-vid01-tu-bao-cao.json'),schemas['analysis'],farm_ids)
   errors+=link_errors(farm_root);farm_files=sum(x.is_file() for x in farm_root.rglob('*'))
   errors+=current_layout_errors([x.relative_to(farm_root).as_posix() for x in farm_root.rglob('*') if x.is_file()],expected_logs=())
+  for path in sorted(farm_root.parent.glob('VID_*/phan-tich.json')):
+   data=load(path);corpus_errors=analysis_errors(data,schemas['analysis'],farm_ids)
+   errors += [str(path)+': '+err for err in corpus_errors]
+   errors += link_errors(path.parent)
+   corpus_checks.append({'path':path.relative_to(farm_root.parent).as_posix(),'id':data['id'],'status':data['status'],'shots':len(data['shots']),'whole_visual_reviewed':data['coverage']['whole_visual_reviewed'],'whole_audio_reviewed':data['coverage']['whole_audio_reviewed'],'contracts_valid':not corpus_errors})
  negative=negative_tests(schemas['analysis'],ids)
  scoped=scoped_evidence_tests(schemas['analysis'],ids)
  sample=next(c for c in cards if c.get('application_depth',{}).get('evidence_links'))
@@ -417,6 +433,7 @@ def run(farm_root=None):
   'integrated_scene_design_matches':True,'inventory_counts_valid':True,
   'package_checksums_valid':True,'canonical_jsonl_matches':True,
   'human_edition_checks':human_checks,
+  'corpus_analysis_checks':corpus_checks,
   'generated_video_tests':0,'external_model_evaluations':0,
   'scope':'Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.'}
 if __name__=='__main__':
