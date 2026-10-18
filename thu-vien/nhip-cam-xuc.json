@@ -1,0 +1,208 @@
+{
+  "version": "1.0.0",
+  "profiles": [
+    {
+      "id": "EMO-001",
+      "target_response": "Bình yên, dễ ở lại",
+      "design_idea": "Giảm nhu cầu phải đoán nhưng vẫn có tiến triển dễ nhận.",
+      "story_information": "Một hoạt động có nhịp và trạng thái rõ; đủ tín hiệu nơi chốn.",
+      "image": "Khung đọc được quan hệ, chi tiết ít tranh nhau; máy tĩnh hoặc chuyển động có mục đích.",
+      "lighting_color": "Ánh sáng/màu dễ đọc chất liệu, mức tương phản theo cảnh; không bắt buộc vàng ấm.",
+      "editing": "Lược lặp, giữ tiếp xúc và kết quả; độ dài theo lượng thông tin, không đặt số giây chung.",
+      "sound": "Âm nền nhất quán, tiếng chính không giật; nhạc thưa nếu có ích.",
+      "failure_risk": "Kéo chậm mọi thứ có thể gây chán hoặc làm người xem bối rối lâu hơn.",
+      "viewer_check": "Hỏi đoạn nào dễ theo, đoạn nào phải tìm hiểu lại; tách thư giãn khỏi buồn ngủ/buồn.",
+      "core_ids": [
+        "AU-001",
+        "AU-005",
+        "ED-001",
+        "SO-005",
+        "SO-006"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-002",
+      "target_response": "Tò mò nhẹ",
+      "design_idea": "Tạo một điều chưa biết đủ cụ thể và hứa có kết quả.",
+      "story_information": "Cho thấy nguyên liệu, chi tiết lạ hoặc một quyết định chưa giải thích hết.",
+      "image": "Giữ điều đã thấy đủ rõ; hé lộ dần phần liên quan.",
+      "lighting_color": "Dùng điểm nhấn để tìm điều mới; không cần tương phản kịch tính.",
+      "editing": "Mỗi nhịp thêm thông tin, không chỉ trì hoãn.",
+      "sound": "Âm của thao tác có thể gợi vật chưa lộ; tránh dùng tiếng báo động nếu chỉ muốn khám phá nhẹ.",
+      "failure_risk": "Giấu cả mục tiêu khiến tò mò thành khó hiểu; kết quả nhỏ hơn lời hứa gây hụt.",
+      "viewer_check": "Người xem nói được đang muốn biết gì và lúc nào đã nhận câu trả lời.",
+      "core_ids": [
+        "AU-003",
+        "ST-004",
+        "ST-006",
+        "SO-003"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-003",
+      "target_response": "Gần gũi, ấm áp",
+      "design_idea": "Cho người xem nhận ra sự chú ý và đáp lại giữa các chủ thể.",
+      "story_information": "Hành động chăm sóc có người nhận và phản ứng vừa đủ.",
+      "image": "Khung chung đọc quan hệ; cận vào chi tiết trao/nhận hoặc phản ứng cần thiết.",
+      "lighting_color": "Màu và sáng phục vụ quan hệ, có thể ấm hoặc lạnh theo không gian.",
+      "editing": "Chừa nhịp nhận và đáp, tránh chỉ trình diễn người cho.",
+      "sound": "Khoảng cách âm phù hợp; lời/tiếng cười nếu có không lấn hết đời sống.",
+      "failure_risk": "Cười liên tục hoặc nhạc ép cảm động có thể tạo cảm giác dàn dựng.",
+      "viewer_check": "Hỏi khán giả đọc được quan hệ nào; ghi cả ấm áp, hoài niệm và buồn nếu xuất hiện.",
+      "core_ids": [
+        "DR-003",
+        "DR-004",
+        "CA-006",
+        "SO-006",
+        "AU-006"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-004",
+      "target_response": "Hồi hộp, chờ kết quả",
+      "design_idea": "Cho biết điều có thể xảy ra và trì hoãn có tiến triển.",
+      "story_information": "Thiết lập mục tiêu, nguy cơ hoặc điều kiện thành/bại rõ.",
+      "image": "Chọn lượng thông tin người xem biết so với nhân vật; có thể dùng phần ngoài khung.",
+      "lighting_color": "Tách thông tin quan trọng; bóng tối chỉ dùng khi vẫn đủ hiểu.",
+      "editing": "Thay độ chờ và mật độ sự kiện theo tiến độ; không chỉ cắt nhanh.",
+      "sound": "Nguồn âm, khoảng lặng hoặc nhịp đều có thể làm mốc chờ.",
+      "failure_risk": "Nguy cơ không được thiết lập khiến giữ lâu thành trống; giật âm không tự tạo hồi hộp.",
+      "viewer_check": "Người xem nhận biết đang chờ điều gì, vì sao quan trọng và lúc được giải quyết.",
+      "core_ids": [
+        "ST-002",
+        "ST-006",
+        "ED-005",
+        "SO-003"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-005",
+      "target_response": "Khẩn trương, năng lượng",
+      "design_idea": "Tăng cảm giác việc phải được xử lý trong giới hạn.",
+      "story_information": "Mục tiêu, hướng đi và áp lực thời gian đọc được.",
+      "image": "Giữ địa lý trước khi tăng chuyển động/cỡ gần; chọn máy bám nếu có ích.",
+      "lighting_color": "Tương phản giúp tìm hành động, không che chi tiết chính.",
+      "editing": "Có thể tăng mật độ sự kiện hoặc nén khoảng lặp; giữ điểm quyết định đủ đọc.",
+      "sound": "Nhấn sự kiện và nhịp chuyển; không để mọi lớp cùng cực đại.",
+      "failure_risk": "Cắt dồn và rung cùng lúc dễ thành mất định hướng.",
+      "viewer_check": "Người xem theo được ai làm gì và mức cấp bách, không chỉ báo thấy rối.",
+      "core_ids": [
+        "CA-004",
+        "MO-005",
+        "ED-001",
+        "SO-005"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-006",
+      "target_response": "Kinh ngạc, cảm giác quy mô",
+      "design_idea": "Tạo quan hệ giữa điều đã biết và điều lớn/khác vượt kỳ vọng.",
+      "story_information": "Có vật/người mốc hoặc thông tin ban đầu để so.",
+      "image": "Hé lộ không gian hoặc tương quan kích thước; không nhất thiết drone.",
+      "lighting_color": "Giữ lớp gần–xa, độ sâu và chi tiết giúp đọc quy mô.",
+      "editing": "Cho thời gian nhận phần mới và tác động của nó.",
+      "sound": "Âm có phối cảnh hoặc thay đổi không gian; nhạc chỉ nếu hỗ trợ.",
+      "failure_risk": "Rộng đơn thuần thiếu vật mốc có thể không truyền quy mô.",
+      "viewer_check": "Hỏi người xem phát hiện điều mới nào và dựa vào gì để nhận quy mô.",
+      "core_ids": [
+        "CA-005",
+        "MO-003",
+        "AU-003",
+        "ED-002"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-007",
+      "target_response": "Thỏa mãn vì tiến triển và hoàn tất",
+      "design_idea": "Làm thay đổi và dấu hoàn thành dễ nhận.",
+      "story_information": "Vật có trạng thái đầu, thao tác gây biến đổi và kết quả.",
+      "image": "Cỡ/góc cho thấy tiếp xúc và phần kết; không che điểm quyết định.",
+      "lighting_color": "Màu/chất liệu làm trạng thái trước–sau đọc được.",
+      "editing": "Nén phần lặp, giữ dấu hoàn tất và lúc kết quả được dùng/nhận.",
+      "sound": "Tiếng tiếp xúc gắn đúng sự kiện, có nhịp kết tự nhiên.",
+      "failure_risk": "Thành phẩm xuất hiện vô cớ hoặc lược mất nguyên nhân làm giảm cảm giác đã hoàn thành.",
+      "viewer_check": "Người xem nói được việc gì đã xong và dấu nào cho biết điều đó.",
+      "core_ids": [
+        "ST-004",
+        "AI-003",
+        "CO-004",
+        "ED-004"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-008",
+      "target_response": "Trầm lắng, hoài niệm",
+      "design_idea": "Cho phép liên hệ và dư âm nhưng không ép mọi người phải buồn.",
+      "story_information": "Một vật, nơi hoặc quan hệ có lịch sử được gợi đủ.",
+      "image": "Chọn chi tiết gắn hoàn cảnh, có thể giữ khoảng trống hoặc khoảng cách.",
+      "lighting_color": "Màu không mặc định giảm rực; theo vật và thời điểm có nghĩa.",
+      "editing": "Giữ nhịp quan sát hoặc phản ứng phù hợp thay vì kéo dài vô cớ.",
+      "sound": "Âm nơi chốn, sự vắng một âm quen hoặc nhạc có thể gợi liên hệ.",
+      "failure_risk": "Nhạc/diễn xuất quá chỉ dẫn có thể làm người xem thấy bị ép hoặc tự so sánh.",
+      "viewer_check": "Hỏi riêng dễ chịu, nhớ nhung, buồn và khó chịu; không đoán cảm xúc từ ý đồ.",
+      "core_ids": [
+        "AU-004",
+        "DR-003",
+        "ST-008",
+        "SO-006"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-009",
+      "target_response": "Nhẹ nhõm, giải tỏa",
+      "design_idea": "Cho thấy một sức ép đã thực sự giảm hoặc kết quả đã an toàn hơn.",
+      "story_information": "Trước đó có chờ đợi hoặc công việc chưa xong; sau đó có dấu đổi.",
+      "image": "Giữ thay đổi hành vi hoặc không gian đủ đọc.",
+      "lighting_color": "Có thể đổi sáng/màu nhưng không bắt buộc; cơ sở là diễn biến.",
+      "editing": "Cho nhịp nhận ra kết quả trước khi chuyển sang việc khác.",
+      "sound": "Giảm mật độ hoặc trả âm nền có thể hỗ trợ, không là điều kiện đủ.",
+      "failure_risk": "Thả nhạc mà tình huống chưa đổi có thể gây cảm giác kết giả.",
+      "viewer_check": "Người xem chỉ được điều vừa được giải quyết, vẫn phân biệt nguy cơ còn lại.",
+      "core_ids": [
+        "ST-004",
+        "DR-003",
+        "ED-005",
+        "SO-005"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EMO-010",
+      "target_response": "Hài hước nhẹ",
+      "design_idea": "Tạo lệch kỳ vọng dễ hiểu rồi cho người xem nhận ra.",
+      "story_information": "Đặt một quy luật hoặc mong đợi trước hành động lệch.",
+      "image": "Khung phải thấy chi tiết gây lệch và phản ứng cần thiết.",
+      "lighting_color": "Hình rõ; màu/đèn không phải công tắc tạo hài.",
+      "editing": "Điểm cắt, độ chờ và nhịp phản ứng được thử nhiều phương án.",
+      "sound": "Âm có thể nhấn hoặc chủ động không nhấn để giữ tự nhiên.",
+      "failure_risk": "Giải thích lại trò đùa hoặc phản ứng quá lớn có thể làm mất bất ngờ.",
+      "viewer_check": "Xem người thử có nhận đúng lệch kỳ vọng; ghi ai không thấy hài và vì sao.",
+      "core_ids": [
+        "AU-003",
+        "DR-003",
+        "ED-002",
+        "SO-006"
+      ],
+      "status": "conditional_design_hypothesis",
+      "version": "1.0.0"
+    }
+  ],
+  "note": "Phương án tự biên soạn; không bảo đảm phản ứng khán giả."
+}

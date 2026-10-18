@@ -1,0 +1,48 @@
+{
+  "id": "YT-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "YT",
+  "title": "Phản hồi trải nghiệm và nhóm người xem",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Ai được phục vụ tốt và ai thấy khác với ý đồ?",
+  "use_when": [
+    "Khi đọc bình luận, khảo sát hoặc nhóm thử."
+  ],
+  "principle": "Ghi lời phản hồi cùng đoạn, hoàn cảnh và cách thu; tách thích, hiểu, tò mò, thư giãn, buồn và khó chịu khi cần.",
+  "actions": [
+    "Hỏi mở trước rồi mới hỏi mục tiêu cụ thể.",
+    "Giữ phản hồi tiêu cực/trái dự đoán.",
+    "Tổng hợp theo bằng chứng, không tự suy đặc điểm sức khỏe hay nhân khẩu học."
+  ],
+  "tradeoffs": [
+    "Người chịu trả lời có thể khác người không trả lời; kết quả không tự đại diện toàn kênh."
+  ],
+  "verification": [
+    "Không biến cảm giác tự báo thành chẩn đoán hoặc hiệu quả điều trị.",
+    "Không gọi mọi phản hồi ấm áp là thư giãn."
+  ],
+  "original_example": "Người nói cảnh gia đình làm nhớ nhà: hỏi là dễ chịu hay buồn trước khi coi đó là hiệu quả đạt.",
+  "counterexample": "Một video giữ chân tốt vẫn có thể gây mệt; cần hỏi đúng trải nghiệm.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-006",
+    "YT-003",
+    "QC-006"
+  ],
+  "source_ids": [
+    "SRC-YT-RETENTION"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

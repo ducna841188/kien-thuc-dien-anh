@@ -1,0 +1,50 @@
+{
+  "id": "QC-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "QC",
+  "title": "Thử có kiểm soát và nhật ký kết quả",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì trong thay đổi có thể giải thích kết quả?",
+  "use_when": [
+    "Khi so prompt, đầu vào, model hoặc cách dựng."
+  ],
+  "principle": "Giữ các biến có thể giữ, ghi những biến không kiểm soát và lặp theo nhu cầu. Không gọi một cặp đổi nhiều yếu tố là thử một biến.",
+  "actions": [
+    "Lưu phiên bản đầu vào, câu lệnh, thiết lập, model và kết quả.",
+    "Đặt tiêu chí chấm trước; thay một yếu tố từ bản mốc.",
+    "Ghi số lần thử, số clip dùng được và lỗi mới, kể cả thất bại."
+  ],
+  "tradeoffs": [
+    "Lặp nhiều tốn chi phí; số mẫu nên theo quyết định cần đưa ra và độ biến thiên."
+  ],
+  "verification": [
+    "Không suy tỷ lệ thành công từ một clip được chọn đẹp.",
+    "Chi phí được tính trên kết quả sử dụng được, không chỉ giá mỗi lần tạo."
+  ],
+  "original_example": "Giữ ảnh và hành động, chỉ đổi máy tĩnh sang tiến nhẹ; ghi việc model vẫn có ngẫu nhiên.",
+  "counterexample": "Giữ seed nếu có không tự bảo đảm mọi điều khác không đổi giữa phiên bản/chế độ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-006",
+    "AI-007",
+    "QC-005"
+  ],
+  "source_ids": [
+    "B007",
+    "B023",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

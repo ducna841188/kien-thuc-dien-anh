@@ -1,0 +1,182 @@
+{
+  "version": "1.0.0",
+  "profiles": [
+    {
+      "id": "MODEL-VEO-CLOUD",
+      "provider": "Google",
+      "model_label": "Veo theo tài liệu Google Cloud",
+      "service": "Google Cloud",
+      "checked_on": "2026-10-18",
+      "verification_state": "documentation_only",
+      "capabilities": [
+        {
+          "control": "Mô tả chuyển động từ ảnh",
+          "status": "documented",
+          "method": "text",
+          "source_ids": [
+            "SRC-GOOGLE-I2V"
+          ],
+          "note": "Ảnh đã cung cấp tạo hình; chữ phục vụ diễn tiến."
+        },
+        {
+          "control": "Trường loại trừ",
+          "status": "documented",
+          "method": "setting",
+          "source_ids": [
+            "SRC-GOOGLE-PROMPT"
+          ],
+          "note": "Tài liệu khuyên danh sách yếu tố, tránh no/dont; kiểm chế độ thực trước dùng."
+        }
+      ],
+      "unknowns": [
+        "Mã model/chế độ tài khoản hiện tại",
+        "Giới hạn độ dài, đầu ra, tham chiếu và giá của phiên triển khai"
+      ],
+      "source_ids": [
+        "SRC-GOOGLE-PROMPT",
+        "SRC-GOOGLE-I2V"
+      ],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-RUNWAY-GEN4",
+      "provider": "Runway",
+      "model_label": "Gen-4",
+      "service": "Runway",
+      "checked_on": "2026-10-18",
+      "verification_state": "documentation_only",
+      "capabilities": [
+        {
+          "control": "Chữ điều khiển chuyển động từ ảnh",
+          "status": "documented",
+          "method": "text",
+          "source_ids": [
+            "SRC-RUNWAY-GEN4"
+          ],
+          "note": "Ưu tiên mô tả đơn giản, khẳng định; tránh negative theo hướng dẫn Gen-4."
+        }
+      ],
+      "unknowns": [
+        "Không tự áp sang Gen-4.5 hoặc phiên bản khác",
+        "Thiết lập hiện có trong tài khoản"
+      ],
+      "source_ids": [
+        "SRC-RUNWAY-GEN4"
+      ],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-SEEDANCE25",
+      "provider": "ByteDance Seed",
+      "model_label": "Seedance 2.5",
+      "service": null,
+      "checked_on": "2026-10-18",
+      "verification_state": "documentation_only",
+      "capabilities": [
+        {
+          "control": "Tham chiếu đa phương thức",
+          "status": "documented",
+          "method": "reference",
+          "source_ids": [
+            "SRC-SEEDANCE-25"
+          ],
+          "note": "Có công bố ở cấp model; dịch vụ trung gian cần kiểm riêng."
+        },
+        {
+          "control": "Chỉnh sửa theo mốc",
+          "status": "documented",
+          "method": "unknown",
+          "source_ids": [
+            "SRC-SEEDANCE-25"
+          ],
+          "note": "Chưa xác minh cách nhập/nút trong dịch vụ người dùng."
+        }
+      ],
+      "unknowns": [
+        "Dịch vụ, phiên bản, chế độ và giới hạn thực",
+        "Không suy giao diện Dola/Artlist từ blog model"
+      ],
+      "source_ids": [
+        "SRC-SEEDANCE-25"
+      ],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-MINIMAX-H3",
+      "provider": "MiniMax",
+      "model_label": "MiniMax H3",
+      "service": null,
+      "checked_on": "2026-10-18",
+      "verification_state": "documentation_only",
+      "capabilities": [],
+      "unknowns": [
+        "Tên có trong danh mục chính thức; chưa kiểm cú pháp/tính năng tài khoản",
+        "Trọng số, giấy phép và workflow node cần xác minh theo triển khai"
+      ],
+      "source_ids": [
+        "SRC-MINIMAX-H3"
+      ],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-CHATGPT",
+      "provider": "OpenAI",
+      "model_label": "ChatGPT do người dùng lựa chọn",
+      "service": null,
+      "checked_on": "2026-10-18",
+      "verification_state": "user_reported",
+      "capabilities": [],
+      "unknowns": [
+        "Phiên bản và cách nạp tệp/chế độ hiện tại chưa được ghi",
+        "Không giả định khả năng đọc toàn repo/video hoặc xuất track khi chưa kiểm"
+      ],
+      "source_ids": [],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-CLAUDE",
+      "provider": "Anthropic",
+      "model_label": "Claude do người dùng lựa chọn",
+      "service": null,
+      "checked_on": "2026-10-18",
+      "verification_state": "user_reported",
+      "capabilities": [],
+      "unknowns": [
+        "Phiên bản và cách nạp tệp/chế độ hiện tại chưa được ghi",
+        "Không giả định khả năng đọc toàn repo/video hoặc xuất track khi chưa kiểm"
+      ],
+      "source_ids": [],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-GEMINI",
+      "provider": "Google",
+      "model_label": "Gemini do người dùng lựa chọn",
+      "service": null,
+      "checked_on": "2026-10-18",
+      "verification_state": "user_reported",
+      "capabilities": [],
+      "unknowns": [
+        "Phiên bản và cách nạp tệp/chế độ hiện tại chưa được ghi",
+        "Không giả định khả năng đọc toàn repo/video hoặc xuất track khi chưa kiểm"
+      ],
+      "source_ids": [],
+      "generation_tested": false
+    },
+    {
+      "id": "MODEL-SUNO",
+      "provider": "Suno",
+      "model_label": "Suno do người dùng lựa chọn",
+      "service": null,
+      "checked_on": "2026-10-18",
+      "verification_state": "user_reported",
+      "capabilities": [],
+      "unknowns": [
+        "Phiên bản và cách nạp tệp/chế độ hiện tại chưa được ghi",
+        "Không giả định khả năng đọc toàn repo/video hoặc xuất track khi chưa kiểm"
+      ],
+      "source_ids": [],
+      "generation_tested": false
+    }
+  ]
+}

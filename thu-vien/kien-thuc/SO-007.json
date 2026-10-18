@@ -1,0 +1,49 @@
+{
+  "id": "SO-007",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Lời kể và khoảng thở",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Khi nào người xem cần lời và khi nào cần tự cảm nhận?",
+  "use_when": [
+    "Khi viết voiceover hoặc kiểm nhịp lời–hình."
+  ],
+  "principle": "Lời kể có thể bổ sung điều không nhìn thấy; khoảng thở cho hình/âm thời gian mang ý. Đo tốc độ bằng bản đọc thật và ngôn ngữ thực dùng.",
+  "actions": [
+    "Gán chức năng cho mỗi câu: bối cảnh, quy luật, ý nghĩ, câu hỏi hoặc kết nối.",
+    "Chọn vị trí dừng để hình trả thông tin.",
+    "Rà phát âm, số, tên riêng và độ dài so với cảnh."
+  ],
+  "tradeoffs": [
+    "Ít lời quá có thể mất bối cảnh; lời dày làm mất không gian cảm nhận."
+  ],
+  "verification": [
+    "Câu không tả lặp mọi chuyển động trừ khi đó là mục tiêu hướng dẫn.",
+    "Không áp một tốc độ từ/phút hoặc khoảng nghỉ cho tất cả ngách."
+  ],
+  "original_example": "Cao trào có thể để hành động tự nói; lời sau đó đặt hệ quả vào bối cảnh.",
+  "counterexample": "Phim phổ biến kiến thức có thể cần lời dày hơn phim trải nghiệm không thoại.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-007",
+    "AU-005",
+    "ED-001"
+  ],
+  "source_ids": [
+    "B016",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "AU-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AU",
+  "title": "Dẫn chú ý bằng một trọng tâm đọc được",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Ở thời điểm này khán giả cần nhìn/nghe gì trước?",
+  "use_when": [
+    "Khi khung có nhiều vật, hành động hoặc lớp âm cạnh tranh."
+  ],
+  "principle": "Tổ chức ưu tiên thay vì làm mọi thứ nổi bật. Trọng tâm có thể chuyển qua diễn tiến; phải cho người xem cơ hội theo được.",
+  "actions": [
+    "Chỉ ra chi tiết thiết yếu cho hiểu việc hoặc cảm xúc.",
+    "Chọn vị trí, tương phản, nét, chuyển động hoặc âm để làm rõ nó.",
+    "Giảm yếu tố cạnh tranh không phục vụ cảnh, rồi thử xem lại ở kích thước nhỏ."
+  ],
+  "tradeoffs": [
+    "Cô lập quá mạnh có thể làm mất không gian và quan hệ nhân–quả."
+  ],
+  "verification": [
+    "Người xem thử chỉ đúng điều quan trọng mà không được chỉ trước.",
+    "Thông tin nền cần thiết vẫn có thể đọc ở thời điểm phù hợp."
+  ],
+  "original_example": "Tiếng chốt bật và cận tay làm rõ cửa được mở; trong cảnh khác, toàn thân cho thấy người đang do dự.",
+  "counterexample": "Vật sáng nhất không luôn là ý đồ chú ý; khuôn mặt hoặc chuyển động có thể hút mắt hơn.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "CA-003",
+    "CA-007",
+    "SO-005"
+  ],
+  "source_ids": [
+    "B005",
+    "B021"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

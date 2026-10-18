@@ -1,0 +1,49 @@
+{
+  "id": "SO-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Thứ tự nghe, độ lớn và khoảng động",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem nghe được điều gì trước ở mức âm thoải mái?",
+  "use_when": [
+    "Khi các lớp tranh nhau hoặc cảnh quá chói/gắt."
+  ],
+  "principle": "Chọn ưu tiên cảm nhận rồi cân mức, phổ tần và thời điểm. Không đặt một mức dB/LUFS chung cho mọi loại nội dung và thiết bị khi chưa có yêu cầu xuất.",
+  "actions": [
+    "Cân lời/âm chính trước nền và nhạc.",
+    "Rà điểm đỉnh, tiếng sắc và thay đổi mức giữa cảnh.",
+    "Nghe nhỏ, nghe tai nghe và thiết bị mục tiêu nếu có; kiểm đỉnh kỹ thuật."
+  ],
+  "tradeoffs": [
+    "Nén nhiều có thể giảm khác biệt mạnh–nhẹ; giữ động quá rộng có thể khó nghe trên thiết bị nhỏ."
+  ],
+  "verification": [
+    "Âm chính rõ mà không phải tăng giảm liên tục.",
+    "Không méo/clipping hoặc âm đột ngột ngoài ý đồ."
+  ],
+  "original_example": "Giảm nhạc quanh tiếng chạm quan trọng, rồi trả nền khi thao tác kết.",
+  "counterexample": "Một cảnh cần choáng ngợp có thể có khoảng động lớn nhưng phải nằm trong bản yêu cầu.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "SO-001",
+    "SO-008",
+    "QC-001"
+  ],
+  "source_ids": [
+    "B016",
+    "SRC-BMD-TRAINING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

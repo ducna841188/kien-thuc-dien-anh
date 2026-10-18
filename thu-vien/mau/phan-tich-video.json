@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ANALYSIS-NEW",
+  "version": "0.1.0",
+  "record_type": "analysis",
+  "status": "draft",
+  "core_version": "1.0.0",
+  "niche_id": null,
+  "title": "Bản phân tích cần điền từ nguồn thực",
+  "duration_seconds": null,
+  "fps": null,
+  "time_origin": {
+    "unit": "seconds",
+    "original_asset_id": "ASSET-NEW",
+    "local_offset_seconds": 0,
+    "time_basis": "unknown",
+    "boundary_convention": "start_inclusive_end_exclusive"
+  },
+  "assets": [
+    {
+      "id": "ASSET-NEW",
+      "kind": "video",
+      "title": "Chưa tiếp nhận tệp",
+      "uri": null,
+      "sha256": null,
+      "source_revision": null
+    }
+  ],
+  "coverage": {
+    "visual_motion_intervals": [],
+    "audio_intervals": [],
+    "sampled_frame_times": [],
+    "audio_presence": "unknown",
+    "whole_visual_reviewed": false,
+    "whole_audio_reviewed": false,
+    "limitations": [
+      "Chưa xem video hoặc nghe âm."
+    ]
+  },
+  "evidence_records": [],
+  "viewer_brief": {
+    "promise": null,
+    "audience": null,
+    "status": "unknown"
+  },
+  "segments": [],
+  "sequences": [],
+  "shots": [],
+  "emotional_intent": [],
+  "viewer_evidence": [],
+  "findings": [],
+  "open_questions": [
+    "Nguồn đầy đủ, mốc gốc và lời hứa khán giả là gì?"
+  ],
+  "generation_tested": false,
+  "review_log": []
+}

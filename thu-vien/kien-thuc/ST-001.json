@@ -1,0 +1,47 @@
+{
+  "id": "ST-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ST",
+  "title": "Chủ đề, lời hứa và trục thay đổi",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Phim này đưa người xem đi qua điều gì?",
+  "use_when": [
+    "Khi bắt đầu ý tưởng hoặc rà một bản kịch bản."
+  ],
+  "principle": "Chọn một trục tổ chức đủ rõ: hành trình một việc, một câu hỏi, một quan hệ hoặc một trạng thái. Chủ đề cần hiện qua diễn biến cụ thể.",
+  "actions": [
+    "Viết một câu về giá trị và thay đổi chính.",
+    "Liệt kê phần bắt đầu, các bước cần trải qua và trạng thái kết.",
+    "Rà từng đoạn theo việc nó đóng góp vào trục ấy."
+  ],
+  "tradeoffs": [
+    "Trục quá chặt có thể làm mất khoảnh khắc quan sát có giá trị; chừa chỗ có lý do."
+  ],
+  "verification": [
+    "Có thể nói đầu–cuối khác nhau ở đâu.",
+    "Các đoạn phụ có vai trò thay vì chỉ tăng độ dài."
+  ],
+  "original_example": "Một vật liệu thô trở thành đồ dùng; hoặc một nơi tưởng an toàn bộc lộ giới hạn của nó.",
+  "counterexample": "Phim trải nghiệm có thể không có nhân vật theo đuổi mục tiêu, nhưng vẫn cần cách tổ chức sự chú ý.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "AU-001",
+    "ST-005",
+    "YT-001"
+  ],
+  "source_ids": [
+    "B002",
+    "B017"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "DR-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "DR",
+  "title": "Chi tiết đời sống và thiết kế sản xuất",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Chi tiết nào làm thế giới có lịch sử và chức năng?",
+  "use_when": [
+    "Khi thiết kế bối cảnh, phục trang, vật liệu và sinh hoạt."
+  ],
+  "principle": "Chọn chi tiết theo cách sống, thời tiết, công việc và nhân vật. Cảm giác chân thực đến từ quan hệ hoạt động, không chỉ thêm bụi hoặc khuyết điểm.",
+  "actions": [
+    "Ghi công dụng và trạng thái từng đạo cụ quan trọng.",
+    "Giữ dấu sử dụng có nguyên nhân và mức nhất quán.",
+    "Rà chi tiết văn hóa, mùa vụ hoặc kỹ thuật cần nguồn chuyên ngành."
+  ],
+  "tradeoffs": [
+    "Quá nhiều trang trí có thể che thao tác và gây trôi vật thể khi tạo AI."
+  ],
+  "verification": [
+    "Đồ vật có vị trí/công dụng đọc được.",
+    "Không suy văn hóa hoặc tên nguyên liệu vượt bằng chứng."
+  ],
+  "original_example": "Giỏ có chỗ để, được mang ra dùng và trở về với mức đầy đã đổi.",
+  "counterexample": "Phong cách cách điệu có thể dùng vật liệu phi hiện thực nếu thống nhất quy tắc của thế giới.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CO-002",
+    "AI-002",
+    "QC-002"
+  ],
+  "source_ids": [
+    "B002",
+    "B003"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

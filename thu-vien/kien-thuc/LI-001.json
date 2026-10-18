@@ -1,0 +1,48 @@
+{
+  "id": "LI-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "LI",
+  "title": "Nguồn sáng và động cơ chiếu sáng",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Ánh sáng trong cảnh có thể đến từ đâu?",
+  "use_when": [
+    "Khi thiết kế ảnh, quay hoặc nối nhiều góc."
+  ],
+  "principle": "Bắt đầu bằng nguồn, hướng và vai trò của ánh sáng. Nguồn nhìn thấy trong cảnh và đèn dùng để mô phỏng nó không phải lúc nào là cùng một vật.",
+  "actions": [
+    "Ghi cửa sổ, trời, đèn hoặc lửa làm cơ sở.",
+    "Chọn phía sáng chính và các vật nhận sáng.",
+    "Giữ hướng bóng/phản chiếu phù hợp khi đổi góc."
+  ],
+  "tradeoffs": [
+    "Bám tự nhiên quá cứng có thể làm thông tin khó thấy; có thể tăng/định hình ánh sáng theo ý đồ."
+  ],
+  "verification": [
+    "Hướng sáng không tự đảo giữa hai góc cùng thời điểm.",
+    "Vùng sáng mới có nguồn hoặc chủ ý cách điệu được ghi."
+  ],
+  "original_example": "Ánh cửa sổ chiếu bàn; cận tay vẫn giữ phía sáng tương ứng.",
+  "counterexample": "Phim cách điệu có thể dùng nguồn phi thực nhưng cần quy tắc nhất quán trong cảnh.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "LI-005",
+    "DR-002",
+    "CO-005"
+  ],
+  "source_ids": [
+    "B002",
+    "B008",
+    "SRC-ASC-KAUFMAN"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

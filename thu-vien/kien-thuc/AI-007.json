@@ -1,0 +1,51 @@
+{
+  "id": "AI-007",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Câu lệnh, thiết lập và hồ sơ năng lực mô hình",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì nên viết, điều gì phải đặt và điều gì chưa biết?",
+  "use_when": [
+    "Khi đổi mô hình, dịch vụ hoặc phiên bản."
+  ],
+  "principle": "Giữ ý đồ điện ảnh chung, rồi chuyển sang cách nhập đúng công cụ. Mã khóa tự đặt không trở thành tham số kỹ thuật.",
+  "actions": [
+    "Ghi nhà cung cấp, tên/mã mô hình, chế độ và ngày kiểm.",
+    "Phân loại điều khiển bằng chữ, thiết lập, tham chiếu, hậu kỳ hoặc chưa hỗ trợ.",
+    "Đối chiếu tài liệu và giao diện khi có khác biệt; để null cho giới hạn chưa rõ."
+  ],
+  "tradeoffs": [
+    "Prompt dùng chung dễ mang cú pháp sai; adapter riêng cần được cập nhật."
+  ],
+  "verification": [
+    "Không coi no/don't hoặc negative là cú pháp chung.",
+    "Không dùng HEX, 8K hay 3% rung làm bảo đảm đầu ra."
+  ],
+  "original_example": "Veo ở trường negative được tài liệu hướng dẫn liệt kê yếu tố; Gen-4 của Runway khuyên mô tả khẳng định.",
+  "counterexample": "Có thể giữ cấu trúc lập ý giống nhau nhưng cách nhập của từng chế độ khác.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-006",
+    "AI-001",
+    "QC-004"
+  ],
+  "source_ids": [
+    "B023",
+    "B026",
+    "SRC-GOOGLE-PROMPT",
+    "SRC-RUNWAY-GEN4"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

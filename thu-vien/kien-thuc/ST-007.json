@@ -1,0 +1,49 @@
+{
+  "id": "ST-007",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ST",
+  "title": "Kịch bản hình–tiếng và lời bổ sung",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Thông tin nào cần hình, tiếng hoặc lời kể?",
+  "use_when": [
+    "Khi viết kịch bản có thoại/lời bình hoặc phim không thoại."
+  ],
+  "principle": "Phân công kênh truyền đạt theo điều mỗi kênh làm tốt. Lời có thể thêm bối cảnh, quy luật, suy nghĩ; hình/tiếng có thể tự cho thấy hành động.",
+  "actions": [
+    "Lập cột hình, âm, lời và thông tin mới.",
+    "Rà câu nào chỉ lặp điều đã quá rõ trong hình.",
+    "Chừa thời gian để hình/tiếng mang thông tin trước khi thêm lời."
+  ],
+  "tradeoffs": [
+    "Bỏ hết lời có thể làm mất bối cảnh khó thấy; nhiều lời có thể che trải nghiệm quan sát."
+  ],
+  "verification": [
+    "Mỗi câu có chức năng và vừa thời lượng đọc thực tế.",
+    "Không dùng lời để tuyên bố một hành động mà hình mâu thuẫn."
+  ],
+  "original_example": "Thấy bàn tay nhào bột; lời nếu có nói về thời gian chờ hoặc ký ức, không cần đọc mọi cử động.",
+  "counterexample": "Video hướng dẫn có thể cần gọi tên thao tác đang thấy để người mới học theo.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "SO-002",
+    "SO-007",
+    "AU-005"
+  ],
+  "source_ids": [
+    "B016",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

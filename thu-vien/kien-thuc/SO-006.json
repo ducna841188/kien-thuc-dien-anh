@@ -1,0 +1,49 @@
+{
+  "id": "SO-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Nhạc: chức năng, tương phản và im lặng",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nhạc đang thêm điều gì mà hình/âm khác chưa làm?",
+  "use_when": [
+    "Khi chọn nhạc có sẵn hoặc tạo nhạc bằng AI."
+  ],
+  "principle": "Chọn vai trò trước thể loại: nâng đỡ, tạo mong chờ, nối thời gian, tương phản hoặc để trống. Tempo nhạc không tự xác định tốc độ hành động hay cảm xúc.",
+  "actions": [
+    "Ghi đoạn nào cần nhạc và đoạn nào cần nghe đời sống.",
+    "Chọn mật độ, nhạc cụ, năng lượng và điểm chuyển phù hợp.",
+    "Thử bản không nhạc để biết nhạc đang hỗ trợ hay che vấn đề."
+  ],
+  "tradeoffs": [
+    "Nhạc có thể kéo cảm xúc quá mức hoặc làm mọi đoạn giống nhau."
+  ],
+  "verification": [
+    "Không cắt theo mọi nhịp chỉ vì có beat.",
+    "Khoảng lặng được định nghĩa: không nhạc, nền thưa hay im hoàn toàn."
+  ],
+  "original_example": "Để tiếng gió và dụng cụ dẫn một đoạn, thêm nhạc nhẹ khi chuỗi thời gian mở rộng.",
+  "counterexample": "Nhạc dịu vẫn có thể làm người xem khó chịu nếu lặp, quá lớn hoặc trái cảnh.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ED-005",
+    "AU-004",
+    "SO-001"
+  ],
+  "source_ids": [
+    "B016",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

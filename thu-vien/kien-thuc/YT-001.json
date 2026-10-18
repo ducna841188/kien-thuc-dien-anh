@@ -1,0 +1,46 @@
+{
+  "id": "YT-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "YT",
+  "title": "Lời hứa ảnh thu nhỏ, tiêu đề và mở đầu",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều người xem bấm vào có được phim thực hiện không?",
+  "use_when": [
+    "Khi giới thiệu hoặc mở một video YouTube."
+  ],
+  "principle": "Xác lập giá trị/thông tin thật của phim và sớm cho tín hiệu phù hợp. Không có một kiểu mở đầu bắt buộc cho mọi tệp xem.",
+  "actions": [
+    "Viết lời hứa trong một câu.",
+    "Chọn hình/chi tiết mở giúp nhận ra giá trị ấy.",
+    "Ghi nơi phim thực sự trả lời hứa; rà sự chênh giữa giới thiệu và nội dung."
+  ],
+  "tradeoffs": [
+    "Lộ kết quả sớm có thể giảm bí mật nhưng tăng rõ lợi ích; chọn theo lời hứa."
+  ],
+  "verification": [
+    "Không hứa thu hoạch một thứ rồi toàn phim chủ yếu việc khác không liên quan.",
+    "Không dùng yếu tố sốc trái trải nghiệm đã chốt chỉ để kéo nhấp."
+  ],
+  "original_example": "Video thư giãn có thể mở bằng nơi chốn và việc dễ hiểu; phim điều tra có thể mở bằng câu hỏi.",
+  "counterexample": "Không phải mọi video phải mở bằng thành phẩm hoặc cao trào.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "ST-008",
+    "AU-001",
+    "YT-002"
+  ],
+  "source_ids": [
+    "SRC-YT-RETENTION"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

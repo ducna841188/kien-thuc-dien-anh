@@ -1,0 +1,1813 @@
+{
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "EV",
+      "title": "Bằng chứng và chuẩn phân tích",
+      "path": "chuyen-de/01-bang-chung-va-phan-tich.md",
+      "objective": "Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ."
+    },
+    {
+      "id": "AU",
+      "title": "Khán giả, chú ý và cảm xúc",
+      "path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md",
+      "objective": "Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm."
+    },
+    {
+      "id": "ST",
+      "title": "Kịch bản và cấu trúc",
+      "path": "chuyen-de/03-kich-ban-va-cau-truc.md",
+      "objective": "Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng."
+    },
+    {
+      "id": "DR",
+      "title": "Đạo diễn, diễn xuất và dàn cảnh",
+      "path": "chuyen-de/04-dao-dien-dan-canh.md",
+      "objective": "Tổ chức người, vật, không gian và hành vi có mục tiêu."
+    },
+    {
+      "id": "CA",
+      "title": "Bố cục, máy quay và quang học",
+      "path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md",
+      "objective": "Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét."
+    },
+    {
+      "id": "MO",
+      "title": "Chuyển động và thời gian",
+      "path": "chuyen-de/06-chuyen-dong-thoi-gian.md",
+      "objective": "Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian."
+    },
+    {
+      "id": "LI",
+      "title": "Ánh sáng",
+      "path": "chuyen-de/07-anh-sang.md",
+      "objective": "Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu."
+    },
+    {
+      "id": "CO",
+      "title": "Màu sắc và thiết kế hình ảnh",
+      "path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md",
+      "objective": "Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi."
+    },
+    {
+      "id": "ED",
+      "title": "Dựng phim và điều khiển nhịp",
+      "path": "chuyen-de/09-dung-phim-va-nhip.md",
+      "objective": "Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô."
+    },
+    {
+      "id": "SO",
+      "title": "Âm thanh, nhạc và lời kể",
+      "path": "chuyen-de/10-am-thanh-nhac-loi.md",
+      "objective": "Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận."
+    },
+    {
+      "id": "AI",
+      "title": "Sản xuất bằng AI",
+      "path": "chuyen-de/11-san-xuat-bang-ai.md",
+      "objective": "Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa."
+    },
+    {
+      "id": "QC",
+      "title": "Kiểm tra và học từ kết quả",
+      "path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md",
+      "objective": "Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi."
+    },
+    {
+      "id": "YT",
+      "title": "YouTube: lời hứa và phản hồi",
+      "path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md",
+      "objective": "Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả."
+    }
+  ],
+  "items": [
+    {
+      "id": "EV-001",
+      "title": "Tách quan sát, diễn giải và đề xuất",
+      "version": "1.0.0",
+      "module_id": "EV",
+      "level": "co_ban",
+      "decision_question": "Kết luận này dựa trên điều gì?",
+      "related_ids": [
+        "EV-002",
+        "EV-004",
+        "QC-004"
+      ],
+      "source_ids": [
+        "B015",
+        "B033"
+      ],
+      "json_path": "kien-thuc/EV-001.json",
+      "markdown_path": "chuyen-de/01-bang-chung-va-phan-tich.md#ev-001"
+    },
+    {
+      "id": "EV-002",
+      "title": "Nguồn, phiên bản và dấu vết",
+      "version": "1.0.0",
+      "module_id": "EV",
+      "level": "co_ban",
+      "decision_question": "Có tìm lại đúng bằng chứng được dùng không?",
+      "related_ids": [
+        "EV-001",
+        "QC-004",
+        "QC-006"
+      ],
+      "source_ids": [
+        "B019",
+        "B020"
+      ],
+      "json_path": "kien-thuc/EV-002.json",
+      "markdown_path": "chuyen-de/01-bang-chung-va-phan-tich.md#ev-002"
+    },
+    {
+      "id": "EV-003",
+      "title": "Phân tích từ toàn phim đến sự kiện",
+      "version": "1.0.0",
+      "module_id": "EV",
+      "level": "co_ban",
+      "decision_question": "Chi tiết này đang làm nhiệm vụ gì trong chuỗi?",
+      "related_ids": [
+        "ST-003",
+        "ST-005",
+        "ED-001"
+      ],
+      "source_ids": [
+        "B012",
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/EV-003.json",
+      "markdown_path": "chuyen-de/01-bang-chung-va-phan-tich.md#ev-003"
+    },
+    {
+      "id": "EV-004",
+      "title": "Độ phủ xem và những điều chưa biết",
+      "version": "1.0.0",
+      "module_id": "EV",
+      "level": "trung_cap",
+      "decision_question": "Phần nào đã thực sự được xem/nghe?",
+      "related_ids": [
+        "EV-001",
+        "CA-004",
+        "QC-001"
+      ],
+      "source_ids": [
+        "B001",
+        "B021",
+        "B032"
+      ],
+      "json_path": "kien-thuc/EV-004.json",
+      "markdown_path": "chuyen-de/01-bang-chung-va-phan-tich.md#ev-004"
+    },
+    {
+      "id": "EV-005",
+      "title": "Mốc thời gian, khung hình và ranh giới",
+      "version": "1.0.0",
+      "module_id": "EV",
+      "level": "trung_cap",
+      "decision_question": "Đơn vị thời gian có chính xác và nối được không?",
+      "related_ids": [
+        "EV-003",
+        "EV-004",
+        "MO-006"
+      ],
+      "source_ids": [
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/EV-005.json",
+      "markdown_path": "chuyen-de/01-bang-chung-va-phan-tich.md#ev-005"
+    },
+    {
+      "id": "EV-006",
+      "title": "Ưu tiên bằng chứng và giữ bất đồng",
+      "version": "1.0.0",
+      "module_id": "EV",
+      "level": "nang_cao",
+      "decision_question": "Khi nguồn mâu thuẫn, ta dùng gì để ra quyết định?",
+      "related_ids": [
+        "EV-001",
+        "AI-007",
+        "QC-006"
+      ],
+      "source_ids": [
+        "B010",
+        "B015",
+        "B033"
+      ],
+      "json_path": "kien-thuc/EV-006.json",
+      "markdown_path": "chuyen-de/01-bang-chung-va-phan-tich.md#ev-006"
+    },
+    {
+      "id": "AU-001",
+      "title": "Bản yêu cầu trải nghiệm của khán giả",
+      "version": "1.0.0",
+      "module_id": "AU",
+      "level": "co_ban",
+      "decision_question": "Người xem đến đây để nhận điều gì?",
+      "related_ids": [
+        "YT-001",
+        "AU-005",
+        "ST-001"
+      ],
+      "source_ids": [
+        "B002",
+        "B014"
+      ],
+      "json_path": "kien-thuc/AU-001.json",
+      "markdown_path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md#au-001"
+    },
+    {
+      "id": "AU-002",
+      "title": "Dẫn chú ý bằng một trọng tâm đọc được",
+      "version": "1.0.0",
+      "module_id": "AU",
+      "level": "co_ban",
+      "decision_question": "Ở thời điểm này khán giả cần nhìn/nghe gì trước?",
+      "related_ids": [
+        "CA-003",
+        "CA-007",
+        "SO-005"
+      ],
+      "source_ids": [
+        "B005",
+        "B021"
+      ],
+      "json_path": "kien-thuc/AU-002.json",
+      "markdown_path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md#au-002"
+    },
+    {
+      "id": "AU-003",
+      "title": "Thiết kế mong chờ và trả kết quả",
+      "version": "1.0.0",
+      "module_id": "AU",
+      "level": "trung_cap",
+      "decision_question": "Khán giả đang đợi biết hoặc thấy điều gì?",
+      "related_ids": [
+        "ST-002",
+        "ST-004",
+        "ED-005"
+      ],
+      "source_ids": [
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/AU-003.json",
+      "markdown_path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md#au-003"
+    },
+    {
+      "id": "AU-004",
+      "title": "Cảm xúc là diễn biến nhiều biến",
+      "version": "1.0.0",
+      "module_id": "AU",
+      "level": "trung_cap",
+      "decision_question": "Trải nghiệm thay đổi thế nào theo thời gian?",
+      "related_ids": [
+        "DR-003",
+        "CO-001",
+        "SO-006"
+      ],
+      "source_ids": [
+        "B010",
+        "B021"
+      ],
+      "json_path": "kien-thuc/AU-004.json",
+      "markdown_path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md#au-004"
+    },
+    {
+      "id": "AU-005",
+      "title": "Mật độ thông tin và công sức theo dõi",
+      "version": "1.0.0",
+      "module_id": "AU",
+      "level": "nang_cao",
+      "decision_question": "Người xem phải nhớ, đoán và tìm lại bao nhiêu?",
+      "related_ids": [
+        "EV-003",
+        "ED-003",
+        "ST-005"
+      ],
+      "source_ids": [
+        "B012",
+        "B017"
+      ],
+      "json_path": "kien-thuc/AU-005.json",
+      "markdown_path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md#au-005"
+    },
+    {
+      "id": "AU-006",
+      "title": "Phản hồi khán giả và giới hạn suy nhân quả",
+      "version": "1.0.0",
+      "module_id": "AU",
+      "level": "nang_cao",
+      "decision_question": "Có bằng chứng người xem nhận được trải nghiệm mong muốn không?",
+      "related_ids": [
+        "YT-003",
+        "YT-005",
+        "QC-003"
+      ],
+      "source_ids": [
+        "SRC-YT-RETENTION"
+      ],
+      "json_path": "kien-thuc/AU-006.json",
+      "markdown_path": "chuyen-de/02-khan-gia-chu-y-cam-xuc.md#au-006"
+    },
+    {
+      "id": "ST-001",
+      "title": "Chủ đề, lời hứa và trục thay đổi",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "co_ban",
+      "decision_question": "Phim này đưa người xem đi qua điều gì?",
+      "related_ids": [
+        "AU-001",
+        "ST-005",
+        "YT-001"
+      ],
+      "source_ids": [
+        "B002",
+        "B017"
+      ],
+      "json_path": "kien-thuc/ST-001.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-001"
+    },
+    {
+      "id": "ST-002",
+      "title": "Mục tiêu, trở ngại và lựa chọn",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "co_ban",
+      "decision_question": "Điều gì làm hành động đáng theo dõi?",
+      "related_ids": [
+        "DR-001",
+        "AU-003",
+        "ST-004"
+      ],
+      "source_ids": [
+        "B017",
+        "B021"
+      ],
+      "json_path": "kien-thuc/ST-002.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-002"
+    },
+    {
+      "id": "ST-003",
+      "title": "Nhịp diễn biến và bước ngoặt trong cảnh",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "trung_cap",
+      "decision_question": "Tại đâu mục tiêu, hiểu biết hoặc quan hệ đổi?",
+      "related_ids": [
+        "EV-003",
+        "DR-003",
+        "ED-001"
+      ],
+      "source_ids": [
+        "B017",
+        "B021"
+      ],
+      "json_path": "kien-thuc/ST-003.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-003"
+    },
+    {
+      "id": "ST-004",
+      "title": "Chuẩn bị, phát triển và trả kết quả",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "trung_cap",
+      "decision_question": "Kết quả có được chuẩn bị đủ và nhìn thấy đủ không?",
+      "related_ids": [
+        "AU-003",
+        "ST-008",
+        "ED-005"
+      ],
+      "source_ids": [
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/ST-004.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-004"
+    },
+    {
+      "id": "ST-005",
+      "title": "Cấu trúc phân đoạn và chuỗi hành động",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "trung_cap",
+      "decision_question": "Các phần phim nối nhau bằng quan hệ nào?",
+      "related_ids": [
+        "EV-003",
+        "ED-003",
+        "ST-006"
+      ],
+      "source_ids": [
+        "B012",
+        "B024"
+      ],
+      "json_path": "kien-thuc/ST-005.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-005"
+    },
+    {
+      "id": "ST-006",
+      "title": "Điểm nhìn và phân phối thông tin",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "nang_cao",
+      "decision_question": "Người xem biết nhiều hơn, ít hơn hay cùng nhân vật?",
+      "related_ids": [
+        "CA-008",
+        "SO-003",
+        "AU-003"
+      ],
+      "source_ids": [
+        "B005",
+        "B021"
+      ],
+      "json_path": "kien-thuc/ST-006.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-006"
+    },
+    {
+      "id": "ST-007",
+      "title": "Kịch bản hình–tiếng và lời bổ sung",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "trung_cap",
+      "decision_question": "Thông tin nào cần hình, tiếng hoặc lời kể?",
+      "related_ids": [
+        "SO-002",
+        "SO-007",
+        "AU-005"
+      ],
+      "source_ids": [
+        "B016",
+        "B032"
+      ],
+      "json_path": "kien-thuc/ST-007.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-007"
+    },
+    {
+      "id": "ST-008",
+      "title": "Mở, kết và đời sống tiếp diễn",
+      "version": "1.0.0",
+      "module_id": "ST",
+      "level": "nang_cao",
+      "decision_question": "Đầu phim mời vào bằng gì, cuối phim để lại gì?",
+      "related_ids": [
+        "YT-001",
+        "ST-004",
+        "ED-008"
+      ],
+      "source_ids": [
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/ST-008.json",
+      "markdown_path": "chuyen-de/03-kich-ban-va-cau-truc.md#st-008"
+    },
+    {
+      "id": "DR-001",
+      "title": "Chỉ đạo bằng mục tiêu và hành vi",
+      "version": "1.0.0",
+      "module_id": "DR",
+      "level": "co_ban",
+      "decision_question": "Nhân vật đang cố làm gì với ai hoặc vật nào?",
+      "related_ids": [
+        "ST-002",
+        "DR-003",
+        "AI-003"
+      ],
+      "source_ids": [
+        "B021",
+        "B033"
+      ],
+      "json_path": "kien-thuc/DR-001.json",
+      "markdown_path": "chuyen-de/04-dao-dien-dan-canh.md#dr-001"
+    },
+    {
+      "id": "DR-002",
+      "title": "Dàn cảnh người–vật–không gian",
+      "version": "1.0.0",
+      "module_id": "DR",
+      "level": "co_ban",
+      "decision_question": "Bố trí nào làm quan hệ và hành động dễ đọc?",
+      "related_ids": [
+        "CA-004",
+        "CA-006",
+        "AI-002"
+      ],
+      "source_ids": [
+        "SRC-ASC-KAUFMAN",
+        "B015"
+      ],
+      "json_path": "kien-thuc/DR-002.json",
+      "markdown_path": "chuyen-de/04-dao-dien-dan-canh.md#dr-002"
+    },
+    {
+      "id": "DR-003",
+      "title": "Nhịp phản ứng và khoảng dừng",
+      "version": "1.0.0",
+      "module_id": "DR",
+      "level": "trung_cap",
+      "decision_question": "Nhân vật nhận biết, xử lý rồi phản ứng ở lúc nào?",
+      "related_ids": [
+        "AU-004",
+        "ST-003",
+        "ED-002"
+      ],
+      "source_ids": [
+        "B021",
+        "B029"
+      ],
+      "json_path": "kien-thuc/DR-003.json",
+      "markdown_path": "chuyen-de/04-dao-dien-dan-canh.md#dr-003"
+    },
+    {
+      "id": "DR-004",
+      "title": "Chỉ đạo tương tác nhiều nhân vật",
+      "version": "1.0.0",
+      "module_id": "DR",
+      "level": "trung_cap",
+      "decision_question": "Ai khởi xướng, ai đáp lại và trọng tâm chuyển khi nào?",
+      "related_ids": [
+        "CA-006",
+        "SO-002",
+        "AI-006"
+      ],
+      "source_ids": [
+        "B013",
+        "B027",
+        "B030"
+      ],
+      "json_path": "kien-thuc/DR-004.json",
+      "markdown_path": "chuyen-de/04-dao-dien-dan-canh.md#dr-004"
+    },
+    {
+      "id": "DR-005",
+      "title": "Chi tiết đời sống và thiết kế sản xuất",
+      "version": "1.0.0",
+      "module_id": "DR",
+      "level": "trung_cap",
+      "decision_question": "Chi tiết nào làm thế giới có lịch sử và chức năng?",
+      "related_ids": [
+        "CO-002",
+        "AI-002",
+        "QC-002"
+      ],
+      "source_ids": [
+        "B002",
+        "B003"
+      ],
+      "json_path": "kien-thuc/DR-005.json",
+      "markdown_path": "chuyen-de/04-dao-dien-dan-canh.md#dr-005"
+    },
+    {
+      "id": "DR-006",
+      "title": "Thiết kế đủ góc để dựng và phương án tiết kiệm",
+      "version": "1.0.0",
+      "module_id": "DR",
+      "level": "nang_cao",
+      "decision_question": "Cần những bằng chứng hình nào để cảnh dựng được?",
+      "related_ids": [
+        "ED-003",
+        "AI-004",
+        "QC-001"
+      ],
+      "source_ids": [
+        "B012",
+        "B013",
+        "B024"
+      ],
+      "json_path": "kien-thuc/DR-006.json",
+      "markdown_path": "chuyen-de/04-dao-dien-dan-canh.md#dr-006"
+    },
+    {
+      "id": "CA-001",
+      "title": "Cỡ cảnh theo thông tin phải thấy",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "co_ban",
+      "decision_question": "Khán giả cần thấy quan hệ không gian hay chi tiết nào?",
+      "related_ids": [
+        "AU-002",
+        "CA-003",
+        "DR-006"
+      ],
+      "source_ids": [
+        "B005",
+        "B010"
+      ],
+      "json_path": "kien-thuc/CA-001.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-001"
+    },
+    {
+      "id": "CA-002",
+      "title": "Độ cao, góc nhìn và độ nghiêng",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "co_ban",
+      "decision_question": "Máy ở đâu và nhìn theo hướng nào?",
+      "related_ids": [
+        "MO-002",
+        "ST-006",
+        "CA-004"
+      ],
+      "source_ids": [
+        "B010",
+        "B018",
+        "B031"
+      ],
+      "json_path": "kien-thuc/CA-002.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-002"
+    },
+    {
+      "id": "CA-003",
+      "title": "Bố cục và trọng tâm theo thời gian",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "trung_cap",
+      "decision_question": "Điều gì được ưu tiên ở đầu và cuối khung?",
+      "related_ids": [
+        "AU-002",
+        "CA-005",
+        "CO-003"
+      ],
+      "source_ids": [
+        "B005",
+        "B025"
+      ],
+      "json_path": "kien-thuc/CA-003.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-003"
+    },
+    {
+      "id": "CA-004",
+      "title": "Địa lý màn hình và hướng liên tục",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "trung_cap",
+      "decision_question": "Qua điểm cắt, người xem có giữ được ai ở đâu không?",
+      "related_ids": [
+        "DR-002",
+        "ED-003",
+        "EV-004"
+      ],
+      "source_ids": [
+        "B013",
+        "B027"
+      ],
+      "json_path": "kien-thuc/CA-004.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-004"
+    },
+    {
+      "id": "CA-005",
+      "title": "Chiều sâu và không gian ngoài khung",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "trung_cap",
+      "decision_question": "Quan hệ gần–xa và phần chưa thấy đóng vai trò gì?",
+      "related_ids": [
+        "SO-003",
+        "MO-003",
+        "ST-006"
+      ],
+      "source_ids": [
+        "B001",
+        "B012"
+      ],
+      "json_path": "kien-thuc/CA-005.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-005"
+    },
+    {
+      "id": "CA-006",
+      "title": "Quan hệ máy với nhân vật: qua vai, hai người, điểm nhìn",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "trung_cap",
+      "decision_question": "Người xem được đặt vào quan hệ với ai?",
+      "related_ids": [
+        "DR-004",
+        "CA-004",
+        "SO-002"
+      ],
+      "source_ids": [
+        "B005",
+        "B013",
+        "B029"
+      ],
+      "json_path": "kien-thuc/CA-006.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-006"
+    },
+    {
+      "id": "CA-007",
+      "title": "Nét, vùng nét và chuyển sự chú ý",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "trung_cap",
+      "decision_question": "Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?",
+      "related_ids": [
+        "AU-002",
+        "LI-004",
+        "AI-001"
+      ],
+      "source_ids": [
+        "B008",
+        "B011",
+        "SRC-YALE-CAMERA"
+      ],
+      "json_path": "kien-thuc/CA-007.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-007"
+    },
+    {
+      "id": "CA-008",
+      "title": "Tiêu cự, khoảng cách và phối cảnh",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "nang_cao",
+      "decision_question": "Cảm giác gần–xa đến từ vị trí máy hay góc nhìn ống kính?",
+      "related_ids": [
+        "CA-001",
+        "MO-004",
+        "EV-004"
+      ],
+      "source_ids": [
+        "B021",
+        "SRC-ARRI-FORMAT"
+      ],
+      "json_path": "kien-thuc/CA-008.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-008"
+    },
+    {
+      "id": "CA-009",
+      "title": "Khung hình và cách xem thực tế",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "trung_cap",
+      "decision_question": "Bố cục có sống được ở nơi khán giả xem không?",
+      "related_ids": [
+        "AI-007",
+        "QC-001",
+        "YT-001"
+      ],
+      "source_ids": [
+        "B022",
+        "B026"
+      ],
+      "json_path": "kien-thuc/CA-009.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-009"
+    },
+    {
+      "id": "CA-010",
+      "title": "Cú máy dài và thiết kế thay đổi trong khung",
+      "version": "1.0.0",
+      "module_id": "CA",
+      "level": "nang_cao",
+      "decision_question": "Vì sao cần giữ liên tục thay vì cắt?",
+      "related_ids": [
+        "DR-006",
+        "MO-003",
+        "ED-001"
+      ],
+      "source_ids": [
+        "B024",
+        "SRC-YALE-EDIT"
+      ],
+      "json_path": "kien-thuc/CA-010.json",
+      "markdown_path": "chuyen-de/05-bo-cuc-may-quay-quang-hoc.md#ca-010"
+    },
+    {
+      "id": "MO-001",
+      "title": "Ba lớp chuyển động độc lập",
+      "version": "1.0.0",
+      "module_id": "MO",
+      "level": "co_ban",
+      "decision_question": "Thứ gì đang chuyển động: máy, chủ thể hay môi trường?",
+      "related_ids": [
+        "CA-010",
+        "DR-001",
+        "AI-003"
+      ],
+      "source_ids": [
+        "B015",
+        "B018",
+        "SRC-GOOGLE-I2V"
+      ],
+      "json_path": "kien-thuc/MO-001.json",
+      "markdown_path": "chuyen-de/06-chuyen-dong-thoi-gian.md#mo-001"
+    },
+    {
+      "id": "MO-002",
+      "title": "Pan, tilt và roll: đổi hướng nhìn",
+      "version": "1.0.0",
+      "module_id": "MO",
+      "level": "co_ban",
+      "decision_question": "Máy xoay hướng nào từ vị trí nào?",
+      "related_ids": [
+        "CA-002",
+        "MO-003",
+        "AU-002"
+      ],
+      "source_ids": [
+        "B018",
+        "B025",
+        "B031"
+      ],
+      "json_path": "kien-thuc/MO-002.json",
+      "markdown_path": "chuyen-de/06-chuyen-dong-thoi-gian.md#mo-002"
+    },
+    {
+      "id": "MO-003",
+      "title": "Dolly, truck, tracking và orbit: đổi vị trí",
+      "version": "1.0.0",
+      "module_id": "MO",
+      "level": "trung_cap",
+      "decision_question": "Máy đi theo đường nào và giữ quan hệ gì?",
+      "related_ids": [
+        "CA-005",
+        "MO-001",
+        "AI-002"
+      ],
+      "source_ids": [
+        "B001",
+        "B018",
+        "B028"
+      ],
+      "json_path": "kien-thuc/MO-003.json",
+      "markdown_path": "chuyen-de/06-chuyen-dong-thoi-gian.md#mo-003"
+    },
+    {
+      "id": "MO-004",
+      "title": "Tiến máy, zoom và crop",
+      "version": "1.0.0",
+      "module_id": "MO",
+      "level": "trung_cap",
+      "decision_question": "Muốn thay quan hệ không gian hay chỉ thay vùng nhìn?",
+      "related_ids": [
+        "CA-008",
+        "MO-003",
+        "AI-008"
+      ],
+      "source_ids": [
+        "B001",
+        "B015",
+        "B028"
+      ],
+      "json_path": "kien-thuc/MO-004.json",
+      "markdown_path": "chuyen-de/06-chuyen-dong-thoi-gian.md#mo-004"
+    },
+    {
+      "id": "MO-005",
+      "title": "Tốc độ, tăng giảm tốc và điểm dừng",
+      "version": "1.0.0",
+      "module_id": "MO",
+      "level": "nang_cao",
+      "decision_question": "Năng lượng chuyển động thay đổi ở đoạn nào?",
+      "related_ids": [
+        "ED-002",
+        "AU-004",
+        "CA-010"
+      ],
+      "source_ids": [
+        "B021",
+        "B025"
+      ],
+      "json_path": "kien-thuc/MO-005.json",
+      "markdown_path": "chuyen-de/06-chuyen-dong-thoi-gian.md#mo-005"
+    },
+    {
+      "id": "MO-006",
+      "title": "Thời gian thực, chậm, tua nhanh và lược thời gian",
+      "version": "1.0.0",
+      "module_id": "MO",
+      "level": "trung_cap",
+      "decision_question": "Thời gian trên màn hình quan hệ thế nào với thời gian sự việc?",
+      "related_ids": [
+        "EV-005",
+        "AI-005",
+        "ED-004"
+      ],
+      "source_ids": [
+        "B011",
+        "B015",
+        "B033"
+      ],
+      "json_path": "kien-thuc/MO-006.json",
+      "markdown_path": "chuyen-de/06-chuyen-dong-thoi-gian.md#mo-006"
+    },
+    {
+      "id": "LI-001",
+      "title": "Nguồn sáng và động cơ chiếu sáng",
+      "version": "1.0.0",
+      "module_id": "LI",
+      "level": "co_ban",
+      "decision_question": "Ánh sáng trong cảnh có thể đến từ đâu?",
+      "related_ids": [
+        "LI-005",
+        "DR-002",
+        "CO-005"
+      ],
+      "source_ids": [
+        "B002",
+        "B008",
+        "SRC-ASC-KAUFMAN"
+      ],
+      "json_path": "kien-thuc/LI-001.json",
+      "markdown_path": "chuyen-de/07-anh-sang.md#li-001"
+    },
+    {
+      "id": "LI-002",
+      "title": "Độ mềm/cứng và kích thước nguồn nhìn từ chủ thể",
+      "version": "1.0.0",
+      "module_id": "LI",
+      "level": "trung_cap",
+      "decision_question": "Muốn biên bóng và chuyển vùng sáng như thế nào?",
+      "related_ids": [
+        "LI-003",
+        "CO-004",
+        "CA-007"
+      ],
+      "source_ids": [
+        "B008",
+        "B011",
+        "SRC-YALE-STAGING"
+      ],
+      "json_path": "kien-thuc/LI-002.json",
+      "markdown_path": "chuyen-de/07-anh-sang.md#li-002"
+    },
+    {
+      "id": "LI-003",
+      "title": "Tương phản, bù sáng và vùng tối",
+      "version": "1.0.0",
+      "module_id": "LI",
+      "level": "trung_cap",
+      "decision_question": "Phần tối cần giấu hay cần đọc tới mức nào?",
+      "related_ids": [
+        "LI-004",
+        "CO-003",
+        "QC-001"
+      ],
+      "source_ids": [
+        "B008",
+        "SRC-YALE-STAGING"
+      ],
+      "json_path": "kien-thuc/LI-003.json",
+      "markdown_path": "chuyen-de/07-anh-sang.md#li-003"
+    },
+    {
+      "id": "LI-004",
+      "title": "Phơi sáng và giữ thông tin hình",
+      "version": "1.0.0",
+      "module_id": "LI",
+      "level": "trung_cap",
+      "decision_question": "Chi tiết nào được ưu tiên khi dải sáng vượt khả năng?",
+      "related_ids": [
+        "CA-007",
+        "CO-006",
+        "AI-007"
+      ],
+      "source_ids": [
+        "B022",
+        "SRC-YALE-CAMERA"
+      ],
+      "json_path": "kien-thuc/LI-004.json",
+      "markdown_path": "chuyen-de/07-anh-sang.md#li-004"
+    },
+    {
+      "id": "LI-005",
+      "title": "Liên tục ánh sáng và thời gian trong cảnh",
+      "version": "1.0.0",
+      "module_id": "LI",
+      "level": "nang_cao",
+      "decision_question": "Các góc có thuộc cùng một thời điểm và không gian không?",
+      "related_ids": [
+        "EV-002",
+        "CO-005",
+        "AI-002"
+      ],
+      "source_ids": [
+        "B002",
+        "B024"
+      ],
+      "json_path": "kien-thuc/LI-005.json",
+      "markdown_path": "chuyen-de/07-anh-sang.md#li-005"
+    },
+    {
+      "id": "LI-006",
+      "title": "Bề mặt, phản chiếu và tách chủ thể",
+      "version": "1.0.0",
+      "module_id": "LI",
+      "level": "nang_cao",
+      "decision_question": "Muốn vật liệu và hình khối được đọc như thế nào?",
+      "related_ids": [
+        "CO-004",
+        "CA-005",
+        "QC-002"
+      ],
+      "source_ids": [
+        "B008",
+        "B023"
+      ],
+      "json_path": "kien-thuc/LI-006.json",
+      "markdown_path": "chuyen-de/07-anh-sang.md#li-006"
+    },
+    {
+      "id": "CO-001",
+      "title": "Sắc, độ bão hòa và độ sáng là ba lựa chọn",
+      "version": "1.0.0",
+      "module_id": "CO",
+      "level": "co_ban",
+      "decision_question": "Điều gì của màu đang phục vụ cảnh?",
+      "related_ids": [
+        "AU-004",
+        "CO-003",
+        "LI-003"
+      ],
+      "source_ids": [
+        "B008",
+        "B009",
+        "SRC-YALE-CAMERA"
+      ],
+      "json_path": "kien-thuc/CO-001.json",
+      "markdown_path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md#co-001"
+    },
+    {
+      "id": "CO-002",
+      "title": "Bảng màu từ thế giới, nhân vật và vật liệu",
+      "version": "1.0.0",
+      "module_id": "CO",
+      "level": "trung_cap",
+      "decision_question": "Màu nào có lý do tồn tại trong cảnh?",
+      "related_ids": [
+        "DR-005",
+        "CO-003",
+        "AI-002"
+      ],
+      "source_ids": [
+        "B003",
+        "B020"
+      ],
+      "json_path": "kien-thuc/CO-002.json",
+      "markdown_path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md#co-002"
+    },
+    {
+      "id": "CO-003",
+      "title": "Tách chủ thể và phân cấp bằng màu/độ sáng",
+      "version": "1.0.0",
+      "module_id": "CO",
+      "level": "trung_cap",
+      "decision_question": "Người xem cần tìm điều gì trong một nền nhiều chi tiết?",
+      "related_ids": [
+        "AU-002",
+        "CA-003",
+        "LI-006"
+      ],
+      "source_ids": [
+        "B003",
+        "B025"
+      ],
+      "json_path": "kien-thuc/CO-003.json",
+      "markdown_path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md#co-003"
+    },
+    {
+      "id": "CO-004",
+      "title": "Chất liệu và dấu biến đổi",
+      "version": "1.0.0",
+      "module_id": "CO",
+      "level": "trung_cap",
+      "decision_question": "Hình có cho thấy vật được làm, chạm và thay đổi không?",
+      "related_ids": [
+        "DR-005",
+        "AI-003",
+        "LI-006"
+      ],
+      "source_ids": [
+        "B015",
+        "B023"
+      ],
+      "json_path": "kien-thuc/CO-004.json",
+      "markdown_path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md#co-004"
+    },
+    {
+      "id": "CO-005",
+      "title": "Màu liên tục và chuyển biến có mục đích",
+      "version": "1.0.0",
+      "module_id": "CO",
+      "level": "nang_cao",
+      "decision_question": "Màu đổi vì điều kiện cảnh hay vì lỗi?",
+      "related_ids": [
+        "LI-005",
+        "CO-006",
+        "QC-001"
+      ],
+      "source_ids": [
+        "B003",
+        "B020",
+        "B023"
+      ],
+      "json_path": "kien-thuc/CO-005.json",
+      "markdown_path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md#co-005"
+    },
+    {
+      "id": "CO-006",
+      "title": "Quản lý màu, sửa cân bằng và tạo phong cách",
+      "version": "1.0.0",
+      "module_id": "CO",
+      "level": "nang_cao",
+      "decision_question": "Tệp và hệ hiển thị đang được diễn giải đúng chưa?",
+      "related_ids": [
+        "AI-007",
+        "QC-001",
+        "LI-004"
+      ],
+      "source_ids": [
+        "B022",
+        "SRC-BMD-TRAINING"
+      ],
+      "json_path": "kien-thuc/CO-006.json",
+      "markdown_path": "chuyen-de/08-mau-sac-thiet-ke-hinh.md#co-006"
+    },
+    {
+      "id": "ED-001",
+      "title": "Nhịp trong shot, giữa shot và toàn phim",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "co_ban",
+      "decision_question": "Nhịp đang đến từ yếu tố nào?",
+      "related_ids": [
+        "AU-005",
+        "MO-005",
+        "SO-006"
+      ],
+      "source_ids": [
+        "B017",
+        "B024",
+        "SRC-YALE-EDIT"
+      ],
+      "json_path": "kien-thuc/ED-001.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-001"
+    },
+    {
+      "id": "ED-002",
+      "title": "Điểm cắt theo hành động, thông tin và phản ứng",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "trung_cap",
+      "decision_question": "Cắt lúc nào giúp người xem nhận đúng điều cần?",
+      "related_ids": [
+        "DR-003",
+        "ED-003",
+        "SO-004"
+      ],
+      "source_ids": [
+        "B024",
+        "B032"
+      ],
+      "json_path": "kien-thuc/ED-002.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-002"
+    },
+    {
+      "id": "ED-003",
+      "title": "Nối hành động, ánh mắt và trạng thái",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "trung_cap",
+      "decision_question": "Qua cut, điều gì cần giữ để hiểu liên tục?",
+      "related_ids": [
+        "CA-004",
+        "DR-006",
+        "MO-006"
+      ],
+      "source_ids": [
+        "B013",
+        "B024"
+      ],
+      "json_path": "kien-thuc/ED-003.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-003"
+    },
+    {
+      "id": "ED-004",
+      "title": "Nén thời gian, lược việc và giữ nhân quả",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "trung_cap",
+      "decision_question": "Bước nào có thể bỏ mà người xem vẫn hiểu?",
+      "related_ids": [
+        "MO-006",
+        "ST-005",
+        "EV-006"
+      ],
+      "source_ids": [
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/ED-004.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-004"
+    },
+    {
+      "id": "ED-005",
+      "title": "Tăng, giữ và thả mong chờ",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "nang_cao",
+      "decision_question": "Đường nhịp có thay đổi tương xứng với điều đang chờ không?",
+      "related_ids": [
+        "AU-003",
+        "ST-004",
+        "SO-006"
+      ],
+      "source_ids": [
+        "B017",
+        "B024"
+      ],
+      "json_path": "kien-thuc/ED-005.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-005"
+    },
+    {
+      "id": "ED-006",
+      "title": "Montage, dựng song song và liên hệ ý tưởng",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "nang_cao",
+      "decision_question": "Hai hình đặt cạnh nhau khiến người xem liên hệ điều gì?",
+      "related_ids": [
+        "ST-005",
+        "ST-006",
+        "EV-001"
+      ],
+      "source_ids": [
+        "SRC-YALE-EDIT"
+      ],
+      "json_path": "kien-thuc/ED-006.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-006"
+    },
+    {
+      "id": "ED-007",
+      "title": "Cảnh xen và chuyển cảnh có chức năng",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "trung_cap",
+      "decision_question": "Hình/âm ở giữa hai đoạn đang nối điều gì?",
+      "related_ids": [
+        "SO-004",
+        "ED-004",
+        "ST-005"
+      ],
+      "source_ids": [
+        "B024"
+      ],
+      "json_path": "kien-thuc/ED-007.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-007"
+    },
+    {
+      "id": "ED-008",
+      "title": "Dựng bản thô, rà trải nghiệm và hoàn thiện",
+      "version": "1.0.0",
+      "module_id": "ED",
+      "level": "nang_cao",
+      "decision_question": "Bản dựng đã hoạt động trước khi trang trí chưa?",
+      "related_ids": [
+        "QC-001",
+        "ST-008",
+        "AI-008"
+      ],
+      "source_ids": [
+        "B024",
+        "SRC-BMD-TRAINING"
+      ],
+      "json_path": "kien-thuc/ED-008.json",
+      "markdown_path": "chuyen-de/09-dung-phim-va-nhip.md#ed-008"
+    },
+    {
+      "id": "SO-001",
+      "title": "Bản đồ nguồn âm và lớp âm",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "co_ban",
+      "decision_question": "Điều gì cần nghe, phát từ đâu và làm nhiệm vụ gì?",
+      "related_ids": [
+        "SO-005",
+        "SO-008",
+        "AI-006"
+      ],
+      "source_ids": [
+        "B016",
+        "B032"
+      ],
+      "json_path": "kien-thuc/SO-001.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-001"
+    },
+    {
+      "id": "SO-002",
+      "title": "Thoại, người nói và khoảng phản ứng",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "trung_cap",
+      "decision_question": "Ai nói câu nào và người xem cần theo ai?",
+      "related_ids": [
+        "DR-004",
+        "ST-007",
+        "AI-006"
+      ],
+      "source_ids": [
+        "B013",
+        "B027",
+        "B029",
+        "B030"
+      ],
+      "json_path": "kien-thuc/SO-002.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-002"
+    },
+    {
+      "id": "SO-003",
+      "title": "Âm ngoài khung và phối cảnh âm",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "trung_cap",
+      "decision_question": "Âm cho biết điều gì ngoài phần nhìn thấy?",
+      "related_ids": [
+        "CA-005",
+        "ST-006",
+        "SO-004"
+      ],
+      "source_ids": [
+        "B032",
+        "SRC-YALE-SOUND"
+      ],
+      "json_path": "kien-thuc/SO-003.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-003"
+    },
+    {
+      "id": "SO-004",
+      "title": "Cầu nối âm và điểm vào/ra",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "trung_cap",
+      "decision_question": "Âm có thể làm điểm nối hình tự nhiên hoặc có ý nghĩa hơn không?",
+      "related_ids": [
+        "ED-007",
+        "SO-003",
+        "ED-003"
+      ],
+      "source_ids": [
+        "B024",
+        "SRC-YALE-SOUND"
+      ],
+      "json_path": "kien-thuc/SO-004.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-004"
+    },
+    {
+      "id": "SO-005",
+      "title": "Thứ tự nghe, độ lớn và khoảng động",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "nang_cao",
+      "decision_question": "Người xem nghe được điều gì trước ở mức âm thoải mái?",
+      "related_ids": [
+        "SO-001",
+        "SO-008",
+        "QC-001"
+      ],
+      "source_ids": [
+        "B016",
+        "SRC-BMD-TRAINING"
+      ],
+      "json_path": "kien-thuc/SO-005.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-005"
+    },
+    {
+      "id": "SO-006",
+      "title": "Nhạc: chức năng, tương phản và im lặng",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "trung_cap",
+      "decision_question": "Nhạc đang thêm điều gì mà hình/âm khác chưa làm?",
+      "related_ids": [
+        "ED-005",
+        "AU-004",
+        "SO-001"
+      ],
+      "source_ids": [
+        "B016",
+        "B032"
+      ],
+      "json_path": "kien-thuc/SO-006.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-006"
+    },
+    {
+      "id": "SO-007",
+      "title": "Lời kể và khoảng thở",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "trung_cap",
+      "decision_question": "Khi nào người xem cần lời và khi nào cần tự cảm nhận?",
+      "related_ids": [
+        "ST-007",
+        "AU-005",
+        "ED-001"
+      ],
+      "source_ids": [
+        "B016",
+        "B032"
+      ],
+      "json_path": "kien-thuc/SO-007.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-007"
+    },
+    {
+      "id": "SO-008",
+      "title": "Dựng tiếng và kiểm âm–hình",
+      "version": "1.0.0",
+      "module_id": "SO",
+      "level": "nang_cao",
+      "decision_question": "Âm được sinh/thu có đúng sự kiện và dùng được không?",
+      "related_ids": [
+        "AI-006",
+        "QC-001",
+        "SO-005"
+      ],
+      "source_ids": [
+        "B016",
+        "B032"
+      ],
+      "json_path": "kien-thuc/SO-008.json",
+      "markdown_path": "chuyen-de/10-am-thanh-nhac-loi.md#so-008"
+    },
+    {
+      "id": "AI-001",
+      "title": "Chọn chế độ tạo theo thông tin cần giữ",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "co_ban",
+      "decision_question": "Đầu vào nào đã đủ quyết định hình, chuyển động và âm?",
+      "related_ids": [
+        "CA-007",
+        "AI-002",
+        "AI-007"
+      ],
+      "source_ids": [
+        "B022",
+        "B026",
+        "SRC-GOOGLE-I2V"
+      ],
+      "json_path": "kien-thuc/AI-001.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-001"
+    },
+    {
+      "id": "AI-002",
+      "title": "Phân quyền tham chiếu và giữ liên tục",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "trung_cap",
+      "decision_question": "Ảnh/video nào có quyền quyết định thuộc tính nào?",
+      "related_ids": [
+        "DR-005",
+        "LI-005",
+        "CO-005"
+      ],
+      "source_ids": [
+        "B003",
+        "B020"
+      ],
+      "json_path": "kien-thuc/AI-002.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-002"
+    },
+    {
+      "id": "AI-003",
+      "title": "Hợp đồng hành động: đầu, tiếp xúc, biến đổi, cuối",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "trung_cap",
+      "decision_question": "AI phải thể hiện sự thay đổi vật lý nào?",
+      "related_ids": [
+        "DR-001",
+        "CO-004",
+        "AI-004"
+      ],
+      "source_ids": [
+        "B015",
+        "B033"
+      ],
+      "json_path": "kien-thuc/AI-003.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-003"
+    },
+    {
+      "id": "AI-004",
+      "title": "Chia nhiệm vụ sinh và dựng phim",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "trung_cap",
+      "decision_question": "Một lần tạo nên giải quyết phần việc nào?",
+      "related_ids": [
+        "DR-006",
+        "AI-005",
+        "ED-008"
+      ],
+      "source_ids": [
+        "B013",
+        "B025"
+      ],
+      "json_path": "kien-thuc/AI-004.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-004"
+    },
+    {
+      "id": "AI-005",
+      "title": "Nối dài, ảnh cuối và điểm nối",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "nang_cao",
+      "decision_question": "Cần tiếp tục chuyển động hay chuyển sang một góc/cảnh khác?",
+      "related_ids": [
+        "ED-003",
+        "MO-006",
+        "AI-002"
+      ],
+      "source_ids": [
+        "B024"
+      ],
+      "json_path": "kien-thuc/AI-005.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-005"
+    },
+    {
+      "id": "AI-006",
+      "title": "Thoại và âm AI: kiểm từng loại lỗi",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "nang_cao",
+      "decision_question": "Đầu ra sai lời, vai, môi hay âm sự kiện?",
+      "related_ids": [
+        "SO-002",
+        "SO-008",
+        "DR-004"
+      ],
+      "source_ids": [
+        "B027",
+        "B029",
+        "B030",
+        "B032"
+      ],
+      "json_path": "kien-thuc/AI-006.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-006"
+    },
+    {
+      "id": "AI-007",
+      "title": "Câu lệnh, thiết lập và hồ sơ năng lực mô hình",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "trung_cap",
+      "decision_question": "Điều gì nên viết, điều gì phải đặt và điều gì chưa biết?",
+      "related_ids": [
+        "EV-006",
+        "AI-001",
+        "QC-004"
+      ],
+      "source_ids": [
+        "B023",
+        "B026",
+        "SRC-GOOGLE-PROMPT",
+        "SRC-RUNWAY-GEN4"
+      ],
+      "json_path": "kien-thuc/AI-007.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-007"
+    },
+    {
+      "id": "AI-008",
+      "title": "Sửa ít nhất, giữ phần đạt và chọn hậu kỳ",
+      "version": "1.0.0",
+      "module_id": "AI",
+      "level": "nang_cao",
+      "decision_question": "Cách sửa nào ít làm hỏng phần đang đúng?",
+      "related_ids": [
+        "QC-002",
+        "AI-003",
+        "MO-006"
+      ],
+      "source_ids": [
+        "B004",
+        "B033"
+      ],
+      "json_path": "kien-thuc/AI-008.json",
+      "markdown_path": "chuyen-de/11-san-xuat-bang-ai.md#ai-008"
+    },
+    {
+      "id": "QC-001",
+      "title": "Duyệt theo mục tiêu và lỗi chặn sử dụng",
+      "version": "1.0.0",
+      "module_id": "QC",
+      "level": "co_ban",
+      "decision_question": "Clip đạt ở những tiêu chí nào và còn lỗi gì?",
+      "related_ids": [
+        "ED-008",
+        "SO-008",
+        "EV-004"
+      ],
+      "source_ids": [
+        "B022",
+        "B033"
+      ],
+      "json_path": "kien-thuc/QC-001.json",
+      "markdown_path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-001"
+    },
+    {
+      "id": "QC-002",
+      "title": "Chẩn đoán lỗi trước khi viết lại",
+      "version": "1.0.0",
+      "module_id": "QC",
+      "level": "trung_cap",
+      "decision_question": "Sai ở đầu vào, yêu cầu, công cụ hay cách đánh giá?",
+      "related_ids": [
+        "AI-008",
+        "EV-001",
+        "QC-003"
+      ],
+      "source_ids": [
+        "B015",
+        "B033"
+      ],
+      "json_path": "kien-thuc/QC-002.json",
+      "markdown_path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-002"
+    },
+    {
+      "id": "QC-003",
+      "title": "Thử có kiểm soát và nhật ký kết quả",
+      "version": "1.0.0",
+      "module_id": "QC",
+      "level": "nang_cao",
+      "decision_question": "Điều gì trong thay đổi có thể giải thích kết quả?",
+      "related_ids": [
+        "AU-006",
+        "AI-007",
+        "QC-005"
+      ],
+      "source_ids": [
+        "B007",
+        "B023",
+        "B033"
+      ],
+      "json_path": "kien-thuc/QC-003.json",
+      "markdown_path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-003"
+    },
+    {
+      "id": "QC-004",
+      "title": "Quản lý tri thức, phiên bản và phụ thuộc",
+      "version": "1.0.0",
+      "module_id": "QC",
+      "level": "nang_cao",
+      "decision_question": "Đâu là bản hiện hành và thay đổi ảnh hưởng những gì?",
+      "related_ids": [
+        "EV-002",
+        "EV-006",
+        "QC-006"
+      ],
+      "source_ids": [
+        "B019"
+      ],
+      "json_path": "kien-thuc/QC-004.json",
+      "markdown_path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-004"
+    },
+    {
+      "id": "QC-005",
+      "title": "Dự toán bằng sản phẩm dùng được",
+      "version": "1.0.0",
+      "module_id": "QC",
+      "level": "trung_cap",
+      "decision_question": "Tốn bao nhiêu để có một đoạn hoàn chỉnh đạt yêu cầu?",
+      "related_ids": [
+        "AI-004",
+        "QC-003",
+        "ED-008"
+      ],
+      "source_ids": [
+        "B007",
+        "B022",
+        "B024"
+      ],
+      "json_path": "kien-thuc/QC-005.json",
+      "markdown_path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-005"
+    },
+    {
+      "id": "QC-006",
+      "title": "Từ ví dụ ngách tới kiến thức chung",
+      "version": "1.0.0",
+      "module_id": "QC",
+      "level": "nang_cao",
+      "decision_question": "Phần nào của quan sát có thể chuyển sang bối cảnh khác?",
+      "related_ids": [
+        "EV-006",
+        "AU-006",
+        "QC-004"
+      ],
+      "source_ids": [
+        "B019",
+        "B033"
+      ],
+      "json_path": "kien-thuc/QC-006.json",
+      "markdown_path": "chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md#qc-006"
+    },
+    {
+      "id": "YT-001",
+      "title": "Lời hứa ảnh thu nhỏ, tiêu đề và mở đầu",
+      "version": "1.0.0",
+      "module_id": "YT",
+      "level": "co_ban",
+      "decision_question": "Điều người xem bấm vào có được phim thực hiện không?",
+      "related_ids": [
+        "ST-008",
+        "AU-001",
+        "YT-002"
+      ],
+      "source_ids": [
+        "SRC-YT-RETENTION"
+      ],
+      "json_path": "kien-thuc/YT-001.json",
+      "markdown_path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md#yt-001"
+    },
+    {
+      "id": "YT-002",
+      "title": "Tỷ lệ nhấp và bối cảnh phân phối",
+      "version": "1.0.0",
+      "module_id": "YT",
+      "level": "trung_cap",
+      "decision_question": "Tỷ lệ nhấp đang được so trong điều kiện nào?",
+      "related_ids": [
+        "YT-001",
+        "YT-003",
+        "AU-006"
+      ],
+      "source_ids": [
+        "SRC-YT-CTR"
+      ],
+      "json_path": "kien-thuc/YT-002.json",
+      "markdown_path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md#yt-002"
+    },
+    {
+      "id": "YT-003",
+      "title": "Giữ chân theo đoạn và giả thuyết sửa",
+      "version": "1.0.0",
+      "module_id": "YT",
+      "level": "trung_cap",
+      "decision_question": "Ở mốc nào hành vi xem thay đổi, và có những giải thích nào?",
+      "related_ids": [
+        "AU-006",
+        "ED-001",
+        "QC-003"
+      ],
+      "source_ids": [
+        "SRC-YT-RETENTION"
+      ],
+      "json_path": "kien-thuc/YT-003.json",
+      "markdown_path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md#yt-003"
+    },
+    {
+      "id": "YT-004",
+      "title": "Tính mới, sự quen thuộc và giá trị trở lại",
+      "version": "1.0.0",
+      "module_id": "YT",
+      "level": "trung_cap",
+      "decision_question": "Tập mới cho người xem điều quen và điều mới nào?",
+      "related_ids": [
+        "ST-008",
+        "AI-002",
+        "AU-001"
+      ],
+      "source_ids": [
+        "B003",
+        "B024"
+      ],
+      "json_path": "kien-thuc/YT-004.json",
+      "markdown_path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md#yt-004"
+    },
+    {
+      "id": "YT-005",
+      "title": "Phản hồi trải nghiệm và nhóm người xem",
+      "version": "1.0.0",
+      "module_id": "YT",
+      "level": "nang_cao",
+      "decision_question": "Ai được phục vụ tốt và ai thấy khác với ý đồ?",
+      "related_ids": [
+        "AU-006",
+        "YT-003",
+        "QC-006"
+      ],
+      "source_ids": [
+        "SRC-YT-RETENTION"
+      ],
+      "json_path": "kien-thuc/YT-005.json",
+      "markdown_path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md#yt-005"
+    },
+    {
+      "id": "YT-006",
+      "title": "Vòng học từ xuất bản về quyết định sáng tạo",
+      "version": "1.0.0",
+      "module_id": "YT",
+      "level": "nang_cao",
+      "decision_question": "Dữ liệu sau đăng sẽ thay đổi quyết định nào ở tập tới?",
+      "related_ids": [
+        "QC-003",
+        "QC-006",
+        "AU-001"
+      ],
+      "source_ids": [
+        "SRC-YT-CTR",
+        "SRC-YT-RETENTION"
+      ],
+      "json_path": "kien-thuc/YT-006.json",
+      "markdown_path": "chuyen-de/13-youtube-loi-hua-phan-hoi.md#yt-006"
+    }
+  ]
+}

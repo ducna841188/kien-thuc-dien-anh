@@ -1,0 +1,48 @@
+{
+  "id": "AI-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Chọn chế độ tạo theo thông tin cần giữ",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Đầu vào nào đã đủ quyết định hình, chuyển động và âm?",
+  "use_when": [
+    "Trước khi chọn công cụ hoặc viết câu lệnh."
+  ],
+  "principle": "Phân biệt tạo từ chữ, ảnh đầu, bộ tham chiếu, video chuyển động, hai khung và chỉnh video. Mỗi chế độ dùng thông tin khác nhau; khả năng phải theo phiên bản/dịch vụ.",
+  "actions": [
+    "Lập danh sách điều phải giữ và điều phải tạo mới.",
+    "Chọn kiểu đầu vào phù hợp, kiểm tính năng thật có.",
+    "Tách mô tả ý đồ khỏi thông số phải đặt ở giao diện/API."
+  ],
+  "tradeoffs": [
+    "Nhiều tham chiếu có thể bổ sung kiểm soát nhưng cũng mang mâu thuẫn."
+  ],
+  "verification": [
+    "Không yêu cầu tính năng chưa xác minh có trong tài khoản.",
+    "Ảnh đầu đủ rõ với hành động có thể bắt đầu từ trạng thái đó."
+  ],
+  "original_example": "Đã duyệt ảnh người và bếp: dùng nó làm nền tạo hình, tập trung chữ vào thao tác mới.",
+  "counterexample": "Tạo từ chữ vẫn phù hợp cảnh không cần nhận diện cố định.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "CA-007",
+    "AI-002",
+    "AI-007"
+  ],
+  "source_ids": [
+    "B022",
+    "B026",
+    "SRC-GOOGLE-I2V"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

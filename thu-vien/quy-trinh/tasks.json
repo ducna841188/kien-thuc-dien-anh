@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "tasks": [
+    {
+      "task": "analyze_video",
+      "title": "Phân tích video",
+      "path": "01-phan-tich-video.md",
+      "core_ids": [
+        "EV-001",
+        "EV-003",
+        "EV-004",
+        "EV-005",
+        "ED-001",
+        "AU-004"
+      ]
+    },
+    {
+      "task": "write_script",
+      "title": "Xây và sửa kịch bản",
+      "path": "02-kich-ban.md",
+      "core_ids": [
+        "AU-001",
+        "ST-001",
+        "ST-003",
+        "ST-005",
+        "ST-007",
+        "ST-008"
+      ]
+    },
+    {
+      "task": "design_shots",
+      "title": "Thiết kế danh sách shot",
+      "path": "03-danh-sach-shot.md",
+      "core_ids": [
+        "DR-002",
+        "DR-006",
+        "CA-001",
+        "CA-004",
+        "MO-001",
+        "AI-003",
+        "ED-003"
+      ]
+    },
+    {
+      "task": "write_generation_prompts",
+      "title": "Viết yêu cầu tạo ảnh/video",
+      "path": "04-cau-lenh-ai.md",
+      "core_ids": [
+        "AI-001",
+        "AI-002",
+        "AI-003",
+        "AI-004",
+        "AI-007"
+      ]
+    },
+    {
+      "task": "diagnose_and_repair",
+      "title": "Chẩn đoán và sửa lỗi",
+      "path": "05-chan-doan-sua-loi.md",
+      "core_ids": [
+        "QC-002",
+        "AI-008",
+        "QC-003",
+        "MO-006",
+        "QC-001"
+      ]
+    }
+  ]
+}

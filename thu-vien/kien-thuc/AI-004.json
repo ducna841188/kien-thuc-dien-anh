@@ -1,0 +1,49 @@
+{
+  "id": "AI-004",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Chia nhiệm vụ sinh và dựng phim",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Một lần tạo nên giải quyết phần việc nào?",
+  "use_when": [
+    "Khi cảnh phức tạp, nhiều người hoặc nhiều thay đổi."
+  ],
+  "principle": "Tách kế hoạch phim khỏi độ dài/chế độ một lần sinh. Chọn đơn vị tạo có mục tiêu kiểm tra được và bộ góc đủ dựng.",
+  "actions": [
+    "Lập shot theo chức năng trước khi chia job.",
+    "Nhóm các hành động liên tục khả thi; tách nhiệm vụ cạnh tranh.",
+    "Dành phần cắt/nối/nhạc/màu chính xác cho hậu kỳ khi phù hợp."
+  ],
+  "tradeoffs": [
+    "Tách nhiều job tăng kiểm soát nhưng tăng công nối và lệch nhận diện."
+  ],
+  "verification": [
+    "Mỗi job có tiêu chí đạt và điểm đầu/cuối.",
+    "Không giả định mỗi dòng prompt tự trở thành một shot đúng độ dài."
+  ],
+  "original_example": "Tạo riêng cảnh trung người làm, cận tiếp xúc khó và cảnh kết quả để sửa đúng phần lỗi.",
+  "counterexample": "Công cụ có thể tạo nhiều shot trong một lần nếu phù hợp; vẫn phải kiểm ranh giới và mạch.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-006",
+    "AI-005",
+    "ED-008"
+  ],
+  "source_ids": [
+    "B013",
+    "B025"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

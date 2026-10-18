@@ -1,0 +1,49 @@
+{
+  "id": "CA-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Bố cục và trọng tâm theo thời gian",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì được ưu tiên ở đầu và cuối khung?",
+  "use_when": [
+    "Khi hình nhiều chi tiết hoặc trọng tâm chuyển."
+  ],
+  "principle": "Bố cục gồm vị trí, khoảng trống, đường nét, tương phản và chuyển động. Quy tắc chia ba/đối xứng là phương án, không tiêu chuẩn chất lượng duy nhất.",
+  "actions": [
+    "Đặt trọng tâm chính và phần thông tin hỗ trợ.",
+    "Rà vật ở mép, vật cắt thân và đường dẫn mắt cạnh tranh.",
+    "Xem khung đầu–giữa–cuối vì bố cục thay đổi cùng hành động."
+  ],
+  "tradeoffs": [
+    "Bố cục quá hoàn hảo có thể mất tự nhiên; lệch khung có thể có dụng ý."
+  ],
+  "verification": [
+    "Mắt người xem tìm được việc chính đúng lúc.",
+    "Không có yếu tố nền vô tình nổi hơn bằng chứng cần thấy."
+  ],
+  "original_example": "Một khoảng trống bên phía nhân vật nhìn có thể dành chỗ cho điều sắp xuất hiện.",
+  "counterexample": "Đặt giữa khung vẫn phù hợp nghi lễ, đồ vật hoặc thiết kế đối xứng.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-002",
+    "CA-005",
+    "CO-003"
+  ],
+  "source_ids": [
+    "B005",
+    "B025"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

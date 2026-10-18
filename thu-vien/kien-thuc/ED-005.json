@@ -1,0 +1,49 @@
+{
+  "id": "ED-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ED",
+  "title": "Tăng, giữ và thả mong chờ",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Đường nhịp có thay đổi tương xứng với điều đang chờ không?",
+  "use_when": [
+    "Khi phim phẳng hoặc kết quả không có sức nặng."
+  ],
+  "principle": "Thiết kế các nhịp đặt kỳ vọng, tiến triển, chậm/giữ và nhận kết quả. Đây là công cụ bố trí, không đường cong áp đặt mọi thể loại.",
+  "actions": [
+    "Đánh dấu điều đang chờ ở từng chuỗi.",
+    "Dồn hoặc giãn thông tin theo độ cần hiểu.",
+    "Cho kết quả và dư âm có không gian trước nhiệm vụ mới."
+  ],
+  "tradeoffs": [
+    "Trì hoãn quá lâu dễ bực; trả mọi thứ quá sớm có thể mất lực theo dõi."
+  ],
+  "verification": [
+    "Có tương phản nhịp nhưng không đổi đột ngột trái lời hứa.",
+    "Không nhất thiết tăng nhạc hoặc cắt nhanh để tạo cao trào."
+  ],
+  "original_example": "Sau chuỗi làm ngắn, giữ sản phẩm và phản ứng sử dụng nó.",
+  "counterexample": "Phim ru ngủ có thể hạn chế các đỉnh kích thích; vẫn có thể có tiến triển nhẹ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-003",
+    "ST-004",
+    "SO-006"
+  ],
+  "source_ids": [
+    "B017",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

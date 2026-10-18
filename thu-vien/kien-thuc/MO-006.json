@@ -1,0 +1,50 @@
+{
+  "id": "MO-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "MO",
+  "title": "Thời gian thực, chậm, tua nhanh và lược thời gian",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Thời gian trên màn hình quan hệ thế nào với thời gian sự việc?",
+  "use_when": [
+    "Khi dựng quá trình dài hoặc sửa yêu cầu timelapse."
+  ],
+  "principle": "Tách chuyển động chậm, tăng tốc liên tục, timelapse lấy mẫu theo thời gian và dựng lược qua các trạng thái. FPS đầu ra không tự cho biết tốc độ sự việc.",
+  "actions": [
+    "Ghi loại nhịp thời gian đã chốt.",
+    "Chọn dấu tiến triển cần nhìn thấy và bước có thể lược.",
+    "Kiểm chuyển động/nhòe/liên tục sau xử lý; giữ âm theo ý đồ thời gian."
+  ],
+  "tradeoffs": [
+    "Nén mạnh có thể làm mất kỹ thuật thao tác; kéo chậm có thể tạo cảm giác nặng hoặc giả."
+  ],
+  "verification": [
+    "Sửa lỗi số người không tự đổi timelapse thành thời gian thực.",
+    "Thông số tệp và loại chuyển động được kiểm riêng."
+  ],
+  "original_example": "Phủ đất cả buổi được nén nhưng phải vẫn thấy kéo/trải đúng vật, không thành chuyển tấm phủ qua luống khác.",
+  "counterexample": "Chuỗi mầm–cây–quả có thể là dựng lược, không đủ bằng chứng gọi timelapse chỉ từ ảnh tĩnh.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-005",
+    "AI-005",
+    "ED-004"
+  ],
+  "source_ids": [
+    "B011",
+    "B015",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

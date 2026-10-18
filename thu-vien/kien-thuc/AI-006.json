@@ -1,0 +1,51 @@
+{
+  "id": "AI-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Thoại và âm AI: kiểm từng loại lỗi",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Đầu ra sai lời, vai, môi hay âm sự kiện?",
+  "use_when": [
+    "Khi clip có âm tích hợp hoặc hội thoại."
+  ],
+  "principle": "Chẩn đoán riêng thay vì thêm một khối yêu cầu dài cho mọi lỗi. Giữ hình đạt khi có phương án xử lý âm riêng.",
+  "actions": [
+    "Nghe và chép nội dung thực được phát.",
+    "So vai nói, giọng, môi và sự kiện theo mốc.",
+    "Chọn sửa lời/giọng/đồng bộ/hậu kỳ hoặc sinh lại đúng shot."
+  ],
+  "tradeoffs": [
+    "Tạo lại có thể làm mất hình đã đạt; sửa âm có thể khó nếu tách nguồn kém."
+  ],
+  "verification": [
+    "Không báo khớp môi chỉ vì người đúng đang mở miệng.",
+    "Không suy có các track riêng khi chỉ nhận một file trộn."
+  ],
+  "original_example": "Mèo và chó bị nhầm lời: xác định vai sai trước; không tự đổi camera đang đúng.",
+  "counterexample": "Không phải mọi tương tác đều cần quay–đảo góc; một khung chung vẫn có thể phù hợp.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "SO-002",
+    "SO-008",
+    "DR-004"
+  ],
+  "source_ids": [
+    "B027",
+    "B029",
+    "B030",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

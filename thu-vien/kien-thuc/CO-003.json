@@ -1,0 +1,49 @@
+{
+  "id": "CO-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CO",
+  "title": "Tách chủ thể và phân cấp bằng màu/độ sáng",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem cần tìm điều gì trong một nền nhiều chi tiết?",
+  "use_when": [
+    "Khi chủ thể chìm hoặc nhiều màu tranh nhau."
+  ],
+  "principle": "Dùng chênh tương đối về sáng, sắc hoặc bão hòa. Không cần mọi yếu tố đều tương phản tối đa.",
+  "actions": [
+    "So chủ thể với vùng nền ngay sát nó.",
+    "Chọn một kiểu chênh đủ dùng và giảm màu cạnh tranh.",
+    "Xem ở kích thước nhỏ và theo chuyển động thực."
+  ],
+  "tradeoffs": [
+    "Tách mạnh quá có thể giống ghép lớp; tương phản màu mất tác dụng nếu độ sáng quá giống trên thiết bị khác."
+  ],
+  "verification": [
+    "Điểm chính tìm được nhanh nhưng vẫn thuộc không gian.",
+    "Không phải làm da sáng/rực hơn mọi thứ trong mọi cảnh."
+  ],
+  "original_example": "Bát sáng trên bàn tối giúp đọc đường gạo rơi; đổi nền có thể tốt hơn tăng sáng toàn ảnh.",
+  "counterexample": "Cảnh muốn nhân vật hòa vào môi trường có thể chủ động giảm tách.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-002",
+    "CA-003",
+    "LI-006"
+  ],
+  "source_ids": [
+    "B003",
+    "B025"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

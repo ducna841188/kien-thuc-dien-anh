@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": "GENREQUEST-SYN-001",
+  "core_version": "1.0.0",
+  "shot_ids": [
+    "PLAN-SHOT-001"
+  ],
+  "model_profile_id": null,
+  "mode": "Ý đồ chuyển động chung, chưa chuyển cú pháp model",
+  "intent_vi": "Một người đưa tay về chiếc bát trên bàn, máy cố định.",
+  "positive_text": "The person reaches one hand toward the bowl on the table. The camera remains fixed.",
+  "text_language": "en",
+  "negative_text": null,
+  "settings": [],
+  "reference_mapping": [],
+  "unsupported_or_unknown": [
+    "Chưa có model/chế độ, ảnh đầu và thiết lập; không dùng mẫu như câu lệnh đã kiểm."
+  ],
+  "must_preserve": [
+    "Một người",
+    "Số bát và bố trí từ bản duyệt"
+  ],
+  "acceptance_checks": [
+    "Tay tới đúng bát; máy không tự đổi góc."
+  ],
+  "tested": false
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:film-kb:model:1.0.0",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "service": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "checked_on": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verification_state": {
+      "enum": [
+        "documentation_only",
+        "user_reported",
+        "tested",
+        "unknown"
+      ]
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "control": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "documented",
+              "user_reported",
+              "tested",
+              "unknown"
+            ]
+          },
+          "method": {
+            "enum": [
+              "text",
+              "setting",
+              "reference",
+              "postproduction",
+              "unknown"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "control",
+          "status",
+          "method",
+          "source_ids",
+          "note"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "generation_tested": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "provider",
+    "model_label",
+    "service",
+    "checked_on",
+    "verification_state",
+    "capabilities",
+    "unknowns",
+    "source_ids",
+    "generation_tested"
+  ],
+  "additionalProperties": false
+}

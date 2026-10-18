@@ -1,0 +1,50 @@
+{
+  "id": "EV-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "EV",
+  "title": "Ưu tiên bằng chứng và giữ bất đồng",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Khi nguồn mâu thuẫn, ta dùng gì để ra quyết định?",
+  "use_when": [
+    "Khi bảng nguồn, video, hướng dẫn mô hình và nguyên tắc kho khác nhau."
+  ],
+  "principle": "Ưu tiên chỉ dẫn hiện hành của người dùng và mục tiêu đã chốt cho lựa chọn sáng tạo; sự thật quan sát phải theo bằng chứng phù hợp. Không ép video vào nhãn sẵn có.",
+  "actions": [
+    "Ghi hai phát biểu và nguồn của từng phát biểu.",
+    "Đối chiếu video cho nội dung quan sát; tài liệu đúng phiên bản cho tính năng.",
+    "Chưa giải được thì giữ bất đồng và chọn phương án có điều kiện, không xóa nguồn bất tiện."
+  ],
+  "tradeoffs": [
+    "Nhãn chưa xác định làm thống kê ít đẹp nhưng giữ được độ tin cậy."
+  ],
+  "verification": [
+    "Quyết định ghi rõ dựa trên phiên bản nào và điều kiện nào.",
+    "Không nâng ý kiến tác giả thành cấu trúc nội bộ mô hình."
+  ],
+  "original_example": "Bảng gọi shot rộng là cận: giữ nhãn gốc, thêm nhãn kiểm lại và trạng thái đối chiếu.",
+  "counterexample": "Quy tắc nền chung không được dùng để sửa trái yêu cầu timelapse đã chốt.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-001",
+    "AI-007",
+    "QC-006"
+  ],
+  "source_ids": [
+    "B010",
+    "B015",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

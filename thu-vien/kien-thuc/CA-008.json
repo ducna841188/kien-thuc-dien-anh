@@ -1,0 +1,49 @@
+{
+  "id": "CA-008",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Tiêu cự, khoảng cách và phối cảnh",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cảm giác gần–xa đến từ vị trí máy hay góc nhìn ống kính?",
+  "use_when": [
+    "Khi mô tả tạo hình, chọn ống hoặc phân tích hình bị méo."
+  ],
+  "principle": "Khoảng cách và vị trí nhìn quyết định quan hệ phối cảnh; tiêu cự cùng định dạng ảnh quyết định góc nhìn. Đổi ống rồi lùi máy để giữ cỡ đã đổi cả vị trí nhìn.",
+  "actions": [
+    "Chọn cỡ cảnh và khoảng cách mong muốn trước.",
+    "Ghi cách nền/tiền cảnh nên quan hệ với chủ thể.",
+    "Nếu dùng số mm, ghi định dạng tham chiếu hoặc coi đó là ý đồ chưa đo."
+  ],
+  "tradeoffs": [
+    "Ống rộng ở gần có thể nhấn chênh khoảng cách; đứng xa hơn có thể làm các lớp có vẻ sát nhau."
+  ],
+  "verification": [
+    "Không quy mọi méo mặt cho một số mm.",
+    "Không suy chính xác tiêu cự hoặc máy từ một khung thiếu metadata."
+  ],
+  "original_example": "Muốn thấy người cùng căn bếp, chọn vị trí đủ đọc không gian; muốn nền như gần hơn thì xét góc nhìn và khoảng cách cùng nhau.",
+  "counterexample": "Một cận góc rộng có thể là chủ ý biểu cảm; không phải lỗi bắt buộc sửa.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-001",
+    "MO-004",
+    "EV-004"
+  ],
+  "source_ids": [
+    "B021",
+    "SRC-ARRI-FORMAT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

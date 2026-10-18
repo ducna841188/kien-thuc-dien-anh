@@ -1,0 +1,47 @@
+{
+  "id": "DR-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "DR",
+  "title": "Dàn cảnh người–vật–không gian",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Bố trí nào làm quan hệ và hành động dễ đọc?",
+  "use_when": [
+    "Trước khi chọn góc máy hoặc tạo ảnh bối cảnh."
+  ],
+  "principle": "Blocking là bố trí vị trí và di chuyển của người/vật trong cảnh. Máy quay được chọn trong quan hệ với cách dàn cảnh đó.",
+  "actions": [
+    "Vẽ vị trí đầu, đích đến, lối đi và vật cần chạm.",
+    "Kiểm tay thuận, tầm với, vật che và khoảng thao tác.",
+    "Đặt máy để thấy thông tin quan trọng hoặc chủ động giấu có lý do."
+  ],
+  "tradeoffs": [
+    "Bố trí tối ưu cho một góc có thể khó nối góc khác; cần kế hoạch vùng quay."
+  ],
+  "verification": [
+    "Người/vật không tự đổi vị trí giữa góc.",
+    "Hành động có không gian để thực hiện và không bị che ngoài ý đồ."
+  ],
+  "original_example": "Bát nằm gần tay đang cầm muôi; người ngồi không phải xuyên qua bàn để lấy.",
+  "counterexample": "Một cảnh muốn tạo cảm giác bị cản có thể chủ động che một phần nhưng vẫn cần điều khiển thông tin.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "CA-004",
+    "CA-006",
+    "AI-002"
+  ],
+  "source_ids": [
+    "SRC-ASC-KAUFMAN",
+    "B015"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

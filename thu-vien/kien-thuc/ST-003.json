@@ -1,0 +1,49 @@
+{
+  "id": "ST-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ST",
+  "title": "Nhịp diễn biến và bước ngoặt trong cảnh",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Tại đâu mục tiêu, hiểu biết hoặc quan hệ đổi?",
+  "use_when": [
+    "Khi chia một cảnh thành các phần chỉ đạo."
+  ],
+  "principle": "Beat là một nhịp diễn biến có thay đổi nhiệm vụ hoặc thông tin. Nó không tự đồng nghĩa một shot, một giây hay một câu thoại.",
+  "actions": [
+    "Đánh dấu trạng thái trước mỗi nhịp.",
+    "Chỉ ra sự kiện khiến nhân vật/người xem đổi cách hiểu.",
+    "Ghi trạng thái sau và quyết định quay/dựng cần để đọc chuyển biến."
+  ],
+  "tradeoffs": [
+    "Tách mọi động tác nhỏ thành nhịp làm kế hoạch nặng mà không thêm giá trị."
+  ],
+  "verification": [
+    "Mỗi nhịp có thay đổi nêu được.",
+    "Một nhịp có thể qua nhiều shot hoặc nhiều nhịp ở trong một cú máy."
+  ],
+  "original_example": "Từ đang làm việc sang nhận ra có khách, rồi quyết định dừng tay; mỗi phần có nhiệm vụ khác.",
+  "counterexample": "Nhấc tay rồi hạ tay không thành bước ngoặt nếu không đổi điều gì đáng kể.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-003",
+    "DR-003",
+    "ED-001"
+  ],
+  "source_ids": [
+    "B017",
+    "B021"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "AI-008",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Sửa ít nhất, giữ phần đạt và chọn hậu kỳ",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cách sửa nào ít làm hỏng phần đang đúng?",
+  "use_when": [
+    "Khi user chỉ yêu cầu sửa một lỗi hoặc clip gần đạt."
+  ],
+  "principle": "Lưu bản gốc, ghi phần phải giữ và thay đúng nhóm liên quan. Sinh lại là lần tạo mới; không hứa giữ tuyệt đối chi tiết đã duyệt.",
+  "actions": [
+    "Phân loại lỗi nội dung, chuyển động, liên tục, âm hoặc đầu ra.",
+    "Chọn cắt/crop/âm/màu/chỉnh có vùng hoặc tạo lại theo tính năng thật.",
+    "Ghi khác biệt câu lệnh và xem lại toàn clip sau sửa."
+  ],
+  "tradeoffs": [
+    "Sửa cục bộ có thể tiết kiệm nhưng để lại dấu; tạo mới có thể sạch hơn nhưng đổi nhiều biến."
+  ],
+  "verification": [
+    "Sửa người thừa không tự đổi hành động, thời gian hay phong cách.",
+    "Bản sau được đối chiếu cùng tiêu chí như bản gốc."
+  ],
+  "original_example": "Giữ timelapse đã tốt, chỉ chỉnh mô tả một người và kiểm các đoạn chuyển vị trí.",
+  "counterexample": "Nếu ảnh đầu sai tư thế khiến thao tác bất khả thi, sửa ảnh đầu có thể cần hơn thêm câu.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "QC-002",
+    "AI-003",
+    "MO-006"
+  ],
+  "source_ids": [
+    "B004",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "QC-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "QC",
+  "title": "Chẩn đoán lỗi trước khi viết lại",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Sai ở đầu vào, yêu cầu, công cụ hay cách đánh giá?",
+  "use_when": [
+    "Khi nhiều lần sửa prompt không cải thiện."
+  ],
+  "principle": "Viết triệu chứng cụ thể, đặt giả thuyết rồi thử. Tránh quy mọi lỗi cho người viết hoặc cơ chế tưởng tượng của AI.",
+  "actions": [
+    "Ghi mong muốn và kết quả thực theo mốc.",
+    "Kiểm ảnh đầu, vật dụng, thời lượng và mâu thuẫn trước.",
+    "Chọn một giả thuyết và thay một yếu tố từ bản mốc."
+  ],
+  "tradeoffs": [
+    "Đơn giản hóa có thể thay nhiều biến; ghi đó là lập bản mốc, không phép thử một biến."
+  ],
+  "verification": [
+    "Có danh sách phần đã đúng cần giữ.",
+    "Không dùng câu siêu thực tế để thay việc mô tả thao tác thiếu."
+  ],
+  "original_example": "Cảnh trải màng thành nhấc tấm qua luống: sửa cách vật được kéo/mở và đặt dọc trước khi đổi màu.",
+  "counterexample": "Một lỗi ngẫu nhiên có thể không lặp; cần dữ liệu hơn một clip để kết luận.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-008",
+    "EV-001",
+    "QC-003"
+  ],
+  "source_ids": [
+    "B015",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

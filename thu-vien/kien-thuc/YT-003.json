@@ -1,0 +1,48 @@
+{
+  "id": "YT-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "YT",
+  "title": "Giữ chân theo đoạn và giả thuyết sửa",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Ở mốc nào hành vi xem thay đổi, và có những giải thích nào?",
+  "use_when": [
+    "Khi có dữ liệu giữ chân của video thực."
+  ],
+  "principle": "Đỉnh/hõm là dấu để xem lại, không phải kết luận nguyên nhân. Liên kết biểu đồ với diễn tiến và hoàn cảnh khán giả.",
+  "actions": [
+    "Gắn đoạn biến đổi vào shot/chuỗi cụ thể.",
+    "Đưa ít nhất hai cách giải thích hợp lý trước khi sửa.",
+    "So phản hồi, nguồn truy cập và các video liên quan khi có."
+  ],
+  "tradeoffs": [
+    "Sửa theo mọi gợn nhỏ có thể làm mất phong cách vì dữ liệu nhiễu."
+  ],
+  "verification": [
+    "Không gọi đỉnh là chắc chắn thích nhất hoặc thư giãn nhất.",
+    "Không suy một cảnh gây rời nếu nhiều thứ cùng đổi ở điểm đó."
+  ],
+  "original_example": "Đỉnh xem lại có thể do thao tác đẹp hoặc do chưa rõ; hai nguyên nhân dẫn tới hai cách sửa khác.",
+  "counterexample": "Người xem để nền có thể có hành vi khác người theo dõi từng thao tác.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-006",
+    "ED-001",
+    "QC-003"
+  ],
+  "source_ids": [
+    "SRC-YT-RETENTION"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

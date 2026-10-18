@@ -1,0 +1,49 @@
+{
+  "id": "ED-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ED",
+  "title": "Nối hành động, ánh mắt và trạng thái",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Qua cut, điều gì cần giữ để hiểu liên tục?",
+  "use_when": [
+    "Khi dựng nhiều góc của một việc hoặc tương tác."
+  ],
+  "principle": "Kiểm thời gian, hướng, vị trí, tay đang làm, trạng thái vật và âm. Nối đúng ý nghĩa có thể quan trọng hơn khớp mọi pixel, tùy phong cách.",
+  "actions": [
+    "So cuối shot trước và đầu shot sau ở tốc độ xem thật.",
+    "Kiểm bàn tay, mức đầy, vị trí người/vật và đích nhìn.",
+    "Nếu có nhảy thời gian, cho dấu tiến triển để người xem không hiểu là lỗi."
+  ],
+  "tradeoffs": [
+    "Khớp quá máy móc có thể làm nhịp kém; bỏ qua sai trạng thái có thể phá niềm tin."
+  ],
+  "verification": [
+    "Không nhân đôi việc cắt/đổ hoặc vật đã nhận.",
+    "Hướng nhìn và không gian nối được hoặc đổi có chủ đích."
+  ],
+  "original_example": "Cận cho thấy chốt rời móc; góc rộng kế tiếp cửa bắt đầu mở từ trạng thái phù hợp.",
+  "counterexample": "Một jump cut chủ ý có thể nén việc mà vẫn cần trạng thái tiến triển hiểu được.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-004",
+    "DR-006",
+    "MO-006"
+  ],
+  "source_ids": [
+    "B013",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

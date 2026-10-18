@@ -1,0 +1,13 @@
+{
+  "decided_on": "2026-10-18",
+  "approved_by": "user_in_current_conversation",
+  "decisions": [
+    "Thư viện hai tầng: kiến thức chung và kiến thức theo ngách; ưu tiên nền chung.",
+    "Bản cho AI trước: Markdown có cấu trúc, JSON, hướng dẫn đọc và mục lục.",
+    "Hỗ trợ phân tích video, kịch bản, danh sách shot, câu lệnh tạo ảnh/video và sửa lỗi; chuẩn phân tích/ra quyết định đi trước.",
+    "Chủ động bổ sung và sửa có căn cứ; trình rõ thay đổi đảo nguyên tắc đang dùng trước khi áp dụng rộng.",
+    "Core ở ducna841188/kien-thuc-dien-anh; Farm ở ducna841188/yt-ly-tu-that/Farm; liên kết mã và phiên bản.",
+    "Giữ nguồn và phân tích đã nạp để truy nguyên; bản dễ đọc có minh họa cho người làm ở giai đoạn sau.",
+    "Kiến thức dùng cho khán giả YouTube thực tế, từ căn bản đến nâng cao, không ép theo một ngách."
+  ]
+}

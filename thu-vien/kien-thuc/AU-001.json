@@ -1,0 +1,47 @@
+{
+  "id": "AU-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AU",
+  "title": "Bản yêu cầu trải nghiệm của khán giả",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem đến đây để nhận điều gì?",
+  "use_when": [
+    "Trước khi chọn thủ pháp hoặc đánh giá một phim."
+  ],
+  "principle": "Mô tả hoàn cảnh xem, nhu cầu, lời hứa và điều cần tránh. Nhân khẩu học là một phần; không tự suy sở thích từng người từ tuổi/giới.",
+  "actions": [
+    "Viết một câu về giá trị khán giả muốn nhận.",
+    "Chọn trải nghiệm chính và trải nghiệm phụ có thể cùng tồn tại.",
+    "Phân biệt dữ liệu người xem thực tế với tệp mục tiêu giả định."
+  ],
+  "tradeoffs": [
+    "Chọn rõ trải nghiệm có thể giới hạn một số cách gây chú ý ngắn hạn."
+  ],
+  "verification": [
+    "Mọi quyết định lớn giải thích được quan hệ với lời hứa.",
+    "Không tự chuyển mục tiêu thư giãn thành bắt buộc không có tò mò."
+  ],
+  "original_example": "Cùng cảnh chờ nước sôi có thể phục vụ nghỉ ngơi, học kỹ thuật hoặc hồi hộp tùy lời hứa.",
+  "counterexample": "Một người thuộc nhóm tuổi mục tiêu vẫn có thể không thích phong cách của video.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "YT-001",
+    "AU-005",
+    "ST-001"
+  ],
+  "source_ids": [
+    "B002",
+    "B014"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

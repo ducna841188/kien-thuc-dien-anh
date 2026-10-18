@@ -1,0 +1,49 @@
+{
+  "id": "ED-008",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ED",
+  "title": "Dựng bản thô, rà trải nghiệm và hoàn thiện",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Bản dựng đã hoạt động trước khi trang trí chưa?",
+  "use_when": [
+    "Khi ráp nhiều clip hoặc sửa phim dài."
+  ],
+  "principle": "Dựng theo câu chuyện/thông tin trước, rồi tinh nhịp, âm, màu và chất lượng xuất. Mỗi vòng duyệt có câu hỏi riêng.",
+  "actions": [
+    "Làm bản thô đủ đầu–giữa–cuối với vật liệu có thật.",
+    "Rà mạch và trải nghiệm liền phim, đánh dấu lỗi theo mốc.",
+    "Sửa cấu trúc trước các chỉnh nhỏ dễ bị bỏ khi đổi dựng."
+  ],
+  "tradeoffs": [
+    "Hoàn thiện sớm một shot có thể tốn công nếu nó bị loại khỏi câu chuyện."
+  ],
+  "verification": [
+    "Có thể giải thích lý do giữ mỗi đoạn.",
+    "Tệp xuất được xem/nghe lại, không chỉ timeline."
+  ],
+  "original_example": "Một chuỗi làm việc thiếu kết quả cần bổ sung cấu trúc trước khi tăng hạt phim hay nhạc.",
+  "counterexample": "Một lỗi kỹ thuật chặn xem có thể cần sửa ngay để còn đánh giá bản thô.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "QC-001",
+    "ST-008",
+    "AI-008"
+  ],
+  "source_ids": [
+    "B024",
+    "SRC-BMD-TRAINING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

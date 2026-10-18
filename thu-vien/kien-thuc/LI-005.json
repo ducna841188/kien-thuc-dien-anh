@@ -1,0 +1,49 @@
+{
+  "id": "LI-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "LI",
+  "title": "Liên tục ánh sáng và thời gian trong cảnh",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Các góc có thuộc cùng một thời điểm và không gian không?",
+  "use_when": [
+    "Khi tạo nhiều shot hoặc đổi bối cảnh theo ngày/mùa."
+  ],
+  "principle": "Ghi sơ đồ hướng sáng, độ mềm, bóng và nguồn thực. Cho phép ánh sáng thay đổi khi câu chuyện/thời tiết/thời gian thay đổi có tín hiệu.",
+  "actions": [
+    "Lưu một ảnh chuẩn cùng sơ đồ và trạng thái thời tiết.",
+    "So vật mốc, phía bóng, phản chiếu và màu qua điểm nối.",
+    "Nếu chuyển thời gian, chọn cảnh/âm hoặc diễn tiến làm rõ bước đổi."
+  ],
+  "tradeoffs": [
+    "Ép mọi shot cùng sáng tuyệt đối có thể làm mất chuyển mùa/giờ có chủ đích."
+  ],
+  "verification": [
+    "Thay đổi có lý do và không nhấp nháy vô cớ.",
+    "Góc cận không tạo một mặt trời thứ hai ngược cảnh rộng."
+  ],
+  "original_example": "Cảnh chiều chuyển đêm có tín hiệu ngoài trời rồi nguồn đèn trong nhà nhận vai chính.",
+  "counterexample": "Cùng vật dưới nắng và trong bóng có màu/độ sáng khác mà vẫn giữ thiết kế.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-002",
+    "CO-005",
+    "AI-002"
+  ],
+  "source_ids": [
+    "B002",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

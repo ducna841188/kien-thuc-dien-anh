@@ -1,0 +1,48 @@
+{
+  "id": "MO-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "MO",
+  "title": "Pan, tilt và roll: đổi hướng nhìn",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Máy xoay hướng nào từ vị trí nào?",
+  "use_when": [
+    "Khi cần lia, ngẩng/cúi hoặc nghiêng."
+  ],
+  "principle": "Pan là xoay hướng ngang; tilt là ngẩng/cúi; roll là xoay quanh trục nhìn. Mô tả vật bắt đầu, vật kết thúc và điểm đặt máy.",
+  "actions": [
+    "Nêu máy gần như giữ vị trí hay có dịch đồng thời.",
+    "Ghi hướng, mục tiêu và lý do đổi hướng nhìn.",
+    "Chọn điểm bắt đầu/dừng dễ kiểm trong không gian."
+  ],
+  "tradeoffs": [
+    "Lia quá nhanh dễ mất chi tiết; lia không có thông tin mới có thể chỉ trang trí."
+  ],
+  "verification": [
+    "Không gọi quỹ đạo đi quanh người là pan.",
+    "Tilt không bị dùng để chỉ chân trời nghiêng."
+  ],
+  "original_example": "Lia từ bàn tay làm việc sang người đang chờ giúp chuyển trọng tâm.",
+  "counterexample": "Pan có thể kết hợp dịch máy, nhưng khi đó cần ghi cả hai lớp thay vì đổi tên tùy ý.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "CA-002",
+    "MO-003",
+    "AU-002"
+  ],
+  "source_ids": [
+    "B018",
+    "B025",
+    "B031"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

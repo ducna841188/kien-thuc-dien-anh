@@ -1,0 +1,49 @@
+{
+  "id": "ST-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ST",
+  "title": "Cấu trúc phân đoạn và chuỗi hành động",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Các phần phim nối nhau bằng quan hệ nào?",
+  "use_when": [
+    "Khi biến nhiều shot đẹp thành một video có mạch."
+  ],
+  "principle": "Tổ chức theo nguyên nhân, tiến trình, không gian, thời gian, so sánh hoặc ý tưởng. Ghi quan hệ thật thay vì mặc định mọi shot là trước–sau của cùng một việc.",
+  "actions": [
+    "Viết vai trò mỗi phân đoạn trong một dòng.",
+    "Ghi vật/người/trạng thái nào được mang qua ranh giới.",
+    "Lược bỏ hoặc chuyển vị trí đoạn không phục vụ quan hệ đã chọn."
+  ],
+  "tradeoffs": [
+    "Mạch quá tuyến tính có thể mất sự phong phú; dựng đan xen cần thêm dấu định hướng."
+  ],
+  "verification": [
+    "Có lý do cho thứ tự thay vì chỉ theo thứ tự tạo file.",
+    "Không gộp các mẻ, mùa hay loài khác nhau thành một quá trình giả."
+  ],
+  "original_example": "Chuỗi gieo–chăm–thu là tiến trình; hai gia đình cùng ăn có thể là so sánh chứ không cùng thời điểm.",
+  "counterexample": "Montage có thể liên kết bằng cảm giác hoặc hình khối, nhưng nên ghi rõ đó là liên hệ ý tưởng.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-003",
+    "ED-003",
+    "ST-006"
+  ],
+  "source_ids": [
+    "B012",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

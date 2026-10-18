@@ -1,0 +1,49 @@
+{
+  "id": "LI-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "LI",
+  "title": "Tương phản, bù sáng và vùng tối",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Phần tối cần giấu hay cần đọc tới mức nào?",
+  "use_when": [
+    "Khi cân bằng độ rõ và không khí."
+  ],
+  "principle": "Tách mức sáng tổng thể khỏi chênh sáng–tối. Bù sáng nâng vùng tối; chặn ánh phản xạ có thể giữ vùng tối sâu hơn. Không gán tỷ lệ số khi chưa đo.",
+  "actions": [
+    "Chọn chi tiết phải giữ ở vùng sáng và tối.",
+    "Điều chỉnh hướng/độ bù hoặc nền thay vì chỉ tăng mọi độ sáng.",
+    "Kiểm chuỗi hình và thiết bị hiển thị đích."
+  ],
+  "tradeoffs": [
+    "Tương phản thấp có thể thiếu tách lớp; tương phản cao có thể che hành động."
+  ],
+  "verification": [
+    "Nhìn được bằng chứng quan trọng mà vẫn giữ không khí.",
+    "Không coi high-key là chỉ phơi sáng quá hoặc low-key là chỉ ảnh thiếu sáng."
+  ],
+  "original_example": "Mặt được đọc rõ trong phòng tối mà cửa sổ vẫn là hướng sáng chính.",
+  "counterexample": "Một hình sáng rực vẫn có thể có bóng đen sâu; sáng tổng thể và tương phản là hai trục.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "LI-004",
+    "CO-003",
+    "QC-001"
+  ],
+  "source_ids": [
+    "B008",
+    "SRC-YALE-STAGING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

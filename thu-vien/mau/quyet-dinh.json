@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "id": "DECISION-NEW",
+  "task": "design_shots",
+  "core_version": "1.0.0",
+  "niche_id": null,
+  "brief": "Điền mục tiêu và ràng buộc của dự án",
+  "known_inputs": [],
+  "unknown_inputs": [
+    "Khán giả, tài sản và thiết lập chưa chốt"
+  ],
+  "protected_elements": [],
+  "knowledge_refs": [
+    {
+      "id": "EV-001",
+      "version": "1.0.0"
+    }
+  ],
+  "options": [
+    {
+      "id": "OPT-1",
+      "proposal": "Phương án cần cụ thể hóa",
+      "why": "Cần có bản yêu cầu để chọn",
+      "tradeoffs": [
+        "Chưa đánh giá"
+      ],
+      "requirements": [
+        "Bổ sung đầu vào"
+      ]
+    }
+  ],
+  "selected_option_id": null,
+  "implementation_steps": [],
+  "acceptance_checks": [
+    {
+      "observable": "Chưa có tiêu chí cụ thể",
+      "method": "Chưa đặt phép kiểm",
+      "status": "not_tested"
+    }
+  ],
+  "assumptions": [],
+  "change_log": [],
+  "tested_on_generated_video": false
+}

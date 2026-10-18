@@ -1,0 +1,967 @@
+{
+  "schema_version": "1.0.0",
+  "id": "SYNTHETIC-ANALYSIS-001",
+  "version": "0.1.0",
+  "record_type": "synthetic_example",
+  "status": "reviewed",
+  "core_version": "1.0.0",
+  "niche_id": null,
+  "title": "Ví dụ giả lập: một người xếp ba chiếc bát lên khay",
+  "duration_seconds": 12,
+  "fps": null,
+  "time_origin": {
+    "unit": "seconds",
+    "original_asset_id": "SYN-ASSET",
+    "local_offset_seconds": 0,
+    "time_basis": "synthetic",
+    "boundary_convention": "start_inclusive_end_exclusive"
+  },
+  "assets": [
+    {
+      "id": "SYN-ASSET",
+      "kind": "synthetic",
+      "title": "Kịch bản minh họa, không có video thực",
+      "uri": null,
+      "sha256": null,
+      "source_revision": "1.0.0"
+    }
+  ],
+  "coverage": {
+    "visual_motion_intervals": [],
+    "audio_intervals": [],
+    "sampled_frame_times": [],
+    "audio_presence": "unknown",
+    "whole_visual_reviewed": false,
+    "whole_audio_reviewed": false,
+    "limitations": [
+      "Dữ liệu giả lập phục vụ kiểm cấu trúc; không có video hoặc audio thật."
+    ]
+  },
+  "evidence_records": [
+    {
+      "id": "SYN-E1",
+      "kind": "synthetic",
+      "asset_id": "SYN-ASSET",
+      "start_seconds": 0,
+      "end_seconds": 12,
+      "locator": "Kịch bản ví dụ trong kho",
+      "note": "Không được dùng như bằng chứng video đã quan sát."
+    }
+  ],
+  "viewer_brief": {
+    "promise": "Theo dõi một thao tác rõ và nhận ra kết quả",
+    "audience": "Chưa chọn ngách",
+    "status": "hypothesis"
+  },
+  "segments": [
+    {
+      "id": "SEG-001",
+      "start_seconds": 0,
+      "end_seconds": 12,
+      "function": "Thiết lập → thao tác → kết quả"
+    }
+  ],
+  "sequences": [
+    {
+      "id": "SEQ-001",
+      "segment_id": "SEG-001",
+      "start_seconds": 0,
+      "end_seconds": 12,
+      "objective": "Xếp ba bát lên khay",
+      "change": "Khay trống thành có ba bát",
+      "relationship_to_next": null
+    }
+  ],
+  "shots": [
+    {
+      "id": "SYN-SHOT-001",
+      "sequence_id": "SEQ-001",
+      "start_seconds": 0,
+      "end_seconds": 3,
+      "observed": {
+        "summary": {
+          "value": "Một người, bàn và khay trống",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "subject_count": {
+          "value": 1,
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "identities": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "action": {
+          "value": "Người đặt tay gần chiếc bát đầu tiên.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "state_start": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "contact_and_change": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_end": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "setting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "composition": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "shot_size": {
+          "value": "MS",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "camera_height_and_angle": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_motion": {
+          "value": "Máy cố định",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "lens_and_perspective": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "focus": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lighting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "color": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "material_texture": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "on_screen_text": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "time_treatment": {
+          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "cut_in": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_out": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_ambience": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_action": {
+          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "audio_dialogue": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_music": {
+          "value": "Đề xuất chưa dùng nhạc để kiểm tiếng thao tác",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        }
+      },
+      "events": [],
+      "interpretations": [
+        {
+          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "function": "Theo dõi hành động",
+          "desired_response": "Hiểu việc và nhận ra kết quả",
+          "status": "synthetic_design",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "limits": "Ý đồ biên soạn, chưa có người xem hoặc video thử.",
+          "core_ids": [
+            "ST-004",
+            "ED-003",
+            "AI-003"
+          ]
+        }
+      ],
+      "reconstruction_proposals": [],
+      "unresolved_questions": []
+    },
+    {
+      "id": "SYN-SHOT-002",
+      "sequence_id": "SEQ-001",
+      "start_seconds": 3,
+      "end_seconds": 6,
+      "observed": {
+        "summary": {
+          "value": "Tay nhấc và đặt bát đầu tiên",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "subject_count": {
+          "value": 1,
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "identities": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "action": {
+          "value": "Tay nắm, nhấc, đưa tới khay, đặt và buông.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "state_start": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "contact_and_change": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_end": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "setting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "composition": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "shot_size": {
+          "value": "CU",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "camera_height_and_angle": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_motion": {
+          "value": "Máy cố định",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "lens_and_perspective": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "focus": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lighting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "color": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "material_texture": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "on_screen_text": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "time_treatment": {
+          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "cut_in": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_out": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_ambience": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_action": {
+          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "audio_dialogue": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_music": {
+          "value": "Đề xuất chưa dùng nhạc để kiểm tiếng thao tác",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        }
+      },
+      "events": [],
+      "interpretations": [
+        {
+          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "function": "Theo dõi hành động",
+          "desired_response": "Hiểu việc và nhận ra kết quả",
+          "status": "synthetic_design",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "limits": "Ý đồ biên soạn, chưa có người xem hoặc video thử.",
+          "core_ids": [
+            "ST-004",
+            "ED-003",
+            "AI-003"
+          ]
+        }
+      ],
+      "reconstruction_proposals": [],
+      "unresolved_questions": []
+    },
+    {
+      "id": "SYN-SHOT-003",
+      "sequence_id": "SEQ-001",
+      "start_seconds": 6,
+      "end_seconds": 9,
+      "observed": {
+        "summary": {
+          "value": "Hai bát tiếp được xếp theo cùng quy luật",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "subject_count": {
+          "value": 1,
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "identities": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "action": {
+          "value": "Chuỗi thao tác được lược rõ, không tự nhân đôi bát.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "state_start": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "contact_and_change": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_end": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "setting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "composition": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "shot_size": {
+          "value": "CU",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "camera_height_and_angle": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_motion": {
+          "value": "Máy cố định",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "lens_and_perspective": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "focus": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lighting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "color": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "material_texture": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "on_screen_text": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "time_treatment": {
+          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "cut_in": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_out": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_ambience": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_action": {
+          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "audio_dialogue": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_music": {
+          "value": "Đề xuất chưa dùng nhạc để kiểm tiếng thao tác",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        }
+      },
+      "events": [],
+      "interpretations": [
+        {
+          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "function": "Theo dõi hành động",
+          "desired_response": "Hiểu việc và nhận ra kết quả",
+          "status": "synthetic_design",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "limits": "Ý đồ biên soạn, chưa có người xem hoặc video thử.",
+          "core_ids": [
+            "ST-004",
+            "ED-003",
+            "AI-003"
+          ]
+        }
+      ],
+      "reconstruction_proposals": [],
+      "unresolved_questions": []
+    },
+    {
+      "id": "SYN-SHOT-004",
+      "sequence_id": "SEQ-001",
+      "start_seconds": 9,
+      "end_seconds": 12,
+      "observed": {
+        "summary": {
+          "value": "Ba bát đứng yên trên khay",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "subject_count": {
+          "value": 1,
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "identities": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "action": {
+          "value": "Người rút tay, kết quả ở lại trong khung.",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "state_start": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "contact_and_change": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_end": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "setting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "composition": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "shot_size": {
+          "value": "MS",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "camera_height_and_angle": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_motion": {
+          "value": "Máy cố định",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "lens_and_perspective": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "focus": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lighting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "color": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "material_texture": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "on_screen_text": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "time_treatment": {
+          "value": "Thời gian thực trong shot; shot 3 là đề xuất lược việc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "cut_in": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_out": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_ambience": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_action": {
+          "value": "Tiếng tiếp xúc đặt bát khi có tiếp xúc",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        },
+        "audio_dialogue": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_music": {
+          "value": "Đề xuất chưa dùng nhạc để kiểm tiếng thao tác",
+          "status": "synthetic",
+          "basis": "synthetic",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "uncertainty_reason": null
+        }
+      },
+      "events": [],
+      "interpretations": [
+        {
+          "statement": "Cho thấy vị trí, tiến triển hoặc kết quả của cùng một việc.",
+          "function": "Theo dõi hành động",
+          "desired_response": "Hiểu việc và nhận ra kết quả",
+          "status": "synthetic_design",
+          "evidence_refs": [
+            "SYN-E1"
+          ],
+          "limits": "Ý đồ biên soạn, chưa có người xem hoặc video thử.",
+          "core_ids": [
+            "ST-004",
+            "ED-003",
+            "AI-003"
+          ]
+        }
+      ],
+      "reconstruction_proposals": [],
+      "unresolved_questions": []
+    }
+  ],
+  "emotional_intent": [],
+  "viewer_evidence": [],
+  "findings": [],
+  "open_questions": [
+    "Cần video thật để kiểm tốc độ, vật lý, nhịp và phản ứng người xem."
+  ],
+  "generation_tested": false,
+  "review_log": [
+    {
+      "date": "2026-10-18",
+      "action": "Tạo ví dụ giả lập",
+      "scope": "Kiểm schema và quan hệ thời gian; không xem video."
+    }
+  ]
+}

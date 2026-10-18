@@ -1,0 +1,49 @@
+{
+  "id": "CA-010",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Cú máy dài và thiết kế thay đổi trong khung",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Vì sao cần giữ liên tục thay vì cắt?",
+  "use_when": [
+    "Khi muốn hiện diện, theo dõi hành động hoặc tránh đứt quan hệ."
+  ],
+  "principle": "Một cú máy có thể chứa thay đổi bố cục, khoảng cách, hành vi và thông tin. Độ dài phải theo nhiệm vụ, không theo nhãn nghệ thuật.",
+  "actions": [
+    "Vẽ các điểm chuyển trọng tâm trong một đường liên tục.",
+    "Chọn đường đi/điểm dừng và những gì phải giữ nhìn được.",
+    "Đặt phương án cắt dự phòng nếu diễn tiến không đọc được."
+  ],
+  "tradeoffs": [
+    "Giữ liên tục tăng yêu cầu dàn cảnh và nhất quán; cắt có thể truyền đạt tốt hơn."
+  ],
+  "verification": [
+    "Không có quãng chỉ kéo dài để đủ thời lượng.",
+    "Thông tin phát triển trong khung và hành động quan trọng không mất."
+  ],
+  "original_example": "Theo một người từ lấy khay đến đặt bàn nếu đường đi làm rõ quan hệ nơi chốn.",
+  "counterexample": "Một shot tĩnh dài có thể chứa thay đổi mạnh; một shot ngắn cũng có thể rất yên.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-006",
+    "MO-003",
+    "ED-001"
+  ],
+  "source_ids": [
+    "B024",
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

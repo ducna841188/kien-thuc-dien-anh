@@ -1,0 +1,49 @@
+{
+  "id": "CA-009",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Khung hình và cách xem thực tế",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Bố cục có sống được ở nơi khán giả xem không?",
+  "use_when": [
+    "Khi chọn tỷ lệ ngang/dọc, chữ, chi tiết nhỏ hoặc cắt lại định dạng."
+  ],
+  "principle": "Tỷ lệ khung và kích thước hiển thị ảnh hưởng lượng thông tin đọc được. Thiết kế vùng quan trọng trước khi xuất nhiều định dạng.",
+  "actions": [
+    "Chọn định dạng chính theo nơi xuất bản.",
+    "Thử cảnh ở kích thước điện thoại và màn hình lớn nếu có.",
+    "Nếu cần bản dọc/ngang, lập phương án bố cục riêng cho vùng bị mất."
+  ],
+  "tradeoffs": [
+    "Khung an toàn chung cho mọi tỷ lệ có thể làm bố cục chính yếu đi."
+  ],
+  "verification": [
+    "Tay/vật/chi tiết thiết yếu không bị cắt khi xuất đúng bản.",
+    "Tỷ lệ thực của tệp khớp thiết lập, không chỉ câu lệnh."
+  ],
+  "original_example": "Cảnh hai người ở hai mép khung ngang có thể cần dựng lại khi chuyển dọc.",
+  "counterexample": "Không phải mọi cảnh ngang nên crop thẳng thành dọc.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-007",
+    "QC-001",
+    "YT-001"
+  ],
+  "source_ids": [
+    "B022",
+    "B026"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

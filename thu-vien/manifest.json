@@ -1,0 +1,41 @@
+{
+  "library_id": "FILM-KB",
+  "version": "1.0.0",
+  "schema_version": "1.0.0",
+  "released_on": "2026-10-18",
+  "status": "foundation_release",
+  "language": "vi",
+  "core_card_count": 90,
+  "module_count": 13,
+  "source_lesson_count": 33,
+  "source_image_file_count": 444,
+  "distinct_image_bytes": 374,
+  "official_reference_count": 14,
+  "supported_tasks": [
+    "analyze_video",
+    "write_script",
+    "design_shots",
+    "write_generation_prompts",
+    "diagnose_and_repair"
+  ],
+  "canonical_content": "kien-thuc/*.json",
+  "derived_views": [
+    "chuyen-de/*.md",
+    "goi-doc/*"
+  ],
+  "human_illustrated_edition": "not_created_yet",
+  "verification_scope": "Cấu trúc, liên kết, mã nguồn, tính nhất quán dữ liệu và ca kiểm tra; chưa thử tạo video hay chạy đánh giá độc lập trên nhiều mô hình.",
+  "evolution_policy": "Bổ sung/sửa có căn cứ và nhật ký; đảo nguyên tắc ở trạng thái proposed_reversal cho tới khi người dùng chốt.",
+  "niche_registry": [
+    {
+      "id": "FARM",
+      "repository": "ducna841188/yt-ly-tu-that",
+      "path": "Farm/Thu_vien_kien_thuc",
+      "core_version": "1.0.0"
+    }
+  ],
+  "schema_count": 9,
+  "emotion_profile_count": 10,
+  "glossary_term_count": 94,
+  "ai_evaluation_case_count": 24
+}

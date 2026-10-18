@@ -1,0 +1,49 @@
+{
+  "id": "AU-004",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AU",
+  "title": "Cảm xúc là diễn biến nhiều biến",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Trải nghiệm thay đổi thế nào theo thời gian?",
+  "use_when": [
+    "Khi chỉ đạo cảm xúc hoặc lập bản đồ nhịp toàn phim."
+  ],
+  "principle": "Tách cảm xúc nhân vật, ý đồ đạo diễn và phản ứng khán giả. Theo dõi mức kích thích, dễ chịu/khó chịu, chắc chắn và gần gũi bằng mô tả có căn cứ.",
+  "actions": [
+    "Ghi trạng thái mong muốn ở đầu, chỗ chuyển và cuối.",
+    "Liên kết mỗi chuyển với thông tin/hành vi/hình/tiếng cụ thể.",
+    "Đặt cách hỏi người xem và giữ khả năng phản ứng khác ý đồ."
+  ],
+  "tradeoffs": [
+    "Một điểm số cảm xúc dễ so nhưng có thể che nhiều trải nghiệm khác nhau."
+  ],
+  "verification": [
+    "Không dùng một nụ cười để chứng nhận khán giả thư giãn.",
+    "Các nhịp thay đổi có tác nhân đọc được; mức số nếu dùng phải có định nghĩa."
+  ],
+  "original_example": "Cảnh người lạ xuất hiện có thể tạo tò mò hoặc bất an; tiếng và bối cảnh quyết định cách đọc.",
+  "counterexample": "Xanh lạnh có thể yên bình; vàng ấm có thể ngột ngạt trong hoàn cảnh khác.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-003",
+    "CO-001",
+    "SO-006"
+  ],
+  "source_ids": [
+    "B010",
+    "B021"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

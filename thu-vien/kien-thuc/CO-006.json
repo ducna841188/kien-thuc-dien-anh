@@ -1,0 +1,49 @@
+{
+  "id": "CO-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CO",
+  "title": "Quản lý màu, sửa cân bằng và tạo phong cách",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Tệp và hệ hiển thị đang được diễn giải đúng chưa?",
+  "use_when": [
+    "Khi ghép nhiều nguồn hoặc xuất hình khác bản dựng."
+  ],
+  "principle": "Tách giải mã/biến đổi không gian màu, cân bằng kỹ thuật và tạo look. Không gán Log, HDR hoặc một loại LUT chỉ bằng mắt khi không có metadata.",
+  "actions": [
+    "Ghi thông tin màu có trong nguồn và phần chưa biết.",
+    "Chọn quy trình vào–làm việc–ra phù hợp phần mềm thực tế.",
+    "Cân khớp các góc, rồi tạo phong cách và kiểm tệp xuất trên thiết bị đích."
+  ],
+  "tradeoffs": [
+    "Biến đổi lặp hoặc LUT sai đầu vào có thể làm sai tương phản và màu."
+  ],
+  "verification": [
+    "Tệp xuất được mở lại để so với bản duyệt.",
+    "Không hứa LUT hay từ khóa 8K sửa mọi lỗi hoặc tạo thêm chi tiết thật."
+  ],
+  "original_example": "Hai clip khác nguồn cần kiểm cách phần mềm hiểu màu trước khi kéo thanh cho giống.",
+  "counterexample": "Một LUT sáng tạo có thể hữu ích nếu đúng đầu vào, nhưng không thay cân từng shot.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-007",
+    "QC-001",
+    "LI-004"
+  ],
+  "source_ids": [
+    "B022",
+    "SRC-BMD-TRAINING"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

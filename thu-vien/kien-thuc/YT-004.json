@@ -1,0 +1,49 @@
+{
+  "id": "YT-004",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "YT",
+  "title": "Tính mới, sự quen thuộc và giá trị trở lại",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Tập mới cho người xem điều quen và điều mới nào?",
+  "use_when": [
+    "Khi xây loạt video hoặc thế giới nhân vật tiếp diễn."
+  ],
+  "principle": "Giữ lời hứa và những điểm nhận diện có giá trị, thay đổi công việc, mùa, quan hệ hoặc cách khám phá. Không đồng nhất nhất quán với sao chép nguyên tập.",
+  "actions": [
+    "Ghi điều cần giữ xuyên tập và phần có thể biến.",
+    "Cho người mới hiểu tập hiện tại mà không cần lịch sử.",
+    "Theo dõi lý do người xem quay lại khi có dữ liệu."
+  ],
+  "tradeoffs": [
+    "Đổi nhiều mất nhận diện; lặp nhiều dễ thiếu khám phá."
+  ],
+  "verification": [
+    "Không gán lý do quay lại chỉ từ số người trở lại.",
+    "Tập độc lập vẫn có kết quả đáng nhận."
+  ],
+  "original_example": "Cùng căn nhà và nhân vật nhưng mùa vụ/món ăn thay đổi.",
+  "counterexample": "Kênh khám phá có thể cần độ mới cao hơn kênh tìm cảm giác quen; phải theo hồ sơ ngách.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-008",
+    "AI-002",
+    "AU-001"
+  ],
+  "source_ids": [
+    "B003",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

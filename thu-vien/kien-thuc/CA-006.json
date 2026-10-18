@@ -1,0 +1,50 @@
+{
+  "id": "CA-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Quan hệ máy với nhân vật: qua vai, hai người, điểm nhìn",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem được đặt vào quan hệ với ai?",
+  "use_when": [
+    "Khi quay tương tác, quan sát hoặc chủ quan."
+  ],
+  "principle": "Tách số người trong khung, vị trí qua vai và POV. Chọn dựa trên cần thấy quan hệ chung hay trải nghiệm riêng.",
+  "actions": [
+    "Chọn người/điểm quan sát gắn với shot.",
+    "Ghi ai thấy rõ, ai ở tiền cảnh hoặc ngoài khung.",
+    "Kiểm hướng mắt và vật được nhìn trong shot kế."
+  ],
+  "tradeoffs": [
+    "Qua vai giúp quan hệ nhưng có thể che thao tác hoặc tăng khó tạo AI hai người."
+  ],
+  "verification": [
+    "Người nói/người nghe không bị gán lẫn.",
+    "POV phù hợp độ cao, vị trí và vật cản của nhân vật nếu muốn chủ quan thực."
+  ],
+  "original_example": "Hai người cùng khung cho thấy trao bát; cận người nhận cho thấy phản ứng; POV cho thấy món họ nhìn.",
+  "counterexample": "Một máy gần mặt không tự là POV; máy vẫn có thể quan sát người đó từ ngoài.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-004",
+    "CA-004",
+    "SO-002"
+  ],
+  "source_ids": [
+    "B005",
+    "B013",
+    "B029"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

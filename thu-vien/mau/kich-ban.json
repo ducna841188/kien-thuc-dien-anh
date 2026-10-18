@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "id": "SCRIPT-SYN-001",
+  "core_version": "1.0.0",
+  "niche_id": null,
+  "status": "draft",
+  "brief": "Ví dụ thiết kế: một người xếp bát lên khay, không có video thật",
+  "promise": "Theo dõi một thao tác có kết quả rõ",
+  "duration_target_seconds": 12,
+  "protected_elements": [
+    "Một người",
+    "Ba chiếc bát",
+    "Không tự nhân đôi vật"
+  ],
+  "segments": [
+    {
+      "id": "SEG-001",
+      "objective": "Xếp ba bát lên khay",
+      "start_state": "Khay trống, bát ở bàn",
+      "end_state": "Ba bát nằm ổn trên khay",
+      "beats": [
+        {
+          "id": "BEAT-001",
+          "visual": "Người, bàn, bát và khay trong cùng quan hệ",
+          "audio": "Nền nơi chốn thưa",
+          "speech": null,
+          "information_change": "Biết việc sắp làm",
+          "intended_response": "Dễ hiểu",
+          "duration_target_seconds": 3,
+          "core_ids": [
+            "CA-001",
+            "AU-005"
+          ]
+        },
+        {
+          "id": "BEAT-002",
+          "visual": "Tay nắm, nhấc và đặt bát; lược phần lặp có dấu tiến triển",
+          "audio": "Tiếng tiếp xúc khi bát chạm khay",
+          "speech": null,
+          "information_change": "Công việc tiến triển",
+          "intended_response": "Theo được thao tác",
+          "duration_target_seconds": 6,
+          "core_ids": [
+            "AI-003",
+            "ED-004"
+          ]
+        },
+        {
+          "id": "BEAT-003",
+          "visual": "Ba bát ở lại trên khay, tay rút ra",
+          "audio": "Đuôi tiếng chạm và nền",
+          "speech": null,
+          "information_change": "Việc đã hoàn tất",
+          "intended_response": "Nhận ra kết quả",
+          "duration_target_seconds": 3,
+          "core_ids": [
+            "ST-004",
+            "ED-002"
+          ]
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Thời lượng là ý đồ ví dụ, không giới hạn công cụ hoặc quy tắc cho mọi cảnh."
+  ],
+  "acceptance_checks": [
+    "Thấy được trạng thái đầu, tiếp xúc và kết quả.",
+    "Không có quan sát khán giả được giả thành đã kiểm."
+  ],
+  "viewer_tested": false
+}

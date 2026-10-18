@@ -1,0 +1,187 @@
+{
+  "id": "SHOT-001",
+  "sequence_id": "SEQ-001",
+  "start_seconds": 0,
+  "end_seconds": 3,
+  "observed": {
+    "summary": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "subject_count": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "identities": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "action": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "state_start": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "contact_and_change": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "state_end": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "setting": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "composition": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "shot_size": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "camera_height_and_angle": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "camera_motion": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "lens_and_perspective": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "focus": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "lighting": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "color": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "material_texture": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "on_screen_text": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "time_treatment": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "cut_in": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "cut_out": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "audio_ambience": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "audio_action": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "audio_dialogue": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    },
+    "audio_music": {
+      "value": null,
+      "status": "unknown",
+      "basis": "unknown",
+      "evidence_refs": [],
+      "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+    }
+  },
+  "events": [],
+  "interpretations": [],
+  "reconstruction_proposals": [],
+  "unresolved_questions": []
+}

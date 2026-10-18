@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:film-kb:generation-request:1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "core_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "shot_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "model_profile_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "intent_vi": {
+      "type": "string",
+      "minLength": 1
+    },
+    "positive_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "negative_text": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "settings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {},
+          "status": {
+            "enum": [
+              "documented",
+              "observed_in_ui",
+              "tested",
+              "unknown"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "name",
+          "value",
+          "status",
+          "source_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "reference_mapping": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "protected_attributes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "asset_id",
+          "role",
+          "protected_attributes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "unsupported_or_unknown": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "must_preserve": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "acceptance_checks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "tested": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "core_version",
+    "shot_ids",
+    "model_profile_id",
+    "mode",
+    "intent_vi",
+    "positive_text",
+    "text_language",
+    "negative_text",
+    "settings",
+    "reference_mapping",
+    "unsupported_or_unknown",
+    "must_preserve",
+    "acceptance_checks",
+    "tested"
+  ],
+  "additionalProperties": false
+}

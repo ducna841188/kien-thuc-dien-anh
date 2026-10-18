@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "id": "REPAIR-ONE-PERSON",
+  "task": "diagnose_and_repair",
+  "core_version": "1.0.0",
+  "niche_id": null,
+  "brief": "Sửa người thừa trong timelapse đã đúng thao tác và nhịp",
+  "known_inputs": [
+    "Chủ đích: một người kéo/trải màng dọc luống.",
+    "Bản gốc được người dùng mô tả đã đạt timelapse và hành động."
+  ],
+  "unknown_inputs": [
+    "Chưa có câu lệnh gốc và clip trong ví dụ này."
+  ],
+  "protected_elements": [
+    "Timelapse",
+    "Hành động kéo/trải đúng chiều",
+    "Camera, nhận diện, trang phục, ánh sáng đã đạt"
+  ],
+  "knowledge_refs": [
+    {
+      "id": "AI-008",
+      "version": "1.0.0"
+    },
+    {
+      "id": "QC-002",
+      "version": "1.0.0"
+    },
+    {
+      "id": "MO-006",
+      "version": "1.0.0"
+    },
+    {
+      "id": "AI-002",
+      "version": "1.0.0"
+    }
+  ],
+  "options": [
+    {
+      "id": "OPT-1",
+      "proposal": "Xin câu lệnh/clip gốc, rồi sửa đúng phạm vi người bằng cách nhập phù hợp model.",
+      "why": "Chưa đủ đầu vào để viết bản giữ nguyên thật sự.",
+      "tradeoffs": [
+        "Cần thêm đầu vào; tránh bịa một bản gốc."
+      ],
+      "requirements": [
+        "Câu lệnh, tham chiếu, model/chế độ và mốc lỗi"
+      ]
+    }
+  ],
+  "selected_option_id": "OPT-1",
+  "implementation_steps": [
+    "Tiếp nhận đầu vào gốc.",
+    "So chữ và ghi phần đổi.",
+    "Xem lại toàn clip sau sinh."
+  ],
+  "acceptance_checks": [
+    {
+      "observable": "Đúng một người toàn clip, gồm nền/phản chiếu và đoạn chuyển vị trí",
+      "method": "Xem chuyển động liên tục",
+      "status": "not_tested"
+    },
+    {
+      "observable": "Giữ timelapse và kéo/trải màng dọc luống",
+      "method": "So hành động/nhịp với bản gốc",
+      "status": "not_tested"
+    }
+  ],
+  "assumptions": [
+    "Đây là bài toán minh họa, không tuyên bố đã sửa một video thực trong lần tạo thư viện."
+  ],
+  "change_log": [],
+  "tested_on_generated_video": false
+}

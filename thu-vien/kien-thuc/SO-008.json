@@ -1,0 +1,49 @@
+{
+  "id": "SO-008",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Dựng tiếng và kiểm âm–hình",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Âm được sinh/thu có đúng sự kiện và dùng được không?",
+  "use_when": [
+    "Khi nhận clip AI hoặc ghép nhiều nguồn âm."
+  ],
+  "principle": "Kiểm nội dung, nguồn, thời điểm và chất lượng riêng. Có thể thay/đắp lại tiếng sai thay vì tạo lại hình đã đạt.",
+  "actions": [
+    "Lập spotting list: sự kiện, mốc vào/ra, nguồn âm và vai trò.",
+    "So tiếp xúc, tiếng bắt đầu và đuôi vang trên toàn clip.",
+    "Kiểm file xuất có đúng kênh, mức và không mất lớp."
+  ],
+  "tradeoffs": [
+    "Thêm tiếng quá sạch hoặc quá gần có thể mất cảm giác không gian."
+  ],
+  "verification": [
+    "Không có tiếng bước khi chân không bước ngoài chủ ý.",
+    "Không suy đầu ra nhiều track chỉ từ nhãn prompt."
+  ],
+  "original_example": "Giữ clip đặt bát đẹp, thay tiếng chạm bị lệch bằng âm đúng thời điểm khi công cụ dựng cho phép.",
+  "counterexample": "Một tiếng cách điệu có thể cố tình không trùng vật lý; phải ghi đó là ý đồ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-006",
+    "QC-001",
+    "SO-005"
+  ],
+  "source_ids": [
+    "B016",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

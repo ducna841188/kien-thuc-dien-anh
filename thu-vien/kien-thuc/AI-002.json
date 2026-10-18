@@ -1,0 +1,49 @@
+{
+  "id": "AI-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Phân quyền tham chiếu và giữ liên tục",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Ảnh/video nào có quyền quyết định thuộc tính nào?",
+  "use_when": [
+    "Khi dùng hồ sơ mặt, vóc dáng, trang phục, cảnh và động tác."
+  ],
+  "principle": "Lập bảng quyền tham chiếu để tránh lấy nhầm mặt từ ảnh cảnh hoặc đồ vật từ video dẫn động. Tách điều đã duyệt khỏi biến thể chưa duyệt.",
+  "actions": [
+    "Ghi tài sản chuẩn, phiên bản và phạm vi: mặt, thân, áo, cảnh, vật, chuyển động.",
+    "Giải quyết xung đột tham chiếu trước khi sinh.",
+    "Lưu ảnh cảnh được duyệt cùng trạng thái người/vật cho các shot liên quan."
+  ],
+  "tradeoffs": [
+    "Khóa quá nhiều chi tiết bằng chữ có thể tăng xung đột; vẫn cần xem kết quả."
+  ],
+  "verification": [
+    "Một người không thành nhiều bản sao khi đổi vị trí theo thời gian.",
+    "Vật không đổi thiết kế ngoài chủ ý, nhưng được phép đổi ánh sáng/trạng thái vật lý."
+  ],
+  "original_example": "Ảnh hồ sơ quyết định mặt/áo; ảnh cảnh quyết định bàn/bếp; video mẫu chỉ dẫn thao tác.",
+  "counterexample": "Một ảnh cận mặt không cung cấp đủ mặt sau trang phục hoặc bối cảnh ngoài khung.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-005",
+    "LI-005",
+    "CO-005"
+  ],
+  "source_ids": [
+    "B003",
+    "B020"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "id": "SHOTPLAN-SYN-001",
+  "core_version": "1.0.0",
+  "niche_id": null,
+  "script_id": "SCRIPT-SYN-001",
+  "status": "draft",
+  "reference_manifest": [],
+  "shots": [
+    {
+      "id": "PLAN-SHOT-001",
+      "segment_id": "SEG-001",
+      "function": "Xác lập việc",
+      "information_to_show": "Một người, ba bát và khay trống",
+      "intended_response": "Biết việc đang theo",
+      "duration_target_seconds": 3,
+      "start_state": "Bát ở bàn, khay trống",
+      "action_contact_change": "Tay tới bát đầu, chưa thay vật bằng vật khác",
+      "end_state": "Người sẵn sàng nhấc",
+      "subject_and_count": "Một người",
+      "camera": "Máy cố định, trung cảnh thấy bàn",
+      "composition_and_focus": "Giữ tay, bát và khay đọc được",
+      "lighting_and_color": "Giữ nguồn sáng và vật liệu theo ảnh duyệt",
+      "audio": "Nền thưa, tiếng tay/vật nếu có sự kiện",
+      "time_treatment": "Thời gian thực trong shot",
+      "reference_ids": [],
+      "continuity_in": "Bắt đầu chuỗi",
+      "continuity_out": "Giữ vị trí bát/khay và tay sang cận thao tác",
+      "generation_unit": "Một job nếu chế độ phù hợp; kiểm trước khi đặt thời lượng",
+      "acceptance_checks": [
+        "Đúng một người và đúng ba bát, khay trống ở đầu."
+      ],
+      "core_ids": [
+        "CA-001",
+        "DR-002",
+        "AI-003"
+      ]
+    }
+  ],
+  "unknowns": [
+    "Đây chỉ là mẫu một shot; chưa có bộ góc đầy đủ hoặc tham chiếu thực."
+  ],
+  "generation_tested": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": "CO-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CO",
+  "title": "Màu liên tục và chuyển biến có mục đích",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Màu đổi vì điều kiện cảnh hay vì lỗi?",
+  "use_when": [
+    "Khi nối góc, đổi thời điểm hoặc làm chuỗi tập."
+  ],
+  "principle": "Giữ thiết kế nhận diện nhưng cho phép màu nhìn thấy đổi theo nguồn sáng, phơi sáng và vật liệu. Phân biệt giữ vật thật với giữ pixel cùng mã.",
+  "actions": [
+    "Chọn vật chuẩn và ảnh tham chiếu trong từng điều kiện.",
+    "So các shot gần nhau trước khi chỉnh tổng thể.",
+    "Đánh dấu chuyển màu phục vụ thời gian/câu chuyện thay vì sửa phẳng."
+  ],
+  "tradeoffs": [
+    "Ép một màu tuyệt đối dưới mọi nguồn sáng có thể phá cảm giác vật lý."
+  ],
+  "verification": [
+    "Áo vẫn nhận ra đúng thiết kế dù sáng/tối thay đổi hợp lý.",
+    "Không có cú nhảy tông vô cớ ở điểm cắt hoặc trong shot."
+  ],
+  "original_example": "Cùng áo ở sân nắng và trong bếp có biểu hiện khác nhưng không thành áo mới.",
+  "counterexample": "Thay đổi bảng màu có thể là dụng ý chuyển trạng thái nếu được tổ chức rõ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "LI-005",
+    "CO-006",
+    "QC-001"
+  ],
+  "source_ids": [
+    "B003",
+    "B020",
+    "B023"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

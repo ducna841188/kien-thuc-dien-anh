@@ -1,0 +1,47 @@
+{
+  "id": "EV-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "EV",
+  "title": "Tách quan sát, diễn giải và đề xuất",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Kết luận này dựa trên điều gì?",
+  "use_when": [
+    "Khi tiếp nhận video, ảnh, bảng phân tích hoặc bình luận."
+  ],
+  "principle": "Một khung đẹp chỉ chứng minh phần nhìn thấy ở khung đó. Ghi loại bằng chứng trước khi đặt tên tác dụng.",
+  "actions": [
+    "Ghi mô tả trung tính về điều thấy/nghe và mốc thời gian.",
+    "Đặt diễn giải về chức năng/cảm xúc ở trường riêng.",
+    "Gắn đề xuất sản xuất với mục tiêu và điều kiện cần kiểm."
+  ],
+  "tradeoffs": [
+    "Viết thận trọng hơn nhưng giúp tránh truyền lỗi nguồn vào các tác vụ sau."
+  ],
+  "verification": [
+    "Mọi nhận xét chuyển động có bằng chứng chuyển động hoặc ghi chưa xác minh.",
+    "Mục cảm xúc nói rõ là ý đồ, giả thuyết hay phản hồi thực tế."
+  ],
+  "original_example": "Ảnh bàn tay trên cửa: ghi vị trí tay; việc đang mở cửa chỉ được xác nhận khi có diễn tiến.",
+  "counterexample": "Bảng nguồn ghi dolly không đủ để khẳng định camera thực sự tiến.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "EV-002",
+    "EV-004",
+    "QC-004"
+  ],
+  "source_ids": [
+    "B015",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

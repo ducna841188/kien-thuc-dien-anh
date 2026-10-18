@@ -1,0 +1,49 @@
+{
+  "id": "AU-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AU",
+  "title": "Thiết kế mong chờ và trả kết quả",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Khán giả đang đợi biết hoặc thấy điều gì?",
+  "use_when": [
+    "Khi xây mở đầu, quá trình và đoạn kết của một việc."
+  ],
+  "principle": "Đặt câu hỏi hoặc khoảng thiếu thông tin đủ hiểu, tiến triển nó rồi cho kết quả tương xứng. Đây là lựa chọn kể chuyện cần kiểm với người xem.",
+  "actions": [
+    "Cho biết mục tiêu hoặc vật đang thay đổi.",
+    "Tạo dấu tiến triển thay vì chỉ kéo dài chờ.",
+    "Đặt kết quả ở chỗ người xem có thể nhận ra, rồi cân nhắc dư âm."
+  ],
+  "tradeoffs": [
+    "Giấu quá lâu có thể gây khó hiểu; lộ hết sớm có thể giảm mong chờ."
+  ],
+  "verification": [
+    "Nêu được câu hỏi trước và điều đã được trả sau.",
+    "Không hứa một kết quả rồi bỏ qua việc xác nhận nó."
+  ],
+  "original_example": "Thấy khối bột rời, công đoạn tạo hình rồi chiếc bánh giữ được hình; không phải mọi phim cần bí mật lớn.",
+  "counterexample": "Phim quan sát có thể tạo hấp dẫn bằng hiện diện và chất liệu mà không giấu đáp án.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-002",
+    "ST-004",
+    "ED-005"
+  ],
+  "source_ids": [
+    "B017",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

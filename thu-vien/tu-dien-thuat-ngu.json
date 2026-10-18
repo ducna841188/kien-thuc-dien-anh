@@ -1,0 +1,663 @@
+{
+  "version": "1.0.0",
+  "terms": [
+    {
+      "term": "shot",
+      "meaning_vi": "Cú máy / đơn vị hình giữa hai điểm cắt",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "scene",
+      "meaning_vi": "Cảnh: một đơn vị tình huống/không gian/thời gian theo cách chia kịch bản; có thể nhiều shot",
+      "core_ids": [
+        "ST-005"
+      ]
+    },
+    {
+      "term": "sequence",
+      "meaning_vi": "Chuỗi cảnh/shot cùng phục vụ một phần hành động hoặc ý tưởng",
+      "core_ids": [
+        "EV-003"
+      ]
+    },
+    {
+      "term": "beat",
+      "meaning_vi": "Nhịp diễn biến có thay đổi nhiệm vụ, thông tin hoặc quan hệ",
+      "core_ids": [
+        "ST-003"
+      ]
+    },
+    {
+      "term": "blocking",
+      "meaning_vi": "Dàn vị trí và di chuyển của người/vật trong cảnh",
+      "core_ids": [
+        "DR-002"
+      ]
+    },
+    {
+      "term": "coverage",
+      "meaning_vi": "Bộ góc, chi tiết và phản ứng đủ cho dựng",
+      "core_ids": [
+        "DR-006"
+      ]
+    },
+    {
+      "term": "mise-en-scene",
+      "meaning_vi": "Tổ chức các yếu tố trước máy: người, vật, phục trang, bối cảnh, ánh sáng",
+      "core_ids": [
+        "DR-005"
+      ]
+    },
+    {
+      "term": "WS / wide shot",
+      "meaning_vi": "Toàn cảnh; ghi rõ người và không gian thực thấy",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "EWS",
+      "meaning_vi": "Toàn cảnh rất rộng",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "MS / medium shot",
+      "meaning_vi": "Trung cảnh",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "MCU / medium close-up",
+      "meaning_vi": "Cận vừa; thường phần thân trên, tùy chủ thể và khung",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "CU / close-up",
+      "meaning_vi": "Cận cảnh",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "ECU / extreme close-up",
+      "meaning_vi": "Đặc tả rất gần một phần chi tiết",
+      "core_ids": [
+        "CA-001"
+      ]
+    },
+    {
+      "term": "macro",
+      "meaning_vi": "Chụp/quay cận ở mức phóng đại gần; không đồng nghĩa mọi ECU",
+      "core_ids": [
+        "CA-008"
+      ]
+    },
+    {
+      "term": "OTS / over-the-shoulder",
+      "meaning_vi": "Qua vai một người để nhìn người/vật khác",
+      "core_ids": [
+        "CA-006"
+      ]
+    },
+    {
+      "term": "POV / point of view",
+      "meaning_vi": "Góc nhìn gắn với điều nhân vật nhìn; điểm nhìn kể chuyện rộng hơn một shot POV",
+      "core_ids": [
+        "ST-006"
+      ]
+    },
+    {
+      "term": "eye level",
+      "meaning_vi": "Đặt hướng nhìn gần ngang tầm mắt chủ thể",
+      "core_ids": [
+        "CA-002"
+      ]
+    },
+    {
+      "term": "high / low angle",
+      "meaning_vi": "Góc nhìn từ trên xuống / dưới lên",
+      "core_ids": [
+        "CA-002"
+      ]
+    },
+    {
+      "term": "Dutch angle",
+      "meaning_vi": "Khung có chân trời nghiêng; không phải tilt",
+      "core_ids": [
+        "CA-002"
+      ]
+    },
+    {
+      "term": "pan",
+      "meaning_vi": "Lia ngang, đổi hướng nhìn quanh vị trí máy",
+      "core_ids": [
+        "MO-002"
+      ]
+    },
+    {
+      "term": "tilt",
+      "meaning_vi": "Ngẩng/cúi máy",
+      "core_ids": [
+        "MO-002"
+      ]
+    },
+    {
+      "term": "roll",
+      "meaning_vi": "Xoay quanh trục nhìn của máy",
+      "core_ids": [
+        "MO-002"
+      ]
+    },
+    {
+      "term": "dolly-in / push-in",
+      "meaning_vi": "Máy dịch tiến gần",
+      "core_ids": [
+        "MO-003"
+      ]
+    },
+    {
+      "term": "dolly-out / pull-back",
+      "meaning_vi": "Máy dịch lùi xa",
+      "core_ids": [
+        "MO-003"
+      ]
+    },
+    {
+      "term": "truck",
+      "meaning_vi": "Máy dịch ngang",
+      "core_ids": [
+        "MO-003"
+      ]
+    },
+    {
+      "term": "tracking / follow",
+      "meaning_vi": "Máy bám theo chủ thể, có thể theo nhiều hướng",
+      "core_ids": [
+        "MO-003"
+      ]
+    },
+    {
+      "term": "orbit",
+      "meaning_vi": "Máy đi theo cung quanh chủ thể",
+      "core_ids": [
+        "MO-003"
+      ]
+    },
+    {
+      "term": "handheld",
+      "meaning_vi": "Cách vận hành máy cầm tay; không chứng nhận sự kiện là tư liệu thật",
+      "core_ids": [
+        "MO-001"
+      ]
+    },
+    {
+      "term": "static / locked camera",
+      "meaning_vi": "Máy cố định theo ý đồ, không tự đồng nghĩa không cảm xúc",
+      "core_ids": [
+        "MO-001"
+      ]
+    },
+    {
+      "term": "zoom",
+      "meaning_vi": "Đổi tiêu cự/góc nhìn bằng ống kính; không phải dịch máy",
+      "core_ids": [
+        "MO-004"
+      ]
+    },
+    {
+      "term": "crop",
+      "meaning_vi": "Chọn/cắt một vùng khung, thường khi xử lý hậu kỳ",
+      "core_ids": [
+        "MO-004"
+      ]
+    },
+    {
+      "term": "reveal",
+      "meaning_vi": "Dụng ý hé lộ thông tin mới; có thể thực hiện bằng nhiều đường máy hoặc cắt",
+      "core_ids": [
+        "AU-003"
+      ]
+    },
+    {
+      "term": "framing",
+      "meaning_vi": "Chọn những gì nằm trong khung và quan hệ với mép khung",
+      "core_ids": [
+        "CA-003"
+      ]
+    },
+    {
+      "term": "foreground / midground / background",
+      "meaning_vi": "Tiền cảnh / trung cảnh / hậu cảnh",
+      "core_ids": [
+        "CA-005"
+      ]
+    },
+    {
+      "term": "parallax",
+      "meaning_vi": "Thị sai: quan hệ dịch tương đối các lớp theo thay đổi vị trí nhìn",
+      "core_ids": [
+        "CA-005"
+      ]
+    },
+    {
+      "term": "focal length",
+      "meaning_vi": "Tiêu cự; cần xét định dạng ảnh khi nói góc nhìn",
+      "core_ids": [
+        "CA-008"
+      ]
+    },
+    {
+      "term": "perspective",
+      "meaning_vi": "Phối cảnh: quan hệ nhìn theo vị trí/khoảng cách",
+      "core_ids": [
+        "CA-008"
+      ]
+    },
+    {
+      "term": "focus",
+      "meaning_vi": "Lấy nét / mặt phẳng được đặt rõ",
+      "core_ids": [
+        "CA-007"
+      ]
+    },
+    {
+      "term": "depth of field / DOF",
+      "meaning_vi": "Vùng độ sâu được xem đủ nét trong điều kiện hiển thị",
+      "core_ids": [
+        "CA-007"
+      ]
+    },
+    {
+      "term": "rack focus",
+      "meaning_vi": "Chuyển mặt phẳng nét từ đối tượng này sang đối tượng khác",
+      "core_ids": [
+        "CA-007"
+      ]
+    },
+    {
+      "term": "bokeh",
+      "meaning_vi": "Đặc tính vùng ngoài nét; không đồng nghĩa mọi nền mờ đều tốt",
+      "core_ids": [
+        "CA-007"
+      ]
+    },
+    {
+      "term": "exposure",
+      "meaning_vi": "Phơi sáng",
+      "core_ids": [
+        "LI-004"
+      ]
+    },
+    {
+      "term": "key light",
+      "meaning_vi": "Ánh sáng chính định hình chủ thể",
+      "core_ids": [
+        "LI-001"
+      ]
+    },
+    {
+      "term": "fill light",
+      "meaning_vi": "Ánh bù vào phía tối",
+      "core_ids": [
+        "LI-003"
+      ]
+    },
+    {
+      "term": "rim / back light",
+      "meaning_vi": "Ánh viền / ánh từ sau, tùy vị trí và phần được chiếu",
+      "core_ids": [
+        "LI-006"
+      ]
+    },
+    {
+      "term": "practical light",
+      "meaning_vi": "Nguồn đèn nhìn thấy và có vai trò trong bối cảnh",
+      "core_ids": [
+        "LI-001"
+      ]
+    },
+    {
+      "term": "motivated lighting",
+      "meaning_vi": "Thiết kế sáng dựa trên nguồn/động cơ đọc được trong cảnh",
+      "core_ids": [
+        "LI-001"
+      ]
+    },
+    {
+      "term": "hard / soft light",
+      "meaning_vi": "Ánh sáng cứng / mềm, xét đặc điểm biên bóng",
+      "core_ids": [
+        "LI-002"
+      ]
+    },
+    {
+      "term": "high-key / low-key",
+      "meaning_vi": "Cách tổ chức mức bù/tương phản; không chỉ là ảnh sáng hoặc tối",
+      "core_ids": [
+        "LI-003"
+      ]
+    },
+    {
+      "term": "catchlight",
+      "meaning_vi": "Phản chiếu nguồn sáng trong mắt",
+      "core_ids": [
+        "DR-003"
+      ]
+    },
+    {
+      "term": "hue / saturation / luminance",
+      "meaning_vi": "Sắc / độ bão hòa / độ sáng theo hệ đo đang dùng",
+      "core_ids": [
+        "CO-001"
+      ]
+    },
+    {
+      "term": "palette",
+      "meaning_vi": "Bảng màu có vai trò trong thiết kế hình",
+      "core_ids": [
+        "CO-002"
+      ]
+    },
+    {
+      "term": "white balance",
+      "meaning_vi": "Cân bằng trắng trong quy trình ghi/hiểu màu",
+      "core_ids": [
+        "CO-006"
+      ]
+    },
+    {
+      "term": "LUT",
+      "meaning_vi": "Bảng ánh xạ giá trị màu; cần đúng điều kiện đầu vào và mục đích",
+      "core_ids": [
+        "CO-006"
+      ]
+    },
+    {
+      "term": "Log / HDR",
+      "meaning_vi": "Cách biểu diễn tín hiệu hoặc dải sáng; cần metadata và quy trình phù hợp",
+      "core_ids": [
+        "CO-006"
+      ]
+    },
+    {
+      "term": "grading / look",
+      "meaning_vi": "Tạo hình màu / phong cách màu có chủ đích",
+      "core_ids": [
+        "CO-006"
+      ]
+    },
+    {
+      "term": "continuity",
+      "meaning_vi": "Tính liên tục của quan hệ, trạng thái, hình và tiếng",
+      "core_ids": [
+        "ED-003"
+      ]
+    },
+    {
+      "term": "screen direction",
+      "meaning_vi": "Hướng di chuyển/nhìn trên màn hình",
+      "core_ids": [
+        "CA-004"
+      ]
+    },
+    {
+      "term": "axis / 180-degree rule",
+      "meaning_vi": "Trục hành động và quy ước giữ hướng qua các góc",
+      "core_ids": [
+        "CA-004"
+      ]
+    },
+    {
+      "term": "eyeline match",
+      "meaning_vi": "Nối hướng nhìn giữa người nhìn và điều được nhìn",
+      "core_ids": [
+        "CA-004"
+      ]
+    },
+    {
+      "term": "match on action",
+      "meaning_vi": "Cắt nối theo hành động để giữ mạch",
+      "core_ids": [
+        "ED-003"
+      ]
+    },
+    {
+      "term": "jump cut",
+      "meaning_vi": "Cú cắt tạo bước nhảy nhìn/thời gian rõ trong một mạch",
+      "core_ids": [
+        "ED-004"
+      ]
+    },
+    {
+      "term": "montage",
+      "meaning_vi": "Tổ chức chuỗi hình để nén thời gian hoặc tạo liên hệ ý tưởng",
+      "core_ids": [
+        "ED-006"
+      ]
+    },
+    {
+      "term": "crosscutting",
+      "meaning_vi": "Dựng cắt xen các tuyến hành động; đồng thời hay không phải có căn cứ",
+      "core_ids": [
+        "ED-006"
+      ]
+    },
+    {
+      "term": "cutaway / insert",
+      "meaning_vi": "Cảnh xen / đặc tả chi tiết, tùy chức năng trong chuỗi",
+      "core_ids": [
+        "ED-007"
+      ]
+    },
+    {
+      "term": "hard cut / dissolve / fade",
+      "meaning_vi": "Cắt thẳng / chồng mờ / mờ dần",
+      "core_ids": [
+        "ED-007"
+      ]
+    },
+    {
+      "term": "J-cut / L-cut",
+      "meaning_vi": "Âm cảnh sau đến trước hình / âm cảnh trước kéo qua hình mới",
+      "core_ids": [
+        "SO-004"
+      ]
+    },
+    {
+      "term": "tempo / rhythm",
+      "meaning_vi": "Tốc độ nhịp / tổ chức nhịp gồm mức đều, nhấn và thay đổi",
+      "core_ids": [
+        "ED-001"
+      ]
+    },
+    {
+      "term": "slow motion",
+      "meaning_vi": "Chuyển động chậm so với diễn tiến chuẩn",
+      "core_ids": [
+        "MO-006"
+      ]
+    },
+    {
+      "term": "timelapse",
+      "meaning_vi": "Nén thời gian quan sát qua các thời điểm; không tự đồng nghĩa phát nhanh mọi cảnh",
+      "core_ids": [
+        "MO-006"
+      ]
+    },
+    {
+      "term": "ellipsis",
+      "meaning_vi": "Lược thời gian hoặc phần diễn tiến",
+      "core_ids": [
+        "ED-004"
+      ]
+    },
+    {
+      "term": "FPS",
+      "meaning_vi": "Số khung hình mỗi giây của quá trình ghi hoặc phát; phải nêu đang nói quá trình nào",
+      "core_ids": [
+        "MO-006"
+      ]
+    },
+    {
+      "term": "ambient / room tone",
+      "meaning_vi": "Âm môi trường / nền âm của không gian",
+      "core_ids": [
+        "SO-001"
+      ]
+    },
+    {
+      "term": "SFX / Foley",
+      "meaning_vi": "Hiệu ứng âm / âm thao tác tái tạo gắn hành động",
+      "core_ids": [
+        "SO-008"
+      ]
+    },
+    {
+      "term": "diegetic / non-diegetic sound",
+      "meaning_vi": "Âm thuộc / không thuộc thế giới sự kiện trong phim",
+      "core_ids": [
+        "SO-003"
+      ]
+    },
+    {
+      "term": "sound bridge",
+      "meaning_vi": "Cầu nối âm qua ranh giới hình",
+      "core_ids": [
+        "SO-004"
+      ]
+    },
+    {
+      "term": "spotting list",
+      "meaning_vi": "Danh sách sự kiện âm theo mốc để dựng tiếng",
+      "core_ids": [
+        "SO-008"
+      ]
+    },
+    {
+      "term": "voiceover / VO",
+      "meaning_vi": "Lời kể ngoài hình",
+      "core_ids": [
+        "SO-007"
+      ]
+    },
+    {
+      "term": "mix / track / stem",
+      "meaning_vi": "Trộn âm / lớp âm / nhóm lớp âm xuất riêng khi thực có",
+      "core_ids": [
+        "SO-005"
+      ]
+    },
+    {
+      "term": "clipping / dB / LUFS",
+      "meaning_vi": "Méo do vượt ngưỡng / đơn vị mức / phép đo độ lớn cảm nhận tích hợp theo cách đo",
+      "core_ids": [
+        "SO-005"
+      ]
+    },
+    {
+      "term": "prompt / negative prompt",
+      "meaning_vi": "Câu lệnh mô tả / trường yếu tố loại trừ nếu công cụ hỗ trợ",
+      "core_ids": [
+        "AI-007"
+      ]
+    },
+    {
+      "term": "image-to-video / I2V",
+      "meaning_vi": "Tạo video dùng ảnh đầu vào",
+      "core_ids": [
+        "AI-001"
+      ]
+    },
+    {
+      "term": "reference",
+      "meaning_vi": "Tài sản tham chiếu, cần ghi rõ phạm vi quyết định thuộc tính",
+      "core_ids": [
+        "AI-002"
+      ]
+    },
+    {
+      "term": "seed",
+      "meaning_vi": "Giá trị khởi tạo nếu công cụ cho dùng; không bảo đảm mọi biến khác giống",
+      "core_ids": [
+        "QC-003"
+      ]
+    },
+    {
+      "term": "job / generation",
+      "meaning_vi": "Một tác vụ / lần tạo đầu ra",
+      "core_ids": [
+        "AI-004"
+      ]
+    },
+    {
+      "term": "extend / chaining",
+      "meaning_vi": "Mở rộng video / nối chuỗi theo quy trình cụ thể",
+      "core_ids": [
+        "AI-005"
+      ]
+    },
+    {
+      "term": "adapter",
+      "meaning_vi": "Hồ sơ chuyển ý đồ chung thành cách nhập đúng công cụ/phiên bản",
+      "core_ids": [
+        "AI-007"
+      ]
+    },
+    {
+      "term": "artifact / flicker / ghosting",
+      "meaning_vi": "Lỗi hình / nhấp nháy / bóng hoặc bản sao theo thời gian",
+      "core_ids": [
+        "QC-001"
+      ]
+    },
+    {
+      "term": "metadata / timecode / offset",
+      "meaning_vi": "Dữ liệu mô tả / mã thời gian / độ lệch về mốc gốc",
+      "core_ids": [
+        "EV-005"
+      ]
+    },
+    {
+      "term": "provenance",
+      "meaning_vi": "Dấu vết nguồn và quá trình biến đổi dữ liệu",
+      "core_ids": [
+        "EV-002"
+      ]
+    },
+    {
+      "term": "schema / JSON / JSONL",
+      "meaning_vi": "Chuẩn cấu trúc / dữ liệu đối tượng / mỗi dòng một đối tượng JSON",
+      "core_ids": [
+        "QC-004"
+      ]
+    },
+    {
+      "term": "RAG / retrieval",
+      "meaning_vi": "Tìm đoạn kiến thức liên quan rồi cung cấp cho AI; kho này chưa triển khai hệ truy hồi tự động",
+      "core_ids": [
+        "QC-004"
+      ]
+    },
+    {
+      "term": "fine-tuning",
+      "meaning_vi": "Huấn luyện điều chỉnh tham số mô hình; khác cung cấp tài liệu tham chiếu",
+      "core_ids": [
+        "QC-004"
+      ]
+    },
+    {
+      "term": "CTR / retention",
+      "meaning_vi": "Tỷ lệ nhấp theo lượt hiển thị được tính / giữ chân theo dữ liệu nền tảng",
+      "core_ids": [
+        "YT-002"
+      ]
+    }
+  ]
+}

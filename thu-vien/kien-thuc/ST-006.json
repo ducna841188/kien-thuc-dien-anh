@@ -1,0 +1,49 @@
+{
+  "id": "ST-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ST",
+  "title": "Điểm nhìn và phân phối thông tin",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem biết nhiều hơn, ít hơn hay cùng nhân vật?",
+  "use_when": [
+    "Khi thiết kế tò mò, hồi hộp, bất ngờ hoặc quan sát."
+  ],
+  "principle": "Chọn ai được biết điều gì và lúc nào. Điểm nhìn kể chuyện rộng hơn một cú POV nhìn qua mắt nhân vật.",
+  "actions": [
+    "Lập cột thông tin nhân vật biết và khán giả biết.",
+    "Chọn thời điểm lộ mỗi thông tin.",
+    "Kiểm tra nguồn thông tin có hợp lý với thế giới và cách kể."
+  ],
+  "tradeoffs": [
+    "Giữ bí mật quá lâu làm khó hiểu; biết trước quá nhiều có thể giảm bất ngờ nhưng tăng mong chờ."
+  ],
+  "verification": [
+    "Nhận xét ý đồ thông tin dẫn được đến shot/âm cụ thể.",
+    "Không nhầm POV hình ảnh với toàn bộ điểm nhìn của phim."
+  ],
+  "original_example": "Nghe tiếng người ngoài cửa trước nhân vật tạo khác biệt thông tin; cùng nhìn trong mắt nhân vật là một phương án khác.",
+  "counterexample": "Phim quy trình có thể cho thấy thành phẩm trước để mời xem cách làm thay vì giấu kết quả.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-008",
+    "SO-003",
+    "AU-003"
+  ],
+  "source_ids": [
+    "B005",
+    "B021"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

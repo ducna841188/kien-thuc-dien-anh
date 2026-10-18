@@ -1,0 +1,50 @@
+{
+  "id": "MO-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "MO",
+  "title": "Dolly, truck, tracking và orbit: đổi vị trí",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Máy đi theo đường nào và giữ quan hệ gì?",
+  "use_when": [
+    "Khi tạo tiến/lùi, ngang, bám hoặc đi vòng."
+  ],
+  "principle": "Đường máy cần điểm đầu, quỹ đạo, đích và đối tượng bám. Tracking mô tả quan hệ theo chủ thể, không chỉ một hướng ngang.",
+  "actions": [
+    "Ghi mốc đầu và cuối trong cảnh.",
+    "Ghi máy đi sang phía nào, khoảng cách/độ cao có đổi không.",
+    "Chọn dấu nền để kiểm thị sai và sự liên tục."
+  ],
+  "tradeoffs": [
+    "Đi máy nhiều có thể lộ vùng chưa có tham chiếu, tăng suy diễn và lỗi AI."
+  ],
+  "verification": [
+    "Chủ thể không tự xoay hoặc tự chạy sát máy ngoài ý đồ.",
+    "Vật gần–xa dịch tương đối phù hợp đường máy."
+  ],
+  "original_example": "Đi cung ngắn quanh chiếc bình để lộ quai sau, giữ vật đứng yên.",
+  "counterexample": "Một máy cố định và chủ thể tự xoay có thể đạt nhu cầu giới thiệu vật, nhưng đó là phương án khác.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-005",
+    "MO-001",
+    "AI-002"
+  ],
+  "source_ids": [
+    "B001",
+    "B018",
+    "B028"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

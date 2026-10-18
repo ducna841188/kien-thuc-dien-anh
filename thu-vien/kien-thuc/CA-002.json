@@ -1,0 +1,48 @@
+{
+  "id": "CA-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Độ cao, góc nhìn và độ nghiêng",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Máy ở đâu và nhìn theo hướng nào?",
+  "use_when": [
+    "Khi viết góc máy hoặc phân tích một hình."
+  ],
+  "principle": "Tách độ cao đặt máy, hướng ngẩng/cúi và độ nghiêng chân trời. Tác dụng quan hệ nhìn phụ thuộc cảnh và điểm nhìn được chọn.",
+  "actions": [
+    "Ghi vị trí máy so với chủ thể/vật mốc.",
+    "Ghi hướng nhìn và phần cần thấy từ trên/dưới.",
+    "Chỉ dùng nghiêng chân trời khi có lý do; kiểm đường thẳng làm mốc."
+  ],
+  "tradeoffs": [
+    "Góc nổi bật có thể gây chú ý vào thủ pháp thay vì việc đang xảy ra."
+  ],
+  "verification": [
+    "Không gọi máy thấp là góc ngẩng nếu hướng nhìn gần ngang.",
+    "Dutch angle là khung nghiêng; tilt là ngẩng/cúi, hai khái niệm được tách."
+  ],
+  "original_example": "Đặt máy ngang đầu con chó để thấy quan hệ với người; góc cao trên bàn để đọc bố trí.",
+  "counterexample": "Góc cao có thể giải thích công việc, không tự làm nhân vật yếu.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "MO-002",
+    "ST-006",
+    "CA-004"
+  ],
+  "source_ids": [
+    "B010",
+    "B018",
+    "B031"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

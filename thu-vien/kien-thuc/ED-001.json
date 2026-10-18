@@ -1,0 +1,48 @@
+{
+  "id": "ED-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ED",
+  "title": "Nhịp trong shot, giữa shot và toàn phim",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nhịp đang đến từ yếu tố nào?",
+  "use_when": [
+    "Khi video quá chậm, quá dồn hoặc đều đều."
+  ],
+  "principle": "Xét chuyển động, diễn xuất, lượng thông tin, âm thanh, thời lượng và quan hệ chuỗi. Không lấy thời lượng trung bình làm định nghĩa duy nhất của nhịp.",
+  "actions": [
+    "Đọc một shot với âm và không âm để tách đóng góp.",
+    "Rà chỗ đổi việc, thông tin và năng lượng trong chuỗi.",
+    "Chọn thay đổi nhỏ nhất phục vụ trải nghiệm cần đạt."
+  ],
+  "tradeoffs": [
+    "Tăng tốc cắt có thể tạo năng lượng nhưng cũng tăng công sức theo dõi."
+  ],
+  "verification": [
+    "Nêu được yếu tố đang tạo nhịp ở một mốc cụ thể.",
+    "Bản sửa không chỉ cắt đều theo một số giây."
+  ],
+  "original_example": "Chuỗi thao tác ngắn, rõ có thể nhẹ nhàng; cảnh dài nhiều biến cố vẫn có thể căng.",
+  "counterexample": "Giữ hình lâu không tự tạo thư giãn hoặc chiều sâu.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "AU-005",
+    "MO-005",
+    "SO-006"
+  ],
+  "source_ids": [
+    "B017",
+    "B024",
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

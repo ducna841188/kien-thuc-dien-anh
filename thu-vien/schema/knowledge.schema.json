@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:film-kb:knowledge:1.0.0",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-[0-9]{3}$"
+    },
+    "namespace": {
+      "const": "film.core"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "module_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "enum": [
+        "co_ban",
+        "trung_cap",
+        "nang_cao"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "knowledge_kind": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "use_when": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "principle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "tradeoffs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "original_example": {
+      "type": "string",
+      "minLength": 1
+    },
+    "counterexample": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prerequisite_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "evidence_policy": {
+      "type": "object",
+      "properties": {
+        "basis": {
+          "const": "editorial_synthesis_with_scoped_references"
+        },
+        "audience_effect": {
+          "const": "conditional_hypothesis"
+        },
+        "generation_tested": {
+          "type": "boolean"
+        },
+        "viewer_tested": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "basis",
+        "audience_effect",
+        "generation_tested",
+        "viewer_tested",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "updated_on": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "id",
+    "namespace",
+    "version",
+    "module_id",
+    "title",
+    "level",
+    "status",
+    "knowledge_kind",
+    "decision_question",
+    "use_when",
+    "principle",
+    "actions",
+    "tradeoffs",
+    "verification",
+    "original_example",
+    "counterexample",
+    "prerequisite_ids",
+    "related_ids",
+    "source_ids",
+    "evidence_policy",
+    "updated_on"
+  ],
+  "additionalProperties": false
+}

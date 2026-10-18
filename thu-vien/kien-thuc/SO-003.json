@@ -1,0 +1,49 @@
+{
+  "id": "SO-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Âm ngoài khung và phối cảnh âm",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Âm cho biết điều gì ngoài phần nhìn thấy?",
+  "use_when": [
+    "Khi mở không gian hoặc tạo mong chờ."
+  ],
+  "principle": "Khoảng cách, hướng và độ vang gợi nơi phát âm. Âm ngoài khung có thể dẫn chú ý mà không thêm nhân vật vào hình.",
+  "actions": [
+    "Chọn nguồn thật/giả định và vị trí tương đối.",
+    "Giữ mức gần–xa và đặc tính không gian hợp lý qua góc.",
+    "Ghi khi nào nguồn được lộ hoặc cố ý giữ ngoài khung."
+  ],
+  "tradeoffs": [
+    "Âm quá rõ của nguồn xa có thể bị cảm như phóng đại; có thể dùng khi cách điệu chủ ý."
+  ],
+  "verification": [
+    "Không gán nhầm tiếng ngoài khung cho vật đang thấy.",
+    "Nguồn không tự đổi bên hoặc đổi phòng ngoài ý đồ."
+  ],
+  "original_example": "Tiếng bước tới trước khi khách xuất hiện làm rõ có người ở gần.",
+  "counterexample": "Nhạc không thuộc thế giới phim không cần có nguồn vật lý trong cảnh.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CA-005",
+    "ST-006",
+    "SO-004"
+  ],
+  "source_ids": [
+    "B032",
+    "SRC-YALE-SOUND"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

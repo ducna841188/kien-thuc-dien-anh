@@ -1,0 +1,49 @@
+{
+  "id": "ED-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ED",
+  "title": "Điểm cắt theo hành động, thông tin và phản ứng",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cắt lúc nào giúp người xem nhận đúng điều cần?",
+  "use_when": [
+    "Khi có nhiều phiên bản điểm vào/ra."
+  ],
+  "principle": "Chọn điểm cắt theo điều vừa đủ hiểu, mong chờ và hướng chú ý. Không bắt buộc cắt ngay khi hành động kết thúc.",
+  "actions": [
+    "Xác định thông tin phải được nhận trước cut.",
+    "Thử vào sớm/muộn và ra sớm/muộn quanh sự kiện.",
+    "Giữ hoặc bỏ nhịp phản ứng theo vai trò của nó."
+  ],
+  "tradeoffs": [
+    "Cắt rất gọn có thể mất trọng lượng thao tác; giữ dư có thể lặp thông tin."
+  ],
+  "verification": [
+    "Không bỏ mất kết quả cần xác nhận.",
+    "Không cắt làm động tác có vẻ bị lặp hoặc nhảy vô cớ."
+  ],
+  "original_example": "Đợi bát thật sự đứng trên khay rồi mới chuyển nếu việc đặt là bằng chứng cần thấy.",
+  "counterexample": "Cắt trước tiếp xúc có thể tạo mong chờ nếu shot sau trả đúng sự kiện.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-003",
+    "ED-003",
+    "SO-004"
+  ],
+  "source_ids": [
+    "B024",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

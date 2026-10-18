@@ -1,0 +1,48 @@
+{
+  "id": "MO-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "MO",
+  "title": "Ba lớp chuyển động độc lập",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Thứ gì đang chuyển động: máy, chủ thể hay môi trường?",
+  "use_when": [
+    "Khi mô tả hoặc sửa chuyển động AI."
+  ],
+  "principle": "Ghi riêng ba lớp để tránh yêu cầu camera biến thành chủ thể di chuyển. Không cần cả ba cùng hoạt động.",
+  "actions": [
+    "Chọn lớp chuyển động chính phục vụ cảnh.",
+    "Ghi lớp nào giữ ổn định.",
+    "Thêm phản ứng môi trường có nguyên nhân nếu cần."
+  ],
+  "tradeoffs": [
+    "Nhiều chuyển động làm hình giàu năng lượng nhưng có thể khó theo và khó tạo nhất quán."
+  ],
+  "verification": [
+    "Máy tĩnh không bị mô tả như nền phải tự di chuyển.",
+    "Gió, bụi, nước phản ứng phù hợp thay vì thêm hiệu ứng vô cớ."
+  ],
+  "original_example": "Người đi ngang trước máy cố định là cảnh hợp lệ; tracking là máy đổi vị trí để theo người.",
+  "counterexample": "Hình có sức sống vẫn có thể chỉ nhờ một cử động tay nhỏ và âm thanh.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "CA-010",
+    "DR-001",
+    "AI-003"
+  ],
+  "source_ids": [
+    "B015",
+    "B018",
+    "SRC-GOOGLE-I2V"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

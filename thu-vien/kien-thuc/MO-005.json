@@ -1,0 +1,49 @@
+{
+  "id": "MO-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "MO",
+  "title": "Tốc độ, tăng giảm tốc và điểm dừng",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Năng lượng chuyển động thay đổi ở đoạn nào?",
+  "use_when": [
+    "Khi nhịp máy/hành động cần phục vụ thông tin hoặc cảm xúc."
+  ],
+  "principle": "Ngoài nhanh/chậm, mô tả lúc bắt đầu, giữ đều, giảm tốc và dừng. Dừng ở đúng thông tin có thể quan trọng hơn đường đi.",
+  "actions": [
+    "Chọn sự kiện bắt đầu và điểm dừng.",
+    "Mô tả tương quan tốc độ người–máy, không chỉ tính từ.",
+    "Cho đủ thời gian đọc điều được hé lộ hoặc kết quả thao tác."
+  ],
+  "tradeoffs": [
+    "Làm mượt mọi chuyển động có thể mất lực hoặc cảm giác quan sát thật."
+  ],
+  "verification": [
+    "Máy không dừng trước khi thông tin chính xuất hiện.",
+    "Tốc độ không làm mất đọc hành động quan trọng."
+  ],
+  "original_example": "Máy theo giỏ được đặt xuống rồi dừng để nhìn mức đầy; hành động tiếp tục bên trong khung.",
+  "counterexample": "Cú giật hoặc đổi tốc bất ngờ có thể là chủ ý phù hợp một phong cách khác.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ED-002",
+    "AU-004",
+    "CA-010"
+  ],
+  "source_ids": [
+    "B021",
+    "B025"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "AU-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AU",
+  "title": "Phản hồi khán giả và giới hạn suy nhân quả",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Có bằng chứng người xem nhận được trải nghiệm mong muốn không?",
+  "use_when": [
+    "Khi đánh giá phản hồi nhóm thử hoặc số liệu sau xuất bản."
+  ],
+  "principle": "Ghi tách ý đồ, hành vi xem và lời tự báo cảm xúc. Một chỉ số không đủ chứng minh tác dụng nghệ thuật hoặc nguyên nhân.",
+  "actions": [
+    "Hỏi cụ thể về đoạn/mốc thay vì gợi câu trả lời tốt.",
+    "So kết quả giữa nhóm và hoàn cảnh tương đồng khi có thể.",
+    "Ghi cả phản ứng ngoài ý đồ và các yếu tố khác đã đổi."
+  ],
+  "tradeoffs": [
+    "Dữ liệu nhỏ giúp phát hiện vấn đề, chưa đủ kết luận cho cả thị trường."
+  ],
+  "verification": [
+    "Không đổi giữ chân cao thành bằng chứng thư giãn.",
+    "Không suy chẩn đoán cá nhân từ bình luận hoặc cách xem."
+  ],
+  "original_example": "Một đoạn được xem lại: hỏi vì đẹp, muốn học thao tác hay vì chưa hiểu trước khi chỉnh nhịp.",
+  "counterexample": "Người im lặng không đồng nghĩa hài lòng; bình luận công khai không đại diện mọi người xem.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "YT-003",
+    "YT-005",
+    "QC-003"
+  ],
+  "source_ids": [
+    "SRC-YT-RETENTION"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,158 @@
+{
+  "version": "1.0.0",
+  "routes": [
+    {
+      "query_hint": "sửa người thừa, duplicate, clone, ghosting",
+      "core_ids": [
+        "AI-008",
+        "AI-002",
+        "QC-002",
+        "MO-006"
+      ]
+    },
+    {
+      "query_hint": "nhịp yên bình nhưng không chán",
+      "core_ids": [
+        "AU-001",
+        "AU-005",
+        "ED-001",
+        "ED-005",
+        "SO-006"
+      ]
+    },
+    {
+      "query_hint": "máy tiến hay zoom, camera đứng yên",
+      "core_ids": [
+        "MO-001",
+        "MO-003",
+        "MO-004",
+        "CA-008"
+      ]
+    },
+    {
+      "query_hint": "khó hiểu thao tác, tay xuyên vật",
+      "core_ids": [
+        "AI-003",
+        "DR-002",
+        "CA-001",
+        "QC-002"
+      ]
+    },
+    {
+      "query_hint": "nối cảnh, sai trạng thái, đổi áo",
+      "core_ids": [
+        "ED-003",
+        "AI-002",
+        "AI-005",
+        "LI-005",
+        "CO-005"
+      ]
+    },
+    {
+      "query_hint": "thiết kế mở đầu, thumbnail, lời hứa",
+      "core_ids": [
+        "YT-001",
+        "ST-008",
+        "AU-003"
+      ]
+    },
+    {
+      "query_hint": "kịch bản nhiều cảnh rời rạc",
+      "core_ids": [
+        "ST-001",
+        "ST-005",
+        "ST-004",
+        "ED-008"
+      ]
+    },
+    {
+      "query_hint": "hội thoại sai người, lip sync",
+      "core_ids": [
+        "DR-004",
+        "SO-002",
+        "AI-006",
+        "CA-006"
+      ]
+    },
+    {
+      "query_hint": "ánh sáng tự nhiên, hình phẳng, tối",
+      "core_ids": [
+        "LI-001",
+        "LI-002",
+        "LI-003",
+        "LI-004",
+        "LI-006"
+      ]
+    },
+    {
+      "query_hint": "màu đẹp nhưng giả, không khớp",
+      "core_ids": [
+        "CO-001",
+        "CO-002",
+        "CO-004",
+        "CO-005",
+        "CO-006"
+      ]
+    },
+    {
+      "query_hint": "timelapse, tua nhanh, slow motion",
+      "core_ids": [
+        "MO-006",
+        "ED-004",
+        "AI-008"
+      ]
+    },
+    {
+      "query_hint": "tạo cảm xúc, tò mò, hồi hộp",
+      "core_ids": [
+        "AU-004",
+        "AU-003",
+        "ST-006",
+        "ED-005",
+        "SO-003"
+      ]
+    },
+    {
+      "query_hint": "giữ chân, retention, CTR",
+      "core_ids": [
+        "YT-002",
+        "YT-003",
+        "AU-006",
+        "YT-005"
+      ]
+    },
+    {
+      "query_hint": "video thiếu âm, chỉ có ba frame",
+      "core_ids": [
+        "EV-001",
+        "EV-004",
+        "EV-005"
+      ]
+    },
+    {
+      "query_hint": "đổi model, negative, prompt",
+      "core_ids": [
+        "AI-001",
+        "AI-007",
+        "QC-003"
+      ]
+    },
+    {
+      "query_hint": "học từ nhiều video, nâng kiến thức",
+      "core_ids": [
+        "QC-006",
+        "EV-006",
+        "QC-004"
+      ]
+    },
+    {
+      "query_hint": "tiết kiệm chi phí tạo video",
+      "core_ids": [
+        "QC-005",
+        "AI-004",
+        "DR-006",
+        "AI-008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1403 @@
+{
+  "version": "1.0.0",
+  "lessons": [
+    {
+      "lesson_id": "B001",
+      "title": "4 Cấu Trúc Camera Thiết Yếu Dành Cho AI Director",
+      "image_count": 12,
+      "path": "bai-hoc/001-bon-cau-truc-camera",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "core_ids": [
+        "CA-001",
+        "CA-005",
+        "MO-003",
+        "MO-004",
+        "MO-005"
+      ],
+      "retained_qualifications": [
+        {
+          "id": "N01",
+          "source_ids": [
+            "B001-01"
+          ],
+          "status": "unsupported_quantification",
+          "guidance": "Không dùng 90% như số liệu được chứng minh."
+        },
+        {
+          "id": "N02",
+          "source_ids": [
+            "B001-04"
+          ],
+          "status": "overgeneralization",
+          "guidance": "Máy cố định vẫn có thể truyền tải cảm xúc."
+        },
+        {
+          "id": "N03",
+          "source_ids": [
+            "B001-05",
+            "B001-06"
+          ],
+          "status": "conditional_artistic_effect",
+          "guidance": "Đi vòng không tự tạo uy lực hoặc cứu mọi cảnh hành động."
+        },
+        {
+          "id": "N04",
+          "source_ids": [
+            "B001-07"
+          ],
+          "status": "clarify_taxonomy",
+          "guidance": "Hé lộ là dụng ý; lùi máy là một đường máy có thể thực hiện dụng ý."
+        },
+        {
+          "id": "N05",
+          "source_ids": [
+            "B001-09"
+          ],
+          "status": "undefined_unit",
+          "guidance": "Phần trăm rung chưa có đơn vị hoặc thang đo trong nguồn."
+        },
+        {
+          "id": "N06",
+          "source_ids": [
+            "B001-10"
+          ],
+          "status": "overgeneralization",
+          "guidance": "Hình ổn định không đồng nghĩa giả; cầm tay không đồng nghĩa tư liệu thật."
+        },
+        {
+          "id": "N07",
+          "source_ids": [
+            "B001-11"
+          ],
+          "status": "mixed_categories",
+          "guidance": "Phân biệt đường đi, dụng ý và cách vận hành khi viết yêu cầu."
+        }
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B002",
+      "title": "\"Đạo Diễn\" AI- Phương pháp Tạo Prompt Cấu trúc để Đạt tính Nhất quán Nhân vật và Ánh sáng trong Veo 3.1",
+      "image_count": 10,
+      "path": "bai-hoc/002-prompt-cau-truc",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Năm thành phần của một cảnh",
+        "Tách cỡ cảnh, ống kính và chuyển động",
+        "Khóa hướng sáng trước hiệu ứng",
+        "Chuyển động có nguyên nhân và phản ứng",
+        "Giữ quyền chọn cách kể"
+      ],
+      "core_ids": [
+        "ST-001",
+        "AU-001",
+        "DR-005",
+        "CA-008",
+        "LI-001",
+        "AI-003",
+        "AI-007"
+      ],
+      "retained_qualifications": [
+        "Thông số 60 giây và đồng bộ khoảng 10ms trong ảnh không được coi là cam kết hiện tại. Nguồn model Google được đối chiếu ngày 17/10/2026; phân biệt sinh đoạn gốc với nối dài.",
+        "Tên thư mục nói nhất quán nhưng bộ ảnh còn bàn nhiều về văn hóa; không lược bỏ phần này khi tổng kết.",
+        "Ví dụ Reddit, Mesh.vn và dẫn lời Sydney trong ảnh chưa kèm bằng chứng đầu ra hoặc liên kết gốc đủ để xác minh toàn bộ.",
+        "Không đồng nhất macro với đặc tả, chuyển nét với đường máy hoặc 24fps với tốc độ chủ thể."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B003",
+      "title": "3 \"Ác Mộng\" Của Creator AI Video Đều Bị Đánh Bại- 5 Kỹ Thuật Khóa Thiết Kế Nhân Vật Hoàn Hảo (Áp dụng cho Google Veo 3.1)",
+      "image_count": 10,
+      "path": "bai-hoc/003-khoa-thiet-ke-nhan-vat",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Lập hồ sơ bất biến trước khi viết cảnh",
+        "Mỗi cảnh có đầu vào đủ rõ",
+        "Bảng màu là mục tiêu đối chiếu",
+        "Nội dung loại trừ và kiểm lỗi hình thể",
+        "Giữ hệ tạo hình và đo tính liên tục"
+      ],
+      "core_ids": [
+        "AI-002",
+        "CO-002",
+        "CO-005",
+        "AI-007",
+        "QC-003"
+      ],
+      "retained_qualifications": [
+        "Các tỷ lệ 95–99% và 95–100% trong ảnh không kèm cách đo, tập mẫu hay kết quả thử; không được dùng làm bảo đảm.",
+        "HEX trong câu lệnh không bảo đảm màu pixel chính xác; hình minh họa không chứng minh khóa màu.",
+        "Hồ sơ văn bản không phải cơ chế khóa danh tính hoặc bộ nhớ xuyên mọi lần sinh. Ảnh tham chiếu có thể hỗ trợ tùy mô hình và chế độ.",
+        "Nguồn viết no trong negative prompt. Hướng dẫn Google được đối chiếu khuyên trường loại trừ liệt kê yếu tố không mong muốn, tránh no/don't.",
+        "Ảnh B003-08 đảo tên nhãn màu và khiên ở bước 3–4. Tài liệu dùng thứ tự theo nội dung.",
+        "Nguồn không cung cấp video hoặc thông số thử đủ để kiểm tra 15 cảnh tiếp theo."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B004",
+      "title": "4 Vũ Khí Tối Thượng khiến Nano Banana Pro mạnh đến MỨC ĐÁNG NGỜ - Bạn đã thử chưa?",
+      "image_count": 15,
+      "path": "bai-hoc/004-nano-banana-pro",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Chọn đầu ra phục vụ tiền kỳ",
+        "Viết yêu cầu theo năm nhóm",
+        "Sửa một yếu tố và bảo vệ phần còn lại",
+        "Duyệt chữ và dữ liệu độc lập",
+        "Đánh giá công cụ bằng tác vụ"
+      ],
+      "core_ids": [
+        "AI-001",
+        "AI-008",
+        "DR-005",
+        "QC-001"
+      ],
+      "retained_qualifications": [
+        "Nano Banana Pro được Google sử dụng chính thức để gọi Gemini 3 Pro Image; câu chỉ là tên cộng đồng ở B004-02 cần chỉnh.",
+        "4K không đồng nghĩa mọi tỉ lệ đều 4096×4096; kích thước phụ thuộc tỉ lệ và nơi sử dụng. Từ 8K trong prompt không nâng giới hạn xuất.",
+        "Google có công bố tối đa 14 ảnh và hỗ trợ duy trì nét giống của tối đa năm người; đây không phải bảo đảm mọi ảnh đều chính xác.",
+        "Không xác nhận chữ tiếng Việt hoàn hảo hoặc Search bảo đảm đúng dữ liệu. Google cũng nêu giới hạn với chữ, mặt nhỏ và chi tiết.",
+        "Miễn phí hai ảnh/ngày và vị trí nút trong ảnh thuộc bối cảnh nguồn tháng 12/2025, không được coi là điều kiện hiện tại.",
+        "Các con số lỗi 50%, tiếp cận 99% và so sánh Canva/Photoshop/Midjourney trong nguồn chưa có thử nghiệm đủ đối chiếu."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B005",
+      "title": "7 Cú Máy Kinh Điển - Từ Tốt Đến Đậm Chất Điện Ảnh Với Prompt Veo3.1",
+      "image_count": 13,
+      "path": "bai-hoc/005-bay-cu-may",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Toàn cảnh: xác lập quan hệ người–nơi",
+        "Trung cảnh: đọc hành động",
+        "Cận và đặc tả: chọn chi tiết quan trọng",
+        "Qua vai: xây quan hệ quan sát",
+        "POV: cho người xem nhìn cùng nhân vật",
+        "Trên cao: đọc bố cục không gian",
+        "Tracking: đồng hành với chuyển động"
+      ],
+      "core_ids": [
+        "CA-001",
+        "CA-002",
+        "CA-006",
+        "MO-003"
+      ],
+      "retained_qualifications": [
+        "Bảy mục không cùng một cấp phân loại: wide/medium/close là cỡ cảnh; OTS/POV là quan hệ góc nhìn; aerial/top-down là vị trí và hướng máy; tracking là chuyển động.",
+        "Ảnh so sánh B005-03 đổi người, trang phục, ánh sáng và khung hình cùng lúc; không thể gọi là thử một biến.",
+        "Khung mắt ở B005-06 phù hợp đặc tả cực cận. Cận cảnh không nhất thiết phải cắt chỉ còn mắt.",
+        "Nguồn có mảnh mã span và chữ in Inter thừa; các phần này không phải thuật ngữ hoặc câu lệnh cần dùng.",
+        "Aerial không bắt buộc nhìn thẳng xuống; tracking không đồng nghĩa mọi kiểu dolly.",
+        "Không có video thử để khẳng định Veo luôn thực hiện đúng hoặc đẹp lên ngay lập tức."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B006",
+      "title": "7 Kỹ Thuật Negative Prompt- Làm Thế Nào Để Cấm AI Đổi Màu Sắc và Bịa Thêm Phụ Kiện Giữa Các Cảnh? (Nhất quán)",
+      "image_count": 15,
+      "path": "bai-hoc/006-negative-prompt-nhat-quan",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Kiểm hình thể và số chi",
+        "Giữ khuôn mặt có thể nhận ra",
+        "Phân biệt hình học, màu và vật liệu",
+        "Quản lý phụ kiện bằng thiết kế rõ",
+        "Viết đúng theo mô hình, kiểm bằng nhiều kết quả"
+      ],
+      "core_ids": [
+        "AI-007",
+        "AI-002",
+        "QC-002",
+        "QC-003"
+      ],
+      "retained_qualifications": [
+        "Tên thư mục ghi bảy kỹ thuật nhưng các ảnh chỉ đánh số #1–#6; phần gom ba nhóm là chiến lược tổ chức bổ sung, không tự tạo kỹ thuật thứ bảy từ nguồn.",
+        "Các lời hứa ổn định 95–100%, hiệu quả gấp đôi và loại bỏ lỗi chưa có dữ liệu thử hỗ trợ.",
+        "Negative prompt không tự khóa hình học, mặt hoặc vật liệu; Geometry/Face/Material Lock là nhãn do bài đặt.",
+        "Cú pháp nhiều no không phù hợp mọi công cụ. Google khuyên trường loại trừ liệt kê lỗi; Runway Gen-4 khuyên tránh negative và dùng mô tả tích cực.",
+        "Hình sau ở B006-03 vẫn có hình thể bất thường; các cặp ảnh trước/sau không phải bằng chứng thực nghiệm.",
+        "Bốn biến thể là gợi ý nguồn. Số lần thử nên theo mức độ khó, chi phí và tiêu chí duyệt.",
+        "Tên phông JetBrains Mono và nhãn không rõ ở B006-01 là lỗi trình bày nguồn; không đưa vào prompt thực hành."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B007",
+      "title": "10 công cụ tạo Video AI tốt nhất - bạn cần biết để không bị bỏ lại phía sau",
+      "image_count": 12,
+      "path": "bai-hoc/007-muoi-cong-cu-video-ai",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Phân biệt sinh chuyển động với biên tập",
+        "Danh sách mười tên và mức thông tin thực có",
+        "Quy trình ảnh thành video có thể chuyển giao",
+        "Đo lợi ích bằng dữ liệu của dự án"
+      ],
+      "core_ids": [
+        "AI-001",
+        "AI-004",
+        "QC-005",
+        "QC-003"
+      ],
+      "retained_qualifications": [
+        "Chưa có căn cứ trong bộ ảnh cho +80% tương tác và +60% chuyển đổi; không thể khái quát sang mọi dự án.",
+        "Hai case study không cung cấp chiến dịch hay báo cáo xác minh. Tài liệu chỉ thuật lại việc nguồn nêu, không xác nhận kết quả hoặc quan hệ nhân quả.",
+        "Không có benchmark chứng minh mười công cụ tốt nhất/phổ biến nhất; Kling chỉ có logo, không tự bổ sung thông số từ hình.",
+        "Tên Image2Motion bị gắn thiếu nhất quán giữa Luma và Leonardo trong chính bộ ảnh. Tài liệu tham chiếu chính thức được thêm để người học kiểm lại.",
+        "Tiêu đề 60 giây, mặc định chuyển động 5, giao diện và tuyên bố miễn phí không được dùng làm điều kiện hiện tại.",
+        "Không phải mọi công cụ ảnh thành video tự thêm âm thanh, nhạc hoặc tạo phim hoàn chỉnh."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B008",
+      "title": "10 Cú Pháp Prompt Google Veo Giúp Video Điện Ảnh Hơn",
+      "image_count": 18,
+      "path": "bai-hoc/008-muoi-cu-phap-veo",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Bảng tra đủ mười cụm",
+        "Thiết kế ánh sáng có nguồn và hướng",
+        "Chuyển động máy và vùng nét dẫn chú ý",
+        "Màu, tốc độ và âm thanh hoàn thiện ý đồ"
+      ],
+      "core_ids": [
+        "LI-001",
+        "LI-002",
+        "LI-006",
+        "CA-007",
+        "MO-006",
+        "SO-001",
+        "CO-001"
+      ],
+      "retained_qualifications": [
+        "Câu chỉ do ngôn ngữ mà video kém bỏ qua giới hạn công cụ, đầu vào và khâu chọn/dựng.",
+        "Các cặp ảnh thay đổi nhiều yếu tố; không đủ kết luận thêm một cụm gây cải thiện trong mọi video.",
+        "Rim light không tự tách chủ thể hoàn toàn; bokeh và sương cũng không luôn tăng chất lượng.",
+        "Ảnh tĩnh không chứng minh dolly, tracking, slow motion, âm thanh hoặc giảm flicker/jitter.",
+        "slow motion 30% là mô tả mục tiêu, không phải tham số bảo đảm tỉ lệ thời gian.",
+        "Màu ấm/bóng xanh là một kiểu tạo hình, không đồng nghĩa điện ảnh hoặc Hollywood.",
+        "Đối với Veo có trường negative, hướng dẫn Google khuyên liệt kê yếu tố không mong muốn thay vì nhiều câu no."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B009",
+      "title": "10 Cú Pháp Prompt Nâng Cấp Video AI Từ \"Phèn\" Tới Điện Ảnh",
+      "image_count": 18,
+      "path": "bai-hoc/009-nang-cap-ngon-ngu-dien-anh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Nhận biết phần ôn tập và nội dung bổ sung",
+        "Chọn một lý do chiếu sáng",
+        "Phối hợp đường máy với thông tin cần giữ nét",
+        "Đọc mẫu phối hợp như một thiết kế cảnh"
+      ],
+      "core_ids": [
+        "LI-001",
+        "CA-007",
+        "MO-005",
+        "CO-001",
+        "EV-001"
+      ],
+      "retained_qualifications": [
+        "B008 và B009 khác tệp ảnh nhưng phần lớn trùng kiến thức. Đã đọc riêng toàn bộ và giữ cả hai bộ nguồn; không coi đây là hai mươi kỹ thuật độc lập.",
+        "Không có kết quả video đủ chứng minh nâng chất lượng ngay lập tức hoặc chỉ cần thêm một hai cụm.",
+        "Ảnh tĩnh không xác nhận máy tiến, bám, tốc độ 30%, âm thanh hoặc ổn định theo thời gian.",
+        "30% là mục tiêu tốc độ, không phải cú pháp có bảo đảm; cần chính xác thì đo/chỉnh khi dựng.",
+        "Nền mờ, sương và chỉnh màu đều có thể làm mất thông tin; chọn theo cảnh.",
+        "Các lệnh no cần chuyển theo hướng dẫn model. Tham khảo phần khác biệt công cụ ở bài 006."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B010",
+      "title": "Bí Kíp Làm Chủ Ngôn Ngữ Điện Ảnh Cùng Veo3.1",
+      "image_count": 14,
+      "path": "bai-hoc/010-lam-chu-ngon-ngu-dien-anh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Cỡ cảnh chọn điều khán giả được thấy",
+        "Góc máy là quan hệ với người và không gian",
+        "Tách xoay máy khỏi dời vị trí",
+        "Dùng bảng cảm xúc như gợi ý",
+        "Viết một shot đủ kiểm tra"
+      ],
+      "core_ids": [
+        "CA-001",
+        "CA-002",
+        "CA-003",
+        "MO-002",
+        "MO-003",
+        "AU-004"
+      ],
+      "retained_qualifications": [
+        "B010-01 đổi đồng thời nhiều biến, không chứng minh camera là nguyên nhân duy nhất tạo chất điện ảnh.",
+        "Dutch angle cần mô tả chân trời nghiêng do roll quanh hướng nhìn; câu trục ngang trong nguồn có thể gây nhầm với tilt.",
+        "Tracking không chỉ là dời ngang. Truck, follow và dolly cần phân biệt theo vị trí/quan hệ chuyển động.",
+        "MCU dịch là cận vừa, thường ngực lên; nguồn gọi chung cỡ cận ở B010-11 dễ gây nhầm với CU.",
+        "Góc cao không luôn đồng nghĩa yếu đuối; góc thấp không luôn quyền lực. Bảng cảm xúc là quy ước gợi ý, phụ thuộc ngữ cảnh.",
+        "Không cần máy luôn chuyển động để cảnh có sức sống. Diễn xuất, bố cục và âm thanh cũng tạo nhịp.",
+        "Một ảnh không xác nhận tốc độ, thị sai, camera ổn định hoặc model thực hiện đúng lệnh."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B011",
+      "title": "Bí Mật Cinematic Với Prompt Veo3.1- Dùng Golden Hour, Bokeh và Slow Motion Để Tạo Ra Video AI Chuẩn Hollywood",
+      "image_count": 18,
+      "path": "bai-hoc/011-anh-sang-bo-nen-nhip-cham",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Bảng tra đủ mười cụm",
+        "Thiết kế ánh sáng có nguồn và hướng",
+        "Chuyển động máy và vùng nét dẫn chú ý",
+        "Màu, tốc độ và âm thanh hoàn thiện ý đồ",
+        "Chọn bokeh và nhịp chậm cho thao tác có ý nghĩa"
+      ],
+      "core_ids": [
+        "CA-007",
+        "LI-001",
+        "LI-002",
+        "MO-006",
+        "EV-002"
+      ],
+      "retained_qualifications": [
+        "B011 trùng 18/18 tệp ảnh với B008 theo SHA-256 và cùng thứ tự. Số ảnh đã đọc trong danh mục là lượt tệp theo thư mục, không phải số hình hoặc kỹ thuật độc nhất.",
+        "Câu chỉ do ngôn ngữ mà video kém bỏ qua giới hạn công cụ, đầu vào và khâu chọn/dựng.",
+        "Các cặp ảnh thay đổi nhiều yếu tố; không đủ kết luận thêm một cụm gây cải thiện trong mọi video.",
+        "Rim light không tự tách chủ thể hoàn toàn; bokeh và sương cũng không luôn tăng chất lượng.",
+        "Ảnh tĩnh không chứng minh dolly, tracking, slow motion, âm thanh hoặc giảm flicker/jitter.",
+        "slow motion 30% là mô tả mục tiêu, không phải tham số bảo đảm tỉ lệ thời gian.",
+        "Màu ấm/bóng xanh là một kiểu tạo hình, không đồng nghĩa điện ảnh hoặc Hollywood.",
+        "Đối với Veo có trường negative, hướng dẫn Google khuyên liệt kê yếu tố không mong muốn thay vì nhiều câu no."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B012",
+      "title": "Bí Mật Cinematic- Chỉ Cần Đổi \"CẤU TRÚC CAMERA\" Video Veo 3.1 Lên Đời Ngay Lập Tức!",
+      "image_count": 16,
+      "path": "bai-hoc/012-cau-truc-camera",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Viết đủ sáu nhóm thông tin",
+        "Chọn đúng loại chuyển động",
+        "B-roll: thiết kế chuỗi rộng–trung–cận",
+        "Chọn chuyển động theo mục đích cảm xúc",
+        "Kiểm chứng bằng video thay vì ảnh trước/sau"
+      ],
+      "core_ids": [
+        "AI-007",
+        "CA-001",
+        "CA-002",
+        "MO-001",
+        "DR-006",
+        "EV-003"
+      ],
+      "retained_qualifications": [
+        "Không dùng 'chuẩn Hollywood' hay 'nhảy vọt' như kết quả đã chứng minh.",
+        "Nguồn trộn cỡ cảnh, góc máy, độ rung và tốc độ; tài liệu đã tách các khái niệm.",
+        "Mẫu B-roll ba cỡ cảnh không đồng nghĩa prompt ví dụ đã yêu cầu đủ ba shot.",
+        "Chữ tên font và dòng lặp trong nguồn là lỗi biên tập, không phải chỉ dẫn điện ảnh.",
+        "Tham số đầu ra và âm thanh phụ thuộc công cụ thực tế; chưa sinh video để kiểm nghiệm."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B013",
+      "title": "Bí Mật Prompt Veo3.1 - Tách Shot Để AI Bám Lệnh (Hội Thoại Không Quay Bằng Một Shot)",
+      "image_count": 16,
+      "path": "bai-hoc/013-tach-shot-hoi-thoai",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Chia theo nhiệm vụ của shot",
+        "Dựng đối đáp và giữ trục nhìn",
+        "Giữ bối cảnh và nhận diện",
+        "Chỉ rõ lời thoại và phản ứng",
+        "Chẩn đoán rồi sửa đúng shot"
+      ],
+      "core_ids": [
+        "CA-004",
+        "CA-006",
+        "DR-004",
+        "SO-002",
+        "AI-006"
+      ],
+      "retained_qualifications": [
+        "Không phải mọi lỗi do người viết prompt; mô hình vẫn có giới hạn và tính ngẫu nhiên.",
+        "Hội thoại có thể quay bằng một shot, hai người cùng khung hoặc nhiều dạng dựng khác; shot–reverse shot là lựa chọn.",
+        "Một người nói/shot, camera đặt đầu prompt và mô tả lặp không bảo đảm chính xác tuyệt đối.",
+        "Hai tệp B013-10 và B013-11 có cùng SHA-256; 16 là số tệp nguồn, không phải 16 trang khác nhau.",
+        "Negative prompt của nguồn dùng 'no ...'; hướng dẫn ở trường negative riêng có thể yêu cầu liệt kê yếu tố không muốn. Không coi đó là cú pháp chung cho mọi giao diện."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B014",
+      "title": "Bí Mật Veo 3.1- Google Thiết Kế Để Nghe Lời Đạo Diễn (80% Creator Đang Dùng Sai Cách)",
+      "image_count": 12,
+      "path": "bai-hoc/014-dao-dien-bang-yeu-cau-ro",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Dùng năm phần như bảng kiểm",
+        "Định nghĩa camera và chủ thể riêng",
+        "Hành động có hướng và hệ quả",
+        "Bối cảnh và phong cách phục vụ việc nhìn rõ",
+        "Đánh giá chất lượng bằng tiêu chí"
+      ],
+      "core_ids": [
+        "AI-007",
+        "ST-001",
+        "DR-001",
+        "EV-001"
+      ],
+      "retained_qualifications": [
+        "80% và 'gấp 3 lần' không có dữ liệu chứng minh trong bộ ảnh.",
+        "Không suy từ việc camera viết trước ra cơ chế nội bộ 'AI đọc camera đầu tiên'.",
+        "Năm thành phần là cách lập kế hoạch, không phải điều kiện bắt buộc cho mọi prompt. Google cũng lưu ý không cần dùng mọi thành phần trong mọi câu lệnh.",
+        "HEX không bảo đảm khóa màu hoặc giữ nhân vật; cần kiểm tra dưới ánh sáng cảnh.",
+        "Hình trước/sau không đủ chứng minh chuyển động hoặc tính nhất quán toàn video."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B015",
+      "title": "Bí Mật Veo 3.1- Tại Sao AI Không \"Vẽ\" Video Mà Chỉ \"Dự Đoán Chuyển Động\"? (Làm Chủ Logic Vật Lý)",
+      "image_count": 12,
+      "path": "bai-hoc/015-logic-chuyen-dong-vat-ly",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Mô tả quan hệ nhân–quả quan sát được",
+        "Tách chuyển động chủ thể, camera và môi trường",
+        "Giữ ba nhóm ràng buộc thiết yếu",
+        "Chuyển ý cảm xúc thành biểu hiện",
+        "Dùng đúng từ, kiểm tra đúng kết quả"
+      ],
+      "core_ids": [
+        "AI-003",
+        "MO-001",
+        "MO-004",
+        "EV-006"
+      ],
+      "retained_qualifications": [
+        "Giải thích 'AI dựng thế giới 3D trong tưởng tượng' là ẩn dụ của nguồn, chưa chứng minh kiến trúc Veo 3.1.",
+        "'AI chỉ hiểu vật lý' quá tuyệt đối; tài liệu này không khẳng định cơ chế nhận thức của mô hình.",
+        "Nhân vật chạy trước camera đứng yên là dàn cảnh hợp lệ; hậu cảnh không cần tự chuyển động.",
+        "Zoom là đổi tiêu cự, không phải AI hiểu sai. Dolly-in phù hợp khi ý đồ là máy dịch tới gần.",
+        "90%, dẫn đầu thị trường, render nhanh và chống thất bại không có kiểm chứng tương ứng trong ảnh.",
+        "Không có định mức bắt buộc 5–7 từ mô tả ánh sáng; cỡ cảnh và cảm xúc do góc máy không phải luật cứng."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B016",
+      "title": "Bí Quyết Mô Tả Audio Cho Video AI (Trải nghiệm Điện Ảnh Sống Động với Veo3.1)",
+      "image_count": 14,
+      "path": "bai-hoc/016-thiet-ke-am-thanh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Lập ba lớp âm có chức năng",
+        "Gắn từng tiếng với vật và sự kiện",
+        "Viết thoại dễ gán cho người nói",
+        "Âm và hình phải kể cùng diễn biến",
+        "Chọn mức yên lặng và kế hoạch hậu kỳ"
+      ],
+      "core_ids": [
+        "SO-001",
+        "SO-002",
+        "SO-003",
+        "SO-004",
+        "SO-005",
+        "SO-006",
+        "SO-008"
+      ],
+      "retained_qualifications": [
+        "Ảnh tĩnh và đường sóng vẽ không chứng minh chất lượng hay đồng bộ âm.",
+        "Không nhạc không đồng nghĩa không tiếng; silent background cũng không bảo đảm tệp cuối im lặng.",
+        "Các nhãn Dialogue/SFX/Ambient là cách tổ chức, không cam kết xuất track âm riêng.",
+        "Cú máy nhanh không bắt buộc tiếng gió; hiệu ứng vút có thể là lựa chọn cách điệu.",
+        "Mẫu đại sảnh cần nhất quán giữa đứng/đi và tiếng bước. Hướng dẫn dấu ngoặc cho thoại khác nhau giữa các nguồn chính thức nên cần theo ngữ cảnh công cụ."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B017",
+      "title": "CHỈ 24 GIÂY ĐỔI ĐỜI! Công thức \"vàng\" (3x8) khiến Veo 3.1 tạo ra mini story hoàn chỉnh, vượt xa video AI thông thường!",
+      "image_count": 10,
+      "path": "bai-hoc/017-mini-story-ba-nhip",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Ba nhịp phải có thay đổi",
+        "Lập bảng ba clip trước khi viết prompt",
+        "Giữ liên tục qua hai điểm nối",
+        "Tám giây là giới hạn luyện tập, nhịp dựng do nội dung"
+      ],
+      "core_ids": [
+        "ST-001",
+        "ST-002",
+        "ST-003",
+        "ST-004",
+        "ED-001",
+        "ED-004"
+      ],
+      "retained_qualifications": [
+        "Không có chứng cứ trong ảnh rằng 24 giây tối ưu thời gian xem trên mọi nền tảng hoặc giúp video 'đổi đời'.",
+        "3×8 là kế hoạch ba clip; không phải cam kết một lần tạo sinh cả 24 giây hay luật mọi câu chuyện.",
+        "'Handheld motion 3%' không có định nghĩa đo lường trong bài; không coi là thông số chuẩn.",
+        "Hồ sơ và HEX không tự khóa nhất quán; vẫn cần tham chiếu và đối chiếu các điểm nối.",
+        "Ba nhịp không bắt buộc ba địa điểm, ba góc máy chuyển động hoặc ba đoạn dài bằng nhau ở bản cuối."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B018",
+      "title": "Dolly, Pan, Tilt- Ứng Dụng Chuyển Động Camera Cực Kỳ Quan Trọng Trong Việc Tạo Hình Ảnh Veo 3.1",
+      "image_count": 12,
+      "path": "bai-hoc/018-dolly-pan-tilt",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Chọn cỡ cảnh theo thông tin cần thấy",
+        "Góc nhìn và độ cao là lựa chọn kể chuyện",
+        "Phân biệt xoay tại chỗ với dịch máy",
+        "Đưa điểm đầu, đường đi và điểm dừng vào prompt",
+        "Dùng bảng cảm xúc như giả thuyết"
+      ],
+      "core_ids": [
+        "CA-001",
+        "CA-002",
+        "MO-002",
+        "MO-003",
+        "MO-004"
+      ],
+      "retained_qualifications": [
+        "Tracking không chỉ là máy đi song song; cần nêu hướng bám cụ thể.",
+        "Dutch angle là khung nghiêng; tilt là ngẩng/cúi, roll là chuyển động xoay quanh trục ống kính.",
+        "Góc thấp/cao không tự gây uy lực/yếu thế; góc cao cũng có chức năng mô tả thao tác.",
+        "Hình B018-00 không khớp chặt nhãn medium shot; cỡ cảnh nên đọc theo nội dung khung.",
+        "Chữ lạc ngôn ngữ ở B018-10 là lỗi biên tập; không dùng làm thuật ngữ.",
+        "Một từ khóa kỹ thuật không bảo đảm mô hình tuân thủ; kiểm tra video và sửa bằng mô tả đường máy."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B019",
+      "title": "Hệ thống Bánh Đà học tập bằng AI",
+      "image_count": 13,
+      "path": "bai-hoc/019-banh-da-hoc-tap-ai",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Bảy bước, mỗi bước có đầu ra",
+        "Chọn trọng tâm theo mục tiêu thực tế",
+        "Dùng hỏi gợi mở và giải thích lại",
+        "Tự gợi nhớ rồi đối chiếu nguồn",
+        "Quan sát có phản biện rồi tạo sản phẩm",
+        "Phản tư để vòng sau có tiến bộ cụ thể"
+      ],
+      "core_ids": [
+        "QC-003",
+        "QC-004",
+        "QC-006",
+        "EV-002"
+      ],
+      "retained_qualifications": [
+        "Giảm 50% thời gian không được chứng minh trong nguồn; 80/20 là quy tắc ưu tiên, không bảo đảm phân phối hiệu quả.",
+        "Các nhãn Wiki Mode, Study Mode và đường Tools > Study and Learn được ghi như nội dung ảnh; chưa xác minh cho giao diện/tài khoản người học.",
+        "Không cần dùng tác nhân tự động để học theo mẫu; phương pháp có thể thực hiện bằng đối thoại và sản phẩm kiểm tra được.",
+        "Giải thích lại cho AI không huấn luyện lại mô hình hay bảo đảm AI nhớ vĩnh viễn; tài liệu GitHub là kho tham chiếu lưu được.",
+        "Flashcards không đồng nghĩa trắc nghiệm; AI có thể tạo câu hỏi/đáp án sai nên phải đối chiếu.",
+        "JetBrains Mono là chữ tên font còn trong ảnh; các tên 'Information Coma'/'Silent Reader Syndrome' là nhãn ẩn dụ."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B020",
+      "title": "Khóa Nhân Vật AI - 5 Chìa Khóa Vàng Cho Sự Bất Biến",
+      "image_count": 10,
+      "path": "bai-hoc/020-nam-chia-khoa-nhat-quan",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Lập hồ sơ bất biến trước khi viết cảnh",
+        "Mỗi cảnh có đầu vào đủ rõ",
+        "Bảng màu là mục tiêu đối chiếu",
+        "Nội dung loại trừ và kiểm lỗi hình thể",
+        "Giữ hệ tạo hình và đo tính liên tục",
+        "Áp dụng cho hồ sơ mặt, vóc dáng và trang phục đã duyệt"
+      ],
+      "core_ids": [
+        "AI-002",
+        "CO-002",
+        "CO-005",
+        "AI-001",
+        "EV-002"
+      ],
+      "retained_qualifications": [
+        "Toàn bộ 10 tệp B020 trùng SHA-256 với 10 tệp B003. Số ảnh tiến độ tính theo tệp của từng bài, không phải số hình độc nhất.",
+        "Các tỷ lệ 95–99% và 95–100% trong ảnh không kèm cách đo, tập mẫu hay kết quả thử; không được dùng làm bảo đảm.",
+        "HEX trong câu lệnh không bảo đảm màu pixel chính xác; hình minh họa không chứng minh khóa màu.",
+        "Hồ sơ văn bản không phải cơ chế khóa danh tính hoặc bộ nhớ xuyên mọi lần sinh. Ảnh tham chiếu có thể hỗ trợ tùy mô hình và chế độ.",
+        "Nguồn viết no trong negative prompt. Hướng dẫn Google được đối chiếu khuyên trường loại trừ liệt kê yếu tố không mong muốn, tránh no/don't.",
+        "Ảnh B020-08 đảo tên nhãn màu và khiên ở bước 3–4. Tài liệu dùng thứ tự theo nội dung.",
+        "Nguồn không cung cấp video hoặc thông số thử đủ để kiểm tra 15 cảnh tiếp theo.",
+        "Lời khuyên chép toàn bộ hồ sơ không áp dụng máy móc cho mọi chế độ; ảnh đầu vào đủ rõ có thể phù hợp prompt tập trung chuyển động.",
+        "Không diễn giải 'AI không hiểu blue' theo nghĩa đen; nhiều sắc xanh là sự mơ hồ cần cụ thể hóa, không chứng minh mô hình không hiểu tên màu."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B021",
+      "title": "Làm chủ cảm xúc trong Video VEO",
+      "image_count": 15,
+      "path": "bai-hoc/021-lam-chu-cam-xuc",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Cảm xúc cần hoàn cảnh và diễn biến",
+        "Ba lớp: nhãn, cử động nhỏ và ánh mắt",
+        "Camera, nét và ánh sáng giữ người xem theo được",
+        "Chọn biểu diễn theo nhịp, tránh danh sách quá tải",
+        "Giữ khuôn mặt tự nhiên và chấm bằng chuyển động"
+      ],
+      "core_ids": [
+        "DR-001",
+        "DR-003",
+        "AU-004",
+        "CA-007",
+        "CA-008"
+      ],
+      "retained_qualifications": [
+        "Thư mục hiện có 15 tệp: trang đầu mang số 01, các số 02–11 rồi 013–016. Không có tệp số 012; đã đọc 15/15 tệp hiện có, không suy đoán nội dung thiếu.",
+        "Cảm xúc không bắt buộc cận cảnh, bokeh, nước mắt hoặc camera tiến gần. Những lựa chọn này phục vụ dạng bài cận mặt của nguồn.",
+        "Không quy mọi lỗi biểu cảm cho người viết prompt; đầu vào và mô hình có thể gây lỗi.",
+        "'Wide close-up' mơ hồ nếu trộn hai cỡ cảnh, nhưng wide-angle close-up (cận với ống góc rộng) là lựa chọn khả thi. Cần phân biệt cỡ cảnh và góc nhìn của ống kính.",
+        "Ghi tiêu cự không bảo đảm loại méo hoặc giữ mặt; tách lỗi phối cảnh, quang học và sinh hình.",
+        "Danh sách loại trừ 'no asymmetry' không nên áp thành mặt đối xứng tuyệt đối; giữ bất đối xứng tự nhiên trong ảnh chuẩn.",
+        "Đồng tử giãn khác mở to mắt; mắt long lanh/catchlight không tự chứng minh nhân vật khóc. Chọn dấu hiệu thị giác theo ý đồ, không coi là bằng chứng chẩn đoán cảm xúc.",
+        "Nguồn nói tối đa ba ảnh tham chiếu ở API; tài liệu Gemini API hiện có khả năng này cho chế độ Veo 3.1 tương ứng, không phải cam kết mọi công cụ đều hỗ trợ."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B022",
+      "title": "Làm Chủ Google Veo Từ Cơ Bản đến Chuyên Nghiệp",
+      "image_count": 14,
+      "path": "bai-hoc/022-veo-tu-co-ban-den-quy-trinh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Từ ý đồ đến một hành động đọc được",
+        "Máy quay phục vụ việc nhìn rõ",
+        "Chọn chữ, ảnh hay hai khung theo mục tiêu",
+        "Khung hình và thông số phải được đặt đúng chỗ",
+        "Tối ưu bằng tỷ lệ cảnh dùng được"
+      ],
+      "core_ids": [
+        "AI-001",
+        "AI-004",
+        "AI-007",
+        "CA-009",
+        "QC-005"
+      ],
+      "retained_qualifications": [
+        "100–150 từ, 3–6 câu, dưới 15 vật thể là các mẹo của nguồn, không phải giới hạn phổ quát đã được chứng minh.",
+        "Nguồn ghi tối đa 4 ảnh; tài liệu Gemini API được đối chiếu ghi tối đa 3 ảnh tham chiếu. Không áp dụng con số này cho mọi giao diện khác.",
+        "4K và native 9:16 (tạo trực tiếp theo khung dọc) là hai thuộc tính khác nhau; không mặc định mọi chế độ hỗ trợ cùng lúc.",
+        "Hai khung đầu/cuối không bảo đảm tuyệt đối chuyển động giữa; ảnh tĩnh cũng không chứng minh vật lý.",
+        "Bảng Veo/Sora và các giá USD/giây là thông tin trong ảnh nguồn, thiếu điều kiện và ngày. Không xác nhận các ô đó là khả năng hoặc giá hiện hành.",
+        "Standard/Fast có thể cho kết quả khác nhau. Chuyển từ bản nháp sang bản cuối phải xem lại toàn video.",
+        "Tilt là ngẩng/cúi máy; dolly là di chuyển máy; zoom là thay đổi góc nhìn bằng tiêu cự. Không dùng lẫn."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B023",
+      "title": "Làm Chủ Nagative Prompt! Cẩm Nang Xử lý - Hạn Chế Lỗi Với Google Veo!",
+      "image_count": 13,
+      "path": "bai-hoc/023-negative-prompt",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Nêu điều đúng trước khi loại lỗi",
+        "Hình học: xem cả chuỗi tiếp xúc",
+        "Giữ mặt gốc và chất liệu có chủ đích",
+        "Tính liên tục không phải màu bất biến",
+        "Thử ít biến và ghi lỗi cụ thể"
+      ],
+      "core_ids": [
+        "AI-007",
+        "AI-002",
+        "QC-003",
+        "CO-005"
+      ],
+      "retained_qualifications": [
+        "Nguồn dùng nhiều chuỗi 'no...'; mục loại trừ của Google được đối chiếu khuyên liệt kê yếu tố thay vì câu cấm. Giao diện khác có thể khác, phải xem hỗ trợ thực tế.",
+        "Không có bằng chứng cho ổn định 95–100%, hiệu quả gấp đôi hoặc 'hết lỗi'.",
+        "Không cấm bất đối xứng tự nhiên của khuôn mặt, phụ kiện đã duyệt hay phản xạ đúng của vật liệu.",
+        "Các ảnh trước/sau không cung cấp mô hình, câu lệnh đầy đủ, seed (giá trị khởi tạo) hay số lần thử nên không chứng minh quan hệ nhân quả.",
+        "Ba 'khóa' là cách nhóm yêu cầu, không phải cơ chế cố định danh tính. Bốn phiên bản là gợi ý của tác giả."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B024",
+      "title": "Làm phim chuyên nghiệp với Google Veo 3- Từ Prompt cơ bản đến kỹ thuật Xâu chuỗi (Chaining)",
+      "image_count": 15,
+      "path": "bai-hoc/024-xau-chuoi-canh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Lập phim theo cảnh, không nhân độ dài máy móc",
+        "Duyệt điểm bắt đầu trước khi mở rộng",
+        "Giữ trạng thái, thêm hành động mới",
+        "Nối hình phải khớp cả nhịp và âm thanh",
+        "Duyệt chuỗi và dừng mở rộng khi lỗi tích lũy"
+      ],
+      "core_ids": [
+        "AI-005",
+        "ED-003",
+        "ED-004",
+        "ED-007",
+        "QC-005"
+      ],
+      "retained_qualifications": [
+        "8 giây trong nguồn không là định luật của mọi mô hình/chế độ; không suy ra mỗi lần mở rộng luôn thêm 8 giây hoặc lặp vô hạn.",
+        "75 đoạn cho 10 phút chỉ là phép chia với giả định dùng trọn 8 giây mỗi đoạn; không phải dự toán 75 lần tạo.",
+        "Extend từ video, tạo mới từ ảnh cuối và dựng các clip bằng cắt là ba cách khác nhau.",
+        "Đường dẫn nút trong ảnh là giao diện nguồn; tài liệu Flow hiện tại cần được đối chiếu khi thao tác. Không bảo đảm ô câu lệnh trống hợp lệ.",
+        "Lặp mô tả và cùng dùng slow zoom in không bảo đảm danh tính hoặc điểm nối mượt.",
+        "Cinematic (điện ảnh) không bắt buộc tương phản cao, máy luôn chuyển động hay hậu cảnh luôn mờ."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B025",
+      "title": "Mẹo Điều khiển CAMERA- Trở thành \"Đạo diễn thật sự trong prompt\" để video lập tức cinematic gấp… 5 lần",
+      "image_count": 15,
+      "path": "bai-hoc/025-dieu-khien-camera",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Phong cách phải thống nhất với mục đích cảnh",
+        "Viết máy ở đâu, đi hướng nào, nhìn ai",
+        "Tách kế hoạch dựng khỏi cú pháp sinh video",
+        "Mẫu câu lệnh phải có nội dung thực",
+        "Duyệt theo ý đồ, ghi lại giới hạn nguồn"
+      ],
+      "core_ids": [
+        "MO-002",
+        "MO-003",
+        "CA-003",
+        "AI-004",
+        "AI-007"
+      ],
+      "retained_qualifications": [
+        "Đã đọc 15/15 tệp hiện có. 011.jpg và 012.jpg trùng SHA256; tên tệp nhảy từ 09 tới 011, không tự suy ra nội dung trang số 10.",
+        "'Điện ảnh gấp 5 lần' và 'kiểm soát hoàn toàn' không có đo lường trong bộ ảnh.",
+        "Mỗi dòng không bảo đảm thành một cảnh. Đếm cảnh thực trong video và dùng dựng hậu kỳ khi cần chính xác.",
+        "Sơ đồ pan có đường cong quanh người; pan là xoay ngang tại vị trí, đi vòng quanh là chuyển động khác.",
+        "24fps trong câu lệnh chỉ là yêu cầu; phải kiểm tra thiết lập và tệp thực.",
+        "Ảnh trước/sau thay cả người, ánh sáng và góc nên không chứng minh hiệu quả riêng của một cụm từ."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B026",
+      "title": "Năm Trụ Cột Vàng- Công Thức Prompt Đạo Diễn Hoàn Hảo Cho Video Veo 3.1",
+      "image_count": 11,
+      "path": "bai-hoc/026-nam-tru-cot-prompt",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Máy quay: chọn bằng chứng cần nhìn",
+        "Chủ thể: dùng tham chiếu đã duyệt",
+        "Hành động: ai tác động lên vật nào",
+        "Bối cảnh: giữ quan hệ không gian",
+        "Phong cách là lớp thống nhất, không là phép sửa lỗi"
+      ],
+      "core_ids": [
+        "AI-007",
+        "AI-001",
+        "AI-003",
+        "ST-001",
+        "CA-009"
+      ],
+      "retained_qualifications": [
+        "Năm phần là bảng câu hỏi, không quy tắc bắt buộc về thứ tự hoặc độ dài câu lệnh.",
+        "Câu mô tả ảnh ngắn không tự động kém; xem ảnh đầu đã cung cấp gì.",
+        "Nguồn chưa chứng minh camera là phần mô hình tuân thủ tốt nhất hay cấu trúc luôn giảm lỗi.",
+        "Shot size là cỡ cảnh; 16:9 cần chọn bằng thiết lập, không chỉ viết trong câu.",
+        "Mã HEX không bảo đảm màu tuyệt đối dưới mọi ánh sáng. Dấu sao và cặp ngoặc trong ví dụ không phải tham số kỹ thuật.",
+        "Ví dụ ghép có lặp động tác giơ tay và kiểu núi low-poly (đa giác ít mặt) pha hình thật; chỉ giữ nếu đó là ý đồ đã duyệt."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B027",
+      "title": "Tại sao video AI của bạn bị lỗi lip-sync? Cách khắc phục triệt để bằng phương pháp tách shot đơn giản",
+      "image_count": 15,
+      "path": "bai-hoc/027-tach-shot-lip-sync",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Tách theo lượt và nhu cầu phản ứng",
+        "Duyệt vị trí và hướng nhìn trước",
+        "Xác định người nói bằng tên và lời cụ thể",
+        "Giảm thao tác phụ, giữ nguồn sáng và âm nền",
+        "Chấm riêng bốn lỗi và sửa đúng cảnh"
+      ],
+      "core_ids": [
+        "DR-004",
+        "CA-004",
+        "SO-002",
+        "AI-006"
+      ],
+      "retained_qualifications": [
+        "Không đúng khi nói mọi lỗi đều do người ra lệnh; mô hình và giao diện cũng có giới hạn.",
+        "Hội thoại có thể quay trong một cú máy. Quay–đảo góc là lựa chọn phổ biến, không độc quyền.",
+        "Tách lượt giảm mơ hồ nhưng không bảo đảm khớp môi tuyệt đối, giọng ổn định hoặc hết nhầm.",
+        "Máy tĩnh không đồng nghĩa nghiệp dư; chọn theo chức năng cảnh.",
+        "Các nhãn Character Lock/Speaker Lock (giữ nhận dạng/xác định người nói) là mô tả ý đồ, không tính năng khóa cứng đã xác nhận.",
+        "Mẫu loại trừ dùng 'no...' cần điều chỉnh theo công cụ; xem hướng dẫn cú pháp ở B023. Không dùng yêu cầu loại trừ để tẩy tên tác giả trên ảnh nguồn."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B028",
+      "title": "TĂNG CẢM XÚC LÊN 1000%- Bí kíp “slow push-in” (TIẾN GẦN) mà các cảnh độc thoại Hollywood luôn dùng!",
+      "image_count": 13,
+      "path": "bai-hoc/028-slow-push-in",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Tiến máy đúng lúc, có cỡ bắt đầu và kết thúc",
+        "Đi vòng để hé lộ quan hệ không gian",
+        "Mở cảnh bằng thông tin mới",
+        "Cầm tay là lựa chọn nhìn, không chứng nhận sự thật",
+        "Chọn một cấu trúc theo nhiệm vụ"
+      ],
+      "core_ids": [
+        "MO-003",
+        "MO-004",
+        "CA-005",
+        "MO-005",
+        "AU-004"
+      ],
+      "retained_qualifications": [
+        "Đã đọc đủ 13 ảnh; nội dung là bốn cấu trúc, không chỉ riêng slow push-in như tên thư mục.",
+        "90%, tăng cảm xúc 1000% và 'Hollywood luôn dùng' không có bằng chứng đo trong nguồn.",
+        "Máy đứng yên không đồng nghĩa không cảm xúc; hình ổn định không tự động giả.",
+        "Rung 3–5% thiếu định nghĩa; góc vòng 30 độ là yêu cầu cần kiểm tra, không bảo đảm định lượng.",
+        "Tiến máy khác zoom; reveal là mục đích hé lộ, không một loại quỹ đạo duy nhất.",
+        "Không bắt buộc dùng 1–2 chuyển động trong mọi cảnh. Ảnh minh họa không xác nhận chất lượng chuyển động hoặc phản ứng người xem."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B029",
+      "title": "Trị Bệnh Chó Nói Thoại Của Mèo - 6 Bí Quyết Lip-Sync Hoạt Hình AI Hoàn Hảo",
+      "image_count": 13,
+      "path": "bai-hoc/029-lip-sync-hoat-hinh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Phân loại lỗi trước khi sửa",
+        "Làm người nói dễ nhận diện",
+        "Gắn từng câu với vai cụ thể",
+        "Câu vừa thời gian, cử chỉ vừa nhiệm vụ",
+        "Duyệt bằng nghe–xem và có phương án dựng"
+      ],
+      "core_ids": [
+        "SO-002",
+        "AI-006",
+        "DR-004",
+        "DR-003"
+      ],
+      "retained_qualifications": [
+        "Không có bằng chứng trong bộ ảnh cho 60%, 90%, 96%, 'đã kiểm chứng', 'gần hoàn hảo' hoặc 'toàn quyền'.",
+        "Tuyên bố Veo không đọc tên và chỉ nhìn ảnh là quá mức; tên cần nối rõ với nhận dạng, không thay bằng một giả thuyết cơ chế.",
+        "Lip-Sync Lock là tiêu đề khối chỉ đạo của tác giả, không tham số hay tính năng khóa cứng được xác nhận.",
+        "60–80% khung, 16–18 từ và một–hai người là các gợi ý, không ngưỡng bắt buộc.",
+        "Một scene trong nguồn được dùng gần nghĩa đoạn tạo/cú máy; cảnh điện ảnh có thể gồm nhiều góc và lượt.",
+        "Để người nghe im không đồng nghĩa cấm mọi chuyển động tự nhiên của miệng/mặt. Dấu NotebookLM trong ảnh được giữ nguyên, không coi là nguồn nghiên cứu chứng minh hiệu quả."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B030",
+      "title": "Trị Bệnh Veo3.1 Nhầm Thoại Nhân Vật Thử Ngay Các Biện Pháp Sau",
+      "image_count": 12,
+      "path": "bai-hoc/030-gan-thoai-dung-nhan-vat",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Phân loại lỗi trước khi sửa",
+        "Làm người nói dễ nhận diện",
+        "Gắn từng câu với vai cụ thể",
+        "Câu vừa thời gian, cử chỉ vừa nhiệm vụ",
+        "Duyệt bằng nghe–xem và có phương án dựng",
+        "Lập phiếu phân vai để sửa đúng lỗi"
+      ],
+      "core_ids": [
+        "SO-002",
+        "AI-006",
+        "DR-004",
+        "QC-002"
+      ],
+      "retained_qualifications": [
+        "Nội dung B030-00…11 tương ứng B029-01…12 theo quan sát từng ảnh. SHA256 khác nhau nên không gọi hai bộ trùng tệp; không tính sự lặp này như một nghiên cứu kiểm chứng thứ hai.",
+        "Không có bằng chứng trong bộ ảnh cho 60%, 90%, 96%, 'đã kiểm chứng', 'gần hoàn hảo' hoặc 'toàn quyền'.",
+        "Tuyên bố Veo không đọc tên và chỉ nhìn ảnh là quá mức; tên cần nối rõ với nhận dạng, không thay bằng một giả thuyết cơ chế.",
+        "Lip-Sync Lock là tiêu đề khối chỉ đạo của tác giả, không tham số hay tính năng khóa cứng được xác nhận.",
+        "60–80% khung, 16–18 từ và một–hai người là các gợi ý, không ngưỡng bắt buộc.",
+        "Một scene trong nguồn được dùng gần nghĩa đoạn tạo/cú máy; cảnh điện ảnh có thể gồm nhiều góc và lượt.",
+        "Để người nghe im không đồng nghĩa cấm mọi chuyển động tự nhiên của miệng/mặt. Dấu NotebookLM trong ảnh được giữ nguyên, không coi là nguồn nghiên cứu chứng minh hiệu quả."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B031",
+      "title": "Từ Mô Tả đến Đạo Diễn- Nâng Cấp Prompt Veo3.1 Của Bạn Ngay Lập Tức",
+      "image_count": 12,
+      "path": "bai-hoc/031-tu-mo-ta-den-dao-dien",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Cỡ cảnh trả lời cần nhìn bằng chứng gì",
+        "Tách độ cao, hướng nhìn và độ nghiêng",
+        "Lia, ngẩng/cúi, xoay là đổi hướng tại chỗ",
+        "Dịch chuyển phải có quỹ đạo và vật mốc",
+        "Dùng bảng tra để chọn một phương án"
+      ],
+      "core_ids": [
+        "CA-001",
+        "CA-002",
+        "MO-002",
+        "MO-003",
+        "EV-002"
+      ],
+      "retained_qualifications": [
+        "Thư mục có 12 tệp: bìa, 01–09, 011, 012; không có tệp tên số 10 trong kiểm kê. Đã đọc đủ hiện có, không bịa trang thiếu.",
+        "Cỡ cảnh, góc và chuyển động là ba trục; CU không tự đồng nghĩa tele (ống kính góc hẹp), góc thấp không tự đồng nghĩa máy đang tiến.",
+        "Khung nghiêng Dutch angle khác tilt ngẩng/cúi; roll là chuyển động xoay, Dutch angle có thể được giữ cố định.",
+        "Tracking không chỉ chạy song song; nguồn có ví dụ bám từ phía sau nên phải ghi rõ đường đi.",
+        "Tác dụng tâm lý của góc là có điều kiện; không tự bảo đảm uy lực/yếu thế/căng thẳng.",
+        "Một số ảnh hoặc chữ mẫu không hoàn toàn khớp nhãn, có chữ lạc; giữ nguyên nguồn và dùng bản thực hành đã làm rõ.",
+        "Không cần máy chuyển động để cảnh có chất điện ảnh; ảnh tĩnh không chứng minh máy đã thực hiện quỹ đạo."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B032",
+      "title": "Từ Prompt Tĩnh Đến Thước Phim Sống Động - Cách Điều Khiển Âm Thanh Veo3.1",
+      "image_count": 12,
+      "path": "bai-hoc/032-dieu-khien-am-thanh",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Lập danh sách những gì thật sự cần nghe",
+        "Viết lời theo người nói và thời gian thật",
+        "Tiếng thao tác có nguồn và mốc xảy ra",
+        "Nền không gian phải liên tục qua góc dựng",
+        "Khoảng lặng và nhạc là hai quyết định riêng",
+        "Duyệt hình và tiếng theo cùng một sự kiện"
+      ],
+      "core_ids": [
+        "SO-001",
+        "SO-002",
+        "SO-003",
+        "SO-004",
+        "SO-006",
+        "SO-008"
+      ],
+      "retained_qualifications": [
+        "Ba nhóm âm thanh là cách phân loại, không bảo đảm đầu ra có ba track (lớp âm riêng) để chỉnh độc lập.",
+        "Dialogue/SFX/Ambient noise là nhãn văn bản hữu ích, không cú pháp bắt buộc đã chứng minh.",
+        "Ngoặc kép không tự bảo đảm lời nguyên văn hoặc đúng người; đồng bộ hoàn hảo chưa được kiểm chứng.",
+        "Bước chân hay tiếng khác có thể đến từ ngoài khung; cần quan hệ không gian hợp lý, không bắt nguồn luôn lộ hình.",
+        "Không nhạc khác nền yên và im tuyệt đối. Yêu cầu im có thể vẫn cần hậu kỳ để đạt chính xác.",
+        "Tên thể loại nhạc không kiểm soát tuyệt đối tốc độ máy/hành động. Mô tả âm và hình cần nhất quán.",
+        "Ví dụ tiếng bụng của người xa có thể là phóng đại hài; không mặc định dùng cho cảnh âm thanh tự nhiên."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    },
+    {
+      "lesson_id": "B033",
+      "title": "VEO đang làm ngơ prompt của bạn",
+      "image_count": 14,
+      "path": "bai-hoc/033-sua-prompt-bi-bo-qua",
+      "source_revision": "c8ce2613bc9f37d1cecfca78121dd3ec282ca71f",
+      "review_scope": "Đối chiếu nội dung đã biên soạn, các chủ điểm và chú giải; xác minh lại mã băm ảnh. Lượt đọc trực tiếp ảnh đã được ghi ở nguồn của bài.",
+      "topic_titles": [
+        "Bắt đầu từ lỗi quan sát được",
+        "Ghi cỡ cảnh, đường máy và điểm đến",
+        "Viết thao tác có trạng thái đầu và kết quả",
+        "Tổ chức phong cách, ràng buộc và âm thanh",
+        "Tạo mốc thử rồi thay đúng một biến"
+      ],
+      "core_ids": [
+        "QC-002",
+        "QC-003",
+        "AI-008",
+        "AI-003",
+        "MO-003",
+        "EV-006"
+      ],
+      "retained_qualifications": [
+        "90% và lời hứa sửa trong 10 phút là tuyên bố trong nguồn, không có số liệu hay thử nghiệm kèm theo để bảo đảm.",
+        "Đặt camera lên đầu, chọn một chuyển động hay chia ba nhịp là phương pháp tổ chức ý; không phải tham số cưỡng chế hoặc luật đúng với mọi tình huống.",
+        "Ở B033-04 có vùng chữ hỏng phía trên bên phải; không tự đoán thành câu. Hướng dẫn rõ phía dưới được ghi lại và ảnh gốc được giữ để đối chiếu.",
+        "Ví dụ tracking cộng handheld trong nguồn cho thấy chính nguồn cũng phối hợp đường máy và tính chất rung. 3% không có định nghĩa đo; tránh coi là tham số được công cụ hỗ trợ.",
+        "Không đồng nhất phối hợp nhiều nguồn sáng/phong cách với mâu thuẫn: cần xét ý đồ và quan hệ cụ thể. Slow dolly với chủ thể chuyển động nhanh vẫn có thể là một lựa chọn quay có chủ ý.",
+        "SynthID là dấu kỹ thuật vô hình theo tài liệu Google DeepMind; khác chữ phủ, logo và dấu tên nhìn thấy. Không dùng một dòng prompt để coi như đã tắt cơ chế kỹ thuật.",
+        "Việc tạo lại sau khi sửa chữ không bảo đảm giữ mọi chi tiết video đã đạt. Bản thử một biến cần giữ các đầu vào/cài đặt có thể giữ và ghi rõ yếu tố không kiểm soát được.",
+        "Lỗi có thể liên quan mô hình: trang Veo chính thức cũng ghi nhận tiếng nói tự nhiên, ổn định ở đoạn ngắn còn là lĩnh vực đang phát triển. Đừng quy mọi kết quả sai cho người dùng."
+      ],
+      "disposition": "Giữ bài/ảnh gốc; tổ chức lại theo quyết định thực hành, không nâng số liệu quảng bá thành bằng chứng.",
+      "generation_tested": false
+    }
+  ],
+  "image_files": 444,
+  "distinct_byte_sequences": 374,
+  "duplicate_groups": [
+    [
+      "B001-00",
+      "B028-00"
+    ],
+    [
+      "B001-01",
+      "B028-01"
+    ],
+    [
+      "B001-02",
+      "B028-02"
+    ],
+    [
+      "B001-03",
+      "B028-03"
+    ],
+    [
+      "B001-04",
+      "B028-04"
+    ],
+    [
+      "B001-05",
+      "B028-05"
+    ],
+    [
+      "B001-06",
+      "B028-06"
+    ],
+    [
+      "B001-07",
+      "B028-07"
+    ],
+    [
+      "B001-08",
+      "B028-08"
+    ],
+    [
+      "B001-09",
+      "B028-09"
+    ],
+    [
+      "B001-10",
+      "B028-10"
+    ],
+    [
+      "B001-11",
+      "B028-11"
+    ],
+    [
+      "B003-00",
+      "B020-00"
+    ],
+    [
+      "B003-01",
+      "B020-01"
+    ],
+    [
+      "B003-02",
+      "B020-02"
+    ],
+    [
+      "B003-03",
+      "B020-03"
+    ],
+    [
+      "B003-04",
+      "B020-04"
+    ],
+    [
+      "B003-05",
+      "B020-05"
+    ],
+    [
+      "B003-06",
+      "B020-06"
+    ],
+    [
+      "B003-07",
+      "B020-07"
+    ],
+    [
+      "B003-08",
+      "B020-08"
+    ],
+    [
+      "B003-09",
+      "B020-09"
+    ],
+    [
+      "B006-00",
+      "B006-14"
+    ],
+    [
+      "B008-00",
+      "B011-00"
+    ],
+    [
+      "B008-01",
+      "B011-01"
+    ],
+    [
+      "B008-02",
+      "B011-02"
+    ],
+    [
+      "B008-03",
+      "B011-03"
+    ],
+    [
+      "B008-04",
+      "B011-04"
+    ],
+    [
+      "B008-05",
+      "B011-05"
+    ],
+    [
+      "B008-06",
+      "B011-06"
+    ],
+    [
+      "B008-07",
+      "B011-07"
+    ],
+    [
+      "B008-08",
+      "B011-08"
+    ],
+    [
+      "B008-09",
+      "B011-09"
+    ],
+    [
+      "B008-10",
+      "B011-10"
+    ],
+    [
+      "B008-11",
+      "B011-11"
+    ],
+    [
+      "B008-12",
+      "B011-12"
+    ],
+    [
+      "B008-13",
+      "B011-13"
+    ],
+    [
+      "B008-14",
+      "B011-14"
+    ],
+    [
+      "B008-15",
+      "B011-15"
+    ],
+    [
+      "B008-16",
+      "B011-16"
+    ],
+    [
+      "B008-17",
+      "B011-17"
+    ],
+    [
+      "B013-00",
+      "B027-00"
+    ],
+    [
+      "B013-01",
+      "B027-01"
+    ],
+    [
+      "B013-02",
+      "B027-02"
+    ],
+    [
+      "B013-03",
+      "B027-03"
+    ],
+    [
+      "B013-04",
+      "B027-04"
+    ],
+    [
+      "B013-05",
+      "B027-05"
+    ],
+    [
+      "B013-06",
+      "B027-06"
+    ],
+    [
+      "B013-07",
+      "B027-07"
+    ],
+    [
+      "B013-08",
+      "B027-08"
+    ],
+    [
+      "B013-09",
+      "B027-09"
+    ],
+    [
+      "B013-10",
+      "B013-11",
+      "B027-10"
+    ],
+    [
+      "B013-12",
+      "B027-11"
+    ],
+    [
+      "B013-13",
+      "B027-12"
+    ],
+    [
+      "B013-14",
+      "B027-13"
+    ],
+    [
+      "B013-15",
+      "B027-14"
+    ],
+    [
+      "B018-00",
+      "B031-00"
+    ],
+    [
+      "B018-01",
+      "B031-01"
+    ],
+    [
+      "B018-02",
+      "B031-02"
+    ],
+    [
+      "B018-03",
+      "B031-03"
+    ],
+    [
+      "B018-04",
+      "B031-04"
+    ],
+    [
+      "B018-05",
+      "B031-05"
+    ],
+    [
+      "B018-06",
+      "B031-06"
+    ],
+    [
+      "B018-07",
+      "B031-07"
+    ],
+    [
+      "B018-08",
+      "B031-08"
+    ],
+    [
+      "B018-09",
+      "B031-09"
+    ],
+    [
+      "B018-10",
+      "B031-10"
+    ],
+    [
+      "B018-11",
+      "B031-11"
+    ],
+    [
+      "B025-10",
+      "B025-11"
+    ]
+  ],
+  "scope_note": "Số tệp và số byte khác nhau không phải số kiến thức độc lập. Không sửa hoặc xóa 33 bài nguồn."
+}

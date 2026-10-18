@@ -1,0 +1,238 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:film-kb:shot-plan:1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "core_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "niche_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "script_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved"
+      ]
+    },
+    "reference_manifest": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uri": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "version",
+          "role",
+          "uri"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "segment_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "function": {
+            "type": "string",
+            "minLength": 1
+          },
+          "information_to_show": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intended_response": {
+            "type": "string",
+            "minLength": 1
+          },
+          "duration_target_seconds": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "start_state": {
+            "type": "string",
+            "minLength": 1
+          },
+          "action_contact_change": {
+            "type": "string",
+            "minLength": 1
+          },
+          "end_state": {
+            "type": "string",
+            "minLength": 1
+          },
+          "subject_and_count": {
+            "type": "string",
+            "minLength": 1
+          },
+          "camera": {
+            "type": "string",
+            "minLength": 1
+          },
+          "composition_and_focus": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lighting_and_color": {
+            "type": "string",
+            "minLength": 1
+          },
+          "audio": {
+            "type": "string",
+            "minLength": 1
+          },
+          "time_treatment": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reference_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "continuity_in": {
+            "type": "string",
+            "minLength": 1
+          },
+          "continuity_out": {
+            "type": "string",
+            "minLength": 1
+          },
+          "generation_unit": {
+            "type": "string",
+            "minLength": 1
+          },
+          "acceptance_checks": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "core_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "segment_id",
+          "function",
+          "information_to_show",
+          "intended_response",
+          "duration_target_seconds",
+          "start_state",
+          "action_contact_change",
+          "end_state",
+          "subject_and_count",
+          "camera",
+          "composition_and_focus",
+          "lighting_and_color",
+          "audio",
+          "time_treatment",
+          "reference_ids",
+          "continuity_in",
+          "continuity_out",
+          "generation_unit",
+          "acceptance_checks",
+          "core_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "generation_tested": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "core_version",
+    "niche_id",
+    "script_id",
+    "status",
+    "reference_manifest",
+    "shots",
+    "unknowns",
+    "generation_tested"
+  ],
+  "additionalProperties": false
+}

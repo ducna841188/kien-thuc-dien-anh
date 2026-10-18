@@ -1,0 +1,48 @@
+{
+  "id": "ED-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ED",
+  "title": "Montage, dựng song song và liên hệ ý tưởng",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Hai hình đặt cạnh nhau khiến người xem liên hệ điều gì?",
+  "use_when": [
+    "Khi dựng nhiều nơi, nhiều tuyến hoặc biến đổi dài."
+  ],
+  "principle": "Ghi loại quan hệ: đồng thời, trước–sau, so sánh, đối lập hoặc liên tưởng. Tránh để cắt xen tự tạo phát biểu sự thật sai.",
+  "actions": [
+    "Đặt tên quan hệ mong muốn cho từng cặp/nhóm shot.",
+    "Giữ dấu định hướng đủ để phân biệt nơi/người/thời điểm.",
+    "Kiểm người xem có suy ra một sự kiện không được bằng chứng hỗ trợ."
+  ],
+  "tradeoffs": [
+    "Liên tưởng mạnh có thể làm người xem suy quan hệ nhân quả ngoài ý đồ."
+  ],
+  "verification": [
+    "Không coi hai tuyến cắt xen là chắc chắn đồng thời.",
+    "Điểm trở lại mỗi tuyến bổ sung thông tin mới."
+  ],
+  "original_example": "Hai bàn tay ở hai thế hệ có thể được nối bằng nhịp thao tác để gợi truyền nghề.",
+  "counterexample": "Trong phim tài liệu, đặt cảnh thú săn cạnh con mồi không tự chứng minh chúng cùng sự kiện.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ST-005",
+    "ST-006",
+    "EV-001"
+  ],
+  "source_ids": [
+    "SRC-YALE-EDIT"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

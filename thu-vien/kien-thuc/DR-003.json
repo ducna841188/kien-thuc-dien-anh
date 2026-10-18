@@ -1,0 +1,49 @@
+{
+  "id": "DR-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "DR",
+  "title": "Nhịp phản ứng và khoảng dừng",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Nhân vật nhận biết, xử lý rồi phản ứng ở lúc nào?",
+  "use_when": [
+    "Khi cảnh cần cảm xúc tinh tế hoặc tương tác."
+  ],
+  "principle": "Để phản ứng có tác nhân, độ trễ và mức độ phù hợp. Khoảng dừng có thể chứa suy nghĩ hoặc quan sát, không mặc định là khoảng chết.",
+  "actions": [
+    "Xác định sự kiện nhân vật nhận được.",
+    "Chọn một chuyển biến cơ thể/ánh mắt chính.",
+    "Xác định lúc bắt đầu, phát triển và kết thúc phản ứng."
+  ],
+  "tradeoffs": [
+    "Giữ quá lâu có thể trống; cắt quá sớm có thể mất ý nghĩa lựa chọn."
+  ],
+  "verification": [
+    "Phản ứng không đến trước tác nhân ngoài chủ ý.",
+    "Người xem có cơ hội đọc thay đổi mà không cần phóng đại."
+  ],
+  "original_example": "Nghe tiếng bà gọi, bàn tay dừng một nhịp rồi người quay nhìn và mỉm cười nhẹ.",
+  "counterexample": "Phản ứng đồng thời với hành động có thể hợp lệ khi nhân vật đã biết điều sắp đến.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-004",
+    "ST-003",
+    "ED-002"
+  ],
+  "source_ids": [
+    "B021",
+    "B029"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

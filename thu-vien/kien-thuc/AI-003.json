@@ -1,0 +1,49 @@
+{
+  "id": "AI-003",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AI",
+  "title": "Hợp đồng hành động: đầu, tiếp xúc, biến đổi, cuối",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "AI phải thể hiện sự thay đổi vật lý nào?",
+  "use_when": [
+    "Khi cảnh có tay, dụng cụ, trao vật, đổ/trải/cắt hoặc tác động vật."
+  ],
+  "principle": "Viết ai làm gì với vật nào và chuỗi trạng thái cần thấy. Mô tả hành vi có nguyên nhân thay cho nhãn vật lý hoàn hảo.",
+  "actions": [
+    "Nêu trạng thái đầu và quyền giữ vật.",
+    "Ghi tiếp xúc, hướng lực hoặc đường đi cần thiết.",
+    "Nêu trạng thái kết có thể đối chiếu và điều giữ ổn định."
+  ],
+  "tradeoffs": [
+    "Nhiều tiểu bước có thể quá tải một clip; chia shot khi cần."
+  ],
+  "verification": [
+    "Đúng mục tiêu thao tác và không xuyên/nhân đôi/biến mất ở đoạn quan trọng.",
+    "Ghi thiếu dụng cụ hoặc tư thế ngay từ ảnh đầu."
+  ],
+  "original_example": "Gạo rơi từ dụng cụ vào bát và tích trên lớp sẵn có; lượng tăng có nguyên nhân.",
+  "counterexample": "Một câu một hành động vẫn có thể sai nếu ảnh đầu không có đủ dụng cụ hoặc tư thế.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-001",
+    "CO-004",
+    "AI-004"
+  ],
+  "source_ids": [
+    "B015",
+    "B033"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "CO-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CO",
+  "title": "Bảng màu từ thế giới, nhân vật và vật liệu",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Màu nào có lý do tồn tại trong cảnh?",
+  "use_when": [
+    "Khi tiền kỳ hoặc thiết kế một chuỗi/tập."
+  ],
+  "principle": "Chọn bảng màu từ bối cảnh, phục trang, đạo cụ và thời điểm. Phân vai màu nền, màu chủ thể và điểm nhấn; không phụ thuộc hoàn toàn vào chỉnh màu sau.",
+  "actions": [
+    "Ghi nguồn vật lý của từng màu chủ đạo.",
+    "Chọn mức lặp và những màu cần hạn chế vì cạnh tranh.",
+    "So phục trang/đạo cụ trên nền và dưới ánh sáng dự kiến."
+  ],
+  "tradeoffs": [
+    "Bảng quá đồng nhất có thể làm chủ thể hòa lẫn hoặc thế giới đơn điệu."
+  ],
+  "verification": [
+    "Điểm nhấn có chức năng và đọc được qua chuỗi.",
+    "Màu không chỉ được ghi bằng HEX mà có vật liệu và ánh sáng đi kèm."
+  ],
+  "original_example": "Áo chàm, đất nâu và cây xanh giúp cảnh có hệ màu; món tím có thể là điểm nhấn lặp.",
+  "counterexample": "Một cảnh tương phản mạnh có thể phù hợp bước ngoặt, dù khác bảng chủ đạo.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-005",
+    "CO-003",
+    "AI-002"
+  ],
+  "source_ids": [
+    "B003",
+    "B020"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

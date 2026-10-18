@@ -1,0 +1,49 @@
+{
+  "id": "CO-004",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CO",
+  "title": "Chất liệu và dấu biến đổi",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Hình có cho thấy vật được làm, chạm và thay đổi không?",
+  "use_when": [
+    "Khi kể quy trình, đồ ăn, thủ công hoặc thế giới giả tưởng."
+  ],
+  "principle": "Ghi bề mặt, trọng lượng, độ ẩm, phản chiếu và trạng thái trước–sau có liên quan. Chi tiết hỗ trợ hiểu vật, không chỉ tăng độ sắc.",
+  "actions": [
+    "Chọn dấu vật liệu cần người xem nhận ra.",
+    "Gắn thay đổi với thao tác hoặc môi trường gây ra nó.",
+    "Kiểm vùng tiếp xúc và sự ổn định của chất liệu qua thời gian."
+  ],
+  "tradeoffs": [
+    "Chi tiết quá mức có thể gây cảm giác giả hoặc mất trọng tâm."
+  ],
+  "verification": [
+    "Vật không tự sạch/chín/đầy khi chưa có nguyên nhân hoặc lược thời gian rõ.",
+    "Không dùng quá sắc và hạt phim để che lỗi hình học."
+  ],
+  "original_example": "Đất khô trở ẩm khi nước đến; một bề mặt ướt có phản chiếu đổi hợp lý.",
+  "counterexample": "Hoạt hình có thể giản lược vật liệu nhưng vẫn cần quy luật biến đổi nội tại.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-005",
+    "AI-003",
+    "LI-006"
+  ],
+  "source_ids": [
+    "B015",
+    "B023"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

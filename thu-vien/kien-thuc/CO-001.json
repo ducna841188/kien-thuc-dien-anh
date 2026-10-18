@@ -1,0 +1,48 @@
+{
+  "id": "CO-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CO",
+  "title": "Sắc, độ bão hòa và độ sáng là ba lựa chọn",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì của màu đang phục vụ cảnh?",
+  "use_when": [
+    "Khi chọn bảng màu hoặc nhận xét tông hình."
+  ],
+  "principle": "Tách tên sắc, mức rực và quan hệ sáng–tối. Ý nghĩa màu phụ thuộc văn hóa, vật thể, lịch sử trong phim và bối cảnh; không dùng bảng màu như luật cảm xúc.",
+  "actions": [
+    "Chọn quan hệ màu quan trọng thay vì một tên mood chung.",
+    "Ghi mục tiêu độ sáng và mức bão hòa tương đối.",
+    "Kiểm màu cùng nội dung và các cảnh lân cận."
+  ],
+  "tradeoffs": [
+    "Giảm rực có thể mất sinh khí; tăng rực có thể làm vật liệu giả hoặc che điểm nhấn."
+  ],
+  "verification": [
+    "Nhận xét cảm xúc có điều kiện thay vì đỏ luôn giận/xanh luôn buồn.",
+    "Chi tiết thiết yếu vẫn đọc khi xem hình gần như đen trắng."
+  ],
+  "original_example": "Lam–xám sương và hồng hoa có thể yên bình; đỏ có thể là thức ăn ấm áp hoặc tín hiệu nguy hiểm.",
+  "counterexample": "Một bảng màu hài hòa không tự làm câu chuyện dễ hiểu.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "AU-004",
+    "CO-003",
+    "LI-003"
+  ],
+  "source_ids": [
+    "B008",
+    "B009",
+    "SRC-YALE-CAMERA"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

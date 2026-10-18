@@ -1,0 +1,46 @@
+{
+  "id": "EV-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "EV",
+  "title": "Nguồn, phiên bản và dấu vết",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Có tìm lại đúng bằng chứng được dùng không?",
+  "use_when": [
+    "Khi nhập, sửa hoặc trích kiến thức."
+  ],
+  "principle": "Mỗi nguồn có mã, phiên bản, vị trí và phạm vi đã kiểm. Bản biên soạn không thay thế bản gốc.",
+  "actions": [
+    "Ghi mã asset, tên gốc, mã kiểm tra nếu có, nguồn và ngày tiếp nhận.",
+    "Lưu mốc gốc cùng offset của đoạn cắt; liên kết nhận xét tới nguồn.",
+    "Ghi thay đổi và lý do; giữ bản trước khi sửa nội dung."
+  ],
+  "tradeoffs": [
+    "Lưu dấu vết tăng khối lượng dữ liệu; chỉ lưu bản sao khi cần bảo toàn nguồn."
+  ],
+  "verification": [
+    "Một nhận xét truy được về đúng video/ảnh và vị trí; không chỉ tới trang chủ."
+  ],
+  "original_example": "Hai thư mục có ảnh trùng vẫn giữ hai nguồn xuất xứ nhưng không tính thành hai bằng chứng độc lập.",
+  "counterexample": "Hai ảnh nén khác nhau có thể cùng nội dung; mã băm khác không chứng minh ý tưởng khác.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "EV-001",
+    "QC-004",
+    "QC-006"
+  ],
+  "source_ids": [
+    "B019",
+    "B020"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

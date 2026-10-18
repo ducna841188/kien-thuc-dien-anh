@@ -1,0 +1,50 @@
+{
+  "id": "QC-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "QC",
+  "title": "Dự toán bằng sản phẩm dùng được",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Tốn bao nhiêu để có một đoạn hoàn chỉnh đạt yêu cầu?",
+  "use_when": [
+    "Khi chọn quy trình, số job hoặc ngân sách."
+  ],
+  "principle": "Tách chi phí tiền kỳ, sinh thử, tạo lại, hậu kỳ và thời gian duyệt. Ước lượng bằng tỷ lệ dùng được đo từ dự án, kèm khoảng chưa chắc.",
+  "actions": [
+    "Ghi độ dài thật dùng trong dựng từ mỗi job.",
+    "Tính số job cần theo phần sử dụng và số lần thử quan sát được.",
+    "So phương án ít sinh hơn, cảnh đơn giản hơn hoặc xử lý hậu kỳ."
+  ],
+  "tradeoffs": [
+    "Chọn giá/lần thấp có thể tăng tổng công sửa; chất lượng vượt nhu cầu cũng có thể lãng phí."
+  ],
+  "verification": [
+    "Không lấy 600/8 làm số lần tạo chắc chắn cho phim 10 phút.",
+    "Không đưa giá hiện tại vào nguyên lý khi thiếu nguồn/ngày/điều kiện."
+  ],
+  "original_example": "Một job dài nhưng chỉ dùng đoạn ngắn phải tính theo đoạn đạt đã chọn.",
+  "counterexample": "Một lần thử rẻ chưa chứng minh quy trình rẻ khi nhân lên nhiều shot.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AI-004",
+    "QC-003",
+    "ED-008"
+  ],
+  "source_ids": [
+    "B007",
+    "B022",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

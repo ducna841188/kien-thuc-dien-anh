@@ -1,0 +1,49 @@
+{
+  "id": "ST-004",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "ST",
+  "title": "Chuẩn bị, phát triển và trả kết quả",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Kết quả có được chuẩn bị đủ và nhìn thấy đủ không?",
+  "use_when": [
+    "Khi xây một việc, mối quan hệ hoặc bí mật kéo dài nhiều đoạn."
+  ],
+  "principle": "Gieo thông tin để kết quả có nghĩa; phát triển mong chờ; cho dấu hoàn tất phù hợp. Không bắt buộc ba phần dài bằng nhau.",
+  "actions": [
+    "Đặt chi tiết cần nhớ ở chỗ dễ đọc.",
+    "Cho chi tiết trở lại trong hoàn cảnh đã thay đổi.",
+    "Dành hình/âm hoặc phản ứng để xác nhận kết quả."
+  ],
+  "tradeoffs": [
+    "Nhấn đi nhấn lại có thể lộ dụng ý hoặc giảm bất ngờ."
+  ],
+  "verification": [
+    "Người xem nhận ra liên hệ mà không phải giải thích lại toàn bộ.",
+    "Kết quả đáp ứng điều phim đã hứa hoặc chủ động thay đổi kỳ vọng có căn cứ."
+  ],
+  "original_example": "Chiếc cốc được làm ở đầu phim quay lại chứa thức uống khi gia đình ngồi cùng nhau.",
+  "counterexample": "Kết mở có thể chủ ý; cần phân biệt sự bỏ ngỏ có ý nghĩa với công đoạn bị quên.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-003",
+    "ST-008",
+    "ED-005"
+  ],
+  "source_ids": [
+    "B017",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

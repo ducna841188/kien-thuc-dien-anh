@@ -1,0 +1,51 @@
+{
+  "id": "SO-002",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Thoại, người nói và khoảng phản ứng",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Ai nói câu nào và người xem cần theo ai?",
+  "use_when": [
+    "Khi có đối thoại, lời ngoài khung hoặc nhân vật AI."
+  ],
+  "principle": "Kiểm riêng nội dung lời, vai nói, giọng và độ khớp môi. Phân câu theo nhịp ý và thời gian đọc thực tế.",
+  "actions": [
+    "Gắn mỗi câu với nhân vật/nhận dạng rõ.",
+    "Đọc thử hoặc đo bản tiếng thật để đặt thời lượng.",
+    "Giữ phản ứng người nghe khi có giá trị, chọn tách shot khi cần giảm mơ hồ."
+  ],
+  "tradeoffs": [
+    "Câu quá ngắn có thể mất tự nhiên; nhiều lời/động tác cùng lúc tăng khó tạo và khó nghe."
+  ],
+  "verification": [
+    "Không báo đạt chỉ vì môi có cử động.",
+    "Lời hiểu được và không bị nhạc/âm khác che."
+  ],
+  "original_example": "Một câu ngắn nói khi trao vật, rồi dành nhịp nhìn người nhận.",
+  "counterexample": "Người nói ngoài khung là lựa chọn hợp lệ; không cần ép miệng luôn hiện hình.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "DR-004",
+    "ST-007",
+    "AI-006"
+  ],
+  "source_ids": [
+    "B013",
+    "B027",
+    "B029",
+    "B030"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

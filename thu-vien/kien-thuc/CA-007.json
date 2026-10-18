@@ -1,0 +1,50 @@
+{
+  "id": "CA-007",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Nét, vùng nét và chuyển sự chú ý",
+  "level": "trung_cap",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Những mặt phẳng nào cần đọc rõ và ở thời điểm nào?",
+  "use_when": [
+    "Khi nền mờ hoặc chuyển nét ảnh hưởng hiểu cảnh."
+  ],
+  "principle": "Focus là mặt phẳng lấy nét; depth of field là vùng độ sâu được xem đủ nét trong điều kiện hiển thị. Rack focus là đổi mặt phẳng nét, không phải đường máy.",
+  "actions": [
+    "Chọn đích nét theo bằng chứng cần đọc.",
+    "Giữ đủ độ sâu cho nhiều phần thao tác nếu cần.",
+    "Nếu chuyển nét, ghi từ vật nào sang vật nào và tác nhân chuyển."
+  ],
+  "tradeoffs": [
+    "Vùng nét nông có thể tách chủ thể nhưng làm tay/vật quan trọng mất rõ."
+  ],
+  "verification": [
+    "Mắt hoặc điểm tiếp xúc quan trọng rõ đúng lúc.",
+    "Không dùng bokeh như yêu cầu mặc định cho mọi cảnh."
+  ],
+  "original_example": "Khi luồn kim, tay và lỗ kim đều cần đọc; khi nhận ra người ngoài cửa có thể chuyển nét tới cửa.",
+  "counterexample": "Cảnh sâu nhiều lớp có thể cần đọc đồng thời thay vì làm nền mờ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "AU-002",
+    "LI-004",
+    "AI-001"
+  ],
+  "source_ids": [
+    "B008",
+    "B011",
+    "SRC-YALE-CAMERA"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

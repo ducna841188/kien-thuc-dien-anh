@@ -1,0 +1,47 @@
+{
+  "id": "SO-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "SO",
+  "title": "Bản đồ nguồn âm và lớp âm",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Điều gì cần nghe, phát từ đâu và làm nhiệm vụ gì?",
+  "use_when": [
+    "Khi viết kịch bản âm hoặc rà video AI."
+  ],
+  "principle": "Tách thoại, tiếng sự kiện, nền môi trường và nhạc theo nguồn/chức năng. Nhãn văn bản không bảo đảm được xuất thành các track riêng.",
+  "actions": [
+    "Ghi nguồn, khoảng cách, vị trí và thời điểm mỗi âm chính.",
+    "Chọn lớp nổi bật theo mục tiêu cảnh.",
+    "Chừa nền đủ để không gian không đứt khi đổi góc."
+  ],
+  "tradeoffs": [
+    "Nhiều lớp làm thế giới sống hơn nhưng có thể che thao tác hoặc khiến người xem mệt."
+  ],
+  "verification": [
+    "Mỗi âm chính có lý do xuất hiện.",
+    "Không nhầm không nhạc với không âm thanh."
+  ],
+  "original_example": "Tiếng bát chạm ở gần, chim xa làm nền, nhạc tùy ý đồ; không cần mọi lớp cùng lớn.",
+  "counterexample": "Không phải cảnh thật nào cũng cần nghe mọi thứ đúng như thu tại hiện trường.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "SO-005",
+    "SO-008",
+    "AI-006"
+  ],
+  "source_ids": [
+    "B016",
+    "B032"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

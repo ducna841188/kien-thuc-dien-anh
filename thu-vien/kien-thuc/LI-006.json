@@ -1,0 +1,49 @@
+{
+  "id": "LI-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "LI",
+  "title": "Bề mặt, phản chiếu và tách chủ thể",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Muốn vật liệu và hình khối được đọc như thế nào?",
+  "use_when": [
+    "Khi vật bóng, trong, ướt hoặc có nền khó tách."
+  ],
+  "principle": "Đặt nguồn và góc nhìn theo cách bề mặt phản xạ. Viền sáng là một phương án tách, cùng với chênh sáng, màu, nét và vị trí.",
+  "actions": [
+    "Chọn phần bề mặt cần mô tả.",
+    "Điều chỉnh nguồn/góc/nền để phản chiếu có hình hợp lý.",
+    "Kiểm viền, chất liệu và vùng trong suốt qua chuyển động."
+  ],
+  "tradeoffs": [
+    "Tăng viền có thể tạo quầng giả; giảm phản chiếu quá mức làm mất vật liệu."
+  ],
+  "verification": [
+    "Kim loại không tự thành nhựa; nước không thành khối đặc.",
+    "Phản chiếu đổi hợp lý với người, vật và máy."
+  ],
+  "original_example": "Một dải sáng trên bình gốm bóng cho thấy độ cong; nền tối giúp hơi nước đọc được.",
+  "counterexample": "Không cần viền sáng trên mọi người; nền và hướng sáng tự nhiên có thể đã đủ.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "CO-004",
+    "CA-005",
+    "QC-002"
+  ],
+  "source_ids": [
+    "B008",
+    "B023"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "AU-005",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "AU",
+  "title": "Mật độ thông tin và công sức theo dõi",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Người xem phải nhớ, đoán và tìm lại bao nhiêu?",
+  "use_when": [
+    "Khi nhiều nhân vật, công đoạn hoặc địa điểm làm mạch khó theo."
+  ],
+  "principle": "Đánh giá số quan hệ mới và điều khán giả cần giữ trong đầu; nhịp chậm không tự giảm khó hiểu. Đây là phép rà thực hành, không thang đo tâm lý chuẩn hóa.",
+  "actions": [
+    "Đặt mốc người, vật, mục tiêu và nơi trước chi tiết khó.",
+    "Mỗi lần đổi lớn cần một tín hiệu đủ rõ.",
+    "Cắt thông tin dư nhưng giữ bước nối cần cho hiểu nguyên nhân."
+  ],
+  "tradeoffs": [
+    "Giải thích quá rõ có thể mất tinh tế; cần cân bằng theo người xem mục tiêu."
+  ],
+  "verification": [
+    "Người xem thử kể được việc đang làm và điều vừa thay đổi.",
+    "Không phải nhìn lại chỉ để biết ai đang cầm vật gì."
+  ],
+  "original_example": "Sau đổi phòng, một khung trung cho thấy người và chiếc khay trước khi cắt vào tay.",
+  "counterexample": "Dựng nhanh có thể dễ hiểu nếu mỗi khung bổ sung một thông tin rõ và quan hệ giữ ổn.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "EV-003",
+    "ED-003",
+    "ST-005"
+  ],
+  "source_ids": [
+    "B012",
+    "B017"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

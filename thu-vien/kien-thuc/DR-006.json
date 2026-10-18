@@ -1,0 +1,50 @@
+{
+  "id": "DR-006",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "DR",
+  "title": "Thiết kế đủ góc để dựng và phương án tiết kiệm",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Cần những bằng chứng hình nào để cảnh dựng được?",
+  "use_when": [
+    "Khi lập danh sách shot hoặc chi phí tạo cảnh cao."
+  ],
+  "principle": "Coverage là bộ góc/chi tiết cho người dựng lựa chọn. Chọn theo điểm kể chuyện và hành động; không mặc định quay mọi cỡ ở mọi cảnh.",
+  "actions": [
+    "Bắt đầu bằng góc thấy quan hệ chính.",
+    "Bổ sung chi tiết, phản ứng và trạng thái kết cần thiết.",
+    "Lập phương án tối thiểu và góc dự phòng cho lỗi dễ xảy ra."
+  ],
+  "tradeoffs": [
+    "Nhiều góc tăng lựa chọn nhưng tốn thời gian và dễ lệch liên tục."
+  ],
+  "verification": [
+    "Có thể dựng hiểu việc bằng bộ góc tối thiểu.",
+    "Góc dự phòng có mục đích, không chỉ lặp thông tin."
+  ],
+  "original_example": "Nếu AI khó tạo cả thao tác và mặt cùng lúc, dùng cảnh trung xác lập rồi cận tay và cận kết quả.",
+  "counterexample": "Một cú máy liên tục có thể đủ; không phải lúc nào cắt nhiều cũng dễ hiểu hơn.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "ED-003",
+    "AI-004",
+    "QC-001"
+  ],
+  "source_ids": [
+    "B012",
+    "B013",
+    "B024"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}

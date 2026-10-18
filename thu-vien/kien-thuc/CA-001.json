@@ -1,0 +1,47 @@
+{
+  "id": "CA-001",
+  "namespace": "film.core",
+  "version": "1.0.0",
+  "module_id": "CA",
+  "title": "Cỡ cảnh theo thông tin phải thấy",
+  "level": "co_ban",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Khán giả cần thấy quan hệ không gian hay chi tiết nào?",
+  "use_when": [
+    "Khi chọn khung cho một nhiệm vụ kể chuyện."
+  ],
+  "principle": "Toàn, trung, cận và đặc tả mô tả lượng chủ thể/không gian trong khung. Cỡ cảnh không tự xác định tiêu cự, góc hoặc cảm xúc.",
+  "actions": [
+    "Chỉ ra bằng chứng bắt buộc phải nằm trong khung.",
+    "Chọn cỡ đủ để đọc bằng chứng trên màn hình xem thực tế.",
+    "Ghi phần cơ thể/vật thể được thấy thay vì chỉ viết chữ viết tắt."
+  ],
+  "tradeoffs": [
+    "Khung gần làm rõ chi tiết nhưng có thể mất hướng và quy mô."
+  ],
+  "verification": [
+    "Không cắt mất điểm tiếp xúc cần xem.",
+    "Tên cỡ và nội dung khung không mâu thuẫn."
+  ],
+  "original_example": "Toàn cho thấy khoảng cách hai người; cận cho thấy một bàn tay vừa siết chặt.",
+  "counterexample": "Cận mặt không bắt buộc giàu cảm xúc hơn toàn thân trong mọi cảnh.",
+  "prerequisite_ids": [],
+  "related_ids": [
+    "AU-002",
+    "CA-003",
+    "DR-006"
+  ],
+  "source_ids": [
+    "B005",
+    "B010"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18"
+}
