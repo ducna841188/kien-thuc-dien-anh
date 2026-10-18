@@ -1,7 +1,7 @@
 {
-  "core_cards": 130,
+  "core_cards": 132,
   "schemas_valid": 9,
-  "external_sources": 27,
+  "external_sources": 32,
   "legacy_lessons_mapped": 33,
   "negative_fixture_tests": [
     {
@@ -66,10 +66,10 @@
     }
   ],
   "relative_links_valid": true,
-  "version": "1.2.1",
+  "version": "1.3.0",
   "storage_mode": "in_place_latest",
   "farm_files_checked": 5,
-  "farm_current_core_version_checked": "1.2.1",
+  "farm_current_core_version_checked": "1.3.0",
   "single_current_copy_policy_valid": true,
   "knowledge_contract_tests": [
     {
@@ -185,6 +185,8 @@
   ],
   "catalog_matches_canonical": true,
   "current_decision_references_valid": true,
+  "integrated_scene_design_matches": true,
+  "inventory_counts_valid": true,
   "package_checksums_valid": true,
   "canonical_jsonl_matches": true,
   "generated_video_tests": 0,
@@ -193,51 +195,66 @@
   "checked_on": "2026-10-18",
   "status": "passed_current_structure_and_integrity_checks",
   "fixture_test_count": 36,
-  "preservation": {
-    "baseline_core_commit": "f5cb44946f8cd50310516c571289840f19fc0071",
-    "baseline_farm_commit": "4b1bb4e9272a1df20cdd9064a50f4e703bcf29cd",
-    "original_images_unchanged": 444,
-    "legacy_source_files_unchanged": 615,
-    "stable_knowledge_id_count": 130,
-    "knowledge_cards_changed": [
+  "content_review": {
+    "scope": "Reviewed framework/principles of all 130 previous cards, all current counterexamples, and read deeply the fields affected by this revision. Not a claim of exhaustive film knowledge or audience validation.",
+    "existing_cards_changed": [
+      "AI-006",
+      "AI-010",
       "AU-003",
-      "CA-007",
-      "CA-008",
-      "CO-006",
-      "DR-001",
-      "DR-005",
-      "DR-009",
-      "ED-001",
-      "ED-011",
-      "EV-005",
-      "ST-003",
-      "ST-004",
-      "ST-005",
-      "ST-007",
-      "ST-008",
-      "ST-009",
-      "YT-002",
-      "YT-003"
+      "AU-004",
+      "AU-006",
+      "AU-009",
+      "CA-004",
+      "CO-004",
+      "DR-002",
+      "DR-006",
+      "EV-002",
+      "LI-003",
+      "MO-007",
+      "QC-001",
+      "QC-005",
+      "SO-003",
+      "ST-001",
+      "ST-006",
+      "YT-004"
     ],
-    "knowledge_cards_unchanged": 112,
+    "existing_cards_unchanged": 111,
+    "new_cards": [
+      "QC-010",
+      "YT-012"
+    ],
+    "application_depth_cards": 82,
+    "scoped_references_added": 5,
+    "glossary_terms": 147,
+    "duplicate_card_ids_or_titles": 0,
+    "prepared_external_ai_cases": 48,
+    "prepared_external_ai_cases_added": 8,
+    "external_ai_cases_run": 0,
+    "principle_reversals_applied": 0
+  },
+  "integrated_example_checks": {
+    "script_plan_analysis_duration_seconds": 12,
+    "shot_plan_shots": 4,
+    "script_reference_and_segment_links_valid": true,
+    "planned_and_synthetic_states_match": true,
+    "ellipsis_at_cut_2_to_3_documented": true,
+    "integrated_scene_design_rendered_once_from_json": true,
+    "generation_or_viewer_validation_performed": false
+  },
+  "preservation": {
+    "baseline_core_commit": "f78f8f7cab9dc1f666b3fe2ab0c303b226ec8255",
+    "baseline_farm_commit": "433ad9a89de5577ab1a7b3bb4bd4d1366ddc2dbb",
+    "original_images_unchanged": 444,
+    "legacy_lesson_files_unchanged": 610,
+    "previous_knowledge_ids_preserved": 130,
     "farm_rules_and_candidates_unchanged": true,
-    "farm_source_registry_and_analysis_example_unchanged": true
+    "farm_source_registry_and_analysis_example_unchanged": true,
+    "farm_changes": "Profile metadata/dependency and README version only; no production choices changed."
   },
-  "semantic_review": {
-    "duplicate_card_ids": 0,
-    "duplicate_card_titles": 0,
-    "overlapping_scopes_clarified": true,
-    "repeated_sentences_consolidated": true,
-    "in_place_governance_consistent": true,
-    "synthetic_example_state_contact_sound_and_cut_corrected": true,
-    "current_decision_examples_use_current_references": true,
-    "timing_axis_and_half_open_bounds_documented": true,
-    "scope": "Review of the current library and examples; not proof of exhaustive film knowledge or measured audience effects."
-  },
-  "layout": {
+  "storage": {
+    "mode": "in_place_latest",
     "central_change_log": "CHANGELOG.md",
     "history": "git_commits",
-    "generated_files_overwrite_stable_paths": true,
     "new_versioned_copies": 0
   },
   "viewer_tests": 0,

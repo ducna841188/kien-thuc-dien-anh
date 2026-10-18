@@ -8,7 +8,7 @@
 4. Chọn kỹ thuật theo thông tin và trải nghiệm; đọc cả điều kiện, đánh đổi, phản ví dụ.
 5. Tách cỡ cảnh, góc, khoảng cách, đường máy, nét, sáng, màu và cách xử lý thời gian.
 6. Nhịp đến từ diễn tiến, lượng thông tin, hành vi, dựng và âm; không chỉ số giây.
-7. Cảm xúc nhân vật, ý đồ đạo diễn và phản ứng khán giả là dữ liệu khác nhau.
+7. Tách cảm xúc nhân vật, ý đồ đạo diễn, sắc thái người xem nhận ra và cảm xúc họ tự trải nghiệm.
 8. Tách ý đồ chung khỏi cú pháp/thiết lập của model/chế độ cụ thể.
 9. Sửa một lỗi thì bảo vệ phần đã đạt; chưa thử không báo đã khắc phục.
 10. Ngách đọc core hiện hành trên main; cập nhật tại chỗ, giữ mã và một nhật ký chung; nâng bài học theo căn cứ và trình thay đổi đảo nguyên tắc.

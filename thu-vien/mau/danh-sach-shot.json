@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "id": "SHOTPLAN-SYN-001",
-  "core_version": "1.2.1",
+  "core_version": "1.3.0",
   "niche_id": null,
   "script_id": "SCRIPT-SYN-001",
   "status": "draft",
@@ -10,35 +10,136 @@
     {
       "id": "PLAN-SHOT-001",
       "segment_id": "SEG-001",
-      "function": "Xác lập việc",
-      "information_to_show": "Một người, ba bát và khay trống",
-      "intended_response": "Biết việc đang theo",
+      "function": "Xác lập việc và trạng thái đầu",
+      "information_to_show": "Xác lập một người, ba bát ở bàn và khay trống",
+      "intended_response": "Hiểu việc sắp làm",
       "duration_target_seconds": 3,
-      "start_state": "Bát ở bàn, khay trống",
-      "action_contact_change": "Tay tới bát đầu, chưa thay vật bằng vật khác",
-      "end_state": "Người sẵn sàng nhấc",
+      "start_state": "Ba bát ở bàn; khay trống; một người trong khung.",
+      "action_contact_change": "Người nhìn khay và đưa tay tới bát thứ nhất, chưa nhấc bát. Tay tới và giữ bát thứ nhất; chưa chuyển bát lên khay.",
+      "end_state": "Khay vẫn trống; tay sẵn sàng nhấc bát thứ nhất.",
       "subject_and_count": "Một người",
-      "camera": "Máy cố định, trung cảnh thấy bàn",
-      "composition_and_focus": "Giữ tay, bát và khay đọc được",
+      "camera": "Máy tĩnh, trung cảnh đọc được người–bàn–khay",
+      "composition_and_focus": "Giữ rõ đúng bằng chứng của shot; không để tay, vật cản hoặc vùng nét che pha quyết định.",
       "lighting_and_color": "Giữ nguồn sáng và vật liệu theo ảnh duyệt",
-      "audio": "Nền thưa, tiếng tay/vật nếu có sự kiện",
-      "time_treatment": "Thời gian thực trong shot",
+      "audio": "Chỉ đề xuất tiếng cử động tay/áo phù hợp; không có tiếng bát đặt lên khay.",
+      "time_treatment": "Thời gian thực trong shot; chưa lược công đoạn.",
       "reference_ids": [],
-      "continuity_in": "Bắt đầu chuỗi",
-      "continuity_out": "Giữ vị trí bát/khay và tay sang cận thao tác",
-      "generation_unit": "Một job nếu chế độ phù hợp; kiểm trước khi đặt thời lượng",
+      "continuity_in": "Bắt đầu chuỗi, xác lập quan hệ người–bàn–khay.",
+      "continuity_out": "Nối sang cận cùng bát và tay đang chuẩn bị nhấc.",
+      "generation_unit": "Tạo theo chế độ/thời lượng dịch vụ đã xác minh, có phần dư nếu cần; 3 giây là thời gian dự kiến dùng trong dựng, không phải giới hạn job.",
       "acceptance_checks": [
-        "Đúng một người và đúng ba bát, khay trống ở đầu."
+        "Ba bát ở bàn; khay trống; một người trong khung.",
+        "Tay tới và giữ bát thứ nhất; chưa chuyển bát lên khay.",
+        "Khay vẫn trống; tay sẵn sàng nhấc bát thứ nhất.",
+        "Xem toàn diễn tiến và kiểm điểm nối với shot kề; chưa có clip thì chưa báo đạt."
       ],
       "core_ids": [
         "CA-001",
         "DR-002",
-        "AI-003"
+        "CA-004"
+      ]
+    },
+    {
+      "id": "PLAN-SHOT-002",
+      "segment_id": "SEG-001",
+      "function": "Chứng minh lần đặt đầu và thứ tự chạm–nhả",
+      "information_to_show": "Nắm, nhấc và đặt bát thứ nhất lên khay",
+      "intended_response": "Theo được lần đặt đầu",
+      "duration_target_seconds": 3,
+      "start_state": "Khay trống; tay đang giữ bát thứ nhất ở bàn.",
+      "action_contact_change": "Tay nhấc bát thứ nhất, đưa tới khay; đáy chạm rồi tay nhả. Đáy bát chạm khay trước khi tay nhả; một bát chuyển từ bàn lên khay.",
+      "end_state": "Một bát ổn trên khay; hai bát còn ở bàn.",
+      "subject_and_count": "Một người",
+      "camera": "Máy tĩnh, cận tay nhưng thấy đáy bát và mặt khay",
+      "composition_and_focus": "Giữ rõ đúng bằng chứng của shot; không để tay, vật cản hoặc vùng nét che pha quyết định.",
+      "lighting_and_color": "Giữ nguồn sáng và vật liệu theo ảnh duyệt",
+      "audio": "Một tiếng chạm dự kiến ở lúc đáy bát thứ nhất gặp khay; chưa đo đồng bộ.",
+      "time_treatment": "Thời gian thực trong shot; lược việc ở điểm cắt ra.",
+      "reference_ids": [],
+      "continuity_in": "Cận nối hành động từ shot 1, cùng người/vật/trạng thái.",
+      "continuity_out": "Cut lược lượt đặt bát thứ hai; shot sau mở với hai bát đã trên khay và bát cuối còn trên tay.",
+      "generation_unit": "Tạo theo chế độ/thời lượng dịch vụ đã xác minh, có phần dư nếu cần; 3 giây là thời gian dự kiến dùng trong dựng, không phải giới hạn job.",
+      "acceptance_checks": [
+        "Khay trống; tay đang giữ bát thứ nhất ở bàn.",
+        "Đáy bát chạm khay trước khi tay nhả; một bát chuyển từ bàn lên khay.",
+        "Một bát ổn trên khay; hai bát còn ở bàn.",
+        "Xem toàn diễn tiến và kiểm điểm nối với shot kề; chưa có clip thì chưa báo đạt."
+      ],
+      "core_ids": [
+        "AI-003",
+        "DR-008",
+        "ED-010"
+      ]
+    },
+    {
+      "id": "PLAN-SHOT-003",
+      "segment_id": "SEG-001",
+      "function": "Cho thấy bước tiến sau khoảng lược và lần đặt cuối",
+      "information_to_show": "Đặt bát cuối sau khi đã lược lượt đặt bát thứ hai",
+      "intended_response": "Nhận ra việc đã tiến triển",
+      "duration_target_seconds": 3,
+      "start_state": "Hai bát đã trên khay; bát thứ ba đang được tay giữ phía trên vị trí đặt.",
+      "action_contact_change": "Bát thứ ba được hạ vào chỗ còn lại; tay nhả sau tiếp xúc và ổn định. Đáy bát thứ ba chạm khay; tay giảm lực rồi nhả, không tự nhân đôi vật.",
+      "end_state": "Ba bát đứng ổn trên khay; tay chuẩn bị rút khỏi vùng bát.",
+      "subject_and_count": "Một người",
+      "camera": "Máy tĩnh, cận quan hệ bát cuối và hai bát đã trên khay",
+      "composition_and_focus": "Giữ rõ đúng bằng chứng của shot; không để tay, vật cản hoặc vùng nét che pha quyết định.",
+      "lighting_and_color": "Giữ nguồn sáng và vật liệu theo ảnh duyệt",
+      "audio": "Một tiếng chạm dự kiến thuộc bát thứ ba; không chèn tiếng đặt bát thứ hai ở phần đã lược.",
+      "time_treatment": "Thời gian thực trong shot sau một khoảng được lược ở cut vào; không có jump cut nội bộ.",
+      "reference_ids": [],
+      "continuity_in": "Lược thời gian tại cut: số bát trên khay tăng từ một sang hai, lượt đặt thứ hai không được trình bày.",
+      "continuity_out": "Nối từ ba bát ổn sang khung xác nhận kết quả.",
+      "generation_unit": "Tạo theo chế độ/thời lượng dịch vụ đã xác minh, có phần dư nếu cần; 3 giây là thời gian dự kiến dùng trong dựng, không phải giới hạn job.",
+      "acceptance_checks": [
+        "Hai bát đã trên khay; bát thứ ba đang được tay giữ phía trên vị trí đặt.",
+        "Đáy bát thứ ba chạm khay; tay giảm lực rồi nhả, không tự nhân đôi vật.",
+        "Ba bát đứng ổn trên khay; tay chuẩn bị rút khỏi vùng bát.",
+        "Xem toàn diễn tiến và kiểm điểm nối với shot kề; chưa có clip thì chưa báo đạt."
+      ],
+      "core_ids": [
+        "ED-004",
+        "AI-010",
+        "QC-010"
+      ]
+    },
+    {
+      "id": "PLAN-SHOT-004",
+      "segment_id": "SEG-001",
+      "function": "Xác nhận hoàn tất và chừa nhịp tiếp nhận",
+      "information_to_show": "Ba bát đứng ổn; giữ khung xác nhận thành quả",
+      "intended_response": "Nhận ra việc đã xong",
+      "duration_target_seconds": 3,
+      "start_state": "Ba bát đã ổn trên khay; tay ở gần và đang rút.",
+      "action_contact_change": "Tay rút khỏi vùng bát, ba bát tiếp tục đứng yên trên khay. Không đặt thêm bát; không có tiếp xúc mới tạo tiếng va.",
+      "end_state": "Ba bát ở nguyên trên khay; việc xếp hoàn tất.",
+      "subject_and_count": "Một người",
+      "camera": "Máy tĩnh, khung đủ thấy cả ba bát và tay rút",
+      "composition_and_focus": "Giữ rõ đúng bằng chứng của shot; không để tay, vật cản hoặc vùng nét che pha quyết định.",
+      "lighting_and_color": "Giữ nguồn sáng và vật liệu theo ảnh duyệt",
+      "audio": "Không có tiếng đặt bát mới; có thể giữ đuôi âm hợp lý từ shot trước và nền đã chọn.",
+      "time_treatment": "Thời gian thực, giữ kết quả; không lặp động tác đặt.",
+      "reference_ids": [],
+      "continuity_in": "Khớp trạng thái ba bát và hướng rút tay của shot 3.",
+      "continuity_out": "Kết chuỗi sau thời gian tiếp nhận thiết kế; chưa kiểm phản ứng người xem.",
+      "generation_unit": "Tạo theo chế độ/thời lượng dịch vụ đã xác minh, có phần dư nếu cần; 3 giây là thời gian dự kiến dùng trong dựng, không phải giới hạn job.",
+      "acceptance_checks": [
+        "Ba bát đã ổn trên khay; tay ở gần và đang rút.",
+        "Không đặt thêm bát; không có tiếp xúc mới tạo tiếng va.",
+        "Ba bát ở nguyên trên khay; việc xếp hoàn tất.",
+        "Xem toàn diễn tiến và kiểm điểm nối với shot kề; chưa có clip thì chưa báo đạt."
+      ],
+      "core_ids": [
+        "ST-004",
+        "ED-011",
+        "SO-003"
       ]
     }
   ],
   "unknowns": [
-    "Đây chỉ là mẫu một shot; chưa có bộ góc đầy đủ hoặc tham chiếu thực."
+    "Bốn shot là thiết kế giả lập, không phải footage đã được xem.",
+    "Chưa có tham chiếu, model/chế độ hay đầu ra thật; thời lượng cần kiểm bằng bản sơ và clip.",
+    "Lượt đặt bát thứ hai được lược ở cut 2→3; không được giả là đã nhìn thấy toàn công đoạn."
   ],
   "generation_tested": false
 }

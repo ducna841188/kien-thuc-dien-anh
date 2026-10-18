@@ -1,6 +1,6 @@
 # YT — YouTube: lời hứa và phản hồi
 
-Phiên bản 1.2.1. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
+Phiên bản 1.3.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -19,6 +19,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [YT-009](#yt-009) | Thử tiêu đề và ảnh đại diện đúng thiết kế phép thử | trung_cap |
 | [YT-010](#yt-010) | Bóc tách phim tham khảo thành giả thuyết có thể chuyển giao | nang_cao |
 | [YT-011](#yt-011) | Khả năng tiếp cận và ngữ cảnh xem là phần của thiết kế phim | trung_cap |
+| [YT-012](#yt-012) | Giá trị biên tập của phim AI và lời giới thiệu trung thực | nang_cao |
 
 <a id="yt-001"></a>
 ## YT-001 — Lời hứa ảnh thu nhỏ, tiêu đề và mở đầu
@@ -218,7 +219,7 @@ Thử tiếp: Đối chiếu bằng phản hồi trung tính và bản làm rõ 
 <a id="yt-004"></a>
 ## YT-004 — Tính mới, sự quen thuộc và giá trị trở lại
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Tập mới cho người xem điều quen và điều mới nào?
 
@@ -231,6 +232,8 @@ Thử tiếp: Đối chiếu bằng phản hồi trung tính và bản làm rõ 
 1. Ghi điều cần giữ xuyên tập và phần có thể biến.
 2. Cho người mới hiểu tập hiện tại mà không cần lịch sử.
 3. Theo dõi lý do người xem quay lại khi có dữ liệu.
+4. Lập điều mới của từng tập ở nội dung: câu hỏi, tiến trình, lựa chọn, kết quả, quan hệ hoặc điều khám phá. Chỉ đổi cây/vật/màu trong cùng một diễn tiến chưa chắc tạo trải nghiệm mới.
+5. Giữ nhận diện loạt bằng lời hứa và thế giới; khi so các tập cạnh nhau, ghi giá trị riêng mà người xem nhận được từ từng tập.
 
 **Đánh đổi:** Đổi nhiều mất nhận diện; lặp nhiều dễ thiếu khám phá.
 
@@ -243,9 +246,9 @@ Thử tiếp: Đối chiếu bằng phản hồi trung tính và bản làm rõ 
 
 **Phản ví dụ / giới hạn:** Kênh khám phá có thể cần độ mới cao hơn kênh tìm cảm giác quen; phải theo hồ sơ ngách.
 
-**Liên quan:** [ST-008](../kien-thuc/ST-008.json), [AI-002](../kien-thuc/AI-002.json), [AU-001](../kien-thuc/AU-001.json)
+**Liên quan:** [ST-008](../kien-thuc/ST-008.json), [AI-002](../kien-thuc/AI-002.json), [AU-001](../kien-thuc/AU-001.json), [YT-012](../kien-thuc/YT-012.json), [ST-010](../kien-thuc/ST-010.json)
 
-**Nguồn đối chiếu:** [B003](../../bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
+**Nguồn đối chiếu:** [B003](../../bai-hoc/003-khoa-thiet-ke-nhan-vat/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md), [SRC-YT-ORIGINALITY](https://support.google.com/youtube/answer/1311392?hl=en)
 
 [Bản JSON chuẩn](../kien-thuc/YT-004.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
@@ -655,3 +658,76 @@ Thử tiếp: Cho người chưa biết đoạn xem ở kích thước sử dụ
 **Nguồn đối chiếu:** [SRC-YT-PERFORMANCE](https://support.google.com/youtube/answer/16559650), [SRC-YT-ENCODE](https://support.google.com/youtube/answer/1722171)
 
 [Bản JSON chuẩn](../kien-thuc/YT-011.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
+
+<a id="yt-012"></a>
+## YT-012 — Giá trị biên tập của phim AI và lời giới thiệu trung thực
+
+**Phiên bản mục:** 1.3.0
+
+**Câu hỏi quyết định:** Tập này có đóng góp sáng tạo riêng và được giới thiệu đúng bản chất hình–âm chưa?
+
+**Dùng khi:** Tập này có đóng góp sáng tạo riêng và được giới thiệu đúng bản chất hình–âm chưa?
+
+**Nguyên lý thực hành:** Phim AI cần giá trị cụ thể cho người xem: câu chuyện, khám phá, quan sát hoặc trải nghiệm được tổ chức có chủ đích. Phân biệt ba câu hỏi: giá trị/nguyên bản của nội dung, cách công khai phần AI trông như thật và kết quả xét duyệt của nền tảng. Một câu trả lời không tự bảo đảm hai câu còn lại.
+
+**Cách làm:**
+
+1. Viết một câu giá trị riêng của tập và chỉ ra bằng chứng trong phim. Rà các tập cạnh nhau: cùng thế giới/nhân vật được, nhưng chỉ thay vật/màu trong cùng tình huống và kết cần được xem lại.
+2. Ghi đóng góp cụ thể: chọn góc tiếp cận, phát triển hành động/quan hệ, thiết kế không gian, dựng và âm có chức năng. Không lấy số prompt, 4K hoặc lượng clip sinh làm bằng chứng tự đủ.
+3. Phân biệt cảnh quay sự kiện, tái dựng và hư cấu khi viết tiêu đề/lời kể/chú thích. Cảnh AI trông như thật không được ghi như bằng chứng đã quay một việc thực sự xảy ra.
+4. Trước đăng, mở lại tài liệu YouTube đúng ngày/loại nội dung để xác định khai AI. Ghi phần hình, âm/nhạc hoặc biến đổi đáng kể liên quan; không đóng đinh tên nút giao diện thành nguyên lý.
+5. Đọc riêng tiêu chí nội dung lặp/tái sử dụng và yêu cầu công khai; không suy bật nhãn là được duyệt kiếm tiền hoặc dùng AI là tự mất điều kiện.
+
+**Đánh đổi:** Ưu tiên theo brief và lỗi ảnh hưởng trải nghiệm; không có ngưỡng điểm chung thay duyệt sản phẩm thực tế.
+
+**Kiểm tra:**
+
+- Giá trị riêng gắn với diễn tiến nhìn/nghe được
+- Phim không thoại vẫn được xét theo giá trị của nó, không tự thêm voiceover trái brief
+- Đóng gói không giả cảnh AI là tư liệu quay thật
+- Có nguồn/ngày khi dẫn quy định; chưa có xét duyệt thì chưa báo đã đủ điều kiện
+
+**Ví dụ tự biên soạn:** Hai tập hư cấu cùng nhân vật và sân nhà có thể kể hai việc khác nhau, với lựa chọn và kết khác. Đổi táo thành lê trong cùng diễn tiến lặp lại chỉ là một biến bề mặt cần rà thêm.
+
+**Phản ví dụ / giới hạn:** Giữ intro/outro hoặc thế giới nhân vật không tự biến cả loạt thành nội dung lặp. Công khai AI không thay việc làm phim có giá trị; cũng không tự là nguyên nhân giảm phân phối.
+
+**Liên quan:** [YT-004](../kien-thuc/YT-004.json), [YT-008](../kien-thuc/YT-008.json), [YT-001](../kien-thuc/YT-001.json), [ST-010](../kien-thuc/ST-010.json), [EV-001](../kien-thuc/EV-001.json), [QC-001](../kien-thuc/QC-001.json)
+
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Sự khác biệt hữu ích nằm ở phần nội dung người xem nhận, không chỉ thuộc tính tài sản. Minh bạch giúp giữ lời hứa về bản chất hình ảnh; đó là quyết định riêng với duyệt chất lượng.
+
+**Tình huống:** Một loạt phim AI không thoại dùng cùng nhà và nhân vật, cần lập tập tiếp theo.
+
+**Phần phải giữ:** Không thoại Thế giới và nhận diện đã duyệt Giới thiệu trung thực là phim AI khi phù hợp
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Sao cùng một chuỗi công việc, chỉ đổi tên sản phẩm và màu phục trang. |
+| B | Giữ thế giới nhưng chọn một câu hỏi/công việc và kết quả có giá trị riêng; thiết kế lại các nhịp cần thiết cho việc đó. |
+
+**Cách chọn:** Chọn B nếu A chưa tạo giá trị riêng. Không ép giật gân hoặc lời bình chỉ để tạo khác; kiểm theo lời hứa kênh và quy định hiện hành.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Mỗi tập có điều riêng để nhận
+- Bằng chứng giá trị nằm trong phim
+- Chưa hứa lượt xem hoặc kết quả kiếm tiền
+
+**Nếu gặp:** Tập trông mới nhưng người xem nhận cùng một việc và kết lặp.
+
+Có thể do: Đổi bề mặt thay đổi nội dung Cảnh đẹp chưa được tổ chức thành trải nghiệm riêng
+
+Thử tiếp: Lập bảng câu hỏi–tiến triển–kết của ba tập liền, ghi điểm khác có ý nghĩa rồi sửa cấu trúc tập mới.
+
+**Phát biểu được đối chiếu:** Trang hiện hành phân biệt nội dung có giá trị/nguyên bản với nội dung theo mẫu lặp hoặc tái sử dụng ít thay đổi đáng kể. Nguồn: [SRC-YT-ORIGINALITY](https://support.google.com/youtube/answer/1311392?hl=en).
+
+**Giới hạn nguồn:** Không có phần trăm sửa hay công thức shot bảo đảm duyệt; đây không phải xét duyệt kênh.
+
+**Phát biểu được đối chiếu:** YouTube yêu cầu công khai cảnh AI trông như thật; trang nêu việc công khai tự nó không hạn chế khán giả hoặc điều kiện kiếm tiền. Nguồn: [SRC-YT-AI-DISCLOSURE](https://support.google.com/youtube/answer/14328491?hl=en).
+
+**Giới hạn nguồn:** Không đồng nghĩa video được duyệt hoặc đạt hiệu suất; phải đối chiếu loại nội dung và hướng dẫn lúc đăng.
+**Nguồn đối chiếu:** [SRC-YT-ORIGINALITY](https://support.google.com/youtube/answer/1311392?hl=en), [SRC-YT-AI-DISCLOSURE](https://support.google.com/youtube/answer/14328491?hl=en)
+
+[Bản JSON chuẩn](../kien-thuc/YT-012.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).

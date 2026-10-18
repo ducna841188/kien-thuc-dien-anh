@@ -141,3 +141,13 @@
 | concurrent test | Thử các phương án trong cùng giai đoạn theo cơ chế phân phối của phép thử | [YT-009](kien-thuc/YT-009.json) |
 | sequential comparison | So các phương án lần lượt theo thời gian, cần xét thay đổi khán giả và phân phối | [YT-009](kien-thuc/YT-009.json) |
 | captions | Phụ đề lời và/hoặc chú thích âm có ý nghĩa theo nhu cầu tiếp cận; cần kiểm nghĩa và thời điểm | [YT-011](kien-thuc/YT-011.json) |
+| perceived emotion | Cảm xúc/sắc thái người xem nhận ra tác phẩm đang biểu đạt; tách khỏi cảm xúc chính họ trải nghiệm. | [AU-004](kien-thuc/AU-004.json) |
+| felt emotion | Cảm xúc người xem tự trải nghiệm và tự báo trong điều kiện xem cụ thể. | [AU-004](kien-thuc/AU-004.json) |
+| suspense | Hồi hộp/chờ đợi liên quan điều sắp xảy ra có ý nghĩa; không đồng nhất với giật mình hoặc mọi khoảng thiếu thông tin. | [AU-003](kien-thuc/AU-003.json) |
+| surprise | Bất ngờ khi sự kiện lệch kỳ vọng được nhận ra; khác với diễn biến chờ trước sự kiện. | [AU-003](kien-thuc/AU-003.json) |
+| point of audition | Điểm nghe được chọn trong cách kể: nơi/quan hệ mà âm được cảm nhận; không bắt buộc trùng vị trí máy. | [SO-003](kien-thuc/SO-003.json) |
+| handles | Phần dư hình/âm ở đầu và cuối take ngoài đoạn dự kiến dùng, giúp chọn điểm cắt hoặc nối; độ dài theo việc thực tế. | [DR-006](kien-thuc/DR-006.json) |
+| occlusion | Che khuất: chủ thể/vật bị vật khác chắn một phần/toàn bộ; phải kiểm nhận diện và trạng thái khi lộ lại. | [QC-010](kien-thuc/QC-010.json) |
+| frame cadence | Nhịp phân bố các frame theo thời gian; frame lặp/bỏ hoặc đổi tốc có thể làm nhịp chuyển động khác dù cùng fps xuất. | [MO-007](kien-thuc/MO-007.json) |
+| editorial contribution | Đóng góp biên tập/sáng tạo cụ thể trong góc tiếp cận, cấu trúc, hình và âm; không tự quy đổi thành số prompt hoặc ngưỡng kiếm tiền. | [YT-012](kien-thuc/YT-012.json) |
+| brief | Bản yêu cầu: mục tiêu, tệp/hoàn cảnh xem, phần đã duyệt, ràng buộc và tiêu chí đạt của tác vụ. | [AU-001](kien-thuc/AU-001.json) |

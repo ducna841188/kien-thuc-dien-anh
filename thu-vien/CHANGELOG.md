@@ -2,6 +2,17 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## 1.3.0 — 18/10/2026 — Đào sâu quyết định điện ảnh và duyệt phim AI
+
+- Rà khung/nguyên lý 130 mục hiện hành, đọc sâu các trục cần cải tiến; cập nhật 19 mục và thêm QC-010/YT-012, tổng 132 mục. Giữ toàn bộ mã cũ, sửa trực tiếp các tệp hiện hành.
+- Đào sâu trục chủ đề/giá trị, lịch lộ thông tin, mong chờ khi biết trước kết; phân biệt cảm xúc nhân vật, ý đồ, sắc thái người xem nhận ra và cảm xúc họ thực trải nghiệm.
+- Bổ sung ca lựa chọn dàn cảnh, mặt bằng/trục, bộ góc tối thiểu và phần dư dựng; làm rõ phép đo tương phản, chất liệu qua thời gian, điểm nghe và kiểm sau nội suy/sửa vùng.
+- Thêm QC-010 để tách vẻ ảnh, ổn định theo thời gian và đúng hành động; tăng độ sâu cho duyệt take–chuỗi–toàn phim và chi phí theo giây riêng biệt dùng thực.
+- Thêm YT-012 về giá trị biên tập riêng và cách giới thiệu cảnh AI; đối chiếu tài liệu YouTube hiện hành, không buộc thêm thoại hoặc hứa lượt xem/kiếm tiền.
+- Bổ sung năm nguồn có phạm vi (32 nguồn), 10 thuật ngữ (147), sáu tuyến tra; cập nhật bốn hồ sơ cảm xúc và chuẩn/quy trình. Mẫu shot từ một shot thành đủ bốn shot, khớp kịch bản và ví dụ giả lập.
+- Bổ sung phiếu cảnh tích hợp trong ca chiếc ghế ở JSON và bản xuất Markdown; tám đề đánh giá AI mới, tổng 48 đề chuẩn bị. Chưa chạy các đề trên AI ngoài, chưa tạo video hoặc kiểm khán giả.
+- Farm chỉ cập nhật metadata phụ thuộc sang core 1.3.0; giữ quy tắc, ứng viên, nguồn quan sát và lựa chọn sản xuất. 33 bài/444 ảnh nguồn giữ nguyên; một nhật ký chung và các đường dẫn gói cố định tiếp tục được dùng.
+
 ## 1.2.1 — 18/10/2026 — Rà tính thống nhất, ví dụ và hợp đồng bằng chứng
 
 - Làm rõ ranh giới giữa giữ tài sản/lời nguồn và sửa phân tích do thư viện tạo tại chỗ; thống nhất AGENTS core/Farm với hướng dẫn cập nhật.

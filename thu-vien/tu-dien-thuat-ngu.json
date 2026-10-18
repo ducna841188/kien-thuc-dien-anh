@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.3.0",
   "terms": [
     {
       "term": "shot",
@@ -958,6 +958,83 @@
       "meaning_vi": "Phụ đề lời và/hoặc chú thích âm có ý nghĩa theo nhu cầu tiếp cận; cần kiểm nghĩa và thời điểm",
       "core_ids": [
         "YT-011"
+      ]
+    },
+    {
+      "term": "perceived emotion",
+      "meaning_vi": "Cảm xúc/sắc thái người xem nhận ra tác phẩm đang biểu đạt; tách khỏi cảm xúc chính họ trải nghiệm.",
+      "core_ids": [
+        "AU-004",
+        "AU-006"
+      ]
+    },
+    {
+      "term": "felt emotion",
+      "meaning_vi": "Cảm xúc người xem tự trải nghiệm và tự báo trong điều kiện xem cụ thể.",
+      "core_ids": [
+        "AU-004",
+        "AU-006"
+      ]
+    },
+    {
+      "term": "suspense",
+      "meaning_vi": "Hồi hộp/chờ đợi liên quan điều sắp xảy ra có ý nghĩa; không đồng nhất với giật mình hoặc mọi khoảng thiếu thông tin.",
+      "core_ids": [
+        "AU-003",
+        "ST-006"
+      ]
+    },
+    {
+      "term": "surprise",
+      "meaning_vi": "Bất ngờ khi sự kiện lệch kỳ vọng được nhận ra; khác với diễn biến chờ trước sự kiện.",
+      "core_ids": [
+        "AU-003",
+        "ST-006"
+      ]
+    },
+    {
+      "term": "point of audition",
+      "meaning_vi": "Điểm nghe được chọn trong cách kể: nơi/quan hệ mà âm được cảm nhận; không bắt buộc trùng vị trí máy.",
+      "core_ids": [
+        "SO-003"
+      ]
+    },
+    {
+      "term": "handles",
+      "meaning_vi": "Phần dư hình/âm ở đầu và cuối take ngoài đoạn dự kiến dùng, giúp chọn điểm cắt hoặc nối; độ dài theo việc thực tế.",
+      "core_ids": [
+        "DR-006"
+      ]
+    },
+    {
+      "term": "occlusion",
+      "meaning_vi": "Che khuất: chủ thể/vật bị vật khác chắn một phần/toàn bộ; phải kiểm nhận diện và trạng thái khi lộ lại.",
+      "core_ids": [
+        "QC-010",
+        "AI-010"
+      ]
+    },
+    {
+      "term": "frame cadence",
+      "meaning_vi": "Nhịp phân bố các frame theo thời gian; frame lặp/bỏ hoặc đổi tốc có thể làm nhịp chuyển động khác dù cùng fps xuất.",
+      "core_ids": [
+        "MO-007",
+        "QC-010"
+      ]
+    },
+    {
+      "term": "editorial contribution",
+      "meaning_vi": "Đóng góp biên tập/sáng tạo cụ thể trong góc tiếp cận, cấu trúc, hình và âm; không tự quy đổi thành số prompt hoặc ngưỡng kiếm tiền.",
+      "core_ids": [
+        "YT-012"
+      ]
+    },
+    {
+      "term": "brief",
+      "meaning_vi": "Bản yêu cầu: mục tiêu, tệp/hoàn cảnh xem, phần đã duyệt, ràng buộc và tiêu chí đạt của tác vụ.",
+      "core_ids": [
+        "AU-001",
+        "QC-001"
       ]
     }
   ]

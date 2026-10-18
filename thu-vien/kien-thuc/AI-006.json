@@ -1,7 +1,7 @@
 {
   "id": "AI-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "module_id": "AI",
   "title": "Thoại và âm AI: kiểm từng loại lỗi",
   "level": "nang_cao",
@@ -15,7 +15,8 @@
   "actions": [
     "Nghe và chép nội dung thực được phát.",
     "So vai nói, giọng, môi và sự kiện theo mốc.",
-    "Chọn sửa lời/giọng/đồng bộ/hậu kỳ hoặc sinh lại đúng shot."
+    "Chọn sửa lời/giọng/đồng bộ/hậu kỳ hoặc sinh lại đúng shot.",
+    "Đối chiếu bản âm thật với nội dung mong muốn và lượt nói; nếu thay âm/hậu kỳ, kiểm lại cả hình–âm sau thay, không lấy môi có cử động làm bằng chứng khớp."
   ],
   "tradeoffs": [
     "Tạo lại có thể làm mất hình đã đạt; sửa âm có thể khó nếu tách nguồn kém."
@@ -25,7 +26,7 @@
     "Không suy có các track riêng khi chỉ nhận một file trộn."
   ],
   "original_example": "Mèo và chó bị nhầm lời: xác định vai sai trước; không tự đổi camera đang đúng.",
-  "counterexample": "Không phải mọi tương tác đều cần quay–đảo góc; một khung chung vẫn có thể phù hợp.",
+  "counterexample": "Lời kể ngoài khung không cần khớp một miệng đang hiện hình. Với thoại trong hình, đúng chữ và đúng giọng vẫn có thể sai vai hoặc lệch khẩu hình; các tiêu chí ấy cần kiểm riêng.",
   "prerequisite_ids": [
     "EV-001"
   ],

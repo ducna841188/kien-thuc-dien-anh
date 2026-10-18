@@ -1,6 +1,6 @@
 # LI — Ánh sáng
 
-Phiên bản 1.2.1. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
+Phiên bản 1.3.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -115,7 +115,7 @@ Thử tiếp: Giữ mức sáng tương đương, thử thay kích thước/vị
 <a id="li-003"></a>
 ## LI-003 — Tương phản, bù sáng và vùng tối
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Phần tối cần giấu hay cần đọc tới mức nào?
 
@@ -129,6 +129,8 @@ Thử tiếp: Giữ mức sáng tương đương, thử thay kích thước/vị
 2. Điều chỉnh hướng/độ bù hoặc nền thay vì chỉ tăng mọi độ sáng.
 3. Kiểm chuỗi hình và thiết bị hiển thị đích.
 4. So một thay đổi tại vị trí chủ thể: thêm bề mặt hắt, bớt hắt hoặc đổi hướng nguồn; kiểm ảnh hưởng nền, phản chiếu và chuyển động.
+5. Nếu dùng tỷ lệ tương phản, ghi đang so nguồn key với fill, hai phía chủ thể hay mức tín hiệu ảnh; ghi cách đo. Không coi các tỷ lệ ấy là cùng phép đo hoặc suy số lux từ hình đã grade.
+6. Kiểm độ tương phản ở các vị trí hành động then chốt và sau đổi góc; một tay đi vào bóng có thể làm mất đúng bằng chứng dù ảnh đầu vẫn đẹp.
 
 **Đánh đổi:** Tương phản thấp có thể thiếu tách lớp; tương phản cao có thể che hành động.
 
@@ -137,6 +139,7 @@ Thử tiếp: Giữ mức sáng tương đương, thử thay kích thước/vị
 - Nhìn được bằng chứng quan trọng mà vẫn giữ không khí.
 - Không coi high-key là chỉ phơi sáng quá hoặc low-key là chỉ ảnh thiếu sáng.
 - Thao tác sửa độ nổi không phá quan hệ sáng có chủ đích trong cảnh.
+- Tỷ lệ ghi số có định nghĩa và cách đo; thiếu thì mô tả quan hệ thay vì bịa số.
 
 **Ví dụ tự biên soạn:** Mặt được đọc rõ trong phòng tối mà cửa sổ vẫn là hướng sáng chính.
 

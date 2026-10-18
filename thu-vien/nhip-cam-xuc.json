@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.3.0",
   "profiles": [
     {
       "id": "EMO-001",
@@ -11,7 +11,7 @@
       "editing": "Lược lặp, giữ tiếp xúc và kết quả; độ dài theo lượng thông tin, không đặt số giây chung.",
       "sound": "Âm nền nhất quán, tiếng chính không giật; nhạc thưa nếu có ích.",
       "failure_risk": "Kéo chậm mọi thứ có thể gây chán hoặc làm người xem bối rối lâu hơn.",
-      "viewer_check": "Hỏi đoạn nào dễ theo, đoạn nào phải tìm hiểu lại; tách thư giãn khỏi buồn ngủ/buồn.",
+      "viewer_check": "Hỏi người xem đã theo việc gì và tự cảm thấy gì; tách nhận ra cảnh biểu đạt bình yên khỏi thực sự thấy yên, buồn ngủ hoặc buồn.",
       "core_ids": [
         "AU-001",
         "AU-005",
@@ -22,7 +22,7 @@
         "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.1.0"
+      "version": "1.3.0"
     },
     {
       "id": "EMO-002",
@@ -56,7 +56,7 @@
       "editing": "Chừa nhịp nhận và đáp, tránh chỉ trình diễn người cho.",
       "sound": "Khoảng cách âm phù hợp; lời/tiếng cười nếu có không lấn hết đời sống.",
       "failure_risk": "Cười liên tục hoặc nhạc ép cảm động có thể tạo cảm giác dàn dựng.",
-      "viewer_check": "Hỏi khán giả đọc được quan hệ nào; ghi cả ấm áp, hoài niệm và buồn nếu xuất hiện.",
+      "viewer_check": "Hỏi họ đọc được quan hệ nào trước, sau đó hỏi riêng cảm xúc bản thân; nhận ra sự ấm áp không đồng nghĩa tự thấy dễ chịu.",
       "core_ids": [
         "DR-003",
         "DR-004",
@@ -67,29 +67,30 @@
         "QC-008"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.1.0"
+      "version": "1.3.0"
     },
     {
       "id": "EMO-004",
       "target_response": "Hồi hộp, chờ kết quả",
       "design_idea": "Cho biết điều có thể xảy ra và trì hoãn có tiến triển.",
-      "story_information": "Thiết lập mục tiêu, nguy cơ hoặc điều kiện thành/bại rõ.",
+      "story_information": "Thiết lập điều đáng quan tâm và điều đang chờ: có thể là kết quả, cách, thời điểm hoặc phản ứng, không chỉ giấu đáp án. Chọn lượng tin so với nhân vật.",
       "image": "Chọn lượng thông tin người xem biết so với nhân vật; có thể dùng phần ngoài khung.",
       "lighting_color": "Tách thông tin quan trọng; bóng tối chỉ dùng khi vẫn đủ hiểu.",
       "editing": "Thay độ chờ và mật độ sự kiện theo tiến độ; không chỉ cắt nhanh.",
       "sound": "Nguồn âm, khoảng lặng hoặc nhịp đều có thể làm mốc chờ.",
       "failure_risk": "Nguy cơ không được thiết lập khiến giữ lâu thành trống; giật âm không tự tạo hồi hộp.",
-      "viewer_check": "Người xem nhận biết đang chờ điều gì, vì sao quan trọng và lúc được giải quyết.",
+      "viewer_check": "Hỏi đang chờ gì, vì sao đáng chờ; phân biệt nhận ra ý đồ hồi hộp với mức hồi hộp thật tự báo.",
       "core_ids": [
         "ST-002",
         "ST-006",
         "ED-005",
         "SO-003",
         "AU-009",
-        "QC-008"
+        "QC-008",
+        "AU-003"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.1.0"
+      "version": "1.3.0"
     },
     {
       "id": "EMO-005",
@@ -144,7 +145,7 @@
       "lighting_color": "Màu/chất liệu làm trạng thái trước–sau đọc được.",
       "editing": "Nén phần lặp, giữ dấu hoàn tất và lúc kết quả được dùng/nhận.",
       "sound": "Tiếng tiếp xúc gắn đúng sự kiện, có nhịp kết tự nhiên.",
-      "failure_risk": "Thành phẩm xuất hiện vô cớ hoặc lược mất nguyên nhân làm giảm cảm giác đã hoàn thành.",
+      "failure_risk": "Thành phẩm xuất hiện vô cớ, vật tự đổi khi che lộ hoặc lược mất nguyên nhân làm việc hoàn tất khó tin.",
       "viewer_check": "Người xem nói được việc gì đã xong và dấu nào cho biết điều đó.",
       "core_ids": [
         "ST-004",
@@ -152,10 +153,11 @@
         "CO-004",
         "ED-004",
         "AU-009",
-        "QC-008"
+        "QC-008",
+        "QC-010"
       ],
       "status": "conditional_design_hypothesis",
-      "version": "1.1.0"
+      "version": "1.3.0"
     },
     {
       "id": "EMO-008",

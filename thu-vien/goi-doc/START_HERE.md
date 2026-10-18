@@ -9,7 +9,7 @@ Gửi [hướng dẫn AI](../00_HUONG_DAN_AI.md), [chuẩn phân tích](../02_CH
 ## Đọc toàn bộ
 
 - [CORE.md](CORE.md): bản Markdown đầy đủ hiện hành.
-- [CORE.jsonl](CORE.jsonl): 130 bản ghi kiến thức hiện hành, mỗi dòng một đối tượng.
+- [CORE.jsonl](CORE.jsonl): 132 bản ghi kiến thức hiện hành, mỗi dòng một đối tượng.
 - [Sổ nguồn đi kèm](SOURCES.json): phạm vi đã đọc và giới hạn từng nguồn ngoài.
 - [manifest-goi.json](manifest-goi.json): kích thước và SHA-256 các tệp gói.
 

@@ -1,6 +1,6 @@
 # QC — Kiểm tra và học từ kết quả
 
-Phiên bản 1.2.1. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
+Phiên bản 1.3.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -17,11 +17,12 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 | [QC-007](#qc-007) | Duyệt theo công đoạn để không hoàn thiện một cấu trúc còn sai | trung_cap |
 | [QC-008](#qc-008) | Chuyển mục tiêu thành tiêu chí kiểm và giữ giới hạn kết luận | nang_cao |
 | [QC-009](#qc-009) | Chọn phương án theo nhiều mục tiêu và ngân sách rủi ro | nang_cao |
+| [QC-010](#qc-010) | Ổn định theo thời gian và đúng hành động là hai phép duyệt riêng | nang_cao |
 
 <a id="qc-001"></a>
 ## QC-001 — Duyệt theo mục tiêu và lỗi chặn sử dụng
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Clip đạt ở những tiêu chí nào và còn lỗi gì?
 
@@ -34,6 +35,9 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 1. Đặt tiêu chí trước khi xem bản đẹp nhất.
 2. Xem trọn, rồi rà các mốc tiếp xúc/đổi góc/biến đổi.
 3. Ghi đạt, chưa đạt hoặc chưa kiểm cùng bằng chứng.
+4. Duyệt ở ba quy mô: take riêng, chuỗi điểm nối và toàn phim. Các take đều đạt riêng chưa xác nhận liên tục, nhịp, giá trị kết hoặc sự mệt do lặp trong phim dài.
+5. Tách lỗi chặn dùng theo brief, lỗi cần sửa nhưng có thể khắc phục và lựa chọn thẩm mỹ còn tranh luận. Một điểm đẹp không bù việc sai người, sai thao tác hoặc mất bằng chứng bắt buộc.
+6. Với chuỗi xử lý AI/hậu kỳ, so nguồn với bản sau xử lý và mở lại tệp xuất. Ghi nguyên nhân/độ phủ khi chưa xác minh được.
 
 **Đánh đổi:** Danh sách quá dài có thể làm chậm; ưu tiên lỗi ảnh hưởng hiểu và trải nghiệm.
 
@@ -46,8 +50,35 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 **Phản ví dụ / giới hạn:** Một chi tiết nhỏ ngoài vùng nhìn có thể được chấp nhận nếu không phá mục tiêu và phù hợp mức lỗi đã chốt.
 
-**Liên quan:** [ED-008](../kien-thuc/ED-008.json), [SO-008](../kien-thuc/SO-008.json), [EV-004](../kien-thuc/EV-004.json)
+**Liên quan:** [ED-008](../kien-thuc/ED-008.json), [SO-008](../kien-thuc/SO-008.json), [EV-004](../kien-thuc/EV-004.json), [QC-010](../kien-thuc/QC-010.json), [YT-012](../kien-thuc/YT-012.json), [QC-007](../kien-thuc/QC-007.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Đạt tại đơn vị nhỏ không tự cộng thành đạt ở quy mô lớn. Cần duyệt các quan hệ và sự tích lũy chỉ xuất hiện khi các clip đứng cạnh nhau.
+
+**Tình huống:** Bốn take xếp đồ đều đẹp, nhưng vật thay số lượng ở cut và đoạn kết không thấy việc đã xong.
+
+**Phần phải giữ:** Nhận diện đã duyệt Hành động chính Kết quả cần đọc
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Chọn từng take đẹp nhất rồi duyệt bằng ảnh đại diện. |
+| B | Duyệt take, dựng liền theo trạng thái, kiểm toàn chuỗi và dấu kết; sửa đúng take hoặc khoảng lược. |
+
+**Cách chọn:** Chọn B khi cần sản phẩm dùng được; việc đạt schema/tệp không thay duyệt nội dung.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Có kết quả kiểm cho từng quy mô
+- Lỗi chặn dùng không bị bù bằng tổng điểm
+- Tệp giao được xem/nghe lại
+
+**Nếu gặp:** Điểm trung bình cao nhưng phim vẫn sai công việc hoặc không liền.
+
+Có thể do: Chấm ảnh riêng Gộp tiêu chí bắt buộc với sở thích
+
+Thử tiếp: Rà một lượt liền theo chức năng câu chuyện, sau đó quay lại đúng mốc lỗi; không tự chấm phần chưa xem.
 **Nguồn đối chiếu:** [B022](../../bai-hoc/022-veo-tu-co-ban-den-quy-trinh/README.md), [B033](../../bai-hoc/033-sua-prompt-bi-bo-qua/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/QC-001.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
@@ -216,7 +247,7 @@ Thử tiếp: Kiểm manifest, đường dẫn và liên kết; hợp nhất và
 <a id="qc-005"></a>
 ## QC-005 — Dự toán bằng sản phẩm dùng được
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Tốn bao nhiêu để có một đoạn hoàn chỉnh đạt yêu cầu?
 
@@ -229,6 +260,8 @@ Thử tiếp: Kiểm manifest, đường dẫn và liên kết; hợp nhất và
 1. Ghi độ dài thật dùng trong dựng từ mỗi job.
 2. Tính số job cần theo phần sử dụng và số lần thử quan sát được.
 3. So phương án ít sinh hơn, cảnh đơn giản hơn hoặc xử lý hậu kỳ.
+4. Chi phí mỗi giây dùng thực = tổng chi phí của toàn take thử/sinh/sửa chia cho số giây riêng biệt thực được chấp nhận trong bản dựng. Không cộng các take thay thế cùng một vị trí thành nhiều giây thành phẩm.
+5. Tách nhóm shot theo độ khó; ghi riêng sửa âm, ghép, kiểm và chi phí tài sản tái dùng. Tỷ lệ mẫu nhỏ hoặc thử lặp cùng lỗi không bảo đảm giữ nguyên khi mở rộng.
 
 **Đánh đổi:** Chọn giá/lần thấp có thể tăng tổng công sửa; chất lượng vượt nhu cầu cũng có thể lãng phí.
 
@@ -236,6 +269,7 @@ Thử tiếp: Kiểm manifest, đường dẫn và liên kết; hợp nhất và
 
 - Không lấy 600/8 làm số lần tạo chắc chắn cho phim 10 phút.
 - Không đưa giá hiện tại vào nguyên lý khi thiếu nguồn/ngày/điều kiện.
+- Dự toán ghi rõ chi phí nào đã/chưa tính và mẫu số giây thuộc bản dựng nào.
 
 **Ví dụ tự biên soạn:** Một job dài nhưng chỉ dùng đoạn ngắn phải tính theo đoạn đạt đã chọn.
 
@@ -243,6 +277,34 @@ Thử tiếp: Kiểm manifest, đường dẫn và liên kết; hợp nhất và
 
 **Liên quan:** [AI-004](../kien-thuc/AI-004.json), [QC-003](../kien-thuc/QC-003.json), [ED-008](../kien-thuc/ED-008.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Đơn vị có ích là phần hoàn chỉnh được dùng. Độ dài được sinh hoặc giá một job chỉ là đầu vào; tỷ lệ được dùng còn phụ thuộc dựng, liên tục và công sửa.
+
+**Tình huống:** Ví dụ tính tự biên soạn: 10 job, mỗi job 5 giây, giá giả định 5 đơn vị/job; bản dựng chỉ dùng 20 giây riêng biệt.
+
+**Phần phải giữ:** Số liệu chỉ là ví dụ, không là giá dịch vụ Không đếm chồng các take thay thế
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Chia 50 đơn vị cho 50 giây sinh và báo 1 đơn vị/giây thành phẩm. |
+| B | Chia 50 đơn vị cho 20 giây thật dùng: 2,5 đơn vị/giây, trước nhân công/hậu kỳ chưa tính. |
+
+**Cách chọn:** Dùng B cho đúng mẫu số. Chưa ngoại suy cố định cả phim; đo nhóm shot khó và dự phòng phần chưa biết.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Phép chia và đơn vị rõ
+- Có số giây dùng thực
+- Chi phí bỏ/thử nằm trong tử số
+- Chưa biến số ví dụ thành báo giá
+
+**Nếu gặp:** Dự toán rẻ nhưng hoàn tất phim vượt xa mức dự kiến.
+
+Có thể do: Đếm giây sinh thay giây dùng Bỏ take hỏng và công sửa Gộp shot dễ/khó vào mẫu không tương ứng
+
+Thử tiếp: Lấy một đoạn đã dựng, đối chiếu toàn job và công sửa phục vụ nó; cập nhật theo từng nhóm độ khó.
 **Nguồn đối chiếu:** [B007](../../bai-hoc/007-muoi-cong-cu-video-ai/README.md), [B022](../../bai-hoc/022-veo-tu-co-ban-den-quy-trinh/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/QC-005.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
@@ -487,3 +549,76 @@ Thử tiếp: Xếp lại các cảnh theo hậu quả nếu thất bại; thử
 **Nguồn đối chiếu:** [SRC-GOOGLE-I2V](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice), [SRC-YALE-EDIT](https://filmanalysis.yale.edu/editing/)
 
 [Bản JSON chuẩn](../kien-thuc/QC-009.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
+
+<a id="qc-010"></a>
+## QC-010 — Ổn định theo thời gian và đúng hành động là hai phép duyệt riêng
+
+**Phiên bản mục:** 1.3.0
+
+**Câu hỏi quyết định:** Clip đẹp từng frame có giữ được vật, trạng thái và hành động qua thời gian không?
+
+**Dùng khi:** Clip đẹp từng frame có giữ được vật, trạng thái và hành động qua thời gian không?
+
+**Nguyên lý thực hành:** Tách vẻ hình từng frame, ổn định nhận diện/nền, nhịp chuyển động và đúng quan hệ vật lý/hành động. Hình mượt vẫn có thể sai việc; hình gần đứng yên ít nhấp nháy vẫn có thể không thực hiện yêu cầu. Kiểm theo mục tiêu thật, không thay bằng một điểm tổng.
+
+**Cách làm:**
+
+1. Xem toàn clip ở tốc độ phát thật, đánh dấu mốc lỗi rồi mới rà frame quanh mốc. Ghi tệp, khoảng xem, vật mốc và mức ảnh hưởng; chưa xem thì để chưa kiểm.
+2. Rà theo nhóm: mặt/trang phục/số lượng; hình học/vân/nhãn; nền/bóng/phản chiếu; chuyển động/quỹ đạo/pha chạm; vật bị che rồi lộ và các biến đổi phải có tác nhân.
+3. So với yêu cầu hành động và sổ trạng thái, không chỉ độ giống hai frame. Phân biệt rung sáng có nguyên nhân với flicker vô cớ, chuyển động tự nhiên của vật liệu với vân bị trôi.
+4. Sau nội suy, upscale, ổn định, sửa vùng hoặc ghép, xem lại vùng biên và toàn clip liên quan. Sau đó dựng liền để kiểm điểm nối theo QC-001.
+5. Chọn sửa vùng, cắt, thay take hay tạo lại theo thông tin phải giữ; không giấu mất bằng chứng bắt buộc chỉ để hết nhìn thấy lỗi.
+
+**Đánh đổi:** Ưu tiên theo brief và lỗi ảnh hưởng trải nghiệm; không có ngưỡng điểm chung thay duyệt sản phẩm thực tế.
+
+**Kiểm tra:**
+
+- Số lượng/trạng thái không tự đổi khi che lộ
+- Hành động yêu cầu thực sự xảy ra theo thứ tự đúng
+- Không gọi rà ảnh mẫu là duyệt toàn chuyển động
+- Điểm benchmark nếu có ghi đúng công cụ/phạm vi, tách khỏi hài lòng khán giả
+
+**Ví dụ tự biên soạn:** Một hộp đi sau cánh tay rồi xuất hiện với khóa khác: frame đầu/cuối đều đẹp nhưng nhận diện không ổn định. Một take khác giữ hộp hoàn hảo nhưng không mở nắp cũng chưa đạt yêu cầu mở.
+
+**Phản ví dụ / giới hạn:** Hơi nước, lá, ánh phản chiếu và vật bị biến đổi có thể thay đổi hợp lý; không yêu cầu mọi pixel hoặc trạng thái đứng yên. Phim cách điệu áp quy luật đã chọn của nó.
+
+**Liên quan:** [EV-004](../kien-thuc/EV-004.json), [AI-010](../kien-thuc/AI-010.json), [DR-008](../kien-thuc/DR-008.json), [CO-004](../kien-thuc/CO-004.json), [MO-007](../kien-thuc/MO-007.json), [QC-001](../kien-thuc/QC-001.json), [AI-012](../kien-thuc/AI-012.json)
+
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Các chiều chất lượng độc lập giúp xác định đúng công đoạn sửa. Chọn theo brief rồi mới đo; kiểm thủ công này không phải đã chạy VBench.
+
+**Tình huống:** Clip giả định mở hộp có mặt đúng, chuyển động êm, nhưng vật bên trong tự nhân đôi khi nắp che khung.
+
+**Phần phải giữ:** Một hộp Một vật bên trong Hành động mở nắp Nhịp thời gian đã duyệt
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Thêm nhòe/nội suy cho mượt và chấm cao theo vẻ chung. |
+| B | Rà đoạn che lộ, đối chiếu số lượng/trạng thái rồi sửa take hoặc ghép có kiểm; xem lại hành động và bản dựng. |
+
+**Cách chọn:** Chọn B cho lỗi số lượng. Chỉ sửa độ mượt nếu đó cũng là lỗi được quan sát, không coi mượt là thay thế đúng vật.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Một vật trước/sau che lộ
+- Nắp mở thật
+- Không sinh lỗi mới quanh vùng sửa
+
+**Nếu gặp:** Clip được đánh giá đẹp/mượt nhưng không dùng được trong chuỗi.
+
+Có thể do: Tiêu chí chỉ nhìn từng ảnh Chưa tách nhận diện, vật lý và yêu cầu hành động
+
+Thử tiếp: Xem toàn take theo từng nhóm tiêu chí và đối chiếu sổ trạng thái; ghi khoảng lỗi trước khi chọn công đoạn sửa.
+
+**Phát biểu được đối chiếu:** VBench tách nhiều chiều gồm nhất quán chủ thể, nhấp nháy theo thời gian và chuyển động. Nguồn: [SRC-VBENCH](https://vchitect.github.io/VBench-project/).
+
+**Giới hạn nguồn:** Bộ rà thủ công của thư viện không phải kết quả chạy VBench hoặc chứng nhận cảm xúc.
+
+**Phát biểu được đối chiếu:** VBench-2.0 mở đánh giá sang vật lý, lẽ thường, cơ thể và khả năng điều khiển. Nguồn: [SRC-VBENCH-2](https://arxiv.org/abs/2503.21755v2).
+
+**Giới hạn nguồn:** Đã đọc tóm tắt, chưa triển khai bộ đo; không dùng kết quả benchmark làm chứng cứ mọi clip của một model đều đúng.
+**Nguồn đối chiếu:** [SRC-VBENCH](https://vchitect.github.io/VBench-project/), [SRC-VBENCH-2](https://arxiv.org/abs/2503.21755v2)
+
+[Bản JSON chuẩn](../kien-thuc/QC-010.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).

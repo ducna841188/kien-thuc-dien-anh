@@ -1,6 +1,6 @@
 # Bốn ca áp dụng từ mục tiêu đến quyết định
 
-FILM-KB 1.2.1. [Mục lục](../README.md) · [Bản dữ liệu ca](bon-ca-ra-quyet-dinh.json).
+FILM-KB 1.3.0. [Mục lục](../README.md) · [Bản dữ liệu ca](bon-ca-ra-quyet-dinh.json).
 
 Đây là các tình huống tự biên soạn để hướng dẫn sử dụng kho. Thời gian và kết quả dự kiến là thiết kế, chưa có video được tạo, thử công cụ hoặc phản hồi khán giả cho các ca này. Những phương án chưa được chọn vẫn có thể phù hợp một brief khác.
 
@@ -17,6 +17,25 @@ Tài liệu có một người thợ, ghế cũ, bước kiểm tra/chỉnh mố
 Quyết định mẫu: nếu brief chọn trải nghiệm yên, giữ mục tiêu đó. Cho thấy ghế chưa ổn, vài bước đổi trạng thái và hành động ngồi dùng; không tự thêm tai nạn. Cận được chọn khi làm rõ tiếp xúc, không áp tỷ lệ cận của một kênh. Không kéo mọi shot dài như nhau: giữ việc cần đọc và khoảng cảm nhận, nén phần lặp không có giá trị với lời hứa này.
 
 Nếu người xem thấy đẹp nhưng không nhận ra ghế đã tốt hơn, thử khung kiểm trước/sau tương đương và kết dùng thật. Chỉ tăng nhạc khi cấu trúc đã có biến chuyển cần hỗ trợ. Mã: [YT-008](../kien-thuc/YT-008.json), [ST-011](../kien-thuc/ST-011.json), [CA-001](../kien-thuc/CA-001.json), [ED-011](../kien-thuc/ED-011.json), [SO-011](../kien-thuc/SO-011.json).
+
+<!-- BEGIN GENERATED SCENE DESIGN -->
+
+### Phiếu cảnh tích hợp — CASE-01
+
+Bản xuất từ scene_design trong [dữ liệu ca](bon-ca-ra-quyet-dinh.json). Đây là thiết kế tự biên soạn, chưa thực hiện.
+
+| Quyết định | Cách triển khai |
+| --- | --- |
+| Giá trị và lời hứa | Một việc chăm chút đưa chiếc ghế trở lại đời sống; chọn lời hứa yên, không tai nạn. |
+| Trước nhịp | Chưa biết vì sao ghế chưa được dùng hoặc việc sửa có ích gì. |
+| Sau nhịp | Nhận ra ghế đã hoạt động và giá trị của việc sửa qua sử dụng. |
+| Tác nhân và bằng chứng | Lỗi mối ghép được thiết lập; thao tác sửa liên quan; thử sử dụng xác nhận kết. Đây là thiết kế hư cấu, chưa phải kết quả quay. |
+| Dàn cảnh và máy | Giữ mặt bằng người–ghế–dụng cụ; góc quan hệ đủ định hướng, chi tiết đúng chỗ tác động, khung kết thấy công năng. Không có bộ cỡ bắt buộc. |
+| Sáng, màu và vật liệu | Giữ cùng lý do nguồn và dấu gỗ qua góc; cho bóng/phản chiếu đổi hợp lý khi vật/máy đổi, không tự đổi vân để tạo tiến triển. |
+| Nhịp và âm | Âm việc làm dẫn; nhạc nếu có hỗ trợ. Giữ đủ pha tác động/kết quả, nén phần lặp theo lời hứa; không tăng tiếng chỉ vì chuyển cận. |
+| Kiểm | Duyệt take→chuỗi→toàn phim; kiểm vật và trạng thái, hỏi người mới kể trước–sau, tách sắc thái họ nhận ra và cảm xúc bản thân. Chưa đo thì ghi chưa kiểm. |
+
+<!-- END GENERATED SCENE DESIGN -->
 
 ## Ca 2 — Clip đặt thùng đẹp nhưng vật không có trọng lượng
 

@@ -1,7 +1,7 @@
 {
   "id": "AU-004",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "module_id": "AU",
   "title": "Cảm xúc là diễn biến nhiều biến",
   "level": "trung_cap",
@@ -11,12 +11,13 @@
   "use_when": [
     "Khi chỉ đạo cảm xúc hoặc lập bản đồ nhịp toàn phim."
   ],
-  "principle": "Tách cảm xúc nhân vật, ý đồ đạo diễn và phản ứng khán giả. Theo dõi mức kích thích, dễ chịu/khó chịu, chắc chắn và gần gũi bằng mô tả có căn cứ. Nếu dùng thang số, nêu đó là cường độ dự kiến hay tự báo, định nghĩa điểm neo và giữ các chiều khác nhau như tò mò, yên và buồn riêng khi cần.",
+  "principle": "Tách cảm xúc nhân vật, ý đồ đạo diễn, sắc thái người xem nhận ra và cảm xúc họ tự trải nghiệm. Theo dõi mức kích thích, dễ chịu/khó chịu, chắc chắn và gần gũi bằng mô tả có căn cứ. Nếu dùng thang số, nêu đó là cường độ dự kiến hay tự báo, định nghĩa điểm neo và giữ các chiều khác nhau như tò mò, yên và buồn riêng khi cần.",
   "actions": [
     "Ghi trạng thái mong muốn ở đầu, chỗ chuyển và cuối.",
     "Liên kết mỗi chuyển với thông tin/hành vi/hình/tiếng cụ thể.",
     "Đặt cách hỏi người xem và giữ khả năng phản ứng khác ý đồ.",
-    "Ghi mỗi thay đổi cảm xúc dự kiến kèm tác nhân và dấu hình/âm; phản hồi trái dự kiến đi vào dữ liệu, không sửa nhãn để ép khớp ý đồ."
+    "Ghi mỗi thay đổi cảm xúc dự kiến kèm tác nhân và dấu hình/âm; phản hồi trái dự kiến đi vào dữ liệu, không sửa nhãn để ép khớp ý đồ.",
+    "Tách thêm cảm xúc người xem nhận ra cảnh đang biểu đạt khỏi cảm xúc họ thực sự trải nghiệm. “Cảnh trông yên” và “tôi thấy yên” là hai câu trả lời khác nhau."
   ],
   "tradeoffs": [
     "Một điểm số cảm xúc dễ so nhưng có thể che nhiều trải nghiệm khác nhau."
@@ -24,7 +25,8 @@
   "verification": [
     "Không dùng một nụ cười để chứng nhận khán giả thư giãn.",
     "Các nhịp thay đổi có tác nhân đọc được; mức số nếu dùng phải có định nghĩa.",
-    "Đường cảm xúc không được báo là phản ứng khán giả khi chỉ do AI hoặc người làm phim chấm."
+    "Đường cảm xúc không được báo là phản ứng khán giả khi chỉ do AI hoặc người làm phim chấm.",
+    "Lời tự báo nêu rõ đang mô tả sắc thái tác phẩm hay trải nghiệm bản thân."
   ],
   "original_example": "Cảnh người lạ xuất hiện có thể tạo tò mò hoặc bất an; tiếng và bối cảnh quyết định cách đọc.",
   "counterexample": "Xanh lạnh có thể yên bình; vàng ấm có thể ngột ngạt trong hoàn cảnh khác.",
@@ -40,7 +42,8 @@
   ],
   "source_ids": [
     "B010",
-    "B021"
+    "B021",
+    "SRC-TENSION-MODEL"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -70,9 +73,15 @@
         "possible_causes": [
           "Trộn ý đồ, biểu cảm nhân vật và trải nghiệm người xem."
         ],
-        "next_test": "Tách ba lớp, đặt câu hỏi trung tính về đúng đoạn và giữ lời phản hồi gốc."
+        "next_test": "Tách nhân vật, ý đồ, sắc thái người xem nhận ra và cảm xúc họ tự trải nghiệm; hỏi trung tính và giữ cả phản hồi lệch dự kiến."
       }
     ],
-    "evidence_links": []
+    "evidence_links": [
+      {
+        "source_id": "SRC-TENSION-MODEL",
+        "claim": "Phần Measuring tension phân biệt perceived emotion và felt emotion, đồng thời nêu giới hạn khi liên hệ đánh giá liên tục với đúng mốc kích thích.",
+        "scope_limit": "Không suy một người thấy cảnh biểu đạt hồi hộp là họ đã cảm thấy hồi hộp; không cung cấp thang cảm xúc chuẩn cho kênh này."
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.2.1. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.3.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
@@ -50,3 +50,5 @@ Luôn đọc các đường dẫn hiện hành trên main. Sửa trực tiếp �
 manifest.version là bản thư viện hiện hành; version trong từng bản ghi là lần sửa mới nhất của mục đó. Một mục chưa đổi vẫn là mục hiện hành, không cần đọc thêm một tệp khác. Dẫn ID@version thực đọc khi cần truy nguyên. Nội dung trước sửa nằm trong lịch sử Git.
 
 Ngách đọc core hiện hành và kiểm các mã đang dùng; không tự đổi lựa chọn sáng tạo đã duyệt. Khi kiểm một phân tích lịch sử, dùng revision/checksum nguồn của nó và commit Git nếu cần tái hiện; không tạo lại bản sao cũ trong main.
+
+Khi phối hợp nhiều chuyên đề, dùng phiếu cảnh tích hợp trong chuẩn quyết định rồi chọn kênh dẫn và bằng chứng cần thấy. Duyệt theo ba quy mô take–chuỗi–toàn phim và tách clip mượt khỏi đúng hành động (QC-010). Phản hồi người xem phải tách sắc thái nhận ra khỏi cảm xúc tự trải nghiệm; khi triển khai YouTube, đọc YT-012 cho giá trị riêng và bản chất cảnh AI.

@@ -1,6 +1,6 @@
 # FILM-KB — Thư viện kiến thức làm phim cho AI
 
-Phiên bản **1.2.1**, ngày 18/10/2026. **130 mục thực hành · 13 chuyên đề · 10 hồ sơ nhịp–cảm xúc · 5 quy trình tác vụ · 137 thuật ngữ.**
+Phiên bản **1.3.0**, ngày 18/10/2026. **132 mục thực hành · 13 chuyên đề · 10 hồ sơ nhịp–cảm xúc · 5 quy trình tác vụ · 147 thuật ngữ.**
 
 Mỗi tài liệu chỉ có một bản hiện hành, được cập nhật tại chỗ. [Nhật ký thay đổi chung](CHANGELOG.md); lịch sử chi tiết dùng Git. Gói AI có đường dẫn cố định, luôn xuất từ JSON chuẩn mới nhất.
 

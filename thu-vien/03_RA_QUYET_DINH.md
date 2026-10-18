@@ -39,3 +39,20 @@ Tách ràng buộc bắt buộc khỏi ưu tiên. Phương án sai hành động
 Một phiếu quyết định dùng ngay gồm: câu hỏi; đầu vào/điều chưa biết; phần phải giữ; A và B; vì sao chọn; đánh đổi; thao tác tiếp theo; dấu hiệu kiểm; mã@phiên bản; trạng thái đề xuất/đã thử. Khi kết quả chưa phân định, giữ trạng thái đó và quyết định có cần thử tiếp hay có thể chọn theo mục tiêu.
 
 Chọn phép kiểm theo loại kết luận: xem hình/âm cho thực hiện, người xem phù hợp cho hiểu/cảm nhận, Analytics cho hành vi trong hoàn cảnh phân phối. Không dùng một phép đo để thay cả ba. Mã: QC-008, QC-009, YT-007. [Bốn ca hoàn chỉnh](vi-du/bon-ca-ra-quyet-dinh.md) minh họa cách chọn.
+
+## Phiếu thiết kế cảnh tích hợp
+
+Đừng bắt đầu bằng việc chọn đồng thời mọi thủ pháp đẹp. Đi theo quan hệ: người xem cần nhận gì → điều gì đổi → bằng chứng nào cho thấy → hình/âm nào làm đọc được → cách kiểm. Khi phân tích video nguồn, đây là giả thuyết về chức năng, không phải quyền sửa quan sát.
+
+| Câu hỏi cần chốt | Ghi ở đâu trong đầu ra hiện có |
+| --- | --- |
+| Giá trị và phần phải giữ? | promise/protected_elements của kịch bản; brief/protected_elements của quyết định |
+| Trước/sau nhịp, người xem được cung cấp gì? | information_change của beat; function/information_to_show của shot |
+| Nhân vật biết gì, người xem biết gì, lúc nào lộ? | visual/audio/speech của beat và nội dung shot; ST-006 |
+| Tác nhân và bằng chứng biến đổi? | start_state/action_contact_change/end_state của shot |
+| Dàn cảnh và bộ góc tối thiểu? | camera/composition_and_focus/continuity_in/continuity_out; DR-002, DR-006 |
+| Sáng, màu, chuyển động và âm phối hợp thế nào? | lighting_and_color/time_treatment/audio; chỉ rõ kênh dẫn và lớp hỗ trợ |
+| Chỗ nào giữ, nén, lược hoặc chừa dư? | duration_target_seconds/generation_unit/continuity; thời lượng còn là mục tiêu đến khi thử |
+| Điều gì sẽ được kiểm và bằng chứng nào đủ? | acceptance_checks của kế hoạch/quyết định; tách thực hiện, hiểu, sắc thái nhận ra và cảm xúc tự trải nghiệm |
+
+Tên trường trên thuộc các schema khác nhau; dùng đúng schema của tác vụ, không chép tất cả thành trường mới trong một JSON. [Ca chiếc ghế](vi-du/bon-ca-ra-quyet-dinh.md) có phiếu điền cụ thể; [kế hoạch bốn shot](mau/danh-sach-shot.json) khớp [kịch bản](mau/kich-ban.json) và [ví dụ phân tích giả lập](vi-du/phan-tich-gia-lap.json). Tất cả là thiết kế, chưa có kết quả tạo hoặc người xem.

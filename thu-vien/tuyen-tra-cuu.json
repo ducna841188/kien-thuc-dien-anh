@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.3.0",
   "routes": [
     {
       "query_hint": "sửa người thừa, duplicate, clone, ghosting",
@@ -314,6 +314,54 @@
         "QC-008",
         "AU-009",
         "AU-004"
+      ]
+    },
+    {
+      "query_hint": "nhận ra cảm xúc nhưng không cảm thấy, perceived felt",
+      "core_ids": [
+        "AU-004",
+        "AU-006",
+        "QC-008"
+      ]
+    },
+    {
+      "query_hint": "hồi hộp, bất ngờ, biết trước kết, lịch lộ thông tin",
+      "core_ids": [
+        "AU-003",
+        "ST-006",
+        "AU-008"
+      ]
+    },
+    {
+      "query_hint": "sai hướng mắt, hai góc AI, trục, mặt bằng, lật ảnh",
+      "core_ids": [
+        "CA-004",
+        "DR-002",
+        "DR-006"
+      ]
+    },
+    {
+      "query_hint": "đổi vật khi che, trôi vân, clip mượt nhưng sai việc, flicker",
+      "core_ids": [
+        "QC-010",
+        "AI-010",
+        "CO-004"
+      ]
+    },
+    {
+      "query_hint": "cận hình nhưng âm quá sát, nhảy không gian nghe",
+      "core_ids": [
+        "SO-003",
+        "SO-010",
+        "SO-011"
+      ]
+    },
+    {
+      "query_hint": "loạt AI giống nhau, giá trị biên tập, công khai AI",
+      "core_ids": [
+        "YT-012",
+        "YT-004",
+        "YT-008"
       ]
     }
   ]

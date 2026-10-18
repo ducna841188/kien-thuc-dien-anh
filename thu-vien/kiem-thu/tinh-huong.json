@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "status": "test_cases_prepared_not_cross_model_evaluated",
   "cases": [
     {
@@ -552,6 +552,119 @@
       "core_ids": [
         "QC-004",
         "QC-006"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T41",
+      "task": "analyze_video",
+      "input": "Người thử nói cảnh trông bình yên nhưng bản thân thấy buồn. Hãy tính đó là đã thư giãn.",
+      "must_do": [
+        "Tách sắc thái được nhận ra và cảm xúc tự trải nghiệm.",
+        "Giữ lời gốc và điều kiện xem; không suy bệnh lý hoặc thành công cảm xúc."
+      ],
+      "core_ids": [
+        "AU-004",
+        "AU-006"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T42",
+      "task": "write_script",
+      "input": "Người xem đã biết món đồ trong hộp ở cuối sẽ được sửa xong; vậy phải giấu kết bằng mọi giá mới giữ được mong chờ.",
+      "must_do": [
+        "Nêu có thể chờ cách làm, thời điểm hoặc ý nghĩa sử dụng.",
+        "Chọn lịch lộ tin theo lời hứa; không bảo đảm giữ chân."
+      ],
+      "core_ids": [
+        "AU-003",
+        "ST-006"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T43",
+      "task": "design_shots",
+      "input": "Hai nhân vật đối diện có hai cận AI cùng hướng mắt. Chỉ lật một ảnh, dù áo có chữ và tay trao đã chốt.",
+      "must_do": [
+        "Kiểm mặt bằng, bên máy và đích nhìn.",
+        "Giữ chữ, tay và vật; cân nhắc tạo đúng góc hoặc tái định hướng thay lật mù."
+      ],
+      "core_ids": [
+        "CA-004",
+        "DR-002"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T44",
+      "task": "diagnose_and_repair",
+      "input": "Clip rất mượt và ít nhấp nháy nhưng nhân vật không thực hiện động tác mở nắp theo yêu cầu.",
+      "must_do": [
+        "Tách ổn định hình với đúng hành động.",
+        "Kiểm trạng thái đầu, diễn tiến và cuối; sửa đúng hành động, không chỉ thêm nội suy."
+      ],
+      "core_ids": [
+        "QC-010",
+        "AI-003",
+        "MO-007"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T45",
+      "task": "write_generation_prompts",
+      "input": "Hộp bị tay che rồi trở lại với hai khóa thay vì một; hãy khóa mọi pixel đứng yên để sửa.",
+      "must_do": [
+        "Giữ nhận diện và trạng thái khi che lộ.",
+        "Cho phần vật liệu/chuyển động hợp lý thay đổi; không biến clip thành ảnh đứng hoặc hứa prompt bảo đảm."
+      ],
+      "core_ids": [
+        "QC-010",
+        "AI-010",
+        "CO-004"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T46",
+      "task": "design_shots",
+      "input": "Ví dụ giá giả định: 10 job, mỗi job 5 giây và 5 đơn vị/job; dựng dùng 20 giây riêng biệt. Hãy báo chi phí tạo mỗi giây thành phẩm.",
+      "must_do": [
+        "Tính 50/20 = 2,5 đơn vị/giây dùng thực trước phần chi phí chưa tính.",
+        "Không báo đây là giá thị trường hoặc ngoại suy chắc chắn cả phim."
+      ],
+      "core_ids": [
+        "QC-005"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T47",
+      "task": "write_script",
+      "input": "Loạt phim AI không thoại dùng cùng nhân vật/sân nhà; tập mới chỉ thay táo thành lê trong cùng một tình huống và kết.",
+      "must_do": [
+        "Giữ quyết định không thoại và thế giới đã duyệt.",
+        "Đề xuất giá trị/câu hỏi/diễn tiến riêng thay thay bề mặt; không buộc thêm giật gân."
+      ],
+      "core_ids": [
+        "YT-012",
+        "YT-004",
+        "ST-010"
+      ],
+      "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
+    },
+    {
+      "id": "T48",
+      "task": "write_generation_prompts",
+      "input": "Bật nhãn AI nghĩa là video sẽ mất phân phối hoặc chắc chắn được duyệt kiếm tiền nếu vẫn có view.",
+      "must_do": [
+        "Tách công khai AI, giá trị/nguyên bản và kết quả xét duyệt.",
+        "Đọc nguồn YouTube hiện hành theo loại nội dung; không hứa hoặc kết luận về tài khoản chưa kiểm."
+      ],
+      "core_ids": [
+        "YT-012"
       ],
       "rubric": "0: sai/thiếu điều cốt lõi; 1: đúng một phần; 2: đủ điều cốt lõi và áp dụng cụ thể. Không tính là đạt nếu bịa bằng chứng."
     }

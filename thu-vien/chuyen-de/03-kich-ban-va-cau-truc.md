@@ -1,6 +1,6 @@
 # ST — Kịch bản và cấu trúc
 
-Phiên bản 1.2.1. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
+Phiên bản 1.3.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -24,7 +24,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="st-001"></a>
 ## ST-001 — Chủ đề, lời hứa và trục thay đổi
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Phim này đưa người xem đi qua điều gì?
 
@@ -37,6 +37,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 1. Viết một câu về giá trị và thay đổi chính.
 2. Liệt kê phần bắt đầu, các bước cần trải qua và trạng thái kết.
 3. Rà từng đoạn theo việc nó đóng góp vào trục ấy.
+4. Tách chủ đề (nói về gì), diễn tiến (việc gì xảy ra) và góc nhìn của phim (chọn quan tâm điều gì, qua bằng chứng nào). Một chủ đề rộng chưa là một ý tưởng tập.
+5. Nếu không có biến cố lớn, chọn trục trải nghiệm: quan sát thay đổi vật liệu, khám phá một nơi hoặc đồng hành một công việc. Rà phần nào cần tồn tại ngay cả khi bỏ nhạc.
 
 **Đánh đổi:** Trục quá chặt có thể làm mất khoảnh khắc quan sát có giá trị; chừa chỗ có lý do.
 
@@ -49,8 +51,35 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 **Phản ví dụ / giới hạn:** Phim trải nghiệm có thể không có nhân vật theo đuổi mục tiêu, nhưng vẫn cần cách tổ chức sự chú ý.
 
-**Liên quan:** [AU-001](../kien-thuc/AU-001.json), [ST-005](../kien-thuc/ST-005.json), [YT-001](../kien-thuc/YT-001.json)
+**Liên quan:** [AU-001](../kien-thuc/AU-001.json), [ST-005](../kien-thuc/ST-005.json), [YT-001](../kien-thuc/YT-001.json), [YT-008](../kien-thuc/YT-008.json), [ST-011](../kien-thuc/ST-011.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Trục tổ chức giúp chọn và bỏ cảnh. Lập trường của phim có thể hiện trong điều được quan sát và cách kết, không cần nói một bài học thành lời.
+
+**Tình huống:** Tư liệu giả định có sửa ghế, lau sân và bữa ăn. Brief muốn kể giá trị của việc chăm chút một chỗ ngồi.
+
+**Phần phải giữ:** Không thoại Công việc sửa ghế Không dựng một sự cố không có trong tài liệu
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Xếp ba việc theo thứ tự quay, mỗi việc cùng thời lượng. |
+| B | Giữ lau sân nếu nó thiết lập nơi chiếc ghế sẽ được dùng; cho sửa ghế tiến triển và kết bằng chỗ ngồi hoạt động trở lại. |
+
+**Cách chọn:** Chọn B khi muốn một trục chăm sóc/tiếp đón. A có thể hợp nhật ký quan sát nếu đó mới là lời hứa đã chốt.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Nêu được vai trò từng đoạn
+- Kết xác nhận cùng giá trị đã mở
+- Không bịa người nhận hay sự kiện như đã quay
+
+**Nếu gặp:** Đủ nhiều cảnh đẹp nhưng không biết vì sao cần xem chúng cùng một phim.
+
+Có thể do: Mới chọn chủ đề, chưa chọn giá trị hoặc quan hệ tổ chức
+
+Thử tiếp: Viết một câu trục và thử bỏ từng đoạn; nếu nghĩa/trải nghiệm không đổi, xem lại chức năng của đoạn đó.
 **Nguồn đối chiếu:** [B002](../../bai-hoc/002-prompt-cau-truc/README.md), [B017](../../bai-hoc/017-mini-story-ba-nhip/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/ST-001.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
@@ -252,7 +281,7 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 <a id="st-006"></a>
 ## ST-006 — Điểm nhìn và phân phối thông tin
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Người xem biết nhiều hơn, ít hơn hay cùng nhân vật?
 
@@ -262,9 +291,10 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 
 **Cách làm:**
 
-1. Lập cột thông tin nhân vật biết và khán giả biết.
-2. Chọn thời điểm lộ mỗi thông tin.
-3. Kiểm tra nguồn thông tin có hợp lý với thế giới và cách kể.
+1. Lập cột: sự thật trong thế giới truyện, từng nhân vật biết gì, người xem đã được cung cấp gì, người xem có thể suy gì. Khi phân tích nguồn, suy luận vẫn là diễn giải.
+2. Chọn mốc lộ một thông tin và kênh lộ: hành động, vật, lời, âm hoặc quan hệ dựng. Ghi sự kiện nào làm người/khán giả phải cập nhật hiểu biết.
+3. Thử cùng một tình huống ở ba lịch lộ tin: khán giả biết trước nhân vật, cùng phát hiện, hoặc biết sau. Nêu thứ được và mất về mong chờ, đồng hành, bất ngờ.
+4. Kiểm điều kiện nguồn/điểm nhìn. Trong phim sự thật, một cut hoặc tiếng thêm không xác nhận hai sự kiện đã liên quan trong đời thực.
 
 **Đánh đổi:** Giữ bí mật quá lâu làm khó hiểu; biết trước quá nhiều có thể giảm bất ngờ nhưng tăng mong chờ.
 
@@ -277,9 +307,36 @@ Thử tiếp: Gộp các dòng không đổi thông tin/trạng thái và kiểm
 
 **Phản ví dụ / giới hạn:** Phim quy trình có thể cho thấy thành phẩm trước để mời xem cách làm thay vì giấu kết quả.
 
-**Liên quan:** [CA-008](../kien-thuc/CA-008.json), [SO-003](../kien-thuc/SO-003.json), [AU-003](../kien-thuc/AU-003.json)
+**Liên quan:** [CA-006](../kien-thuc/CA-006.json), [SO-003](../kien-thuc/SO-003.json), [AU-003](../kien-thuc/AU-003.json), [AU-008](../kien-thuc/AU-008.json), [ED-005](../kien-thuc/ED-005.json)
 
-**Nguồn đối chiếu:** [B005](../../bai-hoc/005-bay-cu-may/README.md), [B021](../../bai-hoc/021-lam-chu-cam-xuc/README.md)
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Điểm nhìn là quyền tiếp cận thông tin theo thời gian, không chỉ vị trí máy. Cùng hành động có thể mang chức năng khác khi đổi lịch người xem biết nó.
+
+**Tình huống:** Cảnh hư cấu một người đi tìm chiếc chìa khóa đang ở dưới khăn, cuối cùng tìm được.
+
+**Phần phải giữ:** Cùng vị trí chìa khóa Cùng hành động tìm và kết Không giả đây là dữ liệu quay thật
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Cho người xem thấy chìa khóa trước khi nhân vật tìm: theo dõi lúc họ nhận ra. |
+| B | Chỉ cho thấy chìa khóa lúc nhân vật lật khăn: chia sẻ khám phá. |
+
+**Cách chọn:** Chọn theo trải nghiệm đã chốt; không tự gán độ hiệu quả từ cùng một bộ hình. Mốc lộ phải còn đủ thời gian được nhận ra.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Phân biệt sự thật truyện với thông tin đã lộ
+- Gắn mỗi mốc lộ với một dấu hình/âm
+- Người xem mới hiểu đủ mục tiêu trước khi chờ
+
+**Nếu gặp:** Có nhiều cận bí ẩn nhưng người xem không biết nhân vật đang làm gì.
+
+Có thể do: Giấu cả mục tiêu Lộ chi tiết trước khi có ngữ cảnh để nhận nó
+
+Thử tiếp: Thử một bản cho rõ nhiệm vụ sớm hơn, giữ bí mật đáp án; đối chiếu điều người mới kể lại.
+**Nguồn đối chiếu:** [B005](../../bai-hoc/005-bay-cu-may/README.md), [B021](../../bai-hoc/021-lam-chu-cam-xuc/README.md), [SRC-YALE-EDIT](https://filmanalysis.yale.edu/editing/)
 
 [Bản JSON chuẩn](../kien-thuc/ST-006.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 

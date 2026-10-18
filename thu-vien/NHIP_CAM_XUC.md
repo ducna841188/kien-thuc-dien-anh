@@ -14,7 +14,7 @@ Giảm nhu cầu phải đoán nhưng vẫn có tiến triển dễ nhận.
 | Dựng/nhịp | Lược lặp, giữ tiếp xúc và kết quả; độ dài theo lượng thông tin, không đặt số giây chung. |
 | Âm | Âm nền nhất quán, tiếng chính không giật; nhạc thưa nếu có ích. |
 | Nguy cơ phản tác dụng | Kéo chậm mọi thứ có thể gây chán hoặc làm người xem bối rối lâu hơn. |
-| Kiểm với người xem | Hỏi đoạn nào dễ theo, đoạn nào phải tìm hiểu lại; tách thư giãn khỏi buồn ngủ/buồn. |
+| Kiểm với người xem | Hỏi người xem đã theo việc gì và tự cảm thấy gì; tách nhận ra cảnh biểu đạt bình yên khỏi thực sự thấy yên, buồn ngủ hoặc buồn. |
 
 Mã liên quan: [AU-001](kien-thuc/AU-001.json), [AU-005](kien-thuc/AU-005.json), [ED-001](kien-thuc/ED-001.json), [SO-005](kien-thuc/SO-005.json), [SO-006](kien-thuc/SO-006.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
@@ -46,7 +46,7 @@ Cho người xem nhận ra sự chú ý và đáp lại giữa các chủ thể.
 | Dựng/nhịp | Chừa nhịp nhận và đáp, tránh chỉ trình diễn người cho. |
 | Âm | Khoảng cách âm phù hợp; lời/tiếng cười nếu có không lấn hết đời sống. |
 | Nguy cơ phản tác dụng | Cười liên tục hoặc nhạc ép cảm động có thể tạo cảm giác dàn dựng. |
-| Kiểm với người xem | Hỏi khán giả đọc được quan hệ nào; ghi cả ấm áp, hoài niệm và buồn nếu xuất hiện. |
+| Kiểm với người xem | Hỏi họ đọc được quan hệ nào trước, sau đó hỏi riêng cảm xúc bản thân; nhận ra sự ấm áp không đồng nghĩa tự thấy dễ chịu. |
 
 Mã liên quan: [DR-003](kien-thuc/DR-003.json), [DR-004](kien-thuc/DR-004.json), [CA-006](kien-thuc/CA-006.json), [SO-006](kien-thuc/SO-006.json), [AU-006](kien-thuc/AU-006.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
 
@@ -56,15 +56,15 @@ Cho biết điều có thể xảy ra và trì hoãn có tiến triển.
 
 | Thành phần | Lựa chọn để thử |
 | --- | --- |
-| Thông tin/câu chuyện | Thiết lập mục tiêu, nguy cơ hoặc điều kiện thành/bại rõ. |
+| Thông tin/câu chuyện | Thiết lập điều đáng quan tâm và điều đang chờ: có thể là kết quả, cách, thời điểm hoặc phản ứng, không chỉ giấu đáp án. Chọn lượng tin so với nhân vật. |
 | Hình/máy | Chọn lượng thông tin người xem biết so với nhân vật; có thể dùng phần ngoài khung. |
 | Sáng/màu | Tách thông tin quan trọng; bóng tối chỉ dùng khi vẫn đủ hiểu. |
 | Dựng/nhịp | Thay độ chờ và mật độ sự kiện theo tiến độ; không chỉ cắt nhanh. |
 | Âm | Nguồn âm, khoảng lặng hoặc nhịp đều có thể làm mốc chờ. |
 | Nguy cơ phản tác dụng | Nguy cơ không được thiết lập khiến giữ lâu thành trống; giật âm không tự tạo hồi hộp. |
-| Kiểm với người xem | Người xem nhận biết đang chờ điều gì, vì sao quan trọng và lúc được giải quyết. |
+| Kiểm với người xem | Hỏi đang chờ gì, vì sao đáng chờ; phân biệt nhận ra ý đồ hồi hộp với mức hồi hộp thật tự báo. |
 
-Mã liên quan: [ST-002](kien-thuc/ST-002.json), [ST-006](kien-thuc/ST-006.json), [ED-005](kien-thuc/ED-005.json), [SO-003](kien-thuc/SO-003.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
+Mã liên quan: [ST-002](kien-thuc/ST-002.json), [ST-006](kien-thuc/ST-006.json), [ED-005](kien-thuc/ED-005.json), [SO-003](kien-thuc/SO-003.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json), [AU-003](kien-thuc/AU-003.json)
 
 ## EMO-005 — Khẩn trương, năng lượng
 
@@ -109,10 +109,10 @@ Làm thay đổi và dấu hoàn thành dễ nhận.
 | Sáng/màu | Màu/chất liệu làm trạng thái trước–sau đọc được. |
 | Dựng/nhịp | Nén phần lặp, giữ dấu hoàn tất và lúc kết quả được dùng/nhận. |
 | Âm | Tiếng tiếp xúc gắn đúng sự kiện, có nhịp kết tự nhiên. |
-| Nguy cơ phản tác dụng | Thành phẩm xuất hiện vô cớ hoặc lược mất nguyên nhân làm giảm cảm giác đã hoàn thành. |
+| Nguy cơ phản tác dụng | Thành phẩm xuất hiện vô cớ, vật tự đổi khi che lộ hoặc lược mất nguyên nhân làm việc hoàn tất khó tin. |
 | Kiểm với người xem | Người xem nói được việc gì đã xong và dấu nào cho biết điều đó. |
 
-Mã liên quan: [ST-004](kien-thuc/ST-004.json), [AI-003](kien-thuc/AI-003.json), [CO-004](kien-thuc/CO-004.json), [ED-004](kien-thuc/ED-004.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json)
+Mã liên quan: [ST-004](kien-thuc/ST-004.json), [AI-003](kien-thuc/AI-003.json), [CO-004](kien-thuc/CO-004.json), [ED-004](kien-thuc/ED-004.json), [AU-009](kien-thuc/AU-009.json), [QC-008](kien-thuc/QC-008.json), [QC-010](kien-thuc/QC-010.json)
 
 ## EMO-008 — Trầm lắng, hoài niệm
 

@@ -1,6 +1,6 @@
 # DR — Đạo diễn, diễn xuất và dàn cảnh
 
-Phiên bản 1.2.1. Tổ chức người, vật, không gian và hành vi có mục tiêu.
+Phiên bản 1.3.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -81,7 +81,7 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 <a id="dr-002"></a>
 ## DR-002 — Dàn cảnh người–vật–không gian
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Bố trí nào làm quan hệ và hành động dễ đọc?
 
@@ -94,6 +94,8 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 1. Vẽ vị trí đầu, đích đến, lối đi và vật cần chạm.
 2. Kiểm tay thuận, tầm với, vật che và khoảng thao tác.
 3. Đặt máy để thấy thông tin quan trọng hoặc chủ động giấu có lý do.
+4. Lập chuỗi mốc dàn cảnh trước khi tạo góc: vị trí đầu, nơi chủ thể nhận thông tin, vị trí chạm, điểm nhường/che và vị trí cuối. Ghi hướng nhìn khác với hướng đầu hoặc thân.
+5. Khi dùng AI tạo các góc riêng, dùng cùng mặt bằng/vật mốc và trạng thái; không để mỗi ảnh cảnh đẹp tự dựng lại cửa, bàn và đường đi.
 
 **Đánh đổi:** Bố trí tối ưu cho một góc có thể khó nối góc khác; cần kế hoạch vùng quay.
 
@@ -106,8 +108,35 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 
 **Phản ví dụ / giới hạn:** Một cảnh muốn tạo cảm giác bị cản có thể chủ động che một phần nhưng vẫn cần điều khiển thông tin.
 
-**Liên quan:** [CA-004](../kien-thuc/CA-004.json), [CA-006](../kien-thuc/CA-006.json), [AI-002](../kien-thuc/AI-002.json)
+**Liên quan:** [CA-004](../kien-thuc/CA-004.json), [CA-006](../kien-thuc/CA-006.json), [AI-002](../kien-thuc/AI-002.json), [AI-010](../kien-thuc/AI-010.json), [AI-011](../kien-thuc/AI-011.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Dàn cảnh phân phối hành động và thông tin trước khi chọn cỡ máy; một khung đẹp có thể làm nhiệm vụ quan trọng bị che hoặc không thực hiện được.
+
+**Tình huống:** Một người chuyển hộp từ kệ xuống bàn, mở nắp và đọc thứ bên trong.
+
+**Phần phải giữ:** Một người Vị trí kệ/bàn/cửa Hộp phải có điểm đỡ khi mở
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Đặt bàn sát kệ theo ảnh đẹp nhất dù không còn khoảng hạ hộp và nắp chắn mặt. |
+| B | Chọn đường đi đủ thao tác, vị trí đặt và chiều mở; đặt máy thấy đúng việc hoặc giấu có mục đích. |
+
+**Cách chọn:** Chọn B cho tiến trình cần đọc. Nếu muốn bị cản/giấu, ghi điều vẫn phải hiểu và thử trước bằng bản sơ.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Có không gian cho hộp và nắp
+- Tác nhân nhận biết xuất hiện trước phản ứng
+- Các góc giữ cùng mặt bằng
+
+**Nếu gặp:** Nhân vật phải xuyên vật hoặc đổi tay bất khả thi khi bắt đầu hành động.
+
+Có thể do: Ảnh đầu ưu tiên bố cục nhưng thiếu không gian thao tác
+
+Thử tiếp: Diễn lại sơ đồ bằng các trạng thái phác trước khi tăng ràng buộc prompt.
 **Nguồn đối chiếu:** [SRC-ASC-KAUFMAN](https://theasc.com/article/filming-12-angry-men/), [B015](../../bai-hoc/015-logic-chuyen-dong-vat-ly/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/DR-002.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
@@ -217,7 +246,7 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 <a id="dr-006"></a>
 ## DR-006 — Thiết kế đủ góc để dựng và phương án tiết kiệm
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Cần những bằng chứng hình nào để cảnh dựng được?
 
@@ -230,6 +259,8 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 1. Bắt đầu bằng góc thấy quan hệ chính.
 2. Bổ sung chi tiết, phản ứng và trạng thái kết cần thiết.
 3. Lập phương án tối thiểu và góc dự phòng cho lỗi dễ xảy ra.
+4. Lập bộ góc từ bằng chứng cần dựng: quan hệ không gian, biến đổi then chốt, phản ứng hoặc công năng kết quả. Mỗi góc nhận một nhiệm vụ; không mặc định toàn–trung–cận cho mọi nhịp.
+5. Dự kiến điểm cắt và khoảng dư đầu/cuối take để còn chọn nhịp; độ dư theo hành động và công cụ. Tách độ dài job phải tạo khỏi số giây thật dùng trong phim.
 
 **Đánh đổi:** Nhiều góc tăng lựa chọn nhưng tốn thời gian và dễ lệch liên tục.
 
@@ -242,8 +273,35 @@ Thử tiếp: Giảm chỉ dẫn nét mặt, giữ một mục tiêu và hành �
 
 **Phản ví dụ / giới hạn:** Một cú máy liên tục có thể đủ; không phải lúc nào cắt nhiều cũng dễ hiểu hơn.
 
-**Liên quan:** [ED-003](../kien-thuc/ED-003.json), [AI-004](../kien-thuc/AI-004.json), [QC-001](../kien-thuc/QC-001.json)
+**Liên quan:** [ED-003](../kien-thuc/ED-003.json), [AI-004](../kien-thuc/AI-004.json), [QC-001](../kien-thuc/QC-001.json), [AI-009](../kien-thuc/AI-009.json), [QC-005](../kien-thuc/QC-005.json), [ED-010](../kien-thuc/ED-010.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Coverage hữu ích khi nó giữ được thông tin và lựa chọn dựng đúng chỗ rủi ro; nhiều góc tương đương không bù góc thiếu bằng chứng quyết định.
+
+**Tình huống:** Phim êm về lắp một chốt cửa cần thấy chốt giữ được cửa sau lắp.
+
+**Phần phải giữ:** Hành động/công năng thật của chốt Không thoại Nhịp nhẹ
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Tạo nhiều góc đẹp của mặt cửa và tay nhưng không thấy điểm giữ hoặc thử đóng. |
+| B | Dùng một góc đọc quan hệ, một góc thấy lắp/chạm nếu cần, và một mốc thử sử dụng; thử bản dựng ảnh trước. |
+
+**Cách chọn:** Chọn B nếu A không chứng minh công năng. Một góc đủ cả ba nhiệm vụ có thể thay nhiều góc nếu vẫn đọc được.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Bộ tối thiểu dựng hiểu việc
+- Có khoảng chọn điểm cắt
+- Góc dự phòng xử lý đúng một nguy cơ
+
+**Nếu gặp:** Có nhiều take nhưng không có chỗ nối hoặc dấu hoàn tất.
+
+Có thể do: Chọn góc theo vẻ riêng, chưa theo chức năng chuỗi
+
+Thử tiếp: Dựng bộ tối thiểu với âm tạm, đánh dấu đúng bằng chứng thiếu rồi tạo bổ sung thay vì phủ kín mọi cỡ.
 **Nguồn đối chiếu:** [B012](../../bai-hoc/012-cau-truc-camera/README.md), [B013](../../bai-hoc/013-tach-shot-hoi-thoai/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
 
 [Bản JSON chuẩn](../kien-thuc/DR-006.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "id": "GENREQUEST-SYN-001",
-  "core_version": "1.2.1",
+  "core_version": "1.3.0",
   "shot_ids": [
     "PLAN-SHOT-001"
   ],

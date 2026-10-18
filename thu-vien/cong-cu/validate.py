@@ -291,10 +291,21 @@ def run(farm_root=None):
  cards=[load(p) for p in card_paths];ids={x['id'] for x in cards};cardmap={c['id']:c for c in cards}
  assert len(ids)==len(cards)
  sources=load(ROOT/'nguon/nguon-chinh-thuc.json')['sources'];sourceids={x['id'] for x in sources}
+ assert len(sourceids)==len(sources),'duplicate source ID'
  audit=load(ROOT/'nguon/kiem-toan-33-bai.json');sourceids|={x['lesson_id'] for x in audit['lessons']}
  assert len(audit['lessons'])==33
  errors=[]
  expected=load(ROOT/'manifest.json');index=load(ROOT/'muc-luc.json')
+ terms=load(ROOT/'tu-dien-thuat-ngu.json')['terms']
+ termkeys=[unicodedata.normalize('NFC',t['term']).strip().casefold() for t in terms]
+ if len(termkeys)!=len(set(termkeys)):errors.append('duplicate glossary term')
+ if len(terms)!=expected['glossary_term_count']:errors.append('manifest glossary count')
+ if sum('application_depth' in c for c in cards)!=expected['application_depth_card_count']:errors.append('manifest application depth count')
+ cases=load(ROOT/'kiem-thu/tinh-huong.json')['cases']
+ if len(cases)!=expected['ai_evaluation_case_count'] or len({c['id'] for c in cases})!=len(cases):errors.append('AI evaluation case inventory mismatch')
+ design=load(ROOT/'vi-du/bon-ca-ra-quyet-dinh.json')['cases'][0]['scene_design']
+ design_view=(ROOT/'vi-du/bon-ca-ra-quyet-dinh.md').read_text()
+ if not all(v in design_view for v in design.values()):errors.append('stale integrated scene design view')
  if index['version']!=expected['version']:errors.append('catalog release version is stale')
  if len(index['items'])!=len(cards) or {x['id'] for x in index['items']}!=ids:errors.append('catalog does not map canonical cards exactly once')
  modules={m['id']:m for m in index['modules']}
@@ -385,6 +396,7 @@ def run(farm_root=None):
   'version':expected['version'],'storage_mode':'in_place_latest','farm_files_checked':farm_files,'farm_current_core_version_checked':farm_version,
   'single_current_copy_policy_valid':True,'knowledge_contract_tests':contract_tests,'scoped_evidence_fixture_tests':scoped,
   'catalog_matches_canonical':True,'current_decision_references_valid':True,
+  'integrated_scene_design_matches':True,'inventory_counts_valid':True,
   'package_checksums_valid':True,'canonical_jsonl_matches':True,
   'generated_video_tests':0,'external_model_evaluations':0,
   'scope':'Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.'}

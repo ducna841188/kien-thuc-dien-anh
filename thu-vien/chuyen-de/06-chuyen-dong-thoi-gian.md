@@ -1,6 +1,6 @@
 # MO — Chuyển động và thời gian
 
-Phiên bản 1.2.1. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
+Phiên bản 1.3.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -251,7 +251,7 @@ Thử tiếp: So bản sửa với danh sách phải giữ trước khi đánh g
 <a id="mo-007"></a>
 ## MO-007 — Tốc độ khung, thời gian phơi sáng và nhòe chuyển động
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Độ nhòe và cách chuyển động được lấy mẫu có phù hợp ý đồ không?
 
@@ -264,6 +264,7 @@ Thử tiếp: So bản sửa với danh sách phải giữ trước khi đánh g
 1. Chọn fps theo trải nghiệm chuyển động và quy trình phát; phân biệt quay tốc độ cao rồi phát chậm với đổi nhãn fps hoặc nội suy.
 2. Với quay thật cân độ nhòe với tốc độ chủ thể/lia máy, phơi sáng và điều kiện đèn. Với AI kiểm fps tệp và nhòe thực, tách mô tả hình khỏi thiết lập mà dịch vụ thật hỗ trợ.
 3. Khi đổi fps trong dựng, ghi cách xử lý: bỏ/lặp frame, nội suy hay đổi tốc độ. Duyệt chuyển động sau xuất, không chỉ xem timeline.
+4. Kiểm riêng trước và sau nội suy/ổn định/đổi tốc: pha tiếp xúc, hình học tay/vật và nhịp dừng có còn đúng không. Chuyển động êm hơn không tự là hành động đúng hơn.
 
 **Đánh đổi:** Phơi ngắn làm rõ pha nhanh nhưng có thể cho cảm giác giật; phơi dài làm mềm chuyển động nhưng có thể mất chi tiết tiếp xúc.
 
@@ -271,12 +272,13 @@ Thử tiếp: So bản sửa với danh sách phải giữ trước khi đánh g
 
 - Không coi 24 fps hoặc 180° là bằng chứng chất lượng tự động.
 - Không lấy upscale/nội suy làm bằng chứng phục hồi chuyển động thật.
+- Bản xử lý không tạo frame trung gian làm đổi thứ tự chạm–nhả hoặc nhân đôi vật.
 
 **Ví dụ tự biên soạn:** Động tác xoay bánh nhanh bị nhòe đến mất chốt: thử giảm độ nhòe hoặc giảm tốc hành động; vẫn giữ nhịp câu chuyện đã chọn.
 
 **Phản ví dụ / giới hạn:** Ghi “1/48s” trong prompt không xác nhận model dùng thời gian phơi thật; 60 fps phát bình thường không tự là slow motion.
 
-**Liên quan:** [MO-005](../kien-thuc/MO-005.json), [MO-006](../kien-thuc/MO-006.json), [LI-007](../kien-thuc/LI-007.json), [QC-001](../kien-thuc/QC-001.json)
+**Liên quan:** [MO-005](../kien-thuc/MO-005.json), [MO-006](../kien-thuc/MO-006.json), [LI-007](../kien-thuc/LI-007.json), [QC-001](../kien-thuc/QC-001.json), [QC-010](../kien-thuc/QC-010.json), [DR-008](../kien-thuc/DR-008.json)
 
 
 ### Áp dụng và chẩn đoán

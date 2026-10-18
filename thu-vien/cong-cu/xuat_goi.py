@@ -22,6 +22,7 @@ def main():
  cards=[json.loads(p.read_text()) for p in sorted((ROOT/'kien-thuc').glob('*.json'))]
  render_views(cards)
  render_auxiliary(cards)
+ render_scene_design()
  # JSONL has only canonical knowledge records; no source material mislabeled as model answers.
  (OUT/(STEM+'.jsonl')).write_text(''.join(json.dumps(c,ensure_ascii=False)+chr(10) for c in cards))
  source_stem='SOURCES.json'
@@ -53,7 +54,7 @@ Các tác dụng cảm xúc là giả thuyết có điều kiện; ví dụ mớ
 4. Chọn kỹ thuật theo thông tin và trải nghiệm; đọc cả điều kiện, đánh đổi, phản ví dụ.
 5. Tách cỡ cảnh, góc, khoảng cách, đường máy, nét, sáng, màu và cách xử lý thời gian.
 6. Nhịp đến từ diễn tiến, lượng thông tin, hành vi, dựng và âm; không chỉ số giây.
-7. Cảm xúc nhân vật, ý đồ đạo diễn và phản ứng khán giả là dữ liệu khác nhau.
+7. Tách cảm xúc nhân vật, ý đồ đạo diễn, sắc thái người xem nhận ra và cảm xúc họ tự trải nghiệm.
 8. Tách ý đồ chung khỏi cú pháp/thiết lập của model/chế độ cụ thể.
 9. Sửa một lỗi thì bảo vệ phần đã đạt; chưa thử không báo đã khắc phục.
 10. Ngách đọc core hiện hành trên main; cập nhật tại chỗ, giữ mã và một nhật ký chung; nâng bài học theo căn cứ và trình thay đổi đảo nguyên tắc.
@@ -177,6 +178,27 @@ def render_auxiliary(cards):
  manifest.update(core_card_count=len(cards),module_count=len(json.loads((ROOT/'muc-luc.json').read_text())['modules']),
   schema_count=len(list((ROOT/'schema').glob('*.json'))),emotion_profile_count=len(profiles),glossary_term_count=len(terms),
   ai_evaluation_case_count=len(json.loads((ROOT/'kiem-thu/tinh-huong.json').read_text())['cases']),
-  official_reference_count=len(source_data['sources']))
+  official_reference_count=len(source_data['sources']),application_depth_card_count=sum('application_depth' in c for c in cards))
  (ROOT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+chr(10))
+
+def render_scene_design():
+ """Update the integrated scene worksheet from its canonical worked example."""
+ case=json.loads((ROOT/'vi-du/bon-ca-ra-quyet-dinh.json').read_text())['cases'][0]
+ design=case['scene_design']
+ labels=[('value','Giá trị và lời hứa'),('viewer_before','Trước nhịp'),('viewer_after','Sau nhịp'),
+  ('cause_and_proof','Tác nhân và bằng chứng'),('staging_and_camera','Dàn cảnh và máy'),
+  ('light_and_material','Sáng, màu và vật liệu'),('rhythm_and_sound','Nhịp và âm'),('acceptance','Kiểm')]
+ lines=['<!-- BEGIN GENERATED SCENE DESIGN -->','', '### Phiếu cảnh tích hợp — CASE-01','',
+  'Bản xuất từ scene_design trong [dữ liệu ca](bon-ca-ra-quyet-dinh.json). Đây là thiết kế tự biên soạn, chưa thực hiện.','',
+  '| Quyết định | Cách triển khai |','| --- | --- |']
+ lines += ['| '+label+' | '+design[key].replace('|','\\|')+' |' for key,label in labels]
+ lines += ['', '<!-- END GENERATED SCENE DESIGN -->']
+ block=chr(10).join(lines)
+ path=ROOT/'vi-du/bon-ca-ra-quyet-dinh.md';text=path.read_text()
+ pattern=r'<!-- BEGIN GENERATED SCENE DESIGN -->.*?<!-- END GENERATED SCENE DESIGN -->'
+ if re.search(pattern,text,flags=re.S):text=re.sub(pattern,lambda _:block,text,flags=re.S)
+ else:
+  assert '## Ca 2' in text
+  text=text.replace('## Ca 2',block+chr(10)*2+'## Ca 2',1)
+ path.write_text(text)
 if __name__=='__main__':main()

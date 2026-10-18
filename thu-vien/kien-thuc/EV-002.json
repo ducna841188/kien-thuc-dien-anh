@@ -1,7 +1,7 @@
 {
   "id": "EV-002",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "module_id": "EV",
   "title": "Nguồn, phiên bản và dấu vết",
   "level": "co_ban",
@@ -15,7 +15,7 @@
   "actions": [
     "Ghi mã asset, tên gốc, mã kiểm tra nếu có, nguồn và ngày tiếp nhận.",
     "Lưu mốc gốc cùng offset của đoạn cắt; liên kết nhận xét tới nguồn.",
-    "Ghi thay đổi và lý do; giữ bản trước khi sửa nội dung."
+    "Sửa phân tích do thư viện tạo tại đúng tệp hiện hành, ghi lý do và commit Git để truy hồi trước–sau; giữ tài sản nguồn và lời nguồn được dẫn. Không tạo bản sao tài liệu theo version."
   ],
   "tradeoffs": [
     "Lưu dấu vết tăng khối lượng dữ liệu; chỉ lưu bản sao khi cần bảo toàn nguồn."

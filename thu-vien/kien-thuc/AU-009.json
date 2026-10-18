@@ -1,7 +1,7 @@
 {
   "id": "AU-009",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "module_id": "AU",
   "title": "Thiết kế đường cảm xúc bằng thay đổi và tương phản có căn cứ",
   "level": "nang_cao",
@@ -15,14 +15,17 @@
   "actions": [
     "Ghi trạng thái đầu–cuối dự kiến: chưa rõ→hiểu, chờ→thỏa mãn, xa lạ→quen, căng→an tâm; tách chúng khỏi cảm xúc nhân vật.",
     "Chỉ rõ tác nhân: một lựa chọn, một kết quả, một sự xuất hiện hoặc dấu sử dụng vật đã hoàn tất; chọn hình và âm làm đọc được tác nhân đó.",
-    "Lập đường tương phản theo đoạn, cho khoảng tiếp nhận kết quả nếu cần. Kiểm phản hồi bằng câu hỏi trung tính, giữ cả phản ứng trái dự kiến."
+    "Lập đường tương phản theo đoạn, cho khoảng tiếp nhận kết quả nếu cần. Kiểm phản hồi bằng câu hỏi trung tính, giữ cả phản ứng trái dự kiến.",
+    "Chọn kênh dẫn cho từng nhịp và vai trò các kênh còn lại: củng cố, bổ sung hoặc tương phản có chủ đích. Không tăng cùng lúc cỡ cận, tốc máy, nhạc, màu và diễn xuất chỉ vì muốn cảm xúc mạnh.",
+    "Khi thiếu lực, xác định thiếu thông tin, thiếu lý do quan tâm, thiếu bằng chứng kết hay thiếu thời gian tiếp nhận trước khi tăng mức hình–âm."
   ],
   "tradeoffs": [
     "Tương phản lớn tăng độ nổi nhưng có thể phá lời hứa êm dịu; đồng đều có thể phù hợp nội dung xem nền nếu đã xác định đúng nhu cầu."
   ],
   "verification": [
     "Mỗi chuyển cảm xúc dự kiến gắn được với sự kiện/hình/âm cụ thể.",
-    "Báo cáo ghi “dự kiến” đến khi có phản hồi người xem thích hợp."
+    "Báo cáo ghi “dự kiến” đến khi có phản hồi người xem thích hợp.",
+    "Mỗi lớp thêm có chức năng; bản giảm một lớp được so khi cảm giác bị ép."
   ],
   "original_example": "Một món đồ được sửa: đầu là chưa dùng được, giữa là thử lắp, cuối là người nhận dùng nó. Nhạc có thể lùi ở lúc thử và mở khi việc sử dụng xác nhận kết quả.",
   "counterexample": "Hạ saturation toàn phim rồi gọi đó là đường cảm xúc không mô tả được điều khán giả vừa biết hoặc vừa coi trọng.",
@@ -34,7 +37,9 @@
     "ST-001",
     "ST-011",
     "ED-005",
-    "SO-006"
+    "SO-006",
+    "ST-006",
+    "SO-003"
   ],
   "source_ids": [
     "SRC-YALE-SOUND",

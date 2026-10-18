@@ -1,6 +1,6 @@
 # AI — Sản xuất bằng AI
 
-Phiên bản 1.2.1. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
+Phiên bản 1.3.0. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -222,7 +222,7 @@ Thử tiếp: Kiểm điểm đỡ và tay rảnh, thử một thay đổi đầ
 <a id="ai-006"></a>
 ## AI-006 — Thoại và âm AI: kiểm từng loại lỗi
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Đầu ra sai lời, vai, môi hay âm sự kiện?
 
@@ -235,6 +235,7 @@ Thử tiếp: Kiểm điểm đỡ và tay rảnh, thử một thay đổi đầ
 1. Nghe và chép nội dung thực được phát.
 2. So vai nói, giọng, môi và sự kiện theo mốc.
 3. Chọn sửa lời/giọng/đồng bộ/hậu kỳ hoặc sinh lại đúng shot.
+4. Đối chiếu bản âm thật với nội dung mong muốn và lượt nói; nếu thay âm/hậu kỳ, kiểm lại cả hình–âm sau thay, không lấy môi có cử động làm bằng chứng khớp.
 
 **Đánh đổi:** Tạo lại có thể làm mất hình đã đạt; sửa âm có thể khó nếu tách nguồn kém.
 
@@ -245,7 +246,7 @@ Thử tiếp: Kiểm điểm đỡ và tay rảnh, thử một thay đổi đầ
 
 **Ví dụ tự biên soạn:** Mèo và chó bị nhầm lời: xác định vai sai trước; không tự đổi camera đang đúng.
 
-**Phản ví dụ / giới hạn:** Không phải mọi tương tác đều cần quay–đảo góc; một khung chung vẫn có thể phù hợp.
+**Phản ví dụ / giới hạn:** Lời kể ngoài khung không cần khớp một miệng đang hiện hình. Với thoại trong hình, đúng chữ và đúng giọng vẫn có thể sai vai hoặc lệch khẩu hình; các tiêu chí ấy cần kiểm riêng.
 
 **Liên quan:** [SO-002](../kien-thuc/SO-002.json), [SO-008](../kien-thuc/SO-008.json), [DR-004](../kien-thuc/DR-004.json)
 
@@ -438,7 +439,7 @@ Thử tiếp: Ghép bản sơ từ tài sản có sẵn; đánh dấu thiếu th
 <a id="ai-010"></a>
 ## AI-010 — Sổ trạng thái và tài sản dùng chung giữa các shot
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Điều gì phải ổn định, điều gì được phép thay đổi ở lần xuất hiện tiếp theo?
 
@@ -451,6 +452,8 @@ Thử tiếp: Ghép bản sơ từ tài sản có sẵn; đánh dấu thiếu th
 1. Cấp mã tài sản và chọn tham chiếu có thẩm quyền cho mặt/đồ/không gian. Ghi phiên bản, vai trò tham chiếu và những thuộc tính phải giữ.
 2. Cho mỗi shot ghi trạng thái vào, hành động đổi trạng thái, trạng thái ra và shot phụ thuộc; lưu người giữ, vị trí, lượng tương đối, dấu sử dụng và những phần chưa biết.
 3. Khi đổi take hoặc sửa một tài sản, kiểm các shot liên quan thay vì tự cập nhật toàn bộ ngách. Dùng hình mốc được duyệt khi công cụ thật hỗ trợ.
+4. Theo dõi cả trong shot: vật đi sau tay/vật cản phải trở lại với nhận diện và trạng thái còn hợp lý. Che khuất không tự là hành động đổi vật, làm đầy hoặc chuyển chủ.
+5. Ghi thay đổi có chủ đích cùng tác nhân hoặc khoảng lược: đừng coi mọi khác biệt pixel là lỗi, cũng đừng lấy từ “cinematic” để bỏ qua đổi số lượng/vật thể.
 
 **Đánh đổi:** Ghi quá chi tiết tăng công và có thể gây ràng buộc sai; ưu tiên thuộc tính khán giả dùng để hiểu mạch hoặc nhận diện.
 
@@ -463,7 +466,7 @@ Thử tiếp: Ghép bản sơ từ tài sản có sẵn; đánh dấu thiếu th
 
 **Phản ví dụ / giới hạn:** Không bắt vật ướt phải giữ cùng biểu hiện màu dưới mọi ánh sáng chỉ để “nhất quán”.
 
-**Liên quan:** [AI-002](../kien-thuc/AI-002.json), [AI-003](../kien-thuc/AI-003.json), [ED-003](../kien-thuc/ED-003.json), [CO-005](../kien-thuc/CO-005.json), [QC-004](../kien-thuc/QC-004.json)
+**Liên quan:** [AI-002](../kien-thuc/AI-002.json), [AI-003](../kien-thuc/AI-003.json), [ED-003](../kien-thuc/ED-003.json), [CO-005](../kien-thuc/CO-005.json), [QC-004](../kien-thuc/QC-004.json), [QC-010](../kien-thuc/QC-010.json), [CO-004](../kien-thuc/CO-004.json)
 
 
 ### Áp dụng và chẩn đoán

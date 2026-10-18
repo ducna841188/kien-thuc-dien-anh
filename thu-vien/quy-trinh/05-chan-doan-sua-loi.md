@@ -1,6 +1,6 @@
 # Chẩn đoán và sửa lỗi
 
-Tác vụ: diagnose_and_repair. Core release 1.2.1; dẫn version của từng mục thực dùng.
+Tác vụ: diagnose_and_repair. Core release 1.3.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -32,3 +32,5 @@ Mã trọng tâm: [QC-002](../kien-thuc/QC-002.json), [AI-008](../kien-thuc/AI-0
 ## Áp dụng và kiểm tra
 
 Phân loại lỗi trước: cấu trúc/thông tin, hành vi/tiếp xúc, hình/nhận diện, chuyển động, màu hoặc âm. Dùng phần failure_diagnosis và related_ids của mục liên quan để chọn giả thuyết; QC-008 chọn đúng phép kiểm. Ghi phần phải giữ, thử ít biến có mục đích; AI-012/QC-009 giúp quyết định sửa vùng, dựng, âm, tạo lại hoặc đổi công đoạn. Chưa có kết quả mới không báo đã khắc phục.
+
+Rà riêng vẻ ảnh, ổn định theo thời gian, đúng hành động và điểm nối; QC-010 giúp định vị trước chọn công đoạn sửa. Sau xử lý mượt/sắc hoặc sửa vùng, kiểm lại thứ tự chạm–nhả và nhận diện ở vùng ảnh hưởng.

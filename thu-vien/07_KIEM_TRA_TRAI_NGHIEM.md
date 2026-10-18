@@ -1,6 +1,6 @@
 # Chọn đúng bằng chứng cho trải nghiệm muốn tạo
 
-FILM-KB 1.2.1. [Mục lục](README.md) · [QC-008](kien-thuc/QC-008.json) · [YT-007](kien-thuc/YT-007.json).
+FILM-KB 1.3.0. [Mục lục](README.md) · [QC-008](kien-thuc/QC-008.json) · [YT-007](kien-thuc/YT-007.json).
 
 Một phim đúng kỹ thuật có thể chưa phù hợp người xem. Một video được xem lâu có thể được thích, được dùng làm nền, được học lại hoặc khó hiểu. Đặt câu hỏi trước, thu đúng dữ liệu và chỉ kết luận trong phạm vi dữ liệu trả lời được.
 
@@ -51,3 +51,11 @@ Thử đóng gói đồng thời của nền tảng và đổi tuần tự theo 
 ## Ghi kết luận để AI khác dùng tiếp
 
 Mỗi phát hiện có: mục tiêu, bằng chứng và độ phủ, người/công cụ đo, hoàn cảnh, diễn giải, giải thích khác còn hợp lý, quyết định tiếp theo và mã@phiên bản. Ví dụ: “Trong lượt xem của mẫu này, bản B giúp kể đúng bước nhả vật; chưa có dữ liệu giữ chân, chưa kết luận tăng hài lòng hoặc view”. Đây là câu kết có thể dùng để quyết định mà giữ đúng giới hạn.
+
+## Nhận ra sắc thái khác với tự trải nghiệm cảm xúc
+
+Tách bốn lớp: biểu hiện của nhân vật; ý đồ đạo diễn; sắc thái người xem nhận ra trong tác phẩm; cảm xúc họ tự trải nghiệm. Câu “cảnh trông ấm áp” chưa xác nhận “tôi thấy ấm áp”. Sau mô tả tự do, hỏi riêng hai câu và ghi nguyên ý. [AU-004](kien-thuc/AU-004.json), [AU-006](kien-thuc/AU-006.json) đối chiếu phần đo lường trong [nguồn lý thuyết](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/); không coi nguồn là thang đo chuẩn cho YouTube.
+
+Nếu muốn đánh giá trải nghiệm liền phim, cho một lượt không ngắt trước; lượt dừng theo mốc dùng để tìm lỗi hoặc hỏi chi tiết, cần ghi là nhiệm vụ khác. Đã xem bản trước, thứ tự bản A/B và việc vừa xem vừa đánh giá có thể ảnh hưởng kết quả. Không có quy mô mẫu hay thang điểm chung được đặt sẵn ở đây.
+
+Trong schema phân tích hiện có, ghi câu hỏi/cách xem trong method, câu trả lời phân biệt hai lớp trong finding và giới hạn trong limits của viewer_evidence; chỉ điền khi có người xem thật. Không thêm các phản hồi giả lập như dữ liệu quan sát.

@@ -1,7 +1,7 @@
 {
   "id": "ST-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "module_id": "ST",
   "title": "Điểm nhìn và phân phối thông tin",
   "level": "nang_cao",
@@ -13,9 +13,10 @@
   ],
   "principle": "Chọn ai được biết điều gì và lúc nào. Điểm nhìn kể chuyện rộng hơn một cú POV nhìn qua mắt nhân vật.",
   "actions": [
-    "Lập cột thông tin nhân vật biết và khán giả biết.",
-    "Chọn thời điểm lộ mỗi thông tin.",
-    "Kiểm tra nguồn thông tin có hợp lý với thế giới và cách kể."
+    "Lập cột: sự thật trong thế giới truyện, từng nhân vật biết gì, người xem đã được cung cấp gì, người xem có thể suy gì. Khi phân tích nguồn, suy luận vẫn là diễn giải.",
+    "Chọn mốc lộ một thông tin và kênh lộ: hành động, vật, lời, âm hoặc quan hệ dựng. Ghi sự kiện nào làm người/khán giả phải cập nhật hiểu biết.",
+    "Thử cùng một tình huống ở ba lịch lộ tin: khán giả biết trước nhân vật, cùng phát hiện, hoặc biết sau. Nêu thứ được và mất về mong chờ, đồng hành, bất ngờ.",
+    "Kiểm điều kiện nguồn/điểm nhìn. Trong phim sự thật, một cut hoặc tiếng thêm không xác nhận hai sự kiện đã liên quan trong đời thực."
   ],
   "tradeoffs": [
     "Giữ bí mật quá lâu làm khó hiểu; biết trước quá nhiều có thể giảm bất ngờ nhưng tăng mong chờ."
@@ -30,13 +31,16 @@
     "EV-001"
   ],
   "related_ids": [
-    "CA-008",
+    "CA-006",
     "SO-003",
-    "AU-003"
+    "AU-003",
+    "AU-008",
+    "ED-005"
   ],
   "source_ids": [
     "B005",
-    "B021"
+    "B021",
+    "SRC-YALE-EDIT"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +49,35 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Điểm nhìn là quyền tiếp cận thông tin theo thời gian, không chỉ vị trí máy. Cùng hành động có thể mang chức năng khác khi đổi lịch người xem biết nó.",
+    "worked_example": {
+      "brief": "Cảnh hư cấu một người đi tìm chiếc chìa khóa đang ở dưới khăn, cuối cùng tìm được.",
+      "protected_elements": [
+        "Cùng vị trí chìa khóa",
+        "Cùng hành động tìm và kết",
+        "Không giả đây là dữ liệu quay thật"
+      ],
+      "option_a": "Cho người xem thấy chìa khóa trước khi nhân vật tìm: theo dõi lúc họ nhận ra.",
+      "option_b": "Chỉ cho thấy chìa khóa lúc nhân vật lật khăn: chia sẻ khám phá.",
+      "selection_rule": "Chọn theo trải nghiệm đã chốt; không tự gán độ hiệu quả từ cùng một bộ hình. Mốc lộ phải còn đủ thời gian được nhận ra.",
+      "observable_checks": [
+        "Phân biệt sự thật truyện với thông tin đã lộ",
+        "Gắn mỗi mốc lộ với một dấu hình/âm",
+        "Người xem mới hiểu đủ mục tiêu trước khi chờ"
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Có nhiều cận bí ẩn nhưng người xem không biết nhân vật đang làm gì.",
+        "possible_causes": [
+          "Giấu cả mục tiêu",
+          "Lộ chi tiết trước khi có ngữ cảnh để nhận nó"
+        ],
+        "next_test": "Thử một bản cho rõ nhiệm vụ sớm hơn, giữ bí mật đáp án; đối chiếu điều người mới kể lại."
+      }
+    ],
+    "evidence_links": []
+  }
 }

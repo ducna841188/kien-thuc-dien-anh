@@ -1,6 +1,6 @@
 # AU — Khán giả, chú ý và cảm xúc
 
-Phiên bản 1.2.1. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
+Phiên bản 1.3.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -143,7 +143,7 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 <a id="au-003"></a>
 ## AU-003 — Thiết kế mong chờ và trả kết quả
 
-**Phiên bản mục:** 1.2.1
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Khán giả đang đợi biết hoặc thấy điều gì?
 
@@ -156,6 +156,8 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 1. Cho biết mục tiêu hoặc vật đang thay đổi.
 2. Tạo dấu tiến triển thay vì chỉ kéo dài chờ.
 3. Đặt kết quả ở chỗ người xem có thể nhận ra, rồi cân nhắc dư âm.
+4. Chọn kiểu câu hỏi: điều còn thiếu để hiểu, kết quả sắp tới đáng quan tâm, hoặc lệch kỳ vọng chỉ được nhận ra khi xảy ra. Tò mò, hồi hộp và bất ngờ có thể kết hợp nhưng không cùng cách bố trí thông tin.
+5. Ghi kết quả người xem được mời mong muốn và dấu tiến gần/xa kết quả đó. Lộ thành phẩm sớm vẫn có thể để ngỏ cách làm, lúc hoàn tất hoặc giá trị sử dụng; không mặc định phải giấu kết.
 
 **Đánh đổi:** Giấu quá lâu có thể gây khó hiểu; lộ hết sớm có thể giảm mong chờ.
 
@@ -163,27 +165,59 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 
 - Nêu được câu hỏi trước và điều đã được trả sau.
 - Không hứa một kết quả rồi bỏ qua việc xác nhận nó.
+- Không gọi một tiếng giật đột ngột là cả một chuỗi hồi hộp.
 
 **Ví dụ tự biên soạn:** Thấy khối bột rời, công đoạn tạo hình rồi chiếc bánh giữ được hình; không phải mọi phim cần bí mật lớn.
 
 **Phản ví dụ / giới hạn:** Phim quan sát có thể tạo hấp dẫn bằng hiện diện và chất liệu mà không giấu đáp án.
 
-**Liên quan:** [ST-002](../kien-thuc/ST-002.json), [ST-004](../kien-thuc/ST-004.json), [ED-005](../kien-thuc/ED-005.json), [AU-008](../kien-thuc/AU-008.json)
+**Liên quan:** [ST-002](../kien-thuc/ST-002.json), [ST-004](../kien-thuc/ST-004.json), [ED-005](../kien-thuc/ED-005.json), [AU-008](../kien-thuc/AU-008.json), [ST-006](../kien-thuc/ST-006.json), [AU-009](../kien-thuc/AU-009.json)
 
-**Nguồn đối chiếu:** [B017](../../bai-hoc/017-mini-story-ba-nhip/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md)
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Chưa biết đáp án chỉ là một thành phần. Cần phân biệt điều đang được chờ và giá trị của kết quả, rồi chọn thời điểm đưa thông tin.
+
+**Tình huống:** Cảnh hư cấu một người mở hộp để trao món đồ đã sửa, cùng bộ người/vật và kết quả trao thành công.
+
+**Phần phải giữ:** Không thay kết quả Không tự thêm nguy hiểm Giữ nhận diện hộp và món đồ
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Cho thấy món đồ trước, rồi theo dõi cách người nhận nhận ra nó đã dùng lại được. |
+| B | Giữ món đồ trong hộp ngoài khung cho tới khi mở, nhưng cho đủ dấu để người xem có một câu hỏi cụ thể. |
+
+**Cách chọn:** A phục vụ chờ phản ứng/ý nghĩa trao nhận; B phục vụ khám phá vật. Chọn theo lời hứa, không gán B luôn giữ chân tốt hơn.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Người mới nêu được đang chờ điều gì
+- Mỗi nhịp thêm bằng chứng hoặc thay đổi kỳ vọng
+- Kết trả đúng câu hỏi đã thiết lập
+
+**Nếu gặp:** Đã trì hoãn lâu nhưng người xem không có điều cụ thể để chờ.
+
+Có thể do: Chưa thiết lập câu hỏi Kết quả không có giá trị rõ Chỉ kéo dài mà không tiến triển
+
+Thử tiếp: Giữ thời lượng, thử làm rõ mục tiêu và một dấu tiến triển; hỏi trung tính người mới đang chờ gì.
+
+**Phát biểu được đối chiếu:** Bài đề xuất mô hình liên hệ hồi hộp với dự đoán các kết quả có ý nghĩa; vai trò của bất định không được coi đã giải quyết hoàn toàn. Nguồn: [SRC-TENSION-MODEL](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/).
+
+**Giới hạn nguồn:** Đây là lý thuyết, không phải công thức hoặc bằng chứng về giữ chân YouTube; cách dựng cụ thể dưới đây do thư viện biên soạn.
+**Nguồn đối chiếu:** [B017](../../bai-hoc/017-mini-story-ba-nhip/README.md), [B024](../../bai-hoc/024-xau-chuoi-canh/README.md), [SRC-TENSION-MODEL](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/)
 
 [Bản JSON chuẩn](../kien-thuc/AU-003.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
 <a id="au-004"></a>
 ## AU-004 — Cảm xúc là diễn biến nhiều biến
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Trải nghiệm thay đổi thế nào theo thời gian?
 
 **Dùng khi:** Khi chỉ đạo cảm xúc hoặc lập bản đồ nhịp toàn phim.
 
-**Nguyên lý thực hành:** Tách cảm xúc nhân vật, ý đồ đạo diễn và phản ứng khán giả. Theo dõi mức kích thích, dễ chịu/khó chịu, chắc chắn và gần gũi bằng mô tả có căn cứ. Nếu dùng thang số, nêu đó là cường độ dự kiến hay tự báo, định nghĩa điểm neo và giữ các chiều khác nhau như tò mò, yên và buồn riêng khi cần.
+**Nguyên lý thực hành:** Tách cảm xúc nhân vật, ý đồ đạo diễn, sắc thái người xem nhận ra và cảm xúc họ tự trải nghiệm. Theo dõi mức kích thích, dễ chịu/khó chịu, chắc chắn và gần gũi bằng mô tả có căn cứ. Nếu dùng thang số, nêu đó là cường độ dự kiến hay tự báo, định nghĩa điểm neo và giữ các chiều khác nhau như tò mò, yên và buồn riêng khi cần.
 
 **Cách làm:**
 
@@ -191,6 +225,7 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 2. Liên kết mỗi chuyển với thông tin/hành vi/hình/tiếng cụ thể.
 3. Đặt cách hỏi người xem và giữ khả năng phản ứng khác ý đồ.
 4. Ghi mỗi thay đổi cảm xúc dự kiến kèm tác nhân và dấu hình/âm; phản hồi trái dự kiến đi vào dữ liệu, không sửa nhãn để ép khớp ý đồ.
+5. Tách thêm cảm xúc người xem nhận ra cảnh đang biểu đạt khỏi cảm xúc họ thực sự trải nghiệm. “Cảnh trông yên” và “tôi thấy yên” là hai câu trả lời khác nhau.
 
 **Đánh đổi:** Một điểm số cảm xúc dễ so nhưng có thể che nhiều trải nghiệm khác nhau.
 
@@ -199,6 +234,7 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 - Không dùng một nụ cười để chứng nhận khán giả thư giãn.
 - Các nhịp thay đổi có tác nhân đọc được; mức số nếu dùng phải có định nghĩa.
 - Đường cảm xúc không được báo là phản ứng khán giả khi chỉ do AI hoặc người làm phim chấm.
+- Lời tự báo nêu rõ đang mô tả sắc thái tác phẩm hay trải nghiệm bản thân.
 
 **Ví dụ tự biên soạn:** Cảnh người lạ xuất hiện có thể tạo tò mò hoặc bất an; tiếng và bối cảnh quyết định cách đọc.
 
@@ -230,8 +266,12 @@ Thử tiếp: Thử bỏ một yếu tố cạnh tranh, giữ nguyên hành đ�
 
 Có thể do: Trộn ý đồ, biểu cảm nhân vật và trải nghiệm người xem.
 
-Thử tiếp: Tách ba lớp, đặt câu hỏi trung tính về đúng đoạn và giữ lời phản hồi gốc.
-**Nguồn đối chiếu:** [B010](../../bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md), [B021](../../bai-hoc/021-lam-chu-cam-xuc/README.md)
+Thử tiếp: Tách nhân vật, ý đồ, sắc thái người xem nhận ra và cảm xúc họ tự trải nghiệm; hỏi trung tính và giữ cả phản hồi lệch dự kiến.
+
+**Phát biểu được đối chiếu:** Phần Measuring tension phân biệt perceived emotion và felt emotion, đồng thời nêu giới hạn khi liên hệ đánh giá liên tục với đúng mốc kích thích. Nguồn: [SRC-TENSION-MODEL](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/).
+
+**Giới hạn nguồn:** Không suy một người thấy cảnh biểu đạt hồi hộp là họ đã cảm thấy hồi hộp; không cung cấp thang cảm xúc chuẩn cho kênh này.
+**Nguồn đối chiếu:** [B010](../../bai-hoc/010-lam-chu-ngon-ngu-dien-anh/README.md), [B021](../../bai-hoc/021-lam-chu-cam-xuc/README.md), [SRC-TENSION-MODEL](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/)
 
 [Bản JSON chuẩn](../kien-thuc/AU-004.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
@@ -272,7 +312,7 @@ Thử tiếp: Tách ba lớp, đặt câu hỏi trung tính về đúng đoạn 
 <a id="au-006"></a>
 ## AU-006 — Phản hồi khán giả và giới hạn suy nhân quả
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Có bằng chứng người xem nhận được trải nghiệm mong muốn không?
 
@@ -285,6 +325,8 @@ Thử tiếp: Tách ba lớp, đặt câu hỏi trung tính về đúng đoạn 
 1. Hỏi cụ thể về đoạn/mốc thay vì gợi câu trả lời tốt.
 2. So kết quả giữa nhóm và hoàn cảnh tương đồng khi có thể.
 3. Ghi cả phản ứng ngoài ý đồ và các yếu tố khác đã đổi.
+4. Cho lượt xem liền trước nếu muốn kiểm trải nghiệm tự nhiên; việc dừng mỗi shot để hỏi hoặc vừa xem vừa chấm có thể làm đổi nhiệm vụ. Tách lượt kiểm chi tiết và ghi người đã biết bản trước.
+5. Hỏi riêng “cảnh gợi sắc thái gì?” và “bạn đã cảm thấy gì?” sau mô tả tự do. Không gộp hai câu hoặc thay câu trả lời bằng nhãn ý đồ.
 
 **Đánh đổi:** Dữ liệu nhỏ giúp phát hiện vấn đề, chưa đủ kết luận cho cả thị trường.
 
@@ -297,9 +339,36 @@ Thử tiếp: Tách ba lớp, đặt câu hỏi trung tính về đúng đoạn 
 
 **Phản ví dụ / giới hạn:** Người im lặng không đồng nghĩa hài lòng; bình luận công khai không đại diện mọi người xem.
 
-**Liên quan:** [YT-003](../kien-thuc/YT-003.json), [YT-005](../kien-thuc/YT-005.json), [QC-003](../kien-thuc/QC-003.json)
+**Liên quan:** [YT-003](../kien-thuc/YT-003.json), [YT-005](../kien-thuc/YT-005.json), [QC-003](../kien-thuc/QC-003.json), [AU-004](../kien-thuc/AU-004.json), [QC-008](../kien-thuc/QC-008.json)
 
-**Nguồn đối chiếu:** [SRC-YT-RETENTION](https://support.google.com/youtube/answer/9314415?hl=en)
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Một lời phản hồi chỉ trả lời đúng câu hỏi đã hỏi, trong cách xem đã tổ chức. Hỏi đúng lớp giúp quyết định sửa thông tin, biểu đạt hay lời hứa.
+
+**Tình huống:** Nhóm thử nói cảnh đoàn tụ trông ấm áp nhưng bản thân thấy buồn nhớ nhà.
+
+**Phần phải giữ:** Giữ lời gốc Không suy bệnh lý Không tự kết luận cho toàn tệp
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Đếm mọi nhận xét có từ ấm áp là đã nhận trải nghiệm dễ chịu. |
+| B | Ghi sắc thái nhận ra và cảm xúc tự trải nghiệm riêng, kèm mốc và ngữ cảnh tự nguyện được chia sẻ. |
+
+**Cách chọn:** Chọn B để chẩn đoán khác biệt; chỉ đổi phim khi biết khác biệt ấy ảnh hưởng mục tiêu ra sao.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Báo cáo giữ hai câu trả lời
+- Có mẫu và điều kiện xem
+- Chưa đại diện toàn khán giả
+
+**Nếu gặp:** Báo cáo nói mọi người thư giãn trong khi câu hỏi chỉ là cảnh muốn thể hiện gì.
+
+Có thể do: Câu hỏi đo nhận diện ý đồ nhưng kết luận về trải nghiệm
+
+Thử tiếp: Hỏi lại theo đúng mục tiêu ở một lượt phù hợp, ghi cả ảnh hưởng của việc đã xem trước.
+**Nguồn đối chiếu:** [SRC-YT-RETENTION](https://support.google.com/youtube/answer/9314415?hl=en), [SRC-TENSION-MODEL](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/)
 
 [Bản JSON chuẩn](../kien-thuc/AU-006.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 
@@ -430,7 +499,7 @@ Thử tiếp: Thử một bản nêu rõ mục tiêu và một dấu kết quả
 <a id="au-009"></a>
 ## AU-009 — Thiết kế đường cảm xúc bằng thay đổi và tương phản có căn cứ
 
-**Phiên bản mục:** 1.1.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Cảnh này cần chuyển trải nghiệm từ đâu đến đâu, nhờ điều gì?
 
@@ -443,6 +512,8 @@ Thử tiếp: Thử một bản nêu rõ mục tiêu và một dấu kết quả
 1. Ghi trạng thái đầu–cuối dự kiến: chưa rõ→hiểu, chờ→thỏa mãn, xa lạ→quen, căng→an tâm; tách chúng khỏi cảm xúc nhân vật.
 2. Chỉ rõ tác nhân: một lựa chọn, một kết quả, một sự xuất hiện hoặc dấu sử dụng vật đã hoàn tất; chọn hình và âm làm đọc được tác nhân đó.
 3. Lập đường tương phản theo đoạn, cho khoảng tiếp nhận kết quả nếu cần. Kiểm phản hồi bằng câu hỏi trung tính, giữ cả phản ứng trái dự kiến.
+4. Chọn kênh dẫn cho từng nhịp và vai trò các kênh còn lại: củng cố, bổ sung hoặc tương phản có chủ đích. Không tăng cùng lúc cỡ cận, tốc máy, nhạc, màu và diễn xuất chỉ vì muốn cảm xúc mạnh.
+5. Khi thiếu lực, xác định thiếu thông tin, thiếu lý do quan tâm, thiếu bằng chứng kết hay thiếu thời gian tiếp nhận trước khi tăng mức hình–âm.
 
 **Đánh đổi:** Tương phản lớn tăng độ nổi nhưng có thể phá lời hứa êm dịu; đồng đều có thể phù hợp nội dung xem nền nếu đã xác định đúng nhu cầu.
 
@@ -450,12 +521,13 @@ Thử tiếp: Thử một bản nêu rõ mục tiêu và một dấu kết quả
 
 - Mỗi chuyển cảm xúc dự kiến gắn được với sự kiện/hình/âm cụ thể.
 - Báo cáo ghi “dự kiến” đến khi có phản hồi người xem thích hợp.
+- Mỗi lớp thêm có chức năng; bản giảm một lớp được so khi cảm giác bị ép.
 
 **Ví dụ tự biên soạn:** Một món đồ được sửa: đầu là chưa dùng được, giữa là thử lắp, cuối là người nhận dùng nó. Nhạc có thể lùi ở lúc thử và mở khi việc sử dụng xác nhận kết quả.
 
 **Phản ví dụ / giới hạn:** Hạ saturation toàn phim rồi gọi đó là đường cảm xúc không mô tả được điều khán giả vừa biết hoặc vừa coi trọng.
 
-**Liên quan:** [AU-004](../kien-thuc/AU-004.json), [ST-001](../kien-thuc/ST-001.json), [ST-011](../kien-thuc/ST-011.json), [ED-005](../kien-thuc/ED-005.json), [SO-006](../kien-thuc/SO-006.json)
+**Liên quan:** [AU-004](../kien-thuc/AU-004.json), [ST-001](../kien-thuc/ST-001.json), [ST-011](../kien-thuc/ST-011.json), [ED-005](../kien-thuc/ED-005.json), [SO-006](../kien-thuc/SO-006.json), [ST-006](../kien-thuc/ST-006.json), [SO-003](../kien-thuc/SO-003.json)
 
 
 ### Áp dụng và chẩn đoán

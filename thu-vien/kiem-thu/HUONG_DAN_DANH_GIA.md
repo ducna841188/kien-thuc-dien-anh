@@ -1,6 +1,6 @@
 # Đánh giá khả năng AI dùng thư viện
 
-[40 tình huống](tinh-huong.json) bao phủ năm tác vụ. Đây là bộ đề chuẩn bị, chưa có kết quả chạy độc lập trên ChatGPT/Claude/Gemini hoặc mô hình khác.
+[48 tình huống](tinh-huong.json) bao phủ năm tác vụ. Đây là bộ đề chuẩn bị, chưa có kết quả chạy độc lập trên ChatGPT/Claude/Gemini hoặc mô hình khác.
 
 ## Cách thực hiện
 
@@ -20,3 +20,7 @@ cong-cu/validate.py kiểm schema, mã, liên kết và quan hệ dữ liệu. N
 ## Phạm vi tình huống chuyên sâu
 
 T25–T40 kiểm lựa chọn fps/nhòe, phối cảnh/vùng nét, trọng lượng và khả thi ảnh đầu, miền màu, cut/sự kiện, điểm nhìn, điều đáng quan tâm, thời gian có chức năng, thiết kế thử YouTube, học từ view, âm, sáng theo đường đi, giới hạn bản sơ và cập nhật tại chỗ. Các tình huống này được chuẩn bị để chạy trên AI khác; kết quả cấu trúc không phải kết quả vượt qua bộ đề.
+
+## Tình huống T41–T48
+
+Tám đề mới kiểm phân biệt sắc thái được nhận ra/cảm xúc tự trải nghiệm; mong chờ khi biết trước kết; trục và ảnh lật; clip mượt nhưng sai hành động; nhận diện sau che lộ; chi phí giây dùng thực; giá trị riêng của loạt AI; công khai AI khác kết quả xét duyệt. Đây vẫn là đề đã chuẩn bị, chưa phải tám lượt đã chạy trên mô hình ngoài.

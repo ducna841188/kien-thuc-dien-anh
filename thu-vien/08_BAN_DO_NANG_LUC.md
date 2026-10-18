@@ -1,6 +1,6 @@
 # Bản đồ năng lực: đọc để phân tích, quyết định và thực hiện
 
-FILM-KB 1.2.1. [Mục lục đầy đủ](muc-luc.json) · [Tra theo vấn đề](tuyen-tra-cuu.json).
+FILM-KB 1.3.0. [Mục lục đầy đủ](muc-luc.json) · [Tra theo vấn đề](tuyen-tra-cuu.json).
 
 Các mức căn bản, trung cấp và nâng cao mô tả độ phức tạp của quyết định. Người mới đi theo cột căn bản; AI đang làm việc lấy cả nền, mục liên quan và phản ví dụ, không cần đọc lại tuần tự mọi mã cho mỗi yêu cầu.
 
@@ -47,3 +47,15 @@ Mở mục theo mã trong [mục lục](muc-luc.json) hoặc dùng công cụ tr
 - Một phim nổi bật cho đầu mối học; tỷ lệ/công thức của nó chưa tự thành nguyên lý ngang mọi ngách.
 
 Xem [bốn ca quyết định](vi-du/bon-ca-ra-quyet-dinh.md) để đi từ vấn đề đến lựa chọn thực hiện.
+
+## Những đường đọc bổ sung khi quyết định khó
+
+| Vấn đề | Tuyến đọc | Quyết định cần ra |
+| --- | --- | --- |
+| Biết trước kết nhưng vẫn muốn đáng theo | AU-003, ST-006, ST-011 | Giữ câu hỏi về cách, lúc hoặc ý nghĩa; chọn lịch lộ tin |
+| Hai cận AI không thành một quan hệ | DR-002, CA-004, DR-006 | Mặt bằng, bên máy, đích nhìn và bộ góc tối thiểu |
+| Clip đẹp/mượt nhưng sai việc | QC-010, AI-010, DR-008 | Loại lỗi và vùng thời gian cần sửa, phần phải giữ |
+| Khán giả nhận ra tông nhưng cảm khác | AU-004, AU-006, QC-008 | Chọn câu hỏi đo đúng lớp trước khi sửa phim |
+| Nhiều tập chỉ đổi bề mặt | YT-004, YT-008, YT-012 | Giá trị riêng, diễn tiến riêng và lời giới thiệu trung thực |
+
+Các phần bổ sung không tạo định mức shot, ánh sáng, màu hoặc cảm xúc chung cho mọi ngách. Ngách xác định khán giả, lời hứa, quy luật thế giới và giới hạn sản xuất, rồi kiểm bằng dữ liệu phù hợp.

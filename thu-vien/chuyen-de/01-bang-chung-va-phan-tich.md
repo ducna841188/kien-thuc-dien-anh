@@ -1,6 +1,6 @@
 # EV — Bằng chứng và chuẩn phân tích
 
-Phiên bản 1.2.1. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
+Phiên bản 1.3.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -54,7 +54,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="ev-002"></a>
 ## EV-002 — Nguồn, phiên bản và dấu vết
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Có tìm lại đúng bằng chứng được dùng không?
 
@@ -66,7 +66,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 1. Ghi mã asset, tên gốc, mã kiểm tra nếu có, nguồn và ngày tiếp nhận.
 2. Lưu mốc gốc cùng offset của đoạn cắt; liên kết nhận xét tới nguồn.
-3. Ghi thay đổi và lý do; giữ bản trước khi sửa nội dung.
+3. Sửa phân tích do thư viện tạo tại đúng tệp hiện hành, ghi lý do và commit Git để truy hồi trước–sau; giữ tài sản nguồn và lời nguồn được dẫn. Không tạo bản sao tài liệu theo version.
 
 **Đánh đổi:** Lưu dấu vết tăng khối lượng dữ liệu; chỉ lưu bản sao khi cần bảo toàn nguồn.
 

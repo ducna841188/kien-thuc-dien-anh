@@ -1,7 +1,7 @@
 {
   "id": "AU-003",
   "namespace": "film.core",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "module_id": "AU",
   "title": "Thiết kế mong chờ và trả kết quả",
   "level": "trung_cap",
@@ -15,14 +15,17 @@
   "actions": [
     "Cho biết mục tiêu hoặc vật đang thay đổi.",
     "Tạo dấu tiến triển thay vì chỉ kéo dài chờ.",
-    "Đặt kết quả ở chỗ người xem có thể nhận ra, rồi cân nhắc dư âm."
+    "Đặt kết quả ở chỗ người xem có thể nhận ra, rồi cân nhắc dư âm.",
+    "Chọn kiểu câu hỏi: điều còn thiếu để hiểu, kết quả sắp tới đáng quan tâm, hoặc lệch kỳ vọng chỉ được nhận ra khi xảy ra. Tò mò, hồi hộp và bất ngờ có thể kết hợp nhưng không cùng cách bố trí thông tin.",
+    "Ghi kết quả người xem được mời mong muốn và dấu tiến gần/xa kết quả đó. Lộ thành phẩm sớm vẫn có thể để ngỏ cách làm, lúc hoàn tất hoặc giá trị sử dụng; không mặc định phải giấu kết."
   ],
   "tradeoffs": [
     "Giấu quá lâu có thể gây khó hiểu; lộ hết sớm có thể giảm mong chờ."
   ],
   "verification": [
     "Nêu được câu hỏi trước và điều đã được trả sau.",
-    "Không hứa một kết quả rồi bỏ qua việc xác nhận nó."
+    "Không hứa một kết quả rồi bỏ qua việc xác nhận nó.",
+    "Không gọi một tiếng giật đột ngột là cả một chuỗi hồi hộp."
   ],
   "original_example": "Thấy khối bột rời, công đoạn tạo hình rồi chiếc bánh giữ được hình; không phải mọi phim cần bí mật lớn.",
   "counterexample": "Phim quan sát có thể tạo hấp dẫn bằng hiện diện và chất liệu mà không giấu đáp án.",
@@ -33,11 +36,14 @@
     "ST-002",
     "ST-004",
     "ED-005",
-    "AU-008"
+    "AU-008",
+    "ST-006",
+    "AU-009"
   ],
   "source_ids": [
     "B017",
-    "B024"
+    "B024",
+    "SRC-TENSION-MODEL"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -46,5 +52,42 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Chưa biết đáp án chỉ là một thành phần. Cần phân biệt điều đang được chờ và giá trị của kết quả, rồi chọn thời điểm đưa thông tin.",
+    "worked_example": {
+      "brief": "Cảnh hư cấu một người mở hộp để trao món đồ đã sửa, cùng bộ người/vật và kết quả trao thành công.",
+      "protected_elements": [
+        "Không thay kết quả",
+        "Không tự thêm nguy hiểm",
+        "Giữ nhận diện hộp và món đồ"
+      ],
+      "option_a": "Cho thấy món đồ trước, rồi theo dõi cách người nhận nhận ra nó đã dùng lại được.",
+      "option_b": "Giữ món đồ trong hộp ngoài khung cho tới khi mở, nhưng cho đủ dấu để người xem có một câu hỏi cụ thể.",
+      "selection_rule": "A phục vụ chờ phản ứng/ý nghĩa trao nhận; B phục vụ khám phá vật. Chọn theo lời hứa, không gán B luôn giữ chân tốt hơn.",
+      "observable_checks": [
+        "Người mới nêu được đang chờ điều gì",
+        "Mỗi nhịp thêm bằng chứng hoặc thay đổi kỳ vọng",
+        "Kết trả đúng câu hỏi đã thiết lập"
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Đã trì hoãn lâu nhưng người xem không có điều cụ thể để chờ.",
+        "possible_causes": [
+          "Chưa thiết lập câu hỏi",
+          "Kết quả không có giá trị rõ",
+          "Chỉ kéo dài mà không tiến triển"
+        ],
+        "next_test": "Giữ thời lượng, thử làm rõ mục tiêu và một dấu tiến triển; hỏi trung tính người mới đang chờ gì."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-TENSION-MODEL",
+        "claim": "Bài đề xuất mô hình liên hệ hồi hộp với dự đoán các kết quả có ý nghĩa; vai trò của bất định không được coi đã giải quyết hoàn toàn.",
+        "scope_limit": "Đây là lý thuyết, không phải công thức hoặc bằng chứng về giữ chân YouTube; cách dựng cụ thể dưới đây do thư viện biên soạn."
+      }
+    ]
+  }
 }

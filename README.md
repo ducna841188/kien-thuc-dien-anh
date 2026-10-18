@@ -1,6 +1,6 @@
 # Kiến thức điện ảnh ứng dụng vào video AI
 
-[**Mở thư viện FILM-KB 1.2.1 cho AI**](thu-vien/README.md) · [Gói đọc](thu-vien/goi-doc/START_HERE.md) · [Chuẩn phân tích](thu-vien/02_CHUAN_PHAN_TICH.md)
+[**Mở thư viện FILM-KB 1.3.0 cho AI**](thu-vien/README.md) · [Gói đọc](thu-vien/goi-doc/START_HERE.md) · [Chuẩn phân tích](thu-vien/02_CHUAN_PHAN_TICH.md)
 
 Kho tài liệu tiếng Việt từ bộ ảnh “Bí ẩn đạo diễn”. Mỗi bài có ảnh gốc, bản đọc từng ảnh, phân tích, chú giải và thực hành.
 

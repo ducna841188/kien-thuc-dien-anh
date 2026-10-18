@@ -1,0 +1,97 @@
+{
+  "id": "YT-012",
+  "namespace": "film.core",
+  "version": "1.3.0",
+  "module_id": "YT",
+  "title": "Giá trị biên tập của phim AI và lời giới thiệu trung thực",
+  "level": "nang_cao",
+  "status": "active",
+  "knowledge_kind": "practical_guidance",
+  "decision_question": "Tập này có đóng góp sáng tạo riêng và được giới thiệu đúng bản chất hình–âm chưa?",
+  "use_when": [
+    "Tập này có đóng góp sáng tạo riêng và được giới thiệu đúng bản chất hình–âm chưa?"
+  ],
+  "principle": "Phim AI cần giá trị cụ thể cho người xem: câu chuyện, khám phá, quan sát hoặc trải nghiệm được tổ chức có chủ đích. Phân biệt ba câu hỏi: giá trị/nguyên bản của nội dung, cách công khai phần AI trông như thật và kết quả xét duyệt của nền tảng. Một câu trả lời không tự bảo đảm hai câu còn lại.",
+  "actions": [
+    "Viết một câu giá trị riêng của tập và chỉ ra bằng chứng trong phim. Rà các tập cạnh nhau: cùng thế giới/nhân vật được, nhưng chỉ thay vật/màu trong cùng tình huống và kết cần được xem lại.",
+    "Ghi đóng góp cụ thể: chọn góc tiếp cận, phát triển hành động/quan hệ, thiết kế không gian, dựng và âm có chức năng. Không lấy số prompt, 4K hoặc lượng clip sinh làm bằng chứng tự đủ.",
+    "Phân biệt cảnh quay sự kiện, tái dựng và hư cấu khi viết tiêu đề/lời kể/chú thích. Cảnh AI trông như thật không được ghi như bằng chứng đã quay một việc thực sự xảy ra.",
+    "Trước đăng, mở lại tài liệu YouTube đúng ngày/loại nội dung để xác định khai AI. Ghi phần hình, âm/nhạc hoặc biến đổi đáng kể liên quan; không đóng đinh tên nút giao diện thành nguyên lý.",
+    "Đọc riêng tiêu chí nội dung lặp/tái sử dụng và yêu cầu công khai; không suy bật nhãn là được duyệt kiếm tiền hoặc dùng AI là tự mất điều kiện."
+  ],
+  "tradeoffs": [
+    "Ưu tiên theo brief và lỗi ảnh hưởng trải nghiệm; không có ngưỡng điểm chung thay duyệt sản phẩm thực tế."
+  ],
+  "verification": [
+    "Giá trị riêng gắn với diễn tiến nhìn/nghe được",
+    "Phim không thoại vẫn được xét theo giá trị của nó, không tự thêm voiceover trái brief",
+    "Đóng gói không giả cảnh AI là tư liệu quay thật",
+    "Có nguồn/ngày khi dẫn quy định; chưa có xét duyệt thì chưa báo đã đủ điều kiện"
+  ],
+  "original_example": "Hai tập hư cấu cùng nhân vật và sân nhà có thể kể hai việc khác nhau, với lựa chọn và kết khác. Đổi táo thành lê trong cùng diễn tiến lặp lại chỉ là một biến bề mặt cần rà thêm.",
+  "counterexample": "Giữ intro/outro hoặc thế giới nhân vật không tự biến cả loạt thành nội dung lặp. Công khai AI không thay việc làm phim có giá trị; cũng không tự là nguyên nhân giảm phân phối.",
+  "prerequisite_ids": [
+    "EV-001"
+  ],
+  "related_ids": [
+    "YT-004",
+    "YT-008",
+    "YT-001",
+    "ST-010",
+    "EV-001",
+    "QC-001"
+  ],
+  "source_ids": [
+    "SRC-YT-ORIGINALITY",
+    "SRC-YT-AI-DISCLOSURE"
+  ],
+  "evidence_policy": {
+    "basis": "editorial_synthesis_with_scoped_references",
+    "audience_effect": "conditional_hypothesis",
+    "generation_tested": false,
+    "viewer_tested": false,
+    "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
+  },
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Sự khác biệt hữu ích nằm ở phần nội dung người xem nhận, không chỉ thuộc tính tài sản. Minh bạch giúp giữ lời hứa về bản chất hình ảnh; đó là quyết định riêng với duyệt chất lượng.",
+    "worked_example": {
+      "brief": "Một loạt phim AI không thoại dùng cùng nhà và nhân vật, cần lập tập tiếp theo.",
+      "protected_elements": [
+        "Không thoại",
+        "Thế giới và nhận diện đã duyệt",
+        "Giới thiệu trung thực là phim AI khi phù hợp"
+      ],
+      "option_a": "Sao cùng một chuỗi công việc, chỉ đổi tên sản phẩm và màu phục trang.",
+      "option_b": "Giữ thế giới nhưng chọn một câu hỏi/công việc và kết quả có giá trị riêng; thiết kế lại các nhịp cần thiết cho việc đó.",
+      "selection_rule": "Chọn B nếu A chưa tạo giá trị riêng. Không ép giật gân hoặc lời bình chỉ để tạo khác; kiểm theo lời hứa kênh và quy định hiện hành.",
+      "observable_checks": [
+        "Mỗi tập có điều riêng để nhận",
+        "Bằng chứng giá trị nằm trong phim",
+        "Chưa hứa lượt xem hoặc kết quả kiếm tiền"
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Tập trông mới nhưng người xem nhận cùng một việc và kết lặp.",
+        "possible_causes": [
+          "Đổi bề mặt thay đổi nội dung",
+          "Cảnh đẹp chưa được tổ chức thành trải nghiệm riêng"
+        ],
+        "next_test": "Lập bảng câu hỏi–tiến triển–kết của ba tập liền, ghi điểm khác có ý nghĩa rồi sửa cấu trúc tập mới."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-YT-ORIGINALITY",
+        "claim": "Trang hiện hành phân biệt nội dung có giá trị/nguyên bản với nội dung theo mẫu lặp hoặc tái sử dụng ít thay đổi đáng kể.",
+        "scope_limit": "Không có phần trăm sửa hay công thức shot bảo đảm duyệt; đây không phải xét duyệt kênh."
+      },
+      {
+        "source_id": "SRC-YT-AI-DISCLOSURE",
+        "claim": "YouTube yêu cầu công khai cảnh AI trông như thật; trang nêu việc công khai tự nó không hạn chế khán giả hoặc điều kiện kiếm tiền.",
+        "scope_limit": "Không đồng nghĩa video được duyệt hoặc đạt hiệu suất; phải đối chiếu loại nội dung và hướng dẫn lúc đăng."
+      }
+    ]
+  }
+}

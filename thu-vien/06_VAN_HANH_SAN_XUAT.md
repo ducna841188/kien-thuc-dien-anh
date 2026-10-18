@@ -1,6 +1,6 @@
 # Từ yêu cầu đến bản phim có thể duyệt
 
-FILM-KB 1.2.1. [Mục lục](README.md) · [Chuẩn quyết định](03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](07_KIEM_TRA_TRAI_NGHIEM.md).
+FILM-KB 1.3.0. [Mục lục](README.md) · [Chuẩn quyết định](03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](07_KIEM_TRA_TRAI_NGHIEM.md).
 
 Quy trình này nối năm tác vụ của kho vào một vòng sản xuất. Mục tiêu là tìm lỗi bằng đầu ra phù hợp và sửa trước khi chi phí lan sang những phần khác. Dự án nhỏ có thể gộp bước; các loại bằng chứng vẫn cần được phân biệt.
 
@@ -59,3 +59,13 @@ Ngân sách thử theo ảnh hưởng và độ chưa chắc. Thử sớm cảnh
 ## Cầu nối tới thư viện ngách
 
 Phim nguồn giữ riêng, phân tích theo cùng [chuẩn](02_CHUAN_PHAN_TICH.md), rồi rút ứng viên có điều kiện. Ngách thêm tệp khán giả, môi trường, công đoạn/chuyên môn và lựa chọn phong cách. Tầng 1 giữ cách ra quyết định có thể chuyển giao. Khi nâng nguyên lý, giữ cả nguồn thuận/trái và lý do điều kiện mở rộng; không lấy số video hoặc view thay căn cứ.
+
+## Duyệt clip AI qua thời gian và duyệt cả phim
+
+[QC-010](kien-thuc/QC-010.json) tách ổn định hình, đúng hành động và tính hợp lý. Xem toàn take rồi rà vùng tay/đạo cụ, che–lộ, nền/bóng/phản chiếu, lượng/trạng thái và mốc chạm–nhả. Sau nội suy, sửa vùng hoặc ghép, xem lại vùng ảnh hưởng và điểm nối. Khung đầu/cuối đẹp hoặc video mượt chưa xác nhận đúng việc.
+
+Theo [QC-001](kien-thuc/QC-001.json), duyệt take riêng, chuỗi điểm nối và toàn phim bằng những câu hỏi khác nhau. Ở toàn phim, rà giá trị mở–kết, sự tích lũy/lặp và sự thoải mái hình–âm. Bản sơ không thay phép kiểm clip, và bộ kiểm dữ liệu không thay hai phép duyệt ấy.
+
+Chi phí phải theo giây riêng biệt dùng trong dựng, gồm cả take bỏ và công sửa. [QC-005](kien-thuc/QC-005.json) có ví dụ phép tính; chưa lấy tỷ lệ một shot dễ ngoại suy mọi shot tiếp xúc khó.
+
+Trước xuất bản, rà giá trị riêng của tập và cách giới thiệu cảnh AI theo [YT-012](kien-thuc/YT-012.json). Giữ lựa chọn không thoại nếu đã chốt; khác biệt nội dung có thể nằm ở hành động, khám phá, quan hệ và cách tổ chức trải nghiệm.

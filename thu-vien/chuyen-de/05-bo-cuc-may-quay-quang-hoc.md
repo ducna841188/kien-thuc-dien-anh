@@ -1,6 +1,6 @@
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.2.1. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.3.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -153,7 +153,7 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 <a id="ca-004"></a>
 ## CA-004 — Địa lý màn hình và hướng liên tục
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Qua điểm cắt, người xem có giữ được ai ở đâu không?
 
@@ -166,6 +166,8 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 1. Vẽ trục hành động và vị trí các góc dự định.
 2. Kiểm hướng nhìn/đi và vị trí vật qua cut.
 3. Khi đổi bên trục, dùng tín hiệu tái định hướng hoặc mục đích rõ.
+4. Tách sơ đồ mặt bằng trong thế giới phim khỏi trái–phải trên màn hình; ghi vị trí máy và đối tượng nhìn cho từng góc. Không biến “người bên trái” thành nhận diện cố định của một nhân vật.
+5. Nếu nhân vật di chuyển làm đổi quan hệ, thiết lập trục mới bằng diễn tiến/khung có thể đọc. Lật ảnh để sửa hướng có thể đảo tay, chữ và chi tiết bất đối xứng; kiểm các phụ thuộc trước.
 
 **Đánh đổi:** Giữ trục cứng có thể hạn chế góc hữu ích; đổi trục không báo dễ gây lạc hướng.
 
@@ -178,9 +180,40 @@ Thử tiếp: Thử một khung xác lập hoặc dàn lại quan hệ trong cù
 
 **Phản ví dụ / giới hạn:** Cảnh nhìn thẳng theo trục hoặc chuyển máy liên tục có thể giúp đổi bên dễ hiểu.
 
-**Liên quan:** [DR-002](../kien-thuc/DR-002.json), [ED-003](../kien-thuc/ED-003.json), [EV-004](../kien-thuc/EV-004.json)
+**Liên quan:** [DR-002](../kien-thuc/DR-002.json), [ED-003](../kien-thuc/ED-003.json), [EV-004](../kien-thuc/EV-004.json), [DR-006](../kien-thuc/DR-006.json), [ED-009](../kien-thuc/ED-009.json)
 
-**Nguồn đối chiếu:** [B013](../../bai-hoc/013-tach-shot-hoi-thoai/README.md), [B027](../../bai-hoc/027-tach-shot-lip-sync/README.md)
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Các góc khác nhau cần được đọc như cùng một quan hệ không gian nếu đó là ý đồ. Đường trục là phương tiện bảo vệ sự hiểu, không tự là đích nghệ thuật.
+
+**Tình huống:** Hai người ngồi đối diện qua bàn, người A trao một cốc cho B.
+
+**Phần phải giữ:** Vị trí người và bàn Đúng tay đang trao Cốc không đổi chủ trước lúc nhận
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Sinh hai cận độc lập chỉ yêu cầu đẹp, sau đó lật một ảnh nếu ánh mắt cùng hướng. |
+| B | Ghi mặt bằng và bên máy; chọn hai góc nhìn cùng quan hệ, thêm khung chung hoặc diễn tiến tái định hướng nếu đổi bên. |
+
+**Cách chọn:** Chọn B khi cần hiểu liền quan hệ. Dùng đổi trục có chủ ý nếu bản yêu cầu cần và đã kiểm được hệ quả.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Biết ai nhìn ai
+- Hướng trao và điểm nhận hợp nhau
+- Không đảo chữ/tay để che lỗi khác
+
+**Nếu gặp:** Hai cận đúng mặt nhưng tưởng nhân vật không nhìn nhau.
+
+Có thể do: Sai bên trục Sai đích nhìn Mặt bằng bị thay trong ảnh tham chiếu
+
+Thử tiếp: Đặt hai khung lên cùng sơ đồ, kiểm vị trí máy/đích nhìn rồi sửa đúng góc; xem lại điểm nối ở tốc độ thật.
+
+**Phát biểu được đối chiếu:** Continuity editing dùng hướng, vị trí và quan hệ thời gian; mục 180° minh họa giữ địa lý giữa các góc. Nguồn: [SRC-YALE-EDIT](https://filmanalysis.yale.edu/editing/).
+
+**Giới hạn nguồn:** Không chứng minh mọi cảnh phải giữ trục hoặc bắt buộc mở bằng toàn cảnh.
+**Nguồn đối chiếu:** [B013](../../bai-hoc/013-tach-shot-hoi-thoai/README.md), [B027](../../bai-hoc/027-tach-shot-lip-sync/README.md), [SRC-YALE-EDIT](https://filmanalysis.yale.edu/editing/)
 
 [Bản JSON chuẩn](../kien-thuc/CA-004.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).
 

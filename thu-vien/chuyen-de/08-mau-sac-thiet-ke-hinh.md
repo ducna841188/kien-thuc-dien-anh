@@ -1,6 +1,6 @@
 # CO — Màu sắc và thiết kế hình ảnh
 
-Phiên bản 1.2.1. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
+Phiên bản 1.3.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -150,7 +150,7 @@ Thử tiếp: So bản giảm cạnh tranh nền và bản tăng màu ở mức 
 <a id="co-004"></a>
 ## CO-004 — Chất liệu và dấu biến đổi
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Hình có cho thấy vật được làm, chạm và thay đổi không?
 
@@ -163,6 +163,8 @@ Thử tiếp: So bản giảm cạnh tranh nền và bản tăng màu ở mức 
 1. Chọn dấu vật liệu cần người xem nhận ra.
 2. Gắn thay đổi với thao tác hoặc môi trường gây ra nó.
 3. Kiểm vùng tiếp xúc và sự ổn định của chất liệu qua thời gian.
+4. Chọn dấu bề mặt gắn với vật để theo dõi qua chuyển động/che lộ; phân biệt vân vật bị trôi với phản chiếu, hơi nước hoặc hạt đang thay đổi hợp lý.
+5. Đối chiếu lượng/trạng thái trước–sau theo công đoạn. Không tạo cảm giác tiến triển bằng cách tự đổi vật liệu hay thành phẩm giữa hai cận.
 
 **Đánh đổi:** Chi tiết quá mức có thể gây cảm giác giả hoặc mất trọng tâm.
 
@@ -170,12 +172,13 @@ Thử tiếp: So bản giảm cạnh tranh nền và bản tăng màu ở mức 
 
 - Vật không tự sạch/chín/đầy khi chưa có nguyên nhân hoặc lược thời gian rõ.
 - Không dùng quá sắc và hạt phim để che lỗi hình học.
+- Vân, nhãn và hình học gắn với vật khi cần giữ nhận diện; phần động tự nhiên không bị khóa thành ảnh đứng.
 
 **Ví dụ tự biên soạn:** Đất khô trở ẩm khi nước đến; một bề mặt ướt có phản chiếu đổi hợp lý.
 
 **Phản ví dụ / giới hạn:** Hoạt hình có thể giản lược vật liệu nhưng vẫn cần quy luật biến đổi nội tại.
 
-**Liên quan:** [DR-005](../kien-thuc/DR-005.json), [AI-003](../kien-thuc/AI-003.json), [LI-006](../kien-thuc/LI-006.json)
+**Liên quan:** [DR-005](../kien-thuc/DR-005.json), [AI-003](../kien-thuc/AI-003.json), [LI-006](../kien-thuc/LI-006.json), [QC-010](../kien-thuc/QC-010.json), [AI-010](../kien-thuc/AI-010.json)
 
 **Nguồn đối chiếu:** [B015](../../bai-hoc/015-logic-chuyen-dong-vat-ly/README.md), [B023](../../bai-hoc/023-negative-prompt/README.md)
 

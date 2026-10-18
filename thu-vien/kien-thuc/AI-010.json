@@ -1,7 +1,7 @@
 {
   "id": "AI-010",
   "namespace": "film.core",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "module_id": "AI",
   "title": "Sổ trạng thái và tài sản dùng chung giữa các shot",
   "level": "trung_cap",
@@ -15,7 +15,9 @@
   "actions": [
     "Cấp mã tài sản và chọn tham chiếu có thẩm quyền cho mặt/đồ/không gian. Ghi phiên bản, vai trò tham chiếu và những thuộc tính phải giữ.",
     "Cho mỗi shot ghi trạng thái vào, hành động đổi trạng thái, trạng thái ra và shot phụ thuộc; lưu người giữ, vị trí, lượng tương đối, dấu sử dụng và những phần chưa biết.",
-    "Khi đổi take hoặc sửa một tài sản, kiểm các shot liên quan thay vì tự cập nhật toàn bộ ngách. Dùng hình mốc được duyệt khi công cụ thật hỗ trợ."
+    "Khi đổi take hoặc sửa một tài sản, kiểm các shot liên quan thay vì tự cập nhật toàn bộ ngách. Dùng hình mốc được duyệt khi công cụ thật hỗ trợ.",
+    "Theo dõi cả trong shot: vật đi sau tay/vật cản phải trở lại với nhận diện và trạng thái còn hợp lý. Che khuất không tự là hành động đổi vật, làm đầy hoặc chuyển chủ.",
+    "Ghi thay đổi có chủ đích cùng tác nhân hoặc khoảng lược: đừng coi mọi khác biệt pixel là lỗi, cũng đừng lấy từ “cinematic” để bỏ qua đổi số lượng/vật thể."
   ],
   "tradeoffs": [
     "Ghi quá chi tiết tăng công và có thể gây ràng buộc sai; ưu tiên thuộc tính khán giả dùng để hiểu mạch hoặc nhận diện."
@@ -34,7 +36,9 @@
     "AI-003",
     "ED-003",
     "CO-005",
-    "QC-004"
+    "QC-004",
+    "QC-010",
+    "CO-004"
   ],
   "source_ids": [
     "SRC-GOOGLE-I2V",

@@ -1,7 +1,7 @@
 {
   "id": "DR-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "module_id": "DR",
   "title": "Thiết kế đủ góc để dựng và phương án tiết kiệm",
   "level": "nang_cao",
@@ -15,7 +15,9 @@
   "actions": [
     "Bắt đầu bằng góc thấy quan hệ chính.",
     "Bổ sung chi tiết, phản ứng và trạng thái kết cần thiết.",
-    "Lập phương án tối thiểu và góc dự phòng cho lỗi dễ xảy ra."
+    "Lập phương án tối thiểu và góc dự phòng cho lỗi dễ xảy ra.",
+    "Lập bộ góc từ bằng chứng cần dựng: quan hệ không gian, biến đổi then chốt, phản ứng hoặc công năng kết quả. Mỗi góc nhận một nhiệm vụ; không mặc định toàn–trung–cận cho mọi nhịp.",
+    "Dự kiến điểm cắt và khoảng dư đầu/cuối take để còn chọn nhịp; độ dư theo hành động và công cụ. Tách độ dài job phải tạo khỏi số giây thật dùng trong phim."
   ],
   "tradeoffs": [
     "Nhiều góc tăng lựa chọn nhưng tốn thời gian và dễ lệch liên tục."
@@ -32,7 +34,10 @@
   "related_ids": [
     "ED-003",
     "AI-004",
-    "QC-001"
+    "QC-001",
+    "AI-009",
+    "QC-005",
+    "ED-010"
   ],
   "source_ids": [
     "B012",
@@ -46,5 +51,34 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Coverage hữu ích khi nó giữ được thông tin và lựa chọn dựng đúng chỗ rủi ro; nhiều góc tương đương không bù góc thiếu bằng chứng quyết định.",
+    "worked_example": {
+      "brief": "Phim êm về lắp một chốt cửa cần thấy chốt giữ được cửa sau lắp.",
+      "protected_elements": [
+        "Hành động/công năng thật của chốt",
+        "Không thoại",
+        "Nhịp nhẹ"
+      ],
+      "option_a": "Tạo nhiều góc đẹp của mặt cửa và tay nhưng không thấy điểm giữ hoặc thử đóng.",
+      "option_b": "Dùng một góc đọc quan hệ, một góc thấy lắp/chạm nếu cần, và một mốc thử sử dụng; thử bản dựng ảnh trước.",
+      "selection_rule": "Chọn B nếu A không chứng minh công năng. Một góc đủ cả ba nhiệm vụ có thể thay nhiều góc nếu vẫn đọc được.",
+      "observable_checks": [
+        "Bộ tối thiểu dựng hiểu việc",
+        "Có khoảng chọn điểm cắt",
+        "Góc dự phòng xử lý đúng một nguy cơ"
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Có nhiều take nhưng không có chỗ nối hoặc dấu hoàn tất.",
+        "possible_causes": [
+          "Chọn góc theo vẻ riêng, chưa theo chức năng chuỗi"
+        ],
+        "next_test": "Dựng bộ tối thiểu với âm tạm, đánh dấu đúng bằng chứng thiếu rồi tạo bổ sung thay vì phủ kín mọi cỡ."
+      }
+    ],
+    "evidence_links": []
+  }
 }

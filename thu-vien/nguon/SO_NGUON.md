@@ -271,3 +271,53 @@ Bản xuất từ nguon-chinh-thuc.json. Nguồn hỗ trợ phát biểu trong p
 **Phần đã đọc/cách dùng:** Đã đọc mô tả gain và điều khiển phơi sáng. Xử lý thực tế phụ thuộc máy/cấu hình; không chuyển cách quảng bá nhiễu của một đời máy thành quy luật cảm biến.
 
 **Chưa xác nhận:** Tăng ISO không tự thêm photon vào cảm biến hoặc xác nhận có thể cứu phần dữ liệu đã cắt.
+
+## SRC-TENSION-MODEL — Lehne & Koelsch (2015) — Toward a general psychological model of tension and suspense
+
+[Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC4324075/) · Kiểm ngày 2026-10-18 · Loại: primary_theoretical_paper
+
+**Phạm vi:** Mô hình lý thuyết về mong đợi, ý nghĩa của kết quả; phân biệt cảm xúc nhận ra trong tác phẩm và cảm xúc tự trải nghiệm.
+
+**Phần đã đọc/cách dùng:** Đã đọc tóm tắt, phần định nghĩa, đo tension và các đoạn uncertainty/prediction/paradox of suspense. DOI 10.3389/fpsyg.2015.00079. Không gọi đây là thử nghiệm tối ưu phim YouTube.
+
+**Chưa xác nhận:** Không xác lập thời gian chờ, công thức hồi hộp, phản ứng của tệp kênh hoặc tác dụng sức khỏe.
+
+## SRC-VBENCH — Huang et al. — VBench (CVPR 2024), project documentation
+
+[Nguồn](https://vchitect.github.io/VBench-project/) · Kiểm ngày 2026-10-18 · Loại: primary_research_project
+
+**Phạm vi:** Cách tách chất lượng sinh video thành nhiều chiều, gồm nhất quán chủ thể, nhấp nháy theo thời gian và chuyển động.
+
+**Phần đã đọc/cách dùng:** Đã đọc tổng quan, tóm tắt và mô tả phạm vi trên trang tác giả; không chạy mã hoặc bảng xếp hạng. Danh mục kiểm thủ công trong kho là biên soạn, không phải điểm VBench.
+
+**Chưa xác nhận:** Không chứng nhận từng clip, phim hoàn chỉnh, cảm xúc, giữ chân hoặc chất lượng mọi model mới.
+
+## SRC-VBENCH-2 — Zheng et al. — VBench-2.0: Intrinsic Faithfulness, arXiv:2503.21755v2
+
+[Nguồn](https://arxiv.org/abs/2503.21755v2) · Kiểm ngày 2026-10-18 · Loại: primary_research_abstract
+
+**Phạm vi:** Phân biệt vẻ thuyết phục thị giác với các chiều vật lý, lẽ thường, cơ thể và khả năng điều khiển.
+
+**Phần đã đọc/cách dùng:** Đã đọc tóm tắt bản v2 ngày 20/08/2025 và trang dự án tác giả. Chưa chạy bộ đo, chưa đọc toàn phụ lục hoặc kiểm từng video minh họa.
+
+**Chưa xác nhận:** Không bảo đảm điểm tự động thay đánh giá cảnh thật; không xác nhận AI hiểu thế giới hoặc đã giữ đúng hành động trong dự án này.
+
+## SRC-YT-ORIGINALITY — YouTube Help — Channel monetization policies
+
+[Nguồn](https://support.google.com/youtube/answer/1311392?hl=en) · Kiểm ngày 2026-10-18 · Loại: platform_documentation
+
+**Phạm vi:** Nội dung nguyên bản, nội dung lặp/sản xuất theo mẫu và reused content được xét theo giá trị thực của video/kênh.
+
+**Phần đã đọc/cách dùng:** Đã đọc phần thay đổi 15/07/2025, Generic or Repetitive Content và Reused content trên trang hiện hành ngày 18/10/2026. Phân biệt khác biệt nội dung với chỉ thay vật/màu trong một mẫu.
+
+**Chưa xác nhận:** Không phải kết luận xét duyệt kiếm tiền cho một kênh cụ thể; không có ngưỡng số shot, phần trăm thay đổi hoặc yêu cầu mọi phim phải có thoại.
+
+## SRC-YT-AI-DISCLOSURE — YouTube Help — Disclosing use of GenAI content
+
+[Nguồn](https://support.google.com/youtube/answer/14328491?hl=en) · Kiểm ngày 2026-10-18 · Loại: platform_documentation
+
+**Phạm vi:** Công khai cảnh AI trông như thật và biến đổi đáng kể; tách công khai AI khỏi đánh giá giá trị/khả năng kiếm tiền.
+
+**Phần đã đọc/cách dùng:** Đã đọc yêu cầu, ví dụ, cách khai và ghi chú về phạm vi tiếp cận/kiếm tiền ngày 18/10/2026. Giao diện hiện gọi AI use; trước khi đăng phải mở lại hướng dẫn đúng loại nội dung và giao diện thật.
+
+**Chưa xác nhận:** Không bảo đảm video được duyệt hoặc đạt view; không suy rằng mọi hỗ trợ viết kịch bản/chỉnh màu đều phải khai như cảnh tạo sinh trông thật.

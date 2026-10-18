@@ -1,7 +1,7 @@
 {
   "id": "CA-004",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "module_id": "CA",
   "title": "Địa lý màn hình và hướng liên tục",
   "level": "trung_cap",
@@ -15,7 +15,9 @@
   "actions": [
     "Vẽ trục hành động và vị trí các góc dự định.",
     "Kiểm hướng nhìn/đi và vị trí vật qua cut.",
-    "Khi đổi bên trục, dùng tín hiệu tái định hướng hoặc mục đích rõ."
+    "Khi đổi bên trục, dùng tín hiệu tái định hướng hoặc mục đích rõ.",
+    "Tách sơ đồ mặt bằng trong thế giới phim khỏi trái–phải trên màn hình; ghi vị trí máy và đối tượng nhìn cho từng góc. Không biến “người bên trái” thành nhận diện cố định của một nhân vật.",
+    "Nếu nhân vật di chuyển làm đổi quan hệ, thiết lập trục mới bằng diễn tiến/khung có thể đọc. Lật ảnh để sửa hướng có thể đảo tay, chữ và chi tiết bất đối xứng; kiểm các phụ thuộc trước."
   ],
   "tradeoffs": [
     "Giữ trục cứng có thể hạn chế góc hữu ích; đổi trục không báo dễ gây lạc hướng."
@@ -32,11 +34,14 @@
   "related_ids": [
     "DR-002",
     "ED-003",
-    "EV-004"
+    "EV-004",
+    "DR-006",
+    "ED-009"
   ],
   "source_ids": [
     "B013",
-    "B027"
+    "B027",
+    "SRC-YALE-EDIT"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -45,5 +50,42 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Các góc khác nhau cần được đọc như cùng một quan hệ không gian nếu đó là ý đồ. Đường trục là phương tiện bảo vệ sự hiểu, không tự là đích nghệ thuật.",
+    "worked_example": {
+      "brief": "Hai người ngồi đối diện qua bàn, người A trao một cốc cho B.",
+      "protected_elements": [
+        "Vị trí người và bàn",
+        "Đúng tay đang trao",
+        "Cốc không đổi chủ trước lúc nhận"
+      ],
+      "option_a": "Sinh hai cận độc lập chỉ yêu cầu đẹp, sau đó lật một ảnh nếu ánh mắt cùng hướng.",
+      "option_b": "Ghi mặt bằng và bên máy; chọn hai góc nhìn cùng quan hệ, thêm khung chung hoặc diễn tiến tái định hướng nếu đổi bên.",
+      "selection_rule": "Chọn B khi cần hiểu liền quan hệ. Dùng đổi trục có chủ ý nếu bản yêu cầu cần và đã kiểm được hệ quả.",
+      "observable_checks": [
+        "Biết ai nhìn ai",
+        "Hướng trao và điểm nhận hợp nhau",
+        "Không đảo chữ/tay để che lỗi khác"
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Hai cận đúng mặt nhưng tưởng nhân vật không nhìn nhau.",
+        "possible_causes": [
+          "Sai bên trục",
+          "Sai đích nhìn",
+          "Mặt bằng bị thay trong ảnh tham chiếu"
+        ],
+        "next_test": "Đặt hai khung lên cùng sơ đồ, kiểm vị trí máy/đích nhìn rồi sửa đúng góc; xem lại điểm nối ở tốc độ thật."
+      }
+    ],
+    "evidence_links": [
+      {
+        "source_id": "SRC-YALE-EDIT",
+        "claim": "Continuity editing dùng hướng, vị trí và quan hệ thời gian; mục 180° minh họa giữ địa lý giữa các góc.",
+        "scope_limit": "Không chứng minh mọi cảnh phải giữ trục hoặc bắt buộc mở bằng toàn cảnh."
+      }
+    ]
+  }
 }

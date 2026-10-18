@@ -1,6 +1,6 @@
 # SO — Âm thanh, nhạc và lời kể
 
-Phiên bản 1.2.1. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
+Phiên bản 1.3.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 
@@ -91,7 +91,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 <a id="so-003"></a>
 ## SO-003 — Âm ngoài khung và phối cảnh âm
 
-**Phiên bản mục:** 1.0.0
+**Phiên bản mục:** 1.3.0
 
 **Câu hỏi quyết định:** Âm cho biết điều gì ngoài phần nhìn thấy?
 
@@ -104,6 +104,8 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 1. Chọn nguồn thật/giả định và vị trí tương đối.
 2. Giữ mức gần–xa và đặc tính không gian hợp lý qua góc.
 3. Ghi khi nào nguồn được lộ hoặc cố ý giữ ngoài khung.
+4. Chọn điểm nghe: theo vị trí quan sát, gần nhân vật, chủ quan hoặc ưu tiên thông tin. Cỡ cận của hình không bắt âm phải sát như đặt micro vào vật; ghi lý do khi làm tiếng gần hơn phối cảnh tự nhiên.
+5. Qua cut cùng nơi, giữ nền/phối cảnh khi cần liên tục; chỉ đổi mức, phổ, hướng hoặc độ vang khi nguồn, vật cản, điểm nghe hay ý đồ thật thay đổi. Kiểm cả loa và tai nghe/mono khi có.
 
 **Đánh đổi:** Âm quá rõ của nguồn xa có thể bị cảm như phóng đại; có thể dùng khi cách điệu chủ ý.
 
@@ -111,6 +113,7 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 - Không gán nhầm tiếng ngoài khung cho vật đang thấy.
 - Nguồn không tự đổi bên hoặc đổi phòng ngoài ý đồ.
+- Không tăng mọi tiếng chạm chỉ vì hình đổi sang cận.
 
 **Ví dụ tự biên soạn:** Tiếng bước tới trước khi khách xuất hiện làm rõ có người ở gần.
 
@@ -118,6 +121,37 @@ Mỗi mục dưới là hướng dẫn có điều kiện. Tác dụng cảm xú
 
 **Liên quan:** [CA-005](../kien-thuc/CA-005.json), [ST-006](../kien-thuc/ST-006.json), [SO-004](../kien-thuc/SO-004.json)
 
+
+### Áp dụng và chẩn đoán
+
+**Cơ chế/quan hệ cần xét:** Phối cảnh âm là một lựa chọn kể chuyện về nguồn và nơi nghe; nó có thể ưu tiên rõ thông tin mà vẫn cần quy luật không gian nhất quán.
+
+**Tình huống:** Một người đóng nắp hộp ở bàn; cảnh chuyển từ trung sang cận tay nhưng vẫn cùng nơi và thời điểm.
+
+**Phần phải giữ:** Nguồn tiếng thuộc hộp Điểm tiếp xúc đúng lúc Không có cú âm gây giật ngoài brief
+
+| Phương án | Thực hiện |
+| --- | --- |
+| A | Mỗi cut cận tăng tiếng chạm và làm nền biến mất đột ngột. |
+| B | Giữ nền và điểm nghe nhất quán; chỉ nhấn tiếng chạm vừa đủ đọc công năng, với lý do sáng tạo rõ. |
+
+**Cách chọn:** Chọn B cho trải nghiệm liền và nhẹ. A có thể dùng cho một chủ ý chuyển điểm nghe đã được chốt, không phải mặc định của cận.
+
+**Dấu hiệu kiểm trong ca:**
+
+- Cùng nguồn được nhận ra qua cut
+- Không nhảy phòng vô cớ
+- Tiếng chính rõ ở mức nghe thoải mái
+
+**Nếu gặp:** Hình liền nhưng cảm giác không gian nhảy hoặc mọi thao tác quá chói.
+
+Có thể do: Take có nền/phối cảnh khác Tăng âm theo cỡ máy thay vì chức năng
+
+Thử tiếp: Nghe tuyến âm quanh cut rồi so toàn mix; giữ một nền liền và thử giảm đúng tiếng bị phóng đại.
+
+**Phát biểu được đối chiếu:** Sound perspective mô tả vị trí cảm nhận của âm; ví dụ thay đổi độ rõ/khoảng cách khi có cửa và di chuyển. Nguồn: [SRC-YALE-SOUND](https://filmanalysis.yale.edu/sound/).
+
+**Giới hạn nguồn:** Không đòi âm phải mô phỏng vị trí máy tuyệt đối hoặc cho công thức mix chung.
 **Nguồn đối chiếu:** [B032](../../bai-hoc/032-dieu-khien-am-thanh/README.md), [SRC-YALE-SOUND](https://filmanalysis.yale.edu/sound/)
 
 [Bản JSON chuẩn](../kien-thuc/SO-003.json). Đọc phạm vi nguồn trong [sổ nguồn](../nguon/nguon-chinh-thuc.json).

@@ -1,6 +1,6 @@
 # Viết yêu cầu tạo ảnh/video
 
-Tác vụ: write_generation_prompts. Core release 1.2.1; dẫn version của từng mục thực dùng.
+Tác vụ: write_generation_prompts. Core release 1.3.0; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 
@@ -32,3 +32,5 @@ Mã trọng tâm: [AI-001](../kien-thuc/AI-001.json), [AI-002](../kien-thuc/AI-0
 ## Áp dụng và kiểm tra
 
 Kiểm khả thi ảnh đầu theo AI-011 và sổ trạng thái theo AI-010. Tách ý đồ, tham chiếu và thiết lập thật của model/chế độ theo AI-013. Chuẩn bị tiêu chí toàn clip và mốc rủi ro; không coi từ khóa lens/fps/8K hoặc seed là khóa tuyệt đối. AI-012 giúp giao phần chính xác sang hậu kỳ khi có cách làm phù hợp. Chưa sinh đầu ra thì giữ trạng thái yêu cầu/đề xuất.
+
+Gắn trạng thái/nhận diện cần giữ qua che–lộ và pha hành động cần thấy theo AI-010/QC-010. Đây là yêu cầu để kiểm kết quả, không phải lời hứa prompt khóa tuyệt đối. Khi sửa một lỗi vẫn giữ các phần đã duyệt.

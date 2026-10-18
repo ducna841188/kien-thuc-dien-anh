@@ -1,7 +1,7 @@
 {
   "id": "AU-006",
   "namespace": "film.core",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "module_id": "AU",
   "title": "Phản hồi khán giả và giới hạn suy nhân quả",
   "level": "nang_cao",
@@ -15,7 +15,9 @@
   "actions": [
     "Hỏi cụ thể về đoạn/mốc thay vì gợi câu trả lời tốt.",
     "So kết quả giữa nhóm và hoàn cảnh tương đồng khi có thể.",
-    "Ghi cả phản ứng ngoài ý đồ và các yếu tố khác đã đổi."
+    "Ghi cả phản ứng ngoài ý đồ và các yếu tố khác đã đổi.",
+    "Cho lượt xem liền trước nếu muốn kiểm trải nghiệm tự nhiên; việc dừng mỗi shot để hỏi hoặc vừa xem vừa chấm có thể làm đổi nhiệm vụ. Tách lượt kiểm chi tiết và ghi người đã biết bản trước.",
+    "Hỏi riêng “cảnh gợi sắc thái gì?” và “bạn đã cảm thấy gì?” sau mô tả tự do. Không gộp hai câu hoặc thay câu trả lời bằng nhãn ý đồ."
   ],
   "tradeoffs": [
     "Dữ liệu nhỏ giúp phát hiện vấn đề, chưa đủ kết luận cho cả thị trường."
@@ -32,10 +34,13 @@
   "related_ids": [
     "YT-003",
     "YT-005",
-    "QC-003"
+    "QC-003",
+    "AU-004",
+    "QC-008"
   ],
   "source_ids": [
-    "SRC-YT-RETENTION"
+    "SRC-YT-RETENTION",
+    "SRC-TENSION-MODEL"
   ],
   "evidence_policy": {
     "basis": "editorial_synthesis_with_scoped_references",
@@ -44,5 +49,34 @@
     "viewer_tested": false,
     "note": "Nguồn được dùng trong phạm vi ghi ở sổ nguồn; các bước, ví dụ và phản ví dụ là biên soạn thực hành, không phải thử nghiệm xác nhận hiệu quả."
   },
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "application_depth": {
+    "mechanism": "Một lời phản hồi chỉ trả lời đúng câu hỏi đã hỏi, trong cách xem đã tổ chức. Hỏi đúng lớp giúp quyết định sửa thông tin, biểu đạt hay lời hứa.",
+    "worked_example": {
+      "brief": "Nhóm thử nói cảnh đoàn tụ trông ấm áp nhưng bản thân thấy buồn nhớ nhà.",
+      "protected_elements": [
+        "Giữ lời gốc",
+        "Không suy bệnh lý",
+        "Không tự kết luận cho toàn tệp"
+      ],
+      "option_a": "Đếm mọi nhận xét có từ ấm áp là đã nhận trải nghiệm dễ chịu.",
+      "option_b": "Ghi sắc thái nhận ra và cảm xúc tự trải nghiệm riêng, kèm mốc và ngữ cảnh tự nguyện được chia sẻ.",
+      "selection_rule": "Chọn B để chẩn đoán khác biệt; chỉ đổi phim khi biết khác biệt ấy ảnh hưởng mục tiêu ra sao.",
+      "observable_checks": [
+        "Báo cáo giữ hai câu trả lời",
+        "Có mẫu và điều kiện xem",
+        "Chưa đại diện toàn khán giả"
+      ]
+    },
+    "failure_diagnosis": [
+      {
+        "symptom": "Báo cáo nói mọi người thư giãn trong khi câu hỏi chỉ là cảnh muốn thể hiện gì.",
+        "possible_causes": [
+          "Câu hỏi đo nhận diện ý đồ nhưng kết luận về trải nghiệm"
+        ],
+        "next_test": "Hỏi lại theo đúng mục tiêu ở một lượt phù hợp, ghi cả ảnh hưởng của việc đã xem trước."
+      }
+    ],
+    "evidence_links": []
+  }
 }
