@@ -66,10 +66,10 @@
     }
   ],
   "relative_links_valid": true,
-  "version": "1.3.0",
+  "version": "1.3.1",
   "storage_mode": "in_place_latest",
-  "farm_files_checked": 5,
-  "farm_current_core_version_checked": "1.3.0",
+  "farm_files_checked": 7,
+  "farm_current_core_version_checked": "1.3.1",
   "single_current_copy_policy_valid": true,
   "knowledge_contract_tests": [
     {
@@ -189,6 +189,14 @@
   "inventory_counts_valid": true,
   "package_checksums_valid": true,
   "canonical_jsonl_matches": true,
+  "human_edition_checks": {
+    "authored_chapters": 1,
+    "planned_chapters": 13,
+    "planned_core_ids": 132,
+    "file_checksums_valid": true,
+    "knowledge_references_valid": true,
+    "complete_handbook": false
+  },
   "generated_video_tests": 0,
   "external_model_evaluations": 0,
   "scope": "Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.",
@@ -196,60 +204,63 @@
   "status": "passed_current_structure_and_integrity_checks",
   "fixture_test_count": 36,
   "content_review": {
-    "scope": "Reviewed framework/principles of all 130 previous cards, all current counterexamples, and read deeply the fields affected by this revision. Not a claim of exhaustive film knowledge or audience validation.",
-    "existing_cards_changed": [
-      "AI-006",
-      "AI-010",
-      "AU-003",
-      "AU-004",
-      "AU-006",
-      "AU-009",
-      "CA-004",
-      "CO-004",
-      "DR-002",
-      "DR-006",
-      "EV-002",
-      "LI-003",
-      "MO-007",
-      "QC-001",
-      "QC-005",
-      "SO-003",
-      "ST-001",
-      "ST-006",
-      "YT-004"
-    ],
-    "existing_cards_unchanged": 111,
-    "new_cards": [
-      "QC-010",
-      "YT-012"
-    ],
-    "application_depth_cards": 82,
-    "scoped_references_added": 5,
-    "glossary_terms": 147,
-    "duplicate_card_ids_or_titles": 0,
+    "scope": "Reader edition outline and one illustrated sample chapter; existing canonical knowledge cards were not revised in this release.",
+    "existing_cards_changed": [],
+    "existing_cards_unchanged": 132,
+    "new_cards": [],
+    "principle_reversals_applied": 0,
     "prepared_external_ai_cases": 48,
-    "prepared_external_ai_cases_added": 8,
-    "external_ai_cases_run": 0,
-    "principle_reversals_applied": 0
+    "external_ai_cases_run": 0
   },
-  "integrated_example_checks": {
-    "script_plan_analysis_duration_seconds": 12,
-    "shot_plan_shots": 4,
-    "script_reference_and_segment_links_valid": true,
-    "planned_and_synthetic_states_match": true,
-    "ellipsis_at_cut_2_to_3_documented": true,
-    "integrated_scene_design_rendered_once_from_json": true,
-    "generation_or_viewer_validation_performed": false
+  "human_edition_review": {
+    "version": "0.1.0",
+    "core_version": "1.3.1",
+    "status": "outline_and_one_sample_chapter",
+    "complete_handbook": false,
+    "planned_chapters": 13,
+    "authored_chapters": 1,
+    "planned_core_ids": 132,
+    "sample_knowledge_references": 18,
+    "pdf_pages": 12,
+    "pdf_page_size_points": [
+      1120,
+      700
+    ],
+    "pdf_text_within_page_bounds": true,
+    "pdf_replacement_characters": 0,
+    "pdf_links": 31,
+    "visual_review": "All twelve rendered pages inspected; cover, diagrams, text wrapping and exercise reviewed after corrections.",
+    "original_generated_photos": 1,
+    "deterministic_vector_diagrams": 3,
+    "illustrations_are_fictional": true,
+    "viewer_validation_performed": false,
+    "video_generation_performed": false
+  },
+  "research_readiness": {
+    "additional_videos_selected_by_user": 8,
+    "expected_total_videos": 9,
+    "additional_video_list_received": false,
+    "additional_video_media_received": 0,
+    "new_video_analyses_performed": 0,
+    "existing_vid01_state": "workbook_and_twelve_stills; full motion and audio unverified",
+    "staged_corpus_plan": [
+      1,
+      3,
+      3,
+      2
+    ],
+    "all_nine_videos_to_be_analyzed": true
   },
   "preservation": {
-    "baseline_core_commit": "f78f8f7cab9dc1f666b3fe2ab0c303b226ec8255",
-    "baseline_farm_commit": "433ad9a89de5577ab1a7b3bb4bd4d1366ddc2dbb",
+    "baseline_core_commit": "71702d1d206363707ede177096e63acffaa58ded",
+    "baseline_farm_commit": "1440a2d4eac31f7d14e02573bc6be6578fec4ecc",
     "original_images_unchanged": 444,
     "legacy_lesson_files_unchanged": 610,
-    "previous_knowledge_ids_preserved": 130,
+    "canonical_cards_unchanged": 132,
+    "missing_baseline_core_files": 0,
     "farm_rules_and_candidates_unchanged": true,
     "farm_source_registry_and_analysis_example_unchanged": true,
-    "farm_changes": "Profile metadata/dependency and README version only; no production choices changed."
+    "farm_changes": "Profile dependency/metadata and README; new current research plan. Production choices preserved."
   },
   "storage": {
     "mode": "in_place_latest",

@@ -1,0 +1,331 @@
+{
+  "edition_id": "FILM-KB-HUMAN",
+  "version": "0.1.0",
+  "core_version": "1.3.1",
+  "language": "vi",
+  "primary_device": "desktop",
+  "pdf_page_ratio": "16:10",
+  "status": "outline_and_one_sample_chapter",
+  "complete_handbook": false,
+  "current_chapter_count": 1,
+  "planned_chapter_count": 13,
+  "current_markdown": "README.md",
+  "current_pdf": "SO_TAY_DIEN_ANH.pdf",
+  "chapters": [
+    {
+      "id": "HUM-01",
+      "module_id": "EV",
+      "title": "Nhìn một cảnh bằng tư duy đạo diễn",
+      "learning_goal": "Phân biệt nhìn thấy, suy diễn, ý đồ và bằng chứng; bắt đầu từ một việc cụ thể.",
+      "status": "sample_available",
+      "markdown_path": "chuong-01.md",
+      "planned_core_ids": [
+        "EV-001",
+        "EV-002",
+        "EV-003",
+        "EV-004",
+        "EV-005",
+        "EV-006",
+        "EV-007",
+        "EV-008"
+      ]
+    },
+    {
+      "id": "HUM-02",
+      "module_id": "AU",
+      "title": "Khán giả, lời hứa và cảm xúc",
+      "learning_goal": "Xác định nhu cầu, điều đáng quan tâm và cách kiểm cảm nhận.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "AU-001",
+        "AU-002",
+        "AU-003",
+        "AU-004",
+        "AU-005",
+        "AU-006",
+        "AU-007",
+        "AU-008",
+        "AU-009"
+      ]
+    },
+    {
+      "id": "HUM-03",
+      "module_id": "ST",
+      "title": "Từ ý tưởng đến câu chuyện có tiến triển",
+      "learning_goal": "Chọn trục, nhịp thay đổi, lịch lộ thông tin và kết quả.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "ST-001",
+        "ST-002",
+        "ST-003",
+        "ST-004",
+        "ST-005",
+        "ST-006",
+        "ST-007",
+        "ST-008",
+        "ST-009",
+        "ST-010",
+        "ST-011",
+        "ST-012"
+      ]
+    },
+    {
+      "id": "HUM-04",
+      "module_id": "DR",
+      "title": "Dàn cảnh và chỉ đạo hành vi",
+      "learning_goal": "Bố trí người/vật, tương tác, phản ứng và chuyển lực.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "DR-001",
+        "DR-002",
+        "DR-003",
+        "DR-004",
+        "DR-005",
+        "DR-006",
+        "DR-007",
+        "DR-008",
+        "DR-009"
+      ]
+    },
+    {
+      "id": "HUM-05",
+      "module_id": "CA",
+      "title": "Cỡ cảnh, góc nhìn và không gian",
+      "learning_goal": "Chọn khung, trục, bố cục, nét và quan hệ khoảng cách.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "CA-001",
+        "CA-002",
+        "CA-003",
+        "CA-004",
+        "CA-005",
+        "CA-006",
+        "CA-007",
+        "CA-008",
+        "CA-009",
+        "CA-010",
+        "CA-011",
+        "CA-012"
+      ]
+    },
+    {
+      "id": "HUM-06",
+      "module_id": "MO",
+      "title": "Chuyển động và cách kể thời gian",
+      "learning_goal": "Tách máy/chủ thể; chọn quỹ đạo, tốc độ và khoảng lược.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "MO-001",
+        "MO-002",
+        "MO-003",
+        "MO-004",
+        "MO-005",
+        "MO-006",
+        "MO-007",
+        "MO-008"
+      ]
+    },
+    {
+      "id": "HUM-07",
+      "module_id": "LI",
+      "title": "Ánh sáng để đọc được việc",
+      "learning_goal": "Hiểu nguồn, hướng, bóng, tương phản và thông tin cần giữ.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "LI-001",
+        "LI-002",
+        "LI-003",
+        "LI-004",
+        "LI-005",
+        "LI-006",
+        "LI-007",
+        "LI-008"
+      ]
+    },
+    {
+      "id": "HUM-08",
+      "module_id": "CO",
+      "title": "Màu sắc, vật liệu và sự liên tục",
+      "learning_goal": "Thiết kế quan hệ màu và trạng thái vật; hiểu dữ liệu trước chỉnh.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "CO-001",
+        "CO-002",
+        "CO-003",
+        "CO-004",
+        "CO-005",
+        "CO-006",
+        "CO-007",
+        "CO-008",
+        "CO-009"
+      ]
+    },
+    {
+      "id": "HUM-09",
+      "module_id": "ED",
+      "title": "Dựng phim và điều khiển nhịp",
+      "learning_goal": "Chọn điểm cắt và thời gian có chức năng từ shot tới toàn phim.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "ED-001",
+        "ED-002",
+        "ED-003",
+        "ED-004",
+        "ED-005",
+        "ED-006",
+        "ED-007",
+        "ED-008",
+        "ED-009",
+        "ED-010",
+        "ED-011"
+      ]
+    },
+    {
+      "id": "HUM-10",
+      "module_id": "SO",
+      "title": "Âm thanh, nhạc và khoảng lặng",
+      "learning_goal": "Chọn nguồn, điểm nghe, đồng bộ và thứ tự cần nghe.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "SO-001",
+        "SO-002",
+        "SO-003",
+        "SO-004",
+        "SO-005",
+        "SO-006",
+        "SO-007",
+        "SO-008",
+        "SO-009",
+        "SO-010",
+        "SO-011"
+      ]
+    },
+    {
+      "id": "HUM-11",
+      "module_id": "AI",
+      "title": "Biến ý đồ thành quy trình làm phim AI",
+      "learning_goal": "Chuẩn bị tham chiếu, chia việc, kiểm đầu vào và sửa đúng công đoạn.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "AI-001",
+        "AI-002",
+        "AI-003",
+        "AI-004",
+        "AI-005",
+        "AI-006",
+        "AI-007",
+        "AI-008",
+        "AI-009",
+        "AI-010",
+        "AI-011",
+        "AI-012",
+        "AI-013"
+      ]
+    },
+    {
+      "id": "HUM-12",
+      "module_id": "QC",
+      "title": "Duyệt phim, sửa lỗi và quản lý chi phí",
+      "learning_goal": "Kiểm take–chuỗi–toàn phim; dùng dữ liệu đúng phạm vi.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "QC-001",
+        "QC-002",
+        "QC-003",
+        "QC-004",
+        "QC-005",
+        "QC-006",
+        "QC-007",
+        "QC-008",
+        "QC-009",
+        "QC-010"
+      ]
+    },
+    {
+      "id": "HUM-13",
+      "module_id": "YT",
+      "title": "YouTube: được chọn xem và đáng quay lại",
+      "learning_goal": "Kết nối lời hứa, nội dung, giá trị riêng và vòng học khán giả.",
+      "status": "outline_only",
+      "markdown_path": null,
+      "planned_core_ids": [
+        "YT-001",
+        "YT-002",
+        "YT-003",
+        "YT-004",
+        "YT-005",
+        "YT-006",
+        "YT-007",
+        "YT-008",
+        "YT-009",
+        "YT-010",
+        "YT-011",
+        "YT-012"
+      ]
+    }
+  ],
+  "source_of_truth": "Core JSON for knowledge; chuong-01.json for reader explanations; Markdown/PDF are derived views.",
+  "history": "git_commits",
+  "change_log": "../CHANGELOG.md",
+  "updated_on": "2026-10-18",
+  "reader_testing": "not_yet_reviewed_by_user",
+  "pdf_page_count": 12,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4408,
+      "sha256": "f5184f62a96845d6b337d2ec41a630542796e6256f5ffe8590f8062363fed929"
+    },
+    {
+      "path": "chuong-01.md",
+      "bytes": 11570,
+      "sha256": "143799d6c1a1097b74167c7937d5c9eccea2856c25272d29200d139724b84943"
+    },
+    {
+      "path": "chuong-01.json",
+      "bytes": 11293,
+      "sha256": "55f2fb7dbb74a7a2bf7fcf4efaa1d9f5a7eb3398a4d4764e975846600db0e41d"
+    },
+    {
+      "path": "SO_TAY_DIEN_ANH.pdf",
+      "bytes": 4270146,
+      "sha256": "7a30afe46e42fed30c2799c02aa8dfce3c503a36e267ae300d2b48dc57ae512d"
+    },
+    {
+      "path": "minh-hoa/manifest.json",
+      "bytes": 2251,
+      "sha256": "73b85b5b302d0e5c5a1cebf689b767948cadf7bd1027197d5762fc1baa8d99af"
+    },
+    {
+      "path": "minh-hoa/tinh-huong-hop.png",
+      "bytes": 2006143,
+      "sha256": "66b11be2c335048099c4bd74c3663a2760d6613ecd0e733ae32012d715b1a68c"
+    },
+    {
+      "path": "minh-hoa/ba-trang-thai.svg",
+      "bytes": 5153,
+      "sha256": "2b0ac2037d6843c14bba906aed38c90efb11ed4e4408e448e8605c282a19af59"
+    },
+    {
+      "path": "minh-hoa/hai-khung-hinh.svg",
+      "bytes": 2967,
+      "sha256": "4410e71cf87f26d8313e21b4319ec21e619783e6da7bbd421a6eee744a2c7288"
+    },
+    {
+      "path": "minh-hoa/am-va-tiep-xuc.svg",
+      "bytes": 2756,
+      "sha256": "f9f8283c587c27de1e12fef49e8758010e6c1e3b9638b5206b4678a16f6d1831"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img">
+<title>Sơ đồ giảng giải tự biên soạn</title>
+<rect x="12" y="10" width="576" height="470" rx="12" fill="#FFFFFF" stroke="#CBD7D1" stroke-width="2"/>
+<rect x="612" y="10" width="576" height="470" rx="12" fill="#FFFFFF" stroke="#CBD7D1" stroke-width="2"/>
+<text x="38" y="52" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#17675F">A. HIỂU QUAN HỆ</text>
+<text x="638" y="52" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#17675F">B. ĐỌC TIẾP XÚC</text>
+<rect x="38" y="75" width="524" height="320" rx="12" fill="#F3F2EB" stroke="none" stroke-width="2"/>
+<line x1="80" y1="310" x2="530" y2="310" fill="none" stroke="#647573" stroke-width="6" stroke-linecap="round"/>
+<line x1="115" y1="310" x2="115" y2="380" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<line x1="500" y1="310" x2="500" y2="380" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<circle cx="190" cy="145" r="25" fill="#56788C" stroke="none" stroke-width="2"/>
+<rect x="164" y="177" width="52" height="99" rx="12" fill="#56788C" stroke="none" stroke-width="2"/>
+<rect x="318" y="245" width="118" height="65" rx="12" fill="#D2AC7B" stroke="#BD7C36" stroke-width="3"/>
+<line x1="177" y1="205" x2="318" y2="282" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<line x1="204" y1="204" x2="436" y2="282" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<circle cx="318" cy="282" r="7" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="436" cy="282" r="7" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<text x="38" y="438" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="400" fill="#647573">Người - bàn - hộp - đường thao tác</text>
+<rect x="638" y="75" width="524" height="320" rx="12" fill="#F3F2EB" stroke="none" stroke-width="2"/>
+<line x1="662" y1="332" x2="1137" y2="332" fill="none" stroke="#647573" stroke-width="6" stroke-linecap="round"/>
+<rect x="785" y="190" width="220" height="142" rx="12" fill="#D2AC7B" stroke="#BD7C36" stroke-width="3"/>
+<line x1="785" y1="225" x2="1005" y2="225" fill="none" stroke="#BD7C36" stroke-width="3" stroke-linecap="round"/>
+<line x1="666" y1="155" x2="785" y2="268" fill="none" stroke="#56788C" stroke-width="17" stroke-linecap="round"/>
+<line x1="1134" y1="155" x2="1005" y2="268" fill="none" stroke="#56788C" stroke-width="17" stroke-linecap="round"/>
+<circle cx="785" cy="268" r="13" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="1005" cy="268" r="13" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="895" cy="332" r="7" fill="#17675F" stroke="none" stroke-width="2"/>
+<text x="638" y="438" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="400" fill="#647573">Tay - đáy hộp - mặt bàn</text>
+</svg>

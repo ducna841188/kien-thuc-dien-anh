@@ -4,6 +4,9 @@ Các công cụ chỉ đọc/kiểm hoặc xuất tệp; không gọi AI, không
 
 - tra_cuu.py: tìm từ khóa cục bộ hoặc mở đúng mã; chưa phải tìm ngữ nghĩa.
 - xuat_goi.py: xuất Markdown/JSONL từ nội dung chuẩn.
+- xuat_so_tay.py: xuất chương mẫu Markdown, ba sơ đồ SVG và PDF khổ ngang từ JSON bản cho người học; cần reportlab và font DejaVu Sans. Ảnh tạo sinh là tài sản có sẵn, không được sinh lại khi chạy công cụ này.
+
+Xuất bản cho người học: cài reportlab nếu thiếu, rồi chạy `python thu-vien/cong-cu/xuat_so_tay.py`. Biến `FILM_KB_FONT_DIR` có thể trỏ tới thư mục chứa DejaVuSans.ttf và DejaVuSans-Bold.ttf khi máy không dùng đường dẫn font mặc định. Chạy bộ kiểm sau khi xuất; manifest bản cho người học ghi kích thước và SHA-256 các tệp.
 - validate.py: kiểm bằng JSON Schema và các ràng buộc thời gian/nguồn; không chấm chất lượng hình hoặc ý đồ nghệ thuật.
 
 Chạy từ gốc repository:

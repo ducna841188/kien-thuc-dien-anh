@@ -1,6 +1,6 @@
 # ST — Kịch bản và cấu trúc
 
-Phiên bản 1.3.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
+Phiên bản 1.3.1. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

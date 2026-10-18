@@ -1,6 +1,6 @@
 # EV — Bằng chứng và chuẩn phân tích
 
-Phiên bản 1.3.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
+Phiên bản 1.3.1. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

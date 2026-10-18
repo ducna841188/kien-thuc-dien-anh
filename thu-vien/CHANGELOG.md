@@ -2,6 +2,14 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## 1.3.1 — 18/10/2026 — Sổ tay cho máy tính và chuẩn bị bộ chín video
+
+- Ghi nhận người dùng ưu tiên đọc trên máy tính, hình lớn và đã chọn đủ tám video bổ sung. Tạo kế hoạch tiếp nhận/nghiên cứu trong Farm; chưa nhận danh sách/media và chưa phân tích video mới.
+- Thêm bản cho người học 0.1.0: mục lục 13 chương ánh xạ đủ 132 mã, một chương mẫu về ý đồ–bằng chứng–khung–âm–kiểm và PDF khổ ngang. Đây là mẫu để đọc thử, chưa là sổ tay hoàn chỉnh.
+- Một ảnh tình huống hư cấu tạo bằng imagegen tích hợp; ba sơ đồ vector biên soạn chính xác cho mục đích giải thích. Prompt và phương pháp nằm trong manifest minh họa. Không dùng ảnh để chứng nhận chuyển động hoặc cảm xúc.
+- JSON chương là nguồn cho bản đọc Markdown/PDF; liên kết mã@version core. Các tệp có đường dẫn cố định; Git giữ lịch sử và nhật ký vẫn tập trung tại đây.
+- Giữ 132 mục kiến thức và phiên bản từng mục, 33 bài/444 ảnh nguồn, lựa chọn Farm và phân tích cũ. Chỉ metadata core–Farm cập nhật theo bản phát hành; kết quả kiểm hiện hành được cập nhật tại cùng đường dẫn.
+
 ## 1.3.0 — 18/10/2026 — Đào sâu quyết định điện ảnh và duyệt phim AI
 
 - Rà khung/nguyên lý 130 mục hiện hành, đọc sâu các trục cần cải tiến; cập nhật 19 mục và thêm QC-010/YT-012, tổng 132 mục. Giữ toàn bộ mã cũ, sửa trực tiếp các tệp hiện hành.

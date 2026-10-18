@@ -1,6 +1,6 @@
 # Từ yêu cầu đến bản phim có thể duyệt
 
-FILM-KB 1.3.0. [Mục lục](README.md) · [Chuẩn quyết định](03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](07_KIEM_TRA_TRAI_NGHIEM.md).
+FILM-KB 1.3.1. [Mục lục](README.md) · [Chuẩn quyết định](03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](07_KIEM_TRA_TRAI_NGHIEM.md).
 
 Quy trình này nối năm tác vụ của kho vào một vòng sản xuất. Mục tiêu là tìm lỗi bằng đầu ra phù hợp và sửa trước khi chi phí lan sang những phần khác. Dự án nhỏ có thể gộp bước; các loại bằng chứng vẫn cần được phân biệt.
 

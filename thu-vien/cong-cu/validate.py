@@ -346,6 +346,24 @@ def run(farm_root=None):
    if i not in ids:errors.append('audit missing core '+i)
  if len(cards)!=expected['core_card_count']:errors.append('manifest card count')
  if len(sources)!=expected['official_reference_count']:errors.append('manifest reference count')
+ human_checks=None
+ if expected.get('human_edition_manifest'):
+  human=load(ROOT/expected['human_edition_manifest']);human_root=(ROOT/expected['human_edition_manifest']).parent
+  if human['core_version']!=expected['version']:errors.append('human edition core version mismatch')
+  planned=[ident for chapter in human['chapters'] for ident in chapter['planned_core_ids']]
+  if len(planned)!=len(ids) or set(planned)!=ids:errors.append('human outline must map each core card exactly once')
+  authored=[x for x in human['chapters'] if x['markdown_path'] is not None]
+  if len(authored)!=human['current_chapter_count'] or len(human['chapters'])!=human['planned_chapter_count']:errors.append('human chapter inventory mismatch')
+  for item in authored:
+   chapter=load((human_root/item['markdown_path']).with_suffix('.json'))
+   if chapter['core_version']!=expected['version']:errors.append('human chapter core version mismatch')
+   for ref in chapter['core_refs']:
+    if ref['id'] not in cardmap or cardmap[ref['id']]['version']!=ref['version']:errors.append('human chapter knowledge reference mismatch')
+  for item in human['files']:
+   raw=(human_root/item['path']).read_bytes()
+   if len(raw)!=item['bytes'] or hashlib.sha256(raw).hexdigest()!=item['sha256']:errors.append('human export checksum mismatch '+item['path'])
+  if not (human_root/human['current_pdf']).read_bytes().startswith(b'%PDF-'):errors.append('human PDF header invalid')
+  human_checks={'authored_chapters':len(authored),'planned_chapters':len(human['chapters']),'planned_core_ids':len(planned),'file_checksums_valid':True,'knowledge_references_valid':True,'complete_handbook':human['complete_handbook']}
  latest=ROOT/'goi-doc/CORE.jsonl'
  if [json.loads(x) for x in latest.read_text().splitlines() if x.strip()]!=sorted(cards,key=lambda c:c['id']):errors.append('exported JSONL differs from canonical cards')
  pack=load(ROOT/'goi-doc/manifest-goi.json')
@@ -398,6 +416,7 @@ def run(farm_root=None):
   'catalog_matches_canonical':True,'current_decision_references_valid':True,
   'integrated_scene_design_matches':True,'inventory_counts_valid':True,
   'package_checksums_valid':True,'canonical_jsonl_matches':True,
+  'human_edition_checks':human_checks,
   'generated_video_tests':0,'external_model_evaluations':0,
   'scope':'Schema, references, local links, timing/evidence contracts. Does not certify observation or artistic quality.'}
 if __name__=='__main__':

@@ -1,6 +1,6 @@
 # Bản đồ năng lực: đọc để phân tích, quyết định và thực hiện
 
-FILM-KB 1.3.0. [Mục lục đầy đủ](muc-luc.json) · [Tra theo vấn đề](tuyen-tra-cuu.json).
+FILM-KB 1.3.1. [Mục lục đầy đủ](muc-luc.json) · [Tra theo vấn đề](tuyen-tra-cuu.json).
 
 Các mức căn bản, trung cấp và nâng cao mô tả độ phức tạp của quyết định. Người mới đi theo cột căn bản; AI đang làm việc lấy cả nền, mục liên quan và phản ví dụ, không cần đọc lại tuần tự mọi mã cho mỗi yêu cầu.
 

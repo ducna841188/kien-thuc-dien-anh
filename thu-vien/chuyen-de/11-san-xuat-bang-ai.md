@@ -1,6 +1,6 @@
 # AI — Sản xuất bằng AI
 
-Phiên bản 1.3.0. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
+Phiên bản 1.3.1. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

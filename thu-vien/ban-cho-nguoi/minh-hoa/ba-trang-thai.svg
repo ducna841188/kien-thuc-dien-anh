@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img">
+<title>Sơ đồ giảng giải tự biên soạn</title>
+<rect x="12" y="10" width="382" height="450" rx="12" fill="#FFFFFF" stroke="#CBD7D1" stroke-width="2"/>
+<text x="36" y="52" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#17675F">1. Đang đỡ</text>
+<circle cx="112" cy="125" r="25" fill="#56788C" stroke="none" stroke-width="2"/>
+<rect x="86" y="157" width="52" height="96" rx="12" fill="#56788C" stroke="none" stroke-width="2"/>
+<line x1="57" y1="316" x2="362" y2="316" fill="none" stroke="#647573" stroke-width="6" stroke-linecap="round"/>
+<line x1="77" y1="316" x2="77" y2="390" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<line x1="338" y1="316" x2="338" y2="390" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<rect x="200" y="216" width="122" height="80" rx="12" fill="#D2AC7B" stroke="#BD7C36" stroke-width="3"/>
+<line x1="200" y1="234" x2="322" y2="234" fill="none" stroke="#BD7C36" stroke-width="2" stroke-linecap="round"/>
+<line x1="100" y1="185" x2="200" y2="271" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<line x1="130" y1="184" x2="322" y2="271" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<circle cx="200" cy="271" r="8" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="322" cy="271" r="8" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<line x1="347" y1="235" x2="347" y2="285" fill="none" stroke="#17675F" stroke-width="4" stroke-linecap="round"/>
+<line x1="347" y1="285" x2="340.53509154241925" y2="272.58207108109" fill="none" stroke="#17675F" stroke-width="4" stroke-linecap="round"/>
+<line x1="347" y1="285" x2="353.46490845758075" y2="272.58207108109" fill="none" stroke="#17675F" stroke-width="4" stroke-linecap="round"/>
+<text x="57" y="426" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#647573">Tay đang đỡ; còn khoảng hở</text>
+<rect x="410" y="10" width="382" height="450" rx="12" fill="#FFFFFF" stroke="#CBD7D1" stroke-width="2"/>
+<text x="434" y="52" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#17675F">2. Đã chạm</text>
+<circle cx="510" cy="125" r="25" fill="#56788C" stroke="none" stroke-width="2"/>
+<rect x="484" y="157" width="52" height="96" rx="12" fill="#56788C" stroke="none" stroke-width="2"/>
+<line x1="455" y1="316" x2="760" y2="316" fill="none" stroke="#647573" stroke-width="6" stroke-linecap="round"/>
+<line x1="475" y1="316" x2="475" y2="390" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<line x1="736" y1="316" x2="736" y2="390" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<rect x="598" y="236" width="122" height="80" rx="12" fill="#D2AC7B" stroke="#BD7C36" stroke-width="3"/>
+<line x1="598" y1="254" x2="720" y2="254" fill="none" stroke="#BD7C36" stroke-width="2" stroke-linecap="round"/>
+<line x1="498" y1="185" x2="598" y2="291" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<line x1="528" y1="184" x2="720" y2="291" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<circle cx="598" cy="291" r="8" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="720" cy="291" r="8" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="659" cy="316" r="6" fill="#17675F" stroke="none" stroke-width="2"/>
+<text x="455" y="426" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#647573">Bàn + tay cùng tham gia đỡ</text>
+<rect x="808" y="10" width="382" height="450" rx="12" fill="#FFFFFF" stroke="#CBD7D1" stroke-width="2"/>
+<text x="832" y="52" font-family="DejaVu Sans,sans-serif" font-size="28" font-weight="700" fill="#17675F">3. Đã nhả</text>
+<circle cx="908" cy="125" r="25" fill="#56788C" stroke="none" stroke-width="2"/>
+<rect x="882" y="157" width="52" height="96" rx="12" fill="#56788C" stroke="none" stroke-width="2"/>
+<line x1="853" y1="316" x2="1158" y2="316" fill="none" stroke="#647573" stroke-width="6" stroke-linecap="round"/>
+<line x1="873" y1="316" x2="873" y2="390" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<line x1="1134" y1="316" x2="1134" y2="390" fill="none" stroke="#CBD7D1" stroke-width="5" stroke-linecap="round"/>
+<rect x="996" y="236" width="122" height="80" rx="12" fill="#D2AC7B" stroke="#BD7C36" stroke-width="3"/>
+<line x1="996" y1="254" x2="1118" y2="254" fill="none" stroke="#BD7C36" stroke-width="2" stroke-linecap="round"/>
+<line x1="896" y1="185" x2="962" y2="250" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<line x1="926" y1="184" x2="1154" y2="245" fill="none" stroke="#56788C" stroke-width="9" stroke-linecap="round"/>
+<circle cx="962" cy="250" r="8" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<circle cx="1154" cy="245" r="8" fill="#BD7C36" stroke="none" stroke-width="2"/>
+<text x="853" y="426" font-family="DejaVu Sans,sans-serif" font-size="20" font-weight="400" fill="#647573">Hộp ở lại; tay đã rời</text>
+</svg>

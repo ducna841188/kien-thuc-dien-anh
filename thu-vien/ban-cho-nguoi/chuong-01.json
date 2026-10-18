@@ -1,0 +1,220 @@
+{
+  "id": "HUM-01",
+  "version": "0.1.0",
+  "core_version": "1.3.1",
+  "status": "sample_chapter_for_reader_review",
+  "title": "Một việc, ba cách kể",
+  "subtitle": "Từ điều muốn khán giả nhận được đến hình, âm và cách kiểm",
+  "intro": "Một người mang hộp tới bàn, đặt xuống rồi mở nắp. Việc ấy có thể được kể để người xem dễ chịu, muốn khám phá hoặc chờ đợi một kết quả. Điểm bắt đầu là điều cần cho người xem hiểu và quan tâm; các lựa chọn hình–âm sẽ phục vụ điều đó.",
+  "objectives": [
+    "Nêu được người xem cần biết gì trước và sau một nhịp.",
+    "Chọn khung hình theo bằng chứng cần thấy.",
+    "Mô tả được đầu–chạm–nhả–kết thay vì chỉ yêu cầu hình đẹp.",
+    "Tách ý đồ thiết kế khỏi điều đã quan sát hoặc đã kiểm với người xem."
+  ],
+  "scenario": "Tình huống tự biên soạn: một người lớn mang một hộp gỗ đóng tới bàn, hạ hộp xuống, nhả tay khi hộp có điểm đỡ rồi mở nắp. Cùng người, hộp và căn phòng được giữ xuyên chuỗi. Nội dung bên trong và hoàn cảnh được chọn theo từng cách kể.",
+  "image_note": "Ảnh tạo bằng AI để minh họa một tình huống hư cấu. Một ảnh không xác nhận hướng chuyển động, thứ tự chạm–nhả hoặc phản ứng của khán giả.",
+  "evidence_layers": [
+    {
+      "label": "Điều nhìn thấy trong ảnh",
+      "text": "Một người, một hộp đóng, hai tay sát hai phía hộp; đáy hộp ở mặt bàn."
+    },
+    {
+      "label": "Điều chưa thể xác nhận",
+      "text": "Người vừa đặt hay sắp nhấc hộp; tay có nhả sau tiếp xúc không; có âm gì và khớp lúc nào."
+    },
+    {
+      "label": "Ý đồ cho video cần tạo",
+      "text": "Cho thấy hộp hạ xuống, đáy chạm bàn, tay nhả rồi hộp tiếp tục đứng ổn."
+    }
+  ],
+  "states": [
+    {
+      "label": "1. Đang đỡ",
+      "text": "Tay còn chịu lực; hộp chưa được mặt bàn đỡ. Cần thấy tư thế khả thi."
+    },
+    {
+      "label": "2. Đã chạm",
+      "text": "Đáy hộp gặp bàn; tay vẫn giữ trong pha chuyển lực. Đây là mốc cần đọc."
+    },
+    {
+      "label": "3. Đã nhả",
+      "text": "Tay rời sau khi hộp có điểm đỡ; hộp ở lại ổn định. Không đặt thêm một hộp khác."
+    }
+  ],
+  "state_takeaway": "Nguyên tắc thực hành: chọn các dấu đủ cho người xem hiểu việc đã xảy ra. Có thể lược một phần theo mục tiêu, nhưng đoạn còn lại cần cho phép hiểu đúng tiến trình.",
+  "framing": [
+    {
+      "label": "A. Hiểu quan hệ",
+      "text": "Khung rộng hơn cho biết người, bàn, hộp và đường thao tác nằm ở đâu. Dùng khi quan hệ không gian đang cần được thiết lập."
+    },
+    {
+      "label": "B. Đọc tiếp xúc",
+      "text": "Khung gần hơn giúp đọc đáy hộp, điểm đỡ và tay. Dùng khi chi tiết này là bằng chứng quan trọng; giữ đủ mặt bàn để còn hiểu chạm vào đâu."
+    }
+  ],
+  "framing_takeaway": "Cả A và B đều có thể phù hợp. Chọn theo thông tin đang thiếu và quan hệ với cảnh trước/sau. Một khung có thể làm đủ hai nhiệm vụ; không có bộ toàn–trung–cận bắt buộc.",
+  "variants": [
+    {
+      "name": "Bình yên, dễ theo",
+      "question": "Việc gì đang được làm và khi nào đã ổn?",
+      "information": "Cho mục tiêu và quan hệ rõ. Có thể cho biết đồ trong hộp sớm để chú ý vào cách làm và sự chăm chút.",
+      "image": "Giữ đường thao tác và kết quả đọc được; máy tĩnh hoặc đi có lý do.",
+      "rhythm_sound": "Nén lặp theo lời hứa; dành nhịp nhận kết. Tiếng việc làm và nền nơi chốn dẫn khi có ích.",
+      "risk": "Kéo dài mọi cảnh nhưng thiếu tiến triển có thể làm người xem mất việc để theo."
+    },
+    {
+      "name": "Tò mò, muốn khám phá",
+      "question": "Trong hộp là gì, và vì sao nó được mang tới đây?",
+      "information": "Giữ đáp án ngoài khung nhưng cho đủ ngữ cảnh và một dấu gợi liên quan. Mỗi nhịp phải thêm điều để theo.",
+      "image": "Chọn khung cho thấy việc chuẩn bị mở; thời điểm lộ vật trả đúng câu hỏi đã đặt.",
+      "rhythm_sound": "Tiếng nguồn hoặc một thao tác có thể gợi vật chưa lộ; khoảng chờ theo lượng thông tin.",
+      "risk": "Giấu cả mục tiêu làm người xem không biết nên tò mò điều gì."
+    },
+    {
+      "name": "Hồi hộp nhẹ, chờ kết",
+      "question": "Đồ dễ vỡ bên trong có được đặt an toàn không?",
+      "information": "Cần thiết lập trước giá trị của vật và điều khiến kết quả chưa chắc. Đây là thêm dữ kiện truyện, chỉ dùng khi yêu cầu cho phép.",
+      "image": "Cho người xem nhận dấu chưa chắc rồi theo pha hạ, chạm và ổn định; kết bằng bằng chứng đã an toàn hơn.",
+      "rhythm_sound": "Giữ đúng phần chờ có ý nghĩa; chọn âm giúp theo sự kiện. Âm lớn hoặc cắt nhanh không tự thay phần thiết lập.",
+      "risk": "Tự thêm nguy cơ sẽ đổi trải nghiệm. Với phim Farm đã chốt nhẹ nhàng, ưu tiên lời hứa đó."
+    }
+  ],
+  "variant_takeaway": "Ba dòng trên là giả thuyết thiết kế. Người xem có thể cảm khác; màu, nhạc và cỡ cảnh không phải công tắc tạo cảm xúc. Khi đổi hoàn cảnh của truyện, cần ghi rõ phần đã đổi.",
+  "sound": {
+    "title": "Tiếng chạm phải thuộc về một sự kiện",
+    "body": "Nếu dùng tiếng tiếp xúc, đặt nó theo lúc đáy hộp gặp bàn trong bản dựng thực tế. Độ rõ và mức âm theo vật liệu, điểm nghe và mục tiêu; không phải mọi tiếng chạm đều cần được nhấn.",
+    "checks": [
+      "Nghe và xem cùng lúc quanh mốc chạm.",
+      "Không có tiếng đặt mới ở đoạn chỉ giữ hộp đã ổn.",
+      "Nền và điểm nghe qua điểm cắt giữ quan hệ khi cần liền không gian.",
+      "Chưa nghe âm thanh thì ghi chưa kiểm âm, kể cả hình trông hợp lý."
+    ]
+  },
+  "decision_card": [
+    {
+      "label": "Giá trị cho người xem",
+      "text": "Theo một thao tác nhỏ rõ ràng, nhẹ và có kết quả."
+    },
+    {
+      "label": "Phần phải giữ",
+      "text": "Một người; cùng hộp và phòng; máy tĩnh; không thoại; không tự thêm nguy cơ."
+    },
+    {
+      "label": "Điều cần thấy",
+      "text": "Hộp được hạ; đáy chạm; tay nhả sau điểm đỡ; hộp đứng ổn."
+    },
+    {
+      "label": "Khung và điểm nối",
+      "text": "Đủ rõ quan hệ người–bàn; gần ở mốc tiếp xúc nếu cần. Mỗi điểm cắt nối đúng trạng thái hoặc báo được khoảng lược."
+    },
+    {
+      "label": "Âm",
+      "text": "Tiếng tiếp xúc đúng sự kiện nếu được dùng; nền phù hợp, không tự phát sinh thoại hoặc nhạc trái yêu cầu."
+    },
+    {
+      "label": "Cách kiểm",
+      "text": "Duyệt toàn đoạn quay/tạo, các điểm nối và cả chuỗi. Người mới kể được việc; cảm nhận thực tế hỏi riêng."
+    }
+  ],
+  "ai_intent": "Một người hạ cùng chiếc hộp gỗ đóng xuống bàn. Hai tay giữ hộp khi đang hạ; đáy hộp tiếp xúc mặt bàn trước khi tay nhả. Hộp đứng ổn sau nhả. Giữ người, hộp, căn phòng và máy tĩnh đã duyệt. Không thoại. Âm, nếu tạo được, chỉ gồm tiếng thao tác và nền phù hợp.",
+  "ai_note": "Đây là mô tả ý đồ để chuyển sang cách nhập của công cụ thực tế. Khả năng giữ tham chiếu, độ dài, âm và cách điều khiển phải được kiểm theo mô hình/chế độ. Chữ trong yêu cầu chưa là kết quả đã đạt.",
+  "exercise": {
+    "brief": "Thiết kế chuỗi ngắn: mang hộp tới bàn → đặt xuống → mở nắp. Giữ một người, cùng hộp/phòng, không thoại và trải nghiệm nhẹ. Chọn số cú máy cần thiết, không bị buộc phải có ba cú máy.",
+    "questions": [
+      "Người xem cần biết điều gì trước khi nhìn cận?",
+      "Khoảnh khắc nào bắt buộc phải nhìn thấy trong lựa chọn của bạn?",
+      "Nếu bỏ một cú máy, còn đọc đúng việc không?",
+      "Bạn sẽ kiểm điều gì trên clip, và hỏi điều gì với người xem?"
+    ],
+    "answer": "Một phương án: khung quan hệ cho thấy người mang hộp tới bàn; khung gần đủ thấy đáy chạm rồi tay nhả; tiếp tục hoặc cắt tới lúc mở nếu trạng thái nối rõ. Giữ nhịp nhận kết; âm tiếp xúc thuộc đúng sự kiện. Một góc liên tục cũng được nếu làm đủ các nhiệm vụ. Kiểm hành động bằng video; hỏi người mới kể lại việc và cảm nhận, không gợi trước rằng họ phải thấy bình yên."
+  },
+  "summary": [
+    "Bắt đầu từ điều người xem cần hiểu và nhận.",
+    "Chọn hình để có bằng chứng, rồi chọn âm và thời gian hỗ trợ.",
+    "Giữ phần đã duyệt khi sửa lỗi.",
+    "Xem hình–âm thực tế trước khi báo đạt; ý đồ vẫn cần kiểm với người xem."
+  ],
+  "core_refs": [
+    {
+      "id": "EV-001",
+      "version": "1.0.0"
+    },
+    {
+      "id": "EV-004",
+      "version": "1.1.0"
+    },
+    {
+      "id": "AU-001",
+      "version": "1.1.0"
+    },
+    {
+      "id": "AU-003",
+      "version": "1.3.0"
+    },
+    {
+      "id": "AU-004",
+      "version": "1.3.0"
+    },
+    {
+      "id": "ST-004",
+      "version": "1.2.1"
+    },
+    {
+      "id": "ST-006",
+      "version": "1.3.0"
+    },
+    {
+      "id": "DR-002",
+      "version": "1.3.0"
+    },
+    {
+      "id": "DR-008",
+      "version": "1.1.0"
+    },
+    {
+      "id": "CA-001",
+      "version": "1.1.0"
+    },
+    {
+      "id": "CA-004",
+      "version": "1.3.0"
+    },
+    {
+      "id": "ED-001",
+      "version": "1.2.1"
+    },
+    {
+      "id": "ED-002",
+      "version": "1.1.0"
+    },
+    {
+      "id": "SO-003",
+      "version": "1.3.0"
+    },
+    {
+      "id": "AI-003",
+      "version": "1.1.0"
+    },
+    {
+      "id": "AI-007",
+      "version": "1.1.0"
+    },
+    {
+      "id": "QC-001",
+      "version": "1.3.0"
+    },
+    {
+      "id": "QC-010",
+      "version": "1.3.0"
+    }
+  ],
+  "generation_tested": false,
+  "viewer_tested": false,
+  "illustrations": [
+    "minh-hoa/tinh-huong-hop.png",
+    "minh-hoa/ba-trang-thai.svg",
+    "minh-hoa/hai-khung-hinh.svg",
+    "minh-hoa/am-va-tiep-xuc.svg"
+  ]
+}

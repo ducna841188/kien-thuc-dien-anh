@@ -1,6 +1,6 @@
 # Chẩn đoán và sửa lỗi
 
-Tác vụ: diagnose_and_repair. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: diagnose_and_repair. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 

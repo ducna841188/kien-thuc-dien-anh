@@ -1,6 +1,6 @@
 # Xây và sửa kịch bản
 
-Tác vụ: write_script. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_script. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](../README.md) · [Chuẩn quyết định](../03_RA_QUYET_DINH.md)
 

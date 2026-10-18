@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "kind": "original_teaching_illustrations",
+  "photo": {
+    "path": "tinh-huong-hop.png",
+    "method": "built_in_image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: an original illustrative photograph for a beginner filmmaking handbook, landscape 3:2 composition. Create ONE cinematic naturalistic still, no collage. One adult woman in a plain muted slate-blue long-sleeve linen shirt and simple dark trousers is carefully lowering a small CLOSED rectangular oak keepsake box onto a wooden table inside a modest, lived-in room. Both of her hands are visibly supporting the two sides of the SAME box; its flat bottom is just touching the tabletop. A single broad window on camera-left gives soft daylight, with coherent shadows and realistic wood texture. Medium-wide side three-quarter view, show her upper body, hands, the entire box, tabletop contact area and enough room to understand the relationship of person and table. The moment should read clearly as placing a box down, with plausible anatomy, gravity and hand contact. Quiet neutral expression, her attention on the work, no looking at camera. Tabletop is almost clear. Keep the room simple. Educational clarity, convincing ordinary camera photograph, moderate depth of field preserving hands, box and contact in readable focus. No dramatic haze, no exaggerated color grading, no text, no typography, no logos, no watermark, no extra people, no duplicated limbs or boxes. This is a fictional generic teaching character, not a portrait of any known creator or the user's approved Farm character.",
+    "meaning": "Fictional teaching situation, not a motion study or the approved Farm character."
+  },
+  "diagrams": [
+    {
+      "path": "ba-trang-thai.svg",
+      "method": "deterministic_vector_drawing",
+      "basis": "Teaching schematic; not a measured camera or motion record."
+    },
+    {
+      "path": "hai-khung-hinh.svg",
+      "method": "deterministic_vector_drawing",
+      "basis": "Teaching schematic; not a measured camera or motion record."
+    },
+    {
+      "path": "am-va-tiep-xuc.svg",
+      "method": "deterministic_vector_drawing",
+      "basis": "Teaching schematic; not a measured camera or motion record."
+    }
+  ]
+}

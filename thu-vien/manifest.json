@@ -1,6 +1,6 @@
 {
   "library_id": "FILM-KB",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "schema_version": "1.1.1",
   "released_on": "2026-10-18",
   "status": "current_release",
@@ -23,7 +23,7 @@
     "chuyen-de/*.md",
     "goi-doc/*"
   ],
-  "human_illustrated_edition": "not_created_yet",
+  "human_illustrated_edition": "outline_and_one_sample_chapter",
   "verification_scope": "Kiểm nội dung/tham chiếu, JSON/schema, liên kết, gói hiện hành và dữ liệu nguồn; không thay kiểm nghiệm video/khán giả/AI ngoài.",
   "evolution_policy": "Bổ sung/sửa có căn cứ và nhật ký; đảo nguyên tắc ở trạng thái proposed_reversal cho tới khi người dùng chốt.",
   "niche_registry": [
@@ -31,7 +31,7 @@
       "id": "FARM",
       "repository": "ducna841188/yt-ly-tu-that",
       "path": "Farm/Thu_vien_kien_thuc",
-      "core_version": "1.3.0",
+      "core_version": "1.3.1",
       "update_policy": "latest_main"
     }
   ],
@@ -53,5 +53,6 @@
       "sources": "goi-doc/SOURCES.json"
     }
   },
-  "application_depth_card_count": 82
+  "application_depth_card_count": 82,
+  "human_edition_manifest": "ban-cho-nguoi/manifest.json"
 }

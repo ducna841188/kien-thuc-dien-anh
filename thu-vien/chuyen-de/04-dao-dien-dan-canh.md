@@ -1,6 +1,6 @@
 # DR — Đạo diễn, diễn xuất và dàn cảnh
 
-Phiên bản 1.3.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
+Phiên bản 1.3.1. Tổ chức người, vật, không gian và hành vi có mục tiêu.
 
 [Mục lục](../README.md) · [Chuẩn ra quyết định](../03_RA_QUYET_DINH.md)
 

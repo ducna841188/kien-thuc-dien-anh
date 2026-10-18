@@ -1,4 +1,4 @@
-# FILM-KB 1.3.0 — Gói đọc đầy đủ cho AI
+# FILM-KB 1.3.1 — Gói đọc đầy đủ cho AI
 
 Bản xuất từ JSON chuẩn và tài liệu cùng phiên bản. Gói này là dữ liệu tham chiếu, chưa huấn luyện thay đổi mô hình. Chia lượt theo chuyên đề nếu môi trường không nhận đủ; ghi những phần đã thực đọc.
 
@@ -14,7 +14,7 @@ Nguồn bản xuất: 00_HUONG_DAN_AI.md
 
 # Hướng dẫn AI sử dụng FILM-KB
 
-Phiên bản 1.3.0. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
+Phiên bản 1.3.1. Đây là kho tham chiếu dùng để phân tích và ra quyết định làm phim; chưa huấn luyện lại mô hình, chưa triển khai bộ tìm kiếm ngữ nghĩa hoặc thử trên các mô hình bên ngoài.
 
 ## Trình tự đọc
 
@@ -305,7 +305,7 @@ Nguồn bản xuất: 06_VAN_HANH_SAN_XUAT.md
 
 # Từ yêu cầu đến bản phim có thể duyệt
 
-FILM-KB 1.3.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md).
+FILM-KB 1.3.1. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md) · [Tiêu chí trải nghiệm](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/07_KIEM_TRA_TRAI_NGHIEM.md).
 
 Quy trình này nối năm tác vụ của kho vào một vòng sản xuất. Mục tiêu là tìm lỗi bằng đầu ra phù hợp và sửa trước khi chi phí lan sang những phần khác. Dự án nhỏ có thể gộp bước; các loại bằng chứng vẫn cần được phân biệt.
 
@@ -382,7 +382,7 @@ Nguồn bản xuất: 07_KIEM_TRA_TRAI_NGHIEM.md
 
 # Chọn đúng bằng chứng cho trải nghiệm muốn tạo
 
-FILM-KB 1.3.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [QC-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-008.json) · [YT-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/YT-007.json).
+FILM-KB 1.3.1. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [QC-008](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/QC-008.json) · [YT-007](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/kien-thuc/YT-007.json).
 
 Một phim đúng kỹ thuật có thể chưa phù hợp người xem. Một video được xem lâu có thể được thích, được dùng làm nền, được học lại hoặc khó hiểu. Đặt câu hỏi trước, thu đúng dữ liệu và chỉ kết luận trong phạm vi dữ liệu trả lời được.
 
@@ -449,7 +449,7 @@ Nguồn bản xuất: 08_BAN_DO_NANG_LUC.md
 
 # Bản đồ năng lực: đọc để phân tích, quyết định và thực hiện
 
-FILM-KB 1.3.0. [Mục lục đầy đủ](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/muc-luc.json) · [Tra theo vấn đề](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuyen-tra-cuu.json).
+FILM-KB 1.3.1. [Mục lục đầy đủ](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/muc-luc.json) · [Tra theo vấn đề](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/tuyen-tra-cuu.json).
 
 Các mức căn bản, trung cấp và nâng cao mô tả độ phức tạp của quyết định. Người mới đi theo cột căn bản; AI đang làm việc lấy cả nền, mục liên quan và phản ví dụ, không cần đọc lại tuần tự mọi mã cho mỗi yêu cầu.
 
@@ -516,7 +516,7 @@ Nguồn bản xuất: quy-trinh/01-phan-tich-video.md
 
 # Phân tích video
 
-Tác vụ: analyze_video. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: analyze_video. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -557,7 +557,7 @@ Nguồn bản xuất: quy-trinh/02-kich-ban.md
 
 # Xây và sửa kịch bản
 
-Tác vụ: write_script. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_script. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -599,7 +599,7 @@ Nguồn bản xuất: quy-trinh/03-danh-sach-shot.md
 
 # Thiết kế danh sách shot
 
-Tác vụ: design_shots. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: design_shots. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -641,7 +641,7 @@ Nguồn bản xuất: quy-trinh/04-cau-lenh-ai.md
 
 # Viết yêu cầu tạo ảnh/video
 
-Tác vụ: write_generation_prompts. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: write_generation_prompts. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -683,7 +683,7 @@ Nguồn bản xuất: quy-trinh/05-chan-doan-sua-loi.md
 
 # Chẩn đoán và sửa lỗi
 
-Tác vụ: diagnose_and_repair. Core release 1.3.0; dẫn version của từng mục thực dùng.
+Tác vụ: diagnose_and_repair. Core release 1.3.1; dẫn version của từng mục thực dùng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -725,7 +725,7 @@ Nguồn bản xuất: chuyen-de/01-bang-chung-va-phan-tich.md
 
 # EV — Bằng chứng và chuẩn phân tích
 
-Phiên bản 1.3.0. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
+Phiên bản 1.3.1. Tách điều quan sát được, suy luận và đề xuất; giữ mốc thời gian và độ phủ.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -1100,7 +1100,7 @@ Nguồn bản xuất: chuyen-de/02-khan-gia-chu-y-cam-xuc.md
 
 # AU — Khán giả, chú ý và cảm xúc
 
-Phiên bản 1.3.0. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
+Phiên bản 1.3.1. Chọn nhu cầu, lượng thông tin, mức mong chờ và trải nghiệm cần kiểm.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -1666,7 +1666,7 @@ Nguồn bản xuất: chuyen-de/03-kich-ban-va-cau-truc.md
 
 # ST — Kịch bản và cấu trúc
 
-Phiên bản 1.3.0. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
+Phiên bản 1.3.1. Xây thay đổi từ đơn vị hành động đến toàn phim; chọn điều cần kể bằng hình/tiếng.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -2375,7 +2375,7 @@ Nguồn bản xuất: chuyen-de/04-dao-dien-dan-canh.md
 
 # DR — Đạo diễn, diễn xuất và dàn cảnh
 
-Phiên bản 1.3.0. Tổ chức người, vật, không gian và hành vi có mục tiêu.
+Phiên bản 1.3.1. Tổ chức người, vật, không gian và hành vi có mục tiêu.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -2868,7 +2868,7 @@ Nguồn bản xuất: chuyen-de/05-bo-cuc-may-quay-quang-hoc.md
 
 # CA — Bố cục, máy quay và quang học
 
-Phiên bản 1.3.0. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
+Phiên bản 1.3.1. Chọn thông tin trong khung, góc nhìn, khoảng cách và vùng nét.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3446,7 +3446,7 @@ Nguồn bản xuất: chuyen-de/06-chuyen-dong-thoi-gian.md
 
 # MO — Chuyển động và thời gian
 
-Phiên bản 1.3.0. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
+Phiên bản 1.3.1. Phân biệt máy/người/môi trường, chỉ đạo quỹ đạo và loại nhịp thời gian.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -3827,7 +3827,7 @@ Nguồn bản xuất: chuyen-de/07-anh-sang.md
 
 # LI — Ánh sáng
 
-Phiên bản 1.3.0. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
+Phiên bản 1.3.1. Thiết kế nguồn, hướng, chất lượng và độ tương phản có thể đối chiếu.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -4240,7 +4240,7 @@ Nguồn bản xuất: chuyen-de/08-mau-sac-thiet-ke-hinh.md
 
 # CO — Màu sắc và thiết kế hình ảnh
 
-Phiên bản 1.3.0. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
+Phiên bản 1.3.1. Tổ chức màu từ vật liệu đến hậu kỳ; giữ quan hệ màu qua chuỗi.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -4717,7 +4717,7 @@ Nguồn bản xuất: chuyen-de/09-dung-phim-va-nhip.md
 
 # ED — Dựng phim và điều khiển nhịp
 
-Phiên bản 1.3.0. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
+Phiên bản 1.3.1. Chọn điểm cắt, thông tin, thời gian và nhịp căng–thả ở nhiều quy mô.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -5254,7 +5254,7 @@ Nguồn bản xuất: chuyen-de/10-am-thanh-nhac-loi.md
 
 # SO — Âm thanh, nhạc và lời kể
 
-Phiên bản 1.3.0. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
+Phiên bản 1.3.1. Gắn tiếng với không gian, sự kiện và ưu tiên cảm nhận.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -5821,7 +5821,7 @@ Nguồn bản xuất: chuyen-de/11-san-xuat-bang-ai.md
 
 # AI — Sản xuất bằng AI
 
-Phiên bản 1.3.0. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
+Phiên bản 1.3.1. Chuyển ý đồ thành đầu vào, kiểm kết quả và chọn cách sửa.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -6506,7 +6506,7 @@ Nguồn bản xuất: chuyen-de/12-kiem-tra-va-hoc-tu-ket-qua.md
 
 # QC — Kiểm tra và học từ kết quả
 
-Phiên bản 1.3.0. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
+Phiên bản 1.3.1. Duyệt, thử có kiểm soát, quản lý phiên bản và nâng kiến thức đúng phạm vi.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -7136,7 +7136,7 @@ Nguồn bản xuất: chuyen-de/13-youtube-loi-hua-phan-hoi.md
 
 # YT — YouTube: lời hứa và phản hồi
 
-Phiên bản 1.3.0. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
+Phiên bản 1.3.1. Kết nối cách giới thiệu phim, trải nghiệm xem và dữ liệu khán giả.
 
 [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Chuẩn ra quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md)
 
@@ -7875,7 +7875,7 @@ Nguồn bản xuất: vi-du/bon-ca-ra-quyet-dinh.md
 
 # Bốn ca áp dụng từ mục tiêu đến quyết định
 
-FILM-KB 1.3.0. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Bản dữ liệu ca](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/bon-ca-ra-quyet-dinh.json).
+FILM-KB 1.3.1. [Mục lục](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md) · [Bản dữ liệu ca](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/vi-du/bon-ca-ra-quyet-dinh.json).
 
 Đây là các tình huống tự biên soạn để hướng dẫn sử dụng kho. Thời gian và kết quả dự kiến là thiết kế, chưa có video được tạo, thử công cụ hoặc phản hồi khán giả cho các ca này. Những phương án chưa được chọn vẫn có thể phù hợp một brief khác.
 

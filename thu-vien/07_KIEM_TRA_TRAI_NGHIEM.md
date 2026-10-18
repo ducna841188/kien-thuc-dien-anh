@@ -1,6 +1,6 @@
 # Chọn đúng bằng chứng cho trải nghiệm muốn tạo
 
-FILM-KB 1.3.0. [Mục lục](README.md) · [QC-008](kien-thuc/QC-008.json) · [YT-007](kien-thuc/YT-007.json).
+FILM-KB 1.3.1. [Mục lục](README.md) · [QC-008](kien-thuc/QC-008.json) · [YT-007](kien-thuc/YT-007.json).
 
 Một phim đúng kỹ thuật có thể chưa phù hợp người xem. Một video được xem lâu có thể được thích, được dùng làm nền, được học lại hoặc khó hiểu. Đặt câu hỏi trước, thu đúng dữ liệu và chỉ kết luận trong phạm vi dữ liệu trả lời được.
 
