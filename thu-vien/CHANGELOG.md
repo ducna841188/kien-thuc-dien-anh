@@ -2,6 +2,16 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C09 thu hoạch, chia phần và mang vào bếp
+
+- Cập nhật danh sách cảnh tại chỗ lên 0.9; C08 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C09/S183–S206 chờ duyệt trước C10/phần bếp.
+- C09: 24 cảnh, 84 giây, 10:36–12:00; tổng 206 cảnh, 720 giây, khép đúng 12 phút đầu đã phân bổ. Tất cả máy cố định và tốc độ tự nhiên; lượt thu/chuyến mang lặp lược tại điểm cắt, chỉ âm thao tác và môi trường.
+- Thu khoai trước, chọn cà chua đỏ giữ quả xanh, cắt cuống dưa đủ cỡ và thu dền non cuối cùng. Bốn loại có giỏ/rổ riêng; giữ vật lý bầu đất, cuống cắt, tay đỡ và rổ nhận, không diễn lại cùng lượt ở góc mới.
+- Chia phần ngắn: khoai và cà chua dư để theo loại, phần nấu có cả bốn loại trong giỏ có rổ con riêng. Khoai đặt thoáng tránh sáng, không mô tả đã bảo quản dài ngày tức thì; cà chua để ngắn ngày riêng. Không thêm chế biến bảo quản.
+- Bổ sung B09 chỗ chia/kho, B10 bàn bếp phụ theo ảnh, D18 ba rổ thu, D19 kéo cuống dưa, D20 giỏ mang bếp/bốn rổ con. Kết S206 nguyên liệu nguyên chưa rửa/gọt/cắt, dền còn rễ, xô cao cạnh cửa và chậu gỗ trên bàn chưa dùng.
+- Đối chiếu nguyên tắc độ thu/nhẹ tay từ UMass Extension và cắt cuống dưa từ Clemson Extension. Giữ nguyên nội dung 182 cảnh cũ, nối công thức/bảng, kiểm 206 mã liên tục, tổng 720 giây và bố cục ba trang Excel.
+- Dừng S206 chờ duyệt; chưa viết phần bếp 6 phút, dọn/ăn tối 2 phút hoặc prompt.
+
 ## Farm — 24/10/2026 — C08 gieo rau dền và vườn tới ngày thu hoạch
 
 - Cập nhật danh sách cảnh tại chỗ lên 0.8; C07 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C08/S159–S182 chờ duyệt trước C09.
