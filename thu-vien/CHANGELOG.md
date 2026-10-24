@@ -1,5 +1,13 @@
 # Nhật ký thay đổi chung — FILM-KB và Farm
 
+## Farm — 24/10/2026 — Tổng hợp toàn bộ 350 shot
+
+- Cập nhật tại chỗ danh sách cảnh lên 1.1 theo xác nhận “Ok rồi đấy” và yêu cầu tổng hợp của người dùng; thống nhất trạng thái duyệt cho S001–S350.
+- Bổ sung tổng quan 16 cụm; gom ghi chú thời gian câu chuyện, bỏ các điểm dừng chờ duyệt từ từng đợt gửi. Giữ nguyên hành động, thứ tự, góc máy, âm thanh, thời lượng và liên tục của toàn bộ 350 shot.
+- Excel giữ ba trang, công thức dòng thời gian, bảng và ô ghi chú. Kiểm đủ 350 mã liên tiếp, mỗi shot 3–4 giây, tổng 1.200 giây; ba phần 720/360/120 giây, 18 cảnh timelapse.
+- Hoàn thành riêng bước tổng hợp danh sách shot; chưa viết prompt Seedance hoặc triển khai storyboard hình/video.
+
+
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
 ## Farm — 24/10/2026 — Hoàn thành bản 350 shot, 20 phút
