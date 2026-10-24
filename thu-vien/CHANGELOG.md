@@ -2,6 +2,18 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — Hoàn thành bản 350 shot, 20 phút
+
+- Theo yêu cầu mới “tiếp tục với những shot còn lại”, triển khai trọn C10–C16/S207–S350 thay vì dừng sau từng cụm. C01–C09 giữ đã duyệt; toàn bộ phần mới C10–C16 vẫn chờ duyệt tổng thể, không tự coi là đã duyệt.
+- Cập nhật tại chỗ danh sách cảnh lên 1.0, đủ S001–S350, mỗi shot 3–4 giây, tổng 1.200 giây. Giữ đúng 720 giây vườn/thu hoạch/lưu, 360 giây bếp, 120 giây dọn/ăn tối.
+- C10 S207–S228 12:00–13:12: nhóm củi có sẵn, vo/nấu cơm và rửa/luộc khoai nguyên vỏ. C11 S229–S250 13:12–14:24: rửa rau quả/gia vị và hạ lửa cơm. C12 S251–S272 14:24–15:36: bóc khoai, thái/băm nguyên liệu, chuẩn bị thịt/trứng, cho cơm nghỉ.
+- C13 S273–S293 15:36–16:48: khoai tây kiểu bà và Hồng tam đóa. C14 S294–S314 16:48–18:00: trứng cà chua, dền xào tỏi, dưa trộn tỏi, xới cơm; đủ năm món và cơm.
+- C15 S315–S332 18:00–19:00: dọn hai chuyến ra bàn sân, đón bà và múc cơm. C16 S333–S350 19:00–20:00: mời món cho nhau, ăn tự nhiên, thức ăn vơi; vật nuôi nghỉ ngoài bàn, kết chạng vạng ở khu nhà.
+- Bổ sung bếp/nồi/gáo bếp riêng, bát nguyên liệu chưa sơ chế; thớt thịt/rau riêng, chảo A/B và bảng bàn giao nồi–chảo–món. Mọi máy cố định; C10–C16 tự nhiên, không nhạc/thoại. Mốc đun/chín và ăn dài được lược tại điểm cắt, không giả cơm/khoai chín vài giây.
+- Đối chiếu chuỗi món khoai với công thức chính tác giả Amanda曼达 và Hồng tam đóa với DayDayCook, ghi rõ biến thể gia đình; không sao chép tỷ lệ/công thức nguyên văn. Ngày tháng/mùa địa phương và tên giống vẫn là giới hạn chưa khóa; mốc ngày dựng giữ logic tuổi cây, không cam kết mọi giống cùng chín.
+- Giữ 206 cảnh đã duyệt; bảo toàn 228 cảnh tới C10 ngoài sửa điểm nối S228 theo phạm vi mới. Kiểm 350 ID, tất cả trường bắt buộc, 18 timelapse đúng phần chuyển ngày/sinh trưởng, tổng 720/360/120 và công thức cập nhật khi đổi thử một thời lượng; đã phục hồi. Render xem ba trang Excel, lưu Excel và Markdown cùng bản hiện hành.
+- Dừng ở bản shot list đầy đủ để duyệt, chưa viết prompt Seedance hoặc tạo ảnh/video.
+
 ## Farm — 24/10/2026 — C09 thu hoạch, chia phần và mang vào bếp
 
 - Cập nhật danh sách cảnh tại chỗ lên 0.9; C08 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C09/S183–S206 chờ duyệt trước C10/phần bếp.
