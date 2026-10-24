@@ -2,6 +2,14 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C03 hoàn tất tưới khoai và gieo ươm cà chua
+
+- Cập nhật tại chỗ bản danh sách cảnh lên 0.3. C02 được duyệt qua yêu cầu tiếp tục; chỉ bổ sung C03/S040–S062 chờ duyệt.
+- C03: 23 cảnh, 81 giây, từ 02:15 đến 03:36. Tổng hiện hành: 62 cảnh, 216 giây. Máy cố định, tốc độ tự nhiên, chỉ âm thao tác và môi trường.
+- Khép tưới phần còn lại hàng khoai; mang xô về hiên; dùng khay ươm riêng có thoát nước, làm ẩm giá thể, gieo thưa và phủ mỏng hạt cà chua, đặt khay ở góc ươm ấm, kín gió. Chưa có mầm cây.
+- Bổ sung B05/D06/D07; kiểm liên tục xô/gáo, khay và hạt. Đối chiếu nguyên tắc gieo ươm từ UMN Extension, không sử dụng lịch Minnesota cho Côn Minh; lịch đồng bộ bốn cây chưa khóa.
+- Giữ ba trang Excel, nối công thức và bảng hiện hành; kiểm giữ nguyên nội dung cảnh cũ, 62 mã ba chữ số, tổng 216 giây và hình xem trước. Chưa viết C04 hoặc prompt. Dừng chờ duyệt.
+
 ## Farm — 24/10/2026 — C02 trồng và tưới khoai tây
 
 - Cập nhật tại chỗ Farm/Vuon_nho_bua_com_nha/Danh_sach_canh.md lên phiên bản 0.2; C01 đã duyệt qua yêu cầu tiếp tục.
