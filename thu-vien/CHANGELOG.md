@@ -2,6 +2,14 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C02 trồng và tưới khoai tây
+
+- Cập nhật tại chỗ Farm/Vuon_nho_bua_com_nha/Danh_sach_canh.md lên phiên bản 0.2; C01 đã duyệt qua yêu cầu tiếp tục.
+- Chỉ thêm C02/S016–S039: 24 cảnh, 84 giây, 00:51–02:15. Tổng hiện hành 39 cảnh, 135 giây.
+- Nối làm đất, mở hàng, mang/chọn củ giống nguyên có mầm ngắn, đặt củ, phủ đất, lấy nước từ vòi và tưới bằng xô/gáo gỗ. Cuối cụm mới tưới đoạn đầu hàng; chưa có cây mọc.
+- Cập nhật Excel ba trang và Markdown cùng mã cảnh; kiểm tổng thời lượng, mã liên tục, công thức và bố cục. Giữ các cảnh ở tốc độ tự nhiên, máy cố định; phần việc lặp lược tại điểm cắt.
+- Lịch đồng bộ bốn cây chưa khóa; không áp dụng lịch vùng khác cho Côn Minh. Chưa viết prompt hoặc C03. Dừng S039 chờ duyệt C02.
+
 ## Farm — 24/10/2026 — Cụm mở đầu Vườn nhỏ, bữa cơm nhà
 
 - Tạo bản cảnh hiện hành tại Farm/Vuon_nho_bua_com_nha/Danh_sach_canh.md trong repo Farm; phiên bản 0.1, trạng thái chờ người dùng duyệt.
