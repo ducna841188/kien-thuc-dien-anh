@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C08 gieo rau dền và vườn tới ngày thu hoạch
+
+- Cập nhật danh sách cảnh tại chỗ lên 0.8; C07 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C08/S159–S182 chờ duyệt trước C09.
+- C08: 24 cảnh, 84 giây, 09:12–10:36; tổng 182 cảnh, 636 giây. Máy cố định, sáu timelapse S159/S169/S171/S174/S177/S181, các cảnh khác tự nhiên; không nhạc/thoại.
+- Tiến từ sau ngày 70: khoảng ngày 75 san mịn luống, trộn hạt dền li ti với ít cát sạch để rải đều, phủ mỏng, tưới; sau nảy mầm tỉa chỗ chen sát. Dền ăn lá xanh có mảng đỏ tím, giữ nhất quán tới nấu.
+- Các cây phát triển theo thứ tự ngày: cà chua đậu quả xanh, dưa đậu quả non, cà chua chuyển đỏ; kiểm dền non và khoai già lá. Kết sáng khoảng ngày 105, cô mang giỏ sạch còn trống tới vườn, chưa thu hoạch.
+- Bổ sung B08 luống dền, D16 cào gỗ, D17 bộ hạt dền/cát sạch/đất phủ. Đối chiếu kỹ thuật và khoảng tuổi từ UF/IFAS và bài kỹ thuật CAAS; không lấy lịch Florida hoặc vùng khác làm lịch Côn Minh. Tháng/mùa địa phương chưa khóa; cần chọn nhóm giống phù hợp với các khoảng tuổi dựng.
+- Kiểm giữ nguyên 158 cảnh cũ, nối bảng và công thức, 182 mã liên tục, tổng 636 giây và bố cục ba trang Excel. Dừng S182 chờ duyệt; chưa viết C09 hoặc prompt.
+
 ## Farm — 24/10/2026 — C07 vun khoai, gieo dưa và chăm cà chua
 
 - Cập nhật danh sách cảnh tại chỗ lên 0.7; C06 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C07/S135–S158 chờ duyệt trước C08.
