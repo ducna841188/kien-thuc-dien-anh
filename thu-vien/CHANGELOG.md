@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C05 sang chậu và cho cà chua quen nắng
+
+- Cập nhật tại chỗ danh sách cảnh lên 0.5. C04 đã duyệt qua yêu cầu tiếp tục; chỉ thêm C05/S087–S110, chờ duyệt trước C06.
+- C05 gồm 24 cảnh, 84 giây, 05:00–06:24; tổng hiện hành 110 cảnh, 384 giây. Mọi máy cố định; S087/S103/S109 timelapse, các thao tác tự nhiên, âm môi trường và thao tác không nhạc/thoại.
+- Đi từ khoảng ngày 21 tới 44: cây thêm lá thật, nâng cùng bầu rễ và chuyển vào sáu chậu đất nung; tưới, đặt hồi cây dưới hiên rồi cho quen nắng dần khoảng hai tuần. Kết vẫn trong chậu, chưa trồng ra luống.
+- Mô tả đầy đủ cây đầu, lược các lần lặp và hoàn thành sáu cây. Khay gieo còn cây dự phòng; không tự biến mất. Bổ sung D09 sáu chậu, D10 khay mang có khe thoát nước, D11 thìa gỗ đỡ bầu.
+- Đối chiếu kỹ thuật nâng bầu/giữ lá và quen nắng từ UMN Extension; không dùng lịch Minnesota cho Côn Minh. Lịch đồng bộ bốn cây chưa khóa. Khoai phải kế thừa tuổi thời gian khi xuất hiện lại.
+- Giữ nguyên nội dung 86 cảnh cũ, nối công thức và bảng, kiểm 110 mã liên tục, tổng 384 giây và bố cục ba trang Excel. Chưa viết prompt hoặc C06. Dừng S110 chờ duyệt.
+
 ## Farm — 24/10/2026 — C04 chăm cây và mầm sống xuất hiện
 
 - Cập nhật tại chỗ danh sách cảnh lên 0.4; C03 đã duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C04/S063–S086 chờ duyệt.
