@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C06 trồng cà chua ra luống
+
+- Cập nhật tại chỗ danh sách cảnh lên 0.6; C05 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C06/S111–S134 chờ duyệt trước C07.
+- C06: 24 cảnh, 84 giây, 06:24–07:48; tổng hiện hành 134 cảnh, 468 giây. Tất cả máy cố định, tốc độ tự nhiên; phần lặp lược tại điểm cắt, không nhạc/thoại.
+- Chiều cùng ngày khoảng ngày 44: làm tơi luống hiện có, mở sáu hố, mang sáu chậu ra; dựng cọc trước đặt cây, tháo bầu nguyên, hạ cây, lấp đất; buộc dây mềm số tám lỏng và tưới chậm quanh bầu.
+- Kết sáu cây ở luống với sáu cọc, sáu chậu rỗng trên khay cô đang nhấc để thu gọn. Không hoa/quả hoặc hai loại rau chưa gieo. Hàng khoai hậu cảnh đã lớn đúng thời gian, khay cây dự phòng vẫn ở hiên.
+- Bổ sung B06 luống cà chua, D12 cọc/dây mềm và D13 vồ gỗ. Giữ số cây, cọc và chậu qua điểm cắt. Đối chiếu kỹ thuật từ UMN và Iowa State Extension; không dùng lịch nước ngoài cho Côn Minh, tháng/mùa toàn vườn chưa khóa.
+- Kiểm giữ nguyên nội dung 110 cảnh cũ, nối bảng và công thức, 134 mã liên tục, tổng 468 giây và bố cục Excel ba trang. Chưa viết prompt hoặc C07; dừng S134 chờ duyệt.
+
 ## Farm — 24/10/2026 — C05 sang chậu và cho cà chua quen nắng
 
 - Cập nhật tại chỗ danh sách cảnh lên 0.5. C04 đã duyệt qua yêu cầu tiếp tục; chỉ thêm C05/S087–S110, chờ duyệt trước C06.
