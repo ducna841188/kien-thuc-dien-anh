@@ -2,6 +2,14 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — Cụm mở đầu Vườn nhỏ, bữa cơm nhà
+
+- Tạo bản cảnh hiện hành tại Farm/Vuon_nho_bua_com_nha/Danh_sach_canh.md trong repo Farm; phiên bản 0.1, trạng thái chờ người dùng duyệt.
+- Chỉ biên soạn C01: S001–S015, tổng 51 giây, mỗi cảnh 3–4 giây. Mở thiên nhiên buổi sáng, cô gái mang dụng cụ ra vườn và làm tơi một đoạn luống.
+- Mỗi cảnh có góc, bố cục, trạng thái đầu–hành động–cuối, liên tục, âm thanh và nhu cầu tham chiếu. Xuất Excel ba trang cùng bản đọc Markdown.
+- Dùng các quyết định phỏng vấn mới của người dùng; không sửa bản định hướng chung hoặc phân tích video nguồn. Chưa khóa lịch mùa vụ, chưa tạo prompt, video hoặc các cụm tiếp theo.
+- Kiểm 15 mã liên tiếp, tổng thời lượng, công thức dòng thời gian và bố cục ba trang Excel. Dừng ở S015 chờ duyệt.
+
 ## Farm 1.4.0 — 18/10/2026 — Rà điểm cắt và học chức năng hình VID_02
 
 - VID_02 0.3.0 sửa tại chỗ: trích 350 frame liền kề n−1/n tại 175 ranh giới hiện hành, rà đủ 12 bảng và xác nhận đổi hình tại mỗi cặp. Giữ 176 cú là phân hoạch làm việc vì chưa loại hết cut có thể còn thiếu bên trong khoảng; chưa khai phát trọn chuyển động.
