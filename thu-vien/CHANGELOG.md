@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C07 vun khoai, gieo dưa và chăm cà chua
+
+- Cập nhật danh sách cảnh tại chỗ lên 0.7; C06 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C07/S135–S158 chờ duyệt trước C08.
+- C07: 24 cảnh, 84 giây, 07:48–09:12; tổng 158 cảnh, 552 giây. Máy cố định, ba timelapse S136/S150/S152, các cảnh còn lại tự nhiên; không nhạc/thoại.
+- Nối mang chậu rỗng về hiên ngày 44, sang khoảng ngày 50 vun khoai, làm giàn tre chữ A và gieo bốn vị trí dưa chuột. Ngày 58 cây nhú, tới khoảng ngày 70 dẫn ngọn đủ dài lên thanh thấp; thêm dây đỡ cà chua, bấm một chồi nách, giữ chùm hoa. Chó xuất hiện trên lối S158.
+- Bổ sung B07 luống dưa, D14 giàn tre, D15 gói hạt/dây mềm bổ sung, P04 chó. Giữ bốn cây dưa, sáu cà chua và cọc cũ; không cho tua cuốn hết ở tốc độ thật trong vài giây. Rau dền chưa gieo, chưa có nông sản thu hoạch.
+- Đối chiếu kỹ thuật từ UMN, Nebraska và Iowa State Extension; không áp dụng lịch nước ngoài cho Côn Minh. Giữ tuổi cây và trình tự ngày tuyến tính, tháng/mùa địa phương chưa khóa.
+- Kiểm giữ nguyên 134 cảnh cũ, nối bảng và công thức, 158 mã liên tục, tổng 552 giây, bố cục Excel ba trang. Dừng S158 chờ duyệt; chưa viết C08 hoặc prompt.
+
 ## Farm — 24/10/2026 — C06 trồng cà chua ra luống
 
 - Cập nhật tại chỗ danh sách cảnh lên 0.6; C05 đã duyệt qua yêu cầu tiếp tục. Chỉ thêm C06/S111–S134 chờ duyệt trước C07.
