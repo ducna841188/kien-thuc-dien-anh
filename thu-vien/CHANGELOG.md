@@ -2,6 +2,15 @@
 
 Đây là nhật ký duy nhất cho các cập nhật thư viện core–Farm. Nội dung làm việc luôn là bản hiện hành; Git giữ diff và toàn bộ bản trước. Các mục bên dưới là lịch sử, không phải hướng dẫn để chọn đọc bản cũ.
 
+## Farm — 24/10/2026 — C04 chăm cây và mầm sống xuất hiện
+
+- Cập nhật tại chỗ danh sách cảnh lên 0.4; C03 đã duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C04/S063–S086 chờ duyệt.
+- C04 gồm 24 cảnh, 84 giây, 03:36–05:00; tổng hiện hành 86 cảnh, 300 giây. Sáu cảnh timelapse chuyển ngày hoặc sinh trưởng; các cảnh người, chăm cây và tình cảm ở tốc độ tự nhiên. Mọi máy cố định, âm môi trường và thao tác, không nhạc/thoại.
+- Tiến thời gian tuyến tính từ ngày sau gieo tới khoảng ngày 21: kiểm ẩm, chăm khay, cà chua mở lá mầm; bà ra ngồi cùng, cô giữ ghế và hai người chạm tay, mỉm cười. Sau đó khoai nhú chồi, cô làm đất mặt/nhổ cỏ, mèo đi ngang lối; kết cà chua có lá thật đầu.
+- Bổ sung tham chiếu chức năng P02 bà, P03 mèo, D08 ghế. Giữ nhân vật từ tài nguyên người dùng khi sản xuất; chưa tạo ảnh/prompt.
+- Đối chiếu khoảng nảy mầm từ Nebraska Extension và Iowa State Extension; đây là kiểm nhịp sinh học, không áp dụng lịch nước ngoài cho Côn Minh. Chưa khóa tháng/mùa toàn vườn.
+- Giữ nội dung 62 cảnh cũ; nối bảng, công thức và trạng thái duyệt trong Excel ba trang. Kiểm 86 mã, tổng 300 giây, điểm cắt và bố cục. Dừng S086, chưa cấy cà chua, gieo dưa chuột/rau dền hoặc viết C05.
+
 ## Farm — 24/10/2026 — C03 hoàn tất tưới khoai và gieo ươm cà chua
 
 - Cập nhật tại chỗ bản danh sách cảnh lên 0.3. C02 được duyệt qua yêu cầu tiếp tục; chỉ bổ sung C03/S040–S062 chờ duyệt.
