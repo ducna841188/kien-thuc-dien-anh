@@ -1,5 +1,14 @@
 # Nhật ký thay đổi chung — FILM-KB và Farm
 
+## Farm — 24/10/2026 — Nhịp sống tự nhiên, bản cảnh 1.2
+
+- Thực hiện hai hướng sửa người dùng đã duyệt: gộp thao tác vụn thành nhịp làm việc tự nhiên và đan xen việc bếp trong những khoảng chờ; không chuyển sang prompt hoặc storyboard hình.
+- Rút đoạn lấy nước/tưới khoai từ 14 shot còn 7; gộp bày dụng cụ, gieo và sang chậu ở các điểm phù hợp. Phân lại 18 slot thao tác vụn sang các lượt chăm cây tiêu biểu trong những ngày đã có, ưu tiên cà chua; không thay khung câu chuyện/mùa vụ.
+- Chuẩn bị dưa/nước trộn trong lúc đun; vớt khoai để nguội trong lúc thái rau quả, chuẩn bị thịt/trứng rồi mới bóc. Trộn dưa trong khoảng sốt cà chua mềm ở lửa vừa, trở lại chảo ngay; xới cơm trước xào dền, món rau hoàn tất cuối.
+- Cập nhật mã theo thứ tự dựng hiện hành, bảng tổng quan 16 cụm, trạng thái đầu/cuối, công thức thời gian và tài nguyên/liên tục trong Excel và Markdown. Giữ ghi chú người dùng và phần dọn/ăn S315–S350. Các dòng sửa/đổi vị trí đánh dấu Chờ duyệt kết quả.
+- Kiểm 350 mã liên tục, từng shot 3–4 giây, tổng 1.200 giây; các phần 720/360/120 giây và 18 timelapse. Không có lỗi công thức; kiểm trực quan các vùng sửa của cả ba trang. Đã dừng ở shotlist.
+
+
 ## Farm — 24/10/2026 — Tổng hợp toàn bộ 350 shot
 
 - Cập nhật tại chỗ danh sách cảnh lên 1.1 theo xác nhận “Ok rồi đấy” và yêu cầu tổng hợp của người dùng; thống nhất trạng thái duyệt cho S001–S350.
